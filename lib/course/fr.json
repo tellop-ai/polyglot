@@ -1,0 +1,718 @@
+{
+  "format": 1,
+  "language": "fr",
+  "words": {
+    "hello": {"text":"salut","ex":"Salut, je suis Emre.","also":["bonjour"],"note":{"en":"A casual hello to friends. Bonjour is the hello for everyone, until the evening.","tr":"Arkadaşlara samimi bir merhaba. Bonjour ise akşama kadar herkese söylenen merhabadır."}},
+    "good-morning": {"text":"bonjour","ex":"Bonjour, le café est prêt.","note":{"en":"French has no separate 'good morning': bonjour works from morning until evening.","tr":"Fransızcada ayrı bir 'günaydın' yok: bonjour sabahtan akşama kadar kullanılır."}},
+    "good-evening": {"text":"bonsoir","ex":"Bonsoir, Mia et Tom!"},
+    "how-are-you": {"text":"comment ça va?","ex":"Comment ça va ce matin?","also":["ça va?","comment vas-tu?"],"note":{"en":"Informal, to one friend. To an adult you do not know: comment allez-vous?","tr":"Samimi, bir arkadaşa. Tanımadığın bir yetişkine: comment allez-vous?"}},
+    "i-am-fine": {"text":"je vais bien","ex":"Merci, je vais bien aujourd'hui.","also":["ça va bien"],"note":{"en":"The usual answer to 'comment ça va?'. Among friends, a short 'ça va' is enough.","tr":"'Comment ça va?' sorusunun olağan cevabı. Arkadaşlar arasında kısaca 'ça va' yeter."}},
+    "and-you": {"text":"et toi?","ex":"Je vais bien, et toi?","note":{"en":"To ask one friend back. To an adult you do not know, or to several people: et vous?","tr":"Bir arkadaşa geri sormak için. Tanımadığın bir yetişkine ya da birkaç kişiye: et vous?"}},
+    "goodbye": {"text":"au revoir","ex":"Au revoir, Ali, et merci!","note":{"en":"The general goodbye, fine for anyone. Close friends also say salut when they leave.","tr":"Herkese uygun genel veda. Yakın arkadaşlar ayrılırken salut da der."}},
+    "good-night": {"text":"bonne nuit","ex":"Bonne nuit, dors bien."},
+    "see-you-later": {"text":"à plus tard","ex":"J'ai un cours maintenant, à plus tard.","also":["à tout à l'heure","à plus"]},
+    "see-you-tomorrow": {"text":"à demain","ex":"À demain à l'école, Elif."},
+    "have-a-nice-day": {"text":"bonne journée","ex":"Merci beaucoup, bonne journée!"},
+    "take-care": {"text":"prends soin de toi","ex":"Prends soin de toi et à bientôt.","note":{"en":"Friendly, to one friend. To an adult you do not know: prenez soin de vous.","tr":"Samimi, bir arkadaşa. Tanımadığın bir yetişkine: prenez soin de vous."}},
+    "name": {"text":"le nom","ex":"Mon nom est Zeynep.","note":{"en":"To give your name, French people usually say: je m'appelle Zeynep.","tr":"Adını söylerken Fransızlar genelde şöyle der: je m'appelle Zeynep."}},
+    "where-are-you-from": {"text":"tu viens d'où?","ex":"Emma, tu viens d'où?","also":["d'où viens-tu?"],"note":{"en":"Informal, to one friend. To an adult you do not know: d'où venez-vous?","tr":"Samimi, bir arkadaşa. Tanımadığın bir yetişkine: d'où venez-vous?"}},
+    "nice-to-meet-you": {"text":"enchanté","ex":"Je suis Ali, enchanté.","also":["enchantée"],"note":{"en":"The fixed phrase when you meet someone. A woman writes enchantée; it sounds the same.","tr":"Biriyle ilk tanıştığında söylenen kalıp. Kadınlar enchantée yazar, okunuşu aynıdır."}},
+    "student": {"text":"l'étudiant","ex":"Deniz est étudiant à Istanbul.","note":{"en":"Masculine (un étudiant). A female student is l'étudiante. A school pupil is l'élève.","tr":"Eril (un étudiant). Kadın öğrenci: l'étudiante. Okuldaki öğrenci için l'élève denir."}},
+    "teacher": {"text":"le professeur","ex":"Mon professeur est très gentil.","also":["le prof"],"note":{"en":"For a woman: la professeure. Students often say le prof or la prof.","tr":"Kadın öğretmen için: la professeure. Öğrenciler kısaca le prof ya da la prof der."}},
+    "country": {"text":"le pays","ex":"Mon pays est très beau."},
+    "please": {"text":"s'il te plaît","ex":"Un verre d'eau, s'il te plaît.","also":["s'il vous plaît"],"note":{"en":"To one friend. In a shop, to an adult you do not know or to several people: s'il vous plaît.","tr":"Bir arkadaşa. Dükkânda, tanımadığın bir yetişkine ya da birkaç kişiye: s'il vous plaît."}},
+    "thank-you": {"text":"merci","ex":"Merci pour le thé."},
+    "youre-welcome": {"text":"de rien","ex":"De rien, pas de problème."},
+    "sorry": {"text":"désolé","ex":"Désolé, je suis en retard.","also":["désolée","pardon"],"note":{"en":"A woman writes désolée. For a small bump, or to get past someone, say pardon.","tr":"Kadınlar désolée yazar. Birine hafifçe çarpınca ya da yol isterken pardon dersin."}},
+    "yes": {"text":"oui","ex":"Oui, je suis étudiant."},
+    "no": {"text":"non","ex":"Non, je ne suis pas de Paris."},
+    "family": {"text":"la famille","ex":"Ma famille habite à Lisbonne."},
+    "mother": {"text":"la mère","ex":"Ma mère boit du thé tous les matins."},
+    "father": {"text":"le père","ex":"Mon père est médecin."},
+    "brother": {"text":"le frère","ex":"Mon frère a dix ans.","note":{"en":"Any brother, older or younger. To be exact: le grand frère (older), le petit frère (younger).","tr":"Büyük ya da küçük, her erkek kardeş. Ayırmak için: le grand frère (ağabey), le petit frère (küçük erkek kardeş)."}},
+    "sister": {"text":"la sœur","ex":"Sa sœur habite à Madrid.","also":["la soeur"],"note":{"en":"Any sister. To be exact: la grande sœur (older), la petite sœur (younger). Sa means his or her.","tr":"Her kız kardeş. Ayırmak için: la grande sœur (abla), la petite sœur (küçük kız kardeş). Sa: onun."}},
+    "baby": {"text":"le bébé","ex":"Le bébé est très petit."},
+    "grandmother": {"text":"la grand-mère","ex":"Ma grand-mère habite à Rome.","note":{"en":"On either side of the family. Children often call her mamie.","tr":"Annenin ya da babanın annesi, ikisi de. Çocuklar ona genelde mamie der."}},
+    "grandfather": {"text":"le grand-père","ex":"Mon grand-père lit le journal.","note":{"en":"On either side of the family. Children often call him papi.","tr":"Annenin ya da babanın babası, ikisi de. Çocuklar ona genelde papi der."}},
+    "son": {"text":"le fils","ex":"Leur fils est étudiant.","note":{"en":"Say the final s: 'fiss'. The l is silent.","tr":"Sondaki s okunur: 'fis'. l harfi okunmaz."}},
+    "daughter": {"text":"la fille","ex":"Ali a deux filles.","note":{"en":"La fille means both 'daughter' and 'girl'.","tr":"La fille hem 'kız evlat' hem de 'kız çocuk' demektir."}},
+    "dog": {"text":"le chien","ex":"Notre chien est grand et blanc."},
+    "cat": {"text":"le chat","ex":"Le chat dort sur le canapé."},
+    "friend": {"text":"l'ami","ex":"Tom est mon ami.","note":{"en":"Masculine (un ami). A female friend is l'amie; it sounds the same.","tr":"Eril (un ami). Kadın arkadaş için: l'amie, okunuşu aynıdır."}},
+    "neighbor": {"text":"le voisin","ex":"Notre voisin a un jardin.","note":{"en":"For a woman: la voisine.","tr":"Kadın komşu için: la voisine."}},
+    "kind": {"text":"gentil","ex":"Ta sœur est très gentille.","note":{"en":"Nice and caring to others. For a woman or a girl: gentille.","tr":"Başkalarına karşı iyi ve nazik. Kadın ya da kız için: gentille."}},
+    "funny": {"text":"drôle","ex":"Leo est très drôle."},
+    "happy": {"text":"heureux","ex":"Je suis très heureux aujourd'hui.","also":["content"],"note":{"en":"For a woman or a girl: heureuse.","tr":"Kadın ya da kız için: heureuse."}},
+    "together": {"text":"ensemble","ex":"Nous déjeunons ensemble."},
+    "man": {"text":"l'homme","ex":"Cet homme est mon professeur.","note":{"en":"Masculine (un homme). The h is silent. 'That man' is cet homme.","tr":"Eril (un homme). h okunmaz. 'O adam': cet homme."}},
+    "woman": {"text":"la femme","ex":"Cette femme est médecin.","note":{"en":"La femme also means 'wife'. Say it 'fam'.","tr":"La femme 'eş' anlamına da gelir. 'fam' diye okunur."}},
+    "child": {"text":"l'enfant","ex":"L'enfant a six ans.","note":{"en":"Masculine or feminine: un enfant for a boy, une enfant for a girl.","tr":"Eril ya da dişil: erkek çocuk için un enfant, kız çocuk için une enfant."}},
+    "young": {"text":"jeune","ex":"Notre nouveau professeur est jeune."},
+    "old": {"text":"âgé","ex":"Mon grand-père est âgé mais fort.","also":["vieux"],"note":{"en":"The polite word for an old person. Vieux (old) is also used, and works for things too.","tr":"Yaşlı biri için kibar kelime. Vieux (yaşlı, eski) de kullanılır, eşyalar için de olur."}},
+    "tall": {"text":"de grande taille","ex":"Sam est de très grande taille.","also":["grand"],"note":{"en":"In everyday French you just say grand: Sam est très grand. Grand also means 'big'.","tr":"Günlük Fransızcada sadece grand denir: Sam est très grand. Grand 'büyük' demektir de."}},
+    "one": {"text":"un","ex":"J'ai un frère.","also":["une"],"note":{"en":"With a feminine noun: une (une sœur). Un also means 'a'.","tr":"Dişil isimle: une (une sœur). Un aynı zamanda 'bir' anlamındaki artikeldir."}},
+    "two": {"text":"deux","ex":"Nous avons deux chats."},
+    "three": {"text":"trois","ex":"Mon fils a trois ans."},
+    "four": {"text":"quatre","ex":"Il y a quatre personnes dans ma famille."},
+    "five": {"text":"cinq","ex":"Je bois cinq verres d'eau par jour."},
+    "six": {"text":"six","ex":"Emma a six livres."},
+    "seven": {"text":"sept","ex":"Le magasin ouvre à sept heures."},
+    "eight": {"text":"huit","ex":"Le cours commence à huit heures."},
+    "nine": {"text":"neuf","ex":"Deniz a neuf ans."},
+    "ten": {"text":"dix","ex":"J'ai dix minutes."},
+    "eleven": {"text":"onze","ex":"Notre classe a onze élèves."},
+    "twelve": {"text":"douze","ex":"Leo a douze ans aujourd'hui."},
+    "zero": {"text":"zéro","ex":"Mon numéro de téléphone commence par zéro."},
+    "twenty": {"text":"vingt","ex":"Il y a vingt élèves dans ma classe."},
+    "thirty": {"text":"trente","ex":"Notre professeur a trente ans."},
+    "fifty": {"text":"cinquante","ex":"Ce livre a cinquante pages."},
+    "one-hundred": {"text":"cent","ex":"Ma grand-mère a presque cent ans."},
+    "number": {"text":"le numéro","ex":"Quel est ton numéro de téléphone?","note":{"en":"For a phone, room or house number. A number in maths is le nombre.","tr":"Telefon, oda ya da kapı numarası için. Matematikteki sayı ise le nombre."}},
+    "age": {"text":"l'âge","ex":"Écris ton nom et ton âge ici.","note":{"en":"Masculine (un âge, mon âge).","tr":"Eril (un âge, mon âge)."}},
+    "how-old-are-you": {"text":"tu as quel âge?","ex":"Elif, tu as quel âge?","also":["quel âge as-tu?"],"note":{"en":"Informal, to one friend. Word for word: 'you have what age?'. Polite: quel âge avez-vous?","tr":"Samimi, bir arkadaşa. Kelimesi kelimesine: 'hangi yaşa sahipsin?'. Kibar hâli: quel âge avez-vous?"}},
+    "how-many": {"text":"combien?","ex":"Tu as combien de frères?","note":{"en":"Before a noun, add de: combien de frères?","tr":"Bir isimden önce de eklenir: combien de frères?"}},
+    "year": {"text":"l'année","ex":"Cette année, j'ai dix-huit ans.","note":{"en":"Feminine (une année). For ages and for counting years, French uses an: dix-huit ans.","tr":"Dişil (une année). Yaş söylerken ve yılları sayarken an kullanılır: dix-huit ans."}},
+    "birthday": {"text":"l'anniversaire","ex":"Aujourd'hui, c'est mon anniversaire!","note":{"en":"Masculine (un anniversaire). Happy birthday: joyeux anniversaire!","tr":"Eril (un anniversaire). İyi ki doğdun: joyeux anniversaire!"}},
+    "month": {"text":"le mois","ex":"Mon anniversaire est le mois prochain."},
+    "breakfast": {"text":"le petit-déjeuner","ex":"Nous prenons le petit-déjeuner à sept heures.","also":["le petit déjeuner"]},
+    "bread": {"text":"le pain","ex":"Ce pain est frais."},
+    "cheese": {"text":"le fromage","ex":"Je mange du pain et du fromage."},
+    "egg": {"text":"l'œuf","ex":"Mia mange un œuf tous les matins.","also":["l'oeuf"],"note":{"en":"Masculine (un œuf). In the plural les œufs, the f is silent.","tr":"Eril (un œuf). Çoğulu les œufs'ta f okunmaz."}},
+    "honey": {"text":"le miel","ex":"Mon grand-père met du miel dans son thé."},
+    "eat": {"text":"manger","ex":"Nous mangeons à la maison."},
+    "water": {"text":"l'eau","ex":"Cette eau est très froide.","note":{"en":"Feminine (une eau, de l'eau).","tr":"Dişil (une eau, de l'eau)."}},
+    "tea": {"text":"le thé","ex":"Tu veux du thé?"},
+    "coffee": {"text":"le café","ex":"Mon père boit du café sans lait."},
+    "milk": {"text":"le lait","ex":"Le bébé boit du lait."},
+    "juice": {"text":"le jus de fruits","ex":"Zeynep boit du jus de fruits au petit-déjeuner.","also":["le jus","le jus de fruit"]},
+    "drink": {"text":"boire","ex":"Nous buvons du thé le soir.","note":{"en":"The verb. It changes a lot: je bois, tu bois, il boit, nous buvons.","tr":"Fiil. Çekimi çok değişir: je bois, tu bois, il boit, nous buvons."}},
+    "apple": {"text":"la pomme","ex":"Cette pomme est rouge."},
+    "banana": {"text":"la banane","ex":"J'ai une banane dans mon sac."},
+    "tomato": {"text":"la tomate","ex":"Les tomates viennent de notre jardin."},
+    "potato": {"text":"la pomme de terre","ex":"Nous mangeons des pommes de terre au dîner.","also":["la patate"]},
+    "fruit": {"text":"le fruit","ex":"Ali mange des fruits tous les jours.","note":{"en":"For fruit in general, French uses the plural: des fruits.","tr":"Genel olarak meyveden söz ederken çoğul kullanılır: des fruits."}},
+    "vegetable": {"text":"le légume","ex":"Ma mère achète des légumes frais."},
+    "lunch": {"text":"le déjeuner","ex":"Nous prenons le déjeuner à une heure.","note":{"en":"This is the word in France. In Belgium, Switzerland and Quebec, le déjeuner is breakfast.","tr":"Fransa'da böyledir. Belçika, İsviçre ve Quebec'te le déjeuner kahvaltı demektir."}},
+    "dinner": {"text":"le dîner","ex":"Le dîner est prêt!"},
+    "food": {"text":"la nourriture","ex":"Il y a de la nourriture dans la cuisine."},
+    "soup": {"text":"la soupe","ex":"Ma grand-mère fait de la soupe à la tomate."},
+    "hungry": {"text":"avoir faim","ex":"J'ai faim, on mange!","note":{"en":"French says 'to have hunger': j'ai faim (I am hungry).","tr":"Fransızca 'açlığa sahip olmak' der: j'ai faim (açım)."}},
+    "like": {"text":"aimer","ex":"J'aime le poisson mais pas le poulet.","note":{"en":"To like or enjoy something. With a person, aimer usually means 'to love'. To just like someone: aimer bien.","tr":"Bir şeyi sevmek, hoşlanmak. Bir insan için aimer genelde 'aşkla ya da derinden sevmek' demektir. Birinden hoşlanmak: aimer bien."}},
+    "house": {"text":"la maison","ex":"Leur maison est près de la mer."},
+    "room": {"text":"la chambre","ex":"Ma chambre a deux fenêtres.","also":["la pièce"],"note":{"en":"My room, a hotel room: la chambre (a room to sleep in). Any room of a house: la pièce.","tr":"Benim odam, otel odası: la chambre (uyunan oda). Evin herhangi bir odası: la pièce."}},
+    "kitchen": {"text":"la cuisine","ex":"Mon père prépare à manger dans la cuisine."},
+    "bedroom": {"text":"la chambre à coucher","ex":"La chambre à coucher est en haut.","note":{"en":"The full name. In everyday French you just say la chambre.","tr":"Tam adı. Günlük Fransızcada sadece la chambre denir."}},
+    "bathroom": {"text":"la salle de bains","ex":"La salle de bains est à côté de ma chambre.","also":["la salle de bain"]},
+    "garden": {"text":"le jardin","ex":"Les enfants jouent dans le jardin."},
+    "table": {"text":"la table","ex":"Les clés sont sur la table."},
+    "chair": {"text":"la chaise","ex":"Assieds-toi sur cette chaise."},
+    "bed": {"text":"le lit","ex":"Mon lit est très moelleux."},
+    "sofa": {"text":"le canapé","ex":"Le canapé est grand et bleu."},
+    "door": {"text":"la porte","ex":"Ferme la porte, s'il te plaît."},
+    "window": {"text":"la fenêtre","ex":"Ouvre la fenêtre, s'il te plaît."},
+    "lamp": {"text":"la lampe","ex":"La lampe est à côté de mon lit."},
+    "phone": {"text":"le téléphone","ex":"Ton téléphone est sur le canapé.","also":["le portable"]},
+    "book": {"text":"le livre","ex":"C'est un bon livre."},
+    "key": {"text":"la clé","ex":"J'ai la clé de la porte.","also":["la clef"]},
+    "fridge": {"text":"le frigo","ex":"Il y a du fromage dans le frigo.","also":["le réfrigérateur"]},
+    "computer": {"text":"l'ordinateur","ex":"Sam a un nouvel ordinateur.","note":{"en":"Masculine (un ordinateur). Before it, nouveau becomes nouvel.","tr":"Eril (un ordinateur). Önünde nouveau, nouvel olur."}},
+    "big": {"text":"grand","ex":"Leur jardin est très grand."},
+    "small": {"text":"petit","ex":"Nous avons une petite cuisine."},
+    "new": {"text":"nouveau","ex":"C'est ma nouvelle maison.","note":{"en":"Feminine: nouvelle. Before a masculine word that starts with a vowel: nouvel.","tr":"Dişil: nouvelle. Ünlüyle başlayan eril bir kelimeden önce: nouvel."}},
+    "clean": {"text":"propre","ex":"Ta chambre est propre?"},
+    "beautiful": {"text":"beau","ex":"Quel beau jardin!","note":{"en":"Feminine: belle. Before a masculine word that starts with a vowel: bel.","tr":"Dişil: belle. Ünlüyle başlayan eril bir kelimeden önce: bel."}},
+    "there-is": {"text":"il y a","ex":"Il y a un chat sur le lit.","note":{"en":"Il y a means both 'there is' and 'there are', for things, people and animals alike.","tr":"Il y a tekil ve çoğul için 'var' demektir: eşyalar, insanlar ve hayvanlar için aynıdır."}},
+    "morning": {"text":"le matin","ex":"Je bois du café le matin."},
+    "afternoon": {"text":"l'après-midi","ex":"Nous jouons au parc l'après-midi.","note":{"en":"Usually masculine (un après-midi). With no word for 'in', l'après-midi also means 'in the afternoon'.","tr":"Genelde eril (un après-midi). Önüne edat gerekmez: l'après-midi tek başına 'öğleden sonra' demektir."}},
+    "evening": {"text":"le soir","ex":"Ma famille mange ensemble le soir."},
+    "night": {"text":"la nuit","ex":"La ville est calme la nuit."},
+    "today": {"text":"aujourd'hui","ex":"Je suis très occupé aujourd'hui."},
+    "now": {"text":"maintenant","ex":"Mia n'est pas à la maison maintenant."},
+    "wake-up": {"text":"se réveiller","ex":"Je me réveille à sept heures.","note":{"en":"A 'self' verb: je me réveille, tu te réveilles, il se réveille.","tr":"Dönüşlü fiil: je me réveille, tu te réveilles, il se réveille."}},
+    "take-a-shower": {"text":"prendre une douche","ex":"Leo prend une douche tous les matins."},
+    "go": {"text":"aller","ex":"Nous allons à l'école en bus.","note":{"en":"It changes a lot: je vais, tu vas, il va, nous allons, ils vont.","tr":"Çekimi çok değişir: je vais, tu vas, il va, nous allons, ils vont."}},
+    "work": {"text":"travailler","ex":"Ma mère travaille dans un hôpital.","note":{"en":"The verb. A job, or the place where you work, is le travail.","tr":"Fiil. İş ya da çalışılan yer ise le travail."}},
+    "school": {"text":"l'école","ex":"L'école est près de ma maison.","note":{"en":"Feminine (une école).","tr":"Dişil (une école)."}},
+    "sleep": {"text":"dormir","ex":"Les bébés dorment beaucoup."},
+    "monday": {"text":"lundi","ex":"L'école commence lundi.","note":{"en":"Days take no capital letter in French. 'On Mondays' (every week) is le lundi.","tr":"Fransızcada gün adları küçük harfle yazılır. 'Her pazartesi' için le lundi denir."}},
+    "tuesday": {"text":"mardi","ex":"J'ai un cours de musique mardi."},
+    "wednesday": {"text":"mercredi","ex":"Le mercredi est une journée chargée."},
+    "thursday": {"text":"jeudi","ex":"On se voit jeudi."},
+    "friday": {"text":"vendredi","ex":"Le vendredi est mon jour préféré."},
+    "week": {"text":"la semaine","ex":"Je travaille cinq jours par semaine."},
+    "saturday": {"text":"samedi","ex":"Le samedi, nous rendons visite à notre grand-mère."},
+    "sunday": {"text":"dimanche","ex":"Les magasins sont fermés le dimanche."},
+    "weekend": {"text":"le week-end","ex":"Qu'est-ce que tu fais le week-end?","also":["le weekend"]},
+    "read": {"text":"lire","ex":"Zeynep lit un livre tous les soirs."},
+    "watch": {"text":"regarder","ex":"Le samedi, nous regardons un film.","note":{"en":"To watch TV or a film. It also means 'to look at'.","tr":"Televizyon ya da film izlemek. 'Bakmak' anlamına da gelir."}},
+    "play": {"text":"jouer","ex":"Ali et Leo jouent au tennis.","note":{"en":"For games and sports: jouer au (jouer au tennis). For music: jouer du (jouer du piano).","tr":"Oyun ve spor için: jouer au (jouer au tennis). Çalgı için: jouer du (jouer du piano)."}},
+    "city": {"text":"la ville","ex":"Istanbul est une très grande ville."},
+    "street": {"text":"la rue","ex":"Mon école est dans cette rue."},
+    "park": {"text":"le parc","ex":"Le dimanche, nous nous promenons dans le parc.","note":{"en":"The noun: a public garden in a town. Note the spelling with c.","tr":"İsim: şehirdeki halka açık bahçe. c ile yazıldığına dikkat et."}},
+    "hospital": {"text":"l'hôpital","ex":"L'hôpital est près de la gare.","note":{"en":"Masculine (un hôpital).","tr":"Eril (un hôpital)."}},
+    "museum": {"text":"le musée","ex":"Le musée est fermé le lundi.","note":{"en":"Masculine, even though it ends in -ée.","tr":"Sonu -ée ile bitse de eril bir kelimedir."}},
+    "bank": {"text":"la banque","ex":"La banque ouvre à neuf heures."},
+    "supermarket": {"text":"le supermarché","ex":"J'achète du lait au supermarché."},
+    "pharmacy": {"text":"la pharmacie","ex":"La pharmacie est ouverte toute la nuit."},
+    "restaurant": {"text":"le restaurant","ex":"Ce restaurant fait une bonne soupe."},
+    "library": {"text":"la bibliothèque","ex":"Elif étudie à la bibliothèque.","note":{"en":"A place to borrow books. A shop that sells books is la librairie.","tr":"Kitap ödünç alınan yer. Kitap satan dükkân ise la librairie."}},
+    "bakery": {"text":"la boulangerie","ex":"La boulangerie vend du pain frais."},
+    "cafe": {"text":"le café","ex":"Nous buvons du café au café.","note":{"en":"Le café is both the place and the drink.","tr":"Le café hem mekânın hem de içeceğin adıdır."}},
+    "left": {"text":"à gauche","ex":"Tourne à gauche à la banque."},
+    "right": {"text":"à droite","ex":"Le musée est à ta droite.","note":{"en":"The direction. 'You are right' is tu as raison.","tr":"Yön olarak sağ. 'Haklısın' ise tu as raison."}},
+    "straight-ahead": {"text":"tout droit","ex":"Va tout droit pendant cinq minutes.","note":{"en":"Do not mix it up with à droite (to the right).","tr":"À droite (sağa) ile karıştırma."}},
+    "turn": {"text":"tourner","ex":"Tourne à droite après le parc.","note":{"en":"To change direction: tourne à gauche (turn left).","tr":"Yön değiştirmek: tourne à gauche (sola dön)."}},
+    "corner": {"text":"le coin","ex":"Il y a une boulangerie au coin."},
+    "where": {"text":"où","ex":"Excusez-moi, où est la banque?","note":{"en":"Always with the accent: ou without it means 'or'. Excusez-moi is the polite 'excuse me'.","tr":"Her zaman aksanlı yazılır, aksansız ou 'veya' demektir. Excusez-moi kibar 'affedersiniz'dir."}},
+    "near": {"text":"près de","ex":"Ma maison est près du parc.","note":{"en":"De and le join: près du parc. With la nothing joins: près de la gare.","tr":"De ile le birleşir: près du parc. La ile birleşmez: près de la gare."}},
+    "far": {"text":"loin","ex":"La plage est loin d'ici?"},
+    "in-front-of": {"text":"devant","ex":"Retrouve-moi devant la bibliothèque."},
+    "behind": {"text":"derrière","ex":"Le jardin est derrière la maison."},
+    "between": {"text":"entre","ex":"La banque est entre le café et la boulangerie."},
+    "map": {"text":"le plan","ex":"Tu as un plan de la ville?","also":["la carte"],"note":{"en":"A town map is le plan. A map of a country or a region is la carte.","tr":"Şehir haritası le plan'dır. Ülke ya da bölge haritası ise la carte."}},
+    "shirt": {"text":"la chemise","ex":"Ali porte une chemise blanche au travail."},
+    "pants": {"text":"le pantalon","ex":"Ce pantalon est trop long.","note":{"en":"One pair of pants is singular in French: le pantalon.","tr":"Fransızcada tek bir pantolon tekil söylenir: le pantalon."}},
+    "dress": {"text":"la robe","ex":"Anna porte une robe longue."},
+    "shoes": {"text":"les chaussures","ex":"Mes chaussures sont sous le lit.","note":{"en":"Feminine. One shoe is la chaussure.","tr":"Dişil. Tek ayakkabı: la chaussure."}},
+    "jacket": {"text":"la veste","ex":"Prends ta veste, il fait froid.","also":["le blouson"]},
+    "wear": {"text":"porter","ex":"Je porte une veste en hiver.","note":{"en":"One verb for all clothes. Porter also means 'to carry'.","tr":"Bütün giysiler için tek fiil. Porter 'taşımak' anlamına da gelir."}},
+    "red": {"text":"rouge","ex":"Je veux la chemise rouge."},
+    "blue": {"text":"bleu","ex":"Emma a les yeux bleus."},
+    "green": {"text":"vert","ex":"J'aime les pommes vertes."},
+    "yellow": {"text":"jaune","ex":"Ma sœur aime les fleurs jaunes."},
+    "black": {"text":"noir","ex":"Tom a un chien noir."},
+    "white": {"text":"blanc","ex":"Les murs de ma chambre sont blancs.","note":{"en":"Feminine: blanche (une chemise blanche).","tr":"Dişil: blanche (une chemise blanche)."}},
+    "price": {"text":"le prix","ex":"Quel est le prix de ce sac?"},
+    "how-much-is-it": {"text":"c'est combien?","ex":"Ce t-shirt est joli. C'est combien?","also":["ça coûte combien?","combien ça coûte?"]},
+    "cheap": {"text":"bon marché","ex":"Ces chaussures sont bon marché.","also":["pas cher"],"note":{"en":"It never changes form. In everyday speech you also hear pas cher (not expensive).","tr":"Hiç değişmez. Günlük konuşmada pas cher (pahalı değil) de denir."}},
+    "expensive": {"text":"cher","ex":"Cette veste est trop chère.","note":{"en":"Feminine: chère.","tr":"Dişil: chère."}},
+    "pay": {"text":"payer","ex":"Je peux payer par carte?"},
+    "money": {"text":"l'argent","ex":"Je n'ai pas beaucoup d'argent.","note":{"en":"Masculine (de l'argent). It also means 'silver'.","tr":"Eril (de l'argent). 'Gümüş' anlamına da gelir."}},
+    "shop": {"text":"le magasin","ex":"Le magasin ferme à huit heures."},
+    "buy": {"text":"acheter","ex":"Je veux acheter un nouveau sac."},
+    "sell": {"text":"vendre","ex":"Ici, ils vendent des chaussures et des sacs."},
+    "size": {"text":"la taille","ex":"Vous avez ça dans une taille plus grande?","note":{"en":"For clothes: la taille. For shoes: la pointure.","tr":"Giysiler için: la taille. Ayakkabılar için: la pointure."}},
+    "try-on": {"text":"essayer","ex":"Je peux essayer cette robe?","note":{"en":"To put on clothes in a shop to see if they fit. It also means 'to try'.","tr":"Mağazada bir giysinin sana uyup uymadığını görmek için onu giymek. Genel olarak 'denemek' de demektir."}},
+    "bag": {"text":"le sac","ex":"Pose ton sac sur la chaise."},
+    "weather": {"text":"le temps","ex":"Quel beau temps aujourd'hui!","note":{"en":"Le temps also means 'time'. For the weather, French often says il fait: il fait beau (it is nice).","tr":"Le temps 'zaman' anlamına da gelir. Hava için çoğu zaman il fait denir: il fait beau (hava güzel)."}},
+    "sun": {"text":"le soleil","ex":"Le soleil brille à Madrid."},
+    "rain": {"text":"la pluie","ex":"Il y a beaucoup de pluie à Londres."},
+    "snow": {"text":"la neige","ex":"Les enfants jouent dans la neige."},
+    "wind": {"text":"le vent","ex":"Le vent est très froid aujourd'hui."},
+    "cloud": {"text":"le nuage","ex":"Il n'y a pas de nuages dans le ciel."},
+    "hot": {"text":"chaud","ex":"Il fait très chaud en été.","note":{"en":"For the weather: il fait chaud. When you feel hot: j'ai chaud.","tr":"Hava için: il fait chaud. Sen sıcaklık hissedince: j'ai chaud."}},
+    "cold": {"text":"froid","ex":"Il fait froid dehors aujourd'hui.","note":{"en":"For the weather: il fait froid. When you feel cold: j'ai froid.","tr":"Hava için: il fait froid. Sen üşüyünce: j'ai froid."}},
+    "sky": {"text":"le ciel","ex":"Le ciel est gris aujourd'hui."},
+    "umbrella": {"text":"le parapluie","ex":"Prends un parapluie, il pleut."},
+    "wet": {"text":"mouillé","ex":"Mes cheveux sont mouillés à cause de la pluie."},
+    "degree": {"text":"le degré","ex":"Il fait trente degrés aujourd'hui."},
+    "season": {"text":"la saison","ex":"Le printemps est ma saison préférée."},
+    "spring": {"text":"le printemps","ex":"Les fleurs s'ouvrent au printemps.","note":{"en":"The season. 'In spring' is au printemps; the other seasons take en (en été).","tr":"Mevsim. 'İlkbaharda': au printemps. Diğer mevsimler en alır (en été)."}},
+    "summer": {"text":"l'été","ex":"Nous allons à la plage en été.","note":{"en":"Masculine (un été). 'In summer' is en été.","tr":"Eril (un été). 'Yazın': en été."}},
+    "fall": {"text":"l'automne","ex":"Les feuilles sont jaunes en automne.","note":{"en":"The season, masculine (un automne). 'In the fall' is en automne. The m is silent.","tr":"Mevsim, eril (un automne). 'Sonbaharda': en automne. m okunmaz."}},
+    "winter": {"text":"l'hiver","ex":"Les hivers sont froids à Séoul.","note":{"en":"Masculine (un hiver). 'In winter' is en hiver.","tr":"Eril (un hiver). 'Kışın': en hiver."}},
+    "flower": {"text":"la fleur","ex":"Ma mère adore les fleurs."},
+    "outside": {"text":"dehors","ex":"Mangeons dehors aujourd'hui."},
+    "inside": {"text":"à l'intérieur","ex":"Il pleut, alors nous restons à l'intérieur.","also":["dedans"]},
+    "beach": {"text":"la plage","ex":"Elif lit sur la plage."},
+    "swim": {"text":"nager","ex":"Ali nage dans la mer."},
+    "walk": {"text":"se promener","ex":"Anna et moi, nous nous promenons au bord de la mer.","also":["marcher"],"note":{"en":"To walk for pleasure. Marcher is to walk as a way of moving.","tr":"Keyif için yürümek, gezinmek. Marcher ise hareket olarak yürümektir."}},
+    "stay": {"text":"rester","ex":"Je reste à la maison aujourd'hui.","note":{"en":"To stay in a place (rester à la maison). Not 'to rest': that is se reposer.","tr":"Bir yerde kalmak (rester à la maison). 'Dinlenmek' değildir, o se reposer."}},
+    "bus": {"text":"le bus","ex":"Le bus était plein ce matin.","also":["l'autobus"]},
+    "train": {"text":"le train","ex":"Le train pour Madrid était rapide."},
+    "car": {"text":"la voiture","ex":"Ma première voiture était rouge."},
+    "bike": {"text":"le vélo","ex":"Je vais au travail à vélo."},
+    "taxi": {"text":"le taxi","ex":"Le taxi était très cher."},
+    "plane": {"text":"l'avion","ex":"Nous avons passé douze heures dans l'avion.","note":{"en":"Masculine (un avion).","tr":"Eril (un avion)."}},
+    "ticket": {"text":"le billet","ex":"C'est ton billet de train?","also":["le ticket"]},
+    "station": {"text":"la gare","ex":"La gare était pleine de monde.","note":{"en":"A train station. A metro station is la station.","tr":"Tren istasyonu. Metro istasyonu ise la station."}},
+    "airport": {"text":"l'aéroport","ex":"L'aéroport était loin de la ville.","note":{"en":"Masculine (un aéroport).","tr":"Eril (un aéroport)."}},
+    "passport": {"text":"le passeport","ex":"Ton passeport était sur la table."},
+    "early": {"text":"tôt","ex":"Je me réveille tôt le lundi."},
+    "late": {"text":"en retard","ex":"Désolé, j'étais en retard aujourd'hui.","also":["tard"],"note":{"en":"Late for a time you agreed on: en retard. Late in the day: tard.","tr":"Belirlenen saate geç kalmak: en retard. Günün geç saati: tard."}},
+    "hotel": {"text":"l'hôtel","ex":"Notre hôtel était près de la mer.","note":{"en":"Masculine (un hôtel). The h is silent.","tr":"Eril (un hôtel). h okunmaz."}},
+    "suitcase": {"text":"la valise","ex":"Ma valise était très lourde."},
+    "floor": {"text":"l'étage","ex":"Notre chambre était au cinquième étage.","note":{"en":"Masculine (un étage): a level of a building. The floor you walk on is le sol.","tr":"Eril (un étage): binanın katı. Üstünde yürünen zemin ise le sol."}},
+    "view": {"text":"la vue","ex":"La vue de la fenêtre était belle."},
+    "comfortable": {"text":"confortable","ex":"Les lits étaient très confortables."},
+    "quiet": {"text":"calme","ex":"L'hôtel était propre et calme.","also":["tranquille"]},
+    "vacation": {"text":"les vacances","ex":"Nos vacances étaient trop courtes.","note":{"en":"Always plural and feminine: les vacances, en vacances (on vacation).","tr":"Her zaman çoğul ve dişil: les vacances, en vacances (tatilde)."}},
+    "sea": {"text":"la mer","ex":"La mer était chaude et bleue."},
+    "mountain": {"text":"la montagne","ex":"Les montagnes étaient blanches de neige."},
+    "photo": {"text":"la photo","ex":"Cette photo a été prise à Tokyo."},
+    "visit": {"text":"visiter","ex":"Les touristes visitent le musée tous les jours.","note":{"en":"For places. To visit a person: rendre visite à (rendre visite à sa grand-mère).","tr":"Yerler için. Bir kişiyi ziyaret etmek: rendre visite à (rendre visite à sa grand-mère)."}},
+    "wonderful": {"text":"merveilleux","ex":"C'était une journée merveilleuse à la plage."},
+    "yesterday": {"text":"hier","ex":"J'ai vu Elif hier."},
+    "last-night": {"text":"hier soir","ex":"Hier soir, nous avons regardé un film."},
+    "last-week": {"text":"la semaine dernière","ex":"La semaine dernière, Tom a visité Paris."},
+    "last-year": {"text":"l'année dernière","ex":"Nous avons déménagé à Berlin l'année dernière.","note":{"en":"Année is feminine, so dernière ends in -ère.","tr":"Année dişildir, bu yüzden dernière -ère ile biter."}},
+    "ago": {"text":"il y a","ex":"J'ai commencé ce travail il y a deux ans.","note":{"en":"Put it before the time: il y a deux jours (two days ago). The same words also mean 'there is'.","tr":"Süreden önce gelir: il y a deux jours (iki gün önce). Aynı kelimeler 'var' anlamına da gelir."}},
+    "then": {"text":"ensuite","ex":"Nous avons déjeuné, ensuite nous avons marché.","also":["puis"],"note":{"en":"After that, next in time. Puis means the same.","tr":"Ondan sonra, sırada. Puis de aynı anlama gelir."}},
+    "meet": {"text":"retrouver","ex":"J'ai retrouvé Zeynep au café.","note":{"en":"To meet up with someone you know, by plan. To meet someone for the first time: rencontrer.","tr":"Tanıdığın biriyle sözleşip buluşmak. Biriyle ilk kez tanışmak: rencontrer."}},
+    "see": {"text":"voir","ex":"J'ai vu ton frère au parc."},
+    "dance": {"text":"danser","ex":"Nous avons dansé toute la nuit."},
+    "sing": {"text":"chanter","ex":"Mia a chanté une chanson pour nous."},
+    "party": {"text":"la fête","ex":"La fête était chez Leo.","also":["la soirée"],"note":{"en":"A party with friends; a birthday party is une fête d'anniversaire. Chez Leo means at Leo's house.","tr":"Arkadaşlarla parti. Doğum günü partisi: une fête d'anniversaire. Chez Leo: Leo'nun evinde."}},
+    "have-fun": {"text":"s'amuser","ex":"Les enfants se sont beaucoup amusés."},
+    "cook": {"text":"cuisiner","ex":"Mon père a cuisiné du poisson pour nous.","note":{"en":"The verb: to make food. You also hear faire la cuisine.","tr":"Fiil: yemek yapmak. Faire la cuisine de denir."}},
+    "wash": {"text":"laver","ex":"J'ai lavé ma voiture dimanche."},
+    "call": {"text":"appeler","ex":"J'ai appelé ma grand-mère hier soir.","note":{"en":"To phone someone. Téléphoner à means the same.","tr":"Birini telefonla aramak. Téléphoner à da aynı anlamdadır."}},
+    "write": {"text":"écrire","ex":"Anna a écrit un long e-mail."},
+    "listen": {"text":"écouter","ex":"Nous avons écouté de la musique toute la journée.","note":{"en":"No word for 'to' after it: écouter de la musique (listen to music).","tr":"Arkasından edat gelmez: écouter de la musique (müzik dinlemek)."}},
+    "music": {"text":"la musique","ex":"J'aime la musique calme."},
+    "tired": {"text":"fatigué","ex":"J'étais très fatigué après le travail."},
+    "forget": {"text":"oublier","ex":"J'ai oublié mon parapluie à la maison."},
+    "lose": {"text":"perdre","ex":"Sam a perdu ses clés hier."},
+    "find": {"text":"trouver","ex":"J'ai trouvé mon téléphone sous le lit."},
+    "finish": {"text":"finir","ex":"Nous avons fini nos devoirs à neuf heures.","also":["terminer"]},
+    "start": {"text":"commencer","ex":"Le film a commencé à huit heures."},
+    "tomorrow": {"text":"demain","ex":"Demain, je vais rendre visite à ma grand-mère."},
+    "tonight": {"text":"ce soir","ex":"Ce soir, nous allons regarder un film."},
+    "next-week": {"text":"la semaine prochaine","ex":"La semaine prochaine, je vais commencer un nouveau travail."},
+    "next-year": {"text":"l'année prochaine","ex":"L'année prochaine, nous allons déménager à Séoul.","note":{"en":"Année is feminine, so prochaine ends in -e.","tr":"Année dişildir, bu yüzden prochaine -e ile biter."}},
+    "soon": {"text":"bientôt","ex":"Ma sœur va bientôt nous rendre visite."},
+    "plan": {"text":"le projet","ex":"Quels sont tes projets pour samedi?","note":{"en":"Something you are going to do. In casual speech you also hear le plan.","tr":"Yapacağın bir şey. Günlük konuşmada le plan da denir."}},
+    "invite": {"text":"inviter","ex":"J'aimerais t'inviter à dîner."},
+    "would-you-like": {"text":"tu voudrais...?","ex":"Tu voudrais un peu de thé?","also":["tu veux...?"],"note":{"en":"A polite offer to one friend. More casual: tu veux...? To an adult you do not know: vous voudriez...?","tr":"Bir arkadaşa kibar teklif. Daha samimi: tu veux...? Tanımadığın bir yetişkine: vous voudriez...?"}},
+    "come": {"text":"venir","ex":"Tu voudrais venir à ma fête?"},
+    "free": {"text":"libre","ex":"Tu es libre vendredi soir?","note":{"en":"Not busy, with time for something. 'Costs nothing' is gratuit.","tr":"Meşgul değil, vakti olan. 'Ücretsiz' ise gratuit."}},
+    "busy": {"text":"occupé","ex":"Désolé, je suis occupé demain."},
+    "concert": {"text":"le concert","ex":"Il y a un concert dans le parc ce soir."},
+    "of-course": {"text":"bien sûr","ex":"Bien sûr que je vais venir!"},
+    "good-idea": {"text":"bonne idée","ex":"Un pique-nique dimanche? Bonne idée!"},
+    "maybe": {"text":"peut-être","ex":"Je vais peut-être venir plus tard."},
+    "unfortunately": {"text":"malheureusement","ex":"Malheureusement, le magasin est fermé aujourd'hui."},
+    "another-time": {"text":"une autre fois","ex":"Désolé, je ne peux pas venir. Une autre fois, peut-être?"},
+    "i-would-love-to": {"text":"avec plaisir","ex":"Dîner samedi? Avec plaisir!","also":["volontiers"],"note":{"en":"A warm yes to an invitation, word for word 'with pleasure'. Volontiers means the same.","tr":"Bir davete sıcak bir evet, kelimesi kelimesine 'zevkle'. Volontiers de aynı anlamdadır."}},
+    "learn": {"text":"apprendre","ex":"J'aimerais apprendre à cuisiner."},
+    "travel": {"text":"voyager","ex":"Emma va voyager à Tokyo."},
+    "rest": {"text":"se reposer","ex":"Ce week-end, je vais me reposer.","note":{"en":"The verb: to relax and not work. Do not mix it up with rester (to stay).","tr":"Fiil: dinlenmek, çalışmamak. Rester (kalmak) ile karıştırma."}},
+    "celebrate": {"text":"fêter","ex":"Nous allons fêter son anniversaire.","also":["célébrer"]},
+    "bring": {"text":"apporter","ex":"Je vais apporter un gâteau."},
+    "ready": {"text":"prêt","ex":"Tu es prêt pour le voyage?"}
+  },
+  "sentences": {
+    "u01-1-a": {"tokens":["Bonjour,","Zeynep","et","Ali!"],"gap":0,"wrong":["Bonsoir","Merci","Pardon"]},
+    "u01-1-b": {"tokens":["Salut","Sam,","comment","ça","va?"],"gap":2,"wrong":["quand","qui","combien"]},
+    "u01-2-a": {"tokens":["Bonne","nuit,","Mia","et","Leo."],"gap":1,"wrong":["chaise","porte","table"]},
+    "u01-2-b": {"tokens":["À","demain,","Tom."],"gap":1,"wrong":["hier","maintenant","déjà"]},
+    "u01-3-a": {"tokens":["Enchanté,","Tom."],"gap":0,"wrong":["Rouge","Petit","Froid"]},
+    "u01-3-b": {"tokens":["Anna","est","une","professeure","de","Berlin."],"gap":3,"wrong":["pomme","fenêtre","soupe"]},
+    "u01-4-a": {"tokens":["Deux","thés,","s'il","vous","plaît."],"gap":0,"wrong":["Trois","Six","Dix"]},
+    "u01-4-b": {"tokens":["Merci","beaucoup,","Emre."],"gap":0,"wrong":["Pardon","Bonjour","Salut"]},
+    "u02-1-a": {"tokens":["Ma","mère","et","mon","père","sont","professeurs."],"gap":1,"wrong":["frère","père","fils"]},
+    "u02-1-b": {"tokens":["Zeynep","a","un","frère."],"gap":3,"wrong":["sœur","mère","fille"]},
+    "u02-2-a": {"tokens":["Ma","grand-mère","habite","avec","nous."],"gap":1,"wrong":["frère","chien","père"]},
+    "u02-2-b": {"tokens":["Mia","a","un","chat","noir."],"gap":3,"wrong":["famille","mère","sœur"]},
+    "u02-3-a": {"tokens":["Emma","est","ma","nouvelle","voisine."],"gap":4,"wrong":["chien","frère","père"]},
+    "u02-3-b": {"tokens":["Mes","amis","sont","très","drôles."],"gap":4,"wrong":["jeunes","petits","tristes"]},
+    "u02-4-a": {"tokens":["Cet","homme","est","très","grand."],"gap":1,"wrong":["femme","fille","sœur"]},
+    "u02-4-b": {"tokens":["La","femme","est","jeune","et","heureuse."],"gap":1,"wrong":["homme","père","frère"]},
+    "u03-1-a": {"tokens":["J'ai","deux","sœurs."],"gap":1,"wrong":["trois","quatre","cinq"]},
+    "u03-1-b": {"tokens":["Quatre","plus","deux","font","six."],"gap":4,"wrong":["cinq","trois","quatre"]},
+    "u03-2-a": {"tokens":["Ma","sœur","a","huit","ans."],"gap":3,"wrong":["sept","neuf","dix"]},
+    "u03-2-b": {"tokens":["Il","y","a","sept","jours","dans","une","semaine."],"gap":3,"wrong":["huit","six","dix"]},
+    "u03-3-a": {"tokens":["Vingt","plus","trente","font","cinquante."],"gap":4,"wrong":["vingt","trente","cent"]},
+    "u03-3-b": {"tokens":["Mon","numéro","de","chambre","est","le","douze."],"gap":1,"wrong":["frère","chat","pays"]},
+    "u03-4-a": {"tokens":["J'ai","douze","ans."],"gap":1,"wrong":["onze","dix","neuf"]},
+    "u03-4-b": {"tokens":["Tu","as","combien","de","chats?"],"gap":2,"wrong":["comment","où","quand"]},
+    "u04-1-a": {"tokens":["Je","mange","du","pain","au","petit-déjeuner."],"gap":1,"wrong":["bois","dors","lis"]},
+    "u04-1-b": {"tokens":["Tom","mange","deux","œufs."],"gap":3,"wrong":["chats","chiens","frères"]},
+    "u04-2-a": {"tokens":["Emre","boit","du","café","tous","les","matins."],"gap":1,"wrong":["dort","lit","va"]},
+    "u04-2-b": {"tokens":["Le","jus","est","très","froid."],"gap":1,"wrong":["mère","pomme","fille"]},
+    "u04-3-a": {"tokens":["Les","bananes","sont","jaunes","et","sucrées."],"gap":1,"wrong":["chiens","pains","frères"]},
+    "u04-3-b": {"tokens":["Nous","avons","besoin","de","trois","pommes","de","terre."],"gap":4,"wrong":["quatre","cinq","huit"]},
+    "u04-4-a": {"tokens":["Le","dîner","est","à","huit","heures."],"gap":1,"wrong":["soupe","famille","pomme"]},
+    "u04-4-b": {"tokens":["Deniz","aime","beaucoup","la","soupe."],"gap":1,"wrong":["dort","part","vient"]},
+    "u05-1-a": {"tokens":["Notre","maison","a","trois","pièces."],"gap":1,"wrong":["pomme","soupe","banane"]},
+    "u05-1-b": {"tokens":["Emma","est","dans","le","jardin","maintenant."],"gap":4,"wrong":["cuisine","maison","chambre"]},
+    "u05-2-a": {"tokens":["Il","y","a","une","chaise","à","côté","de","la","fenêtre."],"gap":4,"wrong":["lit","canapé","jardin"]},
+    "u05-2-b": {"tokens":["Mon","lit","est","à","côté","de","la","porte."],"gap":1,"wrong":["table","chaise","fenêtre"]},
+    "u05-3-a": {"tokens":["Le","livre","est","sur","le","lit."],"gap":1,"wrong":["clé","lampe","table"]},
+    "u05-3-b": {"tokens":["Où","sont","les","clés,","Tom?"],"gap":3,"wrong":["portes","lampes","tables"]},
+    "u05-4-a": {"tokens":["Notre","nouvelle","maison","est","très","grande."],"gap":5,"wrong":["petite","vieille","froide"]},
+    "u05-4-b": {"tokens":["Il","y","a","un","petit","jardin."],"gap":4,"wrong":["grand","beau","nouveau"]},
+    "u06-1-a": {"tokens":["Je","lis","des","livres","la","nuit."],"gap":5,"wrong":["soir","matin","jour"]},
+    "u06-1-b": {"tokens":["Ali","travaille","l'après-midi."],"gap":1,"wrong":["dort","mange","joue"]},
+    "u06-2-a": {"tokens":["Emma","se","réveille","à","six","heures."],"gap":2,"wrong":["lave","couche","promène"]},
+    "u06-2-b": {"tokens":["Deniz","va","à","l'école","tous","les","jours."],"gap":1,"wrong":["dort","mange","lit"]},
+    "u06-3-a": {"tokens":["Tom","travaille","du","lundi","au","vendredi."],"gap":3,"wrong":["mardi","mercredi","jeudi"]},
+    "u06-3-b": {"tokens":["Notre","cours","est","le","mercredi."],"gap":4,"wrong":["lundi","mardi","jeudi"]},
+    "u06-4-a": {"tokens":["Mia","joue","avec","son","chien","le","dimanche."],"gap":1,"wrong":["lit","boit","dort"]},
+    "u06-4-b": {"tokens":["Elif","lit","dans","le","jardin."],"gap":1,"wrong":["boit","joue","dort"]},
+    "u07-1-a": {"tokens":["Rome","a","beaucoup","de","vieux","musées."],"gap":5,"wrong":["banques","rues","villes"]},
+    "u07-1-b": {"tokens":["Le","parc","est","dans","ma","rue."],"gap":1,"wrong":["banque","ville","pharmacie"]},
+    "u07-2-a": {"tokens":["La","boulangerie","ouvre","à","sept","heures."],"gap":1,"wrong":["musée","parc","restaurant"]},
+    "u07-2-b": {"tokens":["Il","y","a","une","pharmacie","près","d'ici?"],"gap":4,"wrong":["supermarché","musée","parc"]},
+    "u07-3-a": {"tokens":["Tourne","à","gauche","au","coin."],"gap":0,"wrong":["Mange","Dors","Lis"]},
+    "u07-3-b": {"tokens":["Où","est","le","musée","de","la","ville?"],"gap":0,"wrong":["Quand","Pourquoi","Combien"]},
+    "u07-4-a": {"tokens":["La","gare","n'est","pas","loin."],"gap":4,"wrong":["près","tôt","tard"]},
+    "u07-4-b": {"tokens":["Le","café","est","derrière","le","musée."],"gap":3,"wrong":["entre","loin","près"]},
+    "u08-1-a": {"tokens":["Mia","porte","des","chaussures","noires."],"gap":3,"wrong":["chats","pantalons","livres"]},
+    "u08-1-b": {"tokens":["Cette","robe","est","très","belle."],"gap":1,"wrong":["pantalon","sac","manteau"]},
+    "u08-2-a": {"tokens":["J'aime","la","veste","bleue."],"gap":3,"wrong":["rouge","verte","noire"]},
+    "u08-2-b": {"tokens":["Mes","nouvelles","chaussures","sont","blanches."],"gap":4,"wrong":["noires","rouges","vertes"]},
+    "u08-3-a": {"tokens":["Le","prix","de","la","robe","est","de","cinquante","euros."],"gap":1,"wrong":["sac","pantalon","chien"]},
+    "u08-3-b": {"tokens":["Cette","chemise","est","très","bon","marché."],"gap":1,"wrong":["pantalon","sac","prix"]},
+    "u08-4-a": {"tokens":["Je","peux","essayer","ce","pantalon?"],"gap":2,"wrong":["dormir","boire","aller"]},
+    "u08-4-b": {"tokens":["Ce","magasin","vend","de","jolis","chapeaux."],"gap":2,"wrong":["dort","va","vient"]},
+    "u09-1-a": {"tokens":["Il","pleut","à","Paris."],"gap":1,"wrong":["neige","fait","sait"]},
+    "u09-1-b": {"tokens":["Regarde,","il","neige!"],"gap":2,"wrong":["pleut","fait","mange"]},
+    "u09-2-a": {"tokens":["Il","fait","très","froid","à","Berlin."],"gap":3,"wrong":["chaud","vert","grand"]},
+    "u09-2-b": {"tokens":["Tom","porte","un","parapluie","noir."],"gap":3,"wrong":["veste","chemise","robe"]},
+    "u09-3-a": {"tokens":["Au","printemps,","les","arbres","sont","verts."],"gap":1,"wrong":["hiver","été","automne"]},
+    "u09-3-b": {"tokens":["L'été","est","une","saison","chaude."],"gap":3,"wrong":["printemps","mois","jour"]},
+    "u09-4-a": {"tokens":["Leo","nage","à","la","plage."],"gap":1,"wrong":["dort","mange","reste"]},
+    "u09-4-b": {"tokens":["Mia","et","Tom","se","promènent","dehors."],"gap":5,"wrong":["dedans","hier","jamais"]},
+    "u10-1-a": {"tokens":["Le","bus","était","très","lent."],"gap":1,"wrong":["voiture","gare","plage"]},
+    "u10-1-b": {"tokens":["Nous","étions","dans","le","train","à","six","heures."],"gap":4,"wrong":["voiture","maison","plage"]},
+    "u10-2-a": {"tokens":["Le","train","était","encore","en","retard."],"gap":5,"wrong":["avance","haut","bas"]},
+    "u10-2-b": {"tokens":["Les","billets","n'étaient","pas","chers."],"gap":1,"wrong":["robes","chaussures","valises"]},
+    "u10-3-a": {"tokens":["La","chambre","d'hôtel","était","très","calme."],"gap":5,"wrong":["chère","froide","mouillée"]},
+    "u10-3-b": {"tokens":["Le","lit","était","confortable?"],"gap":3,"wrong":["cher","mouillé","froid"]},
+    "u10-4-a": {"tokens":["La","mer","était","très","belle."],"gap":1,"wrong":["train","bus","vélo"]},
+    "u10-4-b": {"tokens":["Nos","vacances","à","Rio","étaient","merveilleuses."],"gap":5,"wrong":["chères","froides","mouillées"]},
+    "u11-1-a": {"tokens":["Emma","m'a","appelé","hier."],"gap":3,"wrong":["demain","maintenant","bientôt"]},
+    "u11-1-b": {"tokens":["J'ai","vu","Ali","il","y","a","deux","jours."],"gap":1,"wrong":["dormi","bu","mangé"]},
+    "u11-2-a": {"tokens":["Nous","avons","dansé","à","la","fête."],"gap":2,"wrong":["dormi","chanté","mangé"]},
+    "u11-2-b": {"tokens":["Emre","et","moi,","nous","nous","sommes","retrouvés","samedi."],"gap":6,"wrong":["lavés","couchés","levés"]},
+    "u11-3-a": {"tokens":["Tom","a","cuisiné","une","soupe","pour","le","dîner."],"gap":2,"wrong":["lavé","écrit","appelé"]},
+    "u11-3-b": {"tokens":["J'ai","écouté","de","la","musique","au","lit."],"gap":1,"wrong":["lavé","appelé","dansé"]},
+    "u11-4-a": {"tokens":["Elif","a","oublié","son","sac","à","l'école."],"gap":2,"wrong":["fini","dansé","chanté"]},
+    "u11-4-b": {"tokens":["J'ai","perdu","mon","billet","hier."],"gap":1,"wrong":["dormi","dansé","nagé"]},
+    "u12-1-a": {"tokens":["Je","vais","t'appeler","demain."],"gap":3,"wrong":["hier","déjà","jamais"]},
+    "u12-1-b": {"tokens":["Mia","va","cuisiner","ce","soir."],"gap":4,"wrong":["nuit","semaine","journée"]},
+    "u12-2-a": {"tokens":["Tu","voudrais","venir","avec","nous?"],"gap":2,"wrong":["acheter","perdre","oublier"]},
+    "u12-2-b": {"tokens":["Tu","es","libre","ce","week-end?"],"gap":2,"wrong":["occupé","cher","mouillé"]},
+    "u12-3-a": {"tokens":["Bien","sûr,","j'aimerais","venir."],"gap":0,"wrong":["Très","Beaucoup","Ensemble"]},
+    "u12-3-b": {"tokens":["Malheureusement,","je","suis","occupé","ce","soir."],"gap":0,"wrong":["Heureusement","Ensemble","Bientôt"]},
+    "u12-4-a": {"tokens":["Nous","allons","fêter","ça","samedi."],"gap":2,"wrong":["perdre","laver","oublier"]},
+    "u12-4-b": {"tokens":["Deniz","aimerait","apprendre","le","français."],"gap":2,"wrong":["dormir","nager","danser"]}
+  },
+  "tips": {
+    "u01": {
+      "title": {
+        "en": "Tu or vous: two ways to say you",
+        "tr": "Tu ve vous: sen ve siz"
+      },
+      "body": {
+        "en": "French has two words for 'you'. Use tu with one friend, someone in your family or a child. Use vous with an adult you do not know, in a shop or with your teacher. Vous is also the only 'you' for several people.\n\nThe small phrases change with it: et toi? becomes et vous?, and s'il te plaît becomes s'il vous plaît. In this course you talk to a friend, so you mostly see tu.\n\nWhen you are not sure, start with vous. A French speaker soon tells you if tu is fine.",
+        "tr": "Türkçedeki sen ve siz gibi, Fransızcada da iki türlü 'sen' var. Bir arkadaşa, aileden birine ya da bir çocuğa tu dersin. Tanımadığın bir yetişkine, dükkânda ya da öğretmenine vous dersin. Birden fazla kişiye seslenirken de vous kullanılır.\n\nKüçük kalıplar da buna göre değişir: et toi? yerine et vous?, s'il te plaît yerine s'il vous plaît. Bu kursta bir arkadaşla konuştuğun için çoğunlukla tu görürsün.\n\nEmin değilsen vous ile başla. Karşındaki kişi tu diyebileceğini kısa sürede söyler."
+      },
+      "examples": [
+        {
+          "text": "Salut Emma, ça va?",
+          "en": "Hi Emma, how are you?",
+          "tr": "Selam Emma, nasılsın?"
+        },
+        {
+          "text": "Bonjour madame, comment allez-vous?",
+          "en": "Hello madam, how are you?",
+          "tr": "İyi günler hanımefendi, nasılsınız?"
+        },
+        {
+          "text": "Je vais bien, et toi?",
+          "en": "I am fine, and you?",
+          "tr": "İyiyim, ya sen?"
+        }
+      ]
+    },
+    "u02": {
+      "title": {
+        "en": "My: mon, ma, mes",
+        "tr": "Benim: mon, ma, mes"
+      },
+      "body": {
+        "en": "Every French noun is masculine or feminine, and the word for 'my' matches the noun, not you. Use mon with a masculine noun (mon père), ma with a feminine noun (ma mère) and mes with any plural (mes amis).\n\nOne small rule: before a feminine noun that starts with a vowel sound, ma becomes mon so the words flow: mon amie, mon école.\n\n'Your' and 'his or her' work the same way: ton, ta, tes (your, to a friend) and son, sa, ses (his or her). So sa sœur can mean 'his sister' or 'her sister'.",
+        "tr": "Fransızcada her isim eril ya da dişildir. 'Benim' anlamındaki kelime sana göre değil, isme göre seçilir. Eril isimle mon (mon père), dişil isimle ma (ma mère), her çoğul isimle mes (mes amis) kullanırsın.\n\nKüçük bir kural: ünlü sesle başlayan dişil bir isimden önce, kolay söylensin diye ma yerine mon gelir: mon amie, mon école.\n\n'Senin' ve 'onun' da aynı şekilde çalışır: ton, ta, tes (senin) ve son, sa, ses (onun). Türkçedeki 'onun' gibi, sa sœur kişi kadın da olsa erkek de olsa 'onun kız kardeşi' demektir."
+      },
+      "examples": [
+        {
+          "text": "Mon frère est drôle.",
+          "en": "My brother is funny.",
+          "tr": "Erkek kardeşim komik."
+        },
+        {
+          "text": "Ma sœur est très gentille.",
+          "en": "My sister is very kind.",
+          "tr": "Kız kardeşim çok nazik."
+        },
+        {
+          "text": "Mes amis sont là.",
+          "en": "My friends are here.",
+          "tr": "Arkadaşlarım burada."
+        }
+      ]
+    },
+    "u03": {
+      "title": {
+        "en": "Your age uses avoir: j'ai douze ans",
+        "tr": "Yaş için avoir: j'ai douze ans"
+      },
+      "body": {
+        "en": "In French you do not 'be' an age, you 'have' it. You say j'ai douze ans, word for word 'I have twelve years'. Je suis douze is a common mistake.\n\nAlways keep the word ans (years) at the end: il a trois ans, ma sœur a huit ans. To ask a friend, say tu as quel âge?\n\nThese are the forms of avoir you need: j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont.",
+        "tr": "Fransızcada bir yaşta 'olmazsın', o yaşa 'sahip olursun'. J'ai douze ans dersin, kelimesi kelimesine 'on iki yılım var'. Je suis douze demek sık yapılan bir hatadır.\n\nSondaki ans (yıl) kelimesini hiç unutma: il a trois ans, ma sœur a huit ans. Bir arkadaşına sormak için: tu as quel âge?\n\nAvoir fiilinin bilmen gereken hâlleri şunlar: j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont."
+      },
+      "examples": [
+        {
+          "text": "J'ai douze ans.",
+          "en": "I am twelve years old.",
+          "tr": "On iki yaşındayım."
+        },
+        {
+          "text": "Mon fils a trois ans.",
+          "en": "My son is three.",
+          "tr": "Oğlum üç yaşında."
+        },
+        {
+          "text": "Tu as quel âge?",
+          "en": "How old are you?",
+          "tr": "Kaç yaşındasın?"
+        }
+      ]
+    },
+    "u04": {
+      "title": {
+        "en": "Some bread: du, de la, de l', des",
+        "tr": "Biraz ekmek: du, de la, de l', des"
+      },
+      "body": {
+        "en": "When you eat or drink an amount of something, not all of it, French puts a small word before it. Use du with a masculine noun (du pain), de la with a feminine noun (de la soupe), de l' before a vowel (de l'eau) and des with a plural (des fruits). English uses 'some' here, or nothing at all.\n\nAfter aimer (to like), you talk about the thing in general, so you use le, la or les: j'aime le fromage, Deniz aime la soupe.\n\nSo: je mange du fromage (I eat cheese), but j'aime le fromage (I like cheese).",
+        "tr": "Bir şeyin tamamını değil, bir miktarını yiyip içerken Fransızca isimden önce küçük bir kelime koyar. Eril isimle du (du pain), dişil isimle de la (de la soupe), ünlüyle başlayan isimle de l' (de l'eau), çoğulla des (des fruits) kullanılır. Türkçede burada çoğu zaman hiçbir şey söylemezsin ya da 'biraz' dersin.\n\nAimer (sevmek) fiilinden sonra şeyden genel olarak söz edersin, bu yüzden le, la ya da les gelir: j'aime le fromage, Deniz aime la soupe.\n\nYani: je mange du fromage (peynir yerim), ama j'aime le fromage (peyniri severim)."
+      },
+      "examples": [
+        {
+          "text": "Je mange du pain.",
+          "en": "I eat bread.",
+          "tr": "Ekmek yerim."
+        },
+        {
+          "text": "Tu veux de l'eau?",
+          "en": "Do you want some water?",
+          "tr": "Su ister misin?"
+        },
+        {
+          "text": "J'aime le fromage.",
+          "en": "I like cheese.",
+          "tr": "Peyniri severim."
+        }
+      ]
+    },
+    "u05": {
+      "title": {
+        "en": "Adjectives match the noun",
+        "tr": "Sıfat isme uyar"
+      },
+      "body": {
+        "en": "A French adjective changes to match its noun. Add -e for a feminine noun and -s for a plural: un petit jardin, une petite cuisine, des petits jardins. If the adjective already ends in -e, like propre or jaune, it stays the same for a feminine noun.\n\nMost adjectives come after the noun: une maison propre, un canapé bleu. A few short, common ones come before it: petit, grand, beau, nouveau, jeune.\n\nSome change more: beau becomes belle and nouveau becomes nouvelle (une nouvelle maison).",
+        "tr": "Fransızcada sıfat, ait olduğu isme uyar. Dişil isim için -e, çoğul için -s eklersin: un petit jardin, une petite cuisine, des petits jardins. Sıfat zaten -e ile bitiyorsa, propre ya da jaune gibi, dişil isimle de aynı kalır.\n\nSıfatların çoğu isimden sonra gelir: une maison propre, un canapé bleu. Kısa ve sık kullanılan birkaç sıfat ise önce gelir: petit, grand, beau, nouveau, jeune.\n\nBazıları daha çok değişir: beau, belle olur; nouveau, nouvelle olur (une nouvelle maison)."
+      },
+      "examples": [
+        {
+          "text": "Il y a un petit jardin.",
+          "en": "There is a small garden.",
+          "tr": "Küçük bir bahçe var."
+        },
+        {
+          "text": "Nous avons une petite cuisine.",
+          "en": "We have a small kitchen.",
+          "tr": "Küçük bir mutfağımız var."
+        },
+        {
+          "text": "Notre nouvelle maison est grande.",
+          "en": "Our new house is big.",
+          "tr": "Yeni evimiz büyük."
+        }
+      ]
+    },
+    "u06": {
+      "title": {
+        "en": "Everyday verbs: je travaille, tu travailles",
+        "tr": "Günlük fiiller: je travaille, tu travailles"
+      },
+      "body": {
+        "en": "Most French verbs end in -er, like travailler, jouer and regarder. For the present, take off -er and add an ending for each person: je travaille, tu travailles, il/elle travaille, nous travaillons, vous travaillez, ils/elles travaillent.\n\nGood news: the forms for je, tu, il and ils all sound the same. The -s and the -ent are not spoken.\n\nThis one present means 'I work' and 'I am working'. With a time word it also tells a habit: le samedi, je joue au tennis (on Saturdays I play tennis).",
+        "tr": "Fransızca fiillerin çoğu -er ile biter: travailler, jouer, regarder gibi. Şimdiki zaman için -er'i atıp her kişiye bir ek koyarsın: je travaille, tu travailles, il/elle travaille, nous travaillons, vous travaillez, ils/elles travaillent.\n\nİyi haber: je, tu, il ve ils hâllerinin hepsi aynı okunur. Sondaki -s ve -ent okunmaz.\n\nBu tek zaman hem 'çalışırım' hem 'çalışıyorum' demektir. Bir zaman ifadesiyle alışkanlığı da anlatır: le samedi, je joue au tennis (cumartesileri tenis oynarım)."
+      },
+      "examples": [
+        {
+          "text": "Je travaille le lundi.",
+          "en": "I work on Mondays.",
+          "tr": "Pazartesileri çalışırım."
+        },
+        {
+          "text": "Tu joues au tennis?",
+          "en": "Do you play tennis?",
+          "tr": "Tenis oynar mısın?"
+        },
+        {
+          "text": "Nous regardons un film.",
+          "en": "We are watching a movie.",
+          "tr": "Film izliyoruz."
+        }
+      ]
+    },
+    "u07": {
+      "title": {
+        "en": "To and of: au, à la, du, de la",
+        "tr": "-e ve -in: au, à la, du, de la"
+      },
+      "body": {
+        "en": "Two small words join with le. À (to, at) plus le becomes au: je vais au musée, tourne à gauche au coin. De (of, from) plus le becomes du: près du parc.\n\nWith la and l' nothing joins: à la banque, à l'hôpital, près de la gare. With les you get aux and des: aux magasins, près des magasins.\n\nSo you hear au, du and à la all the time when you ask the way or say where something is.",
+        "tr": "İki küçük kelime le ile birleşir. À (-e, -de) ile le, au olur: je vais au musée, tourne à gauche au coin. De (-in, -den) ile le, du olur: près du parc.\n\nLa ve l' ile birleşme olmaz: à la banque, à l'hôpital, près de la gare. Les ile aux ve des olur: aux magasins, près des magasins.\n\nYol sorarken ya da bir yerin nerede olduğunu söylerken au, du ve à la'yı sürekli duyarsın."
+      },
+      "examples": [
+        {
+          "text": "Je vais au musée.",
+          "en": "I am going to the museum.",
+          "tr": "Müzeye gidiyorum."
+        },
+        {
+          "text": "La banque est près du parc.",
+          "en": "The bank is near the park.",
+          "tr": "Banka parka yakın."
+        },
+        {
+          "text": "Elif est à la pharmacie.",
+          "en": "Elif is at the pharmacy.",
+          "tr": "Elif eczanede."
+        }
+      ]
+    },
+    "u08": {
+      "title": {
+        "en": "This and these: ce, cet, cette, ces",
+        "tr": "Bu ve bunlar: ce, cet, cette, ces"
+      },
+      "body": {
+        "en": "To point at something in a shop, you use the French word for 'this'. It matches the noun: ce with a masculine noun (ce pantalon), cette with a feminine noun (cette robe) and ces with any plural (ces chaussures).\n\nBefore a masculine noun that starts with a vowel or a silent h, ce becomes cet: cet hôtel, cet homme.\n\nThe same word means 'this' and 'that'. If you need to be exact, add -ci (here) or -là (there): cette robe-ci, cette robe-là.",
+        "tr": "Mağazada bir şeyi göstermek için Fransızcadaki 'bu' kelimesini kullanırsın. Bu kelime isme uyar: eril isimle ce (ce pantalon), dişil isimle cette (cette robe), her çoğulla ces (ces chaussures).\n\nÜnlüyle ya da okunmayan h ile başlayan eril bir isimden önce ce, cet olur: cet hôtel, cet homme.\n\nAynı kelime hem 'bu' hem 'şu' demektir. Tam ayırmak istersen -ci (burada) ya da -là (orada) eklersin: cette robe-ci, cette robe-là."
+      },
+      "examples": [
+        {
+          "text": "Je peux essayer ce pantalon?",
+          "en": "Can I try on these pants?",
+          "tr": "Bu pantolonu deneyebilir miyim?"
+        },
+        {
+          "text": "Cette robe est très belle.",
+          "en": "This dress is very beautiful.",
+          "tr": "Bu elbise çok güzel."
+        },
+        {
+          "text": "Ces chaussures sont bon marché.",
+          "en": "These shoes are cheap.",
+          "tr": "Bu ayakkabılar ucuz."
+        }
+      ]
+    },
+    "u09": {
+      "title": {
+        "en": "Right now, and the weather: il fait, il pleut",
+        "tr": "Şu an ve hava: il fait, il pleut"
+      },
+      "body": {
+        "en": "French has no separate '-ing' form. The present you already know means both: Leo nage is 'Leo swims' and 'Leo is swimming'. To stress that something is happening right now, say être en train de plus the verb: je suis en train de lire (I am reading right now).\n\nFor the weather, French starts with il, which means 'it' here. Use il fait with an adjective: il fait chaud, il fait froid, il fait beau. Rain and snow have their own verbs: il pleut (it is raining), il neige (it is snowing).\n\nIl fait also gives the temperature: il fait trente degrés.",
+        "tr": "Fransızcada ayrı bir '-yor' biçimi yoktur. Bildiğin şimdiki zaman ikisini de anlatır: Leo nage hem 'Leo yüzer' hem 'Leo yüzüyor' demektir. Bir şeyin tam şu anda olduğunu vurgulamak için être en train de + fiil dersin: je suis en train de lire (şu an okuyorum).\n\nHavadan söz ederken Fransızca cümleye il ile başlar. Buradaki il bir kişi değildir, sadece kalıbın parçasıdır. Bir sıfatla il fait kullanırsın: il fait chaud, il fait froid, il fait beau. Yağmurun ve karın kendi fiilleri var: il pleut (yağmur yağıyor), il neige (kar yağıyor).\n\nSıcaklığı da il fait ile söylersin: il fait trente degrés."
+      },
+      "examples": [
+        {
+          "text": "Il fait très froid à Berlin.",
+          "en": "It is very cold in Berlin.",
+          "tr": "Berlin'de hava çok soğuk."
+        },
+        {
+          "text": "Regarde, il neige!",
+          "en": "Look, it is snowing!",
+          "tr": "Bak, kar yağıyor!"
+        },
+        {
+          "text": "Je suis en train de lire.",
+          "en": "I am reading right now.",
+          "tr": "Şu an okuyorum."
+        }
+      ]
+    },
+    "u10": {
+      "title": {
+        "en": "Was and were: était, étaient",
+        "tr": "-di, -ydi: était, étaient"
+      },
+      "body": {
+        "en": "To describe how something was, like a slow bus or a quiet hotel, French uses this past form of être: j'étais, tu étais, il/elle était, nous étions, vous étiez, ils/elles étaient. The endings -ais, -ait and -aient all sound the same, like the e in 'bed'.\n\nC'était means 'it was', and it is very useful on a trip: c'était merveilleux!\n\nUse these forms to describe things and feelings in the past: le bus était plein, nous étions fatigués. For a single event, like 'the train arrived', French uses another past, which you meet in the next unit.",
+        "tr": "Bir şeyin nasıl olduğunu anlatmak için, yavaş bir otobüs ya da sessiz bir otel gibi, Fransızca être fiilinin bu geçmiş hâlini kullanır: j'étais, tu étais, il/elle était, nous étions, vous étiez, ils/elles étaient. -ais, -ait ve -aient eklerinin hepsi aynı okunur, 'e' gibi.\n\nC'était '(bu) ...ydı' demektir ve yolculukta çok işe yarar: c'était merveilleux! (harikaydı!)\n\nBu hâlleri geçmişteki şeyleri ve duyguları anlatmak için kullan: le bus était plein, nous étions fatigués. 'Tren geldi' gibi tek bir olay için Fransızca başka bir geçmiş zaman kullanır. Onu bir sonraki ünitede göreceksin."
+      },
+      "examples": [
+        {
+          "text": "Le bus était très lent.",
+          "en": "The bus was very slow.",
+          "tr": "Otobüs çok yavaştı."
+        },
+        {
+          "text": "Nous étions dans le train.",
+          "en": "We were on the train.",
+          "tr": "Trendeydik."
+        },
+        {
+          "text": "C'était merveilleux!",
+          "en": "It was wonderful!",
+          "tr": "Harikaydı!"
+        }
+      ]
+    },
+    "u11": {
+      "title": {
+        "en": "What you did: j'ai dansé, j'ai vu",
+        "tr": "Ne yaptın: j'ai dansé, j'ai vu"
+      },
+      "body": {
+        "en": "For something that happened, French uses avoir plus a past form of the verb: j'ai dansé (I danced), nous avons mangé (we ate). For -er verbs the past form ends in -é, and it sounds just like the infinitive: danser, dansé.\n\nSome common verbs have their own past form: voir becomes vu, perdre becomes perdu, finir becomes fini and écrire becomes écrit.\n\nA few verbs, mostly about going and coming, and the 'self' verbs use être instead: je suis allé, nous nous sommes retrouvés. With être, the past form matches the person, like an adjective.",
+        "tr": "Olup bitmiş bir şey için Fransızca avoir + fiilin geçmiş hâlini kullanır: j'ai dansé (dans ettim), nous avons mangé (yedik). -er fiillerinde geçmiş hâl -é ile biter ve mastarla aynı okunur: danser, dansé.\n\nBazı sık fiillerin kendine özgü geçmiş hâli var: voir, vu olur; perdre, perdu; finir, fini; écrire, écrit.\n\nÇoğu gitmeyi ya da gelmeyi anlatan birkaç fiil ve dönüşlü fiiller avoir yerine être alır: je suis allé, nous nous sommes retrouvés. Être ile geçmiş hâl, bir sıfat gibi özneye uyar."
+      },
+      "examples": [
+        {
+          "text": "Nous avons dansé à la fête.",
+          "en": "We danced at the party.",
+          "tr": "Partide dans ettik."
+        },
+        {
+          "text": "J'ai vu Elif hier.",
+          "en": "I saw Elif yesterday.",
+          "tr": "Dün Elif'i gördüm."
+        },
+        {
+          "text": "Sam a perdu ses clés.",
+          "en": "Sam lost his keys.",
+          "tr": "Sam anahtarlarını kaybetti."
+        }
+      ]
+    },
+    "u12": {
+      "title": {
+        "en": "Going to: je vais + verb",
+        "tr": "-ecek: je vais + fiil"
+      },
+      "body": {
+        "en": "To talk about plans, French works just like English 'going to'. Take aller (to go) in the present and add a verb in the infinitive: je vais appeler (I am going to call).\n\nThe forms of aller are irregular, so learn them well: je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont.\n\nFor a polite wish or an invitation, use j'aimerais (I would like) and tu voudrais? (would you like?). An infinitive comes after them too: j'aimerais venir, tu voudrais venir avec nous?",
+        "tr": "Planlardan söz etmek için Fransızcada kolay bir yol var: aller (gitmek) fiilini şimdiki zamanda çekip arkasına mastar hâlinde bir fiil eklersin: je vais appeler (arayacağım).\n\nAller düzensiz bir fiildir, hâllerini iyi öğren: je vais, tu vas, il/elle va, nous allons, vous allez, ils/elles vont.\n\nKibar bir istek ya da davet için j'aimerais (isterim) ve tu voudrais? (ister misin?) kullanırsın. Bunların arkasına da mastar gelir: j'aimerais venir, tu voudrais venir avec nous?"
+      },
+      "examples": [
+        {
+          "text": "Je vais t'appeler demain.",
+          "en": "I am going to call you tomorrow.",
+          "tr": "Seni yarın arayacağım."
+        },
+        {
+          "text": "Mia va cuisiner ce soir.",
+          "en": "Mia is going to cook tonight.",
+          "tr": "Mia bu akşam yemek yapacak."
+        },
+        {
+          "text": "Nous allons fêter ça samedi.",
+          "en": "We are going to celebrate on Saturday.",
+          "tr": "Cumartesi günü kutlayacağız."
+        }
+      ]
+    }
+  }
+}

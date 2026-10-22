@@ -1,0 +1,328 @@
+{
+  "format": 1,
+  "language": "tr",
+  "words": {
+    "hello": { "also": ["selam"] },
+    "how-are-you": { "note": { "en": "To one friend. To an older person, a stranger or a group, say nasılsınız?" } },
+    "i-am-fine": { "note": { "en": "iyi (good) plus -yim (I am). The usual answer to nasılsın?" } },
+    "and-you": { "note": { "en": "To one friend. Politely or to a group: ya siz?" } },
+    "goodbye": { "note": { "en": "Said by the one who leaves, to one friend. The one who stays answers güle güle." } },
+    "see-you-later": { "also": ["daha sonra görüşürüz"] },
+    "take-care": { "note": { "en": "To one friend. Politely or to a group: kendinize iyi bakın." } },
+    "name": { "also": ["isim"] },
+    "where-are-you-from": { "note": { "en": "nere (where) + -li (from) + -sin (you are). Politely: nerelisiniz?" } },
+    "nice-to-meet-you": {
+      "also": ["tanıştığıma memnun oldum", "tanıştığımıza memnun oldum"],
+      "note": { "en": "A fixed phrase for a first meeting, literally 'I became pleased'." }
+    },
+    "thank-you": { "also": ["teşekkürler", "sağ ol"] },
+    "youre-welcome": { "also": ["bir şey değil"] },
+    "sorry": { "also": ["kusura bakma"] },
+    "brother": { "note": { "en": "Kardeş alone means a brother or a sister. An older brother is often called abi." } },
+    "sister": { "note": { "en": "Kardeş alone means a brother or a sister. An older sister is often called abla." } },
+    "grandmother": {
+      "also": ["anneanne", "babaanne"],
+      "note": { "en": "Many people say anneanne (mother's mother) or babaanne (father's mother)." }
+    },
+    "grandfather": {
+      "also": ["dede"],
+      "note": { "en": "In daily speech most people say dede." }
+    },
+    "son": { "note": { "en": "The u drops before a vowel: oğlum (my son), oğlu (his or her son)." } },
+    "daughter": {
+      "also": ["kız"],
+      "note": { "en": "In daily speech: kızım (my daughter). Kız on its own also means girl." }
+    },
+    "kind": { "note": { "en": "Nice and caring to people. It also means polite." } },
+    "together": { "also": ["beraber"] },
+    "old": { "note": { "en": "For people only. An old thing, like an old house, is eski." } },
+    "tall": { "note": { "en": "Uzun means long. With boylu ('of height') it describes a tall person." } },
+    "number": { "note": { "en": "A phone or room number. A number in maths is sayı." } },
+    "how-old-are-you": { "note": { "en": "To one friend. Politely: kaç yaşındasınız?" } },
+    "how-many": { "also": ["kaç?"] },
+    "year": { "also": ["sene"] },
+    "drink": { "note": { "en": "Turks also 'drink' soup: çorba içmek." } },
+    "juice": { "note": { "en": "Literally 'fruit water': su becomes suyu inside a compound." } },
+    "hungry": { "note": { "en": "Aç also means 'open!': pencereyi aç, open the window." } },
+    "like": { "note": { "en": "Also means 'to love'. For liking a thing you see, Turks often say beğenmek." } },
+    "book": { "note": { "en": "The p turns into b before a vowel: kitabım (my book)." } },
+    "there-is": { "note": { "en": "The opposite is yok (there is not). With a possessive it means 'have': kedim var, I have a cat." } },
+    "work": { "note": { "en": "Also means 'to study': ders çalışmak." } },
+    "monday": { "note": { "en": "Turkish writes the days of the week with a small letter." } },
+    "watch": { "also": ["seyretmek"] },
+    "play": { "note": { "en": "For games, sports and children playing. Playing music is çalmak." } },
+    "city": { "also": ["kent"] },
+    "supermarket": { "also": ["market"] },
+    "restaurant": { "also": ["lokanta"] },
+    "bakery": { "note": { "en": "Fırın also means oven." } },
+    "right": { "note": { "en": "The direction. 'Correct' is doğru." } },
+    "straight-ahead": { "also": ["düz", "dosdoğru"] },
+    "turn": { "note": { "en": "Also means 'to go back': eve dönmek, to go back home." } },
+    "where": { "note": { "en": "nerede asks 'where (at)?'. For 'where to?' say nereye." } },
+    "pants": { "note": { "en": "Singular in Turkish: bu pantolon, these pants." } },
+    "shoes": { "note": { "en": "Ayakkabı is one shoe or one pair: siyah ayakkabı giyer. For 'my shoes' Turks often use the plural, ayakkabılarım, even for one pair." } },
+    "wear": { "note": { "en": "Used for all clothes, shoes too." } },
+    "how-much-is-it": { "also": ["ne kadar?"] },
+    "buy": { "also": ["almak"] },
+    "size": { "note": { "en": "The size of clothes. For shoes Turks say numara: kaç numara?" } },
+    "try-on": { "note": { "en": "Also means 'to try' in general." } },
+    "rain": { "note": { "en": "It is raining: yağmur yağıyor, literally 'rain is falling'." } },
+    "wind": {
+      "also": ["rüzgar"],
+      "note": { "en": "The â tells you to say the g before it with a light y sound, like rüz-gyar. Many people write a plain a." }
+    },
+    "hot": { "note": { "en": "Also for food and drinks: sıcak çay, hot tea." } },
+    "cold": { "note": { "en": "The ğ (soft g) is never said like g. Between two vowels it is almost silent: soğuk sounds like so-uk." } },
+    "sky": { "also": ["gök"] },
+    "wet": { "note": { "en": "It starts with the dotless ı, a short sound like the a in 'about'." } },
+    "spring": { "also": ["bahar"] },
+    "fall": { "also": ["güz"] },
+    "winter": { "note": { "en": "Kışın means 'in winter', and yazın means 'in summer'." } },
+    "beach": { "also": ["kumsal"] },
+    "stay": { "note": { "en": "Also in geç kalmak, to be late." } },
+    "car": { "also": ["otomobil"] },
+    "airport": { "also": ["havaalanı"] },
+    "suitcase": { "also": ["valiz"] },
+    "floor": { "note": { "en": "A level of a building. The ground you walk on is yer." } },
+    "last-year": { "also": ["geçen sene"] },
+    "ago": { "note": { "en": "It comes after the time: iki gün önce, two days ago." } },
+    "then": { "note": { "en": "Also means 'later' and 'after': işten sonra, after work." } },
+    "meet": { "note": { "en": "To meet someone you know, by plan. To meet someone for the first time is tanışmak." } },
+    "sing": { "note": { "en": "Literally 'to say a song'." } },
+    "cook": { "also": ["yemek yapmak"] },
+    "call": { "note": { "en": "Also means 'to look for'." } },
+    "tonight": { "also": ["bu gece"] },
+    "next-week": { "also": ["önümüzdeki hafta", "haftaya"] },
+    "next-year": { "also": ["gelecek sene", "önümüzdeki yıl", "seneye"] },
+    "would-you-like": { "note": { "en": "To one friend. Politely or to a group: ister misiniz?" } },
+    "free": { "note": { "en": "Not busy. Free of cost is ücretsiz or bedava." } },
+    "of-course": { "also": ["tabii", "elbette"] },
+    "unfortunately": { "also": ["ne yazık ki"] },
+    "another-time": { "also": ["başka bir zaman"] },
+    "i-would-love-to": {
+      "also": ["memnuniyetle"],
+      "note": { "en": "Literally 'I would want it very much'." }
+    },
+    "travel": { "also": ["yolculuk etmek"] },
+    "rest": { "note": { "en": "Do not mix it up with dinlemek, to listen." } }
+  },
+  "sentences": {
+    "u01-1-a": { "tokens": ["Günaydın,", "Zeynep", "ve", "Ali!"], "gap": 0, "wrong": ["Lütfen", "Evet", "Hayır"] },
+    "u01-1-b": { "tokens": ["Merhaba", "Sam,", "nasılsın?"], "gap": 2, "wrong": ["neredesin", "kimsin", "nerelisin"] },
+    "u01-2-a": { "tokens": ["İyi", "geceler,", "Mia", "ve", "Leo."], "gap": 1, "wrong": ["günler", "haftalar", "yıllar"] },
+    "u01-2-b": { "tokens": ["Yarın", "görüşürüz,", "Tom."], "gap": 0, "wrong": ["Dün", "Bugün", "Şimdi"] },
+    "u01-3-a": { "tokens": ["Memnun", "oldum,", "Tom."], "gap": 0, "wrong": ["Yorgun", "Aç", "Meşgul"] },
+    "u01-3-b": { "tokens": ["Anna", "Berlinli", "bir", "öğretmen."], "gap": 3, "wrong": ["öğrenci", "doktor", "komşu"] },
+    "u01-4-a": { "tokens": ["İki", "çay,", "lütfen."], "gap": 2, "wrong": ["evet", "hayır", "merhaba"] },
+    "u01-4-b": { "tokens": ["Çok", "teşekkür", "ederim,", "Emre."], "gap": 1, "wrong": ["rica", "özür", "dans"] },
+
+    "u02-1-a": { "tokens": ["Annem", "ve", "babam", "öğretmen."], "gap": 2, "wrong": ["kardeşim", "arkadaşım", "komşum"] },
+    "u02-1-b": { "tokens": ["Zeynep'in", "bir", "erkek", "kardeşi", "var."], "gap": 3, "wrong": ["annesi", "babası", "kızı"] },
+    "u02-2-a": { "tokens": ["Büyükannem", "bizimle", "yaşıyor."], "gap": 0, "wrong": ["Büyükbabam", "Oğlum", "Komşum"] },
+    "u02-2-b": { "tokens": ["Mia'nın", "siyah", "bir", "kedisi", "var."], "gap": 3, "wrong": ["köpeği", "evi", "kitabı"] },
+    "u02-3-a": { "tokens": ["Emma", "benim", "yeni", "komşum."], "gap": 3, "wrong": ["arkadaşım", "öğretmenim", "kardeşim"] },
+    "u02-3-b": { "tokens": ["Arkadaşlarım", "çok", "komik."], "gap": 0, "wrong": ["Komşularım", "Kardeşlerim", "Öğretmenlerim"] },
+    "u02-4-a": { "tokens": ["O", "adam", "çok", "uzun", "boylu."], "gap": 1, "wrong": ["kadın", "çocuk", "öğrenci"] },
+    "u02-4-b": { "tokens": ["Kadın", "genç", "ve", "mutlu."], "gap": 1, "wrong": ["yaşlı", "yorgun", "meşgul"] },
+
+    "u03-1-a": { "tokens": ["İki", "kız", "kardeşim", "var."], "gap": 0, "wrong": ["Üç", "Beş", "Altı"] },
+    "u03-1-b": { "tokens": ["Dört", "artı", "iki", "altı", "eder."], "gap": 3, "wrong": ["beş", "yedi", "üç"] },
+    "u03-2-a": { "tokens": ["Kız", "kardeşim", "sekiz", "yaşında."], "gap": 2, "wrong": ["yedi", "dokuz", "on"] },
+    "u03-2-b": { "tokens": ["Bir", "haftada", "yedi", "gün", "var."], "gap": 2, "wrong": ["sekiz", "beş", "on"] },
+    "u03-3-a": { "tokens": ["Yirmi", "artı", "otuz", "elli", "eder."], "gap": 3, "wrong": ["on", "yüz", "altı"] },
+    "u03-3-b": { "tokens": ["Oda", "numaram", "on", "iki."], "gap": 1, "wrong": ["yaşım", "adım", "ülkem"] },
+    "u03-4-a": { "tokens": ["On", "iki", "yaşındayım."], "gap": 2, "wrong": ["öğrenciyim", "iyiyim", "mutluyum"] },
+    "u03-4-b": { "tokens": ["Kaç", "tane", "kedin", "var?"], "gap": 0, "wrong": ["Ne", "Kim", "Nasıl"] },
+
+    "u04-1-a": { "tokens": ["Kahvaltıda", "ekmek", "yerim."], "gap": 1, "wrong": ["peynir", "yumurta", "bal"] },
+    "u04-1-b": { "tokens": ["Tom", "iki", "yumurta", "yer."], "gap": 3, "wrong": ["içer", "okur", "uyur"] },
+    "u04-2-a": { "tokens": ["Emre", "her", "sabah", "kahve", "içer."], "gap": 4, "wrong": ["yer", "okur", "oynar"] },
+    "u04-2-b": { "tokens": ["Meyve", "suyu", "çok", "soğuk."], "gap": 3, "wrong": ["sıcak", "yaşlı", "komik"] },
+    "u04-3-a": { "tokens": ["Muzlar", "sarı", "ve", "tatlı."], "gap": 0, "wrong": ["Elmalar", "Patatesler", "Domatesler"] },
+    "u04-3-b": { "tokens": ["Üç", "patatese", "ihtiyacımız", "var."], "gap": 1, "wrong": ["domatese", "elmaya", "yumurtaya"] },
+    "u04-4-a": { "tokens": ["Akşam", "yemeği", "sekizde."], "gap": 2, "wrong": ["yedide", "dokuzda", "altıda"] },
+    "u04-4-b": { "tokens": ["Deniz", "çorbayı", "çok", "sever."], "gap": 3, "wrong": ["okur", "uyur", "oynar"] },
+
+    "u05-1-a": { "tokens": ["Evimizde", "üç", "oda", "var."], "gap": 2, "wrong": ["kapı", "kedi", "lamba"] },
+    "u05-1-b": { "tokens": ["Emma", "şimdi", "bahçede."], "gap": 2, "wrong": ["mutfakta", "okulda", "banyoda"] },
+    "u05-2-a": { "tokens": ["Pencerenin", "yanında", "bir", "sandalye", "var."], "gap": 3, "wrong": ["masa", "yatak", "kanepe"] },
+    "u05-2-b": { "tokens": ["Yatağım", "kapının", "yanında."], "gap": 1, "wrong": ["masanın", "pencerenin", "sandalyenin"] },
+    "u05-3-a": { "tokens": ["Kitap", "yatağın", "üstünde."], "gap": 0, "wrong": ["Lamba", "Telefon", "Bilgisayar"] },
+    "u05-3-b": { "tokens": ["Anahtarlar", "nerede,", "Tom?"], "gap": 0, "wrong": ["Kitaplar", "Lambalar", "Telefonlar"] },
+    "u05-4-a": { "tokens": ["Yeni", "evimiz", "çok", "büyük."], "gap": 3, "wrong": ["küçük", "yaşlı", "aç"] },
+    "u05-4-b": { "tokens": ["Küçük", "bir", "bahçe", "var."], "gap": 0, "wrong": ["Büyük", "Yorgun", "Aç"] },
+
+    "u06-1-a": { "tokens": ["Geceleri", "kitap", "okurum."], "gap": 0, "wrong": ["Sabahları", "Akşamları", "Pazarları"] },
+    "u06-1-b": { "tokens": ["Ali", "öğleden", "sonra", "çalışır."], "gap": 3, "wrong": ["uyur", "okur", "yüzer"] },
+    "u06-2-a": { "tokens": ["Emma", "altıda", "uyanır."], "gap": 2, "wrong": ["uyur", "yüzer", "oynar"] },
+    "u06-2-b": { "tokens": ["Deniz", "her", "gün", "okula", "gider."], "gap": 4, "wrong": ["uyur", "yer", "okur"], "orders": [[0, 3, 1, 2, 4]] },
+    "u06-3-a": { "tokens": ["Tom", "pazartesiden", "cumaya", "çalışır."], "gap": 2, "wrong": ["salıya", "perşembeye", "çarşambaya"] },
+    "u06-3-b": { "tokens": ["Dersimiz", "çarşamba", "günü."], "gap": 1, "wrong": ["pazartesi", "salı", "perşembe"] },
+    "u06-4-a": { "tokens": ["Mia", "pazar", "günü", "köpeğiyle", "oynar."], "gap": 4, "wrong": ["okur", "uyur", "izler"], "orders": [[0, 3, 1, 2, 4]] },
+    "u06-4-b": { "tokens": ["Elif", "bahçede", "kitap", "okur."], "gap": 3, "wrong": ["yer", "içer", "izler"] },
+
+    "u07-1-a": { "tokens": ["Roma'da", "birçok", "eski", "müze", "var."], "gap": 3, "wrong": ["banka", "hastane", "sokak"] },
+    "u07-1-b": { "tokens": ["Park", "benim", "sokağımda."], "gap": 2, "wrong": ["evimde", "odamda", "çantamda"] },
+    "u07-2-a": { "tokens": ["Fırın", "yedide", "açılır."], "gap": 0, "wrong": ["Banka", "Eczane", "Müze"] },
+    "u07-2-b": { "tokens": ["Buralarda", "eczane", "var", "mı?"], "gap": 1, "wrong": ["fırın", "kafe", "kütüphane"] },
+    "u07-3-a": { "tokens": ["Köşeden", "sola", "dön."], "gap": 1, "wrong": ["sağa", "parka", "eve"] },
+    "u07-3-b": { "tokens": ["Şehir", "müzesi", "nerede?"], "gap": 2, "wrong": ["nasıl", "kim", "kaç"] },
+    "u07-4-a": { "tokens": ["İstasyon", "uzak", "değil."], "gap": 1, "wrong": ["yakın", "büyük", "yeni"] },
+    "u07-4-b": { "tokens": ["Kafe", "müzenin", "arkasında."], "gap": 2, "wrong": ["önünde", "yanında", "arasında"] },
+
+    "u08-1-a": { "tokens": ["Mia", "siyah", "ayakkabı", "giyer."], "gap": 3, "wrong": ["yer", "içer", "okur"] },
+    "u08-1-b": { "tokens": ["Bu", "elbise", "çok", "güzel."], "gap": 1, "wrong": ["gömlek", "ceket", "pantolon"] },
+    "u08-2-a": { "tokens": ["Mavi", "ceketi", "beğeniyorum."], "gap": 0, "wrong": ["Kırmızı", "Yeşil", "Siyah"] },
+    "u08-2-b": { "tokens": ["Yeni", "ayakkabılarım", "beyaz."], "gap": 2, "wrong": ["siyah", "mavi", "sarı"] },
+    "u08-3-a": { "tokens": ["Elbisenin", "fiyatı", "elli."], "gap": 1, "wrong": ["rengi", "adı", "yaşı"] },
+    "u08-3-b": { "tokens": ["Bu", "gömlek", "çok", "ucuz."], "gap": 3, "wrong": ["pahalı", "yaşlı", "aç"] },
+    "u08-4-a": { "tokens": ["Bu", "pantolonu", "deneyebilir", "miyim?"], "gap": 2, "wrong": ["yiyebilir", "içebilir", "okuyabilir"] },
+    "u08-4-b": { "tokens": ["Bu", "mağaza", "güzel", "şapkalar", "satar."], "gap": 4, "wrong": ["içer", "okur", "giyer"] },
+
+    "u09-1-a": { "tokens": ["Paris'te", "yağmur", "yağıyor."], "gap": 1, "wrong": ["kar", "güneş", "bulut"] },
+    "u09-1-b": { "tokens": ["Bak,", "kar", "yağıyor!"], "gap": 2, "wrong": ["uyuyor", "okuyor", "yüzüyor"] },
+    "u09-2-a": { "tokens": ["Berlin'de", "hava", "çok", "soğuk."], "gap": 3, "wrong": ["sıcak", "aç", "yaşlı"] },
+    "u09-2-b": { "tokens": ["Tom", "siyah", "bir", "şemsiye", "taşıyor."], "gap": 3, "wrong": ["çanta", "masa", "ceket"] },
+    "u09-3-a": { "tokens": ["İlkbaharda", "ağaçlar", "yeşil."], "gap": 0, "wrong": ["Sonbaharda", "Mutfakta", "Banyoda"] },
+    "u09-3-b": { "tokens": ["Yaz", "sıcak", "bir", "mevsim."], "gap": 0, "wrong": ["Kış", "Hafta", "Gece"] },
+    "u09-4-a": { "tokens": ["Leo", "plajda", "yüzüyor."], "gap": 2, "wrong": ["uyuyor", "okuyor", "yağıyor"] },
+    "u09-4-b": { "tokens": ["Mia", "ve", "Tom", "dışarıda", "yürüyor."], "gap": 3, "wrong": ["içeride", "yatakta", "banyoda"] },
+
+    "u10-1-a": { "tokens": ["Otobüs", "çok", "yavaştı."], "gap": 0, "wrong": ["Tren", "Taksi", "Uçak"] },
+    "u10-1-b": { "tokens": ["Saat", "altıda", "trendeydik."], "gap": 2, "wrong": ["otobüsteydik", "uçaktaydık", "taksideydik"] },
+    "u10-2-a": { "tokens": ["Tren", "yine", "geç", "kaldı."], "gap": 2, "wrong": ["erken", "uzak", "yakın"] },
+    "u10-2-b": { "tokens": ["Biletler", "pahalı", "değildi."], "gap": 0, "wrong": ["Pasaportlar", "Bavullar", "Haritalar"] },
+    "u10-3-a": { "tokens": ["Otel", "odası", "çok", "sessizdi."], "gap": 3, "wrong": ["yaşlıydı", "küçüktü", "sıcaktı"] },
+    "u10-3-b": { "tokens": ["Yatak", "rahat", "mıydı?"], "gap": 1, "wrong": ["yaşlı", "aç", "uzak"] },
+    "u10-4-a": { "tokens": ["Deniz", "çok", "güzeldi."], "gap": 0, "wrong": ["Dağ", "Otel", "Tren"] },
+    "u10-4-b": { "tokens": ["Rio'daki", "tatilimiz", "harikaydı."], "gap": 2, "wrong": ["yorgundu", "yaşlıydı", "meşguldü"] },
+
+    "u11-1-a": { "tokens": ["Emma", "dün", "beni", "aradı."], "gap": 1, "wrong": ["yarın", "yakında", "bugün"], "orders": [[0, 2, 1, 3]] },
+    "u11-1-b": { "tokens": ["Ali'yi", "iki", "gün", "önce", "gördüm."], "gap": 3, "wrong": ["sonra", "yarın", "şimdi"] },
+    "u11-2-a": { "tokens": ["Partide", "dans", "ettik."], "gap": 1, "wrong": ["rica", "ziyaret", "özür"] },
+    "u11-2-b": { "tokens": ["Emre", "ile", "cumartesi", "günü", "buluştuk."], "gap": 4, "wrong": ["yıkadık", "unuttuk", "bitirdik"] },
+    "u11-3-a": { "tokens": ["Tom", "akşam", "yemeğine", "çorba", "pişirdi."], "gap": 4, "wrong": ["okudu", "yıkadı", "yazdı"] },
+    "u11-3-b": { "tokens": ["Yatakta", "müzik", "dinledim."], "gap": 2, "wrong": ["yedim", "yıkadım", "pişirdim"] },
+    "u11-4-a": { "tokens": ["Elif", "çantasını", "okulda", "unuttu."], "gap": 3, "wrong": ["içti", "pişirdi", "dinledi"], "orders": [[0, 2, 1, 3]] },
+    "u11-4-b": { "tokens": ["Dün", "biletimi", "kaybettim."], "gap": 2, "wrong": ["içtim", "yüzdüm", "uyudum"] },
+
+    "u12-1-a": { "tokens": ["Seni", "yarın", "arayacağım."], "gap": 2, "wrong": ["içeceğim", "uyuyacağım", "yüzeceğim"] },
+    "u12-1-b": { "tokens": ["Mia", "bu", "akşam", "yemek", "yapacak."], "gap": 4, "wrong": ["okuyacak", "uyuyacak", "yüzecek"] },
+    "u12-2-a": { "tokens": ["Bizimle", "gelmek", "ister", "misin?"], "gap": 1, "wrong": ["yüzmek", "okumak", "çalışmak"] },
+    "u12-2-b": { "tokens": ["Bu", "hafta", "sonu", "boş", "musun?"], "gap": 3, "wrong": ["yorgun", "uzun", "soğuk"] },
+    "u12-3-a": { "tokens": ["Tabii", "ki", "gelmek", "isterim."], "gap": 3, "wrong": ["yerim", "içerim", "uyurum"] },
+    "u12-3-b": { "tokens": ["Maalesef", "bu", "akşam", "meşgulüm."], "gap": 0, "wrong": ["Belki", "Lütfen", "Günaydın"] },
+    "u12-4-a": { "tokens": ["Cumartesi", "günü", "kutlayacağız."], "gap": 2, "wrong": ["unutacağız", "yıkayacağız", "bulacağız"] },
+    "u12-4-b": { "tokens": ["Deniz", "Fransızca", "öğrenmek", "istiyor."], "gap": 2, "wrong": ["içmek", "uyumak", "yıkamak"] }
+  },
+  "tips": {
+    "u01": {
+      "title": { "en": "I am, you are: -im and -sin" },
+      "body": { "en": "Turkish has no separate word for 'am' or 'are'. Instead you add a short ending to the word: öğrenci (student) becomes öğrenciyim (I am a student), and öğretmen (teacher) becomes öğretmensin (you are a teacher). For 'he' or 'she' you add nothing: O mutlu means 'he or she is happy'.\n\nThe vowel in the ending follows the last vowel of the word: i after e or i, ı after a or ı, u after o or u, ü after ö or ü. This is vowel harmony, and you will meet it everywhere: iyiyim, nasılsın, yorgunum, Türküm. Watch the dots too: ı and i are two different letters. After a vowel, a y slips in: iyi + im = iyiyim.\n\nBecause the ending already says who, ben (I) and sen (you) are often left out: İyiyim alone means 'I am fine'. The word with 'am', 'are' or 'is' goes last, and bir (a) comes after a describing word: Anna Berlinli bir öğretmen, Anna is a teacher from Berlin." },
+      "examples": [
+        { "text": "Ben öğrenciyim.", "en": "I am a student." },
+        { "text": "Sen çok naziksin.", "en": "You are very kind." },
+        { "text": "İyiyim, ya sen?", "en": "I am fine, and you?" }
+      ]
+    },
+    "u02": {
+      "title": { "en": "My, your, his: endings that say whose" },
+      "body": { "en": "To say whose something is, Turkish puts an ending on the thing itself. After a vowel: annem (my mother), annen (your mother), annesi (his or her mother). After a consonant, a vowel comes first: kardeşim, kardeşin, kardeşi. For 'our', add -miz or -imiz: köpeğimiz (our dog).\n\nThe vowel follows harmony again: babam, evim, okulum, ülkem. Some words also soften their last letter before a vowel: köpek becomes köpeğim, kitap becomes kitabım.\n\nWith a name, the owner gets an ending too, -in after a consonant and -nin after a vowel, with harmony: Zeynep'in annesi (Zeynep's mother), Mia'nın kedisi (Mia's cat). You can add benim (my) or senin (your) for stress, as in Tom benim arkadaşım, but the ending alone already carries the meaning." },
+      "examples": [
+        { "text": "Annem ve babam öğretmen.", "en": "My mother and father are teachers." },
+        { "text": "Kız kardeşin çok nazik.", "en": "Your sister is very kind." },
+        { "text": "Köpeğimiz büyük ve beyaz.", "en": "Our dog is big and white." }
+      ]
+    },
+    "u03": {
+      "title": { "en": "Having things: var and yok" },
+      "body": { "en": "Turkish usually has no verb for 'to have'. Instead you say that your thing exists: kedim var, literally 'my cat exists', means 'I have a cat'. For 'I don't have', use yok: kedim yok. To ask, add mı: kedin var mı? (do you have a cat?)\n\nAfter a number the noun stays singular: iki kedi (two cats), on dakika (ten minutes), never iki kediler. The same goes after kaç (how many): kaç tane kedin var?\n\nFor age, use yaşında, roughly 'at the age of': Deniz dokuz yaşında (Deniz is nine). Add -yım to talk about yourself: on iki yaşındayım (I am twelve)." },
+      "examples": [
+        { "text": "İki kız kardeşim var.", "en": "I have two sisters." },
+        { "text": "Kaç tane kedin var?", "en": "How many cats do you have?" },
+        { "text": "Kedim yok.", "en": "I do not have a cat." }
+      ]
+    },
+    "u04": {
+      "title": { "en": "More than one: -ler and -lar" },
+      "body": { "en": "For more than one thing, add -ler or -lar. Vowel harmony picks the ending: if the last vowel of the word is e, i, ö or ü, use -ler; if it is a, ı, o or u, use -lar. So domates becomes domatesler, muz becomes muzlar, elma becomes elmalar.\n\nLeave the plural out after a number (üç patates, three potatoes) and when you speak about food in general: Ekmek ve peynir yerim, 'I eat bread and cheese'.\n\nUse it for a group of things you can see or count: Muzlar sarı ve tatlı, 'the bananas are yellow and sweet'." },
+      "examples": [
+        { "text": "Muzlar sarı ve tatlı.", "en": "The bananas are yellow and sweet." },
+        { "text": "Domatesler bizim bahçemizden.", "en": "The tomatoes are from our garden." },
+        { "text": "Ali her gün meyve yer.", "en": "Ali eats fruit every day." }
+      ]
+    },
+    "u05": {
+      "title": { "en": "In, at, on: the ending -de / -da" },
+      "body": { "en": "Where English uses 'in', 'at' or 'on', Turkish adds -de or -da to the place: ev (house) becomes evde (at home), bahçe becomes bahçede (in the garden), oda becomes odada (in the room). Use -de after e, i, ö or ü, and -da after a, ı, o or u.\n\nAfter a hard consonant (ç, f, h, k, p, s, ş, t) the d turns into t: mutfakta (in the kitchen), kitapta (in the book).\n\nFor 'on' and 'next to', Turkish uses place words with the same ending: masanın üstünde (on the table), kapının yanında (next to the door). Put var at the end to say that something is there: Mutfakta bir masa var, 'there is a table in the kitchen'." },
+      "examples": [
+        { "text": "Emma şimdi bahçede.", "en": "Emma is in the garden now." },
+        { "text": "Babam mutfakta yemek yapar.", "en": "My father cooks in the kitchen." },
+        { "text": "Kitap yatağın üstünde.", "en": "The book is on the bed." }
+      ]
+    },
+    "u06": {
+      "title": { "en": "Every day: the present with -r" },
+      "body": { "en": "For habits and things that are generally true, Turkish uses the present with -r. Take the verb, drop -mek or -mak, and add -r with a vowel: yapmak becomes yapar (does), uyanmak becomes uyanır (wakes up), gitmek becomes gider (goes, the t softens to d). If the stem ends in a vowel, add just -r: okumak becomes okur (reads), uyumak becomes uyur (sleeps).\n\nThen add the person: okurum (I read), okursun (you read), okur (he or she reads), okuruz (we read). The verb goes last, and a time word like her gün (every day) or sabahları (in the mornings) usually comes right after the person: Deniz her gün okula gider.\n\nShort verbs usually take -er or -ar (içer, gider, yapar) and longer ones -ir, -ır, -ur or -ür (uyanır, çalışır). There are exceptions, like gelir (comes) and alır (takes), so learn each verb with its he or she form." },
+      "examples": [
+        { "text": "Saat yedide uyanırım.", "en": "I wake up at seven." },
+        { "text": "Deniz her gün okula gider.", "en": "Deniz goes to school every day." },
+        { "text": "Hafta sonu ne yaparsın?", "en": "What do you do on the weekend?" }
+      ]
+    },
+    "u07": {
+      "title": { "en": "To and from: -e / -a and -den / -dan" },
+      "body": { "en": "Two endings help you find the way. -e or -a means 'to': sola (to the left), parka (to the park), okula (to school). After a vowel a y joins: banka becomes bankaya.\n\n-den or -dan means 'from': köşeden (from the corner), buradan (from here). After a hard consonant it turns into -ten or -tan: parktan (from the park). That is why Turkish says Köşeden sola dön, 'from the corner, turn to the left'.\n\nSome words pick one of them. Yakın (near) takes 'to': Evim parka yakın, my house is near the park. Uzak (far) takes 'from': buradan uzak, far from here." },
+      "examples": [
+        { "text": "Köşeden sola dön.", "en": "Turn left at the corner." },
+        { "text": "Evim parka yakın.", "en": "My house is near the park." },
+        { "text": "Plaj buradan uzak mı?", "en": "Is the beach far from here?" }
+      ]
+    },
+    "u08": {
+      "title": { "en": "The one I mean: the ending -i" },
+      "body": { "en": "When the object of a verb is a specific thing, one you could point at, Turkish adds -i, -ı, -u or -ü to it: ceket (a jacket) becomes ceketi (the jacket). After a vowel a y joins: elbise becomes elbiseyi. Some words soften too: gömlek becomes gömleği.\n\nCompare Mia siyah ayakkabı giyer (Mia wears black shoes, in general) with Kırmızı gömleği istiyorum (I want the red shirt, that one there).\n\nWhen bu (this), şu or o (that) comes before the object, the thing is specific, so the ending is always there: Bu elbiseyi deneyebilir miyim? Can I try on this dress?" },
+      "examples": [
+        { "text": "Kırmızı gömleği istiyorum.", "en": "I want the red shirt." },
+        { "text": "Bu elbiseyi deneyebilir miyim?", "en": "Can I try on this dress?" },
+        { "text": "Mia siyah ayakkabı giyer.", "en": "Mia wears black shoes." }
+      ]
+    },
+    "u09": {
+      "title": { "en": "Right now: the present with -iyor" },
+      "body": { "en": "For something happening right now, Turkish uses -iyor. Drop -mek or -mak and add -iyor: yüzmek becomes yüzüyor (is swimming), kalmak becomes kalıyor (is staying). The first vowel follows harmony (-iyor, -ıyor, -uyor, -üyor), but -yor never changes.\n\nIf the stem ends in a vowel, add just -yor: okumak becomes okuyor. A final a or e turns into i, ı, u or ü: izlemek becomes izliyor.\n\nThen add the person: kalıyorum (I am staying), kalıyorsun, kalıyor, kalıyoruz. For weather, Turkish says the rain or the snow is falling: yağmur yağıyor (it is raining), kar yağıyor (it is snowing)." },
+      "examples": [
+        { "text": "Paris'te yağmur yağıyor.", "en": "It is raining in Paris." },
+        { "text": "Bugün evde kalıyorum.", "en": "I am staying at home today." },
+        { "text": "Elif plajda kitap okuyor.", "en": "Elif is reading on the beach." }
+      ]
+    },
+    "u10": {
+      "title": { "en": "It was: -di after nouns and adjectives" },
+      "body": { "en": "To say 'was' or 'were', add -di to a noun or adjective. Harmony gives -di, -dı, -du or -dü: güzel becomes güzeldi (was beautiful), yorgun becomes yorgundu (was tired). After a vowel a y joins: harika becomes harikaydı.\n\nAfter a hard consonant the d turns into t: yavaş becomes yavaştı (was slow), uzak becomes uzaktı (was far).\n\nAdd the person at the end: yorgundum (I was tired), yorgundun (you were), yorgundu (he or she was), yorgunduk (we were). It works with places too: trendeydik, 'we were on the train'. For 'was not', use değildi: Biletler pahalı değildi." },
+      "examples": [
+        { "text": "Otobüs çok yavaştı.", "en": "The bus was very slow." },
+        { "text": "Saat altıda trendeydik.", "en": "We were on the train at six." },
+        { "text": "Yatak rahat mıydı?", "en": "Was the bed comfortable?" }
+      ]
+    },
+    "u11": {
+      "title": { "en": "It happened: the past with -di" },
+      "body": { "en": "The same -di ending makes the past of verbs. Drop -mek or -mak and add -di: görmek becomes gördü (saw), aramak becomes aradı (called), bulmak becomes buldu (found). After a hard consonant the d turns into t: unutmak becomes unuttu (forgot), dans etmek becomes dans etti (danced).\n\nThe person endings are short: gördüm (I saw), gördün (you saw), gördü (he or she saw), gördük (we saw), gördüler (they saw). Time words like dün (yesterday) usually come early, right after the person: Emma dün beni aradı.\n\nUse this past for things you saw or did yourself. It is the one for telling a friend about your weekend: Emre ile buluştuk, sonra dans ettik." },
+      "examples": [
+        { "text": "Dün Elif'i gördüm.", "en": "I saw Elif yesterday." },
+        { "text": "Partide dans ettik.", "en": "We danced at the party." },
+        { "text": "Elif çantasını okulda unuttu.", "en": "Elif forgot her bag at school." }
+      ]
+    },
+    "u12": {
+      "title": { "en": "Going to: the future with -ecek / -acak" },
+      "body": { "en": "To talk about plans, add -ecek or -acak to the verb stem: gelmek becomes gelecek (will come), yapmak becomes yapacak (will do or make). After a vowel a y joins: aramak becomes arayacak (will call).\n\nBefore a vowel the k softens to ğ: arayacağım (I will call), arayacaksın (you will call), arayacak (he or she will call), arayacağız (we will call). The t of etmek and gitmek softens to d: ziyaret edeceğim (I will visit), gideceğiz (we will go). Gelecek also means 'next': gelecek hafta, next week.\n\nTo invite a friend, put ister misin? (would you like?) after a verb in -mek or -mak: Bizimle gelmek ister misin? A warm yes is Çok isterim! or Tabii ki!" },
+      "examples": [
+        { "text": "Seni yarın arayacağım.", "en": "I am going to call you tomorrow." },
+        { "text": "Mia bu akşam yemek yapacak.", "en": "Mia is going to cook tonight." },
+        { "text": "Bizimle gelmek ister misin?", "en": "Would you like to come with us?" }
+      ]
+    }
+  }
+}

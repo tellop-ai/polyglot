@@ -1,0 +1,713 @@
+{
+  "format": 1,
+  "language": "es",
+  "words": {
+    "hello": {"text":"hola","ex":"Hola, soy Emre."},
+    "good-morning": {"text":"buenos días","ex":"Buenos días, el café está listo."},
+    "good-evening": {"text":"buenas tardes","ex":"¡Buenas tardes, Mia y Tom!","note":{"en":"In Spain, buenas tardes greets people from lunch until dark. After dark, people say buenas noches.","tr":"İspanya'da öğleden karanlık çökene kadar buenas tardes denir. Karanlıktan sonra buenas noches denir."}},
+    "how-are-you": {"text":"¿cómo estás?","ex":"¿Cómo estás esta mañana?","also":["¿qué tal?"],"note":{"en":"Informal, to one friend. To someone you call usted: ¿cómo está?","tr":"Samimi, bir arkadaşa sorulur. Resmî hitapta (usted): ¿cómo está?"}},
+    "i-am-fine": {"text":"estoy bien","ex":"Gracias, hoy estoy bien.","note":{"en":"The usual answer to ¿cómo estás?","tr":"¿Cómo estás? sorusuna verilen olağan cevap."}},
+    "and-you": {"text":"¿y tú?","ex":"Estoy bien, ¿y tú?","note":{"en":"To one friend. To someone you call usted: ¿y usted?","tr":"Bir arkadaşa. Resmî hitapta (usted): ¿y usted?"}},
+    "goodbye": {"text":"adiós","ex":"¡Adiós, Ali, y gracias!","note":{"en":"A general goodbye. In Spain people also say hasta luego, even with no plan to meet again.","tr":"Genel bir veda. İspanya'da tekrar buluşma planı olmasa da hasta luego da denir."}},
+    "good-night": {"text":"buenas noches","ex":"Buenas noches, que duermas bien.","note":{"en":"Also a greeting after dark, like good evening.","tr":"Karanlık çöktükten sonra iyi akşamlar anlamında selam olarak da kullanılır."}},
+    "see-you-later": {"text":"hasta luego","ex":"Ahora tengo clase, hasta luego."},
+    "see-you-tomorrow": {"text":"hasta mañana","ex":"Hasta mañana en el colegio, Elif."},
+    "have-a-nice-day": {"text":"que tengas un buen día","ex":"¡Muchas gracias, que tengas un buen día!","also":["que pases un buen día"],"note":{"en":"To one friend. To someone you call usted: que tenga un buen día.","tr":"Bir arkadaşa. Resmî hitapta (usted): que tenga un buen día."}},
+    "take-care": {"text":"cuídate","ex":"Cuídate y hasta pronto.","note":{"en":"A friendly goodbye to one friend. To someone you call usted: cuídese.","tr":"Bir arkadaşa samimi bir veda. Resmî hitapta (usted): cuídese."}},
+    "name": {"text":"el nombre","ex":"Mi nombre es Zeynep.","note":{"en":"People more often say: Me llamo Zeynep (I am called Zeynep).","tr":"Daha sık şöyle denir: Me llamo Zeynep (Adım Zeynep)."}},
+    "where-are-you-from": {"text":"¿de dónde eres?","ex":"Emma, ¿de dónde eres?","note":{"en":"Informal, to one friend. To someone you call usted: ¿de dónde es?","tr":"Samimi, bir arkadaşa sorulur. Resmî hitapta (usted): ¿de dónde es?"}},
+    "nice-to-meet-you": {"text":"encantado","ex":"Soy Ali, encantado.","also":["encantada","mucho gusto"],"note":{"en":"Said when you meet someone for the first time. A woman says encantada. Mucho gusto also works.","tr":"Biriyle ilk kez tanışınca söylenir. Kadınlar encantada der. Mucho gusto da olur."}},
+    "student": {"text":"el estudiante","ex":"Deniz es estudiante en Estambul.","also":["la estudiante"],"note":{"en":"The same word for a woman: la estudiante.","tr":"Kadın için de aynı kelime: la estudiante."}},
+    "teacher": {"text":"el profesor","ex":"Mi profesor es muy amable.","also":["la profesora"],"note":{"en":"A woman teacher: la profesora.","tr":"Kadın öğretmen: la profesora."}},
+    "country": {"text":"el país","ex":"Mi país es muy bonito."},
+    "please": {"text":"por favor","ex":"Un vaso de agua, por favor."},
+    "thank-you": {"text":"gracias","ex":"Gracias por el té."},
+    "youre-welcome": {"text":"de nada","ex":"De nada, no hay problema."},
+    "sorry": {"text":"lo siento","ex":"Lo siento, llego tarde.","also":["perdón","perdona"]},
+    "yes": {"text":"sí","ex":"Sí, soy estudiante.","note":{"en":"With an accent: sí means yes, si means if.","tr":"Aksanlı yazılır: sí evet demek, si ise eğer demek."}},
+    "no": {"text":"no","ex":"No, no soy de París."},
+    "family": {"text":"la familia","ex":"Mi familia vive en Lisboa."},
+    "mother": {"text":"la madre","ex":"Mi madre bebe té todas las mañanas."},
+    "father": {"text":"el padre","ex":"Mi padre es médico."},
+    "brother": {"text":"el hermano","ex":"Mi hermano tiene diez años.","note":{"en":"Any brother, older or younger. Los hermanos can also mean brothers and sisters together.","tr":"Büyük ya da küçük, her erkek kardeş. Los hermanos, kız ve erkek kardeşlerin hepsi anlamına da gelir."}},
+    "sister": {"text":"la hermana","ex":"Su hermana vive en Madrid.","note":{"en":"Any sister, older or younger. Su means her, his or their.","tr":"Büyük ya da küçük, her kız kardeş. Su; onun ya da onların demek."}},
+    "baby": {"text":"el bebé","ex":"El bebé es muy pequeño."},
+    "grandmother": {"text":"la abuela","ex":"Mi abuela vive en Roma."},
+    "grandfather": {"text":"el abuelo","ex":"Mi abuelo lee el periódico."},
+    "son": {"text":"el hijo","ex":"Su hijo es estudiante.","note":{"en":"Su means his, her or their. Here it means their.","tr":"Su; onun ya da onların demek. Burada onların anlamında."}},
+    "daughter": {"text":"la hija","ex":"Ali tiene dos hijas."},
+    "dog": {"text":"el perro","ex":"Nuestro perro es grande y blanco."},
+    "cat": {"text":"el gato","ex":"El gato duerme en el sofá."},
+    "friend": {"text":"el amigo","ex":"Tom es mi amigo.","also":["la amiga"],"note":{"en":"A female friend: la amiga.","tr":"Kadın arkadaş: la amiga."}},
+    "neighbor": {"text":"el vecino","ex":"Nuestro vecino tiene un jardín.","also":["la vecina"],"note":{"en":"A woman neighbor: la vecina.","tr":"Kadın komşu: la vecina."}},
+    "kind": {"text":"amable","ex":"Tu hermana es muy amable.","note":{"en":"Nice and caring to people. The same form for a man and a woman.","tr":"İnsanlara karşı nazik ve ilgili. Erkek ve kadın için biçimi aynıdır."}},
+    "funny": {"text":"gracioso","ex":"Leo es muy gracioso.","also":["divertido"]},
+    "happy": {"text":"feliz","ex":"Hoy estoy muy feliz.","also":["contento"]},
+    "together": {"text":"juntos","ex":"Comemos juntos al mediodía.","also":["juntas"],"note":{"en":"If everyone in the group is female: juntas.","tr":"Gruptaki herkes kadınsa: juntas."}},
+    "man": {"text":"el hombre","ex":"Ese hombre es mi profesor."},
+    "woman": {"text":"la mujer","ex":"Esa mujer es médica."},
+    "child": {"text":"el niño","ex":"El niño tiene seis años.","also":["la niña"],"note":{"en":"A girl: la niña.","tr":"Kız çocuk: la niña."}},
+    "young": {"text":"joven","ex":"Nuestro nuevo profesor es joven."},
+    "old": {"text":"mayor","ex":"Mi abuelo es mayor, pero fuerte.","also":["viejo"],"note":{"en":"The polite word for an older person. Viejo also means old, but it can sound rude about people.","tr":"Yaşlı biri için kibar kelime. Viejo da yaşlı demek ama insanlar için kaba duyulabilir."}},
+    "tall": {"text":"alto","ex":"Sam es muy alto."},
+    "one": {"text":"uno","ex":"Tengo un hermano.","note":{"en":"Before a noun it becomes un (un hermano) or una (una hermana).","tr":"İsimden önce un (un hermano) ya da una (una hermana) olur."}},
+    "two": {"text":"dos","ex":"Tenemos dos gatos."},
+    "three": {"text":"tres","ex":"Mi hijo tiene tres años."},
+    "four": {"text":"cuatro","ex":"En mi familia somos cuatro."},
+    "five": {"text":"cinco","ex":"Bebo cinco vasos de agua al día."},
+    "six": {"text":"seis","ex":"Emma tiene seis libros."},
+    "seven": {"text":"siete","ex":"La tienda abre a las siete."},
+    "eight": {"text":"ocho","ex":"La clase empieza a las ocho."},
+    "nine": {"text":"nueve","ex":"Deniz tiene nueve años."},
+    "ten": {"text":"diez","ex":"Tengo diez minutos."},
+    "eleven": {"text":"once","ex":"Nuestra clase tiene once estudiantes."},
+    "twelve": {"text":"doce","ex":"Leo cumple doce años hoy."},
+    "zero": {"text":"cero","ex":"Mi número de teléfono empieza por cero."},
+    "twenty": {"text":"veinte","ex":"Hay veinte estudiantes en mi clase."},
+    "thirty": {"text":"treinta","ex":"Nuestro profesor tiene treinta años."},
+    "fifty": {"text":"cincuenta","ex":"Este libro tiene cincuenta páginas."},
+    "one-hundred": {"text":"cien","ex":"Mi abuela tiene casi cien años.","note":{"en":"Exactly 100 is cien. From 101 it is ciento: ciento uno.","tr":"Tam 100, cien'dir. 101'den sonra ciento olur: ciento uno."}},
+    "number": {"text":"el número","ex":"¿Cuál es tu número de teléfono?"},
+    "age": {"text":"la edad","ex":"Escribe aquí tu nombre y tu edad."},
+    "how-old-are-you": {"text":"¿cuántos años tienes?","ex":"Elif, ¿cuántos años tienes?","note":{"en":"Informal, to one friend. Word for word: how many years do you have?","tr":"Samimi, bir arkadaşa sorulur. Kelimesi kelimesine: kaç yılın var?"}},
+    "how-many": {"text":"¿cuántos?","ex":"¿Cuántos hermanos tienes?","also":["¿cuántas?"],"note":{"en":"With a feminine noun: ¿cuántas? (¿cuántas hermanas?)","tr":"Dişil bir isimle: ¿cuántas? (¿cuántas hermanas?)"}},
+    "year": {"text":"el año","ex":"Este año tengo dieciocho años.","note":{"en":"Always write the ñ: año and ano are different words.","tr":"ñ harfini hep yaz: año ile ano farklı kelimeler."}},
+    "birthday": {"text":"el cumpleaños","ex":"¡Hoy es mi cumpleaños!"},
+    "month": {"text":"el mes","ex":"Mi cumpleaños es el mes que viene."},
+    "breakfast": {"text":"el desayuno","ex":"Tomamos el desayuno a las siete.","note":{"en":"The verb is desayunar: desayunamos a las siete.","tr":"Fiili desayunar: desayunamos a las siete (yedide kahvaltı yaparız)."}},
+    "bread": {"text":"el pan","ex":"Este pan está fresco."},
+    "cheese": {"text":"el queso","ex":"Como pan y queso."},
+    "egg": {"text":"el huevo","ex":"Mia come un huevo todas las mañanas."},
+    "honey": {"text":"la miel","ex":"Mi abuelo pone miel en su té."},
+    "eat": {"text":"comer","ex":"Comemos en casa."},
+    "water": {"text":"el agua","ex":"Esta agua está muy fría.","note":{"en":"A feminine noun. It takes el because it starts with a stressed a: el agua fría.","tr":"Dişil bir isim. Vurgulu a ile başladığı için el alır: el agua fría."}},
+    "tea": {"text":"el té","ex":"¿Quieres un té?","note":{"en":"With an accent: té means tea, te means you.","tr":"Aksanlı yazılır: té çay demek, te ise seni ya da sana demek."}},
+    "coffee": {"text":"el café","ex":"Mi padre bebe café sin leche."},
+    "milk": {"text":"la leche","ex":"El bebé bebe leche."},
+    "juice": {"text":"el zumo","ex":"Zeynep bebe zumo en el desayuno.","also":["el jugo"],"note":{"en":"Spain says el zumo. In Latin America: el jugo.","tr":"İspanya'da el zumo denir. Latin Amerika'da: el jugo."}},
+    "drink": {"text":"beber","ex":"Bebemos té por la noche.","also":["tomar"],"note":{"en":"In Spain tomar is also very common: tomar un café.","tr":"İspanya'da tomar da çok yaygın: tomar un café."}},
+    "apple": {"text":"la manzana","ex":"Esta manzana es roja."},
+    "banana": {"text":"el plátano","ex":"Tengo un plátano en el bolso.","also":["la banana"],"note":{"en":"Spain says el plátano. In much of Latin America: la banana.","tr":"İspanya'da el plátano denir. Latin Amerika'nın çoğunda: la banana."}},
+    "tomato": {"text":"el tomate","ex":"Los tomates son de nuestro jardín."},
+    "potato": {"text":"la patata","ex":"Hay patatas para cenar.","also":["la papa"],"note":{"en":"Spain says la patata. In Latin America: la papa.","tr":"İspanya'da la patata denir. Latin Amerika'da: la papa."}},
+    "fruit": {"text":"la fruta","ex":"Ali come fruta todos los días."},
+    "vegetable": {"text":"la verdura","ex":"Mi madre compra verdura fresca."},
+    "lunch": {"text":"el almuerzo","ex":"Tomamos el almuerzo a la una.","note":{"en":"Many people in Spain call lunch la comida. The verb is almorzar.","tr":"İspanya'da birçok kişi öğle yemeğine la comida der. Fiili: almorzar."}},
+    "dinner": {"text":"la cena","ex":"¡La cena está lista!"},
+    "food": {"text":"la comida","ex":"Hay comida en la cocina."},
+    "soup": {"text":"la sopa","ex":"Mi abuela hace sopa de tomate."},
+    "hungry": {"text":"tener hambre","ex":"Tengo hambre, ¡vamos a comer!","note":{"en":"Spanish says to have hunger: tengo hambre means I am hungry.","tr":"İspanyolcada açlığım var denir: tengo hambre, açım demek."}},
+    "like": {"text":"gustar","ex":"Me gusta el pescado, pero no el pollo.","note":{"en":"It works the other way round: me gusta means it pleases me. For more than one thing: me gustan.","tr":"Ters çalışır: me gusta, hoşuma gidiyor demek. Birden çok şey için: me gustan."}},
+    "house": {"text":"la casa","ex":"Su casa está cerca del mar."},
+    "room": {"text":"la habitación","ex":"Mi habitación tiene dos ventanas.","also":["el cuarto"]},
+    "kitchen": {"text":"la cocina","ex":"Mi padre cocina en la cocina.","note":{"en":"Cocina also means he or she cooks: mi padre cocina.","tr":"Cocina aynı zamanda yemek yapıyor demek: mi padre cocina."}},
+    "bedroom": {"text":"el dormitorio","ex":"El dormitorio está arriba.","note":{"en":"People also call it la habitación, the word for room.","tr":"Buna la habitación (oda) da denir."}},
+    "bathroom": {"text":"el baño","ex":"El baño está al lado de mi habitación.","also":["el cuarto de baño"]},
+    "garden": {"text":"el jardín","ex":"Los niños juegan en el jardín."},
+    "table": {"text":"la mesa","ex":"Las llaves están en la mesa."},
+    "chair": {"text":"la silla","ex":"Siéntate en esta silla."},
+    "bed": {"text":"la cama","ex":"Mi cama es muy blanda."},
+    "sofa": {"text":"el sofá","ex":"El sofá es grande y azul."},
+    "door": {"text":"la puerta","ex":"Cierra la puerta, por favor."},
+    "window": {"text":"la ventana","ex":"Abre la ventana, por favor."},
+    "lamp": {"text":"la lámpara","ex":"La lámpara está al lado de mi cama."},
+    "phone": {"text":"el teléfono","ex":"Tu teléfono está en el sofá.","also":["el móvil"],"note":{"en":"A mobile phone in Spain: el móvil.","tr":"İspanya'da cep telefonu: el móvil."}},
+    "book": {"text":"el libro","ex":"Este es un buen libro."},
+    "key": {"text":"la llave","ex":"Tengo la llave de la puerta."},
+    "fridge": {"text":"la nevera","ex":"Hay queso en la nevera.","also":["el frigorífico"]},
+    "computer": {"text":"el ordenador","ex":"Sam tiene un ordenador nuevo.","also":["la computadora"],"note":{"en":"Spain says el ordenador. In Latin America: la computadora.","tr":"İspanya'da el ordenador denir. Latin Amerika'da: la computadora."}},
+    "big": {"text":"grande","ex":"Su jardín es muy grande."},
+    "small": {"text":"pequeño","ex":"Tenemos una cocina pequeña."},
+    "new": {"text":"nuevo","ex":"Esta es mi casa nueva."},
+    "clean": {"text":"limpio","ex":"¿Está limpia tu habitación?"},
+    "beautiful": {"text":"bonito","ex":"¡Qué jardín tan bonito!","also":["precioso","hermoso"]},
+    "there-is": {"text":"hay","ex":"Hay un gato en la cama.","note":{"en":"Hay is the same for one thing or many: hay un gato, hay dos gatos.","tr":"Hay tek şey için de çok şey için de aynı: hay un gato, hay dos gatos."}},
+    "morning": {"text":"la mañana","ex":"Bebo café por la mañana.","note":{"en":"Without la, mañana means tomorrow.","tr":"La olmadan mañana, yarın demektir."}},
+    "afternoon": {"text":"la tarde","ex":"Jugamos en el parque por la tarde.","note":{"en":"La tarde runs from lunch until dark, so it also covers the early evening.","tr":"La tarde öğle yemeğinden karanlığa kadar sürer, yani akşamüstünü de kapsar."}},
+    "evening": {"text":"por la noche","ex":"Mi familia cena junta por la noche.","note":{"en":"Spanish has no separate word for evening: early evening is still la tarde, after dark it is la noche. Por la noche means in the evening or at night.","tr":"İspanyolcada akşam için ayrı kelime yok: akşamüstü hâlâ la tarde, karanlıktan sonrası la noche. Por la noche, akşamleyin ya da geceleyin demek."}},
+    "night": {"text":"la noche","ex":"La ciudad está tranquila de noche."},
+    "today": {"text":"hoy","ex":"Hoy estoy muy ocupado."},
+    "now": {"text":"ahora","ex":"Mia no está en casa ahora."},
+    "wake-up": {"text":"despertarse","ex":"Me despierto a las siete.","note":{"en":"It takes me, te or se: me despierto means I wake up.","tr":"Me, te ya da se ile kullanılır: me despierto, uyanırım demek."}},
+    "take-a-shower": {"text":"ducharse","ex":"Leo se ducha todas las mañanas.","also":["darse una ducha"]},
+    "go": {"text":"ir","ex":"Vamos al colegio en autobús.","note":{"en":"Very irregular: voy, vas, va, vamos.","tr":"Çok düzensiz bir fiil: voy, vas, va, vamos."}},
+    "work": {"text":"trabajar","ex":"Mi madre trabaja en un hospital."},
+    "school": {"text":"el colegio","ex":"El colegio está cerca de mi casa.","also":["la escuela"],"note":{"en":"In Spain a school for children is usually el colegio. La escuela also works.","tr":"İspanya'da çocukların okulu genelde el colegio. La escuela da olur."}},
+    "sleep": {"text":"dormir","ex":"Los bebés duermen mucho."},
+    "monday": {"text":"el lunes","ex":"El colegio empieza el lunes.","note":{"en":"Days have no capital letter. El lunes also means on Monday.","tr":"Günler büyük harfle yazılmaz. El lunes, pazartesi günü anlamına da gelir."}},
+    "tuesday": {"text":"el martes","ex":"El martes tengo clase de música."},
+    "wednesday": {"text":"el miércoles","ex":"El miércoles es un día de mucho trabajo."},
+    "thursday": {"text":"el jueves","ex":"Nos vemos el jueves."},
+    "friday": {"text":"el viernes","ex":"El viernes es mi día favorito."},
+    "week": {"text":"la semana","ex":"Trabajo cinco días a la semana."},
+    "saturday": {"text":"el sábado","ex":"El sábado visitamos a nuestra abuela."},
+    "sunday": {"text":"el domingo","ex":"Las tiendas están cerradas el domingo."},
+    "weekend": {"text":"el fin de semana","ex":"¿Qué haces el fin de semana?"},
+    "read": {"text":"leer","ex":"Zeynep lee un libro todas las noches."},
+    "watch": {"text":"ver","ex":"El sábado vemos una película.","note":{"en":"For TV and films Spanish uses ver (to see): ver la tele.","tr":"Televizyon ve film için ver (görmek) kullanılır: ver la tele."}},
+    "play": {"text":"jugar","ex":"Ali y Leo juegan al tenis.","note":{"en":"For games and sports: jugar al tenis. To play music, use tocar.","tr":"Oyun ve spor için: jugar al tenis. Müzik aleti çalmak için tocar kullanılır."}},
+    "city": {"text":"la ciudad","ex":"Estambul es una ciudad muy grande."},
+    "street": {"text":"la calle","ex":"Mi colegio está en esta calle."},
+    "park": {"text":"el parque","ex":"Paseamos por el parque los domingos."},
+    "hospital": {"text":"el hospital","ex":"El hospital está cerca de la estación.","note":{"en":"The h is silent in Spanish.","tr":"İspanyolcada h harfi okunmaz."}},
+    "museum": {"text":"el museo","ex":"El museo está cerrado los lunes."},
+    "bank": {"text":"el banco","ex":"El banco abre a las nueve.","note":{"en":"El banco also means a bench in a park.","tr":"El banco, parktaki oturma bankı anlamına da gelir."}},
+    "supermarket": {"text":"el supermercado","ex":"Compro leche en el supermercado."},
+    "pharmacy": {"text":"la farmacia","ex":"La farmacia está abierta toda la noche."},
+    "restaurant": {"text":"el restaurante","ex":"Este restaurante tiene una sopa muy buena."},
+    "library": {"text":"la biblioteca","ex":"Elif estudia en la biblioteca.","note":{"en":"Not la librería: that is a bookshop.","tr":"La librería değil: o kitapçı demek."}},
+    "bakery": {"text":"la panadería","ex":"La panadería vende pan fresco."},
+    "cafe": {"text":"la cafetería","ex":"Tomamos café en la cafetería."},
+    "left": {"text":"la izquierda","ex":"Gira a la izquierda en el banco.","note":{"en":"To the left, or on the left: a la izquierda.","tr":"Sola ya da solda: a la izquierda."}},
+    "right": {"text":"la derecha","ex":"El museo está a tu derecha.","note":{"en":"The direction. To the right, or on the right: a la derecha.","tr":"Yön olarak sağ. Sağa ya da sağda: a la derecha."}},
+    "straight-ahead": {"text":"todo recto","ex":"Sigue todo recto cinco minutos.","also":["recto"]},
+    "turn": {"text":"girar","ex":"Gira a la derecha después del parque.","also":["torcer"],"note":{"en":"To a friend: gira (turn). In Spain people also say tuerce, from torcer.","tr":"Bir arkadaşa: gira (dön). İspanya'da torcer fiilinden tuerce de denir."}},
+    "corner": {"text":"la esquina","ex":"Hay una panadería en la esquina."},
+    "where": {"text":"dónde","ex":"Perdona, ¿dónde está el banco?","note":{"en":"In questions it always has an accent: ¿dónde?","tr":"Sorularda hep aksanlı yazılır: ¿dónde?"}},
+    "near": {"text":"cerca","ex":"Mi casa está cerca del parque.","note":{"en":"Near the park: cerca del parque (de + el becomes del).","tr":"Parka yakın: cerca del parque (de + el, del olur)."}},
+    "far": {"text":"lejos","ex":"¿La playa está lejos de aquí?"},
+    "in-front-of": {"text":"delante de","ex":"Nos vemos delante de la biblioteca."},
+    "behind": {"text":"detrás de","ex":"El jardín está detrás de la casa."},
+    "between": {"text":"entre","ex":"El banco está entre la cafetería y la panadería."},
+    "map": {"text":"el mapa","ex":"¿Tienes un mapa de la ciudad?","note":{"en":"Masculine, although it ends in -a.","tr":"-a ile bitse de eril bir isim."}},
+    "shirt": {"text":"la camisa","ex":"Ali lleva una camisa blanca al trabajo."},
+    "pants": {"text":"los pantalones","ex":"Estos pantalones son demasiado largos.","also":["el pantalón"],"note":{"en":"In Spain you can also say el pantalón for one pair.","tr":"İspanya'da tek bir pantolon için el pantalón da denir."}},
+    "dress": {"text":"el vestido","ex":"Anna lleva un vestido largo."},
+    "shoes": {"text":"los zapatos","ex":"Mis zapatos están debajo de la cama."},
+    "jacket": {"text":"la chaqueta","ex":"Llévate la chaqueta, que hace frío."},
+    "wear": {"text":"llevar","ex":"En invierno llevo chaqueta.","note":{"en":"One verb for all clothes. Llevar also means to carry. To put on: ponerse.","tr":"Bütün giysiler için tek fiil. Llevar taşımak da demek. Üstüne giymek: ponerse."}},
+    "red": {"text":"rojo","ex":"Quiero la camisa roja.","note":{"en":"Colors in -o change for a feminine noun: rojo, roja.","tr":"-o ile biten renkler dişil isimle değişir: rojo, roja."}},
+    "blue": {"text":"azul","ex":"Emma tiene los ojos azules.","note":{"en":"The same for masculine and feminine. For more than one: azules.","tr":"Eril ve dişil için aynı. Çoğulu: azules."}},
+    "green": {"text":"verde","ex":"Me gustan las manzanas verdes."},
+    "yellow": {"text":"amarillo","ex":"A mi hermana le gustan las flores amarillas."},
+    "black": {"text":"negro","ex":"Tom tiene un perro negro."},
+    "white": {"text":"blanco","ex":"Las paredes de mi habitación son blancas."},
+    "price": {"text":"el precio","ex":"¿Cuál es el precio de este bolso?"},
+    "how-much-is-it": {"text":"¿cuánto cuesta?","ex":"Esta camiseta es bonita. ¿Cuánto cuesta?","also":["¿cuánto es?"]},
+    "cheap": {"text":"barato","ex":"Estos zapatos son baratos."},
+    "expensive": {"text":"caro","ex":"Esa chaqueta es demasiado cara."},
+    "pay": {"text":"pagar","ex":"¿Puedo pagar con tarjeta?"},
+    "money": {"text":"el dinero","ex":"No tengo mucho dinero."},
+    "shop": {"text":"la tienda","ex":"La tienda cierra a las ocho."},
+    "buy": {"text":"comprar","ex":"Quiero comprar un bolso nuevo."},
+    "sell": {"text":"vender","ex":"Aquí venden zapatos y bolsos."},
+    "size": {"text":"la talla","ex":"¿Lo tienes en una talla más grande?","note":{"en":"The size of clothes. For shoes, Spanish says el número.","tr":"Giysi bedeni. Ayakkabı için el número denir."}},
+    "try-on": {"text":"probarse","ex":"¿Puedo probarme este vestido?","note":{"en":"It takes me, te or se: ¿puedo probarme...? means can I try on...?","tr":"Me, te ya da se ile kullanılır: ¿puedo probarme...? deneyebilir miyim demek."}},
+    "bag": {"text":"el bolso","ex":"Pon tu bolso en la silla.","note":{"en":"A handbag. A shopping bag or a plastic bag is la bolsa.","tr":"El çantası. Alışveriş poşeti ya da naylon poşet: la bolsa."}},
+    "weather": {"text":"el tiempo","ex":"Hoy hace buen tiempo.","note":{"en":"El tiempo also means time. The weather is nice: hace buen tiempo.","tr":"El tiempo, zaman anlamına da gelir. Hava güzel: hace buen tiempo."}},
+    "sun": {"text":"el sol","ex":"El sol brilla en Madrid."},
+    "rain": {"text":"la lluvia","ex":"En Londres hay mucha lluvia."},
+    "snow": {"text":"la nieve","ex":"Los niños están jugando en la nieve."},
+    "wind": {"text":"el viento","ex":"Hoy hace un viento muy frío."},
+    "cloud": {"text":"la nube","ex":"No hay nubes en el cielo."},
+    "hot": {"text":"hace calor","ex":"En verano hace mucho calor.","note":{"en":"For the weather, Spanish says it makes heat. For things, use caliente: el té está caliente.","tr":"Hava için İspanyolcada sıcaklık yapıyor denir. Eşyalar için caliente: el té está caliente."}},
+    "cold": {"text":"hace frío","ex":"Hoy hace frío fuera.","note":{"en":"For the weather. For things: frío, fría (el agua está fría).","tr":"Hava için. Eşyalar için: frío, fría (el agua está fría)."}},
+    "sky": {"text":"el cielo","ex":"Hoy el cielo está gris."},
+    "umbrella": {"text":"el paraguas","ex":"Llévate un paraguas, que está lloviendo.","note":{"en":"One umbrella, although it ends in -s: el paraguas, los paraguas.","tr":"-s ile bitse de tekil: el paraguas, çoğulu los paraguas."}},
+    "wet": {"text":"mojado","ex":"Tengo el pelo mojado por la lluvia."},
+    "degree": {"text":"el grado","ex":"Hoy hace treinta grados."},
+    "season": {"text":"la estación","ex":"La primavera es mi estación favorita.","note":{"en":"La estación also means a station. A train station: la estación de tren.","tr":"La estación, istasyon anlamına da gelir. Tren istasyonu: la estación de tren."}},
+    "spring": {"text":"la primavera","ex":"Las flores se abren en primavera.","note":{"en":"The season. In spring: en primavera, with no article.","tr":"Mevsim. İlkbaharda: en primavera, artikelsiz."}},
+    "summer": {"text":"el verano","ex":"En verano vamos a la playa."},
+    "fall": {"text":"el otoño","ex":"En otoño las hojas están amarillas.","note":{"en":"The season between summer and winter (autumn).","tr":"Yaz ile kış arasındaki mevsim."}},
+    "winter": {"text":"el invierno","ex":"Los inviernos son fríos en Seúl."},
+    "flower": {"text":"la flor","ex":"A mi madre le encantan las flores."},
+    "outside": {"text":"fuera","ex":"Hoy comemos aquí fuera.","also":["afuera"]},
+    "inside": {"text":"dentro","ex":"Está lloviendo, así que nos quedamos dentro.","also":["adentro"]},
+    "beach": {"text":"la playa","ex":"Elif está leyendo en la playa."},
+    "swim": {"text":"nadar","ex":"Ali está nadando en el mar."},
+    "walk": {"text":"caminar","ex":"Anna y yo estamos caminando junto al mar.","also":["andar"]},
+    "stay": {"text":"quedarse","ex":"Hoy me quedo en casa.","note":{"en":"To stay in a place. It takes me, te or se: me quedo means I stay.","tr":"Bir yerde kalmak. Me, te ya da se ile kullanılır: me quedo, kalıyorum demek."}},
+    "bus": {"text":"el autobús","ex":"Esta mañana el autobús estaba lleno."},
+    "train": {"text":"el tren","ex":"El tren a Madrid era rápido."},
+    "car": {"text":"el coche","ex":"Mi primer coche era rojo.","note":{"en":"Spain says el coche. In Latin America: el carro or el auto.","tr":"İspanya'da el coche denir. Latin Amerika'da: el carro ya da el auto."}},
+    "bike": {"text":"la bicicleta","ex":"Voy al trabajo en bicicleta.","also":["la bici"]},
+    "taxi": {"text":"el taxi","ex":"El taxi fue muy caro."},
+    "plane": {"text":"el avión","ex":"Estuvimos doce horas en el avión."},
+    "ticket": {"text":"el billete","ex":"¿Este es tu billete de tren?","note":{"en":"A travel ticket. For a concert or the cinema, Spain says la entrada.","tr":"Yolculuk bileti. Konser ya da sinema bileti için İspanya'da la entrada denir."}},
+    "station": {"text":"la estación de tren","ex":"La estación de tren estaba llena de gente.","note":{"en":"Often just la estación, which also means season.","tr":"Çoğu zaman sadece la estación denir. Bu kelime mevsim anlamına da gelir."}},
+    "airport": {"text":"el aeropuerto","ex":"El aeropuerto estaba lejos de la ciudad."},
+    "passport": {"text":"el pasaporte","ex":"Tu pasaporte estaba en la mesa."},
+    "early": {"text":"temprano","ex":"Los lunes me despierto temprano."},
+    "late": {"text":"tarde","ex":"Lo siento, hoy he llegado tarde.","note":{"en":"To be late: llegar tarde. With la, la tarde means the afternoon.","tr":"Geç kalmak: llegar tarde. La ile, la tarde öğleden sonra demek."}},
+    "hotel": {"text":"el hotel","ex":"Nuestro hotel estaba cerca del mar."},
+    "suitcase": {"text":"la maleta","ex":"Mi maleta era muy pesada."},
+    "floor": {"text":"la planta","ex":"Nuestra habitación estaba en la quinta planta.","also":["el piso"],"note":{"en":"A level of a building. El piso also means floor, and also a flat.","tr":"Binadaki kat. El piso da kat demek, ayrıca daire anlamına gelir."}},
+    "view": {"text":"la vista","ex":"La vista desde la ventana era preciosa.","also":["las vistas"]},
+    "comfortable": {"text":"cómodo","ex":"Las camas eran muy cómodas."},
+    "quiet": {"text":"tranquilo","ex":"El hotel estaba limpio y tranquilo.","also":["silencioso"]},
+    "vacation": {"text":"las vacaciones","ex":"Nuestras vacaciones fueron demasiado cortas.","note":{"en":"Always plural. On vacation: de vacaciones.","tr":"Hep çoğul kullanılır. Tatilde: de vacaciones."}},
+    "sea": {"text":"el mar","ex":"El mar estaba templado y azul."},
+    "mountain": {"text":"la montaña","ex":"Las montañas estaban blancas de nieve."},
+    "photo": {"text":"la foto","ex":"Esta foto es de Tokio.","note":{"en":"Feminine, although it ends in -o: it is short for la fotografía.","tr":"-o ile bitse de dişil: la fotografía kelimesinin kısası."}},
+    "visit": {"text":"visitar","ex":"Los turistas visitan el museo todos los días."},
+    "wonderful": {"text":"maravilloso","ex":"Fue un día maravilloso en la playa.","also":["estupendo"]},
+    "yesterday": {"text":"ayer","ex":"Ayer vi a Elif.","note":{"en":"When a person comes after the verb, Spanish adds a: vi a Elif.","tr":"Fiilden sonra bir kişi gelince araya a eklenir: vi a Elif."}},
+    "last-night": {"text":"anoche","ex":"Anoche vimos una película."},
+    "last-week": {"text":"la semana pasada","ex":"La semana pasada Tom visitó París."},
+    "last-year": {"text":"el año pasado","ex":"Nos mudamos a Berlín el año pasado."},
+    "ago": {"text":"hace","ex":"Empecé en este trabajo hace dos años.","note":{"en":"Hace goes before the time: hace dos años means two years ago.","tr":"Hace zamandan önce gelir: hace dos años, iki yıl önce demek."}},
+    "then": {"text":"luego","ex":"Comimos y luego dimos un paseo.","also":["después"],"note":{"en":"After that, next in time.","tr":"Ondan sonra, ardından anlamında."}},
+    "meet": {"text":"quedar","ex":"Quedé con Zeynep en la cafetería.","note":{"en":"In Spain quedar con means to meet up by plan. To meet someone new: conocer. Not quedarse, which means to stay.","tr":"İspanya'da quedar con, planlı buluşmak demek. Biriyle tanışmak: conocer. Quedarse ise kalmak demek."}},
+    "see": {"text":"ver","ex":"Vi a tu hermano en el parque."},
+    "dance": {"text":"bailar","ex":"Bailamos toda la noche."},
+    "sing": {"text":"cantar","ex":"Mia nos cantó una canción."},
+    "party": {"text":"la fiesta","ex":"La fiesta fue en casa de Leo."},
+    "have-fun": {"text":"divertirse","ex":"Los niños se divirtieron mucho.","note":{"en":"It takes me, te or se: nos divertimos means we had fun.","tr":"Me, te ya da se ile kullanılır: nos divertimos, eğlendik demek."}},
+    "cook": {"text":"cocinar","ex":"Mi padre cocinó pescado para nosotros."},
+    "wash": {"text":"lavar","ex":"El domingo lavé el coche."},
+    "call": {"text":"llamar","ex":"Anoche llamé a mi abuela.","note":{"en":"To phone someone: llamar a alguien.","tr":"Birini telefonla aramak: llamar a alguien."}},
+    "write": {"text":"escribir","ex":"Anna escribió un correo largo."},
+    "listen": {"text":"escuchar","ex":"Escuchamos música todo el día."},
+    "music": {"text":"la música","ex":"Me gusta la música tranquila."},
+    "tired": {"text":"cansado","ex":"Después del trabajo estaba muy cansado."},
+    "forget": {"text":"olvidar","ex":"Olvidé el paraguas en casa."},
+    "lose": {"text":"perder","ex":"Ayer Sam perdió las llaves."},
+    "find": {"text":"encontrar","ex":"Encontré mi teléfono debajo de la cama."},
+    "finish": {"text":"terminar","ex":"Terminamos los deberes a las nueve.","also":["acabar"]},
+    "start": {"text":"empezar","ex":"La película empezó a las ocho.","also":["comenzar"]},
+    "tomorrow": {"text":"mañana","ex":"Mañana voy a visitar a mi abuela.","note":{"en":"La mañana means the morning. Mañana alone means tomorrow.","tr":"La mañana sabah demek. Tek başına mañana ise yarın demek."}},
+    "tonight": {"text":"esta noche","ex":"Esta noche vamos a ver una película."},
+    "next-week": {"text":"la semana que viene","ex":"La semana que viene voy a empezar un trabajo nuevo.","also":["la próxima semana"]},
+    "next-year": {"text":"el año que viene","ex":"El año que viene nos vamos a mudar a Seúl.","also":["el próximo año"]},
+    "soon": {"text":"pronto","ex":"Mi hermana va a visitarnos pronto."},
+    "plan": {"text":"el plan","ex":"¿Cuál es tu plan para el sábado?"},
+    "invite": {"text":"invitar","ex":"Me gustaría invitarte a cenar."},
+    "would-you-like": {"text":"¿te apetece?","ex":"¿Te apetece un té?","also":["¿quieres?"],"note":{"en":"A friendly offer, very common in Spain. ¿Quieres...? also works.","tr":"Samimi bir teklif, İspanya'da çok yaygın. ¿Quieres...? da olur."}},
+    "come": {"text":"venir","ex":"¿Quieres venir a mi fiesta?"},
+    "free": {"text":"libre","ex":"¿Estás libre el viernes por la noche?","note":{"en":"Not busy. If something costs nothing, it is gratis.","tr":"Meşgul değil. Bir şey bedavaysa gratis denir."}},
+    "busy": {"text":"ocupado","ex":"Lo siento, mañana estoy ocupado."},
+    "concert": {"text":"el concierto","ex":"Esta noche hay un concierto en el parque."},
+    "of-course": {"text":"claro","ex":"¡Claro que voy a ir!","also":["por supuesto","claro que sí"]},
+    "good-idea": {"text":"buena idea","ex":"¿Un pícnic el domingo? ¡Buena idea!"},
+    "maybe": {"text":"a lo mejor","ex":"A lo mejor vengo más tarde.","also":["quizás","quizá","tal vez"]},
+    "unfortunately": {"text":"por desgracia","ex":"Por desgracia, la tienda está cerrada hoy.","also":["desgraciadamente","lamentablemente"]},
+    "another-time": {"text":"otro día","ex":"Lo siento, no puedo ir. ¿Otro día, quizás?","also":["en otra ocasión"],"note":{"en":"Word for word: another day. It is the usual way to say another time.","tr":"Kelimesi kelimesine: başka gün. Başka zaman demenin olağan yolu."}},
+    "i-would-love-to": {"text":"me encantaría","ex":"¿Cenar el sábado? ¡Me encantaría!","note":{"en":"A warm yes to an invitation.","tr":"Bir davete sıcak bir evet."}},
+    "learn": {"text":"aprender","ex":"Me gustaría aprender a cocinar."},
+    "travel": {"text":"viajar","ex":"Emma va a viajar a Tokio."},
+    "rest": {"text":"descansar","ex":"Este fin de semana voy a descansar."},
+    "celebrate": {"text":"celebrar","ex":"Vamos a celebrar su cumpleaños."},
+    "bring": {"text":"traer","ex":"Voy a traer una tarta."},
+    "ready": {"text":"listo","ex":"¿Estás listo para el viaje?","also":["preparado"],"note":{"en":"Estar listo means to be ready. Ser listo means to be clever.","tr":"Estar listo hazır olmak demek. Ser listo ise zeki olmak demek."}}
+  },
+  "sentences": {
+    "u01-1-a": {"tokens":["¡Buenos","días,","Zeynep","y","Ali!"],"gap":1,"wrong":["meses","años","libros"]},
+    "u01-1-b": {"tokens":["Hola,","Sam,","¿cómo","estás?"],"gap":3,"wrong":["comes","bebes","lees"]},
+    "u01-2-a": {"tokens":["Buenas","noches,","Mia","y","Leo."],"gap":1,"wrong":["semanas","casas","sillas"]},
+    "u01-2-b": {"tokens":["Hasta","mañana,","Tom."],"gap":1,"wrong":["ayer","antes","anoche"]},
+    "u01-3-a": {"tokens":["Encantado","de","conocerte,","Tom."],"gap":0,"wrong":["Cansado","Ocupado","Alto"]},
+    "u01-3-b": {"tokens":["Anna","es","una","profesora","de","Berlín."],"gap":3,"wrong":["ventana","manzana","cocina"]},
+    "u01-4-a": {"tokens":["Dos","tés,","por","favor."],"gap":1,"wrong":["panes","huevos","libros"]},
+    "u01-4-b": {"tokens":["Muchas","gracias,","Emre."],"gap":1,"wrong":["mesas","casas","manzanas"]},
+    "u02-1-a": {"tokens":["Mi","madre","y","mi","padre","son","profesores."],"gap":1,"wrong":["mesa","cama","ventana"]},
+    "u02-1-b": {"tokens":["Zeynep","tiene","un","hermano."],"gap":3,"wrong":["mes","país","té"]},
+    "u02-2-a": {"tokens":["Mi","abuela","vive","con","nosotros."],"gap":1,"wrong":["mesa","ventana","manzana"]},
+    "u02-2-b": {"tokens":["Mia","tiene","un","gato","negro."],"gap":3,"wrong":["queso","huevo","pan"]},
+    "u02-3-a": {"tokens":["Emma","es","mi","nueva","vecina."],"gap":4,"wrong":["cocina","ventana","silla"]},
+    "u02-3-b": {"tokens":["Mis","amigos","son","muy","graciosos."],"gap":1,"wrong":["huevos","quesos","tomates"]},
+    "u02-4-a": {"tokens":["Ese","hombre","es","muy","alto."],"gap":4,"wrong":["barato","caro","lleno"]},
+    "u02-4-b": {"tokens":["La","mujer","es","joven","y","feliz."],"gap":3,"wrong":["verde","azul","gris"]},
+    "u03-1-a": {"tokens":["Tengo","dos","hermanas."],"gap":1,"wrong":["tres","cuatro","seis"]},
+    "u03-1-b": {"tokens":["Cuatro","más","dos","son","seis."],"gap":4,"wrong":["cinco","tres","uno"]},
+    "u03-2-a": {"tokens":["Mi","hermana","tiene","ocho","años."],"gap":3,"wrong":["siete","nueve","once"]},
+    "u03-2-b": {"tokens":["Hay","siete","días","en","una","semana."],"gap":1,"wrong":["ocho","diez","doce"]},
+    "u03-3-a": {"tokens":["Veinte","más","treinta","son","cincuenta."],"gap":4,"wrong":["treinta","veinte","cien"]},
+    "u03-3-b": {"tokens":["Mi","número","de","habitación","es","el","doce."],"gap":1,"wrong":["año","mes","país"]},
+    "u03-4-a": {"tokens":["Tengo","doce","años."],"gap":0,"wrong":["Soy","Estoy","Como"]},
+    "u03-4-b": {"tokens":["¿Cuántos","gatos","tienes?"],"gap":0,"wrong":["Dónde","Cómo","Cuándo"]},
+    "u04-1-a": {"tokens":["Como","pan","en","el","desayuno."],"gap":1,"wrong":["agua","leche","zumo"]},
+    "u04-1-b": {"tokens":["Tom","come","dos","huevos."],"gap":3,"wrong":["libros","zapatos","días"]},
+    "u04-2-a": {"tokens":["Emre","bebe","café","todas","las","mañanas."],"gap":2,"wrong":["pan","queso","huevo"]},
+    "u04-2-b": {"tokens":["El","zumo","está","muy","frío."],"gap":1,"wrong":["libro","nombre","país"]},
+    "u04-3-a": {"tokens":["Los","plátanos","son","amarillos","y","dulces."],"gap":1,"wrong":["libros","perros","gatos"]},
+    "u04-3-b": {"tokens":["Necesitamos","tres","patatas."],"gap":2,"wrong":["sillas","camas","puertas"]},
+    "u04-4-a": {"tokens":["La","cena","es","a","las","ocho."],"gap":1,"wrong":["casa","mesa","cama"]},
+    "u04-4-b": {"tokens":["A","Deniz","le","gusta","mucho","la","sopa."],"gap":3,"wrong":["come","bebe","vive"]},
+    "u05-1-a": {"tokens":["Nuestra","casa","tiene","tres","habitaciones."],"gap":4,"wrong":["manzanas","hermanas","patatas"]},
+    "u05-1-b": {"tokens":["Emma","está","ahora","en","el","jardín."],"gap":5,"wrong":["queso","pan","nombre"]},
+    "u05-2-a": {"tokens":["Hay","una","silla","al","lado","de","la","ventana."],"gap":2,"wrong":["semana","edad","noche"]},
+    "u05-2-b": {"tokens":["Mi","cama","está","al","lado","de","la","puerta."],"gap":7,"wrong":["leche","miel","sopa"]},
+    "u05-3-a": {"tokens":["El","libro","está","en","la","cama."],"gap":1,"wrong":["año","mes","país"]},
+    "u05-3-b": {"tokens":["¿Dónde","están","las","llaves,","Tom?"],"gap":3,"wrong":["semanas","noches","tardes"]},
+    "u05-4-a": {"tokens":["Nuestra","casa","nueva","es","muy","grande."],"gap":5,"wrong":["joven","feliz","amable"]},
+    "u05-4-b": {"tokens":["Hay","un","jardín","pequeño."],"gap":3,"wrong":["cansado","contento","simpático"]},
+    "u06-1-a": {"tokens":["Por","la","noche","leo","libros."],"gap":2,"wrong":["silla","leche","sopa"]},
+    "u06-1-b": {"tokens":["Ali","trabaja","por","la","tarde."],"gap":4,"wrong":["mesa","sopa","leche"]},
+    "u06-2-a": {"tokens":["Emma","se","despierta","a","las","seis."],"gap":2,"wrong":["lee","trabaja","juega"]},
+    "u06-2-b": {"tokens":["Deniz","va","al","colegio","todos","los","días."],"gap":1,"wrong":["come","bebe","lee"]},
+    "u06-3-a": {"tokens":["Tom","trabaja","de","lunes","a","viernes."],"gap":3,"wrong":["martes","jueves","sábado"]},
+    "u06-3-b": {"tokens":["Nuestra","clase","es","el","miércoles."],"gap":4,"wrong":["martes","jueves","lunes"]},
+    "u06-4-a": {"tokens":["Mia","juega","con","su","perro","el","domingo."],"gap":1,"wrong":["lee","bebe","trabaja"]},
+    "u06-4-b": {"tokens":["Elif","lee","en","el","jardín."],"gap":1,"wrong":["come","duerme","trabaja"]},
+    "u07-1-a": {"tokens":["Roma","tiene","muchos","museos","antiguos."],"gap":3,"wrong":["zapatos","huevos","platos"]},
+    "u07-1-b": {"tokens":["El","parque","está","en","mi","calle."],"gap":5,"wrong":["sopa","maleta","camisa"]},
+    "u07-2-a": {"tokens":["La","panadería","abre","a","las","siete."],"gap":1,"wrong":["nube","lluvia","flor"]},
+    "u07-2-b": {"tokens":["¿Hay","una","farmacia","cerca","de","aquí?"],"gap":2,"wrong":["nube","camisa","semana"]},
+    "u07-3-a": {"tokens":["Gira","a","la","izquierda","en","la","esquina."],"gap":3,"wrong":["cocina","ventana","camisa"]},
+    "u07-3-b": {"tokens":["¿Dónde","está","el","museo","de","la","ciudad?"],"gap":0,"wrong":["Cuándo","Cuánto","Quién"]},
+    "u07-4-a": {"tokens":["La","estación","no","está","lejos."],"gap":4,"wrong":["ayer","anoche","temprano"]},
+    "u07-4-b": {"tokens":["La","cafetería","está","detrás","del","museo."],"gap":3,"wrong":["ayer","pronto","siempre"]},
+    "u08-1-a": {"tokens":["Mia","lleva","zapatos","negros."],"gap":1,"wrong":["come","bebe","canta"]},
+    "u08-1-b": {"tokens":["Este","vestido","es","muy","bonito."],"gap":1,"wrong":["pan","queso","té"]},
+    "u08-2-a": {"tokens":["Me","gusta","la","chaqueta","azul."],"gap":4,"wrong":["verde","roja","negra"]},
+    "u08-2-b": {"tokens":["Mis","zapatos","nuevos","son","blancos."],"gap":4,"wrong":["rojos","negros","verdes"]},
+    "u08-3-a": {"tokens":["El","precio","del","vestido","es","cincuenta."],"gap":1,"wrong":["color","país","mes"]},
+    "u08-3-b": {"tokens":["Esta","camisa","es","muy","barata."],"gap":4,"wrong":["cara","cansada","simpática"]},
+    "u08-4-a": {"tokens":["¿Puedo","probarme","estos","pantalones?"],"gap":1,"wrong":["comerme","beberme","dormirme"]},
+    "u08-4-b": {"tokens":["Esta","tienda","vende","sombreros","bonitos."],"gap":2,"wrong":["bebe","come","lee"]},
+    "u09-1-a": {"tokens":["Está","lloviendo","en","París."],"gap":1,"wrong":["nevando","bailando","cantando"]},
+    "u09-1-b": {"tokens":["¡Mira,","está","nevando!"],"gap":2,"wrong":["lloviendo","bailando","cantando"]},
+    "u09-2-a": {"tokens":["Hace","mucho","frío","en","Berlín."],"gap":2,"wrong":["calor","dinero","pan"]},
+    "u09-2-b": {"tokens":["Tom","lleva","un","paraguas","negro."],"gap":3,"wrong":["huevo","queso","pan"]},
+    "u09-3-a": {"tokens":["En","primavera","los","árboles","están","verdes."],"gap":1,"wrong":["invierno","otoño","noche"]},
+    "u09-3-b": {"tokens":["El","verano","es","una","estación","calurosa."],"gap":1,"wrong":["invierno","otoño","lunes"]},
+    "u09-4-a": {"tokens":["Leo","está","nadando","en","la","playa."],"gap":2,"wrong":["lloviendo","nevando","cerrando"]},
+    "u09-4-b": {"tokens":["Mia","y","Tom","están","caminando","fuera."],"gap":5,"wrong":["dentro","ayer","anoche"]},
+    "u10-1-a": {"tokens":["El","autobús","era","muy","lento."],"gap":1,"wrong":["queso","pan","té"]},
+    "u10-1-b": {"tokens":["A","las","seis","estábamos","en","el","tren."],"gap":6,"wrong":["libro","queso","mes"]},
+    "u10-2-a": {"tokens":["El","tren","llegó","tarde","otra","vez."],"gap":3,"wrong":["temprano","dentro","debajo"]},
+    "u10-2-b": {"tokens":["Los","billetes","no","eran","caros."],"gap":1,"wrong":["días","años","meses"]},
+    "u10-3-a": {"tokens":["La","habitación","del","hotel","era","muy","tranquila."],"gap":6,"wrong":["ruidosa","cansada","simpática"]},
+    "u10-3-b": {"tokens":["¿La","cama","era","cómoda?"],"gap":3,"wrong":["cansada","simpática","graciosa"]},
+    "u10-4-a": {"tokens":["El","mar","estaba","muy","bonito."],"gap":1,"wrong":["huevo","queso","número"]},
+    "u10-4-b": {"tokens":["Nuestras","vacaciones","en","Río","fueron","maravillosas."],"gap":5,"wrong":["cansadas","cerradas","mojadas"]},
+    "u11-1-a": {"tokens":["Emma","me","llamó","ayer."],"gap":3,"wrong":["mañana","nunca","tampoco"]},
+    "u11-1-b": {"tokens":["Vi","a","Ali","hace","dos","días."],"gap":3,"wrong":["tiene","está","come"]},
+    "u11-2-a": {"tokens":["Bailamos","en","la","fiesta."],"gap":0,"wrong":["Dormimos","Nadamos","Lavamos"]},
+    "u11-2-b": {"tokens":["Emre","y","yo","quedamos","el","sábado."],"gap":3,"wrong":["vendimos","lavamos","perdimos"]},
+    "u11-3-a": {"tokens":["Tom","cocinó","sopa","para","la","cena."],"gap":1,"wrong":["bailó","durmió","cantó"]},
+    "u11-3-b": {"tokens":["Escuché","música","en","la","cama."],"gap":0,"wrong":["Cociné","Lavé","Bebí"]},
+    "u11-4-a": {"tokens":["Elif","olvidó","su","bolso","en","el","colegio."],"gap":1,"wrong":["bailó","cantó","nadó"]},
+    "u11-4-b": {"tokens":["Ayer","perdí","mi","billete."],"gap":1,"wrong":["bailé","nadé","dormí"]},
+    "u12-1-a": {"tokens":["Voy","a","llamarte","mañana."],"gap":3,"wrong":["ayer","anoche","nunca"]},
+    "u12-1-b": {"tokens":["Mia","va","a","cocinar","esta","noche."],"gap":1,"wrong":["come","está","es"]},
+    "u12-2-a": {"tokens":["¿Te","apetece","venir","con","nosotros?"],"gap":2,"wrong":["llover","nevar","costar"]},
+    "u12-2-b": {"tokens":["¿Estás","libre","este","fin","de","semana?"],"gap":1,"wrong":["verde","azul","gris"]},
+    "u12-3-a": {"tokens":["Claro","que","me","gustaría","ir."],"gap":0,"wrong":["Pronto","Ayer","Nunca"]},
+    "u12-3-b": {"tokens":["Por","desgracia,","esta","noche","estoy","ocupado."],"gap":5,"wrong":["barato","caro","abierto"]},
+    "u12-4-a": {"tokens":["Vamos","a","celebrarlo","el","sábado."],"gap":2,"wrong":["lavarlo","perderlo","venderlo"]},
+    "u12-4-b": {"tokens":["A","Deniz","le","gustaría","aprender","francés."],"gap":4,"wrong":["llover","nevar","dormir"]}
+  },
+  "tips": {
+    "u01": {
+      "title": {
+        "en": "I am, you are: soy, eres, es",
+        "tr": "Ben, sen, o: soy, eres, es"
+      },
+      "body": {
+        "en": "To say who or what you are, use the verb ser: soy (I am), eres (you are), es (he or she is). Spanish usually leaves out the words for I and you, because the end of the verb already tells who it is. Soy Emre means I am Emre.\n\nTo one friend you say tú, so the verb is eres. To an older stranger you say usted, and then the verb is es, the same as for he or she.\n\nIn writing, questions and exclamations start with an upside-down mark: ¿Cómo estás? ¡Hola!",
+        "tr": "Kim ya da ne olduğunu söylemek için ser fiilini kullan: soy (ben ...im), eres (sen ...sin), es (o ...dir). İspanyolcada ben ve sen kelimeleri genelde söylenmez, çünkü fiilin sonu kimin olduğunu zaten gösterir. Türkçedeki kişi ekleri gibi: Soy Emre, Ben Emre'yim demek.\n\nBir arkadaşına tú dersin, yani fiil eres olur. Tanımadığın büyük birine usted dersin; o zaman fiil, o için olduğu gibi es olur.\n\nYazıda soru ve ünlem cümleleri ters bir işaretle başlar: ¿Cómo estás? ¡Hola!"
+      },
+      "examples": [
+        {
+          "text": "Soy Deniz.",
+          "en": "I am Deniz.",
+          "tr": "Ben Deniz'im."
+        },
+        {
+          "text": "¿Eres estudiante?",
+          "en": "Are you a student?",
+          "tr": "Öğrenci misin?"
+        },
+        {
+          "text": "Emma es de Berlín.",
+          "en": "Emma is from Berlin.",
+          "tr": "Emma Berlinli."
+        }
+      ]
+    },
+    "u02": {
+      "title": {
+        "en": "Every noun is el or la",
+        "tr": "Her isim ya el ya la alır"
+      },
+      "body": {
+        "en": "Every Spanish noun is masculine or feminine. Most nouns that end in -o are masculine and take el (the): el hermano. Most nouns that end in -a are feminine and take la: la hermana. Some do not follow the pattern, like la mujer or el padre, so always learn a noun together with its article.\n\nFor more than one, el becomes los and la becomes las: los hermanos, las hermanas.\n\nAdjectives usually come after the noun and match it: un gato negro, una casa nueva.",
+        "tr": "İspanyolcada her isim ya eril ya dişildir. Türkçede böyle bir ayrım yok, bu yüzden biraz alışman gerekecek. -o ile biten isimlerin çoğu erildir ve el alır: el hermano (erkek kardeş). -a ile bitenlerin çoğu dişildir ve la alır: la hermana (kız kardeş). La mujer ya da el padre gibi istisnalar da var, bu yüzden her ismi artikeliyle birlikte öğren.\n\nÇoğulda el, los olur; la da las olur: los hermanos, las hermanas.\n\nSıfatlar genelde ismin arkasından gelir ve ona uyar: un gato negro, una casa nueva."
+      },
+      "examples": [
+        {
+          "text": "el abuelo, la abuela",
+          "en": "the grandfather, the grandmother",
+          "tr": "büyükbaba, büyükanne"
+        },
+        {
+          "text": "Mi hermano es alto.",
+          "en": "My brother is tall.",
+          "tr": "Erkek kardeşim uzun boylu."
+        },
+        {
+          "text": "Mi hermana es alta.",
+          "en": "My sister is tall.",
+          "tr": "Kız kardeşim uzun boylu."
+        }
+      ]
+    },
+    "u03": {
+      "title": {
+        "en": "Age: you have years",
+        "tr": "Yaş: tener fiiliyle söylenir"
+      },
+      "body": {
+        "en": "In Spanish you do not say that you are an age: you say that you have it. Use tener (to have) with años (years). Tengo doce años means I am twelve years old. The forms are tengo (I have), tienes (you have) and tiene (he or she has).\n\nTo ask a friend, say ¿Cuántos años tienes? Never say soy doce: that sounds wrong to a Spanish speaker.\n\nThe number one has three forms: uno when you count, un before a masculine noun (un hermano) and una before a feminine noun (una hermana).",
+        "tr": "İspanyolcada yaşını olmak fiiliyle değil, tener (sahip olmak) fiiliyle söylersin. Tengo doce años, kelimesi kelimesine on iki yılım var demek; Türkçedeki on iki yaşındayım cümlesinin karşılığı budur. Fiilin halleri: tengo (benim var), tienes (senin var), tiene (onun var).\n\nBir arkadaşına sormak için: ¿Cuántos años tienes? Soy doce deme: bu, İspanyolca konuşan birine yanlış gelir.\n\nBir (1) sayısının üç hali var: sayarken uno, eril isimden önce un (un hermano), dişil isimden önce una (una hermana)."
+      },
+      "examples": [
+        {
+          "text": "Tengo doce años.",
+          "en": "I am twelve years old.",
+          "tr": "On iki yaşındayım."
+        },
+        {
+          "text": "¿Cuántos años tienes?",
+          "en": "How old are you?",
+          "tr": "Kaç yaşındasın?"
+        },
+        {
+          "text": "Mi abuelo tiene cien años.",
+          "en": "My grandfather is one hundred.",
+          "tr": "Büyükbabam yüz yaşında."
+        }
+      ]
+    },
+    "u04": {
+      "title": {
+        "en": "I like it: me gusta",
+        "tr": "Hoşuma gidiyor: me gusta"
+      },
+      "body": {
+        "en": "Spanish says I like the other way round. Me gusta el café means coffee pleases me. The thing you like is the subject, so the verb changes with it: me gusta el té (one thing), me gustan las manzanas (more than one).\n\nThe small word in front tells who likes it: me (I), te (you), le (he or she). To name the person, add a: A Deniz le gusta la sopa.\n\nTo say what you do not like, put no in front: No me gusta el pescado.",
+        "tr": "Bu yapı Türkçedeki hoşuma gidiyor gibi çalışır: Me gusta el café, kahve hoşuma gidiyor demek. Sevilen şey öznedir, bu yüzden fiil ona göre değişir: me gusta el té (tek şey), me gustan las manzanas (birden çok şey).\n\nÖndeki küçük kelime kimin sevdiğini gösterir: me (ben), te (sen), le (o). Kişinin adını söylemek için a ekle: A Deniz le gusta la sopa.\n\nSevmediğin şeyler için başa no koy: No me gusta el pescado."
+      },
+      "examples": [
+        {
+          "text": "Me gusta el queso.",
+          "en": "I like cheese.",
+          "tr": "Peyniri severim."
+        },
+        {
+          "text": "¿Te gustan los plátanos?",
+          "en": "Do you like bananas?",
+          "tr": "Muzları sever misin?"
+        },
+        {
+          "text": "A Tom no le gusta la leche.",
+          "en": "Tom does not like milk.",
+          "tr": "Tom sütü sevmez."
+        }
+      ]
+    },
+    "u05": {
+      "title": {
+        "en": "There is or it is: hay and está",
+        "tr": "Var ve nerede: hay ve está"
+      },
+      "body": {
+        "en": "Use hay to say that something exists, or to talk about it for the first time: Hay un gato en la cama (There is a cat on the bed). Hay never changes, for one thing or many: hay dos sillas.\n\nUse está (is) or están (are) to say where a known thing is, a thing with el or la in front: El gato está en la cama (The cat is on the bed). Las llaves están en la mesa.\n\nSo hay goes with un, una or a number, and está goes with el or la.",
+        "tr": "Bir şeyin var olduğunu söylemek ya da ondan ilk kez söz etmek için hay kullan: Hay un gato en la cama (Yatağın üstünde bir kedi var). Hay hiç değişmez, tek şey için de çok şey için de: hay dos sillas.\n\nBilinen bir şeyin, yani önünde el ya da la olan bir şeyin nerede olduğunu söylemek için está (tekil) ya da están (çoğul) kullan: El gato está en la cama (Kedi yatağın üstünde). Las llaves están en la mesa.\n\nKısacası hay; un, una ya da bir sayıyla gelir. Está ise el ya da la ile gelir."
+      },
+      "examples": [
+        {
+          "text": "Hay un sofá en mi habitación.",
+          "en": "There is a sofa in my room.",
+          "tr": "Odamda bir kanepe var."
+        },
+        {
+          "text": "El sofá está al lado de la ventana.",
+          "en": "The sofa is next to the window.",
+          "tr": "Kanepe pencerenin yanında."
+        }
+      ]
+    },
+    "u06": {
+      "title": {
+        "en": "Every day: the present tense",
+        "tr": "Her gün: fiiller kişiye göre değişir"
+      },
+      "body": {
+        "en": "Spanish verbs change their ending for each person. Take -ar, -er or -ir off the verb and add the ending. Trabajar: trabajo (I work), trabajas (you work), trabaja (he or she works), trabajamos (we work). Comer: como, comes, come, comemos. Vivir: vivo, vives, vive, vivimos.\n\nSome verbs come with se, because you do the action to yourself: despertarse (to wake up). Then me, te or se goes in front: me despierto, te despiertas, se despierta.\n\nThis tense also tells what you do every day: Trabajo los lunes (I work on Mondays).",
+        "tr": "İspanyolca fiiller, Türkçedeki gibi, kişiye göre sonlarını değiştirir. Fiilin sonundaki -ar, -er ya da -ir'i at ve kişi ekini ekle. Trabajar: trabajo (çalışırım), trabajas (çalışırsın), trabaja (çalışır), trabajamos (çalışırız). Comer: como, comes, come, comemos. Vivir: vivo, vives, vive, vivimos.\n\nBazı fiiller se ile gelir, çünkü eylemi kendine yaparsın: despertarse (uyanmak). O zaman öne me, te ya da se gelir: me despierto, te despiertas, se despierta.\n\nBu zaman her gün yaptığın şeyleri de anlatır: Trabajo los lunes (Pazartesileri çalışırım)."
+      },
+      "examples": [
+        {
+          "text": "Trabajo de lunes a viernes.",
+          "en": "I work from Monday to Friday.",
+          "tr": "Pazartesiden cumaya çalışırım."
+        },
+        {
+          "text": "Me despierto a las siete.",
+          "en": "I wake up at seven.",
+          "tr": "Saat yedide uyanırım."
+        },
+        {
+          "text": "Comemos juntos los domingos.",
+          "en": "We eat together on Sundays.",
+          "tr": "Pazar günleri birlikte yemek yeriz."
+        }
+      ]
+    },
+    "u07": {
+      "title": {
+        "en": "Directions: gira, sigue, al, del",
+        "tr": "Yol tarifi: gira, sigue, al, del"
+      },
+      "body": {
+        "en": "To tell a friend which way to go, use the command form. For most verbs it looks like the he or she form: gira (turn), toma (take). Sigue means keep going: Sigue todo recto.\n\nSpanish joins two small words: a + el becomes al, and de + el becomes del. So you say Gira al final de la calle (Turn at the end of the street), and El banco está cerca del parque. With la nothing changes: a la izquierda, cerca de la estación.\n\nTo stop someone and ask, start with Perdona (to someone your age or younger) or Perdone (to an older person).",
+        "tr": "Bir arkadaşına yol tarif ederken emir halini kullanırsın. Fiillerin çoğunda bu hal, o için kullanılan hale benzer: gira (dön), toma (al). Sigue, devam et demek: Sigue todo recto (Dümdüz devam et).\n\nİspanyolcada iki küçük kelime birleşir: a + el, al olur; de + el, del olur. Yani Gira al final de la calle (Sokağın sonunda dön) ve El banco está cerca del parque (Banka parka yakın) dersin. La ile bir şey değişmez: a la izquierda, cerca de la estación.\n\nBirini durdurup sormak için Perdona (yaşıtına ya da senden küçük birine) ya da Perdone (senden büyük birine) diye başla."
+      },
+      "examples": [
+        {
+          "text": "Gira a la derecha en la esquina.",
+          "en": "Turn right at the corner.",
+          "tr": "Köşeden sağa dön."
+        },
+        {
+          "text": "El museo está cerca del parque.",
+          "en": "The museum is near the park.",
+          "tr": "Müze parka yakın."
+        },
+        {
+          "text": "Perdona, ¿dónde está la farmacia?",
+          "en": "Excuse me, where is the pharmacy?",
+          "tr": "Affedersin, eczane nerede?"
+        }
+      ]
+    },
+    "u08": {
+      "title": {
+        "en": "This and these: este, esta, estos, estas",
+        "tr": "Bu ve bunlar: este, esta, estos, estas"
+      },
+      "body": {
+        "en": "The word for this changes to match its noun: este for a masculine noun (este vestido), esta for a feminine noun (esta camisa), and estos or estas for more than one (estos zapatos, estas camisas).\n\nColors and other adjectives match the noun too, and they usually come after it: una chaqueta roja, unos zapatos negros. Colors that end in -e or in a consonant, like verde or azul, do not change for feminine. For more than one they add -s or -es: los ojos azules.\n\nIn a shop: ¿Cuánto cuesta este bolso? (How much is this bag?)",
+        "tr": "Bu kelimesi ismine göre değişir: eril isim için este (este vestido), dişil isim için esta (esta camisa), çoğul için estos ya da estas (estos zapatos, estas camisas).\n\nRenkler ve diğer sıfatlar da isme uyar ve genelde ondan sonra gelir: una chaqueta roja (kırmızı bir ceket), unos zapatos negros (siyah ayakkabılar). Verde ya da azul gibi -e ya da ünsüzle biten renkler dişil isimle değişmez. Çoğulda -s ya da -es alırlar: los ojos azules.\n\nMağazada: ¿Cuánto cuesta este bolso? (Bu çanta ne kadar?)"
+      },
+      "examples": [
+        {
+          "text": "Esta camisa es muy barata.",
+          "en": "This shirt is very cheap.",
+          "tr": "Bu gömlek çok ucuz."
+        },
+        {
+          "text": "Estos zapatos son blancos.",
+          "en": "These shoes are white.",
+          "tr": "Bu ayakkabılar beyaz."
+        },
+        {
+          "text": "Quiero la chaqueta azul.",
+          "en": "I want the blue jacket.",
+          "tr": "Mavi ceketi istiyorum."
+        }
+      ]
+    },
+    "u09": {
+      "title": {
+        "en": "Right now: está lloviendo",
+        "tr": "Şu anda: está lloviendo"
+      },
+      "body": {
+        "en": "To say what is happening right now, use estar with a verb that ends in -ando or -iendo. Take -ar off and add -ando: caminar, caminando. Take -er or -ir off and add -iendo: comer, comiendo. Estoy caminando (I am walking), estás nadando (you are swimming), está lloviendo (it is raining).\n\nFor the weather, Spanish also uses hace (it makes): hace calor (it is hot), hace frío (it is cold), hace sol (it is sunny), hace buen tiempo (the weather is nice).",
+        "tr": "Şu anda olan bir şeyi anlatmak için estar fiilini, -ando ya da -iendo ile biten bir fiille kullan. Bu, Türkçedeki -iyor ekine benzer. -ar'ı at, -ando ekle: caminar, caminando. -er ya da -ir'i at, -iendo ekle: comer, comiendo. Estoy caminando (yürüyorum), estás nadando (yüzüyorsun), está lloviendo (yağmur yağıyor).\n\nHava için İspanyolca hace (yapıyor) fiilini de kullanır: hace calor (hava sıcak), hace frío (hava soğuk), hace sol (hava güneşli), hace buen tiempo (hava güzel)."
+      },
+      "examples": [
+        {
+          "text": "Está nevando en Berlín.",
+          "en": "It is snowing in Berlin.",
+          "tr": "Berlin'de kar yağıyor."
+        },
+        {
+          "text": "Estamos nadando en el mar.",
+          "en": "We are swimming in the sea.",
+          "tr": "Denizde yüzüyoruz."
+        },
+        {
+          "text": "Hoy hace mucho calor.",
+          "en": "It is very hot today.",
+          "tr": "Bugün hava çok sıcak."
+        }
+      ]
+    },
+    "u10": {
+      "title": {
+        "en": "Was and were: era, estaba, fue",
+        "tr": "Geçmişte olmak: era, estaba, fue"
+      },
+      "body": {
+        "en": "Spanish has two verbs for to be, ser and estar, and both have past forms. To describe what something was like, use era (from ser): El coche era rojo (The car was red). To say where something was, or how it was at that moment, use estaba (from estar): El pasaporte estaba en la mesa. For more than one: eran, estaban.\n\nWhen you sum up a finished experience, Spanish often uses fue: El viaje fue maravilloso (The trip was wonderful). For more than one: fueron.",
+        "tr": "İspanyolcada olmak için iki fiil var, ser ve estar. İkisinin de geçmiş hali var. Bir şeyin nasıl bir şey olduğunu tarif etmek için era (ser'den) kullan: El coche era rojo (Araba kırmızıydı). Bir şeyin nerede olduğunu ya da o an nasıl olduğunu söylemek için estaba (estar'dan) kullan: El pasaporte estaba en la mesa (Pasaport masanın üstündeydi). Çoğul için: eran, estaban.\n\nBiten bir deneyimi özetlerken İspanyolca çoğu zaman fue kullanır: El viaje fue maravilloso (Yolculuk harikaydı). Çoğul için: fueron."
+      },
+      "examples": [
+        {
+          "text": "El hotel era muy tranquilo.",
+          "en": "The hotel was very quiet.",
+          "tr": "Otel çok sessizdi."
+        },
+        {
+          "text": "Estábamos en el tren.",
+          "en": "We were on the train.",
+          "tr": "Trendeydik."
+        },
+        {
+          "text": "Las vacaciones fueron maravillosas.",
+          "en": "The vacation was wonderful.",
+          "tr": "Tatil harikaydı."
+        }
+      ]
+    },
+    "u11": {
+      "title": {
+        "en": "What you did: the past tense",
+        "tr": "Ne yaptın: geçmiş zaman"
+      },
+      "body": {
+        "en": "For finished actions in the past, Spanish uses a past tense called the preterite. For -ar verbs: bailé (I danced), bailaste (you danced), bailó (he or she danced), bailamos (we danced). For -er and -ir verbs: comí, comiste, comió, comimos.\n\nThe accent matters: bailo means I dance, but bailó means he or she danced.\n\nSome common verbs are irregular, so learn them as they are: vi (I saw), fui (I went), hice (I did). Time words help: ayer, anoche, la semana pasada, hace dos días.",
+        "tr": "Geçmişte bitmiş eylemler için İspanyolca pretérito denen geçmiş zamanı kullanır. Türkçedeki -di gibidir. -ar ile biten fiillerde: bailé (dans ettim), bailaste (dans ettin), bailó (dans etti), bailamos (dans ettik). -er ve -ir ile biten fiillerde: comí, comiste, comió, comimos.\n\nAksan önemlidir: bailo dans ederim demek, bailó ise dans etti demek.\n\nBazı sık fiiller düzensizdir, bunları olduğu gibi öğren: vi (gördüm), fui (gittim), hice (yaptım). Zaman kelimeleri yardımcı olur: ayer, anoche, la semana pasada, hace dos días."
+      },
+      "examples": [
+        {
+          "text": "Ayer cociné sopa.",
+          "en": "Yesterday I cooked soup.",
+          "tr": "Dün çorba pişirdim."
+        },
+        {
+          "text": "Anoche bailamos en la fiesta.",
+          "en": "Last night we danced at the party.",
+          "tr": "Dün gece partide dans ettik."
+        },
+        {
+          "text": "Elif perdió su billete.",
+          "en": "Elif lost her ticket.",
+          "tr": "Elif biletini kaybetti."
+        }
+      ]
+    },
+    "u12": {
+      "title": {
+        "en": "Plans: voy a + verb",
+        "tr": "Planlar: voy a + fiil"
+      },
+      "body": {
+        "en": "To talk about plans, use ir (to go) + a + a verb in its basic form, just like going to in English: Voy a llamarte (I am going to call you). The forms of ir are voy, vas, va, vamos: ¿Vas a venir? (Are you going to come?), Mia va a cocinar (Mia is going to cook).\n\nTo invite a friend, ask ¿Quieres...? or, very often in Spain, ¿Te apetece...? To answer, say ¡Me encantaría! (I would love to!) or Lo siento, no puedo (Sorry, I can't).",
+        "tr": "Planlarından söz etmek için ir (gitmek) + a + fiilin yalın halini kullan: Voy a llamarte (Seni arayacağım). Bu yapı Türkçedeki -ecek ekinin işini görür. Ir fiilinin halleri: voy, vas, va, vamos. ¿Vas a venir? (Gelecek misin?), Mia va a cocinar (Mia yemek yapacak).\n\nBir arkadaşını davet etmek için ¿Quieres...? ya da İspanya'da çok sık duyulan ¿Te apetece...? diye sor. Cevap vermek için şöyle diyebilirsin: ¡Me encantaría! (Çok isterim!) ya da Lo siento, no puedo (Üzgünüm, gelemem)."
+      },
+      "examples": [
+        {
+          "text": "Mañana voy a descansar.",
+          "en": "Tomorrow I am going to rest.",
+          "tr": "Yarın dinleneceğim."
+        },
+        {
+          "text": "¿Vas a venir a la fiesta?",
+          "en": "Are you going to come to the party?",
+          "tr": "Partiye gelecek misin?"
+        },
+        {
+          "text": "Vamos a viajar a Tokio.",
+          "en": "We are going to travel to Tokyo.",
+          "tr": "Tokyo'ya seyahat edeceğiz."
+        }
+      ]
+    }
+  }
+}

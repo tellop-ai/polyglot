@@ -1,0 +1,857 @@
+{
+  "format": 1,
+  "units": [
+    {
+      "id": "u01",
+      "level": "a1",
+      "title": { "en": "Hello!", "tr": "Merhaba!" },
+      "lessons": [
+        {
+          "id": "u01-1",
+          "title": { "en": "Saying hello", "tr": "Selamlaşmak" },
+          "words": [
+            { "id": "hello", "en": "hello", "tr": "merhaba", "ex": { "en": "Hello, I am Emre.", "tr": "Merhaba, ben Emre." } },
+            { "id": "good-morning", "en": "good morning", "tr": "günaydın", "ex": { "en": "Good morning, the coffee is ready.", "tr": "Günaydın, kahve hazır." } },
+            { "id": "good-evening", "en": "good evening", "tr": "iyi akşamlar", "ex": { "en": "Good evening, Mia and Tom!", "tr": "İyi akşamlar, Mia ve Tom!" } },
+            { "id": "how-are-you", "en": "how are you?", "tr": "nasılsın?", "hint": "Informal, asked to one friend.", "ex": { "en": "How are you this morning?", "tr": "Bu sabah nasılsın?" } },
+            { "id": "i-am-fine", "en": "I am fine", "tr": "iyiyim", "hint": "The usual answer to 'how are you?'.", "ex": { "en": "Thanks, I am fine today.", "tr": "Teşekkürler, bugün iyiyim." } },
+            { "id": "and-you", "en": "and you?", "tr": "ya sen?", "hint": "Asking the same question back to one friend (informal).", "ex": { "en": "I am fine, and you?", "tr": "İyiyim, ya sen?" } }
+          ],
+          "sentences": [
+            { "id": "u01-1-a", "en": "Good morning, Zeynep and Ali!", "tr": "Günaydın, Zeynep ve Ali!" },
+            { "id": "u01-1-b", "en": "Hello Sam, how are you?", "tr": "Merhaba Sam, nasılsın?" }
+          ]
+        },
+        {
+          "id": "u01-2",
+          "title": { "en": "Saying goodbye", "tr": "Vedalaşmak" },
+          "words": [
+            { "id": "goodbye", "en": "goodbye", "tr": "hoşça kal", "hint": "A general goodbye to one friend.", "ex": { "en": "Goodbye, Ali, and thank you!", "tr": "Hoşça kal Ali, teşekkür ederim!" } },
+            { "id": "good-night", "en": "good night", "tr": "iyi geceler", "ex": { "en": "Good night, sleep well.", "tr": "İyi geceler, iyi uykular." } },
+            { "id": "see-you-later", "en": "see you later", "tr": "sonra görüşürüz", "ex": { "en": "I have a class now, see you later.", "tr": "Şimdi dersim var, sonra görüşürüz." } },
+            { "id": "see-you-tomorrow", "en": "see you tomorrow", "tr": "yarın görüşürüz", "ex": { "en": "See you tomorrow at school, Elif.", "tr": "Yarın okulda görüşürüz, Elif." } },
+            { "id": "have-a-nice-day", "en": "have a nice day", "tr": "iyi günler", "ex": { "en": "Thank you very much, have a nice day!", "tr": "Çok teşekkür ederim, iyi günler!" } },
+            { "id": "take-care", "en": "take care", "tr": "kendine iyi bak", "hint": "A friendly goodbye to one friend.", "ex": { "en": "Take care and see you soon.", "tr": "Kendine iyi bak, yakında görüşürüz." } }
+          ],
+          "sentences": [
+            { "id": "u01-2-a", "en": "Good night, Mia and Leo.", "tr": "İyi geceler, Mia ve Leo." },
+            { "id": "u01-2-b", "en": "See you tomorrow, Tom.", "tr": "Yarın görüşürüz, Tom." }
+          ]
+        },
+        {
+          "id": "u01-3",
+          "title": { "en": "Introducing yourself", "tr": "Kendini tanıtmak" },
+          "words": [
+            { "id": "name", "en": "name", "tr": "ad", "ex": { "en": "My name is Zeynep.", "tr": "Benim adım Zeynep." } },
+            { "id": "where-are-you-from", "en": "where are you from?", "tr": "nerelisin?", "hint": "Informal, asked to one friend.", "ex": { "en": "Emma, where are you from?", "tr": "Emma, sen nerelisin?" } },
+            { "id": "nice-to-meet-you", "en": "nice to meet you", "tr": "memnun oldum", "hint": "Fixed polite phrase when you meet someone for the first time.", "ex": { "en": "I am Ali, nice to meet you.", "tr": "Ben Ali, memnun oldum." } },
+            { "id": "student", "en": "student", "tr": "öğrenci", "ex": { "en": "Deniz is a student in Istanbul.", "tr": "Deniz İstanbul'da öğrenci." } },
+            { "id": "teacher", "en": "teacher", "tr": "öğretmen", "ex": { "en": "My teacher is very kind.", "tr": "Öğretmenim çok nazik." } },
+            { "id": "country", "en": "country", "tr": "ülke", "ex": { "en": "My country is very beautiful.", "tr": "Ülkem çok güzel." } }
+          ],
+          "sentences": [
+            { "id": "u01-3-a", "en": "Nice to meet you, Tom.", "tr": "Memnun oldum, Tom." },
+            { "id": "u01-3-b", "en": "Anna is a teacher from Berlin.", "tr": "Anna Berlinli bir öğretmen." }
+          ]
+        },
+        {
+          "id": "u01-4",
+          "title": { "en": "Polite words", "tr": "Kibar sözler" },
+          "words": [
+            { "id": "please", "en": "please", "tr": "lütfen", "ex": { "en": "A glass of water, please.", "tr": "Bir bardak su, lütfen." } },
+            { "id": "thank-you", "en": "thank you", "tr": "teşekkür ederim", "ex": { "en": "Thank you for the tea.", "tr": "Çay için teşekkür ederim." } },
+            { "id": "youre-welcome", "en": "you're welcome", "tr": "rica ederim", "ex": { "en": "You're welcome, it is no problem.", "tr": "Rica ederim, sorun değil." } },
+            { "id": "sorry", "en": "sorry", "tr": "özür dilerim", "ex": { "en": "Sorry, I am late.", "tr": "Özür dilerim, geç kaldım." } },
+            { "id": "yes", "en": "yes", "tr": "evet", "ex": { "en": "Yes, I am a student.", "tr": "Evet, ben öğrenciyim." } },
+            { "id": "no", "en": "no", "tr": "hayır", "ex": { "en": "No, I am not from Paris.", "tr": "Hayır, Parisli değilim." } }
+          ],
+          "sentences": [
+            { "id": "u01-4-a", "en": "Two teas, please.", "tr": "İki çay, lütfen." },
+            { "id": "u01-4-b", "en": "Thank you very much, Emre.", "tr": "Çok teşekkür ederim, Emre." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u02",
+      "level": "a1",
+      "title": { "en": "People and family", "tr": "İnsanlar ve aile" },
+      "lessons": [
+        {
+          "id": "u02-1",
+          "title": { "en": "My family", "tr": "Ailem" },
+          "words": [
+            { "id": "family", "en": "family", "tr": "aile", "ex": { "en": "My family lives in Lisbon.", "tr": "Ailem Lizbon'da yaşıyor." } },
+            { "id": "mother", "en": "mother", "tr": "anne", "ex": { "en": "My mother drinks tea every morning.", "tr": "Annem her sabah çay içer." } },
+            { "id": "father", "en": "father", "tr": "baba", "ex": { "en": "My father is a doctor.", "tr": "Babam bir doktor." } },
+            { "id": "brother", "en": "brother", "tr": "erkek kardeş", "hint": "Any brother. ja/ko/zh: use the older-brother word and note it.", "ex": { "en": "My brother is ten.", "tr": "Erkek kardeşim on yaşında." } },
+            { "id": "sister", "en": "sister", "tr": "kız kardeş", "hint": "Any sister. ja/ko/zh: use the older-sister word and note it.", "ex": { "en": "Her sister lives in Madrid.", "tr": "Onun kız kardeşi Madrid'de yaşıyor." } },
+            { "id": "baby", "en": "baby", "tr": "bebek", "ex": { "en": "The baby is very small.", "tr": "Bebek çok küçük." } }
+          ],
+          "sentences": [
+            { "id": "u02-1-a", "en": "My mother and father are teachers.", "tr": "Annem ve babam öğretmen." },
+            { "id": "u02-1-b", "en": "Zeynep has one brother.", "tr": "Zeynep'in bir erkek kardeşi var." }
+          ]
+        },
+        {
+          "id": "u02-2",
+          "title": { "en": "The rest of the family", "tr": "Ailenin geri kalanı" },
+          "words": [
+            { "id": "grandmother", "en": "grandmother", "tr": "büyükanne", "hint": "Either side of the family. zh splits by side: use the father's-side word and note it.", "ex": { "en": "My grandmother lives in Rome.", "tr": "Büyükannem Roma'da yaşıyor." } },
+            { "id": "grandfather", "en": "grandfather", "tr": "büyükbaba", "hint": "Either side of the family. zh splits by side: use the father's-side word and note it.", "ex": { "en": "My grandfather reads the newspaper.", "tr": "Büyükbabam gazete okur." } },
+            { "id": "son", "en": "son", "tr": "oğul", "ex": { "en": "Their son is a student.", "tr": "Onların oğlu öğrenci." } },
+            { "id": "daughter", "en": "daughter", "tr": "kız evlat", "ex": { "en": "Ali has two daughters.", "tr": "Ali'nin iki kızı var." } },
+            { "id": "dog", "en": "dog", "tr": "köpek", "ex": { "en": "Our dog is big and white.", "tr": "Köpeğimiz büyük ve beyaz." } },
+            { "id": "cat", "en": "cat", "tr": "kedi", "ex": { "en": "The cat sleeps on the sofa.", "tr": "Kedi kanepede uyur." } }
+          ],
+          "sentences": [
+            { "id": "u02-2-a", "en": "My grandmother lives with us.", "tr": "Büyükannem bizimle yaşıyor." },
+            { "id": "u02-2-b", "en": "Mia has a black cat.", "tr": "Mia'nın siyah bir kedisi var." }
+          ]
+        },
+        {
+          "id": "u02-3",
+          "title": { "en": "Friends and neighbors", "tr": "Arkadaşlar ve komşular" },
+          "words": [
+            { "id": "friend", "en": "friend", "tr": "arkadaş", "ex": { "en": "Tom is my friend.", "tr": "Tom benim arkadaşım." } },
+            { "id": "neighbor", "en": "neighbor", "tr": "komşu", "ex": { "en": "Our neighbor has a garden.", "tr": "Komşumuzun bir bahçesi var." } },
+            { "id": "kind", "en": "kind", "tr": "nazik", "hint": "Adjective: nice and caring to other people (not 'a type of').", "ex": { "en": "Your sister is very kind.", "tr": "Kız kardeşin çok nazik." } },
+            { "id": "funny", "en": "funny", "tr": "komik", "ex": { "en": "Leo is very funny.", "tr": "Leo çok komik." } },
+            { "id": "happy", "en": "happy", "tr": "mutlu", "ex": { "en": "I am very happy today.", "tr": "Bugün çok mutluyum." } },
+            { "id": "together", "en": "together", "tr": "birlikte", "ex": { "en": "We eat lunch together.", "tr": "Öğle yemeğini birlikte yeriz." } }
+          ],
+          "sentences": [
+            { "id": "u02-3-a", "en": "Emma is my new neighbor.", "tr": "Emma benim yeni komşum." },
+            { "id": "u02-3-b", "en": "My friends are very funny.", "tr": "Arkadaşlarım çok komik." }
+          ]
+        },
+        {
+          "id": "u02-4",
+          "title": { "en": "Describing people", "tr": "İnsanları tarif etmek" },
+          "words": [
+            { "id": "man", "en": "man", "tr": "adam", "ex": { "en": "That man is my teacher.", "tr": "O adam benim öğretmenim." } },
+            { "id": "woman", "en": "woman", "tr": "kadın", "ex": { "en": "That woman is a doctor.", "tr": "O kadın bir doktor." } },
+            { "id": "child", "en": "child", "tr": "çocuk", "ex": { "en": "The child is six.", "tr": "Çocuk altı yaşında." } },
+            { "id": "young", "en": "young", "tr": "genç", "ex": { "en": "Our new teacher is young.", "tr": "Yeni öğretmenimiz genç." } },
+            { "id": "old", "en": "old", "tr": "yaşlı", "hint": "Of a person: not young.", "ex": { "en": "My grandfather is old but strong.", "tr": "Büyükbabam yaşlı ama güçlü." } },
+            { "id": "tall", "en": "tall", "tr": "uzun boylu", "ex": { "en": "Sam is very tall.", "tr": "Sam çok uzun boylu." } }
+          ],
+          "sentences": [
+            { "id": "u02-4-a", "en": "That man is very tall.", "tr": "O adam çok uzun boylu." },
+            { "id": "u02-4-b", "en": "The woman is young and happy.", "tr": "Kadın genç ve mutlu." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u03",
+      "level": "a1",
+      "title": { "en": "Numbers and age", "tr": "Sayılar ve yaş" },
+      "lessons": [
+        {
+          "id": "u03-1",
+          "title": { "en": "One to six", "tr": "Birden altıya" },
+          "words": [
+            { "id": "one", "en": "one", "tr": "bir", "ex": { "en": "I have one brother.", "tr": "Bir erkek kardeşim var." } },
+            { "id": "two", "en": "two", "tr": "iki", "ex": { "en": "We have two cats.", "tr": "İki kedimiz var." } },
+            { "id": "three", "en": "three", "tr": "üç", "ex": { "en": "My son is three.", "tr": "Oğlum üç yaşında." } },
+            { "id": "four", "en": "four", "tr": "dört", "ex": { "en": "There are four people in my family.", "tr": "Ailemde dört kişi var." } },
+            { "id": "five", "en": "five", "tr": "beş", "ex": { "en": "I drink five glasses of water a day.", "tr": "Günde beş bardak su içerim." } },
+            { "id": "six", "en": "six", "tr": "altı", "ex": { "en": "Emma has six books.", "tr": "Emma'nın altı kitabı var." } }
+          ],
+          "sentences": [
+            { "id": "u03-1-a", "en": "I have two sisters.", "tr": "İki kız kardeşim var." },
+            { "id": "u03-1-b", "en": "Four plus two is six.", "tr": "Dört artı iki altı eder." }
+          ]
+        },
+        {
+          "id": "u03-2",
+          "title": { "en": "Seven to twelve", "tr": "Yediden on ikiye" },
+          "words": [
+            { "id": "seven", "en": "seven", "tr": "yedi", "ex": { "en": "The shop opens at seven.", "tr": "Dükkân yedide açılır." } },
+            { "id": "eight", "en": "eight", "tr": "sekiz", "ex": { "en": "The class starts at eight.", "tr": "Ders sekizde başlıyor." } },
+            { "id": "nine", "en": "nine", "tr": "dokuz", "ex": { "en": "Deniz is nine years old.", "tr": "Deniz dokuz yaşında." } },
+            { "id": "ten", "en": "ten", "tr": "on", "ex": { "en": "I have ten minutes.", "tr": "On dakikam var." } },
+            { "id": "eleven", "en": "eleven", "tr": "on bir", "ex": { "en": "Our class has eleven students.", "tr": "Sınıfımızda on bir öğrenci var." } },
+            { "id": "twelve", "en": "twelve", "tr": "on iki", "ex": { "en": "Leo is twelve today.", "tr": "Leo bugün on iki yaşında." } }
+          ],
+          "sentences": [
+            { "id": "u03-2-a", "en": "My sister is eight years old.", "tr": "Kız kardeşim sekiz yaşında." },
+            { "id": "u03-2-b", "en": "There are seven days in a week.", "tr": "Bir haftada yedi gün var." }
+          ]
+        },
+        {
+          "id": "u03-3",
+          "title": { "en": "Bigger numbers", "tr": "Daha büyük sayılar" },
+          "words": [
+            { "id": "zero", "en": "zero", "tr": "sıfır", "ex": { "en": "My phone number starts with zero.", "tr": "Telefon numaram sıfırla başlıyor." } },
+            { "id": "twenty", "en": "twenty", "tr": "yirmi", "ex": { "en": "There are twenty students in my class.", "tr": "Sınıfımda yirmi öğrenci var." } },
+            { "id": "thirty", "en": "thirty", "tr": "otuz", "ex": { "en": "Our teacher is thirty.", "tr": "Öğretmenimiz otuz yaşında." } },
+            { "id": "fifty", "en": "fifty", "tr": "elli", "ex": { "en": "This book has fifty pages.", "tr": "Bu kitabın elli sayfası var." } },
+            { "id": "one-hundred", "en": "one hundred", "tr": "yüz", "ex": { "en": "My grandmother is almost one hundred.", "tr": "Büyükannem neredeyse yüz yaşında." } },
+            { "id": "number", "en": "number", "tr": "numara", "hint": "As in a phone or room number (tr: numara, not sayı).", "ex": { "en": "What is your phone number?", "tr": "Telefon numaran ne?" } }
+          ],
+          "sentences": [
+            { "id": "u03-3-a", "en": "Twenty plus thirty is fifty.", "tr": "Yirmi artı otuz elli eder." },
+            { "id": "u03-3-b", "en": "My room number is twelve.", "tr": "Oda numaram on iki." }
+          ]
+        },
+        {
+          "id": "u03-4",
+          "title": { "en": "How old? How many?", "tr": "Kaç yaşında? Kaç tane?" },
+          "words": [
+            { "id": "age", "en": "age", "tr": "yaş", "ex": { "en": "Write your name and age here.", "tr": "Adını ve yaşını buraya yaz." } },
+            { "id": "how-old-are-you", "en": "how old are you?", "tr": "kaç yaşındasın?", "hint": "Informal, asked to one friend.", "ex": { "en": "Elif, how old are you?", "tr": "Elif, kaç yaşındasın?" } },
+            { "id": "how-many", "en": "how many?", "tr": "kaç tane?", "ex": { "en": "How many brothers do you have?", "tr": "Kaç tane erkek kardeşin var?" } },
+            { "id": "year", "en": "year", "tr": "yıl", "ex": { "en": "This year I am eighteen.", "tr": "Bu yıl on sekiz yaşındayım." } },
+            { "id": "birthday", "en": "birthday", "tr": "doğum günü", "ex": { "en": "Today is my birthday!", "tr": "Bugün benim doğum günüm!" } },
+            { "id": "month", "en": "month", "tr": "ay", "ex": { "en": "My birthday is next month.", "tr": "Doğum günüm gelecek ay." } }
+          ],
+          "sentences": [
+            { "id": "u03-4-a", "en": "I am twelve years old.", "tr": "On iki yaşındayım." },
+            { "id": "u03-4-b", "en": "How many cats do you have?", "tr": "Kaç tane kedin var?" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u04",
+      "level": "a1",
+      "title": { "en": "Food and drink", "tr": "Yiyecek ve içecek" },
+      "lessons": [
+        {
+          "id": "u04-1",
+          "title": { "en": "Breakfast time", "tr": "Kahvaltı vakti" },
+          "words": [
+            { "id": "breakfast", "en": "breakfast", "tr": "kahvaltı", "ex": { "en": "We have breakfast at seven.", "tr": "Saat yedide kahvaltı yaparız." } },
+            { "id": "bread", "en": "bread", "tr": "ekmek", "ex": { "en": "This bread is fresh.", "tr": "Bu ekmek taze." } },
+            { "id": "cheese", "en": "cheese", "tr": "peynir", "ex": { "en": "I eat bread and cheese.", "tr": "Ekmek ve peynir yerim." } },
+            { "id": "egg", "en": "egg", "tr": "yumurta", "ex": { "en": "Mia eats an egg every morning.", "tr": "Mia her sabah bir yumurta yer." } },
+            { "id": "honey", "en": "honey", "tr": "bal", "ex": { "en": "My grandfather puts honey in his tea.", "tr": "Büyükbabam çayına bal koyar." } },
+            { "id": "eat", "en": "eat", "tr": "yemek", "ex": { "en": "We eat at home.", "tr": "Evde yemek yeriz." } }
+          ],
+          "sentences": [
+            { "id": "u04-1-a", "en": "I eat bread for breakfast.", "tr": "Kahvaltıda ekmek yerim." },
+            { "id": "u04-1-b", "en": "Tom eats two eggs.", "tr": "Tom iki yumurta yer." }
+          ]
+        },
+        {
+          "id": "u04-2",
+          "title": { "en": "Something to drink", "tr": "İçecek bir şey" },
+          "words": [
+            { "id": "water", "en": "water", "tr": "su", "ex": { "en": "This water is very cold.", "tr": "Bu su çok soğuk." } },
+            { "id": "tea", "en": "tea", "tr": "çay", "ex": { "en": "Do you want tea?", "tr": "Çay ister misin?" } },
+            { "id": "coffee", "en": "coffee", "tr": "kahve", "ex": { "en": "My father drinks coffee without milk.", "tr": "Babam sütsüz kahve içer." } },
+            { "id": "milk", "en": "milk", "tr": "süt", "ex": { "en": "The baby drinks milk.", "tr": "Bebek süt içer." } },
+            { "id": "juice", "en": "juice", "tr": "meyve suyu", "ex": { "en": "Zeynep drinks juice at breakfast.", "tr": "Zeynep kahvaltıda meyve suyu içer." } },
+            { "id": "drink", "en": "drink", "tr": "içmek", "hint": "The verb: to drink.", "ex": { "en": "We drink tea in the evening.", "tr": "Akşamları çay içeriz." } }
+          ],
+          "sentences": [
+            { "id": "u04-2-a", "en": "Emre drinks coffee every morning.", "tr": "Emre her sabah kahve içer." },
+            { "id": "u04-2-b", "en": "The juice is very cold.", "tr": "Meyve suyu çok soğuk." }
+          ]
+        },
+        {
+          "id": "u04-3",
+          "title": { "en": "Fruit and vegetables", "tr": "Meyve ve sebze" },
+          "words": [
+            { "id": "apple", "en": "apple", "tr": "elma", "ex": { "en": "This apple is red.", "tr": "Bu elma kırmızı." } },
+            { "id": "banana", "en": "banana", "tr": "muz", "ex": { "en": "I have a banana in my bag.", "tr": "Çantamda bir muz var." } },
+            { "id": "tomato", "en": "tomato", "tr": "domates", "ex": { "en": "The tomatoes are from our garden.", "tr": "Domatesler bizim bahçemizden." } },
+            { "id": "potato", "en": "potato", "tr": "patates", "ex": { "en": "We have potatoes for dinner.", "tr": "Akşam yemeğinde patates var." } },
+            { "id": "fruit", "en": "fruit", "tr": "meyve", "ex": { "en": "Ali eats fruit every day.", "tr": "Ali her gün meyve yer." } },
+            { "id": "vegetable", "en": "vegetable", "tr": "sebze", "ex": { "en": "My mother buys fresh vegetables.", "tr": "Annem taze sebze alır." } }
+          ],
+          "sentences": [
+            { "id": "u04-3-a", "en": "The bananas are yellow and sweet.", "tr": "Muzlar sarı ve tatlı." },
+            { "id": "u04-3-b", "en": "We need three potatoes.", "tr": "Üç patatese ihtiyacımız var." }
+          ]
+        },
+        {
+          "id": "u04-4",
+          "title": { "en": "Lunch and dinner", "tr": "Öğle ve akşam yemeği" },
+          "words": [
+            { "id": "lunch", "en": "lunch", "tr": "öğle yemeği", "ex": { "en": "We have lunch at one.", "tr": "Saat birde öğle yemeği yeriz." } },
+            { "id": "dinner", "en": "dinner", "tr": "akşam yemeği", "ex": { "en": "Dinner is ready!", "tr": "Akşam yemeği hazır!" } },
+            { "id": "food", "en": "food", "tr": "yiyecek", "ex": { "en": "There is food in the kitchen.", "tr": "Mutfakta yiyecek var." } },
+            { "id": "soup", "en": "soup", "tr": "çorba", "ex": { "en": "My grandmother makes tomato soup.", "tr": "Büyükannem domates çorbası yapar." } },
+            { "id": "hungry", "en": "hungry", "tr": "aç", "ex": { "en": "I am hungry, let's eat!", "tr": "Açım, hadi yiyelim!" } },
+            { "id": "like", "en": "like", "tr": "sevmek", "hint": "The verb: to enjoy something (I like apples), not 'similar to'.", "ex": { "en": "I like fish but not chicken.", "tr": "Balığı severim ama tavuğu sevmem." } }
+          ],
+          "sentences": [
+            { "id": "u04-4-a", "en": "Dinner is at eight.", "tr": "Akşam yemeği sekizde." },
+            { "id": "u04-4-b", "en": "Deniz likes soup very much.", "tr": "Deniz çorbayı çok sever." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u05",
+      "level": "a1",
+      "title": { "en": "At home", "tr": "Evde" },
+      "lessons": [
+        {
+          "id": "u05-1",
+          "title": { "en": "Rooms of a house", "tr": "Evin odaları" },
+          "words": [
+            { "id": "house", "en": "house", "tr": "ev", "ex": { "en": "Their house is near the sea.", "tr": "Onların evi denize yakın." } },
+            { "id": "room", "en": "room", "tr": "oda", "ex": { "en": "My room has two windows.", "tr": "Odamın iki penceresi var." } },
+            { "id": "kitchen", "en": "kitchen", "tr": "mutfak", "ex": { "en": "My father cooks in the kitchen.", "tr": "Babam mutfakta yemek yapar." } },
+            { "id": "bedroom", "en": "bedroom", "tr": "yatak odası", "ex": { "en": "The bedroom is upstairs.", "tr": "Yatak odası yukarıda." } },
+            { "id": "bathroom", "en": "bathroom", "tr": "banyo", "ex": { "en": "The bathroom is next to my room.", "tr": "Banyo odamın yanında." } },
+            { "id": "garden", "en": "garden", "tr": "bahçe", "ex": { "en": "The children play in the garden.", "tr": "Çocuklar bahçede oynar." } }
+          ],
+          "sentences": [
+            { "id": "u05-1-a", "en": "Our house has three rooms.", "tr": "Evimizde üç oda var." },
+            { "id": "u05-1-b", "en": "Emma is in the garden now.", "tr": "Emma şimdi bahçede." }
+          ]
+        },
+        {
+          "id": "u05-2",
+          "title": { "en": "In the room", "tr": "Odada" },
+          "words": [
+            { "id": "table", "en": "table", "tr": "masa", "ex": { "en": "The keys are on the table.", "tr": "Anahtarlar masanın üstünde." } },
+            { "id": "chair", "en": "chair", "tr": "sandalye", "ex": { "en": "Sit on this chair.", "tr": "Bu sandalyeye otur." } },
+            { "id": "bed", "en": "bed", "tr": "yatak", "ex": { "en": "My bed is very soft.", "tr": "Yatağım çok yumuşak." } },
+            { "id": "sofa", "en": "sofa", "tr": "kanepe", "ex": { "en": "The sofa is big and blue.", "tr": "Kanepe büyük ve mavi." } },
+            { "id": "door", "en": "door", "tr": "kapı", "ex": { "en": "Please close the door.", "tr": "Lütfen kapıyı kapat." } },
+            { "id": "window", "en": "window", "tr": "pencere", "ex": { "en": "Open the window, please.", "tr": "Pencereyi aç, lütfen." } }
+          ],
+          "sentences": [
+            { "id": "u05-2-a", "en": "There is a chair next to the window.", "tr": "Pencerenin yanında bir sandalye var." },
+            { "id": "u05-2-b", "en": "My bed is next to the door.", "tr": "Yatağım kapının yanında." }
+          ]
+        },
+        {
+          "id": "u05-3",
+          "title": { "en": "Things at home", "tr": "Evdeki eşyalar" },
+          "words": [
+            { "id": "lamp", "en": "lamp", "tr": "lamba", "ex": { "en": "The lamp is next to my bed.", "tr": "Lamba yatağımın yanında." } },
+            { "id": "phone", "en": "phone", "tr": "telefon", "ex": { "en": "Your phone is on the sofa.", "tr": "Telefonun kanepenin üstünde." } },
+            { "id": "book", "en": "book", "tr": "kitap", "ex": { "en": "This is a good book.", "tr": "Bu iyi bir kitap." } },
+            { "id": "key", "en": "key", "tr": "anahtar", "ex": { "en": "I have the key to the door.", "tr": "Kapının anahtarı bende." } },
+            { "id": "fridge", "en": "fridge", "tr": "buzdolabı", "ex": { "en": "There is cheese in the fridge.", "tr": "Buzdolabında peynir var." } },
+            { "id": "computer", "en": "computer", "tr": "bilgisayar", "ex": { "en": "Sam has a new computer.", "tr": "Sam'in yeni bir bilgisayarı var." } }
+          ],
+          "sentences": [
+            { "id": "u05-3-a", "en": "The book is on the bed.", "tr": "Kitap yatağın üstünde." },
+            { "id": "u05-3-b", "en": "Where are the keys, Tom?", "tr": "Anahtarlar nerede, Tom?" }
+          ]
+        },
+        {
+          "id": "u05-4",
+          "title": { "en": "Describing a home", "tr": "Evi tarif etmek" },
+          "words": [
+            { "id": "big", "en": "big", "tr": "büyük", "ex": { "en": "Their garden is very big.", "tr": "Onların bahçesi çok büyük." } },
+            { "id": "small", "en": "small", "tr": "küçük", "ex": { "en": "We have a small kitchen.", "tr": "Küçük bir mutfağımız var." } },
+            { "id": "new", "en": "new", "tr": "yeni", "ex": { "en": "This is my new house.", "tr": "Bu benim yeni evim." } },
+            { "id": "clean", "en": "clean", "tr": "temiz", "ex": { "en": "Is your room clean?", "tr": "Odan temiz mi?" } },
+            { "id": "beautiful", "en": "beautiful", "tr": "güzel", "ex": { "en": "What a beautiful garden!", "tr": "Ne güzel bir bahçe!" } },
+            { "id": "there-is", "en": "there is", "tr": "var", "hint": "Says that something exists: there is / there are. ja: give the form for things and note the form for people and animals.", "ex": { "en": "There is a cat on the bed.", "tr": "Yatağın üstünde bir kedi var." } }
+          ],
+          "sentences": [
+            { "id": "u05-4-a", "en": "Our new house is very big.", "tr": "Yeni evimiz çok büyük." },
+            { "id": "u05-4-b", "en": "There is a small garden.", "tr": "Küçük bir bahçe var." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u06",
+      "level": "a1",
+      "title": { "en": "My day", "tr": "Günüm" },
+      "lessons": [
+        {
+          "id": "u06-1",
+          "title": { "en": "Times of the day", "tr": "Günün vakitleri" },
+          "words": [
+            { "id": "morning", "en": "morning", "tr": "sabah", "ex": { "en": "I drink coffee in the morning.", "tr": "Sabah kahve içerim." } },
+            { "id": "afternoon", "en": "afternoon", "tr": "öğleden sonra", "ex": { "en": "We play in the park in the afternoon.", "tr": "Öğleden sonra parkta oynarız." } },
+            { "id": "evening", "en": "evening", "tr": "akşam", "ex": { "en": "My family eats together in the evening.", "tr": "Ailem akşam birlikte yemek yer." } },
+            { "id": "night", "en": "night", "tr": "gece", "ex": { "en": "The city is quiet at night.", "tr": "Şehir geceleri sessiz." } },
+            { "id": "today", "en": "today", "tr": "bugün", "ex": { "en": "I am very busy today.", "tr": "Bugün çok meşgulüm." } },
+            { "id": "now", "en": "now", "tr": "şimdi", "ex": { "en": "Mia is not at home now.", "tr": "Mia şimdi evde değil." } }
+          ],
+          "sentences": [
+            { "id": "u06-1-a", "en": "I read books at night.", "tr": "Geceleri kitap okurum." },
+            { "id": "u06-1-b", "en": "Ali works in the afternoon.", "tr": "Ali öğleden sonra çalışır." }
+          ]
+        },
+        {
+          "id": "u06-2",
+          "title": { "en": "Every day", "tr": "Her gün" },
+          "words": [
+            { "id": "wake-up", "en": "wake up", "tr": "uyanmak", "ex": { "en": "I wake up at seven.", "tr": "Saat yedide uyanırım." } },
+            { "id": "take-a-shower", "en": "take a shower", "tr": "duş almak", "ex": { "en": "Leo takes a shower every morning.", "tr": "Leo her sabah duş alır." } },
+            { "id": "go", "en": "go", "tr": "gitmek", "ex": { "en": "We go to school by bus.", "tr": "Okula otobüsle gideriz." } },
+            { "id": "work", "en": "work", "tr": "çalışmak", "hint": "The verb: to do a job.", "ex": { "en": "My mother works in a hospital.", "tr": "Annem bir hastanede çalışır." } },
+            { "id": "school", "en": "school", "tr": "okul", "ex": { "en": "The school is near my house.", "tr": "Okul evime yakın." } },
+            { "id": "sleep", "en": "sleep", "tr": "uyumak", "ex": { "en": "Babies sleep a lot.", "tr": "Bebekler çok uyur." } }
+          ],
+          "sentences": [
+            { "id": "u06-2-a", "en": "Emma wakes up at six.", "tr": "Emma altıda uyanır." },
+            { "id": "u06-2-b", "en": "Deniz goes to school every day.", "tr": "Deniz her gün okula gider." }
+          ]
+        },
+        {
+          "id": "u06-3",
+          "title": { "en": "Monday to Friday", "tr": "Pazartesiden cumaya" },
+          "words": [
+            { "id": "monday", "en": "Monday", "tr": "pazartesi", "ex": { "en": "School starts on Monday.", "tr": "Okul pazartesi başlıyor." } },
+            { "id": "tuesday", "en": "Tuesday", "tr": "salı", "ex": { "en": "I have a music class on Tuesday.", "tr": "Salı günü müzik dersim var." } },
+            { "id": "wednesday", "en": "Wednesday", "tr": "çarşamba", "ex": { "en": "Wednesday is a busy day.", "tr": "Çarşamba yoğun bir gün." } },
+            { "id": "thursday", "en": "Thursday", "tr": "perşembe", "ex": { "en": "We meet on Thursday.", "tr": "Perşembe günü buluşuruz." } },
+            { "id": "friday", "en": "Friday", "tr": "cuma", "ex": { "en": "Friday is my favorite day.", "tr": "Cuma en sevdiğim gün." } },
+            { "id": "week", "en": "week", "tr": "hafta", "ex": { "en": "I work five days a week.", "tr": "Haftada beş gün çalışırım." } }
+          ],
+          "sentences": [
+            { "id": "u06-3-a", "en": "Tom works from Monday to Friday.", "tr": "Tom pazartesiden cumaya çalışır." },
+            { "id": "u06-3-b", "en": "Our class is on Wednesday.", "tr": "Dersimiz çarşamba günü." }
+          ]
+        },
+        {
+          "id": "u06-4",
+          "title": { "en": "The weekend", "tr": "Hafta sonu" },
+          "words": [
+            { "id": "saturday", "en": "Saturday", "tr": "cumartesi", "ex": { "en": "On Saturday we visit our grandmother.", "tr": "Cumartesi günü büyükannemizi ziyaret ederiz." } },
+            { "id": "sunday", "en": "Sunday", "tr": "pazar", "ex": { "en": "The shops are closed on Sunday.", "tr": "Dükkânlar pazar günü kapalı." } },
+            { "id": "weekend", "en": "weekend", "tr": "hafta sonu", "ex": { "en": "What do you do on the weekend?", "tr": "Hafta sonu ne yaparsın?" } },
+            { "id": "read", "en": "read", "tr": "okumak", "ex": { "en": "Zeynep reads a book every night.", "tr": "Zeynep her gece kitap okur." } },
+            { "id": "watch", "en": "watch", "tr": "izlemek", "hint": "The verb: to watch TV or a movie.", "ex": { "en": "We watch a movie on Saturday.", "tr": "Cumartesi günü film izleriz." } },
+            { "id": "play", "en": "play", "tr": "oynamak", "hint": "The verb, for games and sports. ja/ko/zh: use the common word for playing and note it.", "ex": { "en": "Ali and Leo play tennis.", "tr": "Ali ile Leo tenis oynar." } }
+          ],
+          "sentences": [
+            { "id": "u06-4-a", "en": "Mia plays with her dog on Sunday.", "tr": "Mia pazar günü köpeğiyle oynar." },
+            { "id": "u06-4-b", "en": "Elif reads in the garden.", "tr": "Elif bahçede kitap okur." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u07",
+      "level": "a2",
+      "title": { "en": "In town", "tr": "Şehirde" },
+      "lessons": [
+        {
+          "id": "u07-1",
+          "title": { "en": "Places in town", "tr": "Şehirdeki yerler" },
+          "words": [
+            { "id": "city", "en": "city", "tr": "şehir", "ex": { "en": "Istanbul is a very big city.", "tr": "İstanbul çok büyük bir şehir." } },
+            { "id": "street", "en": "street", "tr": "sokak", "ex": { "en": "My school is on this street.", "tr": "Okulum bu sokakta." } },
+            { "id": "park", "en": "park", "tr": "park", "hint": "Noun: a public garden in a town.", "ex": { "en": "We walk in the park on Sundays.", "tr": "Pazar günleri parkta yürürüz." } },
+            { "id": "hospital", "en": "hospital", "tr": "hastane", "ex": { "en": "The hospital is near the station.", "tr": "Hastane istasyona yakın." } },
+            { "id": "museum", "en": "museum", "tr": "müze", "ex": { "en": "The museum is closed on Monday.", "tr": "Müze pazartesi günü kapalı." } },
+            { "id": "bank", "en": "bank", "tr": "banka", "ex": { "en": "The bank opens at nine.", "tr": "Banka dokuzda açılır." } }
+          ],
+          "sentences": [
+            { "id": "u07-1-a", "en": "Rome has many old museums.", "tr": "Roma'da birçok eski müze var." },
+            { "id": "u07-1-b", "en": "The park is on my street.", "tr": "Park benim sokağımda." }
+          ]
+        },
+        {
+          "id": "u07-2",
+          "title": { "en": "Shops and other places", "tr": "Dükkânlar ve diğer yerler" },
+          "words": [
+            { "id": "supermarket", "en": "supermarket", "tr": "süpermarket", "ex": { "en": "I buy milk at the supermarket.", "tr": "Süpermarketten süt alırım." } },
+            { "id": "pharmacy", "en": "pharmacy", "tr": "eczane", "ex": { "en": "The pharmacy is open all night.", "tr": "Eczane bütün gece açık." } },
+            { "id": "restaurant", "en": "restaurant", "tr": "restoran", "ex": { "en": "This restaurant has good soup.", "tr": "Bu restoranın çorbası güzel." } },
+            { "id": "library", "en": "library", "tr": "kütüphane", "ex": { "en": "Elif studies in the library.", "tr": "Elif kütüphanede ders çalışır." } },
+            { "id": "bakery", "en": "bakery", "tr": "fırın", "ex": { "en": "The bakery sells fresh bread.", "tr": "Fırın taze ekmek satar." } },
+            { "id": "cafe", "en": "cafe", "tr": "kafe", "ex": { "en": "We drink coffee at the cafe.", "tr": "Kafede kahve içeriz." } }
+          ],
+          "sentences": [
+            { "id": "u07-2-a", "en": "The bakery opens at seven.", "tr": "Fırın yedide açılır." },
+            { "id": "u07-2-b", "en": "Is there a pharmacy near here?", "tr": "Buralarda eczane var mı?" }
+          ]
+        },
+        {
+          "id": "u07-3",
+          "title": { "en": "Finding the way", "tr": "Yolu bulmak" },
+          "words": [
+            { "id": "left", "en": "left", "tr": "sol", "ex": { "en": "Turn left at the bank.", "tr": "Bankadan sola dön." } },
+            { "id": "right", "en": "right", "tr": "sağ", "hint": "The direction, opposite of left (not 'correct').", "ex": { "en": "The museum is on your right.", "tr": "Müze sağ tarafında." } },
+            { "id": "straight-ahead", "en": "straight ahead", "tr": "dümdüz", "ex": { "en": "Go straight ahead for five minutes.", "tr": "Beş dakika dümdüz git." } },
+            { "id": "turn", "en": "turn", "tr": "dönmek", "hint": "The verb: to change direction (turn left).", "ex": { "en": "Turn right after the park.", "tr": "Parktan sonra sağa dön." } },
+            { "id": "corner", "en": "corner", "tr": "köşe", "ex": { "en": "There is a bakery on the corner.", "tr": "Köşede bir fırın var." } },
+            { "id": "where", "en": "where", "tr": "nerede", "ex": { "en": "Excuse me, where is the bank?", "tr": "Affedersiniz, banka nerede?" } }
+          ],
+          "sentences": [
+            { "id": "u07-3-a", "en": "Turn left at the corner.", "tr": "Köşeden sola dön." },
+            { "id": "u07-3-b", "en": "Where is the city museum?", "tr": "Şehir müzesi nerede?" }
+          ]
+        },
+        {
+          "id": "u07-4",
+          "title": { "en": "Near and far", "tr": "Yakın ve uzak" },
+          "words": [
+            { "id": "near", "en": "near", "tr": "yakın", "ex": { "en": "My house is near the park.", "tr": "Evim parka yakın." } },
+            { "id": "far", "en": "far", "tr": "uzak", "ex": { "en": "Is the beach far from here?", "tr": "Plaj buradan uzak mı?" } },
+            { "id": "in-front-of", "en": "in front of", "tr": "önünde", "ex": { "en": "Meet me in front of the library.", "tr": "Benimle kütüphanenin önünde buluş." } },
+            { "id": "behind", "en": "behind", "tr": "arkasında", "ex": { "en": "The garden is behind the house.", "tr": "Bahçe evin arkasında." } },
+            { "id": "between", "en": "between", "tr": "arasında", "ex": { "en": "The bank is between the cafe and the bakery.", "tr": "Banka, kafe ile fırının arasında." } },
+            { "id": "map", "en": "map", "tr": "harita", "ex": { "en": "Do you have a map of the city?", "tr": "Şehir haritan var mı?" } }
+          ],
+          "sentences": [
+            { "id": "u07-4-a", "en": "The station is not far.", "tr": "İstasyon uzak değil." },
+            { "id": "u07-4-b", "en": "The cafe is behind the museum.", "tr": "Kafe müzenin arkasında." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u08",
+      "level": "a2",
+      "title": { "en": "Shopping and clothes", "tr": "Alışveriş ve giysiler" },
+      "lessons": [
+        {
+          "id": "u08-1",
+          "title": { "en": "Clothes", "tr": "Giysiler" },
+          "words": [
+            { "id": "shirt", "en": "shirt", "tr": "gömlek", "ex": { "en": "Ali wears a white shirt to work.", "tr": "Ali işe beyaz gömlek giyer." } },
+            { "id": "pants", "en": "pants", "tr": "pantolon", "hint": "American English for trousers.", "ex": { "en": "These pants are too long.", "tr": "Bu pantolon çok uzun." } },
+            { "id": "dress", "en": "dress", "tr": "elbise", "ex": { "en": "Anna wears a long dress.", "tr": "Anna uzun bir elbise giyer." } },
+            { "id": "shoes", "en": "shoes", "tr": "ayakkabı", "ex": { "en": "My shoes are under the bed.", "tr": "Ayakkabılarım yatağın altında." } },
+            { "id": "jacket", "en": "jacket", "tr": "ceket", "ex": { "en": "Take your jacket, it is cold.", "tr": "Ceketini al, hava soğuk." } },
+            { "id": "wear", "en": "wear", "tr": "giymek", "hint": "To have clothes on. ja/ko change the verb by item: give the one for shirts and note it.", "ex": { "en": "I wear a jacket in winter.", "tr": "Kışın ceket giyerim." } }
+          ],
+          "sentences": [
+            { "id": "u08-1-a", "en": "Mia wears black shoes.", "tr": "Mia siyah ayakkabı giyer." },
+            { "id": "u08-1-b", "en": "This dress is very beautiful.", "tr": "Bu elbise çok güzel." }
+          ]
+        },
+        {
+          "id": "u08-2",
+          "title": { "en": "Colors", "tr": "Renkler" },
+          "words": [
+            { "id": "red", "en": "red", "tr": "kırmızı", "ex": { "en": "I want the red shirt.", "tr": "Kırmızı gömleği istiyorum." } },
+            { "id": "blue", "en": "blue", "tr": "mavi", "ex": { "en": "Emma has blue eyes.", "tr": "Emma'nın mavi gözleri var." } },
+            { "id": "green", "en": "green", "tr": "yeşil", "ex": { "en": "I like green apples.", "tr": "Yeşil elmaları severim." } },
+            { "id": "yellow", "en": "yellow", "tr": "sarı", "ex": { "en": "My sister likes yellow flowers.", "tr": "Kız kardeşim sarı çiçekleri sever." } },
+            { "id": "black", "en": "black", "tr": "siyah", "ex": { "en": "Tom has a black dog.", "tr": "Tom'un siyah bir köpeği var." } },
+            { "id": "white", "en": "white", "tr": "beyaz", "ex": { "en": "The walls of my room are white.", "tr": "Odamın duvarları beyaz." } }
+          ],
+          "sentences": [
+            { "id": "u08-2-a", "en": "I like the blue jacket.", "tr": "Mavi ceketi beğeniyorum." },
+            { "id": "u08-2-b", "en": "My new shoes are white.", "tr": "Yeni ayakkabılarım beyaz." }
+          ]
+        },
+        {
+          "id": "u08-3",
+          "title": { "en": "Prices", "tr": "Fiyatlar" },
+          "words": [
+            { "id": "price", "en": "price", "tr": "fiyat", "ex": { "en": "What is the price of this bag?", "tr": "Bu çantanın fiyatı ne?" } },
+            { "id": "how-much-is-it", "en": "how much is it?", "tr": "bu ne kadar?", "ex": { "en": "This T-shirt is nice. How much is it?", "tr": "Bu tişört güzel. Ne kadar?" } },
+            { "id": "cheap", "en": "cheap", "tr": "ucuz", "ex": { "en": "These shoes are cheap.", "tr": "Bu ayakkabılar ucuz." } },
+            { "id": "expensive", "en": "expensive", "tr": "pahalı", "ex": { "en": "That jacket is too expensive.", "tr": "O ceket çok pahalı." } },
+            { "id": "pay", "en": "pay", "tr": "ödemek", "ex": { "en": "Can I pay by card?", "tr": "Kartla ödeyebilir miyim?" } },
+            { "id": "money", "en": "money", "tr": "para", "ex": { "en": "I do not have much money.", "tr": "Fazla param yok." } }
+          ],
+          "sentences": [
+            { "id": "u08-3-a", "en": "The price of the dress is fifty.", "tr": "Elbisenin fiyatı elli." },
+            { "id": "u08-3-b", "en": "This shirt is very cheap.", "tr": "Bu gömlek çok ucuz." }
+          ]
+        },
+        {
+          "id": "u08-4",
+          "title": { "en": "At the shop", "tr": "Mağazada" },
+          "words": [
+            { "id": "shop", "en": "shop", "tr": "mağaza", "ex": { "en": "The shop closes at eight.", "tr": "Mağaza sekizde kapanır." } },
+            { "id": "buy", "en": "buy", "tr": "satın almak", "ex": { "en": "I want to buy a new bag.", "tr": "Yeni bir çanta satın almak istiyorum." } },
+            { "id": "sell", "en": "sell", "tr": "satmak", "ex": { "en": "They sell shoes and bags here.", "tr": "Burada ayakkabı ve çanta satıyorlar." } },
+            { "id": "size", "en": "size", "tr": "beden", "hint": "The size of clothes or shoes (tr: beden).", "ex": { "en": "Do you have this in a bigger size?", "tr": "Bunun daha büyük bedeni var mı?" } },
+            { "id": "try-on", "en": "try on", "tr": "denemek", "hint": "To put on clothes in a shop to see if they fit.", "ex": { "en": "Can I try on this dress?", "tr": "Bu elbiseyi deneyebilir miyim?" } },
+            { "id": "bag", "en": "bag", "tr": "çanta", "ex": { "en": "Put your bag on the chair.", "tr": "Çantanı sandalyeye koy." } }
+          ],
+          "sentences": [
+            { "id": "u08-4-a", "en": "Can I try on these pants?", "tr": "Bu pantolonu deneyebilir miyim?" },
+            { "id": "u08-4-b", "en": "This shop sells nice hats.", "tr": "Bu mağaza güzel şapkalar satar." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u09",
+      "level": "a2",
+      "title": { "en": "Weather and seasons", "tr": "Hava ve mevsimler" },
+      "lessons": [
+        {
+          "id": "u09-1",
+          "title": { "en": "What is the weather like?", "tr": "Hava nasıl?" },
+          "words": [
+            { "id": "weather", "en": "weather", "tr": "hava", "ex": { "en": "The weather is nice today.", "tr": "Bugün hava güzel." } },
+            { "id": "sun", "en": "sun", "tr": "güneş", "ex": { "en": "The sun is shining in Madrid.", "tr": "Madrid'de güneş parlıyor." } },
+            { "id": "rain", "en": "rain", "tr": "yağmur", "ex": { "en": "There is a lot of rain in London.", "tr": "Londra'da çok yağmur yağar." } },
+            { "id": "snow", "en": "snow", "tr": "kar", "ex": { "en": "The children are playing in the snow.", "tr": "Çocuklar karda oynuyor." } },
+            { "id": "wind", "en": "wind", "tr": "rüzgâr", "ex": { "en": "The wind is very cold today.", "tr": "Bugün rüzgâr çok soğuk." } },
+            { "id": "cloud", "en": "cloud", "tr": "bulut", "ex": { "en": "There are no clouds in the sky.", "tr": "Gökyüzünde hiç bulut yok." } }
+          ],
+          "sentences": [
+            { "id": "u09-1-a", "en": "It is raining in Paris.", "tr": "Paris'te yağmur yağıyor." },
+            { "id": "u09-1-b", "en": "Look, it is snowing!", "tr": "Bak, kar yağıyor!" }
+          ]
+        },
+        {
+          "id": "u09-2",
+          "title": { "en": "Hot and cold", "tr": "Sıcak ve soğuk" },
+          "words": [
+            { "id": "hot", "en": "hot", "tr": "sıcak", "hint": "Of the weather. ja/ko: use the weather word.", "ex": { "en": "It is very hot in summer.", "tr": "Yazın hava çok sıcak." } },
+            { "id": "cold", "en": "cold", "tr": "soğuk", "hint": "Of the weather. ja/ko: use the weather word.", "ex": { "en": "It is cold outside today.", "tr": "Bugün dışarısı soğuk." } },
+            { "id": "sky", "en": "sky", "tr": "gökyüzü", "ex": { "en": "The sky is gray today.", "tr": "Bugün gökyüzü gri." } },
+            { "id": "umbrella", "en": "umbrella", "tr": "şemsiye", "ex": { "en": "Take an umbrella, it is raining.", "tr": "Şemsiye al, yağmur yağıyor." } },
+            { "id": "wet", "en": "wet", "tr": "ıslak", "ex": { "en": "My hair is wet from the rain.", "tr": "Saçım yağmurdan ıslak." } },
+            { "id": "degree", "en": "degree", "tr": "derece", "ex": { "en": "It is thirty degrees today.", "tr": "Bugün hava otuz derece." } }
+          ],
+          "sentences": [
+            { "id": "u09-2-a", "en": "It is very cold in Berlin.", "tr": "Berlin'de hava çok soğuk." },
+            { "id": "u09-2-b", "en": "Tom is carrying a black umbrella.", "tr": "Tom siyah bir şemsiye taşıyor." }
+          ]
+        },
+        {
+          "id": "u09-3",
+          "title": { "en": "The four seasons", "tr": "Dört mevsim" },
+          "words": [
+            { "id": "season", "en": "season", "tr": "mevsim", "ex": { "en": "Spring is my favorite season.", "tr": "İlkbahar en sevdiğim mevsim." } },
+            { "id": "spring", "en": "spring", "tr": "ilkbahar", "hint": "The season.", "ex": { "en": "The flowers open in spring.", "tr": "Çiçekler ilkbaharda açar." } },
+            { "id": "summer", "en": "summer", "tr": "yaz", "ex": { "en": "We go to the beach in summer.", "tr": "Yazın plaja gideriz." } },
+            { "id": "fall", "en": "fall", "tr": "sonbahar", "hint": "The season between summer and winter (autumn).", "ex": { "en": "The leaves are yellow in the fall.", "tr": "Sonbaharda yapraklar sarı." } },
+            { "id": "winter", "en": "winter", "tr": "kış", "ex": { "en": "Winters are cold in Seoul.", "tr": "Seul'de kışlar soğuk." } },
+            { "id": "flower", "en": "flower", "tr": "çiçek", "ex": { "en": "My mother loves flowers.", "tr": "Annem çiçekleri çok sever." } }
+          ],
+          "sentences": [
+            { "id": "u09-3-a", "en": "In spring the trees are green.", "tr": "İlkbaharda ağaçlar yeşil." },
+            { "id": "u09-3-b", "en": "Summer is a hot season.", "tr": "Yaz sıcak bir mevsim." }
+          ]
+        },
+        {
+          "id": "u09-4",
+          "title": { "en": "What are you doing now?", "tr": "Şimdi ne yapıyorsun?" },
+          "words": [
+            { "id": "outside", "en": "outside", "tr": "dışarıda", "ex": { "en": "Let's eat outside today.", "tr": "Bugün dışarıda yiyelim." } },
+            { "id": "inside", "en": "inside", "tr": "içeride", "ex": { "en": "It is raining, so we are staying inside.", "tr": "Yağmur yağıyor, bu yüzden içeride kalıyoruz." } },
+            { "id": "beach", "en": "beach", "tr": "plaj", "ex": { "en": "Elif is reading on the beach.", "tr": "Elif plajda kitap okuyor." } },
+            { "id": "swim", "en": "swim", "tr": "yüzmek", "ex": { "en": "Ali is swimming in the sea.", "tr": "Ali denizde yüzüyor." } },
+            { "id": "walk", "en": "walk", "tr": "yürümek", "ex": { "en": "Anna and I are walking by the sea.", "tr": "Anna ile deniz kenarında yürüyoruz." } },
+            { "id": "stay", "en": "stay", "tr": "kalmak", "hint": "To remain in a place (stay at home).", "ex": { "en": "I am staying at home today.", "tr": "Bugün evde kalıyorum." } }
+          ],
+          "sentences": [
+            { "id": "u09-4-a", "en": "Leo is swimming at the beach.", "tr": "Leo plajda yüzüyor." },
+            { "id": "u09-4-b", "en": "Mia and Tom are walking outside.", "tr": "Mia ve Tom dışarıda yürüyor." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10",
+      "level": "a2",
+      "title": { "en": "Travel", "tr": "Seyahat" },
+      "lessons": [
+        {
+          "id": "u10-1",
+          "title": { "en": "Ways to travel", "tr": "Ulaşım yolları" },
+          "words": [
+            { "id": "bus", "en": "bus", "tr": "otobüs", "ex": { "en": "The bus was full this morning.", "tr": "Otobüs bu sabah doluydu." } },
+            { "id": "train", "en": "train", "tr": "tren", "ex": { "en": "The train to Madrid was fast.", "tr": "Madrid treni hızlıydı." } },
+            { "id": "car", "en": "car", "tr": "araba", "ex": { "en": "My first car was red.", "tr": "İlk arabam kırmızıydı." } },
+            { "id": "bike", "en": "bike", "tr": "bisiklet", "ex": { "en": "I go to work by bike.", "tr": "İşe bisikletle giderim." } },
+            { "id": "taxi", "en": "taxi", "tr": "taksi", "ex": { "en": "The taxi was very expensive.", "tr": "Taksi çok pahalıydı." } },
+            { "id": "plane", "en": "plane", "tr": "uçak", "ex": { "en": "We were on the plane for twelve hours.", "tr": "On iki saat uçaktaydık." } }
+          ],
+          "sentences": [
+            { "id": "u10-1-a", "en": "The bus was very slow.", "tr": "Otobüs çok yavaştı." },
+            { "id": "u10-1-b", "en": "We were on the train at six.", "tr": "Saat altıda trendeydik." }
+          ]
+        },
+        {
+          "id": "u10-2",
+          "title": { "en": "Tickets and airports", "tr": "Biletler ve havalimanları" },
+          "words": [
+            { "id": "ticket", "en": "ticket", "tr": "bilet", "ex": { "en": "Is this your train ticket?", "tr": "Bu senin tren biletin mi?" } },
+            { "id": "station", "en": "station", "tr": "istasyon", "ex": { "en": "The station was full of people.", "tr": "İstasyon insanlarla doluydu." } },
+            { "id": "airport", "en": "airport", "tr": "havalimanı", "ex": { "en": "The airport was far from the city.", "tr": "Havalimanı şehirden uzaktı." } },
+            { "id": "passport", "en": "passport", "tr": "pasaport", "ex": { "en": "Your passport was on the table.", "tr": "Pasaportun masanın üstündeydi." } },
+            { "id": "early", "en": "early", "tr": "erken", "ex": { "en": "I wake up early on Mondays.", "tr": "Pazartesileri erken uyanırım." } },
+            { "id": "late", "en": "late", "tr": "geç", "ex": { "en": "Sorry, I was late today.", "tr": "Özür dilerim, bugün geç kaldım." } }
+          ],
+          "sentences": [
+            { "id": "u10-2-a", "en": "The train was late again.", "tr": "Tren yine geç kaldı." },
+            { "id": "u10-2-b", "en": "The tickets were not expensive.", "tr": "Biletler pahalı değildi." }
+          ]
+        },
+        {
+          "id": "u10-3",
+          "title": { "en": "At the hotel", "tr": "Otelde" },
+          "words": [
+            { "id": "hotel", "en": "hotel", "tr": "otel", "ex": { "en": "Our hotel was near the sea.", "tr": "Otelimiz denize yakındı." } },
+            { "id": "suitcase", "en": "suitcase", "tr": "bavul", "ex": { "en": "My suitcase was very heavy.", "tr": "Bavulum çok ağırdı." } },
+            { "id": "floor", "en": "floor", "tr": "kat", "hint": "A level of a building (the fifth floor), not the ground you walk on.", "ex": { "en": "Our room was on the fifth floor.", "tr": "Odamız beşinci kattaydı." } },
+            { "id": "view", "en": "view", "tr": "manzara", "ex": { "en": "The view from the window was beautiful.", "tr": "Pencereden görünen manzara güzeldi." } },
+            { "id": "comfortable", "en": "comfortable", "tr": "rahat", "ex": { "en": "The beds were very comfortable.", "tr": "Yataklar çok rahattı." } },
+            { "id": "quiet", "en": "quiet", "tr": "sessiz", "ex": { "en": "The hotel was clean and quiet.", "tr": "Otel temiz ve sessizdi." } }
+          ],
+          "sentences": [
+            { "id": "u10-3-a", "en": "The hotel room was very quiet.", "tr": "Otel odası çok sessizdi." },
+            { "id": "u10-3-b", "en": "Was the bed comfortable?", "tr": "Yatak rahat mıydı?" }
+          ]
+        },
+        {
+          "id": "u10-4",
+          "title": { "en": "On vacation", "tr": "Tatilde" },
+          "words": [
+            { "id": "vacation", "en": "vacation", "tr": "tatil", "ex": { "en": "Our vacation was too short.", "tr": "Tatilimiz çok kısaydı." } },
+            { "id": "sea", "en": "sea", "tr": "deniz", "ex": { "en": "The sea was warm and blue.", "tr": "Deniz ılık ve maviydi." } },
+            { "id": "mountain", "en": "mountain", "tr": "dağ", "ex": { "en": "The mountains were white with snow.", "tr": "Dağlar kardan beyazdı." } },
+            { "id": "photo", "en": "photo", "tr": "fotoğraf", "ex": { "en": "This photo is from Tokyo.", "tr": "Bu fotoğraf Tokyo'dan." } },
+            { "id": "visit", "en": "visit", "tr": "ziyaret etmek", "ex": { "en": "Tourists visit the museum every day.", "tr": "Turistler müzeyi her gün ziyaret eder." } },
+            { "id": "wonderful", "en": "wonderful", "tr": "harika", "ex": { "en": "It was a wonderful day at the beach.", "tr": "Plajda harika bir gündü." } }
+          ],
+          "sentences": [
+            { "id": "u10-4-a", "en": "The sea was very beautiful.", "tr": "Deniz çok güzeldi." },
+            { "id": "u10-4-b", "en": "Our vacation in Rio was wonderful.", "tr": "Rio'daki tatilimiz harikaydı." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11",
+      "level": "a2",
+      "title": { "en": "Last weekend", "tr": "Geçen hafta sonu" },
+      "lessons": [
+        {
+          "id": "u11-1",
+          "title": { "en": "Yesterday and before", "tr": "Dün ve daha önce" },
+          "words": [
+            { "id": "yesterday", "en": "yesterday", "tr": "dün", "ex": { "en": "I saw Elif yesterday.", "tr": "Dün Elif'i gördüm." } },
+            { "id": "last-night", "en": "last night", "tr": "dün gece", "ex": { "en": "Last night we watched a movie.", "tr": "Dün gece bir film izledik." } },
+            { "id": "last-week", "en": "last week", "tr": "geçen hafta", "ex": { "en": "Last week Tom visited Paris.", "tr": "Geçen hafta Tom Paris'i ziyaret etti." } },
+            { "id": "last-year", "en": "last year", "tr": "geçen yıl", "ex": { "en": "We moved to Berlin last year.", "tr": "Geçen yıl Berlin'e taşındık." } },
+            { "id": "ago", "en": "ago", "tr": "önce", "hint": "Back in time from now (two days ago).", "ex": { "en": "I started this job two years ago.", "tr": "Bu işe iki yıl önce başladım." } },
+            { "id": "then", "en": "then", "tr": "sonra", "hint": "After that, next in time (we ate, then we walked).", "ex": { "en": "We ate lunch, then we walked.", "tr": "Öğle yemeği yedik, sonra yürüdük." } }
+          ],
+          "sentences": [
+            { "id": "u11-1-a", "en": "Emma called me yesterday.", "tr": "Emma dün beni aradı." },
+            { "id": "u11-1-b", "en": "I saw Ali two days ago.", "tr": "Ali'yi iki gün önce gördüm." }
+          ]
+        },
+        {
+          "id": "u11-2",
+          "title": { "en": "A fun weekend", "tr": "Eğlenceli bir hafta sonu" },
+          "words": [
+            { "id": "meet", "en": "meet", "tr": "buluşmak", "hint": "To meet up with someone you know, by plan (tr: buluşmak, not tanışmak).", "ex": { "en": "I met Zeynep at the cafe.", "tr": "Zeynep'le kafede buluştum." } },
+            { "id": "see", "en": "see", "tr": "görmek", "ex": { "en": "I saw your brother in the park.", "tr": "Erkek kardeşini parkta gördüm." } },
+            { "id": "dance", "en": "dance", "tr": "dans etmek", "ex": { "en": "We danced all night.", "tr": "Bütün gece dans ettik." } },
+            { "id": "sing", "en": "sing", "tr": "şarkı söylemek", "ex": { "en": "Mia sang a song for us.", "tr": "Mia bize bir şarkı söyledi." } },
+            { "id": "party", "en": "party", "tr": "parti", "hint": "A celebration with friends (a birthday party).", "ex": { "en": "The party was at Leo's house.", "tr": "Parti Leo'nun evindeydi." } },
+            { "id": "have-fun", "en": "have fun", "tr": "eğlenmek", "ex": { "en": "The children had a lot of fun.", "tr": "Çocuklar çok eğlendi." } }
+          ],
+          "sentences": [
+            { "id": "u11-2-a", "en": "We danced at the party.", "tr": "Partide dans ettik." },
+            { "id": "u11-2-b", "en": "Emre and I met on Saturday.", "tr": "Emre ile cumartesi günü buluştuk." }
+          ]
+        },
+        {
+          "id": "u11-3",
+          "title": { "en": "A quiet Sunday", "tr": "Sakin bir pazar günü" },
+          "words": [
+            { "id": "cook", "en": "cook", "tr": "pişirmek", "hint": "The verb: to make food.", "ex": { "en": "My father cooked fish for us.", "tr": "Babam bize balık pişirdi." } },
+            { "id": "wash", "en": "wash", "tr": "yıkamak", "ex": { "en": "I washed my car on Sunday.", "tr": "Pazar günü arabamı yıkadım." } },
+            { "id": "call", "en": "call", "tr": "aramak", "hint": "To phone someone.", "ex": { "en": "I called my grandmother last night.", "tr": "Dün gece büyükannemi aradım." } },
+            { "id": "write", "en": "write", "tr": "yazmak", "ex": { "en": "Anna wrote a long email.", "tr": "Anna uzun bir e-posta yazdı." } },
+            { "id": "listen", "en": "listen", "tr": "dinlemek", "ex": { "en": "We listened to music all day.", "tr": "Bütün gün müzik dinledik." } },
+            { "id": "music", "en": "music", "tr": "müzik", "ex": { "en": "I like quiet music.", "tr": "Sakin müziği severim." } }
+          ],
+          "sentences": [
+            { "id": "u11-3-a", "en": "Tom cooked soup for dinner.", "tr": "Tom akşam yemeğine çorba pişirdi." },
+            { "id": "u11-3-b", "en": "I listened to music in bed.", "tr": "Yatakta müzik dinledim." }
+          ]
+        },
+        {
+          "id": "u11-4",
+          "title": { "en": "What happened?", "tr": "Ne oldu?" },
+          "words": [
+            { "id": "tired", "en": "tired", "tr": "yorgun", "ex": { "en": "I was very tired after work.", "tr": "İşten sonra çok yorgundum." } },
+            { "id": "forget", "en": "forget", "tr": "unutmak", "ex": { "en": "I forgot my umbrella at home.", "tr": "Şemsiyemi evde unuttum." } },
+            { "id": "lose", "en": "lose", "tr": "kaybetmek", "ex": { "en": "Sam lost his keys yesterday.", "tr": "Sam dün anahtarlarını kaybetti." } },
+            { "id": "find", "en": "find", "tr": "bulmak", "ex": { "en": "I found my phone under the bed.", "tr": "Telefonumu yatağın altında buldum." } },
+            { "id": "finish", "en": "finish", "tr": "bitirmek", "ex": { "en": "We finished our homework at nine.", "tr": "Ödevimizi dokuzda bitirdik." } },
+            { "id": "start", "en": "start", "tr": "başlamak", "ex": { "en": "The movie started at eight.", "tr": "Film sekizde başladı." } }
+          ],
+          "sentences": [
+            { "id": "u11-4-a", "en": "Elif forgot her bag at school.", "tr": "Elif çantasını okulda unuttu." },
+            { "id": "u11-4-b", "en": "I lost my ticket yesterday.", "tr": "Dün biletimi kaybettim." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u12",
+      "level": "a2",
+      "title": { "en": "Plans and invitations", "tr": "Planlar ve davetler" },
+      "lessons": [
+        {
+          "id": "u12-1",
+          "title": { "en": "Talking about the future", "tr": "Gelecekten söz etmek" },
+          "words": [
+            { "id": "tomorrow", "en": "tomorrow", "tr": "yarın", "ex": { "en": "I am going to visit my grandmother tomorrow.", "tr": "Yarın büyükannemi ziyaret edeceğim." } },
+            { "id": "tonight", "en": "tonight", "tr": "bu akşam", "ex": { "en": "We are going to watch a movie tonight.", "tr": "Bu akşam film izleyeceğiz." } },
+            { "id": "next-week", "en": "next week", "tr": "gelecek hafta", "ex": { "en": "Next week I am going to start a new job.", "tr": "Gelecek hafta yeni bir işe başlayacağım." } },
+            { "id": "next-year", "en": "next year", "tr": "gelecek yıl", "ex": { "en": "Next year we are going to move to Seoul.", "tr": "Gelecek yıl Seul'e taşınacağız." } },
+            { "id": "soon", "en": "soon", "tr": "yakında", "ex": { "en": "My sister is going to visit us soon.", "tr": "Kız kardeşim yakında bizi ziyaret edecek." } },
+            { "id": "plan", "en": "plan", "tr": "plan", "hint": "Noun: something you are going to do.", "ex": { "en": "What is your plan for Saturday?", "tr": "Cumartesi için planın ne?" } }
+          ],
+          "sentences": [
+            { "id": "u12-1-a", "en": "I am going to call you tomorrow.", "tr": "Seni yarın arayacağım." },
+            { "id": "u12-1-b", "en": "Mia is going to cook tonight.", "tr": "Mia bu akşam yemek yapacak." }
+          ]
+        },
+        {
+          "id": "u12-2",
+          "title": { "en": "Inviting a friend", "tr": "Bir arkadaşı davet etmek" },
+          "words": [
+            { "id": "invite", "en": "invite", "tr": "davet etmek", "ex": { "en": "I would like to invite you to dinner.", "tr": "Seni akşam yemeğine davet etmek isterim." } },
+            { "id": "would-you-like", "en": "would you like...?", "tr": "ister misin?", "hint": "A polite offer or invitation to one friend: would you like some tea? would you like to come?", "ex": { "en": "Would you like some tea?", "tr": "Biraz çay ister misin?" } },
+            { "id": "come", "en": "come", "tr": "gelmek", "ex": { "en": "Would you like to come to my party?", "tr": "Partime gelmek ister misin?" } },
+            { "id": "free", "en": "free", "tr": "boş", "hint": "Not busy, with time to do something (are you free tonight?), not 'costs nothing'.", "ex": { "en": "Are you free on Friday evening?", "tr": "Cuma akşamı boş musun?" } },
+            { "id": "busy", "en": "busy", "tr": "meşgul", "ex": { "en": "Sorry, I am busy tomorrow.", "tr": "Üzgünüm, yarın meşgulüm." } },
+            { "id": "concert", "en": "concert", "tr": "konser", "ex": { "en": "There is a concert in the park tonight.", "tr": "Bu akşam parkta bir konser var." } }
+          ],
+          "sentences": [
+            { "id": "u12-2-a", "en": "Would you like to come with us?", "tr": "Bizimle gelmek ister misin?" },
+            { "id": "u12-2-b", "en": "Are you free this weekend?", "tr": "Bu hafta sonu boş musun?" }
+          ]
+        },
+        {
+          "id": "u12-3",
+          "title": { "en": "Saying yes and no", "tr": "Evet ve hayır demek" },
+          "words": [
+            { "id": "of-course", "en": "of course", "tr": "tabii ki", "ex": { "en": "Of course I am going to come!", "tr": "Tabii ki geleceğim!" } },
+            { "id": "good-idea", "en": "good idea", "tr": "iyi fikir", "ex": { "en": "A picnic on Sunday? Good idea!", "tr": "Pazar günü piknik mi? İyi fikir!" } },
+            { "id": "maybe", "en": "maybe", "tr": "belki", "ex": { "en": "Maybe I am going to come later.", "tr": "Belki daha sonra gelirim." } },
+            { "id": "unfortunately", "en": "unfortunately", "tr": "maalesef", "ex": { "en": "Unfortunately, the shop is closed today.", "tr": "Maalesef mağaza bugün kapalı." } },
+            { "id": "another-time", "en": "another time", "tr": "başka zaman", "ex": { "en": "Sorry, I can't come. Maybe another time?", "tr": "Üzgünüm, gelemem. Belki başka zaman?" } },
+            { "id": "i-would-love-to", "en": "I would love to", "tr": "çok isterim", "hint": "A warm yes to an invitation.", "ex": { "en": "Dinner on Saturday? I would love to!", "tr": "Cumartesi akşam yemeği mi? Çok isterim!" } }
+          ],
+          "sentences": [
+            { "id": "u12-3-a", "en": "Of course I would like to come.", "tr": "Tabii ki gelmek isterim." },
+            { "id": "u12-3-b", "en": "Unfortunately, I am busy tonight.", "tr": "Maalesef bu akşam meşgulüm." }
+          ]
+        },
+        {
+          "id": "u12-4",
+          "title": { "en": "What are you going to do?", "tr": "Ne yapacaksın?" },
+          "words": [
+            { "id": "learn", "en": "learn", "tr": "öğrenmek", "ex": { "en": "I would like to learn to cook.", "tr": "Yemek yapmayı öğrenmek isterim." } },
+            { "id": "travel", "en": "travel", "tr": "seyahat etmek", "ex": { "en": "Emma is going to travel to Tokyo.", "tr": "Emma Tokyo'ya seyahat edecek." } },
+            { "id": "rest", "en": "rest", "tr": "dinlenmek", "hint": "The verb: to relax and not work.", "ex": { "en": "This weekend I am going to rest.", "tr": "Bu hafta sonu dinleneceğim." } },
+            { "id": "celebrate", "en": "celebrate", "tr": "kutlamak", "ex": { "en": "We are going to celebrate her birthday.", "tr": "Onun doğum gününü kutlayacağız." } },
+            { "id": "bring", "en": "bring", "tr": "getirmek", "ex": { "en": "I am going to bring a cake.", "tr": "Bir pasta getireceğim." } },
+            { "id": "ready", "en": "ready", "tr": "hazır", "ex": { "en": "Are you ready for the trip?", "tr": "Yolculuğa hazır mısın?" } }
+          ],
+          "sentences": [
+            { "id": "u12-4-a", "en": "We are going to celebrate on Saturday.", "tr": "Cumartesi günü kutlayacağız." },
+            { "id": "u12-4-b", "en": "Deniz would like to learn French.", "tr": "Deniz Fransızca öğrenmek istiyor." }
+          ]
+        }
+      ]
+    }
+  ]
+}

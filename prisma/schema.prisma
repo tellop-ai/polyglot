@@ -1,0 +1,166 @@
+// The shape of what this app stores.
+//
+// This file is the agent's editing surface: a change
+// to how the app keeps information is a change *here*, and Tellop's data-change
+// pipeline turns it into a reviewed, rehearsed step in `prisma/migrations/`.
+// Nothing edits those step files by hand - they are what has already been applied.
+//
+// The stored names are the ones this template has always used (`people`, `notes`,
+// `owner_id`, ...), kept through `@map`/`@@map` rather than renamed, so an app
+// created before this change reads its own saved information unchanged.
+//
+// There is deliberately no `url` here. Version 7 takes the location from the
+// config file beside it, and Tellop supplies that location per operation rather
+// than trusting whatever a project file happens to say.
+
+generator client {
+  provider     = "prisma-client"
+  output       = "../lib/data/generated"
+  moduleFormat = "esm"
+  runtime      = "nodejs"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Person {
+  id       String  @id
+  name     String
+  isSample Boolean @default(false) @map("is_sample")
+  notes    Note[]
+
+  @@map("people")
+}
+
+model Note {
+  id        Int    @id @default(autoincrement())
+  ownerId   String @map("owner_id")
+  body      String
+  createdAt String @map("created_at")
+  owner     Person @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+
+  @@index([ownerId, id], map: "notes_by_owner")
+  @@map("notes")
+}
+
+// Polyglot: one person learning one or more languages on this computer.
+// Every row names its owner; every course row also names the language learned.
+
+model Learner {
+  ownerId       String   @id @map("owner_id")
+  ownLanguage   String   @map("own_language")
+  course        String
+  studyDays     String   @default("1,2,3,4,5") @map("study_days")
+  lessonsPerDay Int      @default(1) @map("lessons_per_day")
+  cardsPerDay   Int      @default(20) @map("cards_per_day")
+  readAloud     Boolean  @default(true) @map("read_aloud")
+  voiceSpeed    String   @default("normal") @map("voice_speed")
+  // Who reads aloud: "ai" (the AI voice, on the person's AI allowance) or "mac" (this Mac's own voice); none means "ai".
+  readWith      String?  @map("read_with")
+  // Whether lessons ask the person to say a sentence aloud; none means yes.
+  speaking      Boolean?
+  createdAt     String   @map("created_at")
+  updatedAt     String   @map("updated_at")
+
+  @@map("learners")
+}
+
+model Course {
+  id         Int    @id @default(autoincrement())
+  ownerId    String @map("owner_id")
+  course     String
+  startLevel String @default("") @map("start_level")
+  testRight  Int    @default(0) @map("test_right")
+  testTotal  Int    @default(0) @map("test_total")
+  testedAt   String @default("") @map("tested_at")
+  voice      String @default("")
+  startedAt  String @map("started_at")
+  updatedAt  String @map("updated_at")
+
+  @@unique([ownerId, course], map: "courses_one_each")
+  @@map("courses")
+}
+
+model LessonResult {
+  id          Int    @id @default(autoincrement())
+  ownerId     String @map("owner_id")
+  course      String
+  lesson      String
+  bestRight   Int    @map("best_right")
+  lastRight   Int    @map("last_right")
+  total       Int
+  times       Int    @default(1)
+  firstDoneAt String @map("first_done_at")
+  lastDoneAt  String @map("last_done_at")
+
+  @@unique([ownerId, course, lesson], map: "lesson_results_one_each")
+  @@map("lesson_results")
+}
+
+// The last finished run of each lesson, by the code its lesson page made
+// for that run. Saving a lesson first adds this row, and the code can be
+// added only once, so a run saved again (its reply was lost, then "Save
+// again") changes nothing a second time.
+model LessonAttempt {
+  id      Int    @id @default(autoincrement())
+  ownerId String @map("owner_id")
+  course  String
+  lesson  String
+  attempt String
+  savedAt String @map("saved_at")
+
+  @@unique([ownerId, course, attempt], map: "lesson_attempts_one_each")
+  @@map("lesson_attempts")
+}
+
+// A text the AI voice has read aloud, kept so that the same words are bought
+// only once: the course's own words and sentences, and a bounded number of AI
+// practice answers. `textKey` is the text's SHA-256, `soundFile` the kept MP3.
+model SpokenSound {
+  id        Int    @id @default(autoincrement())
+  ownerId   String @map("owner_id")
+  course    String
+  voice     String
+  textKey   String @map("text_key")
+  kind      String
+  soundFile String @map("sound_file")
+  savedAt   String @map("saved_at")
+
+  @@unique([ownerId, course, voice, textKey], map: "spoken_sounds_one_each")
+  @@map("spoken_sounds")
+}
+
+model StudyDay {
+  id      Int    @id @default(autoincrement())
+  ownerId String @map("owner_id")
+  course  String
+  day     String
+  lessons Int    @default(0)
+  cards   Int    @default(0)
+  known   Int    @default(0)
+
+  @@unique([ownerId, course, day], map: "study_days_one_each")
+  @@map("study_days")
+}
+
+model WordCard {
+  id         Int    @id @default(autoincrement())
+  ownerId    String @map("owner_id")
+  course     String
+  card       String
+  front      String @default("")
+  back       String @default("")
+  note       String @default("")
+  step       Int    @default(1)
+  dueDay     String @map("due_day")
+  seen       Int    @default(0)
+  knewTimes  Int    @default(0) @map("knew_times")
+  lastSeenAt String @default("") @map("last_seen_at")
+  addedAt    String @map("added_at")
+  updatedAt  String @map("updated_at")
+
+  @@unique([ownerId, course, card], map: "word_cards_one_each")
+  @@index([ownerId, course, dueDay], map: "word_cards_due")
+  @@map("word_cards")
+}

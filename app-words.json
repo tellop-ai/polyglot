@@ -1,0 +1,497 @@
+{
+  "record": "tellop-app-words",
+  "version": 1,
+  "keys": [],
+  "records": [
+    {
+      "name": "learners",
+      "label": {
+        "tr": "Öğrenen",
+        "en": "Learner"
+      },
+      "fields": [
+        {
+          "name": "owner_id",
+          "label": {
+            "tr": "Sahip",
+            "en": "Owner"
+          }
+        },
+        {
+          "name": "own_language",
+          "label": {
+            "tr": "Kendi dili",
+            "en": "Own language"
+          }
+        },
+        {
+          "name": "course",
+          "label": {
+            "tr": "Öğrenilen dil",
+            "en": "Language being learned"
+          }
+        },
+        {
+          "name": "study_days",
+          "label": {
+            "tr": "Çalışma günleri",
+            "en": "Study days"
+          }
+        },
+        {
+          "name": "lessons_per_day",
+          "label": {
+            "tr": "Günlük ders sayısı",
+            "en": "Lessons a study day"
+          }
+        },
+        {
+          "name": "cards_per_day",
+          "label": {
+            "tr": "Günlük kart sayısı",
+            "en": "Cards a day"
+          }
+        },
+        {
+          "name": "read_aloud",
+          "label": {
+            "tr": "Sesli okuma",
+            "en": "Read aloud"
+          }
+        },
+        {
+          "name": "voice_speed",
+          "label": {
+            "tr": "Ses hızı",
+            "en": "Voice speed"
+          }
+        },
+        {
+          "name": "read_with",
+          "label": {
+            "tr": "Sesli okuyan",
+            "en": "Read aloud by"
+          }
+        },
+        {
+          "name": "speaking",
+          "label": {
+            "tr": "Konuşma alıştırması",
+            "en": "Speaking practice"
+          }
+        },
+        {
+          "name": "created_at",
+          "label": {
+            "tr": "Başlama anı",
+            "en": "Started at"
+          }
+        },
+        {
+          "name": "updated_at",
+          "label": {
+            "tr": "Son değişiklik",
+            "en": "Last changed"
+          }
+        }
+      ]
+    },
+    {
+      "name": "courses",
+      "label": {
+        "tr": "Öğrenilen diller",
+        "en": "Languages learned"
+      },
+      "fields": [
+        {
+          "name": "owner_id",
+          "label": {
+            "tr": "Sahip",
+            "en": "Owner"
+          }
+        },
+        {
+          "name": "course",
+          "label": {
+            "tr": "Dil",
+            "en": "Language"
+          }
+        },
+        {
+          "name": "start_level",
+          "label": {
+            "tr": "Başlangıç seviyesi",
+            "en": "Start level"
+          }
+        },
+        {
+          "name": "test_right",
+          "label": {
+            "tr": "Seviye testindeki doğrular",
+            "en": "Level test right answers"
+          }
+        },
+        {
+          "name": "test_total",
+          "label": {
+            "tr": "Seviye testindeki sorular",
+            "en": "Level test questions"
+          }
+        },
+        {
+          "name": "tested_at",
+          "label": {
+            "tr": "Seviye testinin yapıldığı an",
+            "en": "Level test taken at"
+          }
+        },
+        {
+          "name": "voice",
+          "label": {
+            "tr": "Aksan",
+            "en": "Accent"
+          }
+        },
+        {
+          "name": "started_at",
+          "label": {
+            "tr": "Başlama anı",
+            "en": "Started at"
+          }
+        },
+        {
+          "name": "updated_at",
+          "label": {
+            "tr": "Son değişiklik",
+            "en": "Last changed"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lesson_results",
+      "label": {
+        "tr": "Ders sonuçları",
+        "en": "Lesson results"
+      },
+      "fields": [
+        {
+          "name": "owner_id",
+          "label": {
+            "tr": "Sahip",
+            "en": "Owner"
+          }
+        },
+        {
+          "name": "course",
+          "label": {
+            "tr": "Dil",
+            "en": "Language"
+          }
+        },
+        {
+          "name": "lesson",
+          "label": {
+            "tr": "Ders",
+            "en": "Lesson"
+          }
+        },
+        {
+          "name": "best_right",
+          "label": {
+            "tr": "En iyi sonuç",
+            "en": "Best score"
+          }
+        },
+        {
+          "name": "last_right",
+          "label": {
+            "tr": "Son sonuç",
+            "en": "Last score"
+          }
+        },
+        {
+          "name": "total",
+          "label": {
+            "tr": "Alıştırmalar",
+            "en": "Exercises"
+          }
+        },
+        {
+          "name": "times",
+          "label": {
+            "tr": "Yapılma sayısı",
+            "en": "Times done"
+          }
+        },
+        {
+          "name": "first_done_at",
+          "label": {
+            "tr": "İlk bitirme anı",
+            "en": "First done at"
+          }
+        },
+        {
+          "name": "last_done_at",
+          "label": {
+            "tr": "Son bitirme anı",
+            "en": "Last done at"
+          }
+        }
+      ]
+    },
+    {
+      "name": "lesson_attempts",
+      "label": {
+        "tr": "Kaydedilen ders turları",
+        "en": "Saved lesson runs"
+      },
+      "fields": [
+        {
+          "name": "owner_id",
+          "label": {
+            "tr": "Sahip",
+            "en": "Owner"
+          }
+        },
+        {
+          "name": "course",
+          "label": {
+            "tr": "Dil",
+            "en": "Language"
+          }
+        },
+        {
+          "name": "lesson",
+          "label": {
+            "tr": "Ders",
+            "en": "Lesson"
+          }
+        },
+        {
+          "name": "attempt",
+          "label": {
+            "tr": "Tur kodu",
+            "en": "Run code"
+          }
+        },
+        {
+          "name": "saved_at",
+          "label": {
+            "tr": "Kaydedildiği an",
+            "en": "Saved at"
+          }
+        }
+      ]
+    },
+    {
+      "name": "spoken_sounds",
+      "label": {
+        "tr": "Sesli okunan metinler",
+        "en": "Texts read aloud"
+      },
+      "fields": [
+        {
+          "name": "owner_id",
+          "label": {
+            "tr": "Sahip",
+            "en": "Owner"
+          }
+        },
+        {
+          "name": "course",
+          "label": {
+            "tr": "Öğrenilen dil",
+            "en": "Language being learned"
+          }
+        },
+        {
+          "name": "voice",
+          "label": {
+            "tr": "Ses",
+            "en": "Voice"
+          }
+        },
+        {
+          "name": "text_key",
+          "label": {
+            "tr": "Metnin kodu",
+            "en": "Text code"
+          }
+        },
+        {
+          "name": "kind",
+          "label": {
+            "tr": "Tür",
+            "en": "Kind"
+          }
+        },
+        {
+          "name": "sound_file",
+          "label": {
+            "tr": "Ses dosyası",
+            "en": "Sound file"
+          }
+        },
+        {
+          "name": "saved_at",
+          "label": {
+            "tr": "Kaydedildiği an",
+            "en": "Saved at"
+          }
+        }
+      ]
+    },
+    {
+      "name": "study_days",
+      "label": {
+        "tr": "Çalışma günleri",
+        "en": "Study days"
+      },
+      "fields": [
+        {
+          "name": "owner_id",
+          "label": {
+            "tr": "Sahip",
+            "en": "Owner"
+          }
+        },
+        {
+          "name": "course",
+          "label": {
+            "tr": "Dil",
+            "en": "Language"
+          }
+        },
+        {
+          "name": "day",
+          "label": {
+            "tr": "Gün",
+            "en": "Day"
+          }
+        },
+        {
+          "name": "lessons",
+          "label": {
+            "tr": "Biten dersler",
+            "en": "Lessons done"
+          }
+        },
+        {
+          "name": "cards",
+          "label": {
+            "tr": "Tekrar edilen kartlar",
+            "en": "Cards reviewed"
+          }
+        },
+        {
+          "name": "known",
+          "label": {
+            "tr": "Bilinen kartlar",
+            "en": "Cards known"
+          }
+        }
+      ]
+    },
+    {
+      "name": "word_cards",
+      "label": {
+        "tr": "Kelime kartları",
+        "en": "Word cards"
+      },
+      "fields": [
+        {
+          "name": "owner_id",
+          "label": {
+            "tr": "Sahip",
+            "en": "Owner"
+          }
+        },
+        {
+          "name": "course",
+          "label": {
+            "tr": "Dil",
+            "en": "Language"
+          }
+        },
+        {
+          "name": "card",
+          "label": {
+            "tr": "Kart",
+            "en": "Card"
+          }
+        },
+        {
+          "name": "front",
+          "label": {
+            "tr": "Kendi kelimesi",
+            "en": "Own word"
+          }
+        },
+        {
+          "name": "back",
+          "label": {
+            "tr": "Kendi anlamı",
+            "en": "Own meaning"
+          }
+        },
+        {
+          "name": "note",
+          "label": {
+            "tr": "Kendi notu",
+            "en": "Own note"
+          }
+        },
+        {
+          "name": "step",
+          "label": {
+            "tr": "Tekrar basamağı",
+            "en": "Review step"
+          }
+        },
+        {
+          "name": "due_day",
+          "label": {
+            "tr": "Sonraki tekrar günü",
+            "en": "Next review day"
+          }
+        },
+        {
+          "name": "seen",
+          "label": {
+            "tr": "Tekrar sayısı",
+            "en": "Times reviewed"
+          }
+        },
+        {
+          "name": "knew_times",
+          "label": {
+            "tr": "Bilinme sayısı",
+            "en": "Times known"
+          }
+        },
+        {
+          "name": "last_seen_at",
+          "label": {
+            "tr": "Son tekrar anı",
+            "en": "Last reviewed at"
+          }
+        },
+        {
+          "name": "added_at",
+          "label": {
+            "tr": "Eklenme anı",
+            "en": "Added at"
+          }
+        },
+        {
+          "name": "updated_at",
+          "label": {
+            "tr": "Son değişiklik",
+            "en": "Last changed"
+          }
+        }
+      ]
+    }
+  ]
+}

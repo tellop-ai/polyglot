@@ -1,0 +1,4856 @@
+{
+  "format": 1,
+  "language": "ja",
+  "words": {
+    "hello": {
+      "text": "こんにちは",
+      "roman": "konnichiwa",
+      "ex": "こんにちは、エムレです。",
+      "exRoman": "Konnichiwa, Emure desu."
+    },
+    "good-morning": {
+      "text": "おはようございます",
+      "roman": "ohayō gozaimasu",
+      "ex": "おはようございます。コーヒーができました。",
+      "exRoman": "Ohayō gozaimasu. Kōhī ga dekimashita."
+    },
+    "good-evening": {
+      "text": "こんばんは",
+      "roman": "konbanwa",
+      "ex": "こんばんは、ミアさん、トムさん！",
+      "exRoman": "Konbanwa, Mia-san, Tomu-san!"
+    },
+    "how-are-you": {
+      "text": "お元気ですか？",
+      "roman": "ogenki desu ka?",
+      "ex": "今朝はお元気ですか？",
+      "exRoman": "Kesa wa ogenki desu ka?",
+      "note": {
+        "en": "The polite form. To a close friend people often just say 元気？ (genki?).",
+        "tr": "Kibar biçim. Yakın bir arkadaşa çoğu zaman sadece 元気？ (genki?) denir."
+      }
+    },
+    "i-am-fine": {
+      "text": "元気です",
+      "roman": "genki desu",
+      "ex": "ありがとうございます。今日は元気です。",
+      "exRoman": "Arigatō gozaimasu. Kyō wa genki desu.",
+      "note": {
+        "en": "The usual answer to お元気ですか？ (How are you?).",
+        "tr": "お元気ですか？ (Nasılsın?) sorusunun olağan cevabı."
+      }
+    },
+    "and-you": {
+      "text": "あなたは？",
+      "roman": "anata wa?",
+      "ex": "元気です。あなたは？",
+      "exRoman": "Genki desu. Anata wa?",
+      "note": {
+        "en": "Asks the same question back. Japanese often uses the friend's name instead: エマさんは？",
+        "tr": "Aynı soruyu geri sorar. Japoncada çoğu zaman arkadaşın adı kullanılır: エマさんは？"
+      }
+    },
+    "goodbye": {
+      "text": "さようなら",
+      "roman": "sayōnara",
+      "ex": "さようなら、アリさん。ありがとうございました！",
+      "exRoman": "Sayōnara, Ari-san. Arigatō gozaimashita!",
+      "note": {
+        "en": "A general goodbye. Between friends, じゃあね (jā ne) or またね (mata ne) is more usual.",
+        "tr": "Genel bir veda. Arkadaşlar arasında じゃあね (jā ne) ya da またね (mata ne) daha yaygındır."
+      }
+    },
+    "good-night": {
+      "text": "おやすみなさい",
+      "roman": "oyasuminasai",
+      "ex": "おやすみなさい。ゆっくり休んでください。",
+      "exRoman": "Oyasuminasai. Yukkuri yasunde kudasai."
+    },
+    "see-you-later": {
+      "text": "また後で",
+      "roman": "mata ato de",
+      "ex": "今から授業があります。また後で。",
+      "exRoman": "Ima kara jugyō ga arimasu. Mata ato de."
+    },
+    "see-you-tomorrow": {
+      "text": "また明日",
+      "roman": "mata ashita",
+      "ex": "エリフさん、また明日学校で。",
+      "exRoman": "Erifu-san, mata ashita gakkō de."
+    },
+    "have-a-nice-day": {
+      "text": "よい一日を",
+      "roman": "yoi ichinichi o",
+      "ex": "どうもありがとうございます。よい一日を！",
+      "exRoman": "Dōmo arigatō gozaimasu. Yoi ichinichi o!"
+    },
+    "take-care": {
+      "text": "気をつけて",
+      "roman": "ki o tsukete",
+      "ex": "気をつけて。また近いうちに。",
+      "exRoman": "Ki o tsukete. Mata chikai uchi ni.",
+      "note": {
+        "en": "A friendly goodbye. Word for word it means 'be careful'.",
+        "tr": "Samimi bir veda. Kelimesi kelimesine 'dikkat et' demektir."
+      }
+    },
+    "name": {
+      "text": "名前",
+      "roman": "namae",
+      "ex": "私の名前はゼイネップです。",
+      "exRoman": "Watashi no namae wa Zeineppu desu."
+    },
+    "where-are-you-from": {
+      "text": "出身はどこですか？",
+      "roman": "shusshin wa doko desu ka?",
+      "ex": "エマさん、出身はどこですか？",
+      "exRoman": "Ema-san, shusshin wa doko desu ka?",
+      "note": {
+        "en": "The polite form. To a close friend: 出身はどこ？ (shusshin wa doko?).",
+        "tr": "Kibar biçim. Yakın bir arkadaşa: 出身はどこ？ (shusshin wa doko?)."
+      }
+    },
+    "nice-to-meet-you": {
+      "text": "はじめまして",
+      "roman": "hajimemashite",
+      "ex": "はじめまして、アリです。",
+      "exRoman": "Hajimemashite, Ari desu.",
+      "note": {
+        "en": "Said only the first time you meet someone. People often add よろしくお願いします after their name.",
+        "tr": "Yalnızca biriyle ilk tanıştığında söylenir. Çoğu zaman adından sonra よろしくお願いします eklenir."
+      }
+    },
+    "student": {
+      "text": "学生",
+      "roman": "gakusei",
+      "ex": "デニズさんはイスタンブールの学生です。",
+      "exRoman": "Denizu-san wa Isutanbūru no gakusei desu."
+    },
+    "teacher": {
+      "text": "先生",
+      "roman": "sensei",
+      "ex": "私の先生はとても優しいです。",
+      "exRoman": "Watashi no sensei wa totemo yasashii desu."
+    },
+    "country": {
+      "text": "国",
+      "roman": "kuni",
+      "ex": "私の国はとてもきれいです。",
+      "exRoman": "Watashi no kuni wa totemo kirei desu."
+    },
+    "please": {
+      "text": "お願いします",
+      "roman": "onegaishimasu",
+      "ex": "お水を一杯お願いします。",
+      "exRoman": "Omizu o ippai onegaishimasu."
+    },
+    "thank-you": {
+      "text": "ありがとうございます",
+      "roman": "arigatō gozaimasu",
+      "ex": "お茶をありがとうございます。",
+      "exRoman": "Ocha o arigatō gozaimasu."
+    },
+    "youre-welcome": {
+      "text": "どういたしまして",
+      "roman": "dō itashimashite",
+      "ex": "どういたしまして。大丈夫ですよ。",
+      "exRoman": "Dō itashimashite. Daijōbu desu yo."
+    },
+    "sorry": {
+      "text": "すみません",
+      "roman": "sumimasen",
+      "ex": "すみません、遅れました。",
+      "exRoman": "Sumimasen, okuremashita."
+    },
+    "yes": {
+      "text": "はい",
+      "roman": "hai",
+      "ex": "はい、私は学生です。",
+      "exRoman": "Hai, watashi wa gakusei desu."
+    },
+    "no": {
+      "text": "いいえ",
+      "roman": "iie",
+      "ex": "いいえ、パリ出身ではありません。",
+      "exRoman": "Iie, Pari shusshin dewa arimasen."
+    },
+    "family": {
+      "text": "家族",
+      "roman": "kazoku",
+      "ex": "私の家族はリスボンに住んでいます。",
+      "exRoman": "Watashi no kazoku wa Risubon ni sunde imasu."
+    },
+    "mother": {
+      "text": "母",
+      "roman": "haha",
+      "ex": "母は毎朝お茶を飲みます。",
+      "exRoman": "Haha wa maiasa ocha o nomimasu.",
+      "note": {
+        "en": "Your own mother when you talk to others. Someone else's mother is お母さん (okāsan).",
+        "tr": "Başkalarına kendi annenden söz ederken. Başkasının annesi お母さん (okāsan) olur."
+      }
+    },
+    "father": {
+      "text": "父",
+      "roman": "chichi",
+      "ex": "父は医者です。",
+      "exRoman": "Chichi wa isha desu.",
+      "note": {
+        "en": "Your own father when you talk to others. Someone else's father is お父さん (otōsan).",
+        "tr": "Başkalarına kendi babandan söz ederken. Başkasının babası お父さん (otōsan) olur."
+      }
+    },
+    "brother": {
+      "text": "兄",
+      "roman": "ani",
+      "ex": "兄は十歳です。",
+      "exRoman": "Ani wa jussai desu.",
+      "note": {
+        "en": "Japanese splits by age: 兄 (ani) is an older brother, 弟 (otōto) a younger one. Someone else's older brother is お兄さん (onīsan).",
+        "tr": "Japonca yaşa göre ayırır: 兄 (ani) ağabey, 弟 (otōto) küçük erkek kardeştir. Başkasının ağabeyi お兄さん (onīsan) olur."
+      }
+    },
+    "sister": {
+      "text": "姉",
+      "roman": "ane",
+      "ex": "彼女のお姉さんはマドリードに住んでいます。",
+      "exRoman": "Kanojo no onēsan wa Madorīdo ni sunde imasu.",
+      "note": {
+        "en": "Japanese splits by age: 姉 (ane) is an older sister, 妹 (imōto) a younger one. Someone else's older sister is お姉さん (onēsan).",
+        "tr": "Japonca yaşa göre ayırır: 姉 (ane) abla, 妹 (imōto) küçük kız kardeştir. Başkasının ablası お姉さん (onēsan) olur."
+      }
+    },
+    "baby": {
+      "text": "赤ちゃん",
+      "roman": "akachan",
+      "ex": "赤ちゃんはとても小さいです。",
+      "exRoman": "Akachan wa totemo chiisai desu."
+    },
+    "grandmother": {
+      "text": "祖母",
+      "roman": "sobo",
+      "ex": "祖母はローマに住んでいます。",
+      "exRoman": "Sobo wa Rōma ni sunde imasu.",
+      "note": {
+        "en": "Your own grandmother, on either side. Someone else's grandmother is おばあさん (obāsan).",
+        "tr": "Kendi büyükannen, iki taraftan da. Başkasının büyükannesi おばあさん (obāsan) olur."
+      }
+    },
+    "grandfather": {
+      "text": "祖父",
+      "roman": "sofu",
+      "ex": "祖父は新聞を読みます。",
+      "exRoman": "Sofu wa shinbun o yomimasu.",
+      "note": {
+        "en": "Your own grandfather, on either side. Someone else's grandfather is おじいさん (ojiisan).",
+        "tr": "Kendi büyükbaban, iki taraftan da. Başkasının büyükbabası おじいさん (ojiisan) olur."
+      }
+    },
+    "son": {
+      "text": "息子",
+      "roman": "musuko",
+      "ex": "彼らの息子さんは学生です。",
+      "exRoman": "Karera no musuko-san wa gakusei desu.",
+      "note": {
+        "en": "Your own son. Someone else's son is 息子さん (musuko-san).",
+        "tr": "Kendi oğlun. Başkasının oğlu 息子さん (musuko-san) olur."
+      }
+    },
+    "daughter": {
+      "text": "娘",
+      "roman": "musume",
+      "ex": "アリさんには娘さんが二人います。",
+      "exRoman": "Ari-san ni wa musume-san ga futari imasu.",
+      "note": {
+        "en": "Your own daughter. Someone else's daughter is 娘さん (musume-san).",
+        "tr": "Kendi kızın. Başkasının kızı 娘さん (musume-san) olur."
+      }
+    },
+    "dog": {
+      "text": "犬",
+      "roman": "inu",
+      "ex": "うちの犬は大きくて白いです。",
+      "exRoman": "Uchi no inu wa ōkikute shiroi desu."
+    },
+    "cat": {
+      "text": "猫",
+      "roman": "neko",
+      "ex": "猫はソファーで寝ます。",
+      "exRoman": "Neko wa sofā de nemasu."
+    },
+    "friend": {
+      "text": "友達",
+      "roman": "tomodachi",
+      "ex": "トムさんは私の友達です。",
+      "exRoman": "Tomu-san wa watashi no tomodachi desu."
+    },
+    "neighbor": {
+      "text": "お隣さん",
+      "roman": "otonari-san",
+      "ex": "お隣さんの家には庭があります。",
+      "exRoman": "Otonari-san no ie ni wa niwa ga arimasu.",
+      "note": {
+        "en": "The person who lives next door. Neighbors in general are 近所の人 (kinjo no hito).",
+        "tr": "Yan evde oturan kişi. Genel olarak komşular 近所の人 (kinjo no hito) olur."
+      }
+    },
+    "kind": {
+      "text": "優しい",
+      "roman": "yasashii",
+      "ex": "お姉さんはとても優しいですね。",
+      "exRoman": "Onēsan wa totemo yasashii desu ne.",
+      "note": {
+        "en": "An adjective: gentle and caring toward people.",
+        "tr": "Bir sıfat: insanlara karşı nazik ve şefkatli."
+      }
+    },
+    "funny": {
+      "text": "面白い",
+      "roman": "omoshiroi",
+      "ex": "レオさんはとても面白いです。",
+      "exRoman": "Reo-san wa totemo omoshiroi desu."
+    },
+    "happy": {
+      "text": "うれしい",
+      "roman": "ureshii",
+      "ex": "今日はとてもうれしいです。",
+      "exRoman": "Kyō wa totemo ureshii desu."
+    },
+    "together": {
+      "text": "一緒に",
+      "roman": "issho ni",
+      "ex": "私たちは一緒に昼ご飯を食べます。",
+      "exRoman": "Watashitachi wa issho ni hirugohan o tabemasu."
+    },
+    "man": {
+      "text": "男の人",
+      "roman": "otoko no hito",
+      "ex": "あの男の人は私の先生です。",
+      "exRoman": "Ano otoko no hito wa watashi no sensei desu."
+    },
+    "woman": {
+      "text": "女の人",
+      "roman": "onna no hito",
+      "ex": "あの女の人は医者です。",
+      "exRoman": "Ano onna no hito wa isha desu."
+    },
+    "child": {
+      "text": "子ども",
+      "roman": "kodomo",
+      "ex": "その子どもは六歳です。",
+      "exRoman": "Sono kodomo wa rokusai desu."
+    },
+    "young": {
+      "text": "若い",
+      "roman": "wakai",
+      "ex": "新しい先生は若いです。",
+      "exRoman": "Atarashii sensei wa wakai desu."
+    },
+    "old": {
+      "text": "年をとっている",
+      "roman": "toshi o totte iru",
+      "ex": "祖父は年をとっていますが、とても元気です。",
+      "exRoman": "Sofu wa toshi o totte imasu ga, totemo genki desu.",
+      "note": {
+        "en": "Of a person. 古い (furui) is 'old' for things and is never used for people.",
+        "tr": "Bir insan için. 古い (furui) eşyalar için 'eski' demektir, insanlar için kullanılmaz."
+      }
+    },
+    "tall": {
+      "text": "背が高い",
+      "roman": "se ga takai",
+      "ex": "サムさんはとても背が高いです。",
+      "exRoman": "Samu-san wa totemo se ga takai desu."
+    },
+    "one": {
+      "text": "一",
+      "roman": "ichi",
+      "ex": "兄が一人います。",
+      "exRoman": "Ani ga hitori imasu.",
+      "note": {
+        "en": "Counting changes the sound: one person is 一人 (hitori), one thing is 一つ (hitotsu).",
+        "tr": "Sayarken ses değişir: bir kişi 一人 (hitori), bir şey 一つ (hitotsu) olur."
+      }
+    },
+    "two": {
+      "text": "二",
+      "roman": "ni",
+      "ex": "うちには猫が二匹います。",
+      "exRoman": "Uchi ni wa neko ga nihiki imasu.",
+      "note": {
+        "en": "Animals are counted with 匹: 二匹 (nihiki). Two people is 二人 (futari).",
+        "tr": "Hayvanlar 匹 ile sayılır: 二匹 (nihiki). İki kişi 二人 (futari) olur."
+      }
+    },
+    "three": {
+      "text": "三",
+      "roman": "san",
+      "ex": "息子は三歳です。",
+      "exRoman": "Musuko wa sansai desu."
+    },
+    "four": {
+      "text": "四",
+      "roman": "yon",
+      "ex": "私の家族は四人です。",
+      "exRoman": "Watashi no kazoku wa yonin desu.",
+      "note": {
+        "en": "Also read し (shi). Four people is 四人 (yonin).",
+        "tr": "し (shi) diye de okunur. Dört kişi 四人 (yonin) olur."
+      }
+    },
+    "five": {
+      "text": "五",
+      "roman": "go",
+      "ex": "一日に水を五杯飲みます。",
+      "exRoman": "Ichinichi ni mizu o gohai nomimasu."
+    },
+    "six": {
+      "text": "六",
+      "roman": "roku",
+      "ex": "エマさんは本を六冊持っています。",
+      "exRoman": "Ema-san wa hon o rokusatsu motte imasu."
+    },
+    "seven": {
+      "text": "七",
+      "roman": "nana",
+      "ex": "店は七時に開きます。",
+      "exRoman": "Mise wa shichiji ni akimasu.",
+      "note": {
+        "en": "Also read しち (shichi), as in 七時 (shichiji, seven o'clock).",
+        "tr": "しち (shichi) diye de okunur: 七時 (shichiji, saat yedi)."
+      }
+    },
+    "eight": {
+      "text": "八",
+      "roman": "hachi",
+      "ex": "授業は八時に始まります。",
+      "exRoman": "Jugyō wa hachiji ni hajimarimasu."
+    },
+    "nine": {
+      "text": "九",
+      "roman": "kyū",
+      "ex": "デニズさんは九歳です。",
+      "exRoman": "Denizu-san wa kyūsai desu."
+    },
+    "ten": {
+      "text": "十",
+      "roman": "jū",
+      "ex": "あと十分あります。",
+      "exRoman": "Ato juppun arimasu.",
+      "note": {
+        "en": "Before 分 (minute) the sound changes: 十分 (ten minutes) is juppun.",
+        "tr": "分 (dakika) önünde ses değişir: 十分 (on dakika) juppun okunur."
+      }
+    },
+    "eleven": {
+      "text": "十一",
+      "roman": "jūichi",
+      "ex": "私たちのクラスには学生が十一人います。",
+      "exRoman": "Watashitachi no kurasu ni wa gakusei ga jūichinin imasu."
+    },
+    "twelve": {
+      "text": "十二",
+      "roman": "jūni",
+      "ex": "レオさんは今日で十二歳です。",
+      "exRoman": "Reo-san wa kyō de jūnisai desu."
+    },
+    "zero": {
+      "text": "ゼロ",
+      "roman": "zero",
+      "ex": "私の電話番号はゼロで始まります。",
+      "exRoman": "Watashi no denwa bangō wa zero de hajimarimasu."
+    },
+    "twenty": {
+      "text": "二十",
+      "roman": "nijū",
+      "ex": "私のクラスには学生が二十人います。",
+      "exRoman": "Watashi no kurasu ni wa gakusei ga nijūnin imasu."
+    },
+    "thirty": {
+      "text": "三十",
+      "roman": "sanjū",
+      "ex": "私たちの先生は三十歳です。",
+      "exRoman": "Watashitachi no sensei wa sanjussai desu."
+    },
+    "fifty": {
+      "text": "五十",
+      "roman": "gojū",
+      "ex": "この本は五十ページあります。",
+      "exRoman": "Kono hon wa gojū pēji arimasu."
+    },
+    "one-hundred": {
+      "text": "百",
+      "roman": "hyaku",
+      "ex": "祖母はもうすぐ百歳です。",
+      "exRoman": "Sobo wa mō sugu hyakusai desu."
+    },
+    "number": {
+      "text": "番号",
+      "roman": "bangō",
+      "ex": "あなたの電話番号は何ですか？",
+      "exRoman": "Anata no denwa bangō wa nan desu ka?",
+      "note": {
+        "en": "A number that names something, like a phone or room number. An amount is 数 (kazu).",
+        "tr": "Telefon ya da oda numarası gibi bir şeyi gösteren numara. Bir miktar ise 数 (kazu) olur."
+      }
+    },
+    "age": {
+      "text": "年齢",
+      "roman": "nenrei",
+      "ex": "ここに名前と年齢を書いてください。",
+      "exRoman": "Koko ni namae to nenrei o kaite kudasai."
+    },
+    "how-old-are-you": {
+      "text": "何歳ですか？",
+      "roman": "nansai desu ka?",
+      "ex": "エリフさん、何歳ですか？",
+      "exRoman": "Erifu-san, nansai desu ka?",
+      "note": {
+        "en": "The polite form. To a close friend: 何歳？ (nansai?).",
+        "tr": "Kibar biçim. Yakın bir arkadaşa: 何歳？ (nansai?)."
+      }
+    },
+    "how-many": {
+      "text": "何人",
+      "roman": "nannin",
+      "ex": "兄弟は何人いますか？",
+      "exRoman": "Kyōdai wa nannin imasu ka?",
+      "note": {
+        "en": "Asks how many people. For things say いくつ (ikutsu), for animals 何匹 (nanbiki).",
+        "tr": "Kaç kişi olduğunu sorar. Eşyalar için いくつ (ikutsu), hayvanlar için 何匹 (nanbiki) denir."
+      }
+    },
+    "year": {
+      "text": "年",
+      "roman": "toshi",
+      "ex": "今年で十八歳です。",
+      "exRoman": "Kotoshi de jūhassai desu.",
+      "note": {
+        "en": "After a number it is read ねん (nen): 二年 (ninen). This year is 今年 (kotoshi).",
+        "tr": "Bir sayıdan sonra ねん (nen) okunur: 二年 (ninen). Bu yıl 今年 (kotoshi) olur."
+      }
+    },
+    "birthday": {
+      "text": "誕生日",
+      "roman": "tanjōbi",
+      "ex": "今日は私の誕生日です！",
+      "exRoman": "Kyō wa watashi no tanjōbi desu!"
+    },
+    "month": {
+      "text": "月",
+      "roman": "tsuki",
+      "ex": "私の誕生日は来月です。",
+      "exRoman": "Watashi no tanjōbi wa raigetsu desu.",
+      "note": {
+        "en": "In words like 来月 (raigetsu, next month) it is read げつ (getsu).",
+        "tr": "来月 (raigetsu, gelecek ay) gibi kelimelerde げつ (getsu) okunur."
+      }
+    },
+    "breakfast": {
+      "text": "朝ご飯",
+      "roman": "asagohan",
+      "ex": "七時に朝ご飯を食べます。",
+      "exRoman": "Shichiji ni asagohan o tabemasu."
+    },
+    "bread": {
+      "text": "パン",
+      "roman": "pan",
+      "ex": "このパンは焼きたてです。",
+      "exRoman": "Kono pan wa yakitate desu."
+    },
+    "cheese": {
+      "text": "チーズ",
+      "roman": "chīzu",
+      "ex": "パンとチーズを食べます。",
+      "exRoman": "Pan to chīzu o tabemasu."
+    },
+    "egg": {
+      "text": "卵",
+      "roman": "tamago",
+      "ex": "ミアさんは毎朝卵を一つ食べます。",
+      "exRoman": "Mia-san wa maiasa tamago o hitotsu tabemasu."
+    },
+    "honey": {
+      "text": "はちみつ",
+      "roman": "hachimitsu",
+      "ex": "祖父はお茶にはちみつを入れます。",
+      "exRoman": "Sofu wa ocha ni hachimitsu o iremasu."
+    },
+    "eat": {
+      "text": "食べる",
+      "roman": "taberu",
+      "ex": "私たちは家で食べます。",
+      "exRoman": "Watashitachi wa ie de tabemasu.",
+      "note": {
+        "en": "The dictionary form. In polite speech you say 食べます (tabemasu).",
+        "tr": "Sözlük biçimi. Kibar konuşmada 食べます (tabemasu) dersin."
+      }
+    },
+    "water": {
+      "text": "水",
+      "roman": "mizu",
+      "ex": "この水はとても冷たいです。",
+      "exRoman": "Kono mizu wa totemo tsumetai desu."
+    },
+    "tea": {
+      "text": "お茶",
+      "roman": "ocha",
+      "ex": "お茶はいかがですか？",
+      "exRoman": "Ocha wa ikaga desu ka?"
+    },
+    "coffee": {
+      "text": "コーヒー",
+      "roman": "kōhī",
+      "ex": "父はミルクなしでコーヒーを飲みます。",
+      "exRoman": "Chichi wa miruku nashi de kōhī o nomimasu."
+    },
+    "milk": {
+      "text": "ミルク",
+      "roman": "miruku",
+      "ex": "赤ちゃんはミルクを飲みます。",
+      "exRoman": "Akachan wa miruku o nomimasu.",
+      "note": {
+        "en": "Milk for a baby or for coffee. Milk in a carton is often called 牛乳 (gyūnyū).",
+        "tr": "Bebek ya da kahve için süt. Kutudaki süte çoğu zaman 牛乳 (gyūnyū) denir."
+      }
+    },
+    "juice": {
+      "text": "ジュース",
+      "roman": "jūsu",
+      "ex": "ゼイネップさんは朝ご飯にジュースを飲みます。",
+      "exRoman": "Zeineppu-san wa asagohan ni jūsu o nomimasu."
+    },
+    "drink": {
+      "text": "飲む",
+      "roman": "nomu",
+      "ex": "私たちは夜にお茶を飲みます。",
+      "exRoman": "Watashitachi wa yoru ni ocha o nomimasu.",
+      "note": {
+        "en": "The verb: to drink. Polite form: 飲みます (nomimasu).",
+        "tr": "Fiil: içmek. Kibar biçimi: 飲みます (nomimasu)."
+      }
+    },
+    "apple": {
+      "text": "りんご",
+      "roman": "ringo",
+      "ex": "このりんごは赤いです。",
+      "exRoman": "Kono ringo wa akai desu."
+    },
+    "banana": {
+      "text": "バナナ",
+      "roman": "banana",
+      "ex": "かばんにバナナが一本あります。",
+      "exRoman": "Kaban ni banana ga ippon arimasu."
+    },
+    "tomato": {
+      "text": "トマト",
+      "roman": "tomato",
+      "ex": "このトマトはうちの庭でとれました。",
+      "exRoman": "Kono tomato wa uchi no niwa de toremashita."
+    },
+    "potato": {
+      "text": "じゃがいも",
+      "roman": "jagaimo",
+      "ex": "晩ご飯にじゃがいもを食べます。",
+      "exRoman": "Bangohan ni jagaimo o tabemasu."
+    },
+    "fruit": {
+      "text": "果物",
+      "roman": "kudamono",
+      "ex": "アリさんは毎日果物を食べます。",
+      "exRoman": "Ari-san wa mainichi kudamono o tabemasu."
+    },
+    "vegetable": {
+      "text": "野菜",
+      "roman": "yasai",
+      "ex": "母は新鮮な野菜を買います。",
+      "exRoman": "Haha wa shinsen na yasai o kaimasu."
+    },
+    "lunch": {
+      "text": "昼ご飯",
+      "roman": "hirugohan",
+      "ex": "一時に昼ご飯を食べます。",
+      "exRoman": "Ichiji ni hirugohan o tabemasu."
+    },
+    "dinner": {
+      "text": "晩ご飯",
+      "roman": "bangohan",
+      "ex": "晩ご飯ができました！",
+      "exRoman": "Bangohan ga dekimashita!"
+    },
+    "food": {
+      "text": "食べ物",
+      "roman": "tabemono",
+      "ex": "台所に食べ物があります。",
+      "exRoman": "Daidokoro ni tabemono ga arimasu."
+    },
+    "soup": {
+      "text": "スープ",
+      "roman": "sūpu",
+      "ex": "祖母はトマトのスープを作ります。",
+      "exRoman": "Sobo wa tomato no sūpu o tsukurimasu."
+    },
+    "hungry": {
+      "text": "おなかがすいた",
+      "roman": "onaka ga suita",
+      "ex": "おなかがすきました。食べましょう！",
+      "exRoman": "Onaka ga sukimashita. Tabemashō!",
+      "note": {
+        "en": "Japanese says 'my stomach has emptied': おなかがすきました means 'I am hungry'.",
+        "tr": "Japonca 'karnım boşaldı' der: おなかがすきました 'acıktım' demektir."
+      }
+    },
+    "like": {
+      "text": "好き",
+      "roman": "suki",
+      "ex": "魚は好きですが、鶏肉は好きではありません。",
+      "exRoman": "Sakana wa suki desu ga, toriniku wa suki dewa arimasen.",
+      "note": {
+        "en": "Not a verb but a describing word: 魚が好きです means 'I like fish'.",
+        "tr": "Bir fiil değil, niteleyen bir kelimedir: 魚が好きです 'balığı severim' demektir."
+      }
+    },
+    "house": {
+      "text": "家",
+      "roman": "ie",
+      "ex": "彼らの家は海の近くにあります。",
+      "exRoman": "Karera no ie wa umi no chikaku ni arimasu."
+    },
+    "room": {
+      "text": "部屋",
+      "roman": "heya",
+      "ex": "私の部屋には窓が二つあります。",
+      "exRoman": "Watashi no heya ni wa mado ga futatsu arimasu."
+    },
+    "kitchen": {
+      "text": "台所",
+      "roman": "daidokoro",
+      "ex": "父は台所で料理をします。",
+      "exRoman": "Chichi wa daidokoro de ryōri o shimasu."
+    },
+    "bedroom": {
+      "text": "寝室",
+      "roman": "shinshitsu",
+      "ex": "寝室は二階にあります。",
+      "exRoman": "Shinshitsu wa nikai ni arimasu."
+    },
+    "bathroom": {
+      "text": "お風呂",
+      "roman": "ofuro",
+      "ex": "お風呂は私の部屋の隣にあります。",
+      "exRoman": "Ofuro wa watashi no heya no tonari ni arimasu.",
+      "note": {
+        "en": "The room with the bath. In Japan the toilet is usually a separate room: トイレ (toire).",
+        "tr": "Küvetin olduğu oda. Japonya'da tuvalet çoğu zaman ayrı bir odadır: トイレ (toire)."
+      }
+    },
+    "garden": {
+      "text": "庭",
+      "roman": "niwa",
+      "ex": "子どもたちは庭で遊びます。",
+      "exRoman": "Kodomotachi wa niwa de asobimasu."
+    },
+    "table": {
+      "text": "テーブル",
+      "roman": "tēburu",
+      "ex": "鍵はテーブルの上にあります。",
+      "exRoman": "Kagi wa tēburu no ue ni arimasu."
+    },
+    "chair": {
+      "text": "いす",
+      "roman": "isu",
+      "ex": "このいすに座ってください。",
+      "exRoman": "Kono isu ni suwatte kudasai."
+    },
+    "bed": {
+      "text": "ベッド",
+      "roman": "beddo",
+      "ex": "私のベッドはとても柔らかいです。",
+      "exRoman": "Watashi no beddo wa totemo yawarakai desu."
+    },
+    "sofa": {
+      "text": "ソファー",
+      "roman": "sofā",
+      "ex": "ソファーは大きくて青いです。",
+      "exRoman": "Sofā wa ōkikute aoi desu."
+    },
+    "door": {
+      "text": "ドア",
+      "roman": "doa",
+      "ex": "ドアを閉めてください。",
+      "exRoman": "Doa o shimete kudasai."
+    },
+    "window": {
+      "text": "窓",
+      "roman": "mado",
+      "ex": "窓を開けてください。",
+      "exRoman": "Mado o akete kudasai."
+    },
+    "lamp": {
+      "text": "電気スタンド",
+      "roman": "denki sutando",
+      "ex": "電気スタンドはベッドの横にあります。",
+      "exRoman": "Denki sutando wa beddo no yoko ni arimasu."
+    },
+    "phone": {
+      "text": "電話",
+      "roman": "denwa",
+      "ex": "あなたの電話はソファーの上にあります。",
+      "exRoman": "Anata no denwa wa sofā no ue ni arimasu."
+    },
+    "book": {
+      "text": "本",
+      "roman": "hon",
+      "ex": "これはいい本です。",
+      "exRoman": "Kore wa ii hon desu."
+    },
+    "key": {
+      "text": "鍵",
+      "roman": "kagi",
+      "ex": "ドアの鍵を持っています。",
+      "exRoman": "Doa no kagi o motte imasu."
+    },
+    "fridge": {
+      "text": "冷蔵庫",
+      "roman": "reizōko",
+      "ex": "冷蔵庫にチーズがあります。",
+      "exRoman": "Reizōko ni chīzu ga arimasu."
+    },
+    "computer": {
+      "text": "パソコン",
+      "roman": "pasokon",
+      "ex": "サムさんは新しいパソコンを持っています。",
+      "exRoman": "Samu-san wa atarashii pasokon o motte imasu."
+    },
+    "big": {
+      "text": "大きい",
+      "roman": "ōkii",
+      "ex": "彼らの庭はとても大きいです。",
+      "exRoman": "Karera no niwa wa totemo ōkii desu."
+    },
+    "small": {
+      "text": "小さい",
+      "roman": "chiisai",
+      "ex": "うちには小さい台所があります。",
+      "exRoman": "Uchi ni wa chiisai daidokoro ga arimasu."
+    },
+    "new": {
+      "text": "新しい",
+      "roman": "atarashii",
+      "ex": "これは私の新しい家です。",
+      "exRoman": "Kore wa watashi no atarashii ie desu."
+    },
+    "clean": {
+      "text": "きれい",
+      "roman": "kirei",
+      "ex": "あなたの部屋はきれいですか？",
+      "exRoman": "Anata no heya wa kirei desu ka?",
+      "note": {
+        "en": "It means both 'clean' and 'pretty'. Before a noun add な: きれいな部屋 (a clean room).",
+        "tr": "Hem 'temiz' hem 'güzel' demektir. Bir isimden önce な eklenir: きれいな部屋 (temiz bir oda)."
+      }
+    },
+    "beautiful": {
+      "text": "美しい",
+      "roman": "utsukushii",
+      "ex": "なんて美しい庭でしょう！",
+      "exRoman": "Nante utsukushii niwa deshō!"
+    },
+    "there-is": {
+      "text": "ある",
+      "roman": "aru",
+      "ex": "ベッドの上に猫がいます。",
+      "exRoman": "Beddo no ue ni neko ga imasu.",
+      "note": {
+        "en": "ある (polite あります) is for things. People and animals take いる (polite います), as the cat here does.",
+        "tr": "ある (kibar: あります) eşyalar içindir. İnsanlar ve hayvanlar için いる (kibar: います) kullanılır, buradaki kedi gibi."
+      }
+    },
+    "morning": {
+      "text": "朝",
+      "roman": "asa",
+      "ex": "朝はコーヒーを飲みます。",
+      "exRoman": "Asa wa kōhī o nomimasu."
+    },
+    "afternoon": {
+      "text": "午後",
+      "roman": "gogo",
+      "ex": "午後は公園で遊びます。",
+      "exRoman": "Gogo wa kōen de asobimasu."
+    },
+    "evening": {
+      "text": "夕方",
+      "roman": "yūgata",
+      "ex": "私の家族は夕方、一緒にご飯を食べます。",
+      "exRoman": "Watashi no kazoku wa yūgata, issho ni gohan o tabemasu.",
+      "note": {
+        "en": "The early evening, around sunset. Later in the evening is 夜 (yoru).",
+        "tr": "Akşamın başı, gün batımı civarı. Akşamın ilerleyen saatleri 夜 (yoru) olur."
+      }
+    },
+    "night": {
+      "text": "夜",
+      "roman": "yoru",
+      "ex": "夜は町が静かです。",
+      "exRoman": "Yoru wa machi ga shizuka desu."
+    },
+    "today": {
+      "text": "今日",
+      "roman": "kyō",
+      "ex": "今日はとても忙しいです。",
+      "exRoman": "Kyō wa totemo isogashii desu."
+    },
+    "now": {
+      "text": "今",
+      "roman": "ima",
+      "ex": "ミアさんは今、家にいません。",
+      "exRoman": "Mia-san wa ima, ie ni imasen."
+    },
+    "wake-up": {
+      "text": "起きる",
+      "roman": "okiru",
+      "ex": "七時に起きます。",
+      "exRoman": "Shichiji ni okimasu."
+    },
+    "take-a-shower": {
+      "text": "シャワーを浴びる",
+      "roman": "shawā o abiru",
+      "ex": "レオさんは毎朝シャワーを浴びます。",
+      "exRoman": "Reo-san wa maiasa shawā o abimasu."
+    },
+    "go": {
+      "text": "行く",
+      "roman": "iku",
+      "ex": "私たちはバスで学校に行きます。",
+      "exRoman": "Watashitachi wa basu de gakkō ni ikimasu."
+    },
+    "work": {
+      "text": "働く",
+      "roman": "hataraku",
+      "ex": "母は病院で働いています。",
+      "exRoman": "Haha wa byōin de hataraite imasu.",
+      "note": {
+        "en": "The verb: to do a job. The noun 'work, job' is 仕事 (shigoto).",
+        "tr": "Fiil: bir işte çalışmak. 'İş' ismi 仕事 (shigoto) olur."
+      }
+    },
+    "school": {
+      "text": "学校",
+      "roman": "gakkō",
+      "ex": "学校は家の近くにあります。",
+      "exRoman": "Gakkō wa ie no chikaku ni arimasu."
+    },
+    "sleep": {
+      "text": "寝る",
+      "roman": "neru",
+      "ex": "赤ちゃんはよく寝ます。",
+      "exRoman": "Akachan wa yoku nemasu."
+    },
+    "monday": {
+      "text": "月曜日",
+      "roman": "getsuyōbi",
+      "ex": "学校は月曜日に始まります。",
+      "exRoman": "Gakkō wa getsuyōbi ni hajimarimasu."
+    },
+    "tuesday": {
+      "text": "火曜日",
+      "roman": "kayōbi",
+      "ex": "火曜日に音楽の授業があります。",
+      "exRoman": "Kayōbi ni ongaku no jugyō ga arimasu."
+    },
+    "wednesday": {
+      "text": "水曜日",
+      "roman": "suiyōbi",
+      "ex": "水曜日は忙しい日です。",
+      "exRoman": "Suiyōbi wa isogashii hi desu."
+    },
+    "thursday": {
+      "text": "木曜日",
+      "roman": "mokuyōbi",
+      "ex": "木曜日に会います。",
+      "exRoman": "Mokuyōbi ni aimasu."
+    },
+    "friday": {
+      "text": "金曜日",
+      "roman": "kin'yōbi",
+      "ex": "金曜日は私の一番好きな日です。",
+      "exRoman": "Kin'yōbi wa watashi no ichiban suki na hi desu."
+    },
+    "week": {
+      "text": "週",
+      "roman": "shū",
+      "ex": "週に五日働きます。",
+      "exRoman": "Shū ni itsuka hatarakimasu."
+    },
+    "saturday": {
+      "text": "土曜日",
+      "roman": "doyōbi",
+      "ex": "土曜日に祖母を訪ねます。",
+      "exRoman": "Doyōbi ni sobo o tazunemasu."
+    },
+    "sunday": {
+      "text": "日曜日",
+      "roman": "nichiyōbi",
+      "ex": "日曜日は店が閉まっています。",
+      "exRoman": "Nichiyōbi wa mise ga shimatte imasu."
+    },
+    "weekend": {
+      "text": "週末",
+      "roman": "shūmatsu",
+      "ex": "週末は何をしますか？",
+      "exRoman": "Shūmatsu wa nani o shimasu ka?"
+    },
+    "read": {
+      "text": "読む",
+      "roman": "yomu",
+      "ex": "ゼイネップさんは毎晩本を読みます。",
+      "exRoman": "Zeineppu-san wa maiban hon o yomimasu."
+    },
+    "watch": {
+      "text": "見る",
+      "roman": "miru",
+      "ex": "土曜日に映画を見ます。",
+      "exRoman": "Doyōbi ni eiga o mimasu.",
+      "note": {
+        "en": "The verb for watching TV or a film. It also means 'to see'.",
+        "tr": "Televizyon ya da film izlemek için fiil. 'Görmek' anlamına da gelir."
+      }
+    },
+    "play": {
+      "text": "遊ぶ",
+      "roman": "asobu",
+      "ex": "アリさんとレオさんはテニスをして遊びます。",
+      "exRoman": "Ari-san to Reo-san wa tenisu o shite asobimasu.",
+      "note": {
+        "en": "The common word for playing and having fun. A sport itself takes する: テニスをします (play tennis).",
+        "tr": "Oynamak ve eğlenmek için yaygın kelime. Sporun kendisi する alır: テニスをします (tenis oynarım)."
+      }
+    },
+    "city": {
+      "text": "都市",
+      "roman": "toshi",
+      "ex": "イスタンブールはとても大きい都市です。",
+      "exRoman": "Isutanbūru wa totemo ōkii toshi desu."
+    },
+    "street": {
+      "text": "通り",
+      "roman": "tōri",
+      "ex": "私の学校はこの通りにあります。",
+      "exRoman": "Watashi no gakkō wa kono tōri ni arimasu."
+    },
+    "park": {
+      "text": "公園",
+      "roman": "kōen",
+      "ex": "日曜日は公園を散歩します。",
+      "exRoman": "Nichiyōbi wa kōen o sanpo shimasu."
+    },
+    "hospital": {
+      "text": "病院",
+      "roman": "byōin",
+      "ex": "病院は駅の近くにあります。",
+      "exRoman": "Byōin wa eki no chikaku ni arimasu."
+    },
+    "museum": {
+      "text": "博物館",
+      "roman": "hakubutsukan",
+      "ex": "博物館は月曜日が休みです。",
+      "exRoman": "Hakubutsukan wa getsuyōbi ga yasumi desu."
+    },
+    "bank": {
+      "text": "銀行",
+      "roman": "ginkō",
+      "ex": "銀行は九時に開きます。",
+      "exRoman": "Ginkō wa kuji ni akimasu."
+    },
+    "supermarket": {
+      "text": "スーパー",
+      "roman": "sūpā",
+      "ex": "スーパーで牛乳を買います。",
+      "exRoman": "Sūpā de gyūnyū o kaimasu."
+    },
+    "pharmacy": {
+      "text": "薬局",
+      "roman": "yakkyoku",
+      "ex": "薬局は一晩中開いています。",
+      "exRoman": "Yakkyoku wa hitobanjū aite imasu."
+    },
+    "restaurant": {
+      "text": "レストラン",
+      "roman": "resutoran",
+      "ex": "このレストランはスープがおいしいです。",
+      "exRoman": "Kono resutoran wa sūpu ga oishii desu."
+    },
+    "library": {
+      "text": "図書館",
+      "roman": "toshokan",
+      "ex": "エリフさんは図書館で勉強します。",
+      "exRoman": "Erifu-san wa toshokan de benkyō shimasu."
+    },
+    "bakery": {
+      "text": "パン屋",
+      "roman": "pan'ya",
+      "ex": "そのパン屋では焼きたてのパンを売っています。",
+      "exRoman": "Sono pan'ya dewa yakitate no pan o utte imasu."
+    },
+    "cafe": {
+      "text": "カフェ",
+      "roman": "kafe",
+      "ex": "カフェでコーヒーを飲みます。",
+      "exRoman": "Kafe de kōhī o nomimasu."
+    },
+    "left": {
+      "text": "左",
+      "roman": "hidari",
+      "ex": "銀行で左に曲がってください。",
+      "exRoman": "Ginkō de hidari ni magatte kudasai."
+    },
+    "right": {
+      "text": "右",
+      "roman": "migi",
+      "ex": "博物館は右側にあります。",
+      "exRoman": "Hakubutsukan wa migigawa ni arimasu.",
+      "note": {
+        "en": "The direction. 'Correct' is a different word: 正しい (tadashii).",
+        "tr": "Yön. 'Doğru' başka bir kelimedir: 正しい (tadashii)."
+      }
+    },
+    "straight-ahead": {
+      "text": "まっすぐ",
+      "roman": "massugu",
+      "ex": "五分まっすぐ行ってください。",
+      "exRoman": "Gofun massugu itte kudasai."
+    },
+    "turn": {
+      "text": "曲がる",
+      "roman": "magaru",
+      "ex": "公園を過ぎたら右に曲がってください。",
+      "exRoman": "Kōen o sugitara migi ni magatte kudasai.",
+      "note": {
+        "en": "The verb: to turn a corner. 左に曲がる means 'turn left'.",
+        "tr": "Fiil: bir köşeden dönmek. 左に曲がる 'sola dönmek' demektir."
+      }
+    },
+    "corner": {
+      "text": "角",
+      "roman": "kado",
+      "ex": "角にパン屋があります。",
+      "exRoman": "Kado ni pan'ya ga arimasu."
+    },
+    "where": {
+      "text": "どこ",
+      "roman": "doko",
+      "ex": "すみません、銀行はどこですか？",
+      "exRoman": "Sumimasen, ginkō wa doko desu ka?"
+    },
+    "near": {
+      "text": "近い",
+      "roman": "chikai",
+      "ex": "私の家は公園に近いです。",
+      "exRoman": "Watashi no ie wa kōen ni chikai desu."
+    },
+    "far": {
+      "text": "遠い",
+      "roman": "tōi",
+      "ex": "ビーチはここから遠いですか？",
+      "exRoman": "Bīchi wa koko kara tōi desu ka?"
+    },
+    "in-front-of": {
+      "text": "前",
+      "roman": "mae",
+      "ex": "図書館の前で会いましょう。",
+      "exRoman": "Toshokan no mae de aimashō.",
+      "note": {
+        "en": "Comes after の: 図書館の前 means 'in front of the library'.",
+        "tr": "の'dan sonra gelir: 図書館の前 'kütüphanenin önünde' demektir."
+      }
+    },
+    "behind": {
+      "text": "後ろ",
+      "roman": "ushiro",
+      "ex": "庭は家の後ろにあります。",
+      "exRoman": "Niwa wa ie no ushiro ni arimasu."
+    },
+    "between": {
+      "text": "間",
+      "roman": "aida",
+      "ex": "銀行はカフェとパン屋の間にあります。",
+      "exRoman": "Ginkō wa kafe to pan'ya no aida ni arimasu.",
+      "note": {
+        "en": "A と B の間 means 'between A and B'.",
+        "tr": "A と B の間 'A ile B'nin arasında' demektir."
+      }
+    },
+    "map": {
+      "text": "地図",
+      "roman": "chizu",
+      "ex": "町の地図を持っていますか？",
+      "exRoman": "Machi no chizu o motte imasu ka?"
+    },
+    "shirt": {
+      "text": "シャツ",
+      "roman": "shatsu",
+      "ex": "アリさんは白いシャツを着て仕事に行きます。",
+      "exRoman": "Ari-san wa shiroi shatsu o kite shigoto ni ikimasu."
+    },
+    "pants": {
+      "text": "ズボン",
+      "roman": "zubon",
+      "ex": "このズボンは長すぎます。",
+      "exRoman": "Kono zubon wa nagasugimasu.",
+      "note": {
+        "en": "Trousers. Clothes shops also say パンツ (pantsu).",
+        "tr": "Pantolon. Giyim mağazalarında パンツ (pantsu) da denir."
+      }
+    },
+    "dress": {
+      "text": "ワンピース",
+      "roman": "wanpīsu",
+      "ex": "アンナさんは長いワンピースを着ています。",
+      "exRoman": "Anna-san wa nagai wanpīsu o kite imasu."
+    },
+    "shoes": {
+      "text": "靴",
+      "roman": "kutsu",
+      "ex": "私の靴はベッドの下にあります。",
+      "exRoman": "Watashi no kutsu wa beddo no shita ni arimasu."
+    },
+    "jacket": {
+      "text": "ジャケット",
+      "roman": "jaketto",
+      "ex": "寒いので、ジャケットを持っていってください。",
+      "exRoman": "Samui node, jaketto o motte itte kudasai."
+    },
+    "wear": {
+      "text": "着る",
+      "roman": "kiru",
+      "ex": "冬はジャケットを着ます。",
+      "exRoman": "Fuyu wa jaketto o kimasu.",
+      "note": {
+        "en": "For shirts, jackets and dresses. Shoes and pants take はく (haku), a hat takes かぶる (kaburu).",
+        "tr": "Gömlek, ceket ve elbise için. Ayakkabı ve pantolon はく (haku), şapka かぶる (kaburu) alır."
+      }
+    },
+    "red": {
+      "text": "赤い",
+      "roman": "akai",
+      "ex": "赤いシャツがほしいです。",
+      "exRoman": "Akai shatsu ga hoshii desu."
+    },
+    "blue": {
+      "text": "青い",
+      "roman": "aoi",
+      "ex": "エマさんは青い目をしています。",
+      "exRoman": "Ema-san wa aoi me o shite imasu."
+    },
+    "green": {
+      "text": "緑",
+      "roman": "midori",
+      "ex": "緑のりんごが好きです。",
+      "exRoman": "Midori no ringo ga suki desu.",
+      "note": {
+        "en": "緑 is a noun, so it takes の before another noun: 緑のりんご (a green apple).",
+        "tr": "緑 bir isimdir, bu yüzden başka bir isimden önce の alır: 緑のりんご (yeşil bir elma)."
+      }
+    },
+    "yellow": {
+      "text": "黄色い",
+      "roman": "kiiroi",
+      "ex": "妹は黄色い花が好きです。",
+      "exRoman": "Imōto wa kiiroi hana ga suki desu."
+    },
+    "black": {
+      "text": "黒い",
+      "roman": "kuroi",
+      "ex": "トムさんは黒い犬を飼っています。",
+      "exRoman": "Tomu-san wa kuroi inu o katte imasu."
+    },
+    "white": {
+      "text": "白い",
+      "roman": "shiroi",
+      "ex": "私の部屋の壁は白いです。",
+      "exRoman": "Watashi no heya no kabe wa shiroi desu."
+    },
+    "price": {
+      "text": "値段",
+      "roman": "nedan",
+      "ex": "このかばんの値段はいくらですか？",
+      "exRoman": "Kono kaban no nedan wa ikura desu ka?"
+    },
+    "how-much-is-it": {
+      "text": "いくらですか？",
+      "roman": "ikura desu ka?",
+      "ex": "このTシャツはいいですね。いくらですか？",
+      "exRoman": "Kono tīshatsu wa ii desu ne. Ikura desu ka?"
+    },
+    "cheap": {
+      "text": "安い",
+      "roman": "yasui",
+      "ex": "この靴は安いです。",
+      "exRoman": "Kono kutsu wa yasui desu."
+    },
+    "expensive": {
+      "text": "高い",
+      "roman": "takai",
+      "ex": "あのジャケットは高すぎます。",
+      "exRoman": "Ano jaketto wa takasugimasu.",
+      "note": {
+        "en": "高い also means 'high' and, with 背が, 'tall'.",
+        "tr": "高い aynı zamanda 'yüksek' demektir; 背が ile 'uzun boylu' olur."
+      }
+    },
+    "pay": {
+      "text": "払う",
+      "roman": "harau",
+      "ex": "カードで払えますか？",
+      "exRoman": "Kādo de haraemasu ka?"
+    },
+    "money": {
+      "text": "お金",
+      "roman": "okane",
+      "ex": "あまりお金がありません。",
+      "exRoman": "Amari okane ga arimasen."
+    },
+    "shop": {
+      "text": "店",
+      "roman": "mise",
+      "ex": "店は八時に閉まります。",
+      "exRoman": "Mise wa hachiji ni shimarimasu."
+    },
+    "buy": {
+      "text": "買う",
+      "roman": "kau",
+      "ex": "新しいかばんを買いたいです。",
+      "exRoman": "Atarashii kaban o kaitai desu."
+    },
+    "sell": {
+      "text": "売る",
+      "roman": "uru",
+      "ex": "ここでは靴とかばんを売っています。",
+      "exRoman": "Koko dewa kutsu to kaban o utte imasu."
+    },
+    "size": {
+      "text": "サイズ",
+      "roman": "saizu",
+      "ex": "これより大きいサイズはありますか？",
+      "exRoman": "Kore yori ōkii saizu wa arimasu ka?"
+    },
+    "try-on": {
+      "text": "試着する",
+      "roman": "shichaku suru",
+      "ex": "このワンピースを試着してもいいですか？",
+      "exRoman": "Kono wanpīsu o shichaku shite mo ii desu ka?"
+    },
+    "bag": {
+      "text": "かばん",
+      "roman": "kaban",
+      "ex": "かばんをいすの上に置いてください。",
+      "exRoman": "Kaban o isu no ue ni oite kudasai."
+    },
+    "weather": {
+      "text": "天気",
+      "roman": "tenki",
+      "ex": "今日はいい天気です。",
+      "exRoman": "Kyō wa ii tenki desu."
+    },
+    "sun": {
+      "text": "太陽",
+      "roman": "taiyō",
+      "ex": "マドリードでは太陽が出ています。",
+      "exRoman": "Madorīdo dewa taiyō ga dete imasu."
+    },
+    "rain": {
+      "text": "雨",
+      "roman": "ame",
+      "ex": "ロンドンは雨がたくさん降ります。",
+      "exRoman": "Rondon wa ame ga takusan furimasu."
+    },
+    "snow": {
+      "text": "雪",
+      "roman": "yuki",
+      "ex": "子どもたちは雪の中で遊んでいます。",
+      "exRoman": "Kodomotachi wa yuki no naka de asonde imasu."
+    },
+    "wind": {
+      "text": "風",
+      "roman": "kaze",
+      "ex": "今日は風がとても冷たいです。",
+      "exRoman": "Kyō wa kaze ga totemo tsumetai desu."
+    },
+    "cloud": {
+      "text": "雲",
+      "roman": "kumo",
+      "ex": "空には雲が一つもありません。",
+      "exRoman": "Sora ni wa kumo ga hitotsu mo arimasen."
+    },
+    "hot": {
+      "text": "暑い",
+      "roman": "atsui",
+      "ex": "夏はとても暑いです。",
+      "exRoman": "Natsu wa totemo atsui desu.",
+      "note": {
+        "en": "For hot weather. A hot thing, like tea, is 熱い, with the same sound.",
+        "tr": "Sıcak hava için. Çay gibi sıcak bir şey, aynı sesle 熱い olur."
+      }
+    },
+    "cold": {
+      "text": "寒い",
+      "roman": "samui",
+      "ex": "今日は外が寒いです。",
+      "exRoman": "Kyō wa soto ga samui desu.",
+      "note": {
+        "en": "For cold weather. A cold thing, like water, is 冷たい (tsumetai).",
+        "tr": "Soğuk hava için. Su gibi soğuk bir şey 冷たい (tsumetai) olur."
+      }
+    },
+    "sky": {
+      "text": "空",
+      "roman": "sora",
+      "ex": "今日は空が灰色です。",
+      "exRoman": "Kyō wa sora ga haiiro desu."
+    },
+    "umbrella": {
+      "text": "傘",
+      "roman": "kasa",
+      "ex": "雨が降っていますから、傘を持っていってください。",
+      "exRoman": "Ame ga futte imasu kara, kasa o motte itte kudasai."
+    },
+    "wet": {
+      "text": "ぬれた",
+      "roman": "nureta",
+      "ex": "雨で髪がぬれています。",
+      "exRoman": "Ame de kami ga nurete imasu.",
+      "note": {
+        "en": "Japanese says 'has got wet': ぬれています means 'it is wet'.",
+        "tr": "Japonca 'ıslandı' der: ぬれています 'ıslak' demektir."
+      }
+    },
+    "degree": {
+      "text": "度",
+      "roman": "do",
+      "ex": "今日は三十度です。",
+      "exRoman": "Kyō wa sanjūdo desu."
+    },
+    "season": {
+      "text": "季節",
+      "roman": "kisetsu",
+      "ex": "春は私の一番好きな季節です。",
+      "exRoman": "Haru wa watashi no ichiban suki na kisetsu desu."
+    },
+    "spring": {
+      "text": "春",
+      "roman": "haru",
+      "ex": "春に花が咲きます。",
+      "exRoman": "Haru ni hana ga sakimasu."
+    },
+    "summer": {
+      "text": "夏",
+      "roman": "natsu",
+      "ex": "夏はビーチに行きます。",
+      "exRoman": "Natsu wa bīchi ni ikimasu."
+    },
+    "fall": {
+      "text": "秋",
+      "roman": "aki",
+      "ex": "秋は葉っぱが黄色くなります。",
+      "exRoman": "Aki wa happa ga kiiroku narimasu."
+    },
+    "winter": {
+      "text": "冬",
+      "roman": "fuyu",
+      "ex": "ソウルの冬は寒いです。",
+      "exRoman": "Sōru no fuyu wa samui desu."
+    },
+    "flower": {
+      "text": "花",
+      "roman": "hana",
+      "ex": "母は花が大好きです。",
+      "exRoman": "Haha wa hana ga daisuki desu."
+    },
+    "outside": {
+      "text": "外",
+      "roman": "soto",
+      "ex": "今日は外で食べましょう。",
+      "exRoman": "Kyō wa soto de tabemashō."
+    },
+    "inside": {
+      "text": "中",
+      "roman": "naka",
+      "ex": "雨が降っているので、私たちは家の中にいます。",
+      "exRoman": "Ame ga futte iru node, watashitachi wa ie no naka ni imasu.",
+      "note": {
+        "en": "Inside something: 家の中 means 'inside the house'.",
+        "tr": "Bir şeyin içi: 家の中 'evin içinde' demektir."
+      }
+    },
+    "beach": {
+      "text": "ビーチ",
+      "roman": "bīchi",
+      "ex": "エリフさんはビーチで本を読んでいます。",
+      "exRoman": "Erifu-san wa bīchi de hon o yonde imasu."
+    },
+    "swim": {
+      "text": "泳ぐ",
+      "roman": "oyogu",
+      "ex": "アリさんは海で泳いでいます。",
+      "exRoman": "Ari-san wa umi de oyoide imasu."
+    },
+    "walk": {
+      "text": "歩く",
+      "roman": "aruku",
+      "ex": "アンナさんと私は海辺を歩いています。",
+      "exRoman": "Anna-san to watashi wa umibe o aruite imasu."
+    },
+    "stay": {
+      "text": "いる",
+      "roman": "iru",
+      "ex": "今日は家にいます。",
+      "exRoman": "Kyō wa ie ni imasu.",
+      "note": {
+        "en": "To be or stay somewhere, for people and animals: 家にいます means 'I am staying at home'.",
+        "tr": "İnsanlar ve hayvanlar için bir yerde olmak ya da kalmak: 家にいます 'evde kalıyorum' demektir."
+      }
+    },
+    "bus": {
+      "text": "バス",
+      "roman": "basu",
+      "ex": "今朝、バスは満員でした。",
+      "exRoman": "Kesa, basu wa man'in deshita."
+    },
+    "train": {
+      "text": "電車",
+      "roman": "densha",
+      "ex": "マドリード行きの電車は速かったです。",
+      "exRoman": "Madorīdo-iki no densha wa hayakatta desu."
+    },
+    "car": {
+      "text": "車",
+      "roman": "kuruma",
+      "ex": "私の初めての車は赤かったです。",
+      "exRoman": "Watashi no hajimete no kuruma wa akakatta desu."
+    },
+    "bike": {
+      "text": "自転車",
+      "roman": "jitensha",
+      "ex": "自転車で仕事に行きます。",
+      "exRoman": "Jitensha de shigoto ni ikimasu."
+    },
+    "taxi": {
+      "text": "タクシー",
+      "roman": "takushī",
+      "ex": "タクシーはとても高かったです。",
+      "exRoman": "Takushī wa totemo takakatta desu."
+    },
+    "plane": {
+      "text": "飛行機",
+      "roman": "hikōki",
+      "ex": "私たちは十二時間、飛行機に乗っていました。",
+      "exRoman": "Watashitachi wa jūnijikan, hikōki ni notte imashita."
+    },
+    "ticket": {
+      "text": "切符",
+      "roman": "kippu",
+      "ex": "これはあなたの電車の切符ですか？",
+      "exRoman": "Kore wa anata no densha no kippu desu ka?"
+    },
+    "station": {
+      "text": "駅",
+      "roman": "eki",
+      "ex": "駅は人でいっぱいでした。",
+      "exRoman": "Eki wa hito de ippai deshita."
+    },
+    "airport": {
+      "text": "空港",
+      "roman": "kūkō",
+      "ex": "空港は町から遠かったです。",
+      "exRoman": "Kūkō wa machi kara tōkatta desu."
+    },
+    "passport": {
+      "text": "パスポート",
+      "roman": "pasupōto",
+      "ex": "あなたのパスポートはテーブルの上にありました。",
+      "exRoman": "Anata no pasupōto wa tēburu no ue ni arimashita."
+    },
+    "early": {
+      "text": "早く",
+      "roman": "hayaku",
+      "ex": "月曜日は早く起きます。",
+      "exRoman": "Getsuyōbi wa hayaku okimasu.",
+      "note": {
+        "en": "Before a verb: 早く起きます (I wake up early). The describing word is 早い (hayai).",
+        "tr": "Bir fiilden önce: 早く起きます (Erken kalkarım). Niteleyen kelime 早い (hayai) olur."
+      }
+    },
+    "late": {
+      "text": "遅れる",
+      "roman": "okureru",
+      "ex": "すみません、今日は遅れました。",
+      "exRoman": "Sumimasen, kyō wa okuremashita.",
+      "note": {
+        "en": "The verb: to be late. 'Late at night' uses 遅く (osoku).",
+        "tr": "Fiil: geç kalmak. 'Gece geç saatte' için 遅く (osoku) kullanılır."
+      }
+    },
+    "hotel": {
+      "text": "ホテル",
+      "roman": "hoteru",
+      "ex": "私たちのホテルは海の近くでした。",
+      "exRoman": "Watashitachi no hoteru wa umi no chikaku deshita."
+    },
+    "suitcase": {
+      "text": "スーツケース",
+      "roman": "sūtsukēsu",
+      "ex": "私のスーツケースはとても重かったです。",
+      "exRoman": "Watashi no sūtsukēsu wa totemo omokatta desu."
+    },
+    "floor": {
+      "text": "階",
+      "roman": "kai",
+      "ex": "私たちの部屋は五階でした。",
+      "exRoman": "Watashitachi no heya wa gokai deshita.",
+      "note": {
+        "en": "A level of a building: 五階 (the fifth floor). The floor you walk on is 床 (yuka).",
+        "tr": "Bir binanın katı: 五階 (beşinci kat). Üstünde yürüdüğün zemin 床 (yuka) olur."
+      }
+    },
+    "view": {
+      "text": "景色",
+      "roman": "keshiki",
+      "ex": "窓からの景色はきれいでした。",
+      "exRoman": "Mado kara no keshiki wa kirei deshita."
+    },
+    "comfortable": {
+      "text": "快適",
+      "roman": "kaiteki",
+      "ex": "ベッドはとても快適でした。",
+      "exRoman": "Beddo wa totemo kaiteki deshita."
+    },
+    "quiet": {
+      "text": "静か",
+      "roman": "shizuka",
+      "ex": "ホテルはきれいで静かでした。",
+      "exRoman": "Hoteru wa kirei de shizuka deshita."
+    },
+    "vacation": {
+      "text": "休み",
+      "roman": "yasumi",
+      "ex": "私たちの休みは短すぎました。",
+      "exRoman": "Watashitachi no yasumi wa mijikasugimashita."
+    },
+    "sea": {
+      "text": "海",
+      "roman": "umi",
+      "ex": "海は温かくて青かったです。",
+      "exRoman": "Umi wa atatakakute aokatta desu."
+    },
+    "mountain": {
+      "text": "山",
+      "roman": "yama",
+      "ex": "山は雪で白かったです。",
+      "exRoman": "Yama wa yuki de shirokatta desu."
+    },
+    "photo": {
+      "text": "写真",
+      "roman": "shashin",
+      "ex": "この写真は東京で撮ったものです。",
+      "exRoman": "Kono shashin wa Tōkyō de totta mono desu."
+    },
+    "visit": {
+      "text": "訪れる",
+      "roman": "otozureru",
+      "ex": "観光客は毎日博物館を訪れます。",
+      "exRoman": "Kankōkyaku wa mainichi hakubutsukan o otozuremasu.",
+      "note": {
+        "en": "For places. To visit a person, people often say 訪ねる (tazuneru).",
+        "tr": "Yerler için. Birini ziyaret etmek için çoğu zaman 訪ねる (tazuneru) denir."
+      }
+    },
+    "wonderful": {
+      "text": "すばらしい",
+      "roman": "subarashii",
+      "ex": "ビーチですばらしい一日を過ごしました。",
+      "exRoman": "Bīchi de subarashii ichinichi o sugoshimashita."
+    },
+    "yesterday": {
+      "text": "昨日",
+      "roman": "kinō",
+      "ex": "昨日エリフさんに会いました。",
+      "exRoman": "Kinō Erifu-san ni aimashita."
+    },
+    "last-night": {
+      "text": "昨日の夜",
+      "roman": "kinō no yoru",
+      "ex": "昨日の夜、映画を見ました。",
+      "exRoman": "Kinō no yoru, eiga o mimashita."
+    },
+    "last-week": {
+      "text": "先週",
+      "roman": "senshū",
+      "ex": "先週、トムさんはパリを訪れました。",
+      "exRoman": "Senshū, Tomu-san wa Pari o otozuremashita."
+    },
+    "last-year": {
+      "text": "去年",
+      "roman": "kyonen",
+      "ex": "去年、ベルリンに引っ越しました。",
+      "exRoman": "Kyonen, Berurin ni hikkoshimashita."
+    },
+    "ago": {
+      "text": "前に",
+      "roman": "mae ni",
+      "ex": "二年前にこの仕事を始めました。",
+      "exRoman": "Ninen mae ni kono shigoto o hajimemashita.",
+      "note": {
+        "en": "Comes after a length of time: 二年前に means 'two years ago'.",
+        "tr": "Bir süreden sonra gelir: 二年前に 'iki yıl önce' demektir."
+      }
+    },
+    "then": {
+      "text": "それから",
+      "roman": "sorekara",
+      "ex": "昼ご飯を食べました。それから散歩しました。",
+      "exRoman": "Hirugohan o tabemashita. Sorekara sanpo shimashita.",
+      "note": {
+        "en": "After that, next in time. It joins two things you did, one after the other.",
+        "tr": "Ondan sonra, zamanda sıradaki. Arka arkaya yaptığın iki şeyi bağlar."
+      }
+    },
+    "meet": {
+      "text": "会う",
+      "roman": "au",
+      "ex": "カフェでゼイネップさんに会いました。",
+      "exRoman": "Kafe de Zeineppu-san ni aimashita.",
+      "note": {
+        "en": "To meet or see someone you know. The person takes に: 友達に会う (meet a friend).",
+        "tr": "Tanıdığın biriyle buluşmak ya da görüşmek. Kişi に alır: 友達に会う (bir arkadaşla buluşmak)."
+      }
+    },
+    "see": {
+      "text": "見る",
+      "roman": "miru",
+      "ex": "公園でお兄さんを見ましたよ。",
+      "exRoman": "Kōen de onīsan o mimashita yo.",
+      "note": {
+        "en": "It means both 'see' and 'watch'. Seeing someone by chance is often 見かける (mikakeru).",
+        "tr": "Hem 'görmek' hem 'izlemek' demektir. Birini tesadüfen görmek çoğu zaman 見かける (mikakeru) olur."
+      }
+    },
+    "dance": {
+      "text": "踊る",
+      "roman": "odoru",
+      "ex": "私たちは一晩中踊りました。",
+      "exRoman": "Watashitachi wa hitobanjū odorimashita."
+    },
+    "sing": {
+      "text": "歌う",
+      "roman": "utau",
+      "ex": "ミアさんは私たちのために歌を歌いました。",
+      "exRoman": "Mia-san wa watashitachi no tame ni uta o utaimashita."
+    },
+    "party": {
+      "text": "パーティー",
+      "roman": "pātī",
+      "ex": "パーティーはレオさんの家でした。",
+      "exRoman": "Pātī wa Reo-san no ie deshita."
+    },
+    "have-fun": {
+      "text": "楽しむ",
+      "roman": "tanoshimu",
+      "ex": "子どもたちはとても楽しみました。",
+      "exRoman": "Kodomotachi wa totemo tanoshimimashita."
+    },
+    "cook": {
+      "text": "料理する",
+      "roman": "ryōri suru",
+      "ex": "父は私たちのために魚を料理しました。",
+      "exRoman": "Chichi wa watashitachi no tame ni sakana o ryōri shimashita."
+    },
+    "wash": {
+      "text": "洗う",
+      "roman": "arau",
+      "ex": "日曜日に車を洗いました。",
+      "exRoman": "Nichiyōbi ni kuruma o araimashita."
+    },
+    "call": {
+      "text": "電話する",
+      "roman": "denwa suru",
+      "ex": "昨日の夜、祖母に電話しました。",
+      "exRoman": "Kinō no yoru, sobo ni denwa shimashita."
+    },
+    "write": {
+      "text": "書く",
+      "roman": "kaku",
+      "ex": "アンナさんは長いメールを書きました。",
+      "exRoman": "Anna-san wa nagai mēru o kakimashita."
+    },
+    "listen": {
+      "text": "聞く",
+      "roman": "kiku",
+      "ex": "私たちは一日中音楽を聞きました。",
+      "exRoman": "Watashitachi wa ichinichijū ongaku o kikimashita."
+    },
+    "music": {
+      "text": "音楽",
+      "roman": "ongaku",
+      "ex": "静かな音楽が好きです。",
+      "exRoman": "Shizuka na ongaku ga suki desu."
+    },
+    "tired": {
+      "text": "疲れた",
+      "roman": "tsukareta",
+      "ex": "仕事の後、とても疲れていました。",
+      "exRoman": "Shigoto no ato, totemo tsukarete imashita."
+    },
+    "forget": {
+      "text": "忘れる",
+      "roman": "wasureru",
+      "ex": "傘を家に忘れました。",
+      "exRoman": "Kasa o ie ni wasuremashita."
+    },
+    "lose": {
+      "text": "なくす",
+      "roman": "nakusu",
+      "ex": "サムさんは昨日鍵をなくしました。",
+      "exRoman": "Samu-san wa kinō kagi o nakushimashita."
+    },
+    "find": {
+      "text": "見つける",
+      "roman": "mitsukeru",
+      "ex": "ベッドの下で電話を見つけました。",
+      "exRoman": "Beddo no shita de denwa o mitsukemashita."
+    },
+    "finish": {
+      "text": "終わる",
+      "roman": "owaru",
+      "ex": "宿題は九時に終わりました。",
+      "exRoman": "Shukudai wa kuji ni owarimashita.",
+      "note": {
+        "en": "Says that something ends. 宿題が終わりました means 'the homework is done'.",
+        "tr": "Bir şeyin bittiğini söyler. 宿題が終わりました 'ödev bitti' demektir."
+      }
+    },
+    "start": {
+      "text": "始まる",
+      "roman": "hajimaru",
+      "ex": "映画は八時に始まりました。",
+      "exRoman": "Eiga wa hachiji ni hajimarimashita.",
+      "note": {
+        "en": "Something starts. To start something yourself is 始める (hajimeru).",
+        "tr": "Bir şey başlar. Bir şeye kendin başlamak 始める (hajimeru) olur."
+      }
+    },
+    "tomorrow": {
+      "text": "明日",
+      "roman": "ashita",
+      "ex": "明日、祖母を訪ねるつもりです。",
+      "exRoman": "Ashita, sobo o tazuneru tsumori desu."
+    },
+    "tonight": {
+      "text": "今夜",
+      "roman": "kon'ya",
+      "ex": "今夜、映画を見るつもりです。",
+      "exRoman": "Kon'ya, eiga o miru tsumori desu."
+    },
+    "next-week": {
+      "text": "来週",
+      "roman": "raishū",
+      "ex": "来週、新しい仕事を始めます。",
+      "exRoman": "Raishū, atarashii shigoto o hajimemasu."
+    },
+    "next-year": {
+      "text": "来年",
+      "roman": "rainen",
+      "ex": "来年、ソウルに引っ越すつもりです。",
+      "exRoman": "Rainen, Sōru ni hikkosu tsumori desu."
+    },
+    "soon": {
+      "text": "もうすぐ",
+      "roman": "mō sugu",
+      "ex": "もうすぐ姉がうちに来ます。",
+      "exRoman": "Mō sugu ane ga uchi ni kimasu."
+    },
+    "plan": {
+      "text": "予定",
+      "roman": "yotei",
+      "ex": "土曜日の予定は何ですか？",
+      "exRoman": "Doyōbi no yotei wa nan desu ka?",
+      "note": {
+        "en": "A plan on your calendar. A bigger plan or project is 計画 (keikaku).",
+        "tr": "Takvimindeki bir plan. Daha büyük bir plan ya da proje 計画 (keikaku) olur."
+      }
+    },
+    "invite": {
+      "text": "招待する",
+      "roman": "shōtai suru",
+      "ex": "あなたを晩ご飯に招待したいです。",
+      "exRoman": "Anata o bangohan ni shōtai shitai desu."
+    },
+    "would-you-like": {
+      "text": "いかがですか？",
+      "roman": "ikaga desu ka?",
+      "ex": "お茶はいかがですか？",
+      "exRoman": "Ocha wa ikaga desu ka?",
+      "note": {
+        "en": "Offers a thing politely. To invite a friend to do something, use -ませんか: 来ませんか？ (Would you like to come?)",
+        "tr": "Kibarca bir şey ikram eder. Bir arkadaşı bir şey yapmaya çağırmak için -ませんか: 来ませんか？ (Gelmek ister misin?)"
+      }
+    },
+    "come": {
+      "text": "来る",
+      "roman": "kuru",
+      "ex": "私のパーティーに来ませんか？",
+      "exRoman": "Watashi no pātī ni kimasen ka?"
+    },
+    "free": {
+      "text": "暇",
+      "roman": "hima",
+      "ex": "金曜日の夜は暇ですか？",
+      "exRoman": "Kin'yōbi no yoru wa hima desu ka?",
+      "note": {
+        "en": "Not busy, with free time. 'Costs nothing' is a different word: 無料 (muryō).",
+        "tr": "Meşgul değil, boş vakti olan. 'Ücretsiz' başka bir kelimedir: 無料 (muryō)."
+      }
+    },
+    "busy": {
+      "text": "忙しい",
+      "roman": "isogashii",
+      "ex": "すみません、明日は忙しいです。",
+      "exRoman": "Sumimasen, ashita wa isogashii desu."
+    },
+    "concert": {
+      "text": "コンサート",
+      "roman": "konsāto",
+      "ex": "今夜、公園でコンサートがあります。",
+      "exRoman": "Kon'ya, kōen de konsāto ga arimasu."
+    },
+    "of-course": {
+      "text": "もちろん",
+      "roman": "mochiron",
+      "ex": "もちろん行きます！",
+      "exRoman": "Mochiron ikimasu!"
+    },
+    "good-idea": {
+      "text": "いい考え",
+      "roman": "ii kangae",
+      "ex": "日曜日にピクニック？いい考えですね！",
+      "exRoman": "Nichiyōbi ni pikunikku? Ii kangae desu ne!"
+    },
+    "maybe": {
+      "text": "たぶん",
+      "roman": "tabun",
+      "ex": "たぶん後で行きます。",
+      "exRoman": "Tabun ato de ikimasu."
+    },
+    "unfortunately": {
+      "text": "残念ながら",
+      "roman": "zannen nagara",
+      "ex": "残念ながら、店は今日休みです。",
+      "exRoman": "Zannen nagara, mise wa kyō yasumi desu."
+    },
+    "another-time": {
+      "text": "また今度",
+      "roman": "mata kondo",
+      "ex": "すみません、行けません。また今度にしませんか？",
+      "exRoman": "Sumimasen, ikemasen. Mata kondo ni shimasen ka?"
+    },
+    "i-would-love-to": {
+      "text": "ぜひ",
+      "roman": "zehi",
+      "ex": "土曜日の晩ご飯ですか？ぜひ！",
+      "exRoman": "Doyōbi no bangohan desu ka? Zehi!",
+      "note": {
+        "en": "A warm yes to an invitation. In full: ぜひ行きたいです (I would love to go).",
+        "tr": "Bir davete sıcak bir evet. Tam hâli: ぜひ行きたいです (Gelmeyi çok isterim)."
+      }
+    },
+    "learn": {
+      "text": "習う",
+      "roman": "narau",
+      "ex": "料理を習いたいです。",
+      "exRoman": "Ryōri o naraitai desu.",
+      "note": {
+        "en": "To learn from a teacher or a class. 'To study' is 勉強する (benkyō suru).",
+        "tr": "Bir öğretmenden ya da bir kurstan öğrenmek. 'Ders çalışmak' 勉強する (benkyō suru) olur."
+      }
+    },
+    "travel": {
+      "text": "旅行する",
+      "roman": "ryokō suru",
+      "ex": "エマさんは東京に旅行するつもりです。",
+      "exRoman": "Ema-san wa Tōkyō ni ryokō suru tsumori desu."
+    },
+    "rest": {
+      "text": "休む",
+      "roman": "yasumu",
+      "ex": "今週末は休むつもりです。",
+      "exRoman": "Konshūmatsu wa yasumu tsumori desu."
+    },
+    "celebrate": {
+      "text": "祝う",
+      "roman": "iwau",
+      "ex": "私たちは彼女の誕生日を祝うつもりです。",
+      "exRoman": "Watashitachi wa kanojo no tanjōbi o iwau tsumori desu."
+    },
+    "bring": {
+      "text": "持っていく",
+      "roman": "motte iku",
+      "ex": "ケーキを持っていきます。",
+      "exRoman": "Kēki o motte ikimasu.",
+      "note": {
+        "en": "Taking a thing with you to another place. Bringing it here, toward you, is 持ってくる (motte kuru).",
+        "tr": "Bir şeyi yanında başka bir yere götürmek. Buraya, sana doğru getirmek 持ってくる (motte kuru) olur."
+      }
+    },
+    "ready": {
+      "text": "準備ができた",
+      "roman": "junbi ga dekita",
+      "ex": "旅行の準備ができましたか？",
+      "exRoman": "Ryokō no junbi ga dekimashita ka?",
+      "note": {
+        "en": "Japanese says 'the preparation is done': 準備ができました means 'I am ready'.",
+        "tr": "Japonca 'hazırlık tamam' der: 準備ができました 'hazırım' demektir."
+      }
+    }
+  },
+  "sentences": {
+    "u01-1-a": {
+      "tokens": [
+        "おはようございます、",
+        "ゼイネップさんと",
+        "アリさん！"
+      ],
+      "gap": 0,
+      "wrong": [
+        "こんばんは",
+        "おやすみなさい",
+        "さようなら"
+      ],
+      "roman": "Ohayō gozaimasu, Zeineppu-san to Ari-san!",
+      "tokenRoman": [
+        "ohayō gozaimasu,",
+        "Zeineppu-san to",
+        "Ari-san!"
+      ],
+      "wrongRoman": [
+        "konbanwa",
+        "oyasuminasai",
+        "sayōnara"
+      ]
+    },
+    "u01-1-b": {
+      "tokens": [
+        "こんにちは、",
+        "サムさん。",
+        "お元気ですか？"
+      ],
+      "gap": 0,
+      "wrong": [
+        "さようなら",
+        "おやすみなさい",
+        "どういたしまして"
+      ],
+      "roman": "Konnichiwa, Samu-san. Ogenki desu ka?",
+      "tokenRoman": [
+        "konnichiwa,",
+        "Samu-san.",
+        "ogenki desu ka?"
+      ],
+      "wrongRoman": [
+        "sayōnara",
+        "oyasuminasai",
+        "dō itashimashite"
+      ]
+    },
+    "u01-2-a": {
+      "tokens": [
+        "おやすみなさい、",
+        "ミアさんと",
+        "レオさん。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "おはようございます",
+        "こんにちは",
+        "はじめまして"
+      ],
+      "roman": "Oyasuminasai, Mia-san to Reo-san.",
+      "tokenRoman": [
+        "oyasuminasai,",
+        "Mia-san to",
+        "Reo-san."
+      ],
+      "wrongRoman": [
+        "ohayō gozaimasu",
+        "konnichiwa",
+        "hajimemashite"
+      ]
+    },
+    "u01-2-b": {
+      "tokens": [
+        "トムさん、",
+        "また",
+        "明日。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "昨日",
+        "去年",
+        "先週"
+      ],
+      "roman": "Tomu-san, mata ashita.",
+      "tokenRoman": [
+        "Tomu-san,",
+        "mata",
+        "ashita."
+      ],
+      "wrongRoman": [
+        "kinō",
+        "kyonen",
+        "senshū"
+      ]
+    },
+    "u01-3-a": {
+      "tokens": [
+        "はじめまして、",
+        "トムさん。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "おやすみなさい",
+        "さようなら",
+        "いいえ"
+      ],
+      "roman": "Hajimemashite, Tomu-san.",
+      "tokenRoman": [
+        "hajimemashite,",
+        "Tomu-san."
+      ],
+      "wrongRoman": [
+        "oyasuminasai",
+        "sayōnara",
+        "iie"
+      ]
+    },
+    "u01-3-b": {
+      "tokens": [
+        "アンナさんは",
+        "ベルリン出身の",
+        "先生",
+        "です。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "国",
+        "名前",
+        "お茶"
+      ],
+      "roman": "Anna-san wa Berurin shusshin no sensei desu.",
+      "tokenRoman": [
+        "Anna-san wa",
+        "Berurin shusshin no",
+        "sensei",
+        "desu."
+      ],
+      "wrongRoman": [
+        "kuni",
+        "namae",
+        "ocha"
+      ]
+    },
+    "u01-4-a": {
+      "tokens": [
+        "お茶を",
+        "二つ",
+        "お願いします。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "さようなら",
+        "すみません",
+        "はじめまして"
+      ],
+      "roman": "Ocha o futatsu onegaishimasu.",
+      "tokenRoman": [
+        "ocha o",
+        "futatsu",
+        "onegaishimasu."
+      ],
+      "wrongRoman": [
+        "sayōnara",
+        "sumimasen",
+        "hajimemashite"
+      ]
+    },
+    "u01-4-b": {
+      "tokens": [
+        "エムレさん、",
+        "どうも",
+        "ありがとうございます。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "はい",
+        "いいえ",
+        "元気です"
+      ],
+      "roman": "Emure-san, dōmo arigatō gozaimasu.",
+      "tokenRoman": [
+        "Emure-san,",
+        "dōmo",
+        "arigatō gozaimasu."
+      ],
+      "wrongRoman": [
+        "hai",
+        "iie",
+        "genki desu"
+      ]
+    },
+    "u02-1-a": {
+      "tokens": [
+        "母と",
+        "父は",
+        "先生",
+        "です。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "赤ちゃんと",
+        "国と",
+        "名前と"
+      ],
+      "roman": "Haha to chichi wa sensei desu.",
+      "tokenRoman": [
+        "haha to",
+        "chichi wa",
+        "sensei",
+        "desu."
+      ],
+      "wrongRoman": [
+        "akachan to",
+        "kuni to",
+        "namae to"
+      ]
+    },
+    "u02-1-b": {
+      "tokens": [
+        "ゼイネップさんには",
+        "お兄さんが",
+        "一人",
+        "います。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "国が",
+        "名前が",
+        "お茶が"
+      ],
+      "roman": "Zeineppu-san ni wa onīsan ga hitori imasu.",
+      "tokenRoman": [
+        "Zeineppu-san ni wa",
+        "onīsan ga",
+        "hitori",
+        "imasu."
+      ],
+      "wrongRoman": [
+        "kuni ga",
+        "namae ga",
+        "ocha ga"
+      ]
+    },
+    "u02-2-a": {
+      "tokens": [
+        "祖母は",
+        "私たちと",
+        "一緒に",
+        "住んでいます。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "国は",
+        "名前は",
+        "お茶は"
+      ],
+      "roman": "Sobo wa watashitachi to issho ni sunde imasu.",
+      "tokenRoman": [
+        "sobo wa",
+        "watashitachi to",
+        "issho ni",
+        "sunde imasu."
+      ],
+      "wrongRoman": [
+        "kuni wa",
+        "namae wa",
+        "ocha wa"
+      ]
+    },
+    "u02-2-b": {
+      "tokens": [
+        "ミアさんは",
+        "黒い",
+        "猫を",
+        "飼っています。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "国を",
+        "名前を",
+        "先生を"
+      ],
+      "roman": "Mia-san wa kuroi neko o katte imasu.",
+      "tokenRoman": [
+        "Mia-san wa",
+        "kuroi",
+        "neko o",
+        "katte imasu."
+      ],
+      "wrongRoman": [
+        "kuni o",
+        "namae o",
+        "sensei o"
+      ]
+    },
+    "u02-3-a": {
+      "tokens": [
+        "エマさんは",
+        "新しい",
+        "お隣さん",
+        "です。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "パン",
+        "国",
+        "水"
+      ],
+      "roman": "Ema-san wa atarashii otonari-san desu.",
+      "tokenRoman": [
+        "Ema-san wa",
+        "atarashii",
+        "otonari-san",
+        "desu."
+      ],
+      "wrongRoman": [
+        "pan",
+        "kuni",
+        "mizu"
+      ]
+    },
+    "u02-3-b": {
+      "tokens": [
+        "私の",
+        "友達は",
+        "とても",
+        "面白い",
+        "です。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "白い",
+        "安い",
+        "黄色い"
+      ],
+      "roman": "Watashi no tomodachi wa totemo omoshiroi desu.",
+      "tokenRoman": [
+        "watashi no",
+        "tomodachi wa",
+        "totemo",
+        "omoshiroi",
+        "desu."
+      ],
+      "wrongRoman": [
+        "shiroi",
+        "yasui",
+        "kiiroi"
+      ]
+    },
+    "u02-4-a": {
+      "tokens": [
+        "あの",
+        "男の人は",
+        "とても",
+        "背が高いです。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "国は",
+        "水は",
+        "パンは"
+      ],
+      "roman": "Ano otoko no hito wa totemo se ga takai desu.",
+      "tokenRoman": [
+        "ano",
+        "otoko no hito wa",
+        "totemo",
+        "se ga takai desu."
+      ],
+      "wrongRoman": [
+        "kuni wa",
+        "mizu wa",
+        "pan wa"
+      ]
+    },
+    "u02-4-b": {
+      "tokens": [
+        "その",
+        "女の人は",
+        "若くて",
+        "幸せそうです。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "安くて",
+        "遠くて",
+        "古くて"
+      ],
+      "roman": "Sono onna no hito wa wakakute shiawase-sō desu.",
+      "tokenRoman": [
+        "sono",
+        "onna no hito wa",
+        "wakakute",
+        "shiawase-sō desu."
+      ],
+      "wrongRoman": [
+        "yasukute",
+        "tōkute",
+        "furukute"
+      ]
+    },
+    "u03-1-a": {
+      "tokens": [
+        "私には",
+        "姉が",
+        "二人",
+        "います。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "三人",
+        "五人",
+        "六人"
+      ],
+      "roman": "Watashi ni wa ane ga futari imasu.",
+      "tokenRoman": [
+        "watashi ni wa",
+        "ane ga",
+        "futari",
+        "imasu."
+      ],
+      "wrongRoman": [
+        "sannin",
+        "gonin",
+        "rokunin"
+      ]
+    },
+    "u03-1-b": {
+      "tokens": [
+        "四",
+        "たす",
+        "二は",
+        "六",
+        "です。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "五",
+        "三",
+        "一"
+      ],
+      "roman": "Yon tasu ni wa roku desu.",
+      "tokenRoman": [
+        "yon",
+        "tasu",
+        "ni wa",
+        "roku",
+        "desu."
+      ],
+      "wrongRoman": [
+        "go",
+        "san",
+        "ichi"
+      ]
+    },
+    "u03-2-a": {
+      "tokens": [
+        "妹は",
+        "八歳",
+        "です。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "六歳",
+        "九歳",
+        "十歳"
+      ],
+      "roman": "Imōto wa hassai desu.",
+      "tokenRoman": [
+        "imōto wa",
+        "hassai",
+        "desu."
+      ],
+      "wrongRoman": [
+        "rokusai",
+        "kyūsai",
+        "jussai"
+      ]
+    },
+    "u03-2-b": {
+      "tokens": [
+        "一週間は",
+        "七日",
+        "です。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "五日",
+        "六日",
+        "十日"
+      ],
+      "roman": "Isshūkan wa nanoka desu.",
+      "tokenRoman": [
+        "isshūkan wa",
+        "nanoka",
+        "desu."
+      ],
+      "wrongRoman": [
+        "itsuka",
+        "muika",
+        "tōka"
+      ]
+    },
+    "u03-3-a": {
+      "tokens": [
+        "二十",
+        "たす",
+        "三十は",
+        "五十",
+        "です。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "四十",
+        "六十",
+        "百"
+      ],
+      "roman": "Nijū tasu sanjū wa gojū desu.",
+      "tokenRoman": [
+        "nijū",
+        "tasu",
+        "sanjū wa",
+        "gojū",
+        "desu."
+      ],
+      "wrongRoman": [
+        "yonjū",
+        "rokujū",
+        "hyaku"
+      ]
+    },
+    "u03-3-b": {
+      "tokens": [
+        "私の",
+        "部屋の",
+        "番号は",
+        "十二",
+        "です。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "誕生日は",
+        "国は",
+        "家族は"
+      ],
+      "roman": "Watashi no heya no bangō wa jūni desu.",
+      "tokenRoman": [
+        "watashi no",
+        "heya no",
+        "bangō wa",
+        "jūni",
+        "desu."
+      ],
+      "wrongRoman": [
+        "tanjōbi wa",
+        "kuni wa",
+        "kazoku wa"
+      ]
+    },
+    "u03-4-a": {
+      "tokens": [
+        "私は",
+        "十二歳",
+        "です。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "十二時",
+        "十二人",
+        "十二冊"
+      ],
+      "roman": "Watashi wa jūnisai desu.",
+      "tokenRoman": [
+        "watashi wa",
+        "jūnisai",
+        "desu."
+      ],
+      "wrongRoman": [
+        "jūniji",
+        "jūninin",
+        "jūnisatsu"
+      ]
+    },
+    "u03-4-b": {
+      "tokens": [
+        "猫を",
+        "何匹",
+        "飼っていますか？"
+      ],
+      "gap": 1,
+      "wrong": [
+        "何時",
+        "何歳",
+        "何月"
+      ],
+      "roman": "Neko o nanbiki katte imasu ka?",
+      "tokenRoman": [
+        "neko o",
+        "nanbiki",
+        "katte imasu ka?"
+      ],
+      "wrongRoman": [
+        "nanji",
+        "nansai",
+        "nangatsu"
+      ]
+    },
+    "u04-1-a": {
+      "tokens": [
+        "朝ご飯に",
+        "パンを",
+        "食べます。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "猫を",
+        "国を",
+        "名前を"
+      ],
+      "roman": "Asagohan ni pan o tabemasu.",
+      "tokenRoman": [
+        "asagohan ni",
+        "pan o",
+        "tabemasu."
+      ],
+      "wrongRoman": [
+        "neko o",
+        "kuni o",
+        "namae o"
+      ],
+      "orders": [
+        [
+          1,
+          0,
+          2
+        ]
+      ]
+    },
+    "u04-1-b": {
+      "tokens": [
+        "トムさんは",
+        "卵を",
+        "二つ",
+        "食べます。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "読みます",
+        "住みます",
+        "寝ます"
+      ],
+      "roman": "Tomu-san wa tamago o futatsu tabemasu.",
+      "tokenRoman": [
+        "Tomu-san wa",
+        "tamago o",
+        "futatsu",
+        "tabemasu."
+      ],
+      "wrongRoman": [
+        "yomimasu",
+        "sumimasu",
+        "nemasu"
+      ]
+    },
+    "u04-2-a": {
+      "tokens": [
+        "エムレさんは",
+        "コーヒーを",
+        "毎朝飲みます。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "パンを",
+        "本を",
+        "チーズを"
+      ],
+      "roman": "Emure-san wa kōhī o maiasa nomimasu.",
+      "tokenRoman": [
+        "Emure-san wa",
+        "kōhī o",
+        "maiasa nomimasu."
+      ],
+      "wrongRoman": [
+        "pan o",
+        "hon o",
+        "chīzu o"
+      ]
+    },
+    "u04-2-b": {
+      "tokens": [
+        "ジュースは",
+        "とても",
+        "冷たいです。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "国は",
+        "名前は",
+        "年齢は"
+      ],
+      "roman": "Jūsu wa totemo tsumetai desu.",
+      "tokenRoman": [
+        "jūsu wa",
+        "totemo",
+        "tsumetai desu."
+      ],
+      "wrongRoman": [
+        "kuni wa",
+        "namae wa",
+        "nenrei wa"
+      ]
+    },
+    "u04-3-a": {
+      "tokens": [
+        "バナナは",
+        "黄色くて",
+        "甘いです。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "水は",
+        "国は",
+        "名前は"
+      ],
+      "roman": "Banana wa kiirokute amai desu.",
+      "tokenRoman": [
+        "banana wa",
+        "kiirokute",
+        "amai desu."
+      ],
+      "wrongRoman": [
+        "mizu wa",
+        "kuni wa",
+        "namae wa"
+      ]
+    },
+    "u04-3-b": {
+      "tokens": [
+        "じゃがいもが",
+        "三つ",
+        "必要です。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "国が",
+        "名前が",
+        "家族が"
+      ],
+      "roman": "Jagaimo ga mittsu hitsuyō desu.",
+      "tokenRoman": [
+        "jagaimo ga",
+        "mittsu",
+        "hitsuyō desu."
+      ],
+      "wrongRoman": [
+        "kuni ga",
+        "namae ga",
+        "kazoku ga"
+      ]
+    },
+    "u04-4-a": {
+      "tokens": [
+        "晩ご飯は",
+        "八時",
+        "です。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "国は",
+        "名前は",
+        "水は"
+      ],
+      "roman": "Bangohan wa hachiji desu.",
+      "tokenRoman": [
+        "bangohan wa",
+        "hachiji",
+        "desu."
+      ],
+      "wrongRoman": [
+        "kuni wa",
+        "namae wa",
+        "mizu wa"
+      ]
+    },
+    "u04-4-b": {
+      "tokens": [
+        "デニズさんは",
+        "スープが",
+        "大好きです。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "年齢が",
+        "番号が",
+        "出身が"
+      ],
+      "roman": "Denizu-san wa sūpu ga daisuki desu.",
+      "tokenRoman": [
+        "Denizu-san wa",
+        "sūpu ga",
+        "daisuki desu."
+      ],
+      "wrongRoman": [
+        "nenrei ga",
+        "bangō ga",
+        "shusshin ga"
+      ]
+    },
+    "u05-1-a": {
+      "tokens": [
+        "うちには",
+        "部屋が",
+        "三つ",
+        "あります。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "国が",
+        "年齢が",
+        "誕生日が"
+      ],
+      "roman": "Uchi ni wa heya ga mittsu arimasu.",
+      "tokenRoman": [
+        "uchi ni wa",
+        "heya ga",
+        "mittsu",
+        "arimasu."
+      ],
+      "wrongRoman": [
+        "kuni ga",
+        "nenrei ga",
+        "tanjōbi ga"
+      ]
+    },
+    "u05-1-b": {
+      "tokens": [
+        "エマさんは",
+        "今、",
+        "庭に",
+        "います。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "名前に",
+        "年齢に",
+        "番号に"
+      ],
+      "roman": "Ema-san wa ima, niwa ni imasu.",
+      "tokenRoman": [
+        "Ema-san wa",
+        "ima,",
+        "niwa ni",
+        "imasu."
+      ],
+      "wrongRoman": [
+        "namae ni",
+        "nenrei ni",
+        "bangō ni"
+      ]
+    },
+    "u05-2-a": {
+      "tokens": [
+        "窓の",
+        "横に",
+        "いすが",
+        "あります。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "先生が",
+        "赤ちゃんが",
+        "友達が"
+      ],
+      "roman": "Mado no yoko ni isu ga arimasu.",
+      "tokenRoman": [
+        "mado no",
+        "yoko ni",
+        "isu ga",
+        "arimasu."
+      ],
+      "wrongRoman": [
+        "sensei ga",
+        "akachan ga",
+        "tomodachi ga"
+      ]
+    },
+    "u05-2-b": {
+      "tokens": [
+        "私の",
+        "ベッドは",
+        "ドアの",
+        "横に",
+        "あります。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "年齢は",
+        "国は",
+        "誕生日は"
+      ],
+      "roman": "Watashi no beddo wa doa no yoko ni arimasu.",
+      "tokenRoman": [
+        "watashi no",
+        "beddo wa",
+        "doa no",
+        "yoko ni",
+        "arimasu."
+      ],
+      "wrongRoman": [
+        "nenrei wa",
+        "kuni wa",
+        "tanjōbi wa"
+      ]
+    },
+    "u05-3-a": {
+      "tokens": [
+        "本は",
+        "ベッドの",
+        "上に",
+        "あります。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "国は",
+        "年齢は",
+        "午後は"
+      ],
+      "roman": "Hon wa beddo no ue ni arimasu.",
+      "tokenRoman": [
+        "hon wa",
+        "beddo no",
+        "ue ni",
+        "arimasu."
+      ],
+      "wrongRoman": [
+        "kuni wa",
+        "nenrei wa",
+        "gogo wa"
+      ]
+    },
+    "u05-3-b": {
+      "tokens": [
+        "トムさん、",
+        "鍵は",
+        "どこですか？"
+      ],
+      "gap": 1,
+      "wrong": [
+        "年齢は",
+        "名前は",
+        "誕生日は"
+      ],
+      "roman": "Tomu-san, kagi wa doko desu ka?",
+      "tokenRoman": [
+        "Tomu-san,",
+        "kagi wa",
+        "doko desu ka?"
+      ],
+      "wrongRoman": [
+        "nenrei wa",
+        "namae wa",
+        "tanjōbi wa"
+      ]
+    },
+    "u05-4-a": {
+      "tokens": [
+        "私たちの",
+        "新しい",
+        "家は",
+        "とても",
+        "大きいです。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "若いです",
+        "うれしいです",
+        "甘いです"
+      ],
+      "roman": "Watashitachi no atarashii ie wa totemo ōkii desu.",
+      "tokenRoman": [
+        "watashitachi no",
+        "atarashii",
+        "ie wa",
+        "totemo",
+        "ōkii desu."
+      ],
+      "wrongRoman": [
+        "wakai desu",
+        "ureshii desu",
+        "amai desu"
+      ]
+    },
+    "u05-4-b": {
+      "tokens": [
+        "小さい",
+        "庭が",
+        "あります。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "います",
+        "食べます",
+        "飲みます"
+      ],
+      "roman": "Chiisai niwa ga arimasu.",
+      "tokenRoman": [
+        "chiisai",
+        "niwa ga",
+        "arimasu."
+      ],
+      "wrongRoman": [
+        "imasu",
+        "tabemasu",
+        "nomimasu"
+      ]
+    },
+    "u06-1-a": {
+      "tokens": [
+        "夜に",
+        "本を",
+        "読みます。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "名前に",
+        "年齢に",
+        "番号に"
+      ],
+      "roman": "Yoru ni hon o yomimasu.",
+      "tokenRoman": [
+        "yoru ni",
+        "hon o",
+        "yomimasu."
+      ],
+      "wrongRoman": [
+        "namae ni",
+        "nenrei ni",
+        "bangō ni"
+      ],
+      "orders": [
+        [
+          1,
+          0,
+          2
+        ]
+      ]
+    },
+    "u06-1-b": {
+      "tokens": [
+        "アリさんは",
+        "午後に",
+        "働きます。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "パンに",
+        "水に",
+        "名前に"
+      ],
+      "roman": "Ari-san wa gogo ni hatarakimasu.",
+      "tokenRoman": [
+        "Ari-san wa",
+        "gogo ni",
+        "hatarakimasu."
+      ],
+      "wrongRoman": [
+        "pan ni",
+        "mizu ni",
+        "namae ni"
+      ]
+    },
+    "u06-2-a": {
+      "tokens": [
+        "エマさんは",
+        "六時に",
+        "起きます。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "六歳に",
+        "六人に",
+        "六冊に"
+      ],
+      "roman": "Ema-san wa rokuji ni okimasu.",
+      "tokenRoman": [
+        "Ema-san wa",
+        "rokuji ni",
+        "okimasu."
+      ],
+      "wrongRoman": [
+        "rokusai ni",
+        "rokunin ni",
+        "rokusatsu ni"
+      ]
+    },
+    "u06-2-b": {
+      "tokens": [
+        "デニズさんは毎日",
+        "学校に",
+        "行きます。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "食べます",
+        "飲みます",
+        "読みます"
+      ],
+      "roman": "Denizu-san wa mainichi gakkō ni ikimasu.",
+      "tokenRoman": [
+        "Denizu-san wa mainichi",
+        "gakkō ni",
+        "ikimasu."
+      ],
+      "wrongRoman": [
+        "tabemasu",
+        "nomimasu",
+        "yomimasu"
+      ]
+    },
+    "u06-3-a": {
+      "tokens": [
+        "トムさんは",
+        "月曜日から",
+        "金曜日まで",
+        "働きます。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "火曜日から",
+        "水曜日から",
+        "木曜日から"
+      ],
+      "roman": "Tomu-san wa getsuyōbi kara kin'yōbi made hatarakimasu.",
+      "tokenRoman": [
+        "Tomu-san wa",
+        "getsuyōbi kara",
+        "kin'yōbi made",
+        "hatarakimasu."
+      ],
+      "wrongRoman": [
+        "kayōbi kara",
+        "suiyōbi kara",
+        "mokuyōbi kara"
+      ]
+    },
+    "u06-3-b": {
+      "tokens": [
+        "私たちの",
+        "授業は",
+        "水曜日",
+        "です。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "月曜日",
+        "火曜日",
+        "金曜日"
+      ],
+      "roman": "Watashitachi no jugyō wa suiyōbi desu.",
+      "tokenRoman": [
+        "watashitachi no",
+        "jugyō wa",
+        "suiyōbi",
+        "desu."
+      ],
+      "wrongRoman": [
+        "getsuyōbi",
+        "kayōbi",
+        "kin'yōbi"
+      ]
+    },
+    "u06-4-a": {
+      "tokens": [
+        "ミアさんは",
+        "日曜日に",
+        "犬と",
+        "遊びます。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "飲みます",
+        "住みます",
+        "読みます"
+      ],
+      "roman": "Mia-san wa nichiyōbi ni inu to asobimasu.",
+      "tokenRoman": [
+        "Mia-san wa",
+        "nichiyōbi ni",
+        "inu to",
+        "asobimasu."
+      ],
+      "wrongRoman": [
+        "nomimasu",
+        "sumimasu",
+        "yomimasu"
+      ],
+      "orders": [
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ]
+    },
+    "u06-4-b": {
+      "tokens": [
+        "エリフさんは",
+        "庭で、",
+        "本を",
+        "読みます。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "飲みます",
+        "寝ます",
+        "起きます"
+      ],
+      "roman": "Erifu-san wa niwa de, hon o yomimasu.",
+      "tokenRoman": [
+        "Erifu-san wa",
+        "niwa de,",
+        "hon o",
+        "yomimasu."
+      ],
+      "wrongRoman": [
+        "nomimasu",
+        "nemasu",
+        "okimasu"
+      ]
+    },
+    "u07-1-a": {
+      "tokens": [
+        "ローマには",
+        "古い",
+        "博物館が",
+        "たくさん",
+        "あります。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "年齢が",
+        "誕生日が",
+        "午後が"
+      ],
+      "roman": "Rōma ni wa furui hakubutsukan ga takusan arimasu.",
+      "tokenRoman": [
+        "Rōma ni wa",
+        "furui",
+        "hakubutsukan ga",
+        "takusan",
+        "arimasu."
+      ],
+      "wrongRoman": [
+        "nenrei ga",
+        "tanjōbi ga",
+        "gogo ga"
+      ]
+    },
+    "u07-1-b": {
+      "tokens": [
+        "公園は",
+        "うちと",
+        "同じ",
+        "通りに",
+        "あります。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "年齢は",
+        "誕生日は",
+        "名前は"
+      ],
+      "roman": "Kōen wa uchi to onaji tōri ni arimasu.",
+      "tokenRoman": [
+        "kōen wa",
+        "uchi to",
+        "onaji",
+        "tōri ni",
+        "arimasu."
+      ],
+      "wrongRoman": [
+        "nenrei wa",
+        "tanjōbi wa",
+        "namae wa"
+      ]
+    },
+    "u07-2-a": {
+      "tokens": [
+        "パン屋は",
+        "七時に",
+        "開きます。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "年齢は",
+        "牛乳は",
+        "名前は"
+      ],
+      "roman": "Pan'ya wa shichiji ni akimasu.",
+      "tokenRoman": [
+        "pan'ya wa",
+        "shichiji ni",
+        "akimasu."
+      ],
+      "wrongRoman": [
+        "nenrei wa",
+        "gyūnyū wa",
+        "namae wa"
+      ]
+    },
+    "u07-2-b": {
+      "tokens": [
+        "この",
+        "近くに",
+        "薬局が",
+        "ありますか？"
+      ],
+      "gap": 2,
+      "wrong": [
+        "年齢が",
+        "名前が",
+        "午後が"
+      ],
+      "roman": "Kono chikaku ni yakkyoku ga arimasu ka?",
+      "tokenRoman": [
+        "kono",
+        "chikaku ni",
+        "yakkyoku ga",
+        "arimasu ka?"
+      ],
+      "wrongRoman": [
+        "nenrei ga",
+        "namae ga",
+        "gogo ga"
+      ]
+    },
+    "u07-3-a": {
+      "tokens": [
+        "角を",
+        "左に",
+        "曲がってください。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "右に",
+        "上に",
+        "下に"
+      ],
+      "roman": "Kado o hidari ni magatte kudasai.",
+      "tokenRoman": [
+        "kado o",
+        "hidari ni",
+        "magatte kudasai."
+      ],
+      "wrongRoman": [
+        "migi ni",
+        "ue ni",
+        "shita ni"
+      ]
+    },
+    "u07-3-b": {
+      "tokens": [
+        "市立博物館は",
+        "どこ",
+        "ですか？"
+      ],
+      "gap": 1,
+      "wrong": [
+        "だれ",
+        "なぜ",
+        "いつ"
+      ],
+      "roman": "Shiritsu hakubutsukan wa doko desu ka?",
+      "tokenRoman": [
+        "shiritsu hakubutsukan wa",
+        "doko",
+        "desu ka?"
+      ],
+      "wrongRoman": [
+        "dare",
+        "naze",
+        "itsu"
+      ]
+    },
+    "u07-4-a": {
+      "tokens": [
+        "駅は",
+        "遠くないです。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "若くないです",
+        "甘くないです",
+        "うれしくないです"
+      ],
+      "roman": "Eki wa tōkunai desu.",
+      "tokenRoman": [
+        "eki wa",
+        "tōkunai desu."
+      ],
+      "wrongRoman": [
+        "wakakunai desu",
+        "amakunai desu",
+        "ureshikunai desu"
+      ]
+    },
+    "u07-4-b": {
+      "tokens": [
+        "カフェは",
+        "博物館の",
+        "後ろに",
+        "あります。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "前に",
+        "隣に",
+        "間に"
+      ],
+      "roman": "Kafe wa hakubutsukan no ushiro ni arimasu.",
+      "tokenRoman": [
+        "kafe wa",
+        "hakubutsukan no",
+        "ushiro ni",
+        "arimasu."
+      ],
+      "wrongRoman": [
+        "mae ni",
+        "tonari ni",
+        "aida ni"
+      ]
+    },
+    "u08-1-a": {
+      "tokens": [
+        "ミアさんは",
+        "黒い",
+        "靴を",
+        "はいています。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "着ています",
+        "かぶっています",
+        "飲んでいます"
+      ],
+      "roman": "Mia-san wa kuroi kutsu o haite imasu.",
+      "tokenRoman": [
+        "Mia-san wa",
+        "kuroi",
+        "kutsu o",
+        "haite imasu."
+      ],
+      "wrongRoman": [
+        "kite imasu",
+        "kabutte imasu",
+        "nonde imasu"
+      ]
+    },
+    "u08-1-b": {
+      "tokens": [
+        "この",
+        "ワンピースは",
+        "とても",
+        "きれいです。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "年齢は",
+        "番号は",
+        "午後は"
+      ],
+      "roman": "Kono wanpīsu wa totemo kirei desu.",
+      "tokenRoman": [
+        "kono",
+        "wanpīsu wa",
+        "totemo",
+        "kirei desu."
+      ],
+      "wrongRoman": [
+        "nenrei wa",
+        "bangō wa",
+        "gogo wa"
+      ]
+    },
+    "u08-2-a": {
+      "tokens": [
+        "青い",
+        "ジャケットが",
+        "好きです。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "赤い",
+        "黄色い",
+        "白い"
+      ],
+      "roman": "Aoi jaketto ga suki desu.",
+      "tokenRoman": [
+        "aoi",
+        "jaketto ga",
+        "suki desu."
+      ],
+      "wrongRoman": [
+        "akai",
+        "kiiroi",
+        "shiroi"
+      ]
+    },
+    "u08-2-b": {
+      "tokens": [
+        "私の",
+        "新しい",
+        "靴は",
+        "白いです。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "赤いです",
+        "青いです",
+        "黒いです"
+      ],
+      "roman": "Watashi no atarashii kutsu wa shiroi desu.",
+      "tokenRoman": [
+        "watashi no",
+        "atarashii",
+        "kutsu wa",
+        "shiroi desu."
+      ],
+      "wrongRoman": [
+        "akai desu",
+        "aoi desu",
+        "kuroi desu"
+      ]
+    },
+    "u08-3-a": {
+      "tokens": [
+        "ワンピースの",
+        "値段は",
+        "五十ユーロ",
+        "です。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "年齢は",
+        "名前は",
+        "午後は"
+      ],
+      "roman": "Wanpīsu no nedan wa gojū yūro desu.",
+      "tokenRoman": [
+        "wanpīsu no",
+        "nedan wa",
+        "gojū yūro",
+        "desu."
+      ],
+      "wrongRoman": [
+        "nenrei wa",
+        "namae wa",
+        "gogo wa"
+      ]
+    },
+    "u08-3-b": {
+      "tokens": [
+        "この",
+        "シャツは",
+        "とても",
+        "安いです。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "若いです",
+        "甘いです",
+        "遠いです"
+      ],
+      "roman": "Kono shatsu wa totemo yasui desu.",
+      "tokenRoman": [
+        "kono",
+        "shatsu wa",
+        "totemo",
+        "yasui desu."
+      ],
+      "wrongRoman": [
+        "wakai desu",
+        "amai desu",
+        "tōi desu"
+      ]
+    },
+    "u08-4-a": {
+      "tokens": [
+        "この",
+        "ズボンを",
+        "試着しても",
+        "いいですか？"
+      ],
+      "gap": 2,
+      "wrong": [
+        "食べても",
+        "飲んでも",
+        "寝ても"
+      ],
+      "roman": "Kono zubon o shichaku shite mo ii desu ka?",
+      "tokenRoman": [
+        "kono",
+        "zubon o",
+        "shichaku shite mo",
+        "ii desu ka?"
+      ],
+      "wrongRoman": [
+        "tabete mo",
+        "nonde mo",
+        "nete mo"
+      ]
+    },
+    "u08-4-b": {
+      "tokens": [
+        "この",
+        "店では",
+        "すてきな",
+        "帽子を",
+        "売っています。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "買っています",
+        "飲んでいます",
+        "寝ています"
+      ],
+      "roman": "Kono mise dewa suteki na bōshi o utte imasu.",
+      "tokenRoman": [
+        "kono",
+        "mise dewa",
+        "suteki na",
+        "bōshi o",
+        "utte imasu."
+      ],
+      "wrongRoman": [
+        "katte imasu",
+        "nonde imasu",
+        "nete imasu"
+      ]
+    },
+    "u09-1-a": {
+      "tokens": [
+        "パリでは",
+        "雨が",
+        "降っています。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "太陽が",
+        "風が",
+        "雲が"
+      ],
+      "roman": "Pari dewa ame ga futte imasu.",
+      "tokenRoman": [
+        "Pari dewa",
+        "ame ga",
+        "futte imasu."
+      ],
+      "wrongRoman": [
+        "taiyō ga",
+        "kaze ga",
+        "kumo ga"
+      ]
+    },
+    "u09-1-b": {
+      "tokens": [
+        "ほら、",
+        "雪が",
+        "降っています！"
+      ],
+      "gap": 1,
+      "wrong": [
+        "太陽が",
+        "風が",
+        "空が"
+      ],
+      "roman": "Hora, yuki ga futte imasu!",
+      "tokenRoman": [
+        "hora,",
+        "yuki ga",
+        "futte imasu!"
+      ],
+      "wrongRoman": [
+        "taiyō ga",
+        "kaze ga",
+        "sora ga"
+      ]
+    },
+    "u09-2-a": {
+      "tokens": [
+        "ベルリンは",
+        "とても",
+        "寒いです。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "甘いです",
+        "若いです",
+        "うれしいです"
+      ],
+      "roman": "Berurin wa totemo samui desu.",
+      "tokenRoman": [
+        "Berurin wa",
+        "totemo",
+        "samui desu."
+      ],
+      "wrongRoman": [
+        "amai desu",
+        "wakai desu",
+        "ureshii desu"
+      ]
+    },
+    "u09-2-b": {
+      "tokens": [
+        "トムさんは",
+        "黒い",
+        "傘を",
+        "持っています。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "雨を",
+        "空を",
+        "天気を"
+      ],
+      "roman": "Tomu-san wa kuroi kasa o motte imasu.",
+      "tokenRoman": [
+        "Tomu-san wa",
+        "kuroi",
+        "kasa o",
+        "motte imasu."
+      ],
+      "wrongRoman": [
+        "ame o",
+        "sora o",
+        "tenki o"
+      ]
+    },
+    "u09-3-a": {
+      "tokens": [
+        "春は",
+        "木が",
+        "緑に",
+        "なります。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "牛乳は",
+        "番号は",
+        "名前は"
+      ],
+      "roman": "Haru wa ki ga midori ni narimasu.",
+      "tokenRoman": [
+        "haru wa",
+        "ki ga",
+        "midori ni",
+        "narimasu."
+      ],
+      "wrongRoman": [
+        "gyūnyū wa",
+        "bangō wa",
+        "namae wa"
+      ]
+    },
+    "u09-3-b": {
+      "tokens": [
+        "夏は",
+        "暑い",
+        "季節",
+        "です。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "傘",
+        "牛乳",
+        "番号"
+      ],
+      "roman": "Natsu wa atsui kisetsu desu.",
+      "tokenRoman": [
+        "natsu wa",
+        "atsui",
+        "kisetsu",
+        "desu."
+      ],
+      "wrongRoman": [
+        "kasa",
+        "gyūnyū",
+        "bangō"
+      ]
+    },
+    "u09-4-a": {
+      "tokens": [
+        "レオさんは",
+        "ビーチで",
+        "泳いでいます。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "降っています",
+        "閉まっています",
+        "曲がっています"
+      ],
+      "roman": "Reo-san wa bīchi de oyoide imasu.",
+      "tokenRoman": [
+        "Reo-san wa",
+        "bīchi de",
+        "oyoide imasu."
+      ],
+      "wrongRoman": [
+        "futte imasu",
+        "shimatte imasu",
+        "magatte imasu"
+      ]
+    },
+    "u09-4-b": {
+      "tokens": [
+        "ミアさんと",
+        "トムさんは",
+        "外を",
+        "歩いています。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "降っています",
+        "売っています",
+        "閉まっています"
+      ],
+      "roman": "Mia-san to Tomu-san wa soto o aruite imasu.",
+      "tokenRoman": [
+        "Mia-san to",
+        "Tomu-san wa",
+        "soto o",
+        "aruite imasu."
+      ],
+      "wrongRoman": [
+        "futte imasu",
+        "utte imasu",
+        "shimatte imasu"
+      ]
+    },
+    "u10-1-a": {
+      "tokens": [
+        "バスは",
+        "とても",
+        "遅かったです。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "年齢は",
+        "名前は",
+        "牛乳は"
+      ],
+      "roman": "Basu wa totemo osokatta desu.",
+      "tokenRoman": [
+        "basu wa",
+        "totemo",
+        "osokatta desu."
+      ],
+      "wrongRoman": [
+        "nenrei wa",
+        "namae wa",
+        "gyūnyū wa"
+      ]
+    },
+    "u10-1-b": {
+      "tokens": [
+        "私たちは",
+        "六時に",
+        "電車に",
+        "乗っていました。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "牛乳に",
+        "名前に",
+        "年齢に"
+      ],
+      "roman": "Watashitachi wa rokuji ni densha ni notte imashita.",
+      "tokenRoman": [
+        "watashitachi wa",
+        "rokuji ni",
+        "densha ni",
+        "notte imashita."
+      ],
+      "wrongRoman": [
+        "gyūnyū ni",
+        "namae ni",
+        "nenrei ni"
+      ],
+      "orders": [
+        [
+          1,
+          0,
+          2,
+          3
+        ]
+      ]
+    },
+    "u10-2-a": {
+      "tokens": [
+        "電車は",
+        "また",
+        "遅れました。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "泳ぎました",
+        "歩きました",
+        "寝ました"
+      ],
+      "roman": "Densha wa mata okuremashita.",
+      "tokenRoman": [
+        "densha wa",
+        "mata",
+        "okuremashita."
+      ],
+      "wrongRoman": [
+        "oyogimashita",
+        "arukimashita",
+        "nemashita"
+      ]
+    },
+    "u10-2-b": {
+      "tokens": [
+        "切符は",
+        "高くなかったです。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "若くなかったです",
+        "甘くなかったです",
+        "うれしくなかったです"
+      ],
+      "roman": "Kippu wa takakunakatta desu.",
+      "tokenRoman": [
+        "kippu wa",
+        "takakunakatta desu."
+      ],
+      "wrongRoman": [
+        "wakakunakatta desu",
+        "amakunakatta desu",
+        "ureshikunakatta desu"
+      ]
+    },
+    "u10-3-a": {
+      "tokens": [
+        "ホテルの",
+        "部屋は",
+        "とても",
+        "静かでした。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "元気でした",
+        "上手でした",
+        "親切でした"
+      ],
+      "roman": "Hoteru no heya wa totemo shizuka deshita.",
+      "tokenRoman": [
+        "hoteru no",
+        "heya wa",
+        "totemo",
+        "shizuka deshita."
+      ],
+      "wrongRoman": [
+        "genki deshita",
+        "jōzu deshita",
+        "shinsetsu deshita"
+      ]
+    },
+    "u10-3-b": {
+      "tokens": [
+        "ベッドは",
+        "快適でしたか？"
+      ],
+      "gap": 1,
+      "wrong": [
+        "元気でしたか",
+        "上手でしたか",
+        "親切でしたか"
+      ],
+      "roman": "Beddo wa kaiteki deshita ka?",
+      "tokenRoman": [
+        "beddo wa",
+        "kaiteki deshita ka?"
+      ],
+      "wrongRoman": [
+        "genki deshita ka",
+        "jōzu deshita ka",
+        "shinsetsu deshita ka"
+      ]
+    },
+    "u10-4-a": {
+      "tokens": [
+        "海は",
+        "とても",
+        "きれいでした。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "元気でした",
+        "上手でした",
+        "親切でした"
+      ],
+      "roman": "Umi wa totemo kirei deshita.",
+      "tokenRoman": [
+        "umi wa",
+        "totemo",
+        "kirei deshita."
+      ],
+      "wrongRoman": [
+        "genki deshita",
+        "jōzu deshita",
+        "shinsetsu deshita"
+      ]
+    },
+    "u10-4-b": {
+      "tokens": [
+        "私たちの",
+        "リオでの",
+        "休みは",
+        "すばらしかったです。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "若かったです",
+        "甘かったです",
+        "遅かったです"
+      ],
+      "roman": "Watashitachi no Rio de no yasumi wa subarashikatta desu.",
+      "tokenRoman": [
+        "watashitachi no",
+        "Rio de no",
+        "yasumi wa",
+        "subarashikatta desu."
+      ],
+      "wrongRoman": [
+        "wakakatta desu",
+        "amakatta desu",
+        "osokatta desu"
+      ]
+    },
+    "u11-1-a": {
+      "tokens": [
+        "エマさんは",
+        "昨日",
+        "私に",
+        "電話しました。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "明日",
+        "来週",
+        "来年"
+      ],
+      "roman": "Ema-san wa kinō watashi ni denwa shimashita.",
+      "tokenRoman": [
+        "Ema-san wa",
+        "kinō",
+        "watashi ni",
+        "denwa shimashita."
+      ],
+      "wrongRoman": [
+        "ashita",
+        "raishū",
+        "rainen"
+      ],
+      "orders": [
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ]
+    },
+    "u11-1-b": {
+      "tokens": [
+        "二日",
+        "前に、",
+        "アリさんに",
+        "会いました。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "上に",
+        "下に",
+        "隣に"
+      ],
+      "roman": "Futsuka mae ni, Ari-san ni aimashita.",
+      "tokenRoman": [
+        "futsuka",
+        "mae ni,",
+        "Ari-san ni",
+        "aimashita."
+      ],
+      "wrongRoman": [
+        "ue ni",
+        "shita ni",
+        "tonari ni"
+      ]
+    },
+    "u11-2-a": {
+      "tokens": [
+        "私たちは",
+        "パーティーで",
+        "踊りました。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "閉まりました",
+        "咲きました",
+        "曲がりました"
+      ],
+      "roman": "Watashitachi wa pātī de odorimashita.",
+      "tokenRoman": [
+        "watashitachi wa",
+        "pātī de",
+        "odorimashita."
+      ],
+      "wrongRoman": [
+        "shimarimashita",
+        "sakimashita",
+        "magarimashita"
+      ]
+    },
+    "u11-2-b": {
+      "tokens": [
+        "エムレさんと",
+        "私は",
+        "土曜日に",
+        "会いました。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "閉まりました",
+        "咲きました",
+        "晴れました"
+      ],
+      "roman": "Emure-san to watashi wa doyōbi ni aimashita.",
+      "tokenRoman": [
+        "Emure-san to",
+        "watashi wa",
+        "doyōbi ni",
+        "aimashita."
+      ],
+      "wrongRoman": [
+        "shimarimashita",
+        "sakimashita",
+        "haremashita"
+      ]
+    },
+    "u11-3-a": {
+      "tokens": [
+        "トムさんは",
+        "晩ご飯に",
+        "スープを",
+        "作りました。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "切符を",
+        "パスポートを",
+        "傘を"
+      ],
+      "roman": "Tomu-san wa bangohan ni sūpu o tsukurimashita.",
+      "tokenRoman": [
+        "Tomu-san wa",
+        "bangohan ni",
+        "sūpu o",
+        "tsukurimashita."
+      ],
+      "wrongRoman": [
+        "kippu o",
+        "pasupōto o",
+        "kasa o"
+      ],
+      "orders": [
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          1,
+          3
+        ]
+      ]
+    },
+    "u11-3-b": {
+      "tokens": [
+        "ベッドで、",
+        "音楽を",
+        "聞きました。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "洗いました",
+        "飲みました",
+        "払いました"
+      ],
+      "roman": "Beddo de, ongaku o kikimashita.",
+      "tokenRoman": [
+        "beddo de,",
+        "ongaku o",
+        "kikimashita."
+      ],
+      "wrongRoman": [
+        "araimashita",
+        "nomimashita",
+        "haraimashita"
+      ]
+    },
+    "u11-4-a": {
+      "tokens": [
+        "エリフさんは",
+        "かばんを学校に",
+        "忘れました。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "咲きました",
+        "晴れました",
+        "泳ぎました"
+      ],
+      "roman": "Erifu-san wa kaban o gakkō ni wasuremashita.",
+      "tokenRoman": [
+        "Erifu-san wa",
+        "kaban o gakkō ni",
+        "wasuremashita."
+      ],
+      "wrongRoman": [
+        "sakimashita",
+        "haremashita",
+        "oyogimashita"
+      ]
+    },
+    "u11-4-b": {
+      "tokens": [
+        "昨日、",
+        "切符を",
+        "なくしました。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "咲きました",
+        "晴れました",
+        "踊りました"
+      ],
+      "roman": "Kinō, kippu o nakushimashita.",
+      "tokenRoman": [
+        "kinō,",
+        "kippu o",
+        "nakushimashita."
+      ],
+      "wrongRoman": [
+        "sakimashita",
+        "haremashita",
+        "odorimashita"
+      ]
+    },
+    "u12-1-a": {
+      "tokens": [
+        "明日、",
+        "あなたに",
+        "電話します。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "昨日",
+        "先週",
+        "去年"
+      ],
+      "roman": "Ashita, anata ni denwa shimasu.",
+      "tokenRoman": [
+        "ashita,",
+        "anata ni",
+        "denwa shimasu."
+      ],
+      "wrongRoman": [
+        "kinō",
+        "senshū",
+        "kyonen"
+      ]
+    },
+    "u12-1-b": {
+      "tokens": [
+        "ミアさんは",
+        "今夜",
+        "料理を",
+        "するつもりです。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "昨日",
+        "先週",
+        "去年"
+      ],
+      "roman": "Mia-san wa kon'ya ryōri o suru tsumori desu.",
+      "tokenRoman": [
+        "Mia-san wa",
+        "kon'ya",
+        "ryōri o",
+        "suru tsumori desu."
+      ],
+      "wrongRoman": [
+        "kinō",
+        "senshū",
+        "kyonen"
+      ],
+      "orders": [
+        [
+          1,
+          0,
+          2,
+          3
+        ]
+      ]
+    },
+    "u12-2-a": {
+      "tokens": [
+        "私たちと",
+        "一緒に",
+        "来ませんか？"
+      ],
+      "gap": 2,
+      "wrong": [
+        "遅れませんか",
+        "忘れませんか",
+        "なくしませんか"
+      ],
+      "roman": "Watashitachi to issho ni kimasen ka?",
+      "tokenRoman": [
+        "watashitachi to",
+        "issho ni",
+        "kimasen ka?"
+      ],
+      "wrongRoman": [
+        "okuremasen ka",
+        "wasuremasen ka",
+        "nakushimasen ka"
+      ]
+    },
+    "u12-2-b": {
+      "tokens": [
+        "今週末は",
+        "暇ですか？"
+      ],
+      "gap": 1,
+      "wrong": [
+        "上手ですか",
+        "親切ですか",
+        "有名ですか"
+      ],
+      "roman": "Konshūmatsu wa hima desu ka?",
+      "tokenRoman": [
+        "konshūmatsu wa",
+        "hima desu ka?"
+      ],
+      "wrongRoman": [
+        "jōzu desu ka",
+        "shinsetsu desu ka",
+        "yūmei desu ka"
+      ]
+    },
+    "u12-3-a": {
+      "tokens": [
+        "もちろん",
+        "行きたいです。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "残念ながら",
+        "昨日",
+        "去年"
+      ],
+      "roman": "Mochiron ikitai desu.",
+      "tokenRoman": [
+        "mochiron",
+        "ikitai desu."
+      ],
+      "wrongRoman": [
+        "zannen nagara",
+        "kinō",
+        "kyonen"
+      ]
+    },
+    "u12-3-b": {
+      "tokens": [
+        "残念ながら、",
+        "今夜は",
+        "忙しいです。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "ぜひ",
+        "昨日",
+        "先週"
+      ],
+      "roman": "Zannen nagara, kon'ya wa isogashii desu.",
+      "tokenRoman": [
+        "zannen nagara,",
+        "kon'ya wa",
+        "isogashii desu."
+      ],
+      "wrongRoman": [
+        "zehi",
+        "kinō",
+        "senshū"
+      ]
+    },
+    "u12-4-a": {
+      "tokens": [
+        "私たちは",
+        "土曜日に",
+        "祝うつもりです。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "咲くつもりです",
+        "晴れるつもりです",
+        "降るつもりです"
+      ],
+      "roman": "Watashitachi wa doyōbi ni iwau tsumori desu.",
+      "tokenRoman": [
+        "watashitachi wa",
+        "doyōbi ni",
+        "iwau tsumori desu."
+      ],
+      "wrongRoman": [
+        "saku tsumori desu",
+        "hareru tsumori desu",
+        "furu tsumori desu"
+      ]
+    },
+    "u12-4-b": {
+      "tokens": [
+        "デニズさんは",
+        "フランス語を",
+        "習いたいと",
+        "思っています。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "咲きたいと",
+        "晴れたいと",
+        "閉まりたいと"
+      ],
+      "roman": "Denizu-san wa Furansugo o naraitai to omotte imasu.",
+      "tokenRoman": [
+        "Denizu-san wa",
+        "Furansugo o",
+        "naraitai to",
+        "omotte imasu."
+      ],
+      "wrongRoman": [
+        "sakitai to",
+        "haretai to",
+        "shimaritai to"
+      ]
+    }
+  },
+  "tips": {
+    "u01": {
+      "title": {
+        "en": "A は B です: saying who you are",
+        "tr": "A は B です: kim olduğunu söylemek"
+      },
+      "body": {
+        "en": "To say who or what someone is, Japanese uses A は B です. The は (written は, said wa) marks what you talk about, and です at the end makes the sentence polite, like 'am, is, are'.\n\nWhen it is clear, you can leave out 私は (I): エムレです simply means 'I am Emre'. Add さん after another person's name, but never after your own. To ask a question, add か at the end: 学生ですか？ means 'Are you a student?'.\n\nFor 'not', change です to ではありません: 学生ではありません (I am not a student).",
+        "tr": "Birinin kim ya da ne olduğunu söylemek için Japonca A は B です kalıbını kullanır. は (yazılışı は, okunuşu wa) neden söz ettiğini gösterir; sondaki です cümleyi kibar yapar ve Türkçedeki '-im, -sin, -dir' eklerine benzer.\n\nAçıksa 私は (ben) kısmını atabilirsin: エムレです sadece 'Ben Emre'yim' demektir. Başka birinin adından sonra さん eklersin, ama kendi adından sonra asla. Soru sormak için sona か eklersin: 学生ですか？ 'Öğrenci misin?' demektir.\n\n'Değil' için です yerine ではありません dersin: 学生ではありません (Öğrenci değilim)."
+      },
+      "examples": [
+        {
+          "text": "私は学生です。",
+          "roman": "Watashi wa gakusei desu.",
+          "en": "I am a student.",
+          "tr": "Ben öğrenciyim."
+        },
+        {
+          "text": "アンナさんは先生です。",
+          "roman": "Anna-san wa sensei desu.",
+          "en": "Anna is a teacher.",
+          "tr": "Anna öğretmen."
+        },
+        {
+          "text": "学生ですか？",
+          "roman": "Gakusei desu ka?",
+          "en": "Are you a student?",
+          "tr": "Öğrenci misin?"
+        }
+      ]
+    },
+    "u02": {
+      "title": {
+        "en": "の: my friend, Emma's cat",
+        "tr": "の: arkadaşım, Emma'nın kedisi"
+      },
+      "body": {
+        "en": "The small word の joins two nouns, like 's in English: エマさんの猫 is 'Emma's cat'. With 私 (I) it means 'my': 私の友達 is 'my friend'. The owner always comes first.\n\nJapanese also has two sets of family words. When you talk to others about your own family, use the plain words: 母 (my mother), 父 (my father). For someone else's family, use the polite words: お母さん, お父さん. With your own family you often drop 私の: 母は医者です means 'My mother is a doctor'.",
+        "tr": "Küçük の kelimesi iki ismi birbirine bağlar, Türkçedeki tamlama gibi: エマさんの猫 'Emma'nın kedisi' demektir. 私 (ben) ile 'benim' anlamına gelir: 私の友達 'benim arkadaşım' olur. Sahip her zaman önce gelir.\n\nJaponcada aile için iki tür kelime vardır. Başkalarına kendi ailenden söz ederken sade kelimeleri kullanırsın: 母 (annem), 父 (babam). Başkasının ailesi için kibar kelimeler kullanılır: お母さん, お父さん. Kendi ailen için çoğu zaman 私の'yu atarsın: 母は医者です 'Annem doktor' demektir."
+      },
+      "examples": [
+        {
+          "text": "私の友達",
+          "roman": "watashi no tomodachi",
+          "en": "my friend",
+          "tr": "benim arkadaşım"
+        },
+        {
+          "text": "エマさんの猫",
+          "roman": "Ema-san no neko",
+          "en": "Emma's cat",
+          "tr": "Emma'nın kedisi"
+        },
+        {
+          "text": "母は先生です。",
+          "roman": "Haha wa sensei desu.",
+          "en": "My mother is a teacher.",
+          "tr": "Annem öğretmen."
+        }
+      ]
+    },
+    "u03": {
+      "title": {
+        "en": "Counting: 歳 for age, 人 for people",
+        "tr": "Saymak: yaş için 歳, insanlar için 人"
+      },
+      "body": {
+        "en": "Japanese puts a small counting word after a number, and it changes with what you count. Age takes 歳 (sai): 十二歳 is 'twelve years old'. People take 人 (nin): 三人 is 'three people', but one and two are special: 一人 (hitori), 二人 (futari). Many things take つ: 一つ, 二つ, 三つ.\n\nSome sounds change too: 八歳 is hassai and 十歳 is jussai. To ask a friend's age, say 何歳ですか？ The number and its counting word usually come just before the verb: 兄が一人います (I have one brother).",
+        "tr": "Japonca bir sayıdan sonra küçük bir sayma kelimesi koyar ve bu kelime saydığın şeye göre değişir. Yaş 歳 (sai) alır: 十二歳 'on iki yaşında' demektir. İnsanlar 人 (nin) alır: 三人 'üç kişi' olur, ama bir ve iki özeldir: 一人 (hitori), 二人 (futari). Birçok eşya つ alır: 一つ, 二つ, 三つ.\n\nBazı sesler de değişir: 八歳 hassai, 十歳 jussai okunur. Bir arkadaşın yaşını sormak için 何歳ですか？ dersin. Sayı ve sayma kelimesi genellikle fiilden hemen önce gelir: 兄が一人います (Bir ağabeyim var)."
+      },
+      "examples": [
+        {
+          "text": "私は十二歳です。",
+          "roman": "Watashi wa jūnisai desu.",
+          "en": "I am twelve years old.",
+          "tr": "On iki yaşındayım."
+        },
+        {
+          "text": "姉が二人います。",
+          "roman": "Ane ga futari imasu.",
+          "en": "I have two older sisters.",
+          "tr": "İki ablam var."
+        },
+        {
+          "text": "りんごを三つ食べます。",
+          "roman": "Ringo o mittsu tabemasu.",
+          "en": "I eat three apples.",
+          "tr": "Üç elma yerim."
+        }
+      ]
+    },
+    "u04": {
+      "title": {
+        "en": "を and the polite verb ending ます",
+        "tr": "を ve kibar fiil eki ます"
+      },
+      "body": {
+        "en": "In Japanese the verb comes last. The thing you eat or drink comes before it and takes を (said o): パンを食べます is 'I eat bread'.\n\nThe ending ます makes a verb polite. A word list gives the dictionary form, like 食べる (to eat) or 飲む (to drink). In polite talk they become 食べます and 飲みます. You use the ます form for things you do every day and also for things you will do.\n\nFor 'not', change ます to ません: コーヒーを飲みません (I don't drink coffee).",
+        "tr": "Japoncada fiil en sona gelir, tıpkı Türkçedeki gibi. Yediğin ya da içtiğin şey fiilden önce gelir ve を (okunuşu o) alır: パンを食べます 'Ekmek yerim' demektir.\n\nます eki fiili kibar yapar. Kelime listeleri sözlük biçimini verir, örneğin 食べる (yemek) ya da 飲む (içmek). Kibar konuşmada bunlar 食べます ve 飲みます olur. ます biçimini her gün yaptığın şeyler için ve yapacağın şeyler için kullanırsın.\n\n'Değil' için ます yerine ません dersin: コーヒーを飲みません (Kahve içmem)."
+      },
+      "examples": [
+        {
+          "text": "パンを食べます。",
+          "roman": "Pan o tabemasu.",
+          "en": "I eat bread.",
+          "tr": "Ekmek yerim."
+        },
+        {
+          "text": "父はコーヒーを飲みます。",
+          "roman": "Chichi wa kōhī o nomimasu.",
+          "en": "My father drinks coffee.",
+          "tr": "Babam kahve içer."
+        },
+        {
+          "text": "牛乳を飲みません。",
+          "roman": "Gyūnyū o nomimasen.",
+          "en": "I don't drink milk.",
+          "tr": "Süt içmem."
+        }
+      ]
+    },
+    "u05": {
+      "title": {
+        "en": "あります and います: there is",
+        "tr": "あります ve います: var"
+      },
+      "body": {
+        "en": "Japanese has two verbs for 'there is'. あります is for things and plants: テーブルの上に本があります (There is a book on the table). います is for people and animals, anything that moves by itself: 庭に猫がいます (There is a cat in the garden).\n\nThe place comes first with に, then the thing with が, then the verb. The same two verbs also say 'has': 部屋が三つあります can mean 'It has three rooms'. For 'there is no', say ありません or いません.",
+        "tr": "Japoncada 'var' için iki fiil vardır. あります eşyalar ve bitkiler içindir: テーブルの上に本があります (Masanın üstünde bir kitap var). います insanlar ve hayvanlar, yani kendi kendine hareket eden her şey içindir: 庭に猫がいます (Bahçede bir kedi var).\n\nÖnce yer に ile, sonra şey が ile, en sonda fiil gelir. Aynı iki fiil sahip olmayı da anlatır: 部屋が三つあります 'Üç odası var' demek olabilir. 'Yok' için ありません ya da いません dersin."
+      },
+      "examples": [
+        {
+          "text": "テーブルの上に本があります。",
+          "roman": "Tēburu no ue ni hon ga arimasu.",
+          "en": "There is a book on the table.",
+          "tr": "Masanın üstünde bir kitap var."
+        },
+        {
+          "text": "庭に猫がいます。",
+          "roman": "Niwa ni neko ga imasu.",
+          "en": "There is a cat in the garden.",
+          "tr": "Bahçede bir kedi var."
+        },
+        {
+          "text": "冷蔵庫に牛乳がありません。",
+          "roman": "Reizōko ni gyūnyū ga arimasen.",
+          "en": "There is no milk in the fridge.",
+          "tr": "Buzdolabında süt yok."
+        }
+      ]
+    },
+    "u06": {
+      "title": {
+        "en": "に for times and for places you go",
+        "tr": "Zamanlar ve gidilen yerler için に"
+      },
+      "body": {
+        "en": "The small word に does two jobs in your day. After a clock time or a day, it means 'at' or 'on': 七時に起きます (I wake up at seven), 月曜日に (on Monday). After a place, with a verb like 行きます (go), it means 'to': 学校に行きます (I go to school).\n\nWords like 今日 (today), 毎日 (every day) and 朝 (morning) usually take no に. To say where you do something, use で instead: 庭で読みます (I read in the garden).",
+        "tr": "Küçük に kelimesi günlük hayatta iki iş yapar. Bir saatten ya da günden sonra '-de, -da' anlamı verir: 七時に起きます (Saat yedide uyanırım), 月曜日に (pazartesi günü). 行きます (gitmek) gibi bir fiille, bir yerden sonra '-e, -a' anlamı verir: 学校に行きます (Okula giderim).\n\n今日 (bugün), 毎日 (her gün) ve 朝 (sabah) gibi kelimeler genellikle に almaz. Bir şeyi nerede yaptığını söylemek için で kullanırsın: 庭で読みます (Bahçede okurum)."
+      },
+      "examples": [
+        {
+          "text": "七時に起きます。",
+          "roman": "Shichiji ni okimasu.",
+          "en": "I wake up at seven.",
+          "tr": "Saat yedide uyanırım."
+        },
+        {
+          "text": "毎日学校に行きます。",
+          "roman": "Mainichi gakkō ni ikimasu.",
+          "en": "I go to school every day.",
+          "tr": "Her gün okula giderim."
+        },
+        {
+          "text": "日曜日に庭で本を読みます。",
+          "roman": "Nichiyōbi ni niwa de hon o yomimasu.",
+          "en": "On Sunday I read a book in the garden.",
+          "tr": "Pazar günü bahçede kitap okurum."
+        }
+      ]
+    },
+    "u07": {
+      "title": {
+        "en": "Where things are: の前, の後ろ, の間",
+        "tr": "Bir şeyin yeri: の前, の後ろ, の間"
+      },
+      "body": {
+        "en": "To say where something is, Japanese starts from the landmark: the landmark, then の, then a position word, then に and あります or います. 銀行の前にあります means 'It is in front of the bank'. Word for word, it says 'at the bank's front'.\n\nUseful position words: 前 (front), 後ろ (back), 間 (between), 上 (on top), 下 (under), 横 (beside), and 隣 (next to, for two things of the same kind, like two shops). For directions, use 右に (to the right) or 左に (to the left) with 曲がってください (please turn). To ask where something is, say ～はどこですか？",
+        "tr": "Bir şeyin yerini söylemek için Japonca işaret noktasından başlar: önce işaret noktası, sonra の, sonra bir yer kelimesi, sonra に ve あります ya da います. 銀行の前にあります 'Bankanın önünde' demektir. Bu sıra Türkçeye çok benzer: 'bankanın önünde var'.\n\nKullanışlı yer kelimeleri: 前 (ön), 後ろ (arka), 間 (ara), 上 (üst), 下 (alt), 横 (yan) ve 隣 (yan; iki dükkân gibi aynı türden iki şey için). Yol tarif ederken 曲がってください (lütfen dön) ile 右に (sağa) ya da 左に (sola) kullanırsın. Bir şeyin nerede olduğunu sormak için ～はどこですか？ dersin."
+      },
+      "examples": [
+        {
+          "text": "カフェは銀行の隣にあります。",
+          "roman": "Kafe wa ginkō no tonari ni arimasu.",
+          "en": "The cafe is next to the bank.",
+          "tr": "Kafe bankanın yanında."
+        },
+        {
+          "text": "駅はどこですか？",
+          "roman": "Eki wa doko desu ka?",
+          "en": "Where is the station?",
+          "tr": "İstasyon nerede?"
+        },
+        {
+          "text": "角を右に曲がってください。",
+          "roman": "Kado o migi ni magatte kudasai.",
+          "en": "Please turn right at the corner.",
+          "tr": "Lütfen köşeden sağa dön."
+        }
+      ]
+    },
+    "u08": {
+      "title": {
+        "en": "この, その, あの: this one and that one",
+        "tr": "この, その, あの: bu ve şu"
+      },
+      "body": {
+        "en": "Before a noun, Japanese uses この (this, near me), その (that, near you) and あの (that, over there, far from us both): このシャツ (this shirt), あのかばん (that bag over there). On their own, without a noun, they become これ, それ and あれ: これはいくらですか？ (How much is this?).\n\nIn a shop you can point and ask いくらですか？ (How much is it?). To ask for something, say これをください (This one, please).",
+        "tr": "Bir isimden önce Japonca この (bu, bana yakın), その (şu, sana yakın) ve あの (o, ikimizden de uzak) kullanır: このシャツ (bu gömlek), あのかばん (oradaki çanta). Tek başlarına, isimsiz kullanıldıklarında これ, それ ve あれ olurlar: これはいくらですか？ (Bu ne kadar?).\n\nMağazada gösterip いくらですか？ (Ne kadar?) diye sorabilirsin. Bir şeyi istemek için これをください (Bunu alayım, lütfen) dersin."
+      },
+      "examples": [
+        {
+          "text": "このシャツはいくらですか？",
+          "roman": "Kono shatsu wa ikura desu ka?",
+          "en": "How much is this shirt?",
+          "tr": "Bu gömlek ne kadar?"
+        },
+        {
+          "text": "あのかばんは高いです。",
+          "roman": "Ano kaban wa takai desu.",
+          "en": "That bag over there is expensive.",
+          "tr": "Oradaki çanta pahalı."
+        },
+        {
+          "text": "これをください。",
+          "roman": "Kore o kudasai.",
+          "en": "This one, please.",
+          "tr": "Bunu alayım, lütfen."
+        }
+      ]
+    },
+    "u09": {
+      "title": {
+        "en": "-ています: what is going on now",
+        "tr": "-ています: şu an olan şey"
+      },
+      "body": {
+        "en": "To say that something is going on right now, Japanese uses the て form of a verb plus います: 泳ぐ (swim) becomes 泳いでいます (is swimming), and 歩く (walk) becomes 歩いています (is walking). It works like '-ing' in English.\n\nThe weather uses it too: 雨が降っています means 'It is raining', word for word 'rain is falling'. Rain and snow both take 降る (to fall).\n\nThe て form takes practice, so learn each verb together with it: 読む → 読んで, 飲む → 飲んで, 食べる → 食べて.",
+        "tr": "Bir şeyin şu anda olduğunu söylemek için Japonca fiilin て biçimine います ekler: 泳ぐ (yüzmek) 泳いでいます (yüzüyor) olur, 歩く (yürümek) 歩いています (yürüyor) olur. Türkçedeki '-yor' ekine benzer.\n\nHava için de kullanılır: 雨が降っています 'Yağmur yağıyor' demektir. Türkçedeki gibi yağmur ve kar 'yağar': ikisi de 降る (yağmak) alır.\n\nて biçimi alıştırma ister, bu yüzden her fiili onunla birlikte öğren: 読む → 読んで, 飲む → 飲んで, 食べる → 食べて."
+      },
+      "examples": [
+        {
+          "text": "雨が降っています。",
+          "roman": "Ame ga futte imasu.",
+          "en": "It is raining.",
+          "tr": "Yağmur yağıyor."
+        },
+        {
+          "text": "アリさんは泳いでいます。",
+          "roman": "Ari-san wa oyoide imasu.",
+          "en": "Ali is swimming.",
+          "tr": "Ali yüzüyor."
+        },
+        {
+          "text": "今、本を読んでいます。",
+          "roman": "Ima, hon o yonde imasu.",
+          "en": "I am reading a book now.",
+          "tr": "Şu an kitap okuyorum."
+        }
+      ]
+    },
+    "u10": {
+      "title": {
+        "en": "でした and -かったです: it was",
+        "tr": "でした ve -かったです: -di, -ydı"
+      },
+      "body": {
+        "en": "For the past of です, say でした: 休みでした (It was a holiday). Words like 静か (quiet) and きれい (beautiful) work the same way: 静かでした (it was quiet). きれい only looks like an い word, so it becomes きれいでした.\n\nWords that end in い, like 高い (expensive) or 遅い (slow), change their own ending instead: drop the い and add かったです. 高い becomes 高かったです (it was expensive). For 'was not', use くなかったです: 高くなかったです (it was not expensive).\n\nOne word is special: いい (good) becomes よかったです (it was good).",
+        "tr": "です'nin geçmiş zamanı için でした dersin: 休みでした (Tatildi). 静か (sessiz) ve きれい (güzel) gibi kelimeler de aynı şekilde çalışır: 静かでした (sessizdi). きれい yalnızca い ile biten kelimelere benzer, bu yüzden きれいでした olur.\n\n高い (pahalı) ya da 遅い (yavaş) gibi い ile biten kelimeler ise kendi sonlarını değiştirir: い düşer, かったです eklenir. 高い, 高かったです (pahalıydı) olur. 'Değildi' için くなかったです kullanılır: 高くなかったです (pahalı değildi).\n\nBir kelime özeldir: いい (iyi), よかったです (iyiydi) olur."
+      },
+      "examples": [
+        {
+          "text": "ホテルは静かでした。",
+          "roman": "Hoteru wa shizuka deshita.",
+          "en": "The hotel was quiet.",
+          "tr": "Otel sessizdi."
+        },
+        {
+          "text": "タクシーは高かったです。",
+          "roman": "Takushī wa takakatta desu.",
+          "en": "The taxi was expensive.",
+          "tr": "Taksi pahalıydı."
+        },
+        {
+          "text": "切符は高くなかったです。",
+          "roman": "Kippu wa takakunakatta desu.",
+          "en": "The tickets were not expensive.",
+          "tr": "Biletler pahalı değildi."
+        }
+      ]
+    },
+    "u11": {
+      "title": {
+        "en": "-ました: what you did",
+        "tr": "-ました: yaptığın şeyler"
+      },
+      "body": {
+        "en": "To talk about something you did, change the polite ending ます to ました: 食べます (I eat) becomes 食べました (I ate), and 会います (I meet) becomes 会いました (I met). The rest of the verb stays the same, so this is the easiest past in Japanese.\n\nFor 'did not', use ませんでした: 行きませんでした (I did not go). Time words like 昨日 (yesterday), 先週 (last week) and 二日前に (two days ago) come early in the sentence: at the start, or just after the person, as in エマさんは昨日電話しました (Emma called yesterday).",
+        "tr": "Yaptığın bir şeyden söz etmek için kibar ek ます'yı ました yaparsın: 食べます (yerim) 食べました (yedim) olur, 会います (buluşurum) 会いました (buluştum) olur. Fiilin geri kalanı değişmez, bu yüzden Japoncadaki en kolay geçmiş zaman budur.\n\n'Yapmadım' için ませんでした kullanılır: 行きませんでした (Gitmedim). 昨日 (dün), 先週 (geçen hafta) ve 二日前に (iki gün önce) gibi zaman kelimeleri cümlenin başına yakın gelir: en başa ya da kişiden hemen sonra, örneğin エマさんは昨日電話しました (Emma dün aradı)."
+      },
+      "examples": [
+        {
+          "text": "昨日、映画を見ました。",
+          "roman": "Kinō, eiga o mimashita.",
+          "en": "I watched a movie yesterday.",
+          "tr": "Dün film izledim."
+        },
+        {
+          "text": "カフェで友達に会いました。",
+          "roman": "Kafe de tomodachi ni aimashita.",
+          "en": "I met a friend at the cafe.",
+          "tr": "Kafede bir arkadaşla buluştum."
+        },
+        {
+          "text": "パーティーに行きませんでした。",
+          "roman": "Pātī ni ikimasen deshita.",
+          "en": "I did not go to the party.",
+          "tr": "Partiye gitmedim."
+        }
+      ]
+    },
+    "u12": {
+      "title": {
+        "en": "Plans: ます and つもりです",
+        "tr": "Planlar: ます ve つもりです"
+      },
+      "body": {
+        "en": "Japanese has no separate future ending. The ます form you already know also means 'will': 明日電話します is 'I will call tomorrow'. A time word like 明日 (tomorrow) or 来週 (next week) shows that it is the future.\n\nTo say 'I am going to' about a plan, put つもりです after the dictionary form: 旅行するつもりです (I am going to travel).\n\nTo invite a friend, change ます to ませんか: 一緒に来ませんか？ (Would you like to come with us?). A warm answer is ぜひ！ (I would love to!).",
+        "tr": "Japoncada ayrı bir gelecek zaman eki yoktur. Bildiğin ます biçimi '-eceğim' anlamına da gelir: 明日電話します 'Yarın arayacağım' demektir. 明日 (yarın) ya da 来週 (gelecek hafta) gibi bir zaman kelimesi bunun gelecek olduğunu gösterir.\n\nBir plan için 'yapacağım' demek istersen sözlük biçiminden sonra つもりです koyarsın: 旅行するつもりです (Seyahat edeceğim).\n\nBir arkadaşı davet etmek için ます yerine ませんか dersin: 一緒に来ませんか？ (Bizimle gelmek ister misin?). Sıcak bir cevap ぜひ！ (Çok isterim!) olur."
+      },
+      "examples": [
+        {
+          "text": "明日、電話します。",
+          "roman": "Ashita, denwa shimasu.",
+          "en": "I will call you tomorrow.",
+          "tr": "Yarın seni arayacağım."
+        },
+        {
+          "text": "来年、東京に旅行するつもりです。",
+          "roman": "Rainen, Tōkyō ni ryokō suru tsumori desu.",
+          "en": "Next year I am going to travel to Tokyo.",
+          "tr": "Gelecek yıl Tokyo'ya seyahat edeceğim."
+        },
+        {
+          "text": "土曜日に一緒に来ませんか？",
+          "roman": "Doyōbi ni issho ni kimasen ka?",
+          "en": "Would you like to come with us on Saturday?",
+          "tr": "Cumartesi bizimle gelmek ister misin?"
+        }
+      ]
+    }
+  }
+}

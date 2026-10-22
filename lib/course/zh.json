@@ -1,0 +1,5029 @@
+{
+  "format": 1,
+  "language": "zh",
+  "words": {
+    "hello": {
+      "text": "你好",
+      "roman": "nǐ hǎo",
+      "ex": "你好，我是埃姆雷。",
+      "exRoman": "Nǐ hǎo, wǒ shì Āimǔléi."
+    },
+    "good-morning": {
+      "text": "早上好",
+      "roman": "zǎoshang hǎo",
+      "ex": "早上好，咖啡好了。",
+      "exRoman": "Zǎoshang hǎo, kāfēi hǎo le."
+    },
+    "good-evening": {
+      "text": "晚上好",
+      "roman": "wǎnshang hǎo",
+      "ex": "晚上好，米娅和汤姆！",
+      "exRoman": "Wǎnshang hǎo, Mǐyà hé Tāngmǔ!"
+    },
+    "how-are-you": {
+      "text": "你怎么样？",
+      "roman": "nǐ zěnmeyàng?",
+      "ex": "今天早上你怎么样？",
+      "exRoman": "Jīntiān zǎoshang nǐ zěnmeyàng?",
+      "note": {
+        "en": "Casual, to one friend. The textbook form 你好吗？ (nǐ hǎo ma?) means the same.",
+        "tr": "Bir arkadaşa samimi soru. Ders kitabındaki 你好吗？ (nǐ hǎo ma?) da aynı anlamdadır."
+      }
+    },
+    "i-am-fine": {
+      "text": "我很好",
+      "roman": "wǒ hěn hǎo",
+      "ex": "谢谢，今天我很好。",
+      "exRoman": "Xièxie, jīntiān wǒ hěn hǎo.",
+      "note": {
+        "en": "The usual answer to 你怎么样？ Here 很 (hěn, very) is needed but barely means 'very'.",
+        "tr": "你怎么样？ sorusuna olağan cevap. Burada 很 (hěn, çok) gereklidir ama 'çok' anlamı neredeyse yoktur."
+      }
+    },
+    "and-you": {
+      "text": "你呢？",
+      "roman": "nǐ ne?",
+      "ex": "我很好，你呢？",
+      "exRoman": "Wǒ hěn hǎo, nǐ ne?",
+      "note": {
+        "en": "呢 (ne) turns the same question back to your friend.",
+        "tr": "呢 (ne) aynı soruyu arkadaşına geri çevirir."
+      }
+    },
+    "goodbye": {
+      "text": "再见",
+      "roman": "zàijiàn",
+      "ex": "再见，阿里，谢谢你！",
+      "exRoman": "Zàijiàn, Ālǐ, xièxie nǐ!",
+      "note": {
+        "en": "A general goodbye. You can say it to anyone.",
+        "tr": "Genel bir veda sözü. Herkese söyleyebilirsin."
+      }
+    },
+    "good-night": {
+      "text": "晚安",
+      "roman": "wǎn'ān",
+      "ex": "晚安，睡个好觉。",
+      "exRoman": "Wǎn'ān, shuì ge hǎo jiào."
+    },
+    "see-you-later": {
+      "text": "回头见",
+      "roman": "huítóu jiàn",
+      "ex": "我现在有课，回头见。",
+      "exRoman": "Wǒ xiànzài yǒu kè, huítóu jiàn."
+    },
+    "see-you-tomorrow": {
+      "text": "明天见",
+      "roman": "míngtiān jiàn",
+      "ex": "埃利芙，明天学校见。",
+      "exRoman": "Āilìfú, míngtiān xuéxiào jiàn.",
+      "note": {
+        "en": "To add a place, put it before 见: 明天学校见 (see you at school tomorrow).",
+        "tr": "Bir yer eklemek için onu 见'den önce koy: 明天学校见 (yarın okulda görüşürüz)."
+      }
+    },
+    "have-a-nice-day": {
+      "text": "祝你一天愉快",
+      "roman": "zhù nǐ yì tiān yúkuài",
+      "ex": "非常感谢，祝你一天愉快！",
+      "exRoman": "Fēicháng gǎnxiè, zhù nǐ yì tiān yúkuài!"
+    },
+    "take-care": {
+      "text": "保重",
+      "roman": "bǎozhòng",
+      "ex": "保重，我们很快再见。",
+      "exRoman": "Bǎozhòng, wǒmen hěn kuài zàijiàn.",
+      "note": {
+        "en": "A warm goodbye to a friend, often when you will not meet for some time.",
+        "tr": "Bir arkadaşa sıcak bir veda, çoğu zaman bir süre görüşmeyeceksen."
+      }
+    },
+    "name": {
+      "text": "名字",
+      "roman": "míngzi",
+      "ex": "我的名字叫泽伊内普。",
+      "exRoman": "Wǒ de míngzi jiào Zéyīnèipǔ."
+    },
+    "where-are-you-from": {
+      "text": "你是哪里人？",
+      "roman": "nǐ shì nǎlǐ rén?",
+      "ex": "艾玛，你是哪里人？",
+      "exRoman": "Àimǎ, nǐ shì nǎlǐ rén?",
+      "note": {
+        "en": "To one friend. Word for word: 'you are a person of where?'",
+        "tr": "Bir arkadaşa. Kelimesi kelimesine: 'sen neresinin insanısın?'"
+      }
+    },
+    "nice-to-meet-you": {
+      "text": "很高兴认识你",
+      "roman": "hěn gāoxìng rènshi nǐ",
+      "ex": "我是阿里，很高兴认识你。",
+      "exRoman": "Wǒ shì Ālǐ, hěn gāoxìng rènshi nǐ.",
+      "note": {
+        "en": "A fixed polite phrase when you meet someone for the first time.",
+        "tr": "Biriyle ilk kez tanıştığında söylenen kalıp bir nezaket sözü."
+      }
+    },
+    "student": {
+      "text": "学生",
+      "roman": "xuésheng",
+      "ex": "德尼兹是伊斯坦布尔的学生。",
+      "exRoman": "Dénízī shì Yīsītǎnbù'ěr de xuésheng."
+    },
+    "teacher": {
+      "text": "老师",
+      "roman": "lǎoshī",
+      "ex": "我的老师很亲切。",
+      "exRoman": "Wǒ de lǎoshī hěn qīnqiè."
+    },
+    "country": {
+      "text": "国家",
+      "roman": "guójiā",
+      "ex": "我的国家很美。",
+      "exRoman": "Wǒ de guójiā hěn měi."
+    },
+    "please": {
+      "text": "请",
+      "roman": "qǐng",
+      "ex": "请给我一杯水。",
+      "exRoman": "Qǐng gěi wǒ yì bēi shuǐ."
+    },
+    "thank-you": {
+      "text": "谢谢",
+      "roman": "xièxie",
+      "ex": "谢谢你的茶。",
+      "exRoman": "Xièxie nǐ de chá."
+    },
+    "youre-welcome": {
+      "text": "不客气",
+      "roman": "bú kèqi",
+      "ex": "不客气，没问题。",
+      "exRoman": "Bú kèqi, méi wèntí."
+    },
+    "sorry": {
+      "text": "对不起",
+      "roman": "duìbuqǐ",
+      "ex": "对不起，我迟到了。",
+      "exRoman": "Duìbuqǐ, wǒ chídào le."
+    },
+    "yes": {
+      "text": "是的",
+      "roman": "shì de",
+      "ex": "是的，我是学生。",
+      "exRoman": "Shì de, wǒ shì xuésheng.",
+      "note": {
+        "en": "Chinese often says yes by repeating the verb: 是 (I am), 有 (I have).",
+        "tr": "Çince 'evet' çoğu zaman fiili tekrarlayarak söylenir: 是 (öyleyim), 有 (var)."
+      }
+    },
+    "no": {
+      "text": "不",
+      "roman": "bù",
+      "ex": "不，我不是巴黎人。",
+      "exRoman": "Bù, wǒ bú shì Bālí rén.",
+      "note": {
+        "en": "不 means both 'no' and 'not'. Before a fourth tone it is said bú: 不是 (bú shì).",
+        "tr": "不 hem 'hayır' hem 'değil' demektir. Dördüncü tondan önce bú okunur: 不是 (bú shì)."
+      }
+    },
+    "family": {
+      "text": "家人",
+      "roman": "jiārén",
+      "ex": "我的家人住在里斯本。",
+      "exRoman": "Wǒ de jiārén zhù zài Lǐsīběn."
+    },
+    "mother": {
+      "text": "妈妈",
+      "roman": "māma",
+      "ex": "我妈妈每天早上喝茶。",
+      "exRoman": "Wǒ māma měi tiān zǎoshang hē chá."
+    },
+    "father": {
+      "text": "爸爸",
+      "roman": "bàba",
+      "ex": "我爸爸是医生。",
+      "exRoman": "Wǒ bàba shì yīshēng."
+    },
+    "brother": {
+      "text": "哥哥",
+      "roman": "gēge",
+      "ex": "我哥哥十岁。",
+      "exRoman": "Wǒ gēge shí suì.",
+      "note": {
+        "en": "哥哥 is an older brother. A younger brother is 弟弟 (dìdi).",
+        "tr": "哥哥 ağabey demektir. Senden küçük erkek kardeş 弟弟 (dìdi)."
+      }
+    },
+    "sister": {
+      "text": "姐姐",
+      "roman": "jiějie",
+      "ex": "她姐姐住在马德里。",
+      "exRoman": "Tā jiějie zhù zài Mǎdélǐ.",
+      "note": {
+        "en": "姐姐 is an older sister. A younger sister is 妹妹 (mèimei).",
+        "tr": "姐姐 abla demektir. Senden küçük kız kardeş 妹妹 (mèimei)."
+      }
+    },
+    "baby": {
+      "text": "宝宝",
+      "roman": "bǎobao",
+      "ex": "宝宝非常小。",
+      "exRoman": "Bǎobao fēicháng xiǎo."
+    },
+    "grandmother": {
+      "text": "奶奶",
+      "roman": "nǎinai",
+      "ex": "我奶奶住在罗马。",
+      "exRoman": "Wǒ nǎinai zhù zài Luómǎ.",
+      "note": {
+        "en": "奶奶 is the father's mother. The mother's mother is 外婆 (wàipó).",
+        "tr": "奶奶 babaannedir. Anneanne 外婆 (wàipó) olur."
+      }
+    },
+    "grandfather": {
+      "text": "爷爷",
+      "roman": "yéye",
+      "ex": "我爷爷看报纸。",
+      "exRoman": "Wǒ yéye kàn bàozhǐ.",
+      "note": {
+        "en": "爷爷 is the father's father. The mother's father is 外公 (wàigōng).",
+        "tr": "爷爷 baba tarafından dededir. Anne tarafından dede 外公 (wàigōng) olur."
+      }
+    },
+    "son": {
+      "text": "儿子",
+      "roman": "érzi",
+      "ex": "他们的儿子是学生。",
+      "exRoman": "Tāmen de érzi shì xuésheng."
+    },
+    "daughter": {
+      "text": "女儿",
+      "roman": "nǚ'ér",
+      "ex": "阿里有两个女儿。",
+      "exRoman": "Ālǐ yǒu liǎng ge nǚ'ér."
+    },
+    "dog": {
+      "text": "狗",
+      "roman": "gǒu",
+      "ex": "我们的狗又大又白。",
+      "exRoman": "Wǒmen de gǒu yòu dà yòu bái."
+    },
+    "cat": {
+      "text": "猫",
+      "roman": "māo",
+      "ex": "猫在沙发上睡觉。",
+      "exRoman": "Māo zài shāfā shang shuìjiào."
+    },
+    "friend": {
+      "text": "朋友",
+      "roman": "péngyou",
+      "ex": "汤姆是我的朋友。",
+      "exRoman": "Tāngmǔ shì wǒ de péngyou."
+    },
+    "neighbor": {
+      "text": "邻居",
+      "roman": "línjū",
+      "ex": "我们的邻居有一个花园。",
+      "exRoman": "Wǒmen de línjū yǒu yí ge huāyuán."
+    },
+    "kind": {
+      "text": "善良",
+      "roman": "shànliáng",
+      "ex": "你姐姐很善良。",
+      "exRoman": "Nǐ jiějie hěn shànliáng.",
+      "note": {
+        "en": "Kind-hearted: good and caring to other people.",
+        "tr": "İyi kalpli: başkalarına iyi davranan, onları düşünen."
+      }
+    },
+    "funny": {
+      "text": "幽默",
+      "roman": "yōumò",
+      "ex": "利奥很幽默。",
+      "exRoman": "Lì'ào hěn yōumò.",
+      "note": {
+        "en": "For a person who makes you laugh. A funny thing or story is 好笑 (hǎoxiào).",
+        "tr": "Seni güldüren biri için. Komik bir şey ya da hikâye 好笑 (hǎoxiào) olur."
+      }
+    },
+    "happy": {
+      "text": "开心",
+      "roman": "kāixīn",
+      "ex": "我今天很开心。",
+      "exRoman": "Wǒ jīntiān hěn kāixīn."
+    },
+    "together": {
+      "text": "一起",
+      "roman": "yìqǐ",
+      "ex": "我们一起吃午饭。",
+      "exRoman": "Wǒmen yìqǐ chī wǔfàn."
+    },
+    "man": {
+      "text": "男人",
+      "roman": "nánrén",
+      "ex": "那个男人是我的老师。",
+      "exRoman": "Nà ge nánrén shì wǒ de lǎoshī."
+    },
+    "woman": {
+      "text": "女人",
+      "roman": "nǚrén",
+      "ex": "那个女人是医生。",
+      "exRoman": "Nà ge nǚrén shì yīshēng."
+    },
+    "child": {
+      "text": "孩子",
+      "roman": "háizi",
+      "ex": "这个孩子六岁。",
+      "exRoman": "Zhè ge háizi liù suì."
+    },
+    "young": {
+      "text": "年轻",
+      "roman": "niánqīng",
+      "ex": "我们的新老师很年轻。",
+      "exRoman": "Wǒmen de xīn lǎoshī hěn niánqīng."
+    },
+    "old": {
+      "text": "老",
+      "roman": "lǎo",
+      "ex": "我爷爷老了，但是很强壮。",
+      "exRoman": "Wǒ yéye lǎo le, dànshì hěn qiángzhuàng.",
+      "note": {
+        "en": "Of a person. A politer way is 年纪大 (niánjì dà), 'big in years'.",
+        "tr": "Bir insan için. Daha kibar söyleyiş 年纪大 (niánjì dà), 'yaşı büyük'."
+      }
+    },
+    "tall": {
+      "text": "高",
+      "roman": "gāo",
+      "ex": "萨姆个子很高。",
+      "exRoman": "Sàmǔ gèzi hěn gāo."
+    },
+    "one": {
+      "text": "一",
+      "roman": "yī",
+      "ex": "我有一个哥哥。",
+      "exRoman": "Wǒ yǒu yí ge gēge.",
+      "note": {
+        "en": "Alone it is yī. Its tone changes before other words: 一个 (yí ge), 一杯 (yì bēi).",
+        "tr": "Tek başına yī. Başka kelimeden önce tonu değişir: 一个 (yí ge), 一杯 (yì bēi)."
+      }
+    },
+    "two": {
+      "text": "两",
+      "roman": "liǎng",
+      "ex": "我们有两只猫。",
+      "exRoman": "Wǒmen yǒu liǎng zhī māo.",
+      "note": {
+        "en": "Before a counting word say 两: 两只猫. When you count, and in 12 or 20, say 二 (èr).",
+        "tr": "Sayma kelimesinden önce 两: 两只猫. Sayarken ve 12, 20 gibi sayılarda 二 (èr)."
+      }
+    },
+    "three": {
+      "text": "三",
+      "roman": "sān",
+      "ex": "我儿子三岁。",
+      "exRoman": "Wǒ érzi sān suì."
+    },
+    "four": {
+      "text": "四",
+      "roman": "sì",
+      "ex": "我家有四口人。",
+      "exRoman": "Wǒ jiā yǒu sì kǒu rén."
+    },
+    "five": {
+      "text": "五",
+      "roman": "wǔ",
+      "ex": "我每天喝五杯水。",
+      "exRoman": "Wǒ měi tiān hē wǔ bēi shuǐ."
+    },
+    "six": {
+      "text": "六",
+      "roman": "liù",
+      "ex": "艾玛有六本书。",
+      "exRoman": "Àimǎ yǒu liù běn shū."
+    },
+    "seven": {
+      "text": "七",
+      "roman": "qī",
+      "ex": "商店七点开门。",
+      "exRoman": "Shāngdiàn qī diǎn kāimén."
+    },
+    "eight": {
+      "text": "八",
+      "roman": "bā",
+      "ex": "课八点开始。",
+      "exRoman": "Kè bā diǎn kāishǐ."
+    },
+    "nine": {
+      "text": "九",
+      "roman": "jiǔ",
+      "ex": "德尼兹九岁。",
+      "exRoman": "Dénízī jiǔ suì."
+    },
+    "ten": {
+      "text": "十",
+      "roman": "shí",
+      "ex": "我有十分钟。",
+      "exRoman": "Wǒ yǒu shí fēnzhōng."
+    },
+    "eleven": {
+      "text": "十一",
+      "roman": "shíyī",
+      "ex": "我们班有十一个学生。",
+      "exRoman": "Wǒmen bān yǒu shíyī ge xuésheng."
+    },
+    "twelve": {
+      "text": "十二",
+      "roman": "shí'èr",
+      "ex": "利奥今天十二岁。",
+      "exRoman": "Lì'ào jīntiān shí'èr suì."
+    },
+    "zero": {
+      "text": "零",
+      "roman": "líng",
+      "ex": "我的电话号码以零开头。",
+      "exRoman": "Wǒ de diànhuà hàomǎ yǐ líng kāitóu."
+    },
+    "twenty": {
+      "text": "二十",
+      "roman": "èrshí",
+      "ex": "我们班有二十个学生。",
+      "exRoman": "Wǒmen bān yǒu èrshí ge xuésheng."
+    },
+    "thirty": {
+      "text": "三十",
+      "roman": "sānshí",
+      "ex": "我们的老师三十岁。",
+      "exRoman": "Wǒmen de lǎoshī sānshí suì."
+    },
+    "fifty": {
+      "text": "五十",
+      "roman": "wǔshí",
+      "ex": "这本书有五十页。",
+      "exRoman": "Zhè běn shū yǒu wǔshí yè."
+    },
+    "one-hundred": {
+      "text": "一百",
+      "roman": "yìbǎi",
+      "ex": "我奶奶快一百岁了。",
+      "exRoman": "Wǒ nǎinai kuài yìbǎi suì le."
+    },
+    "number": {
+      "text": "号码",
+      "roman": "hàomǎ",
+      "ex": "你的电话号码是多少？",
+      "exRoman": "Nǐ de diànhuà hàomǎ shì duōshao?",
+      "note": {
+        "en": "A phone or room number. A number in maths is 数字 (shùzì).",
+        "tr": "Telefon ya da oda numarası. Matematikteki sayı 数字 (shùzì) olur."
+      }
+    },
+    "age": {
+      "text": "年龄",
+      "roman": "niánlíng",
+      "ex": "在这里写你的名字和年龄。",
+      "exRoman": "Zài zhèlǐ xiě nǐ de míngzi hé niánlíng."
+    },
+    "how-old-are-you": {
+      "text": "你多大了？",
+      "roman": "nǐ duō dà le?",
+      "ex": "埃利芙，你多大了？",
+      "exRoman": "Āilìfú, nǐ duō dà le?",
+      "note": {
+        "en": "To a friend. To a small child you say 你几岁了？ (nǐ jǐ suì le?).",
+        "tr": "Bir arkadaşa. Küçük bir çocuğa 你几岁了？ (nǐ jǐ suì le?) denir."
+      }
+    },
+    "how-many": {
+      "text": "几个？",
+      "roman": "jǐ ge?",
+      "ex": "你有几个哥哥？",
+      "exRoman": "Nǐ yǒu jǐ ge gēge?",
+      "note": {
+        "en": "几 asks about a small number and takes a counting word (几个, 几只). For big numbers ask 多少 (duōshao).",
+        "tr": "几 küçük bir sayıyı sorar ve sayma kelimesi alır (几个, 几只). Büyük sayılar için 多少 (duōshao)."
+      }
+    },
+    "year": {
+      "text": "年",
+      "roman": "nián",
+      "ex": "今年我十八岁。",
+      "exRoman": "Jīnnián wǒ shíbā suì."
+    },
+    "birthday": {
+      "text": "生日",
+      "roman": "shēngrì",
+      "ex": "今天是我的生日！",
+      "exRoman": "Jīntiān shì wǒ de shēngrì!"
+    },
+    "month": {
+      "text": "月",
+      "roman": "yuè",
+      "ex": "我的生日在下个月。",
+      "exRoman": "Wǒ de shēngrì zài xià ge yuè."
+    },
+    "breakfast": {
+      "text": "早饭",
+      "roman": "zǎofàn",
+      "ex": "我们七点吃早饭。",
+      "exRoman": "Wǒmen qī diǎn chī zǎofàn."
+    },
+    "bread": {
+      "text": "面包",
+      "roman": "miànbāo",
+      "ex": "这个面包很新鲜。",
+      "exRoman": "Zhè ge miànbāo hěn xīnxiān."
+    },
+    "cheese": {
+      "text": "奶酪",
+      "roman": "nǎilào",
+      "ex": "我吃面包和奶酪。",
+      "exRoman": "Wǒ chī miànbāo hé nǎilào."
+    },
+    "egg": {
+      "text": "鸡蛋",
+      "roman": "jīdàn",
+      "ex": "米娅每天早上吃一个鸡蛋。",
+      "exRoman": "Mǐyà měi tiān zǎoshang chī yí ge jīdàn."
+    },
+    "honey": {
+      "text": "蜂蜜",
+      "roman": "fēngmì",
+      "ex": "我爷爷在茶里放蜂蜜。",
+      "exRoman": "Wǒ yéye zài chá lǐ fàng fēngmì."
+    },
+    "eat": {
+      "text": "吃",
+      "roman": "chī",
+      "ex": "我们在家吃饭。",
+      "exRoman": "Wǒmen zài jiā chīfàn."
+    },
+    "water": {
+      "text": "水",
+      "roman": "shuǐ",
+      "ex": "这杯水很凉。",
+      "exRoman": "Zhè bēi shuǐ hěn liáng."
+    },
+    "tea": {
+      "text": "茶",
+      "roman": "chá",
+      "ex": "你想喝茶吗？",
+      "exRoman": "Nǐ xiǎng hē chá ma?"
+    },
+    "coffee": {
+      "text": "咖啡",
+      "roman": "kāfēi",
+      "ex": "我爸爸喝咖啡不加牛奶。",
+      "exRoman": "Wǒ bàba hē kāfēi bù jiā niúnǎi."
+    },
+    "milk": {
+      "text": "牛奶",
+      "roman": "niúnǎi",
+      "ex": "宝宝喝牛奶。",
+      "exRoman": "Bǎobao hē niúnǎi."
+    },
+    "juice": {
+      "text": "果汁",
+      "roman": "guǒzhī",
+      "ex": "泽伊内普早饭喝果汁。",
+      "exRoman": "Zéyīnèipǔ zǎofàn hē guǒzhī."
+    },
+    "drink": {
+      "text": "喝",
+      "roman": "hē",
+      "ex": "我们晚上喝茶。",
+      "exRoman": "Wǒmen wǎnshang hē chá.",
+      "note": {
+        "en": "The verb 'to drink'. Soup is also 喝: 喝汤 (hē tāng).",
+        "tr": "'İçmek' fiili. Çorba için de 喝 denir: 喝汤 (hē tāng)."
+      }
+    },
+    "apple": {
+      "text": "苹果",
+      "roman": "píngguǒ",
+      "ex": "这个苹果是红色的。",
+      "exRoman": "Zhè ge píngguǒ shì hóngsè de."
+    },
+    "banana": {
+      "text": "香蕉",
+      "roman": "xiāngjiāo",
+      "ex": "我的包里有一根香蕉。",
+      "exRoman": "Wǒ de bāo lǐ yǒu yì gēn xiāngjiāo."
+    },
+    "tomato": {
+      "text": "西红柿",
+      "roman": "xīhóngshì",
+      "ex": "这些西红柿是我们花园里种的。",
+      "exRoman": "Zhèxiē xīhóngshì shì wǒmen huāyuán lǐ zhòng de."
+    },
+    "potato": {
+      "text": "土豆",
+      "roman": "tǔdòu",
+      "ex": "我们晚饭吃土豆。",
+      "exRoman": "Wǒmen wǎnfàn chī tǔdòu."
+    },
+    "fruit": {
+      "text": "水果",
+      "roman": "shuǐguǒ",
+      "ex": "阿里每天吃水果。",
+      "exRoman": "Ālǐ měi tiān chī shuǐguǒ."
+    },
+    "vegetable": {
+      "text": "蔬菜",
+      "roman": "shūcài",
+      "ex": "我妈妈买新鲜的蔬菜。",
+      "exRoman": "Wǒ māma mǎi xīnxiān de shūcài."
+    },
+    "lunch": {
+      "text": "午饭",
+      "roman": "wǔfàn",
+      "ex": "我们一点吃午饭。",
+      "exRoman": "Wǒmen yì diǎn chī wǔfàn."
+    },
+    "dinner": {
+      "text": "晚饭",
+      "roman": "wǎnfàn",
+      "ex": "晚饭好了！",
+      "exRoman": "Wǎnfàn hǎo le!"
+    },
+    "food": {
+      "text": "食物",
+      "roman": "shíwù",
+      "ex": "厨房里有食物。",
+      "exRoman": "Chúfáng lǐ yǒu shíwù."
+    },
+    "soup": {
+      "text": "汤",
+      "roman": "tāng",
+      "ex": "我奶奶做西红柿汤。",
+      "exRoman": "Wǒ nǎinai zuò xīhóngshì tāng."
+    },
+    "hungry": {
+      "text": "饿",
+      "roman": "è",
+      "ex": "我饿了，我们吃饭吧！",
+      "exRoman": "Wǒ è le, wǒmen chīfàn ba!",
+      "note": {
+        "en": "Say 我饿了 (wǒ è le): 了 shows that you have become hungry.",
+        "tr": "我饿了 (wǒ è le) de: 了 acıktığını, yeni bir durumu gösterir."
+      }
+    },
+    "like": {
+      "text": "喜欢",
+      "roman": "xǐhuan",
+      "ex": "我喜欢鱼，但是不喜欢鸡肉。",
+      "exRoman": "Wǒ xǐhuan yú, dànshì bù xǐhuan jīròu.",
+      "note": {
+        "en": "The verb: to enjoy something. Put the thing after it: 喜欢苹果 (like apples).",
+        "tr": "Fiil: bir şeyi sevmek. Sevilen şey arkasından gelir: 喜欢苹果 (elmayı sevmek)."
+      }
+    },
+    "house": {
+      "text": "房子",
+      "roman": "fángzi",
+      "ex": "他们的房子离海很近。",
+      "exRoman": "Tāmen de fángzi lí hǎi hěn jìn."
+    },
+    "room": {
+      "text": "房间",
+      "roman": "fángjiān",
+      "ex": "我的房间有两个窗户。",
+      "exRoman": "Wǒ de fángjiān yǒu liǎng ge chuānghu."
+    },
+    "kitchen": {
+      "text": "厨房",
+      "roman": "chúfáng",
+      "ex": "我爸爸在厨房做饭。",
+      "exRoman": "Wǒ bàba zài chúfáng zuòfàn."
+    },
+    "bedroom": {
+      "text": "卧室",
+      "roman": "wòshì",
+      "ex": "卧室在楼上。",
+      "exRoman": "Wòshì zài lóushàng."
+    },
+    "bathroom": {
+      "text": "浴室",
+      "roman": "yùshì",
+      "ex": "浴室在我房间旁边。",
+      "exRoman": "Yùshì zài wǒ fángjiān pángbiān."
+    },
+    "garden": {
+      "text": "花园",
+      "roman": "huāyuán",
+      "ex": "孩子们在花园里玩。",
+      "exRoman": "Háizimen zài huāyuán lǐ wán."
+    },
+    "table": {
+      "text": "桌子",
+      "roman": "zhuōzi",
+      "ex": "钥匙在桌子上。",
+      "exRoman": "Yàoshi zài zhuōzi shang."
+    },
+    "chair": {
+      "text": "椅子",
+      "roman": "yǐzi",
+      "ex": "坐在这把椅子上吧。",
+      "exRoman": "Zuò zài zhè bǎ yǐzi shang ba."
+    },
+    "bed": {
+      "text": "床",
+      "roman": "chuáng",
+      "ex": "我的床很软。",
+      "exRoman": "Wǒ de chuáng hěn ruǎn."
+    },
+    "sofa": {
+      "text": "沙发",
+      "roman": "shāfā",
+      "ex": "沙发很大，是蓝色的。",
+      "exRoman": "Shāfā hěn dà, shì lánsè de."
+    },
+    "door": {
+      "text": "门",
+      "roman": "mén",
+      "ex": "请关门。",
+      "exRoman": "Qǐng guān mén."
+    },
+    "window": {
+      "text": "窗户",
+      "roman": "chuānghu",
+      "ex": "请打开窗户。",
+      "exRoman": "Qǐng dǎkāi chuānghu."
+    },
+    "lamp": {
+      "text": "灯",
+      "roman": "dēng",
+      "ex": "灯在我床边。",
+      "exRoman": "Dēng zài wǒ chuáng biān."
+    },
+    "phone": {
+      "text": "手机",
+      "roman": "shǒujī",
+      "ex": "你的手机在沙发上。",
+      "exRoman": "Nǐ de shǒujī zài shāfā shang.",
+      "note": {
+        "en": "A mobile phone. A phone call or a phone number uses 电话 (diànhuà).",
+        "tr": "Cep telefonu. Telefon araması ya da telefon numarası 电话 (diànhuà) ile söylenir."
+      }
+    },
+    "book": {
+      "text": "书",
+      "roman": "shū",
+      "ex": "这是一本好书。",
+      "exRoman": "Zhè shì yì běn hǎo shū."
+    },
+    "key": {
+      "text": "钥匙",
+      "roman": "yàoshi",
+      "ex": "我有这扇门的钥匙。",
+      "exRoman": "Wǒ yǒu zhè shàn mén de yàoshi."
+    },
+    "fridge": {
+      "text": "冰箱",
+      "roman": "bīngxiāng",
+      "ex": "冰箱里有奶酪。",
+      "exRoman": "Bīngxiāng lǐ yǒu nǎilào."
+    },
+    "computer": {
+      "text": "电脑",
+      "roman": "diànnǎo",
+      "ex": "萨姆有一台新电脑。",
+      "exRoman": "Sàmǔ yǒu yì tái xīn diànnǎo."
+    },
+    "big": {
+      "text": "大",
+      "roman": "dà",
+      "ex": "他们的花园非常大。",
+      "exRoman": "Tāmen de huāyuán fēicháng dà."
+    },
+    "small": {
+      "text": "小",
+      "roman": "xiǎo",
+      "ex": "我们有一个小厨房。",
+      "exRoman": "Wǒmen yǒu yí ge xiǎo chúfáng."
+    },
+    "new": {
+      "text": "新",
+      "roman": "xīn",
+      "ex": "这是我的新房子。",
+      "exRoman": "Zhè shì wǒ de xīn fángzi."
+    },
+    "clean": {
+      "text": "干净",
+      "roman": "gānjìng",
+      "ex": "你的房间干净吗？",
+      "exRoman": "Nǐ de fángjiān gānjìng ma?"
+    },
+    "beautiful": {
+      "text": "漂亮",
+      "roman": "piàoliang",
+      "ex": "多漂亮的花园啊！",
+      "exRoman": "Duō piàoliang de huāyuán a!"
+    },
+    "there-is": {
+      "text": "有",
+      "roman": "yǒu",
+      "ex": "床上有一只猫。",
+      "exRoman": "Chuáng shang yǒu yì zhī māo.",
+      "note": {
+        "en": "The place comes first, then 有: 床上有一只猫 (on the bed there is a cat). It is used for things, people and animals.",
+        "tr": "Önce yer, sonra 有 gelir: 床上有一只猫 (yatağın üstünde bir kedi var). Eşya, insan ve hayvan için aynıdır."
+      }
+    },
+    "morning": {
+      "text": "早上",
+      "roman": "zǎoshang",
+      "ex": "我早上喝咖啡。",
+      "exRoman": "Wǒ zǎoshang hē kāfēi."
+    },
+    "afternoon": {
+      "text": "下午",
+      "roman": "xiàwǔ",
+      "ex": "我们下午在公园玩。",
+      "exRoman": "Wǒmen xiàwǔ zài gōngyuán wán."
+    },
+    "evening": {
+      "text": "晚上",
+      "roman": "wǎnshang",
+      "ex": "我的家人晚上一起吃饭。",
+      "exRoman": "Wǒ de jiārén wǎnshang yìqǐ chīfàn."
+    },
+    "night": {
+      "text": "夜晚",
+      "roman": "yèwǎn",
+      "ex": "城市的夜晚很安静。",
+      "exRoman": "Chéngshì de yèwǎn hěn ānjìng.",
+      "note": {
+        "en": "In daily talk 晚上 (wǎnshang) covers evening and night. 夜晚 is the night itself, a word for writing. In speech 'at night' is 夜里 (yèli).",
+        "tr": "Günlük dilde 晚上 (wǎnshang) hem akşamı hem geceyi kapsar. 夜晚 gecenin kendisidir, yazı dilinde kullanılır. Konuşmada 'geceleyin' 夜里 (yèli) denir."
+      }
+    },
+    "today": {
+      "text": "今天",
+      "roman": "jīntiān",
+      "ex": "我今天很忙。",
+      "exRoman": "Wǒ jīntiān hěn máng."
+    },
+    "now": {
+      "text": "现在",
+      "roman": "xiànzài",
+      "ex": "米娅现在不在家。",
+      "exRoman": "Mǐyà xiànzài bú zài jiā."
+    },
+    "wake-up": {
+      "text": "醒来",
+      "roman": "xǐnglái",
+      "ex": "我七点醒来。",
+      "exRoman": "Wǒ qī diǎn xǐnglái."
+    },
+    "take-a-shower": {
+      "text": "洗澡",
+      "roman": "xǐzǎo",
+      "ex": "利奥每天早上洗澡。",
+      "exRoman": "Lì'ào měi tiān zǎoshang xǐzǎo.",
+      "note": {
+        "en": "洗澡 is for a shower or a bath.",
+        "tr": "洗澡 hem duş hem banyo için kullanılır."
+      }
+    },
+    "go": {
+      "text": "去",
+      "roman": "qù",
+      "ex": "我们坐公交车去学校。",
+      "exRoman": "Wǒmen zuò gōngjiāochē qù xuéxiào."
+    },
+    "work": {
+      "text": "工作",
+      "roman": "gōngzuò",
+      "ex": "我妈妈在一家医院工作。",
+      "exRoman": "Wǒ māma zài yì jiā yīyuàn gōngzuò.",
+      "note": {
+        "en": "The verb 'to do a job'. It is also the noun 'job'.",
+        "tr": "'Çalışmak, iş yapmak' fiili. Aynı zamanda 'iş' anlamında isimdir."
+      }
+    },
+    "school": {
+      "text": "学校",
+      "roman": "xuéxiào",
+      "ex": "学校离我家很近。",
+      "exRoman": "Xuéxiào lí wǒ jiā hěn jìn."
+    },
+    "sleep": {
+      "text": "睡觉",
+      "roman": "shuìjiào",
+      "ex": "宝宝每天睡很多觉。",
+      "exRoman": "Bǎobao měi tiān shuì hěn duō jiào.",
+      "note": {
+        "en": "睡觉 is 睡 (sleep) + 觉 (a sleep). Words can go between them: 睡很多觉 (sleep a lot), 睡个好觉 (sleep well).",
+        "tr": "睡觉, 睡 (uyumak) + 觉 (uyku) demektir. Araya kelimeler girebilir: 睡很多觉 (çok uyumak), 睡个好觉 (iyi uyumak)."
+      }
+    },
+    "monday": {
+      "text": "星期一",
+      "roman": "xīngqīyī",
+      "ex": "星期一开始上课。",
+      "exRoman": "Xīngqīyī kāishǐ shàngkè."
+    },
+    "tuesday": {
+      "text": "星期二",
+      "roman": "xīngqī'èr",
+      "ex": "我星期二有音乐课。",
+      "exRoman": "Wǒ xīngqī'èr yǒu yīnyuè kè."
+    },
+    "wednesday": {
+      "text": "星期三",
+      "roman": "xīngqīsān",
+      "ex": "星期三是很忙的一天。",
+      "exRoman": "Xīngqīsān shì hěn máng de yì tiān."
+    },
+    "thursday": {
+      "text": "星期四",
+      "roman": "xīngqīsì",
+      "ex": "我们星期四见面。",
+      "exRoman": "Wǒmen xīngqīsì jiànmiàn."
+    },
+    "friday": {
+      "text": "星期五",
+      "roman": "xīngqīwǔ",
+      "ex": "星期五是我最喜欢的一天。",
+      "exRoman": "Xīngqīwǔ shì wǒ zuì xǐhuan de yì tiān."
+    },
+    "week": {
+      "text": "星期",
+      "roman": "xīngqī",
+      "ex": "我一个星期工作五天。",
+      "exRoman": "Wǒ yí ge xīngqī gōngzuò wǔ tiān.",
+      "note": {
+        "en": "The days are 星期 plus a number: 星期一 is Monday (day one).",
+        "tr": "Günler 星期 artı bir sayıdır: 星期一 pazartesi (birinci gün)."
+      }
+    },
+    "saturday": {
+      "text": "星期六",
+      "roman": "xīngqīliù",
+      "ex": "星期六我们去看奶奶。",
+      "exRoman": "Xīngqīliù wǒmen qù kàn nǎinai."
+    },
+    "sunday": {
+      "text": "星期天",
+      "roman": "xīngqītiān",
+      "ex": "商店星期天不开门。",
+      "exRoman": "Shāngdiàn xīngqītiān bù kāimén.",
+      "note": {
+        "en": "Also written 星期日 (xīngqīrì).",
+        "tr": "星期日 (xīngqīrì) diye de yazılır."
+      }
+    },
+    "weekend": {
+      "text": "周末",
+      "roman": "zhōumò",
+      "ex": "你周末做什么？",
+      "exRoman": "Nǐ zhōumò zuò shénme?"
+    },
+    "read": {
+      "text": "看书",
+      "roman": "kàn shū",
+      "ex": "泽伊内普每天晚上看书。",
+      "exRoman": "Zéyīnèipǔ měi tiān wǎnshang kàn shū.",
+      "note": {
+        "en": "Word for word 'look at a book': the everyday way to say reading. 读 (dú) is reading, often out loud.",
+        "tr": "Kelimesi kelimesine 'kitaba bakmak': okumanın günlük söylenişi. 读 (dú) okumaktır, çoğu zaman sesli."
+      }
+    },
+    "watch": {
+      "text": "看",
+      "roman": "kàn",
+      "ex": "我们星期六看电影。",
+      "exRoman": "Wǒmen xīngqīliù kàn diànyǐng.",
+      "note": {
+        "en": "看 means to look at or watch: 看电影 (watch a movie), 看电视 (watch TV).",
+        "tr": "看 bakmak ya da izlemek demektir: 看电影 (film izlemek), 看电视 (televizyon izlemek)."
+      }
+    },
+    "play": {
+      "text": "玩",
+      "roman": "wán",
+      "ex": "阿里和利奥一起玩，打网球。",
+      "exRoman": "Ālǐ hé Lì'ào yìqǐ wán, dǎ wǎngqiú.",
+      "note": {
+        "en": "玩 is the everyday word for playing and having fun. For tennis and other ball games say 打 (dǎ): 打网球 (play tennis).",
+        "tr": "玩 oynamanın ve eğlenmenin günlük kelimesidir. Tenis ve başka top oyunları için 打 (dǎ) denir: 打网球 (tenis oynamak)."
+      }
+    },
+    "city": {
+      "text": "城市",
+      "roman": "chéngshì",
+      "ex": "伊斯坦布尔是一个非常大的城市。",
+      "exRoman": "Yīsītǎnbù'ěr shì yí ge fēicháng dà de chéngshì."
+    },
+    "street": {
+      "text": "街",
+      "roman": "jiē",
+      "ex": "我的学校在这条街上。",
+      "exRoman": "Wǒ de xuéxiào zài zhè tiáo jiē shang."
+    },
+    "park": {
+      "text": "公园",
+      "roman": "gōngyuán",
+      "ex": "我们星期天在公园散步。",
+      "exRoman": "Wǒmen xīngqītiān zài gōngyuán sànbù."
+    },
+    "hospital": {
+      "text": "医院",
+      "roman": "yīyuàn",
+      "ex": "医院在车站附近。",
+      "exRoman": "Yīyuàn zài chēzhàn fùjìn."
+    },
+    "museum": {
+      "text": "博物馆",
+      "roman": "bówùguǎn",
+      "ex": "博物馆星期一不开门。",
+      "exRoman": "Bówùguǎn xīngqīyī bù kāimén."
+    },
+    "bank": {
+      "text": "银行",
+      "roman": "yínháng",
+      "ex": "银行九点开门。",
+      "exRoman": "Yínháng jiǔ diǎn kāimén."
+    },
+    "supermarket": {
+      "text": "超市",
+      "roman": "chāoshì",
+      "ex": "我在超市买牛奶。",
+      "exRoman": "Wǒ zài chāoshì mǎi niúnǎi."
+    },
+    "pharmacy": {
+      "text": "药店",
+      "roman": "yàodiàn",
+      "ex": "这家药店通宵营业。",
+      "exRoman": "Zhè jiā yàodiàn tōngxiāo yíngyè."
+    },
+    "restaurant": {
+      "text": "餐厅",
+      "roman": "cāntīng",
+      "ex": "这家餐厅的汤很好喝。",
+      "exRoman": "Zhè jiā cāntīng de tāng hěn hǎohē."
+    },
+    "library": {
+      "text": "图书馆",
+      "roman": "túshūguǎn",
+      "ex": "埃利芙在图书馆学习。",
+      "exRoman": "Āilìfú zài túshūguǎn xuéxí."
+    },
+    "bakery": {
+      "text": "面包店",
+      "roman": "miànbāodiàn",
+      "ex": "面包店卖新鲜的面包。",
+      "exRoman": "Miànbāodiàn mài xīnxiān de miànbāo."
+    },
+    "cafe": {
+      "text": "咖啡馆",
+      "roman": "kāfēiguǎn",
+      "ex": "我们在咖啡馆喝咖啡。",
+      "exRoman": "Wǒmen zài kāfēiguǎn hē kāfēi."
+    },
+    "left": {
+      "text": "左",
+      "roman": "zuǒ",
+      "ex": "到了银行往左转。",
+      "exRoman": "Dàole yínháng wǎng zuǒ zhuǎn."
+    },
+    "right": {
+      "text": "右",
+      "roman": "yòu",
+      "ex": "博物馆在你的右边。",
+      "exRoman": "Bówùguǎn zài nǐ de yòubian.",
+      "note": {
+        "en": "右 is the direction. 'Correct' is a different word: 对 (duì).",
+        "tr": "右 yön demektir. 'Doğru' başka bir kelimedir: 对 (duì)."
+      }
+    },
+    "straight-ahead": {
+      "text": "一直往前",
+      "roman": "yìzhí wǎng qián",
+      "ex": "一直往前走五分钟。",
+      "exRoman": "Yìzhí wǎng qián zǒu wǔ fēnzhōng."
+    },
+    "turn": {
+      "text": "转",
+      "roman": "zhuǎn",
+      "ex": "过了公园往右转。",
+      "exRoman": "Guòle gōngyuán wǎng yòu zhuǎn.",
+      "note": {
+        "en": "To change direction. Say 往 (wǎng, towards) first: 往左转 (turn left).",
+        "tr": "Yön değiştirmek. Önce 往 (wǎng, -e doğru) gelir: 往左转 (sola dön)."
+      }
+    },
+    "corner": {
+      "text": "拐角",
+      "roman": "guǎijiǎo",
+      "ex": "拐角处有一家面包店。",
+      "exRoman": "Guǎijiǎo chù yǒu yì jiā miànbāodiàn."
+    },
+    "where": {
+      "text": "哪儿",
+      "roman": "nǎr",
+      "ex": "请问，银行在哪儿？",
+      "exRoman": "Qǐngwèn, yínháng zài nǎr?",
+      "note": {
+        "en": "Also 哪里 (nǎlǐ). 请问 (qǐngwèn) is a polite 'excuse me, may I ask'.",
+        "tr": "哪里 (nǎlǐ) da denir. 请问 (qǐngwèn) kibar bir 'affedersiniz, sorabilir miyim'."
+      }
+    },
+    "near": {
+      "text": "近",
+      "roman": "jìn",
+      "ex": "我家离公园很近。",
+      "exRoman": "Wǒ jiā lí gōngyuán hěn jìn.",
+      "note": {
+        "en": "Use 离 (lí, 'from'): A 离 B 很近 means A is near B.",
+        "tr": "离 (lí, '-den') ile kullanılır: A 离 B 很近, A B'ye yakın demektir."
+      }
+    },
+    "far": {
+      "text": "远",
+      "roman": "yuǎn",
+      "ex": "海滩离这儿远吗？",
+      "exRoman": "Hǎitān lí zhèr yuǎn ma?"
+    },
+    "in-front-of": {
+      "text": "前面",
+      "roman": "qiánmiàn",
+      "ex": "我们在图书馆前面见吧。",
+      "exRoman": "Wǒmen zài túshūguǎn qiánmiàn jiàn ba.",
+      "note": {
+        "en": "It comes after the place: 图书馆前面 (in front of the library).",
+        "tr": "Yerden sonra gelir: 图书馆前面 (kütüphanenin önünde)."
+      }
+    },
+    "behind": {
+      "text": "后面",
+      "roman": "hòumiàn",
+      "ex": "花园在房子后面。",
+      "exRoman": "Huāyuán zài fángzi hòumiàn."
+    },
+    "between": {
+      "text": "中间",
+      "roman": "zhōngjiān",
+      "ex": "银行在咖啡馆和面包店中间。",
+      "exRoman": "Yínháng zài kāfēiguǎn hé miànbāodiàn zhōngjiān."
+    },
+    "map": {
+      "text": "地图",
+      "roman": "dìtú",
+      "ex": "你有这个城市的地图吗？",
+      "exRoman": "Nǐ yǒu zhè ge chéngshì de dìtú ma?"
+    },
+    "shirt": {
+      "text": "衬衫",
+      "roman": "chènshān",
+      "ex": "阿里穿白衬衫上班。",
+      "exRoman": "Ālǐ chuān bái chènshān shàngbān."
+    },
+    "pants": {
+      "text": "裤子",
+      "roman": "kùzi",
+      "ex": "这条裤子太长了。",
+      "exRoman": "Zhè tiáo kùzi tài cháng le."
+    },
+    "dress": {
+      "text": "连衣裙",
+      "roman": "liányīqún",
+      "ex": "安娜穿着一条长连衣裙。",
+      "exRoman": "Ānnà chuānzhe yì tiáo cháng liányīqún."
+    },
+    "shoes": {
+      "text": "鞋",
+      "roman": "xié",
+      "ex": "我的鞋在床下面。",
+      "exRoman": "Wǒ de xié zài chuáng xiàmiàn.",
+      "note": {
+        "en": "A pair of shoes is 一双鞋 (yì shuāng xié).",
+        "tr": "Bir çift ayakkabı 一双鞋 (yì shuāng xié) olur."
+      }
+    },
+    "jacket": {
+      "text": "外套",
+      "roman": "wàitào",
+      "ex": "带上你的外套，天很冷。",
+      "exRoman": "Dàishang nǐ de wàitào, tiān hěn lěng."
+    },
+    "wear": {
+      "text": "穿",
+      "roman": "chuān",
+      "ex": "我冬天穿外套。",
+      "exRoman": "Wǒ dōngtiān chuān wàitào.",
+      "note": {
+        "en": "穿 is for clothes and shoes. For hats and glasses use 戴 (dài).",
+        "tr": "穿 giysi ve ayakkabı içindir. Şapka ve gözlük için 戴 (dài) kullanılır."
+      }
+    },
+    "red": {
+      "text": "红色",
+      "roman": "hóngsè",
+      "ex": "我要那件红色的衬衫。",
+      "exRoman": "Wǒ yào nà jiàn hóngsè de chènshān.",
+      "note": {
+        "en": "Before a noun add 的 (红色的衬衫) or drop 色: 红衬衫 (a red shirt).",
+        "tr": "İsimden önce 的 eklenir (红色的衬衫) ya da 色 düşer: 红衬衫 (kırmızı gömlek)."
+      }
+    },
+    "blue": {
+      "text": "蓝色",
+      "roman": "lánsè",
+      "ex": "艾玛的眼睛是蓝色的。",
+      "exRoman": "Àimǎ de yǎnjing shì lánsè de."
+    },
+    "green": {
+      "text": "绿色",
+      "roman": "lǜsè",
+      "ex": "我喜欢绿色的苹果。",
+      "exRoman": "Wǒ xǐhuan lǜsè de píngguǒ."
+    },
+    "yellow": {
+      "text": "黄色",
+      "roman": "huángsè",
+      "ex": "我姐姐喜欢黄色的花。",
+      "exRoman": "Wǒ jiějie xǐhuan huángsè de huā."
+    },
+    "black": {
+      "text": "黑色",
+      "roman": "hēisè",
+      "ex": "汤姆有一只黑色的狗。",
+      "exRoman": "Tāngmǔ yǒu yì zhī hēisè de gǒu."
+    },
+    "white": {
+      "text": "白色",
+      "roman": "báisè",
+      "ex": "我房间的墙是白色的。",
+      "exRoman": "Wǒ fángjiān de qiáng shì báisè de."
+    },
+    "price": {
+      "text": "价格",
+      "roman": "jiàgé",
+      "ex": "这个包的价格是多少？",
+      "exRoman": "Zhè ge bāo de jiàgé shì duōshao?"
+    },
+    "how-much-is-it": {
+      "text": "多少钱？",
+      "roman": "duōshao qián?",
+      "ex": "这件T恤很好看。多少钱？",
+      "exRoman": "Zhè jiàn T xù hěn hǎokàn. Duōshao qián?"
+    },
+    "cheap": {
+      "text": "便宜",
+      "roman": "piányi",
+      "ex": "这双鞋很便宜。",
+      "exRoman": "Zhè shuāng xié hěn piányi."
+    },
+    "expensive": {
+      "text": "贵",
+      "roman": "guì",
+      "ex": "那件外套太贵了。",
+      "exRoman": "Nà jiàn wàitào tài guì le."
+    },
+    "pay": {
+      "text": "付钱",
+      "roman": "fù qián",
+      "ex": "我可以刷卡付钱吗？",
+      "exRoman": "Wǒ kěyǐ shuākǎ fù qián ma?"
+    },
+    "money": {
+      "text": "钱",
+      "roman": "qián",
+      "ex": "我没有很多钱。",
+      "exRoman": "Wǒ méiyǒu hěn duō qián."
+    },
+    "shop": {
+      "text": "商店",
+      "roman": "shāngdiàn",
+      "ex": "商店八点关门。",
+      "exRoman": "Shāngdiàn bā diǎn guānmén."
+    },
+    "buy": {
+      "text": "买",
+      "roman": "mǎi",
+      "ex": "我想买一个新包。",
+      "exRoman": "Wǒ xiǎng mǎi yí ge xīn bāo."
+    },
+    "sell": {
+      "text": "卖",
+      "roman": "mài",
+      "ex": "这里卖鞋和包。",
+      "exRoman": "Zhèlǐ mài xié hé bāo.",
+      "note": {
+        "en": "买 (mǎi, buy) and 卖 (mài, sell) differ only in their tone.",
+        "tr": "买 (mǎi, almak) ile 卖 (mài, satmak) yalnızca tonlarıyla ayrılır."
+      }
+    },
+    "size": {
+      "text": "尺码",
+      "roman": "chǐmǎ",
+      "ex": "这个有大一点的尺码吗？",
+      "exRoman": "Zhè ge yǒu dà yìdiǎn de chǐmǎ ma?",
+      "note": {
+        "en": "The size of clothes or shoes. In shops you also hear 号 (hào): 大号 is a large.",
+        "tr": "Giysi ya da ayakkabı bedeni. Mağazada 号 (hào) da duyarsın: 大号 büyük beden."
+      }
+    },
+    "try-on": {
+      "text": "试穿",
+      "roman": "shìchuān",
+      "ex": "我可以试穿这条连衣裙吗？",
+      "exRoman": "Wǒ kěyǐ shìchuān zhè tiáo liányīqún ma?"
+    },
+    "bag": {
+      "text": "包",
+      "roman": "bāo",
+      "ex": "把你的包放在椅子上。",
+      "exRoman": "Bǎ nǐ de bāo fàng zài yǐzi shang."
+    },
+    "weather": {
+      "text": "天气",
+      "roman": "tiānqì",
+      "ex": "今天天气很好。",
+      "exRoman": "Jīntiān tiānqì hěn hǎo."
+    },
+    "sun": {
+      "text": "太阳",
+      "roman": "tàiyáng",
+      "ex": "马德里出太阳了。",
+      "exRoman": "Mǎdélǐ chū tàiyáng le.",
+      "note": {
+        "en": "出太阳了 (chū tàiyáng le), 'the sun has come out', is how you say the sun is shining.",
+        "tr": "出太阳了 (chū tàiyáng le), 'güneş çıktı', güneşin parladığını böyle söylersin."
+      }
+    },
+    "rain": {
+      "text": "雨",
+      "roman": "yǔ",
+      "ex": "伦敦的雨很多。",
+      "exRoman": "Lúndūn de yǔ hěn duō.",
+      "note": {
+        "en": "It is raining: 下雨 (xià yǔ), word for word 'rain falls'.",
+        "tr": "Yağmur yağıyor: 下雨 (xià yǔ), kelimesi kelimesine 'yağmur iner'."
+      }
+    },
+    "snow": {
+      "text": "雪",
+      "roman": "xuě",
+      "ex": "孩子们正在雪地里玩。",
+      "exRoman": "Háizimen zhèngzài xuědì lǐ wán."
+    },
+    "wind": {
+      "text": "风",
+      "roman": "fēng",
+      "ex": "今天的风很冷。",
+      "exRoman": "Jīntiān de fēng hěn lěng."
+    },
+    "cloud": {
+      "text": "云",
+      "roman": "yún",
+      "ex": "天上一朵云也没有。",
+      "exRoman": "Tiān shang yì duǒ yún yě méiyǒu."
+    },
+    "hot": {
+      "text": "热",
+      "roman": "rè",
+      "ex": "夏天天气很热。",
+      "exRoman": "Xiàtiān tiānqì hěn rè."
+    },
+    "cold": {
+      "text": "冷",
+      "roman": "lěng",
+      "ex": "今天外面很冷。",
+      "exRoman": "Jīntiān wàimiàn hěn lěng.",
+      "note": {
+        "en": "Of the weather or of feeling cold. A cool drink is 凉 (liáng).",
+        "tr": "Hava ya da üşümek için. Soğuk bir içecek 凉 (liáng) olur."
+      }
+    },
+    "sky": {
+      "text": "天空",
+      "roman": "tiānkōng",
+      "ex": "今天天空是灰色的。",
+      "exRoman": "Jīntiān tiānkōng shì huīsè de."
+    },
+    "umbrella": {
+      "text": "雨伞",
+      "roman": "yǔsǎn",
+      "ex": "带把雨伞吧，正在下雨。",
+      "exRoman": "Dài bǎ yǔsǎn ba, zhèngzài xià yǔ."
+    },
+    "wet": {
+      "text": "湿",
+      "roman": "shī",
+      "ex": "我的头发被雨淋湿了。",
+      "exRoman": "Wǒ de tóufa bèi yǔ lín shī le."
+    },
+    "degree": {
+      "text": "度",
+      "roman": "dù",
+      "ex": "今天三十度。",
+      "exRoman": "Jīntiān sānshí dù."
+    },
+    "season": {
+      "text": "季节",
+      "roman": "jìjié",
+      "ex": "春天是我最喜欢的季节。",
+      "exRoman": "Chūntiān shì wǒ zuì xǐhuan de jìjié."
+    },
+    "spring": {
+      "text": "春天",
+      "roman": "chūntiān",
+      "ex": "花在春天开。",
+      "exRoman": "Huā zài chūntiān kāi."
+    },
+    "summer": {
+      "text": "夏天",
+      "roman": "xiàtiān",
+      "ex": "我们夏天去海滩。",
+      "exRoman": "Wǒmen xiàtiān qù hǎitān."
+    },
+    "fall": {
+      "text": "秋天",
+      "roman": "qiūtiān",
+      "ex": "秋天叶子是黄色的。",
+      "exRoman": "Qiūtiān yèzi shì huángsè de."
+    },
+    "winter": {
+      "text": "冬天",
+      "roman": "dōngtiān",
+      "ex": "首尔的冬天很冷。",
+      "exRoman": "Shǒu'ěr de dōngtiān hěn lěng."
+    },
+    "flower": {
+      "text": "花",
+      "roman": "huā",
+      "ex": "我妈妈很喜欢花。",
+      "exRoman": "Wǒ māma hěn xǐhuan huā."
+    },
+    "outside": {
+      "text": "外面",
+      "roman": "wàimiàn",
+      "ex": "我们今天在外面吃吧。",
+      "exRoman": "Wǒmen jīntiān zài wàimiàn chī ba."
+    },
+    "inside": {
+      "text": "屋里",
+      "roman": "wūli",
+      "ex": "下雨了，所以我们待在屋里。",
+      "exRoman": "Xià yǔ le, suǒyǐ wǒmen dāi zài wūli.",
+      "note": {
+        "en": "Inside a house or a room. Inside in general is 里面 (lǐmiàn).",
+        "tr": "Evin ya da odanın içinde. Genel olarak 'içeride' 里面 (lǐmiàn) olur."
+      }
+    },
+    "beach": {
+      "text": "海滩",
+      "roman": "hǎitān",
+      "ex": "埃利芙正在海滩上看书。",
+      "exRoman": "Āilìfú zhèngzài hǎitān shang kàn shū."
+    },
+    "swim": {
+      "text": "游泳",
+      "roman": "yóuyǒng",
+      "ex": "阿里正在海里游泳。",
+      "exRoman": "Ālǐ zhèngzài hǎi lǐ yóuyǒng."
+    },
+    "walk": {
+      "text": "散步",
+      "roman": "sànbù",
+      "ex": "我和安娜正在海边散步。",
+      "exRoman": "Wǒ hé Ānnà zhèngzài hǎibiān sànbù.",
+      "note": {
+        "en": "To walk for pleasure. Walking to get somewhere is 走路 (zǒulù).",
+        "tr": "Keyif için yürümek. Bir yere gitmek için yürümek 走路 (zǒulù) olur."
+      }
+    },
+    "stay": {
+      "text": "待",
+      "roman": "dāi",
+      "ex": "我今天待在家里。",
+      "exRoman": "Wǒ jīntiān dāi zài jiā lǐ.",
+      "note": {
+        "en": "To stay in a place: 待在家里 (stay at home).",
+        "tr": "Bir yerde kalmak: 待在家里 (evde kalmak)."
+      }
+    },
+    "bus": {
+      "text": "公交车",
+      "roman": "gōngjiāochē",
+      "ex": "今天早上公交车很挤。",
+      "exRoman": "Jīntiān zǎoshang gōngjiāochē hěn jǐ."
+    },
+    "train": {
+      "text": "火车",
+      "roman": "huǒchē",
+      "ex": "去马德里的火车非常快。",
+      "exRoman": "Qù Mǎdélǐ de huǒchē fēicháng kuài."
+    },
+    "car": {
+      "text": "汽车",
+      "roman": "qìchē",
+      "ex": "我的第一辆汽车是红色的。",
+      "exRoman": "Wǒ de dì yī liàng qìchē shì hóngsè de."
+    },
+    "bike": {
+      "text": "自行车",
+      "roman": "zìxíngchē",
+      "ex": "我骑自行车去上班。",
+      "exRoman": "Wǒ qí zìxíngchē qù shàngbān."
+    },
+    "taxi": {
+      "text": "出租车",
+      "roman": "chūzūchē",
+      "ex": "坐出租车非常贵。",
+      "exRoman": "Zuò chūzūchē fēicháng guì."
+    },
+    "plane": {
+      "text": "飞机",
+      "roman": "fēijī",
+      "ex": "我们在飞机上坐了十二个小时。",
+      "exRoman": "Wǒmen zài fēijī shang zuòle shí'èr ge xiǎoshí."
+    },
+    "ticket": {
+      "text": "票",
+      "roman": "piào",
+      "ex": "这是你的火车票吗？",
+      "exRoman": "Zhè shì nǐ de huǒchē piào ma?"
+    },
+    "station": {
+      "text": "车站",
+      "roman": "chēzhàn",
+      "ex": "车站里都是人。",
+      "exRoman": "Chēzhàn lǐ dōu shì rén."
+    },
+    "airport": {
+      "text": "机场",
+      "roman": "jīchǎng",
+      "ex": "机场离市区很远。",
+      "exRoman": "Jīchǎng lí shìqū hěn yuǎn."
+    },
+    "passport": {
+      "text": "护照",
+      "roman": "hùzhào",
+      "ex": "你的护照刚才在桌子上。",
+      "exRoman": "Nǐ de hùzhào gāngcái zài zhuōzi shang."
+    },
+    "early": {
+      "text": "早",
+      "roman": "zǎo",
+      "ex": "我每个星期一都醒得很早。",
+      "exRoman": "Wǒ měi ge xīngqīyī dōu xǐng de hěn zǎo."
+    },
+    "late": {
+      "text": "迟到",
+      "roman": "chídào",
+      "ex": "对不起，我今天迟到了。",
+      "exRoman": "Duìbuqǐ, wǒ jīntiān chídào le.",
+      "note": {
+        "en": "迟到 is for a person who arrives late. A late train or plane is 晚点 (wǎndiǎn).",
+        "tr": "迟到 geç kalan bir insan için. Geç kalan tren ya da uçak için 晚点 (wǎndiǎn) denir."
+      }
+    },
+    "hotel": {
+      "text": "酒店",
+      "roman": "jiǔdiàn",
+      "ex": "我们的酒店离海很近。",
+      "exRoman": "Wǒmen de jiǔdiàn lí hǎi hěn jìn."
+    },
+    "suitcase": {
+      "text": "行李箱",
+      "roman": "xínglixiāng",
+      "ex": "我的行李箱很重。",
+      "exRoman": "Wǒ de xínglixiāng hěn zhòng."
+    },
+    "floor": {
+      "text": "层",
+      "roman": "céng",
+      "ex": "我们的房间在第五层。",
+      "exRoman": "Wǒmen de fángjiān zài dì wǔ céng.",
+      "note": {
+        "en": "A level of a building. People also say 五楼 (wǔ lóu) for the fifth floor.",
+        "tr": "Binanın katı. Beşinci kat için 五楼 (wǔ lóu) da denir."
+      }
+    },
+    "view": {
+      "text": "风景",
+      "roman": "fēngjǐng",
+      "ex": "窗外的风景很美。",
+      "exRoman": "Chuāng wài de fēngjǐng hěn měi."
+    },
+    "comfortable": {
+      "text": "舒服",
+      "roman": "shūfu",
+      "ex": "床都很舒服。",
+      "exRoman": "Chuáng dōu hěn shūfu."
+    },
+    "quiet": {
+      "text": "安静",
+      "roman": "ānjìng",
+      "ex": "酒店又干净又安静。",
+      "exRoman": "Jiǔdiàn yòu gānjìng yòu ānjìng."
+    },
+    "vacation": {
+      "text": "假期",
+      "roman": "jiàqī",
+      "ex": "我们的假期太短了。",
+      "exRoman": "Wǒmen de jiàqī tài duǎn le."
+    },
+    "sea": {
+      "text": "大海",
+      "roman": "dàhǎi",
+      "ex": "大海很温暖，也很蓝。",
+      "exRoman": "Dàhǎi hěn wēnnuǎn, yě hěn lán.",
+      "note": {
+        "en": "In short phrases 海 (hǎi) alone: 海边 (by the sea).",
+        "tr": "Kısa söyleyişlerde yalnızca 海 (hǎi): 海边 (deniz kenarı)."
+      }
+    },
+    "mountain": {
+      "text": "山",
+      "roman": "shān",
+      "ex": "山上全是白雪。",
+      "exRoman": "Shān shang quán shì báixuě."
+    },
+    "photo": {
+      "text": "照片",
+      "roman": "zhàopiàn",
+      "ex": "这张照片是在东京拍的。",
+      "exRoman": "Zhè zhāng zhàopiàn shì zài Dōngjīng pāi de."
+    },
+    "visit": {
+      "text": "参观",
+      "roman": "cānguān",
+      "ex": "游客每天参观博物馆。",
+      "exRoman": "Yóukè měi tiān cānguān bówùguǎn.",
+      "note": {
+        "en": "参观 is for visiting a place. To visit a person, say 去看 (qù kàn).",
+        "tr": "参观 bir yeri gezmek içindir. Birini ziyaret etmek için 去看 (qù kàn) denir."
+      }
+    },
+    "wonderful": {
+      "text": "美好",
+      "roman": "měihǎo",
+      "ex": "海滩上的那一天很美好。",
+      "exRoman": "Hǎitān shang de nà yì tiān hěn měihǎo."
+    },
+    "yesterday": {
+      "text": "昨天",
+      "roman": "zuótiān",
+      "ex": "我昨天见到了埃利芙。",
+      "exRoman": "Wǒ zuótiān jiàndàole Āilìfú."
+    },
+    "last-night": {
+      "text": "昨晚",
+      "roman": "zuówǎn",
+      "ex": "昨晚我们看了一部电影。",
+      "exRoman": "Zuówǎn wǒmen kànle yí bù diànyǐng."
+    },
+    "last-week": {
+      "text": "上个星期",
+      "roman": "shàng ge xīngqī",
+      "ex": "上个星期汤姆去了巴黎。",
+      "exRoman": "Shàng ge xīngqī Tāngmǔ qùle Bālí.",
+      "note": {
+        "en": "上 (shàng, up) is the last one; 下 (xià, down) is the next one: 下个星期 (next week).",
+        "tr": "上 (shàng, yukarı) geçen demektir; 下 (xià, aşağı) gelecek: 下个星期 (gelecek hafta)."
+      }
+    },
+    "last-year": {
+      "text": "去年",
+      "roman": "qùnián",
+      "ex": "我们去年搬到了柏林。",
+      "exRoman": "Wǒmen qùnián bāndàole Bólín."
+    },
+    "ago": {
+      "text": "以前",
+      "roman": "yǐqián",
+      "ex": "我两年以前开始做这份工作。",
+      "exRoman": "Wǒ liǎng nián yǐqián kāishǐ zuò zhè fèn gōngzuò.",
+      "note": {
+        "en": "It comes after the time: 两天以前 (two days ago). People often shorten it to 前.",
+        "tr": "Zamandan sonra gelir: 两天以前 (iki gün önce). Çoğu zaman 前 diye kısaltılır."
+      }
+    },
+    "then": {
+      "text": "然后",
+      "roman": "ránhòu",
+      "ex": "我们吃了午饭，然后去散步了。",
+      "exRoman": "Wǒmen chīle wǔfàn, ránhòu qù sànbù le.",
+      "note": {
+        "en": "After that, next in time.",
+        "tr": "Ondan sonra, sırada sonra gelen."
+      }
+    },
+    "meet": {
+      "text": "见面",
+      "roman": "jiànmiàn",
+      "ex": "我和泽伊内普在咖啡馆见了面。",
+      "exRoman": "Wǒ hé Zéyīnèipǔ zài kāfēiguǎn jiànle miàn.",
+      "note": {
+        "en": "To meet someone you know. 了 can go inside it: 见了面 (met). Meeting someone new is 认识 (rènshi).",
+        "tr": "Tanıdığın biriyle buluşmak. 了 araya girebilir: 见了面 (buluştuk). Yeni biriyle tanışmak 认识 (rènshi)."
+      }
+    },
+    "see": {
+      "text": "看见",
+      "roman": "kànjiàn",
+      "ex": "我在公园看见你哥哥了。",
+      "exRoman": "Wǒ zài gōngyuán kànjiàn nǐ gēge le."
+    },
+    "dance": {
+      "text": "跳舞",
+      "roman": "tiàowǔ",
+      "ex": "我们跳舞跳了一整晚。",
+      "exRoman": "Wǒmen tiàowǔ tiàole yì zhěng wǎn."
+    },
+    "sing": {
+      "text": "唱歌",
+      "roman": "chànggē",
+      "ex": "米娅给我们唱了一首歌。",
+      "exRoman": "Mǐyà gěi wǒmen chàngle yì shǒu gē.",
+      "note": {
+        "en": "唱歌 is 'sing a song'. For one song it opens up: 唱了一首歌 (sang a song).",
+        "tr": "唱歌 'şarkı söylemek'. Tek bir şarkı için ikiye ayrılır: 唱了一首歌 (bir şarkı söyledi)."
+      }
+    },
+    "party": {
+      "text": "聚会",
+      "roman": "jùhuì",
+      "ex": "聚会是在利奥家办的。",
+      "exRoman": "Jùhuì shì zài Lì'ào jiā bàn de."
+    },
+    "have-fun": {
+      "text": "玩得开心",
+      "roman": "wán de kāixīn",
+      "ex": "孩子们玩得非常开心。",
+      "exRoman": "Háizimen wán de fēicháng kāixīn.",
+      "note": {
+        "en": "Word for word 'play happily'. Add 很 or 非常 (very) before 开心: 玩得非常开心. 玩得开心！ also wishes a friend a good time.",
+        "tr": "Kelimesi kelimesine 'mutlu oynamak'. 开心'den önce 很 ya da 非常 (çok) gelebilir: 玩得非常开心. 玩得开心！ bir arkadaşa 'iyi eğlenceler' demektir."
+      }
+    },
+    "cook": {
+      "text": "做饭",
+      "roman": "zuòfàn",
+      "ex": "我爸爸给我们做了鱼。",
+      "exRoman": "Wǒ bàba gěi wǒmen zuòle yú.",
+      "note": {
+        "en": "做饭 is to cook a meal. To cook a dish, put the dish after 做: 做了鱼 (cooked fish).",
+        "tr": "做饭 yemek pişirmektir. Belli bir yemek için yemek 做'dan sonra gelir: 做了鱼 (balık pişirdi)."
+      }
+    },
+    "wash": {
+      "text": "洗",
+      "roman": "xǐ",
+      "ex": "我星期天洗了车。",
+      "exRoman": "Wǒ xīngqītiān xǐle chē."
+    },
+    "call": {
+      "text": "打电话",
+      "roman": "dǎ diànhuà",
+      "ex": "昨晚我给奶奶打了电话。",
+      "exRoman": "Zuówǎn wǒ gěi nǎinai dǎle diànhuà.",
+      "note": {
+        "en": "To phone someone: 给 (gěi) + the person + 打电话. For the past, 了 goes after 打: 给奶奶打了电话 (called grandma).",
+        "tr": "Birini telefonla aramak: 给 (gěi) + kişi + 打电话. Geçmiş için 了, 打'dan sonra gelir: 给奶奶打了电话 (babaanneyi aradı)."
+      }
+    },
+    "write": {
+      "text": "写",
+      "roman": "xiě",
+      "ex": "安娜写了一封很长的邮件。",
+      "exRoman": "Ānnà xiěle yì fēng hěn cháng de yóujiàn."
+    },
+    "listen": {
+      "text": "听",
+      "roman": "tīng",
+      "ex": "我们听了一整天音乐。",
+      "exRoman": "Wǒmen tīngle yì zhěng tiān yīnyuè."
+    },
+    "music": {
+      "text": "音乐",
+      "roman": "yīnyuè",
+      "ex": "我喜欢安静的音乐。",
+      "exRoman": "Wǒ xǐhuan ānjìng de yīnyuè."
+    },
+    "tired": {
+      "text": "累",
+      "roman": "lèi",
+      "ex": "下班以后我很累。",
+      "exRoman": "Xiàbān yǐhòu wǒ hěn lèi."
+    },
+    "forget": {
+      "text": "忘",
+      "roman": "wàng",
+      "ex": "我把雨伞忘在家里了。",
+      "exRoman": "Wǒ bǎ yǔsǎn wàng zài jiā lǐ le."
+    },
+    "lose": {
+      "text": "丢",
+      "roman": "diū",
+      "ex": "萨姆昨天丢了钥匙。",
+      "exRoman": "Sàmǔ zuótiān diūle yàoshi."
+    },
+    "find": {
+      "text": "找到",
+      "roman": "zhǎodào",
+      "ex": "我在床下面找到了手机。",
+      "exRoman": "Wǒ zài chuáng xiàmiàn zhǎodàole shǒujī.",
+      "note": {
+        "en": "找 (zhǎo) is to look for. 找到 is to look and find.",
+        "tr": "找 (zhǎo) aramaktır. 找到 arayıp bulmaktır."
+      }
+    },
+    "finish": {
+      "text": "完成",
+      "roman": "wánchéng",
+      "ex": "我们九点完成了作业。",
+      "exRoman": "Wǒmen jiǔ diǎn wánchéngle zuòyè."
+    },
+    "start": {
+      "text": "开始",
+      "roman": "kāishǐ",
+      "ex": "电影是八点开始的。",
+      "exRoman": "Diànyǐng shì bā diǎn kāishǐ de."
+    },
+    "tomorrow": {
+      "text": "明天",
+      "roman": "míngtiān",
+      "ex": "明天我要去看奶奶。",
+      "exRoman": "Míngtiān wǒ yào qù kàn nǎinai."
+    },
+    "tonight": {
+      "text": "今晚",
+      "roman": "jīnwǎn",
+      "ex": "今晚我们要看电影。",
+      "exRoman": "Jīnwǎn wǒmen yào kàn diànyǐng."
+    },
+    "next-week": {
+      "text": "下个星期",
+      "roman": "xià ge xīngqī",
+      "ex": "下个星期我要开始一份新工作。",
+      "exRoman": "Xià ge xīngqī wǒ yào kāishǐ yí fèn xīn gōngzuò."
+    },
+    "next-year": {
+      "text": "明年",
+      "roman": "míngnián",
+      "ex": "明年我们要搬到首尔。",
+      "exRoman": "Míngnián wǒmen yào bāndào Shǒu'ěr."
+    },
+    "soon": {
+      "text": "很快",
+      "roman": "hěn kuài",
+      "ex": "我姐姐很快就要来看我们了。",
+      "exRoman": "Wǒ jiějie hěn kuài jiù yào lái kàn wǒmen le.",
+      "note": {
+        "en": "很快 also means 'very fast'. Before 就 and a verb it means 'soon'.",
+        "tr": "很快 'çok hızlı' da demektir. 就 ve bir fiilden önce 'yakında' anlamına gelir."
+      }
+    },
+    "plan": {
+      "text": "计划",
+      "roman": "jìhuà",
+      "ex": "你星期六有什么计划？",
+      "exRoman": "Nǐ xīngqīliù yǒu shénme jìhuà?"
+    },
+    "invite": {
+      "text": "邀请",
+      "roman": "yāoqǐng",
+      "ex": "我想邀请你吃晚饭。",
+      "exRoman": "Wǒ xiǎng yāoqǐng nǐ chī wǎnfàn.",
+      "note": {
+        "en": "In everyday talk people often just say 请 (qǐng): 我请你吃晚饭.",
+        "tr": "Günlük dilde çoğu zaman yalnızca 请 (qǐng) denir: 我请你吃晚饭."
+      }
+    },
+    "would-you-like": {
+      "text": "你想……吗？",
+      "roman": "nǐ xiǎng ... ma?",
+      "ex": "你想喝点茶吗？",
+      "exRoman": "Nǐ xiǎng hē diǎn chá ma?",
+      "note": {
+        "en": "Put what you offer between 想 and 吗: 你想来吗？ (would you like to come?)",
+        "tr": "Önerdiğin şeyi 想 ile 吗 arasına koy: 你想来吗？ (gelmek ister misin?)"
+      }
+    },
+    "come": {
+      "text": "来",
+      "roman": "lái",
+      "ex": "你想来我的聚会吗？",
+      "exRoman": "Nǐ xiǎng lái wǒ de jùhuì ma?"
+    },
+    "free": {
+      "text": "有空",
+      "roman": "yǒu kòng",
+      "ex": "你星期五晚上有空吗？",
+      "exRoman": "Nǐ xīngqīwǔ wǎnshang yǒu kòng ma?",
+      "note": {
+        "en": "Free as in 'not busy', word for word 'have free time'. Free of charge is 免费 (miǎnfèi).",
+        "tr": "Meşgul olmayan anlamında boş, kelimesi kelimesine 'boş vakti var'. Ücretsiz 免费 (miǎnfèi) olur."
+      }
+    },
+    "busy": {
+      "text": "忙",
+      "roman": "máng",
+      "ex": "对不起，我明天很忙。",
+      "exRoman": "Duìbuqǐ, wǒ míngtiān hěn máng."
+    },
+    "concert": {
+      "text": "音乐会",
+      "roman": "yīnyuèhuì",
+      "ex": "今晚公园里有一场音乐会。",
+      "exRoman": "Jīnwǎn gōngyuán lǐ yǒu yì chǎng yīnyuèhuì."
+    },
+    "of-course": {
+      "text": "当然",
+      "roman": "dāngrán",
+      "ex": "我当然会来！",
+      "exRoman": "Wǒ dāngrán huì lái!"
+    },
+    "good-idea": {
+      "text": "好主意",
+      "roman": "hǎo zhǔyi",
+      "ex": "星期天去野餐？好主意！",
+      "exRoman": "Xīngqītiān qù yěcān? Hǎo zhǔyi!"
+    },
+    "maybe": {
+      "text": "也许",
+      "roman": "yěxǔ",
+      "ex": "也许我晚点来。",
+      "exRoman": "Yěxǔ wǒ wǎn diǎn lái."
+    },
+    "unfortunately": {
+      "text": "可惜",
+      "roman": "kěxī",
+      "ex": "可惜，商店今天不开门。",
+      "exRoman": "Kěxī, shāngdiàn jīntiān bù kāimén."
+    },
+    "another-time": {
+      "text": "下次",
+      "roman": "xià cì",
+      "ex": "对不起，我来不了。下次吧？",
+      "exRoman": "Duìbuqǐ, wǒ lái bu liǎo. Xià cì ba?",
+      "note": {
+        "en": "下次 means 'next time', the usual way to say 'another time'.",
+        "tr": "下次 'bir dahaki sefere' demektir; 'başka zaman' böyle söylenir."
+      }
+    },
+    "i-would-love-to": {
+      "text": "我很乐意",
+      "roman": "wǒ hěn lèyì",
+      "ex": "星期六吃晚饭？我很乐意！",
+      "exRoman": "Xīngqīliù chī wǎnfàn? Wǒ hěn lèyì!",
+      "note": {
+        "en": "A warm yes to an invitation. Among friends you also hear 好啊！ (hǎo a!).",
+        "tr": "Bir davete sıcak bir evet. Arkadaşlar arasında 好啊！ (hǎo a!) da duyarsın."
+      }
+    },
+    "learn": {
+      "text": "学",
+      "roman": "xué",
+      "ex": "我想学做饭。",
+      "exRoman": "Wǒ xiǎng xué zuòfàn."
+    },
+    "travel": {
+      "text": "旅行",
+      "roman": "lǚxíng",
+      "ex": "艾玛要去东京旅行。",
+      "exRoman": "Àimǎ yào qù Dōngjīng lǚxíng."
+    },
+    "rest": {
+      "text": "休息",
+      "roman": "xiūxi",
+      "ex": "这个周末我要休息。",
+      "exRoman": "Zhè ge zhōumò wǒ yào xiūxi."
+    },
+    "celebrate": {
+      "text": "庆祝",
+      "roman": "qìngzhù",
+      "ex": "我们要庆祝她的生日。",
+      "exRoman": "Wǒmen yào qìngzhù tā de shēngrì."
+    },
+    "bring": {
+      "text": "带",
+      "roman": "dài",
+      "ex": "我会带一个蛋糕。",
+      "exRoman": "Wǒ huì dài yí ge dàngāo."
+    },
+    "ready": {
+      "text": "准备好",
+      "roman": "zhǔnbèi hǎo",
+      "ex": "你准备好去旅行了吗？",
+      "exRoman": "Nǐ zhǔnbèi hǎo qù lǚxíng le ma?"
+    }
+  },
+  "sentences": {
+    "u01-1-a": {
+      "tokens": [
+        "早上好，",
+        "泽伊内普",
+        "和",
+        "阿里！"
+      ],
+      "gap": 0,
+      "wrong": [
+        "晚上好",
+        "晚安",
+        "再见"
+      ],
+      "roman": "Zǎoshang hǎo, Zéyīnèipǔ hé Ālǐ!",
+      "tokenRoman": [
+        "Zǎoshang hǎo,",
+        "Zéyīnèipǔ",
+        "hé",
+        "Ālǐ!"
+      ],
+      "wrongRoman": [
+        "wǎnshang hǎo",
+        "wǎn'ān",
+        "zàijiàn"
+      ]
+    },
+    "u01-1-b": {
+      "tokens": [
+        "你好，",
+        "萨姆，",
+        "你",
+        "怎么样？"
+      ],
+      "gap": 3,
+      "wrong": [
+        "哪儿",
+        "什么",
+        "多少"
+      ],
+      "roman": "Nǐ hǎo, Sàmǔ, nǐ zěnmeyàng?",
+      "tokenRoman": [
+        "Nǐ hǎo,",
+        "Sàmǔ,",
+        "nǐ",
+        "zěnmeyàng?"
+      ],
+      "wrongRoman": [
+        "nǎr",
+        "shénme",
+        "duōshao"
+      ]
+    },
+    "u01-2-a": {
+      "tokens": [
+        "晚安，",
+        "米娅",
+        "和",
+        "利奥。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "早上好",
+        "你好",
+        "谢谢"
+      ],
+      "roman": "Wǎn'ān, Mǐyà hé Lì'ào.",
+      "tokenRoman": [
+        "Wǎn'ān,",
+        "Mǐyà",
+        "hé",
+        "Lì'ào."
+      ],
+      "wrongRoman": [
+        "zǎoshang hǎo",
+        "nǐ hǎo",
+        "xièxie"
+      ]
+    },
+    "u01-2-b": {
+      "tokens": [
+        "明天",
+        "见，",
+        "汤姆。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "昨天",
+        "去年",
+        "前天"
+      ],
+      "roman": "Míngtiān jiàn, Tāngmǔ.",
+      "tokenRoman": [
+        "Míngtiān",
+        "jiàn,",
+        "Tāngmǔ."
+      ],
+      "wrongRoman": [
+        "zuótiān",
+        "qùnián",
+        "qiántiān"
+      ]
+    },
+    "u01-3-a": {
+      "tokens": [
+        "很",
+        "高兴",
+        "认识",
+        "你，",
+        "汤姆。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "吃",
+        "喝",
+        "去"
+      ],
+      "roman": "Hěn gāoxìng rènshi nǐ, Tāngmǔ.",
+      "tokenRoman": [
+        "Hěn",
+        "gāoxìng",
+        "rènshi",
+        "nǐ,",
+        "Tāngmǔ."
+      ],
+      "wrongRoman": [
+        "chī",
+        "hē",
+        "qù"
+      ]
+    },
+    "u01-3-b": {
+      "tokens": [
+        "安娜",
+        "是",
+        "来自",
+        "柏林",
+        "的",
+        "老师。"
+      ],
+      "gap": 5,
+      "wrong": [
+        "学生",
+        "医生",
+        "邻居"
+      ],
+      "roman": "Ānnà shì láizì Bólín de lǎoshī.",
+      "tokenRoman": [
+        "Ānnà",
+        "shì",
+        "láizì",
+        "Bólín",
+        "de",
+        "lǎoshī."
+      ],
+      "wrongRoman": [
+        "xuésheng",
+        "yīshēng",
+        "línjū"
+      ]
+    },
+    "u01-4-a": {
+      "tokens": [
+        "请",
+        "给",
+        "我",
+        "两",
+        "杯",
+        "茶。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "对不起",
+        "不客气",
+        "再见"
+      ],
+      "roman": "Qǐng gěi wǒ liǎng bēi chá.",
+      "tokenRoman": [
+        "Qǐng",
+        "gěi",
+        "wǒ",
+        "liǎng",
+        "bēi",
+        "chá."
+      ],
+      "wrongRoman": [
+        "duìbuqǐ",
+        "bú kèqi",
+        "zàijiàn"
+      ]
+    },
+    "u01-4-b": {
+      "tokens": [
+        "太",
+        "谢谢",
+        "你",
+        "了，",
+        "埃姆雷。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "再见",
+        "你好",
+        "晚安"
+      ],
+      "roman": "Tài xièxie nǐ le, Āimǔléi.",
+      "tokenRoman": [
+        "Tài",
+        "xièxie",
+        "nǐ",
+        "le,",
+        "Āimǔléi."
+      ],
+      "wrongRoman": [
+        "zàijiàn",
+        "nǐ hǎo",
+        "wǎn'ān"
+      ]
+    },
+    "u02-1-a": {
+      "tokens": [
+        "我",
+        "妈妈",
+        "和",
+        "爸爸",
+        "都",
+        "是",
+        "老师。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "奶奶",
+        "姐姐",
+        "女儿"
+      ],
+      "roman": "Wǒ māma hé bàba dōu shì lǎoshī.",
+      "tokenRoman": [
+        "Wǒ",
+        "māma",
+        "hé",
+        "bàba",
+        "dōu",
+        "shì",
+        "lǎoshī."
+      ],
+      "wrongRoman": [
+        "nǎinai",
+        "jiějie",
+        "nǚ'ér"
+      ],
+      "orders": [
+        [
+          0,
+          3,
+          2,
+          1,
+          4,
+          5,
+          6
+        ]
+      ]
+    },
+    "u02-1-b": {
+      "tokens": [
+        "泽伊内普",
+        "有",
+        "一个",
+        "哥哥。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "姐姐",
+        "爷爷",
+        "奶奶"
+      ],
+      "roman": "Zéyīnèipǔ yǒu yí ge gēge.",
+      "tokenRoman": [
+        "Zéyīnèipǔ",
+        "yǒu",
+        "yí ge",
+        "gēge."
+      ],
+      "wrongRoman": [
+        "jiějie",
+        "yéye",
+        "nǎinai"
+      ]
+    },
+    "u02-2-a": {
+      "tokens": [
+        "我",
+        "奶奶",
+        "跟",
+        "我们",
+        "一起",
+        "住。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "爷爷",
+        "哥哥",
+        "儿子"
+      ],
+      "roman": "Wǒ nǎinai gēn wǒmen yìqǐ zhù.",
+      "tokenRoman": [
+        "Wǒ",
+        "nǎinai",
+        "gēn",
+        "wǒmen",
+        "yìqǐ",
+        "zhù."
+      ],
+      "wrongRoman": [
+        "yéye",
+        "gēge",
+        "érzi"
+      ]
+    },
+    "u02-2-b": {
+      "tokens": [
+        "米娅",
+        "有",
+        "一只",
+        "黑",
+        "猫。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "狗",
+        "鸡",
+        "鸟"
+      ],
+      "roman": "Mǐyà yǒu yì zhī hēi māo.",
+      "tokenRoman": [
+        "Mǐyà",
+        "yǒu",
+        "yì zhī",
+        "hēi",
+        "māo."
+      ],
+      "wrongRoman": [
+        "gǒu",
+        "jī",
+        "niǎo"
+      ]
+    },
+    "u02-3-a": {
+      "tokens": [
+        "艾玛",
+        "是",
+        "我的",
+        "新",
+        "邻居。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "老师",
+        "哥哥",
+        "女儿"
+      ],
+      "roman": "Àimǎ shì wǒ de xīn línjū.",
+      "tokenRoman": [
+        "Àimǎ",
+        "shì",
+        "wǒ de",
+        "xīn",
+        "línjū."
+      ],
+      "wrongRoman": [
+        "lǎoshī",
+        "gēge",
+        "nǚ'ér"
+      ]
+    },
+    "u02-3-b": {
+      "tokens": [
+        "我的",
+        "朋友们",
+        "都",
+        "很",
+        "幽默。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "年轻",
+        "饿",
+        "高"
+      ],
+      "roman": "Wǒ de péngyoumen dōu hěn yōumò.",
+      "tokenRoman": [
+        "Wǒ de",
+        "péngyoumen",
+        "dōu",
+        "hěn",
+        "yōumò."
+      ],
+      "wrongRoman": [
+        "niánqīng",
+        "è",
+        "gāo"
+      ]
+    },
+    "u02-4-a": {
+      "tokens": [
+        "那个",
+        "男人",
+        "非常",
+        "高。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "小",
+        "老",
+        "年轻"
+      ],
+      "roman": "Nà ge nánrén fēicháng gāo.",
+      "tokenRoman": [
+        "Nà ge",
+        "nánrén",
+        "fēicháng",
+        "gāo."
+      ],
+      "wrongRoman": [
+        "xiǎo",
+        "lǎo",
+        "niánqīng"
+      ]
+    },
+    "u02-4-b": {
+      "tokens": [
+        "那个",
+        "女人",
+        "又",
+        "年轻",
+        "又",
+        "开心。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "老",
+        "小",
+        "饿"
+      ],
+      "roman": "Nà ge nǚrén yòu niánqīng yòu kāixīn.",
+      "tokenRoman": [
+        "Nà ge",
+        "nǚrén",
+        "yòu",
+        "niánqīng",
+        "yòu",
+        "kāixīn."
+      ],
+      "wrongRoman": [
+        "lǎo",
+        "xiǎo",
+        "è"
+      ]
+    },
+    "u03-1-a": {
+      "tokens": [
+        "我",
+        "有",
+        "两",
+        "个",
+        "姐姐。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "二",
+        "三",
+        "五"
+      ],
+      "roman": "Wǒ yǒu liǎng ge jiějie.",
+      "tokenRoman": [
+        "Wǒ",
+        "yǒu",
+        "liǎng",
+        "ge",
+        "jiějie."
+      ],
+      "wrongRoman": [
+        "èr",
+        "sān",
+        "wǔ"
+      ]
+    },
+    "u03-1-b": {
+      "tokens": [
+        "四",
+        "加",
+        "二",
+        "等于",
+        "六。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "五",
+        "七",
+        "八"
+      ],
+      "roman": "Sì jiā èr děngyú liù.",
+      "tokenRoman": [
+        "Sì",
+        "jiā",
+        "èr",
+        "děngyú",
+        "liù."
+      ],
+      "wrongRoman": [
+        "wǔ",
+        "qī",
+        "bā"
+      ]
+    },
+    "u03-2-a": {
+      "tokens": [
+        "我",
+        "姐姐",
+        "八",
+        "岁。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "六",
+        "九",
+        "十"
+      ],
+      "roman": "Wǒ jiějie bā suì.",
+      "tokenRoman": [
+        "Wǒ",
+        "jiějie",
+        "bā",
+        "suì."
+      ],
+      "wrongRoman": [
+        "liù",
+        "jiǔ",
+        "shí"
+      ]
+    },
+    "u03-2-b": {
+      "tokens": [
+        "一个",
+        "星期",
+        "有",
+        "七",
+        "天。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "五",
+        "六",
+        "八"
+      ],
+      "roman": "Yí ge xīngqī yǒu qī tiān.",
+      "tokenRoman": [
+        "Yí ge",
+        "xīngqī",
+        "yǒu",
+        "qī",
+        "tiān."
+      ],
+      "wrongRoman": [
+        "wǔ",
+        "liù",
+        "bā"
+      ]
+    },
+    "u03-3-a": {
+      "tokens": [
+        "二十",
+        "加",
+        "三十",
+        "等于",
+        "五十。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "四十",
+        "六十",
+        "七十"
+      ],
+      "roman": "Èrshí jiā sānshí děngyú wǔshí.",
+      "tokenRoman": [
+        "Èrshí",
+        "jiā",
+        "sānshí",
+        "děngyú",
+        "wǔshí."
+      ],
+      "wrongRoman": [
+        "sìshí",
+        "liùshí",
+        "qīshí"
+      ]
+    },
+    "u03-3-b": {
+      "tokens": [
+        "我的",
+        "房间",
+        "号码",
+        "是",
+        "十二。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "名字",
+        "年龄",
+        "生日"
+      ],
+      "roman": "Wǒ de fángjiān hàomǎ shì shí'èr.",
+      "tokenRoman": [
+        "Wǒ de",
+        "fángjiān",
+        "hàomǎ",
+        "shì",
+        "shí'èr."
+      ],
+      "wrongRoman": [
+        "míngzi",
+        "niánlíng",
+        "shēngrì"
+      ]
+    },
+    "u03-4-a": {
+      "tokens": [
+        "我",
+        "十二",
+        "岁。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "年",
+        "月",
+        "星期"
+      ],
+      "roman": "Wǒ shí'èr suì.",
+      "tokenRoman": [
+        "Wǒ",
+        "shí'èr",
+        "suì."
+      ],
+      "wrongRoman": [
+        "nián",
+        "yuè",
+        "xīngqī"
+      ]
+    },
+    "u03-4-b": {
+      "tokens": [
+        "你",
+        "有",
+        "几只",
+        "猫？"
+      ],
+      "gap": 2,
+      "wrong": [
+        "什么",
+        "哪儿",
+        "谁"
+      ],
+      "roman": "Nǐ yǒu jǐ zhī māo?",
+      "tokenRoman": [
+        "Nǐ",
+        "yǒu",
+        "jǐ zhī",
+        "māo?"
+      ],
+      "wrongRoman": [
+        "shénme",
+        "nǎr",
+        "shéi"
+      ]
+    },
+    "u04-1-a": {
+      "tokens": [
+        "早饭，",
+        "我",
+        "吃",
+        "面包。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "茶",
+        "水",
+        "牛奶"
+      ],
+      "roman": "Zǎofàn, wǒ chī miànbāo.",
+      "tokenRoman": [
+        "Zǎofàn,",
+        "wǒ",
+        "chī",
+        "miànbāo."
+      ],
+      "wrongRoman": [
+        "chá",
+        "shuǐ",
+        "niúnǎi"
+      ]
+    },
+    "u04-1-b": {
+      "tokens": [
+        "汤姆",
+        "吃",
+        "两个",
+        "鸡蛋。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "果汁",
+        "牛奶",
+        "水"
+      ],
+      "roman": "Tāngmǔ chī liǎng ge jīdàn.",
+      "tokenRoman": [
+        "Tāngmǔ",
+        "chī",
+        "liǎng ge",
+        "jīdàn."
+      ],
+      "wrongRoman": [
+        "guǒzhī",
+        "niúnǎi",
+        "shuǐ"
+      ]
+    },
+    "u04-2-a": {
+      "tokens": [
+        "埃姆雷",
+        "每天",
+        "早上",
+        "都",
+        "喝",
+        "咖啡。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "吃",
+        "去",
+        "睡"
+      ],
+      "roman": "Āimǔléi měi tiān zǎoshang dōu hē kāfēi.",
+      "tokenRoman": [
+        "Āimǔléi",
+        "měi tiān",
+        "zǎoshang",
+        "dōu",
+        "hē",
+        "kāfēi."
+      ],
+      "wrongRoman": [
+        "chī",
+        "qù",
+        "shuì"
+      ]
+    },
+    "u04-2-b": {
+      "tokens": [
+        "果汁",
+        "非常",
+        "凉。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "面包",
+        "奶酪",
+        "鸡蛋"
+      ],
+      "roman": "Guǒzhī fēicháng liáng.",
+      "tokenRoman": [
+        "Guǒzhī",
+        "fēicháng",
+        "liáng."
+      ],
+      "wrongRoman": [
+        "miànbāo",
+        "nǎilào",
+        "jīdàn"
+      ]
+    },
+    "u04-3-a": {
+      "tokens": [
+        "香蕉",
+        "又",
+        "黄",
+        "又",
+        "甜。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "土豆",
+        "西红柿",
+        "奶酪"
+      ],
+      "roman": "Xiāngjiāo yòu huáng yòu tián.",
+      "tokenRoman": [
+        "Xiāngjiāo",
+        "yòu",
+        "huáng",
+        "yòu",
+        "tián."
+      ],
+      "wrongRoman": [
+        "tǔdòu",
+        "xīhóngshì",
+        "nǎilào"
+      ]
+    },
+    "u04-3-b": {
+      "tokens": [
+        "我们",
+        "需要",
+        "三个",
+        "土豆。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "香蕉",
+        "苹果",
+        "西红柿"
+      ],
+      "roman": "Wǒmen xūyào sān ge tǔdòu.",
+      "tokenRoman": [
+        "Wǒmen",
+        "xūyào",
+        "sān ge",
+        "tǔdòu."
+      ],
+      "wrongRoman": [
+        "xiāngjiāo",
+        "píngguǒ",
+        "xīhóngshì"
+      ]
+    },
+    "u04-4-a": {
+      "tokens": [
+        "晚饭",
+        "八点",
+        "开始。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "早饭",
+        "午饭",
+        "鸡蛋"
+      ],
+      "roman": "Wǎnfàn bā diǎn kāishǐ.",
+      "tokenRoman": [
+        "Wǎnfàn",
+        "bā diǎn",
+        "kāishǐ."
+      ],
+      "wrongRoman": [
+        "zǎofàn",
+        "wǔfàn",
+        "jīdàn"
+      ]
+    },
+    "u04-4-b": {
+      "tokens": [
+        "德尼兹",
+        "非常",
+        "喜欢",
+        "喝",
+        "汤。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "去",
+        "吃",
+        "睡"
+      ],
+      "roman": "Dénízī fēicháng xǐhuan hē tāng.",
+      "tokenRoman": [
+        "Dénízī",
+        "fēicháng",
+        "xǐhuan",
+        "hē",
+        "tāng."
+      ],
+      "wrongRoman": [
+        "qù",
+        "chī",
+        "shuì"
+      ]
+    },
+    "u05-1-a": {
+      "tokens": [
+        "我们的",
+        "房子",
+        "有",
+        "三个",
+        "房间。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "厨房",
+        "花园",
+        "浴室"
+      ],
+      "roman": "Wǒmen de fángzi yǒu sān ge fángjiān.",
+      "tokenRoman": [
+        "Wǒmen de",
+        "fángzi",
+        "yǒu",
+        "sān ge",
+        "fángjiān."
+      ],
+      "wrongRoman": [
+        "chúfáng",
+        "huāyuán",
+        "yùshì"
+      ]
+    },
+    "u05-1-b": {
+      "tokens": [
+        "艾玛",
+        "现在",
+        "在",
+        "花园",
+        "里。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "厨房",
+        "卧室",
+        "浴室"
+      ],
+      "roman": "Àimǎ xiànzài zài huāyuán lǐ.",
+      "tokenRoman": [
+        "Àimǎ",
+        "xiànzài",
+        "zài",
+        "huāyuán",
+        "lǐ."
+      ],
+      "wrongRoman": [
+        "chúfáng",
+        "wòshì",
+        "yùshì"
+      ]
+    },
+    "u05-2-a": {
+      "tokens": [
+        "窗户",
+        "旁边",
+        "有",
+        "一把",
+        "椅子。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "床",
+        "桌子",
+        "沙发"
+      ],
+      "roman": "Chuānghu pángbiān yǒu yì bǎ yǐzi.",
+      "tokenRoman": [
+        "Chuānghu",
+        "pángbiān",
+        "yǒu",
+        "yì bǎ",
+        "yǐzi."
+      ],
+      "wrongRoman": [
+        "chuáng",
+        "zhuōzi",
+        "shāfā"
+      ]
+    },
+    "u05-2-b": {
+      "tokens": [
+        "我的",
+        "床",
+        "在",
+        "门",
+        "旁边。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "窗户",
+        "桌子",
+        "沙发"
+      ],
+      "roman": "Wǒ de chuáng zài mén pángbiān.",
+      "tokenRoman": [
+        "Wǒ de",
+        "chuáng",
+        "zài",
+        "mén",
+        "pángbiān."
+      ],
+      "wrongRoman": [
+        "chuānghu",
+        "zhuōzi",
+        "shāfā"
+      ]
+    },
+    "u05-3-a": {
+      "tokens": [
+        "书",
+        "在",
+        "床",
+        "上。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "钥匙",
+        "手机",
+        "灯"
+      ],
+      "roman": "Shū zài chuáng shang.",
+      "tokenRoman": [
+        "Shū",
+        "zài",
+        "chuáng",
+        "shang."
+      ],
+      "wrongRoman": [
+        "yàoshi",
+        "shǒujī",
+        "dēng"
+      ]
+    },
+    "u05-3-b": {
+      "tokens": [
+        "汤姆，",
+        "钥匙",
+        "在",
+        "哪儿？"
+      ],
+      "gap": 1,
+      "wrong": [
+        "书",
+        "手机",
+        "电脑"
+      ],
+      "roman": "Tāngmǔ, yàoshi zài nǎr?",
+      "tokenRoman": [
+        "Tāngmǔ,",
+        "yàoshi",
+        "zài",
+        "nǎr?"
+      ],
+      "wrongRoman": [
+        "shū",
+        "shǒujī",
+        "diànnǎo"
+      ]
+    },
+    "u05-4-a": {
+      "tokens": [
+        "我们的",
+        "新",
+        "房子",
+        "非常",
+        "大。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "小",
+        "饿",
+        "年轻"
+      ],
+      "roman": "Wǒmen de xīn fángzi fēicháng dà.",
+      "tokenRoman": [
+        "Wǒmen de",
+        "xīn",
+        "fángzi",
+        "fēicháng",
+        "dà."
+      ],
+      "wrongRoman": [
+        "xiǎo",
+        "è",
+        "niánqīng"
+      ]
+    },
+    "u05-4-b": {
+      "tokens": [
+        "有",
+        "一个",
+        "小",
+        "花园。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "吃",
+        "喝",
+        "睡"
+      ],
+      "roman": "Yǒu yí ge xiǎo huāyuán.",
+      "tokenRoman": [
+        "Yǒu",
+        "yí ge",
+        "xiǎo",
+        "huāyuán."
+      ],
+      "wrongRoman": [
+        "chī",
+        "hē",
+        "shuì"
+      ]
+    },
+    "u06-1-a": {
+      "tokens": [
+        "晚上，",
+        "我",
+        "看书。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "早上",
+        "下午",
+        "上午"
+      ],
+      "roman": "Wǎnshang, wǒ kàn shū.",
+      "tokenRoman": [
+        "Wǎnshang,",
+        "wǒ",
+        "kàn shū."
+      ],
+      "wrongRoman": [
+        "zǎoshang",
+        "xiàwǔ",
+        "shàngwǔ"
+      ]
+    },
+    "u06-1-b": {
+      "tokens": [
+        "阿里",
+        "下午",
+        "工作。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "早上",
+        "晚上",
+        "上午"
+      ],
+      "roman": "Ālǐ xiàwǔ gōngzuò.",
+      "tokenRoman": [
+        "Ālǐ",
+        "xiàwǔ",
+        "gōngzuò."
+      ],
+      "wrongRoman": [
+        "zǎoshang",
+        "wǎnshang",
+        "shàngwǔ"
+      ]
+    },
+    "u06-2-a": {
+      "tokens": [
+        "艾玛",
+        "六点",
+        "醒来。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "睡觉",
+        "洗澡",
+        "工作"
+      ],
+      "roman": "Àimǎ liù diǎn xǐnglái.",
+      "tokenRoman": [
+        "Àimǎ",
+        "liù diǎn",
+        "xǐnglái."
+      ],
+      "wrongRoman": [
+        "shuìjiào",
+        "xǐzǎo",
+        "gōngzuò"
+      ]
+    },
+    "u06-2-b": {
+      "tokens": [
+        "德尼兹",
+        "每天",
+        "都",
+        "去",
+        "学校。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "吃",
+        "喝",
+        "睡"
+      ],
+      "roman": "Dénízī měi tiān dōu qù xuéxiào.",
+      "tokenRoman": [
+        "Dénízī",
+        "měi tiān",
+        "dōu",
+        "qù",
+        "xuéxiào."
+      ],
+      "wrongRoman": [
+        "chī",
+        "hē",
+        "shuì"
+      ]
+    },
+    "u06-3-a": {
+      "tokens": [
+        "汤姆",
+        "从",
+        "星期一",
+        "到",
+        "星期五",
+        "工作。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "星期二",
+        "星期三",
+        "星期四"
+      ],
+      "roman": "Tāngmǔ cóng xīngqīyī dào xīngqīwǔ gōngzuò.",
+      "tokenRoman": [
+        "Tāngmǔ",
+        "cóng",
+        "xīngqīyī",
+        "dào",
+        "xīngqīwǔ",
+        "gōngzuò."
+      ],
+      "wrongRoman": [
+        "xīngqī'èr",
+        "xīngqīsān",
+        "xīngqīsì"
+      ]
+    },
+    "u06-3-b": {
+      "tokens": [
+        "我们的",
+        "课",
+        "在",
+        "星期三。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "星期一",
+        "星期四",
+        "星期五"
+      ],
+      "roman": "Wǒmen de kè zài xīngqīsān.",
+      "tokenRoman": [
+        "Wǒmen de",
+        "kè",
+        "zài",
+        "xīngqīsān."
+      ],
+      "wrongRoman": [
+        "xīngqīyī",
+        "xīngqīsì",
+        "xīngqīwǔ"
+      ]
+    },
+    "u06-4-a": {
+      "tokens": [
+        "星期天，",
+        "米娅",
+        "和",
+        "她的",
+        "狗",
+        "一起",
+        "玩。"
+      ],
+      "gap": 6,
+      "wrong": [
+        "读",
+        "喝",
+        "买"
+      ],
+      "roman": "Xīngqītiān, Mǐyà hé tā de gǒu yìqǐ wán.",
+      "tokenRoman": [
+        "Xīngqītiān,",
+        "Mǐyà",
+        "hé",
+        "tā de",
+        "gǒu",
+        "yìqǐ",
+        "wán."
+      ],
+      "wrongRoman": [
+        "dú",
+        "hē",
+        "mǎi"
+      ]
+    },
+    "u06-4-b": {
+      "tokens": [
+        "埃利芙",
+        "在",
+        "花园",
+        "里",
+        "看书。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "吃饭",
+        "工作",
+        "睡觉"
+      ],
+      "roman": "Āilìfú zài huāyuán lǐ kàn shū.",
+      "tokenRoman": [
+        "Āilìfú",
+        "zài",
+        "huāyuán",
+        "lǐ",
+        "kàn shū."
+      ],
+      "wrongRoman": [
+        "chīfàn",
+        "gōngzuò",
+        "shuìjiào"
+      ]
+    },
+    "u07-1-a": {
+      "tokens": [
+        "罗马",
+        "有",
+        "很多",
+        "古老的",
+        "博物馆。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "银行",
+        "医院",
+        "药店"
+      ],
+      "roman": "Luómǎ yǒu hěn duō gǔlǎo de bówùguǎn.",
+      "tokenRoman": [
+        "Luómǎ",
+        "yǒu",
+        "hěn duō",
+        "gǔlǎo de",
+        "bówùguǎn."
+      ],
+      "wrongRoman": [
+        "yínháng",
+        "yīyuàn",
+        "yàodiàn"
+      ]
+    },
+    "u07-1-b": {
+      "tokens": [
+        "公园",
+        "在",
+        "我们",
+        "这条",
+        "街",
+        "上。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "房间",
+        "花园",
+        "医院"
+      ],
+      "roman": "Gōngyuán zài wǒmen zhè tiáo jiē shang.",
+      "tokenRoman": [
+        "Gōngyuán",
+        "zài",
+        "wǒmen",
+        "zhè tiáo",
+        "jiē",
+        "shang."
+      ],
+      "wrongRoman": [
+        "fángjiān",
+        "huāyuán",
+        "yīyuàn"
+      ]
+    },
+    "u07-2-a": {
+      "tokens": [
+        "面包店",
+        "七点",
+        "开门。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "药店",
+        "银行",
+        "图书馆"
+      ],
+      "roman": "Miànbāodiàn qī diǎn kāimén.",
+      "tokenRoman": [
+        "Miànbāodiàn",
+        "qī diǎn",
+        "kāimén."
+      ],
+      "wrongRoman": [
+        "yàodiàn",
+        "yínháng",
+        "túshūguǎn"
+      ]
+    },
+    "u07-2-b": {
+      "tokens": [
+        "这",
+        "附近",
+        "有",
+        "药店",
+        "吗？"
+      ],
+      "gap": 3,
+      "wrong": [
+        "银行",
+        "餐厅",
+        "图书馆"
+      ],
+      "roman": "Zhè fùjìn yǒu yàodiàn ma?",
+      "tokenRoman": [
+        "Zhè",
+        "fùjìn",
+        "yǒu",
+        "yàodiàn",
+        "ma?"
+      ],
+      "wrongRoman": [
+        "yínháng",
+        "cāntīng",
+        "túshūguǎn"
+      ]
+    },
+    "u07-3-a": {
+      "tokens": [
+        "在",
+        "拐角",
+        "往",
+        "左",
+        "转。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "右",
+        "前",
+        "后"
+      ],
+      "roman": "Zài guǎijiǎo wǎng zuǒ zhuǎn.",
+      "tokenRoman": [
+        "Zài",
+        "guǎijiǎo",
+        "wǎng",
+        "zuǒ",
+        "zhuǎn."
+      ],
+      "wrongRoman": [
+        "yòu",
+        "qián",
+        "hòu"
+      ]
+    },
+    "u07-3-b": {
+      "tokens": [
+        "城市",
+        "博物馆",
+        "在",
+        "哪儿？"
+      ],
+      "gap": 3,
+      "wrong": [
+        "什么",
+        "谁",
+        "几"
+      ],
+      "roman": "Chéngshì bówùguǎn zài nǎr?",
+      "tokenRoman": [
+        "Chéngshì",
+        "bówùguǎn",
+        "zài",
+        "nǎr?"
+      ],
+      "wrongRoman": [
+        "shénme",
+        "shéi",
+        "jǐ"
+      ]
+    },
+    "u07-4-a": {
+      "tokens": [
+        "车站",
+        "不",
+        "远。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "近",
+        "贵",
+        "饿"
+      ],
+      "roman": "Chēzhàn bù yuǎn.",
+      "tokenRoman": [
+        "Chēzhàn",
+        "bù",
+        "yuǎn."
+      ],
+      "wrongRoman": [
+        "jìn",
+        "guì",
+        "è"
+      ]
+    },
+    "u07-4-b": {
+      "tokens": [
+        "咖啡馆",
+        "在",
+        "博物馆",
+        "后面。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "前面",
+        "中间",
+        "外面"
+      ],
+      "roman": "Kāfēiguǎn zài bówùguǎn hòumiàn.",
+      "tokenRoman": [
+        "Kāfēiguǎn",
+        "zài",
+        "bówùguǎn",
+        "hòumiàn."
+      ],
+      "wrongRoman": [
+        "qiánmiàn",
+        "zhōngjiān",
+        "wàimiàn"
+      ]
+    },
+    "u08-1-a": {
+      "tokens": [
+        "米娅",
+        "穿",
+        "黑",
+        "鞋。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "戴",
+        "吃",
+        "喝"
+      ],
+      "roman": "Mǐyà chuān hēi xié.",
+      "tokenRoman": [
+        "Mǐyà",
+        "chuān",
+        "hēi",
+        "xié."
+      ],
+      "wrongRoman": [
+        "dài",
+        "chī",
+        "hē"
+      ]
+    },
+    "u08-1-b": {
+      "tokens": [
+        "这条",
+        "连衣裙",
+        "非常",
+        "漂亮。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "鞋",
+        "衬衫",
+        "外套"
+      ],
+      "roman": "Zhè tiáo liányīqún fēicháng piàoliang.",
+      "tokenRoman": [
+        "Zhè tiáo",
+        "liányīqún",
+        "fēicháng",
+        "piàoliang."
+      ],
+      "wrongRoman": [
+        "xié",
+        "chènshān",
+        "wàitào"
+      ]
+    },
+    "u08-2-a": {
+      "tokens": [
+        "我",
+        "喜欢",
+        "那件",
+        "蓝",
+        "外套。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "红",
+        "黄",
+        "绿"
+      ],
+      "roman": "Wǒ xǐhuan nà jiàn lán wàitào.",
+      "tokenRoman": [
+        "Wǒ",
+        "xǐhuan",
+        "nà jiàn",
+        "lán",
+        "wàitào."
+      ],
+      "wrongRoman": [
+        "hóng",
+        "huáng",
+        "lǜ"
+      ]
+    },
+    "u08-2-b": {
+      "tokens": [
+        "我的",
+        "新鞋",
+        "是",
+        "白色的。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "黑色的",
+        "红色的",
+        "蓝色的"
+      ],
+      "roman": "Wǒ de xīn xié shì báisè de.",
+      "tokenRoman": [
+        "Wǒ de",
+        "xīn xié",
+        "shì",
+        "báisè de."
+      ],
+      "wrongRoman": [
+        "hēisè de",
+        "hóngsè de",
+        "lánsè de"
+      ]
+    },
+    "u08-3-a": {
+      "tokens": [
+        "连衣裙",
+        "的",
+        "价格",
+        "是",
+        "五十。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "名字",
+        "颜色",
+        "年龄"
+      ],
+      "roman": "Liányīqún de jiàgé shì wǔshí.",
+      "tokenRoman": [
+        "Liányīqún",
+        "de",
+        "jiàgé",
+        "shì",
+        "wǔshí."
+      ],
+      "wrongRoman": [
+        "míngzi",
+        "yánsè",
+        "niánlíng"
+      ]
+    },
+    "u08-3-b": {
+      "tokens": [
+        "这件",
+        "衬衫",
+        "非常",
+        "便宜。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "贵",
+        "饿",
+        "累"
+      ],
+      "roman": "Zhè jiàn chènshān fēicháng piányi.",
+      "tokenRoman": [
+        "Zhè jiàn",
+        "chènshān",
+        "fēicháng",
+        "piányi."
+      ],
+      "wrongRoman": [
+        "guì",
+        "è",
+        "lèi"
+      ]
+    },
+    "u08-4-a": {
+      "tokens": [
+        "我",
+        "可以",
+        "试穿",
+        "这条",
+        "裤子",
+        "吗？"
+      ],
+      "gap": 2,
+      "wrong": [
+        "吃",
+        "喝",
+        "读"
+      ],
+      "roman": "Wǒ kěyǐ shìchuān zhè tiáo kùzi ma?",
+      "tokenRoman": [
+        "Wǒ",
+        "kěyǐ",
+        "shìchuān",
+        "zhè tiáo",
+        "kùzi",
+        "ma?"
+      ],
+      "wrongRoman": [
+        "chī",
+        "hē",
+        "dú"
+      ]
+    },
+    "u08-4-b": {
+      "tokens": [
+        "这家",
+        "商店",
+        "卖",
+        "漂亮的",
+        "帽子。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "买",
+        "穿",
+        "吃"
+      ],
+      "roman": "Zhè jiā shāngdiàn mài piàoliang de màozi.",
+      "tokenRoman": [
+        "Zhè jiā",
+        "shāngdiàn",
+        "mài",
+        "piàoliang de",
+        "màozi."
+      ],
+      "wrongRoman": [
+        "mǎi",
+        "chuān",
+        "chī"
+      ]
+    },
+    "u09-1-a": {
+      "tokens": [
+        "巴黎",
+        "正在",
+        "下雨。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "下雪",
+        "游泳",
+        "睡觉"
+      ],
+      "roman": "Bālí zhèngzài xià yǔ.",
+      "tokenRoman": [
+        "Bālí",
+        "zhèngzài",
+        "xià yǔ."
+      ],
+      "wrongRoman": [
+        "xià xuě",
+        "yóuyǒng",
+        "shuìjiào"
+      ]
+    },
+    "u09-1-b": {
+      "tokens": [
+        "看，",
+        "下雪",
+        "了！"
+      ],
+      "gap": 1,
+      "wrong": [
+        "下雨",
+        "游泳",
+        "睡觉"
+      ],
+      "roman": "Kàn, xià xuě le!",
+      "tokenRoman": [
+        "Kàn,",
+        "xià xuě",
+        "le!"
+      ],
+      "wrongRoman": [
+        "xià yǔ",
+        "yóuyǒng",
+        "shuìjiào"
+      ]
+    },
+    "u09-2-a": {
+      "tokens": [
+        "柏林",
+        "非常",
+        "冷。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "热",
+        "饿",
+        "高"
+      ],
+      "roman": "Bólín fēicháng lěng.",
+      "tokenRoman": [
+        "Bólín",
+        "fēicháng",
+        "lěng."
+      ],
+      "wrongRoman": [
+        "rè",
+        "è",
+        "gāo"
+      ]
+    },
+    "u09-2-b": {
+      "tokens": [
+        "汤姆",
+        "拿着",
+        "一把",
+        "黑",
+        "雨伞。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "衬衫",
+        "鞋",
+        "帽子"
+      ],
+      "roman": "Tāngmǔ názhe yì bǎ hēi yǔsǎn.",
+      "tokenRoman": [
+        "Tāngmǔ",
+        "názhe",
+        "yì bǎ",
+        "hēi",
+        "yǔsǎn."
+      ],
+      "wrongRoman": [
+        "chènshān",
+        "xié",
+        "màozi"
+      ]
+    },
+    "u09-3-a": {
+      "tokens": [
+        "春天，",
+        "树",
+        "都",
+        "绿",
+        "了。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "冬天",
+        "昨天",
+        "明天"
+      ],
+      "roman": "Chūntiān, shù dōu lǜ le.",
+      "tokenRoman": [
+        "Chūntiān,",
+        "shù",
+        "dōu",
+        "lǜ",
+        "le."
+      ],
+      "wrongRoman": [
+        "dōngtiān",
+        "zuótiān",
+        "míngtiān"
+      ]
+    },
+    "u09-3-b": {
+      "tokens": [
+        "夏天",
+        "是",
+        "很",
+        "热",
+        "的",
+        "季节。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "冬天",
+        "秋天",
+        "春天"
+      ],
+      "roman": "Xiàtiān shì hěn rè de jìjié.",
+      "tokenRoman": [
+        "Xiàtiān",
+        "shì",
+        "hěn",
+        "rè",
+        "de",
+        "jìjié."
+      ],
+      "wrongRoman": [
+        "dōngtiān",
+        "qiūtiān",
+        "chūntiān"
+      ]
+    },
+    "u09-4-a": {
+      "tokens": [
+        "利奥",
+        "正在",
+        "海滩上",
+        "游泳。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "看书",
+        "吃饭",
+        "工作"
+      ],
+      "roman": "Lì'ào zhèngzài hǎitān shang yóuyǒng.",
+      "tokenRoman": [
+        "Lì'ào",
+        "zhèngzài",
+        "hǎitān shang",
+        "yóuyǒng."
+      ],
+      "wrongRoman": [
+        "kàn shū",
+        "chīfàn",
+        "gōngzuò"
+      ]
+    },
+    "u09-4-b": {
+      "tokens": [
+        "米娅",
+        "和",
+        "汤姆",
+        "正在",
+        "外面",
+        "散步。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "屋里",
+        "前面",
+        "中间"
+      ],
+      "roman": "Mǐyà hé Tāngmǔ zhèngzài wàimiàn sànbù.",
+      "tokenRoman": [
+        "Mǐyà",
+        "hé",
+        "Tāngmǔ",
+        "zhèngzài",
+        "wàimiàn",
+        "sànbù."
+      ],
+      "wrongRoman": [
+        "wūli",
+        "qiánmiàn",
+        "zhōngjiān"
+      ]
+    },
+    "u10-1-a": {
+      "tokens": [
+        "公交车",
+        "很",
+        "慢。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "火车",
+        "飞机",
+        "出租车"
+      ],
+      "roman": "Gōngjiāochē hěn màn.",
+      "tokenRoman": [
+        "Gōngjiāochē",
+        "hěn",
+        "màn."
+      ],
+      "wrongRoman": [
+        "huǒchē",
+        "fēijī",
+        "chūzūchē"
+      ]
+    },
+    "u10-1-b": {
+      "tokens": [
+        "六点，",
+        "我们",
+        "在",
+        "火车",
+        "上。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "飞机",
+        "公交车",
+        "出租车"
+      ],
+      "roman": "Liù diǎn, wǒmen zài huǒchē shang.",
+      "tokenRoman": [
+        "Liù diǎn,",
+        "wǒmen",
+        "zài",
+        "huǒchē",
+        "shang."
+      ],
+      "wrongRoman": [
+        "fēijī",
+        "gōngjiāochē",
+        "chūzūchē"
+      ]
+    },
+    "u10-2-a": {
+      "tokens": [
+        "火车",
+        "又",
+        "晚点",
+        "了。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "游泳",
+        "吃饭",
+        "洗澡"
+      ],
+      "roman": "Huǒchē yòu wǎndiǎn le.",
+      "tokenRoman": [
+        "Huǒchē",
+        "yòu",
+        "wǎndiǎn",
+        "le."
+      ],
+      "wrongRoman": [
+        "yóuyǒng",
+        "chīfàn",
+        "xǐzǎo"
+      ]
+    },
+    "u10-2-b": {
+      "tokens": [
+        "那些",
+        "票",
+        "不",
+        "贵。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "护照",
+        "飞机",
+        "车站"
+      ],
+      "roman": "Nàxiē piào bú guì.",
+      "tokenRoman": [
+        "Nàxiē",
+        "piào",
+        "bú",
+        "guì."
+      ],
+      "wrongRoman": [
+        "hùzhào",
+        "fēijī",
+        "chēzhàn"
+      ]
+    },
+    "u10-3-a": {
+      "tokens": [
+        "酒店的",
+        "房间",
+        "非常",
+        "安静。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "饿",
+        "累",
+        "年轻"
+      ],
+      "roman": "Jiǔdiàn de fángjiān fēicháng ānjìng.",
+      "tokenRoman": [
+        "Jiǔdiàn de",
+        "fángjiān",
+        "fēicháng",
+        "ānjìng."
+      ],
+      "wrongRoman": [
+        "è",
+        "lèi",
+        "niánqīng"
+      ]
+    },
+    "u10-3-b": {
+      "tokens": [
+        "床",
+        "舒服",
+        "吗？"
+      ],
+      "gap": 1,
+      "wrong": [
+        "饿",
+        "累",
+        "忙"
+      ],
+      "roman": "Chuáng shūfu ma?",
+      "tokenRoman": [
+        "Chuáng",
+        "shūfu",
+        "ma?"
+      ],
+      "wrongRoman": [
+        "è",
+        "lèi",
+        "máng"
+      ]
+    },
+    "u10-4-a": {
+      "tokens": [
+        "大海",
+        "非常",
+        "美。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "机场",
+        "票",
+        "护照"
+      ],
+      "roman": "Dàhǎi fēicháng měi.",
+      "tokenRoman": [
+        "Dàhǎi",
+        "fēicháng",
+        "měi."
+      ],
+      "wrongRoman": [
+        "jīchǎng",
+        "piào",
+        "hùzhào"
+      ]
+    },
+    "u10-4-b": {
+      "tokens": [
+        "我们",
+        "在",
+        "里约",
+        "的",
+        "假期",
+        "很",
+        "美好。"
+      ],
+      "gap": 6,
+      "wrong": [
+        "饿",
+        "湿",
+        "高"
+      ],
+      "roman": "Wǒmen zài Lǐyuē de jiàqī hěn měihǎo.",
+      "tokenRoman": [
+        "Wǒmen",
+        "zài",
+        "Lǐyuē",
+        "de",
+        "jiàqī",
+        "hěn",
+        "měihǎo."
+      ],
+      "wrongRoman": [
+        "è",
+        "shī",
+        "gāo"
+      ]
+    },
+    "u11-1-a": {
+      "tokens": [
+        "艾玛",
+        "昨天",
+        "给",
+        "我",
+        "打了",
+        "电话。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "明天",
+        "明年",
+        "下个星期"
+      ],
+      "roman": "Àimǎ zuótiān gěi wǒ dǎle diànhuà.",
+      "tokenRoman": [
+        "Àimǎ",
+        "zuótiān",
+        "gěi",
+        "wǒ",
+        "dǎle",
+        "diànhuà."
+      ],
+      "wrongRoman": [
+        "míngtiān",
+        "míngnián",
+        "xià ge xīngqī"
+      ]
+    },
+    "u11-1-b": {
+      "tokens": [
+        "我",
+        "两天",
+        "以前",
+        "看见了",
+        "阿里。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "明天",
+        "下次",
+        "很快"
+      ],
+      "roman": "Wǒ liǎng tiān yǐqián kànjiànle Ālǐ.",
+      "tokenRoman": [
+        "Wǒ",
+        "liǎng tiān",
+        "yǐqián",
+        "kànjiànle",
+        "Ālǐ."
+      ],
+      "wrongRoman": [
+        "míngtiān",
+        "xià cì",
+        "hěn kuài"
+      ],
+      "orders": [
+        [
+          1,
+          2,
+          0,
+          3,
+          4
+        ]
+      ]
+    },
+    "u11-2-a": {
+      "tokens": [
+        "我们",
+        "在",
+        "聚会上",
+        "跳舞",
+        "了。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "游泳",
+        "洗澡",
+        "睡觉"
+      ],
+      "roman": "Wǒmen zài jùhuì shang tiàowǔ le.",
+      "tokenRoman": [
+        "Wǒmen",
+        "zài",
+        "jùhuì shang",
+        "tiàowǔ",
+        "le."
+      ],
+      "wrongRoman": [
+        "yóuyǒng",
+        "xǐzǎo",
+        "shuìjiào"
+      ]
+    },
+    "u11-2-b": {
+      "tokens": [
+        "埃姆雷",
+        "和",
+        "我",
+        "星期六",
+        "见面",
+        "了。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "跳舞",
+        "唱歌",
+        "游泳"
+      ],
+      "roman": "Āimǔléi hé wǒ xīngqīliù jiànmiàn le.",
+      "tokenRoman": [
+        "Āimǔléi",
+        "hé",
+        "wǒ",
+        "xīngqīliù",
+        "jiànmiàn",
+        "le."
+      ],
+      "wrongRoman": [
+        "tiàowǔ",
+        "chànggē",
+        "yóuyǒng"
+      ]
+    },
+    "u11-3-a": {
+      "tokens": [
+        "汤姆",
+        "晚饭",
+        "做了",
+        "汤。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "卖了",
+        "洗了",
+        "丢了"
+      ],
+      "roman": "Tāngmǔ wǎnfàn zuòle tāng.",
+      "tokenRoman": [
+        "Tāngmǔ",
+        "wǎnfàn",
+        "zuòle",
+        "tāng."
+      ],
+      "wrongRoman": [
+        "màile",
+        "xǐle",
+        "diūle"
+      ]
+    },
+    "u11-3-b": {
+      "tokens": [
+        "我",
+        "在",
+        "床上",
+        "听了",
+        "音乐。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "吃了",
+        "洗了",
+        "穿了"
+      ],
+      "roman": "Wǒ zài chuáng shang tīngle yīnyuè.",
+      "tokenRoman": [
+        "Wǒ",
+        "zài",
+        "chuáng shang",
+        "tīngle",
+        "yīnyuè."
+      ],
+      "wrongRoman": [
+        "chīle",
+        "xǐle",
+        "chuānle"
+      ]
+    },
+    "u11-4-a": {
+      "tokens": [
+        "埃利芙",
+        "把",
+        "包",
+        "忘",
+        "在",
+        "学校",
+        "了。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "吃",
+        "喝",
+        "唱"
+      ],
+      "roman": "Āilìfú bǎ bāo wàng zài xuéxiào le.",
+      "tokenRoman": [
+        "Āilìfú",
+        "bǎ",
+        "bāo",
+        "wàng",
+        "zài",
+        "xuéxiào",
+        "le."
+      ],
+      "wrongRoman": [
+        "chī",
+        "hē",
+        "chàng"
+      ]
+    },
+    "u11-4-b": {
+      "tokens": [
+        "昨天，",
+        "我",
+        "把",
+        "票",
+        "丢了。"
+      ],
+      "gap": 4,
+      "wrong": [
+        "喝了",
+        "唱了",
+        "跳了"
+      ],
+      "roman": "Zuótiān, wǒ bǎ piào diūle.",
+      "tokenRoman": [
+        "Zuótiān,",
+        "wǒ",
+        "bǎ",
+        "piào",
+        "diūle."
+      ],
+      "wrongRoman": [
+        "hēle",
+        "chàngle",
+        "tiàole"
+      ]
+    },
+    "u12-1-a": {
+      "tokens": [
+        "我",
+        "明天",
+        "会",
+        "给",
+        "你",
+        "打",
+        "电话。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "昨天",
+        "去年",
+        "上个星期"
+      ],
+      "roman": "Wǒ míngtiān huì gěi nǐ dǎ diànhuà.",
+      "tokenRoman": [
+        "Wǒ",
+        "míngtiān",
+        "huì",
+        "gěi",
+        "nǐ",
+        "dǎ",
+        "diànhuà."
+      ],
+      "wrongRoman": [
+        "zuótiān",
+        "qùnián",
+        "shàng ge xīngqī"
+      ],
+      "orders": [
+        [
+          1,
+          0,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ]
+    },
+    "u12-1-b": {
+      "tokens": [
+        "米娅",
+        "今晚",
+        "要",
+        "做饭。"
+      ],
+      "gap": 1,
+      "wrong": [
+        "昨晚",
+        "昨天",
+        "去年"
+      ],
+      "roman": "Mǐyà jīnwǎn yào zuòfàn.",
+      "tokenRoman": [
+        "Mǐyà",
+        "jīnwǎn",
+        "yào",
+        "zuòfàn."
+      ],
+      "wrongRoman": [
+        "zuówǎn",
+        "zuótiān",
+        "qùnián"
+      ]
+    },
+    "u12-2-a": {
+      "tokens": [
+        "你",
+        "想",
+        "和",
+        "我们",
+        "一起",
+        "来",
+        "吗？"
+      ],
+      "gap": 5,
+      "wrong": [
+        "丢",
+        "忘",
+        "卖"
+      ],
+      "roman": "Nǐ xiǎng hé wǒmen yìqǐ lái ma?",
+      "tokenRoman": [
+        "Nǐ",
+        "xiǎng",
+        "hé",
+        "wǒmen",
+        "yìqǐ",
+        "lái",
+        "ma?"
+      ],
+      "wrongRoman": [
+        "diū",
+        "wàng",
+        "mài"
+      ]
+    },
+    "u12-2-b": {
+      "tokens": [
+        "这个",
+        "周末",
+        "有空",
+        "吗？"
+      ],
+      "gap": 2,
+      "wrong": [
+        "湿",
+        "远",
+        "饿"
+      ],
+      "roman": "Zhè ge zhōumò yǒu kòng ma?",
+      "tokenRoman": [
+        "Zhè ge",
+        "zhōumò",
+        "yǒu kòng",
+        "ma?"
+      ],
+      "wrongRoman": [
+        "shī",
+        "yuǎn",
+        "è"
+      ]
+    },
+    "u12-3-a": {
+      "tokens": [
+        "当然，",
+        "我",
+        "很",
+        "想",
+        "来。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "可惜",
+        "下次",
+        "昨天"
+      ],
+      "roman": "Dāngrán, wǒ hěn xiǎng lái.",
+      "tokenRoman": [
+        "Dāngrán,",
+        "wǒ",
+        "hěn",
+        "xiǎng",
+        "lái."
+      ],
+      "wrongRoman": [
+        "kěxī",
+        "xià cì",
+        "zuótiān"
+      ]
+    },
+    "u12-3-b": {
+      "tokens": [
+        "可惜，",
+        "今晚",
+        "没空。"
+      ],
+      "gap": 0,
+      "wrong": [
+        "当然",
+        "好主意",
+        "下次"
+      ],
+      "roman": "Kěxī, jīnwǎn méi kòng.",
+      "tokenRoman": [
+        "Kěxī,",
+        "jīnwǎn",
+        "méi kòng."
+      ],
+      "wrongRoman": [
+        "dāngrán",
+        "hǎo zhǔyi",
+        "xià cì"
+      ]
+    },
+    "u12-4-a": {
+      "tokens": [
+        "星期六，",
+        "我们",
+        "要",
+        "庆祝",
+        "一下。"
+      ],
+      "gap": 3,
+      "wrong": [
+        "丢",
+        "忘",
+        "卖"
+      ],
+      "roman": "Xīngqīliù, wǒmen yào qìngzhù yíxià.",
+      "tokenRoman": [
+        "Xīngqīliù,",
+        "wǒmen",
+        "yào",
+        "qìngzhù",
+        "yíxià."
+      ],
+      "wrongRoman": [
+        "diū",
+        "wàng",
+        "mài"
+      ]
+    },
+    "u12-4-b": {
+      "tokens": [
+        "德尼兹",
+        "想",
+        "学",
+        "法语。"
+      ],
+      "gap": 2,
+      "wrong": [
+        "吃",
+        "喝",
+        "穿"
+      ],
+      "roman": "Dénízī xiǎng xué Fǎyǔ.",
+      "tokenRoman": [
+        "Dénízī",
+        "xiǎng",
+        "xué",
+        "Fǎyǔ."
+      ],
+      "wrongRoman": [
+        "chī",
+        "hē",
+        "chuān"
+      ]
+    }
+  },
+  "tips": {
+    "u01": {
+      "title": {
+        "en": "I am, you are: one verb, 是",
+        "tr": "Ben ...im, sen ...sin: tek fiil, 是"
+      },
+      "body": {
+        "en": "Good news: Chinese verbs never change. 我是 (I am), 你是 (you are) and 他是 (he is) all use the same 是 (shì).\n\nTo give your name, you can also say 我叫 (wǒ jiào), 'I am called'. Both are normal: 我是埃姆雷 and 我叫埃姆雷.\n\nOne trap: do not put 是 before a word like 'fine' or 'tall'. Say 我很好 (I am fine), not 我是好. The small word 很 (hěn) does the job and adds almost no 'very'.",
+        "tr": "Güzel haber: Çince fiiller hiç değişmez. 我是 (ben ...im), 你是 (sen ...sin) ve 他是 (o ...dir) hep aynı 是 (shì) ile kurulur.\n\nAdını söylemek için 我叫 (wǒ jiào), 'bana ... denir' de diyebilirsin. İkisi de olağandır: 我是埃姆雷 ve 我叫埃姆雷.\n\nBir tuzak: 'iyi' ya da 'uzun boylu' gibi kelimelerden önce 是 koyma. 我很好 (iyiyim) de, 我是好 deme. Küçük 很 (hěn) kelimesi bu işi görür ve neredeyse hiç 'çok' anlamı katmaz."
+      },
+      "examples": [
+        {
+          "text": "我是埃姆雷。",
+          "roman": "Wǒ shì Āimǔléi.",
+          "en": "I am Emre.",
+          "tr": "Ben Emre'yim."
+        },
+        {
+          "text": "我叫泽伊内普。",
+          "roman": "Wǒ jiào Zéyīnèipǔ.",
+          "en": "My name is Zeynep.",
+          "tr": "Benim adım Zeynep."
+        },
+        {
+          "text": "我很好。",
+          "roman": "Wǒ hěn hǎo.",
+          "en": "I am fine.",
+          "tr": "İyiyim."
+        }
+      ]
+    },
+    "u02": {
+      "title": {
+        "en": "My and your: the little word 的",
+        "tr": "Benim, senin: küçük 的 kelimesi"
+      },
+      "body": {
+        "en": "To say 'my', put 的 (de) after 我 (I): 我的 is 'my', 你的 is 'your', 她的 is 'her'. Then the thing comes after: 我的朋友 (my friend).\n\nWith close family you can leave 的 out. 我妈妈 (my mother) and 我哥哥 (my brother) sound more natural than with 的.\n\n的 works with names too: 米娅的猫 is Mia's cat.",
+        "tr": "'Benim' demek için 我 (ben) kelimesinden sonra 的 (de) koy: 我的 'benim', 你的 'senin', 她的 'onun'. Sonra şey gelir: 我的朋友 (benim arkadaşım).\n\nYakın aile için 的 düşebilir. 我妈妈 (annem) ve 我哥哥 (ağabeyim) 的 olmadan daha doğal duyulur.\n\n的 isimlerle de çalışır: 米娅的猫 Mia'nın kedisidir."
+      },
+      "examples": [
+        {
+          "text": "我的朋友",
+          "roman": "wǒ de péngyou",
+          "en": "my friend",
+          "tr": "benim arkadaşım"
+        },
+        {
+          "text": "我妈妈",
+          "roman": "wǒ māma",
+          "en": "my mother",
+          "tr": "annem"
+        },
+        {
+          "text": "米娅的猫",
+          "roman": "Mǐyà de māo",
+          "en": "Mia's cat",
+          "tr": "Mia'nın kedisi"
+        }
+      ]
+    },
+    "u03": {
+      "title": {
+        "en": "Counting words: 个, 只, 本",
+        "tr": "Sayma kelimeleri: 个, 只, 本"
+      },
+      "body": {
+        "en": "In Chinese a number does not go straight onto a thing. A small counting word sits between them: 三个学生 (three students). 个 (ge) works for people and many things. Animals often take 只 (zhī), books take 本 (běn). Time words like 天 (day) and 年 (year) need none: 七天 (seven days).\n\nFor 'two' before a counting word, say 两 (liǎng), not 二: 两只猫 (two cats).\n\nFor age, use 岁 (suì) and no verb: 我十二岁 (I am twelve).",
+        "tr": "Çincede sayı doğrudan şeyin önüne gelmez. Araya küçük bir sayma kelimesi girer: 三个学生 (üç öğrenci). 个 (ge) insanlar ve pek çok şey için kullanılır. Hayvanlar çoğu zaman 只 (zhī), kitaplar 本 (běn) alır. 天 (gün) ve 年 (yıl) gibi zaman kelimeleri sayma kelimesi almaz: 七天 (yedi gün).\n\nSayma kelimesinden önce 'iki' için 二 değil 两 (liǎng) de: 两只猫 (iki kedi).\n\nYaş için fiilsiz 岁 (suì) kullan: 我十二岁 (on iki yaşındayım)."
+      },
+      "examples": [
+        {
+          "text": "三个学生",
+          "roman": "sān ge xuésheng",
+          "en": "three students",
+          "tr": "üç öğrenci"
+        },
+        {
+          "text": "两只猫",
+          "roman": "liǎng zhī māo",
+          "en": "two cats",
+          "tr": "iki kedi"
+        },
+        {
+          "text": "我十二岁。",
+          "roman": "Wǒ shí'èr suì.",
+          "en": "I am twelve.",
+          "tr": "On iki yaşındayım."
+        }
+      ]
+    },
+    "u04": {
+      "title": {
+        "en": "Yes-or-no questions with 吗",
+        "tr": "吗 ile evet-hayır soruları"
+      },
+      "body": {
+        "en": "To ask a yes-or-no question, take a normal sentence and add 吗 (ma) at the end: 你喝茶 (you drink tea) becomes 你喝茶吗？ (do you drink tea?).\n\nTo answer, repeat the verb: 喝 (yes, I drink it) or 不喝 (no, I don't).\n\n不 (bù) goes right before the verb to say 'not': 我不喝咖啡 (I don't drink coffee). Before a fourth tone it is said bú: 不是 (bú shì).",
+        "tr": "Evet-hayır sorusu sormak için olağan bir cümlenin sonuna 吗 (ma) ekle: 你喝茶 (çay içersin) 你喝茶吗？ (çay içer misin?) olur.\n\nCevap için fiili tekrarla: 喝 (evet, içerim) ya da 不喝 (hayır, içmem).\n\n'Değil' demek için 不 (bù) fiilin hemen önüne gelir: 我不喝咖啡 (kahve içmem). Dördüncü tondan önce bú okunur: 不是 (bú shì)."
+      },
+      "examples": [
+        {
+          "text": "你喝茶吗？",
+          "roman": "Nǐ hē chá ma?",
+          "en": "Do you drink tea?",
+          "tr": "Çay içer misin?"
+        },
+        {
+          "text": "我不喝咖啡。",
+          "roman": "Wǒ bù hē kāfēi.",
+          "en": "I don't drink coffee.",
+          "tr": "Kahve içmem."
+        },
+        {
+          "text": "你喜欢苹果吗？",
+          "roman": "Nǐ xǐhuan píngguǒ ma?",
+          "en": "Do you like apples?",
+          "tr": "Elma sever misin?"
+        }
+      ]
+    },
+    "u05": {
+      "title": {
+        "en": "在 and 有: where things are",
+        "tr": "在 ve 有: şeyler nerede"
+      },
+      "body": {
+        "en": "Two little words tell you where things are.\n\nThing + 在 (zài) + place says where a thing is: 书在桌子上 (the book is on the table).\n\nPlace + 有 (yǒu) + thing says what there is: 厨房里有一只猫 (there is a cat in the kitchen).\n\nThe 'on' or 'in' comes after the place, not before it: 桌子上 (on the table), 厨房里 (in the kitchen), 床旁边 (next to the bed).",
+        "tr": "İki küçük kelime şeylerin nerede olduğunu söyler.\n\nŞey + 在 (zài) + yer, bir şeyin nerede olduğunu söyler: 书在桌子上 (kitap masanın üstünde).\n\nYer + 有 (yǒu) + şey, orada ne olduğunu söyler: 厨房里有一只猫 (mutfakta bir kedi var).\n\n'Üstünde' ya da 'içinde' yerden sonra gelir, Türkçedeki gibi: 桌子上 (masanın üstünde), 厨房里 (mutfakta), 床旁边 (yatağın yanında)."
+      },
+      "examples": [
+        {
+          "text": "书在桌子上。",
+          "roman": "Shū zài zhuōzi shang.",
+          "en": "The book is on the table.",
+          "tr": "Kitap masanın üstünde."
+        },
+        {
+          "text": "厨房里有一只猫。",
+          "roman": "Chúfáng lǐ yǒu yì zhī māo.",
+          "en": "There is a cat in the kitchen.",
+          "tr": "Mutfakta bir kedi var."
+        },
+        {
+          "text": "灯在床旁边。",
+          "roman": "Dēng zài chuáng pángbiān.",
+          "en": "The lamp is next to the bed.",
+          "tr": "Lamba yatağın yanında."
+        }
+      ]
+    },
+    "u06": {
+      "title": {
+        "en": "When comes before what you do",
+        "tr": "Zaman, yaptığın işten önce gelir"
+      },
+      "body": {
+        "en": "In Chinese the time goes before the verb, never at the end. Say 我七点醒来, word for word 'I seven o'clock wake up'.\n\nThe time can also open the sentence: 星期六我们看电影 (on Saturday we watch a movie).\n\nThe verb stays the same for everyone: 我去, 她去 (I go, she goes). For 'every day' say 每天 (měi tiān), often with 都 (dōu) before the verb.",
+        "tr": "Çincede zaman fiilden önce gelir, asla sonda olmaz. 我七点醒来 de, kelimesi kelimesine 'ben saat yedi uyanırım'. Türkçedeki sıraya benzer.\n\nZaman cümleyi de açabilir: 星期六我们看电影 (cumartesi film izleriz).\n\nFiil herkes için aynı kalır: 我去, 她去 (ben giderim, o gider). 'Her gün' için 每天 (měi tiān) de, çoğu zaman fiilden önce 都 (dōu) ile."
+      },
+      "examples": [
+        {
+          "text": "我七点醒来。",
+          "roman": "Wǒ qī diǎn xǐnglái.",
+          "en": "I wake up at seven.",
+          "tr": "Saat yedide uyanırım."
+        },
+        {
+          "text": "星期六我们看电影。",
+          "roman": "Xīngqīliù wǒmen kàn diànyǐng.",
+          "en": "On Saturday we watch a movie.",
+          "tr": "Cumartesi film izleriz."
+        },
+        {
+          "text": "她每天都去学校。",
+          "roman": "Tā měi tiān dōu qù xuéxiào.",
+          "en": "She goes to school every day.",
+          "tr": "O her gün okula gider."
+        }
+      ]
+    },
+    "u07": {
+      "title": {
+        "en": "Near and far with 离, ways with 往",
+        "tr": "离 ile yakın ve uzak, 往 ile yön"
+      },
+      "body": {
+        "en": "To say how far one place is from another, use 离 (lí, 'from'): A 离 B 很近 (A is near B), A 离 B 很远 (A is far from B).\n\nTo give a direction, use 往 (wǎng, 'towards') before it: 往左转 (turn left), 往右转 (turn right), 一直往前走 (go straight ahead).\n\nWords like 前面 (in front) and 后面 (behind) come after the place: 博物馆后面 (behind the museum).",
+        "tr": "Bir yerin başka bir yere uzaklığını söylemek için 离 (lí, '-den') kullan: A 离 B 很近 (A B'ye yakın), A 离 B 很远 (A B'den uzak).\n\nYön vermek için önce 往 (wǎng, '-e doğru') gelir: 往左转 (sola dön), 往右转 (sağa dön), 一直往前走 (dümdüz git).\n\n前面 (önünde) ve 后面 (arkasında) gibi kelimeler yerden sonra gelir: 博物馆后面 (müzenin arkasında)."
+      },
+      "examples": [
+        {
+          "text": "银行离这儿很近。",
+          "roman": "Yínháng lí zhèr hěn jìn.",
+          "en": "The bank is near here.",
+          "tr": "Banka buraya yakın."
+        },
+        {
+          "text": "往右转。",
+          "roman": "Wǎng yòu zhuǎn.",
+          "en": "Turn right.",
+          "tr": "Sağa dön."
+        },
+        {
+          "text": "咖啡馆在博物馆后面。",
+          "roman": "Kāfēiguǎn zài bówùguǎn hòumiàn.",
+          "en": "The cafe is behind the museum.",
+          "tr": "Kafe müzenin arkasında."
+        }
+      ]
+    },
+    "u08": {
+      "title": {
+        "en": "This shirt, that pair: 件, 条, 双",
+        "tr": "Bu gömlek, şu çift: 件, 条, 双"
+      },
+      "body": {
+        "en": "With 这 (this) and 那 (that), you also need a counting word. Clothes have their own: 件 (jiàn) for shirts and jackets, 条 (tiáo) for pants and dresses, 双 (shuāng) for a pair of shoes.\n\nSo it is 这件衬衫 (this shirt), 那条裤子 (those pants) and 这双鞋 (these shoes).\n\nTo ask the price, add 多少钱？ (how much money?) at the end: 这件衬衫多少钱？",
+        "tr": "这 (bu) ve 那 (şu) ile de bir sayma kelimesi gerekir. Giysilerin kendi kelimeleri vardır: gömlek ve ceket için 件 (jiàn), pantolon ve elbise için 条 (tiáo), bir çift ayakkabı için 双 (shuāng).\n\nYani 这件衬衫 (bu gömlek), 那条裤子 (şu pantolon) ve 这双鞋 (bu ayakkabılar) denir.\n\nFiyat sormak için sona 多少钱？ (ne kadar para?) ekle: 这件衬衫多少钱？"
+      },
+      "examples": [
+        {
+          "text": "这件衬衫多少钱？",
+          "roman": "Zhè jiàn chènshān duōshao qián?",
+          "en": "How much is this shirt?",
+          "tr": "Bu gömlek ne kadar?"
+        },
+        {
+          "text": "那条裤子很贵。",
+          "roman": "Nà tiáo kùzi hěn guì.",
+          "en": "Those pants are expensive.",
+          "tr": "Şu pantolon pahalı."
+        },
+        {
+          "text": "这双鞋很便宜。",
+          "roman": "Zhè shuāng xié hěn piányi.",
+          "en": "These shoes are cheap.",
+          "tr": "Bu ayakkabılar ucuz."
+        }
+      ]
+    },
+    "u09": {
+      "title": {
+        "en": "正在: what is happening right now",
+        "tr": "正在: şu anda olan"
+      },
+      "body": {
+        "en": "To say something is going on right now, put 正在 (zhèngzài) before the verb: 我正在看书 (I am reading). The verb itself does not change.\n\nWeather works the same way: 正在下雨 (it is raining). With 了 (le) at the end you say the weather has just changed: 下雪了！ (it is snowing now!).\n\nFor 'it is hot' or 'it is cold', you need no 'it' and no 是: 今天很热 (today is hot).",
+        "tr": "Bir şeyin şu anda olduğunu söylemek için fiilden önce 正在 (zhèngzài) koy: 我正在看书 (kitap okuyorum). Fiilin kendisi değişmez.\n\nHava da böyle anlatılır: 正在下雨 (yağmur yağıyor). Sona 了 (le) gelirse hava yeni değişmiştir: 下雪了！ (kar yağmaya başladı!).\n\n'Sıcak' ya da 'soğuk' derken 是 kullanma, 很 yeter: 今天很热 (bugün hava sıcak)."
+      },
+      "examples": [
+        {
+          "text": "我正在看书。",
+          "roman": "Wǒ zhèngzài kàn shū.",
+          "en": "I am reading.",
+          "tr": "Kitap okuyorum."
+        },
+        {
+          "text": "外面正在下雨。",
+          "roman": "Wàimiàn zhèngzài xià yǔ.",
+          "en": "It is raining outside.",
+          "tr": "Dışarıda yağmur yağıyor."
+        },
+        {
+          "text": "今天很热。",
+          "roman": "Jīntiān hěn rè.",
+          "en": "It is hot today.",
+          "tr": "Bugün hava sıcak."
+        }
+      ]
+    },
+    "u10": {
+      "title": {
+        "en": "Talking about the past: no 'was' needed",
+        "tr": "Geçmiş: 'idi' eki gerekmez"
+      },
+      "body": {
+        "en": "Chinese has no 'was' and no past form of a word. A time word does the work: 昨天很冷 means 'yesterday (it) was cold'. If the time is clear, you can even leave it out.\n\nTo say how or when something happened, wrap it in 是 ... 的: 我是坐飞机来的 (I came by plane), 照片是在东京拍的 (the photo was taken in Tokyo).\n\nFor 'was not' with words like 'expensive', just use 不: 票不贵 (the tickets were not expensive).",
+        "tr": "Çincede 'idi' eki ya da kelimenin geçmiş hali yoktur. Bu işi bir zaman kelimesi görür: 昨天很冷 'dün hava soğuktu' demektir. Zaman belliyse onu da söylemeyebilirsin.\n\nBir şeyin nasıl ya da ne zaman olduğunu söylemek için onu 是 ... 的 arasına al: 我是坐飞机来的 (uçakla geldim), 照片是在东京拍的 (fotoğraf Tokyo'da çekildi).\n\n'Pahalı değildi' gibi cümleler için yalnızca 不 kullan: 票不贵 (biletler pahalı değildi)."
+      },
+      "examples": [
+        {
+          "text": "昨天很冷。",
+          "roman": "Zuótiān hěn lěng.",
+          "en": "It was cold yesterday.",
+          "tr": "Dün hava soğuktu."
+        },
+        {
+          "text": "我是坐飞机来的。",
+          "roman": "Wǒ shì zuò fēijī lái de.",
+          "en": "I came by plane.",
+          "tr": "Uçakla geldim."
+        },
+        {
+          "text": "去年的票不贵。",
+          "roman": "Qùnián de piào bú guì.",
+          "en": "Last year the tickets were not expensive.",
+          "tr": "Geçen yıl biletler pahalı değildi."
+        }
+      ]
+    },
+    "u11": {
+      "title": {
+        "en": "了 for what you did, 没 for what you didn't",
+        "tr": "Yaptığın için 了, yapmadığın için 没"
+      },
+      "body": {
+        "en": "To say an action is done, put 了 (le) after the verb: 我看了一部电影 (I watched a movie). With a short sentence, 了 can also go at the end: 我们跳舞了 (we danced).\n\nTo say you did not do something, use 没 (méi) before the verb and drop 了: 我没看见阿里 (I did not see Ali). Do not use 不 here.\n\nA time word at the front makes it even clearer: 昨天, 上个星期, 去年.",
+        "tr": "Bir işin bittiğini söylemek için fiilden sonra 了 (le) koy: 我看了一部电影 (bir film izledim). Kısa cümlelerde 了 sona da gelebilir: 我们跳舞了 (dans ettik).\n\nBir şeyi yapmadığını söylemek için fiilden önce 没 (méi) kullan ve 了'yi at: 我没看见阿里 (Ali'yi görmedim). Burada 不 kullanma.\n\nBaştaki bir zaman kelimesi her şeyi daha açık yapar: 昨天 (dün), 上个星期 (geçen hafta), 去年 (geçen yıl)."
+      },
+      "examples": [
+        {
+          "text": "我昨天看了一部电影。",
+          "roman": "Wǒ zuótiān kànle yí bù diànyǐng.",
+          "en": "I watched a movie yesterday.",
+          "tr": "Dün bir film izledim."
+        },
+        {
+          "text": "我没看见阿里。",
+          "roman": "Wǒ méi kànjiàn Ālǐ.",
+          "en": "I did not see Ali.",
+          "tr": "Ali'yi görmedim."
+        },
+        {
+          "text": "萨姆丢了钥匙。",
+          "roman": "Sàmǔ diūle yàoshi.",
+          "en": "Sam lost his keys.",
+          "tr": "Sam anahtarlarını kaybetti."
+        }
+      ]
+    },
+    "u12": {
+      "title": {
+        "en": "Plans with 要, wishes with 想",
+        "tr": "要 ile planlar, 想 ile istekler"
+      },
+      "body": {
+        "en": "For a plan, put 要 (yào) before the verb: 明天我要去看奶奶 (tomorrow I am going to visit my grandma).\n\nFor something you would like to do, use 想 (xiǎng): 我想学中文 (I would like to learn Chinese). To invite a friend, ask 你想来吗？ (would you like to come?).\n\nFor a promise or a simple 'will', use 会 (huì): 我会带一个蛋糕 (I will bring a cake). The time word, like 明天 or 下个星期, still goes before the verb.",
+        "tr": "Bir plan için fiilden önce 要 (yào) koy: 明天我要去看奶奶 (yarın babaanneme gideceğim).\n\nYapmak istediğin bir şey için 想 (xiǎng) kullan: 我想学中文 (Çince öğrenmek istiyorum). Bir arkadaşını davet etmek için 你想来吗？ (gelmek ister misin?) diye sor.\n\nBir söz ya da basit bir gelecek için 会 (huì) kullan: 我会带一个蛋糕 (bir pasta getireceğim). 明天 ya da 下个星期 gibi zaman kelimesi yine fiilden önce gelir."
+      },
+      "examples": [
+        {
+          "text": "明天我要去看奶奶。",
+          "roman": "Míngtiān wǒ yào qù kàn nǎinai.",
+          "en": "Tomorrow I am going to visit my grandmother.",
+          "tr": "Yarın babaanneme gideceğim."
+        },
+        {
+          "text": "我想学中文。",
+          "roman": "Wǒ xiǎng xué Zhōngwén.",
+          "en": "I would like to learn Chinese.",
+          "tr": "Çince öğrenmek istiyorum."
+        },
+        {
+          "text": "我会带一个蛋糕。",
+          "roman": "Wǒ huì dài yí ge dàngāo.",
+          "en": "I will bring a cake.",
+          "tr": "Bir pasta getireceğim."
+        }
+      ]
+    }
+  }
+}

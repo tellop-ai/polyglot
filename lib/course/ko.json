@@ -1,0 +1,4984 @@
+{
+  "format": 1,
+  "language": "ko",
+  "words": {
+    "hello": {
+      "text": "안녕하세요",
+      "roman": "annyeonghaseyo",
+      "ex": "안녕하세요, 저는 엠레예요.",
+      "exRoman": "annyeonghaseyo, jeoneun emreyeyo.",
+      "note": {
+        "en": "The polite greeting for any time of day. To a close friend: 안녕.",
+        "tr": "Günün her saati için kibar selam. Yakın bir arkadaşa: 안녕."
+      }
+    },
+    "good-morning": {
+      "text": "좋은 아침이에요",
+      "roman": "joeun achimieyo",
+      "ex": "좋은 아침이에요, 커피 준비됐어요.",
+      "exRoman": "joeun achimieyo, keopi junbidwaesseoyo."
+    },
+    "good-evening": {
+      "text": "좋은 저녁이에요",
+      "roman": "joeun jeonyeogieyo",
+      "ex": "좋은 저녁이에요, 미아, 톰!",
+      "exRoman": "joeun jeonyeogieyo, mia, tom!",
+      "note": {
+        "en": "A word-for-word 'good evening'. Koreans usually greet with 안녕하세요 at any time of day.",
+        "tr": "'İyi akşamlar'ın kelimesi kelimesine karşılığı. Koreliler günün her saatinde genelde 안녕하세요 diye selam verir."
+      }
+    },
+    "how-are-you": {
+      "text": "잘 지내요?",
+      "roman": "jal jinaeyo?",
+      "ex": "잘 지내요? 오늘 아침은 어때요?",
+      "exRoman": "jal jinaeyo? oneul achimeun eottaeyo?",
+      "note": {
+        "en": "Polite -요 form. To a close friend you can drop 요: 잘 지내?",
+        "tr": "Kibar -요 biçimi. Yakın bir arkadaşa 요'yu atarak 잘 지내? diyebilirsin."
+      }
+    },
+    "i-am-fine": {
+      "text": "괜찮아요",
+      "roman": "gwaenchanayo",
+      "ex": "고마워요, 오늘은 괜찮아요.",
+      "exRoman": "gomawoyo, oneureun gwaenchanayo.",
+      "note": {
+        "en": "Literally 'it is okay'. To 잘 지내요? you can also answer 네, 잘 지내요.",
+        "tr": "Kelimesi kelimesine 'sorun yok'. 잘 지내요? sorusuna 네, 잘 지내요 diye de cevap verebilirsin."
+      }
+    },
+    "and-you": {
+      "text": "너는?",
+      "roman": "neoneun?",
+      "ex": "나는 잘 지내, 너는?",
+      "exRoman": "naneun jal jinae, neoneun?",
+      "note": {
+        "en": "Casual, to one close friend. In polite talk, use the person's name: 엠마 씨는요?",
+        "tr": "Samimi, tek bir yakın arkadaşa. Kibar konuşmada kişinin adını kullan: 엠마 씨는요?"
+      }
+    },
+    "goodbye": {
+      "text": "잘 가요",
+      "roman": "jal gayo",
+      "ex": "잘 가요, 알리, 고마워요!",
+      "exRoman": "jal gayo, alli, gomawoyo!",
+      "note": {
+        "en": "Said to a friend who leaves. If you leave and the friend stays, say 잘 있어요.",
+        "tr": "Giden bir arkadaşa söylenir. Sen gidiyorsan ve arkadaşın kalıyorsa 잘 있어요 de."
+      }
+    },
+    "good-night": {
+      "text": "잘 자요",
+      "roman": "jal jayo",
+      "ex": "잘 자요, 좋은 꿈 꿔요.",
+      "exRoman": "jal jayo, joeun kkum kkwoyo.",
+      "note": {
+        "en": "Literally 'sleep well'. To an older person: 안녕히 주무세요.",
+        "tr": "Kelimesi kelimesine 'iyi uyu'. Yaşça büyük birine: 안녕히 주무세요."
+      }
+    },
+    "see-you-later": {
+      "text": "이따 봐요",
+      "roman": "itta bwayo",
+      "ex": "지금 수업이 있어요, 이따 봐요.",
+      "exRoman": "jigeum sueobi isseoyo, itta bwayo."
+    },
+    "see-you-tomorrow": {
+      "text": "내일 봐요",
+      "roman": "naeil bwayo",
+      "ex": "엘리프, 내일 학교에서 봐요.",
+      "exRoman": "ellipeu, naeil hakgyoeseo bwayo."
+    },
+    "have-a-nice-day": {
+      "text": "좋은 하루 보내세요",
+      "roman": "joeun haru bonaeseyo",
+      "ex": "정말 고마워요, 좋은 하루 보내세요!",
+      "exRoman": "jeongmal gomawoyo, joeun haru bonaeseyo!"
+    },
+    "take-care": {
+      "text": "조심히 가요",
+      "roman": "josimhi gayo",
+      "ex": "조심히 가요, 곧 또 봐요.",
+      "exRoman": "josimhi gayo, got tto bwayo.",
+      "note": {
+        "en": "Literally 'go carefully'. Said to a friend who leaves.",
+        "tr": "Kelimesi kelimesine 'dikkatli git'. Giden bir arkadaşa söylenir."
+      }
+    },
+    "name": {
+      "text": "이름",
+      "roman": "ireum",
+      "ex": "제 이름은 제이네프예요.",
+      "exRoman": "je ireumeun jeinepeuyeyo."
+    },
+    "where-are-you-from": {
+      "text": "어디에서 왔어요?",
+      "roman": "eodieseo wasseoyo?",
+      "ex": "엠마, 어디에서 왔어요?",
+      "exRoman": "emma, eodieseo wasseoyo?",
+      "note": {
+        "en": "Literally 'where did you come from?'. To a close friend: 어디에서 왔어?",
+        "tr": "Kelimesi kelimesine 'nereden geldin?'. Yakın bir arkadaşa: 어디에서 왔어?"
+      }
+    },
+    "nice-to-meet-you": {
+      "text": "만나서 반가워요",
+      "roman": "mannaseo bangawoyo",
+      "ex": "저는 알리예요, 만나서 반가워요.",
+      "exRoman": "jeoneun alliyeyo, mannaseo bangawoyo.",
+      "note": {
+        "en": "A fixed phrase for a first meeting. More formal: 만나서 반갑습니다.",
+        "tr": "İlk tanışmada söylenen kalıp. Daha resmî: 만나서 반갑습니다."
+      }
+    },
+    "student": {
+      "text": "학생",
+      "roman": "haksaeng",
+      "ex": "데니즈는 이스탄불에서 공부하는 학생이에요.",
+      "exRoman": "denijeuneun iseutanbureseo gongbuhaneun haksaengieyo."
+    },
+    "teacher": {
+      "text": "선생님",
+      "roman": "seonsaengnim",
+      "ex": "우리 선생님은 아주 친절해요.",
+      "exRoman": "uri seonsaengnimeun aju chinjeolhaeyo."
+    },
+    "country": {
+      "text": "나라",
+      "roman": "nara",
+      "ex": "우리 나라는 정말 아름다워요.",
+      "exRoman": "uri naraneun jeongmal areumdawoyo."
+    },
+    "please": {
+      "text": "주세요",
+      "roman": "juseyo",
+      "ex": "물 한 잔 주세요.",
+      "exRoman": "mul han jan juseyo.",
+      "note": {
+        "en": "주세요 means 'please give me'. Say it after the thing you ask for: 물 주세요.",
+        "tr": "주세요 'lütfen bana ver' demek. İstediğin şeyden sonra söyle: 물 주세요."
+      }
+    },
+    "thank-you": {
+      "text": "고마워요",
+      "roman": "gomawoyo",
+      "ex": "차 줘서 고마워요.",
+      "exRoman": "cha jwoseo gomawoyo.",
+      "note": {
+        "en": "More formal: 감사합니다.",
+        "tr": "Daha resmî: 감사합니다."
+      }
+    },
+    "youre-welcome": {
+      "text": "천만에요",
+      "roman": "cheonmaneyo",
+      "ex": "천만에요, 아무 문제 없어요.",
+      "exRoman": "cheonmaneyo, amu munje eopseoyo.",
+      "note": {
+        "en": "In everyday talk Koreans also often answer 아니에요.",
+        "tr": "Günlük konuşmada Koreliler çoğu zaman 아니에요 diye de cevap verir."
+      }
+    },
+    "sorry": {
+      "text": "미안해요",
+      "roman": "mianhaeyo",
+      "ex": "미안해요, 늦었어요.",
+      "exRoman": "mianhaeyo, neujeosseoyo.",
+      "note": {
+        "en": "More formal: 죄송합니다.",
+        "tr": "Daha resmî: 죄송합니다."
+      }
+    },
+    "yes": {
+      "text": "네",
+      "roman": "ne",
+      "ex": "네, 저는 학생이에요.",
+      "exRoman": "ne, jeoneun haksaengieyo."
+    },
+    "no": {
+      "text": "아니요",
+      "roman": "aniyo",
+      "ex": "아니요, 저는 파리 사람이 아니에요.",
+      "exRoman": "aniyo, jeoneun pari sarami anieyo."
+    },
+    "family": {
+      "text": "가족",
+      "roman": "gajok",
+      "ex": "우리 가족은 리스본에 살아요.",
+      "exRoman": "uri gajogeun riseubone sarayo."
+    },
+    "mother": {
+      "text": "엄마",
+      "roman": "eomma",
+      "ex": "우리 엄마는 매일 아침 차를 마셔요.",
+      "exRoman": "uri eommaneun maeil achim chareul masyeoyo.",
+      "note": {
+        "en": "Warm and casual, like 'mom'. More formal: 어머니.",
+        "tr": "Sıcak ve günlük söyleyiş. Daha resmî: 어머니."
+      }
+    },
+    "father": {
+      "text": "아빠",
+      "roman": "appa",
+      "ex": "우리 아빠는 의사예요.",
+      "exRoman": "uri appaneun uisayeyo.",
+      "note": {
+        "en": "Warm and casual, like 'dad'. More formal: 아버지.",
+        "tr": "Sıcak ve günlük söyleyiş. Daha resmî: 아버지."
+      }
+    },
+    "brother": {
+      "text": "오빠",
+      "roman": "oppa",
+      "ex": "우리 오빠는 열 살이에요.",
+      "exRoman": "uri oppaneun yeol sarieyo.",
+      "note": {
+        "en": "An older brother, said by a girl. A boy says 형. A younger brother is 남동생.",
+        "tr": "Ağabey; bunu bir kız söyler. Bir erkek 형 der. Küçük erkek kardeş: 남동생."
+      }
+    },
+    "sister": {
+      "text": "언니",
+      "roman": "eonni",
+      "ex": "엘리프의 언니는 마드리드에 살아요.",
+      "exRoman": "ellipeuui eonnineun madeurideue sarayo.",
+      "note": {
+        "en": "An older sister, said by a girl. A boy says 누나. A younger sister is 여동생.",
+        "tr": "Abla; bunu bir kız söyler. Bir erkek 누나 der. Küçük kız kardeş: 여동생."
+      }
+    },
+    "baby": {
+      "text": "아기",
+      "roman": "agi",
+      "ex": "아기가 아주 작아요.",
+      "exRoman": "agiga aju jagayo."
+    },
+    "grandmother": {
+      "text": "할머니",
+      "roman": "halmeoni",
+      "ex": "우리 할머니는 로마에 사세요.",
+      "exRoman": "uri halmeonineun romae saseyo."
+    },
+    "grandfather": {
+      "text": "할아버지",
+      "roman": "harabeoji",
+      "ex": "우리 할아버지는 신문을 읽으세요.",
+      "exRoman": "uri harabeojineun sinmuneul ilgeuseyo."
+    },
+    "son": {
+      "text": "아들",
+      "roman": "adeul",
+      "ex": "그 부부의 아들은 학생이에요.",
+      "exRoman": "geu bubuui adeureun haksaengieyo."
+    },
+    "daughter": {
+      "text": "딸",
+      "roman": "ttal",
+      "ex": "알리는 딸이 두 명 있어요.",
+      "exRoman": "allineun ttari du myeong isseoyo."
+    },
+    "dog": {
+      "text": "개",
+      "roman": "gae",
+      "ex": "우리 개는 크고 하얘요.",
+      "exRoman": "uri gaeneun keugo hayaeyo.",
+      "note": {
+        "en": "For a pet dog people also say 강아지 (puppy).",
+        "tr": "Evcil köpek için 강아지 (yavru köpek) da denir."
+      }
+    },
+    "cat": {
+      "text": "고양이",
+      "roman": "goyangi",
+      "ex": "고양이가 소파에서 자요.",
+      "exRoman": "goyangiga sopaeseo jayo."
+    },
+    "friend": {
+      "text": "친구",
+      "roman": "chingu",
+      "ex": "톰은 제 친구예요.",
+      "exRoman": "tomeun je chinguyeyo."
+    },
+    "neighbor": {
+      "text": "이웃",
+      "roman": "iut",
+      "ex": "우리 이웃은 정원이 있어요.",
+      "exRoman": "uri iuseun jeongwoni isseoyo."
+    },
+    "kind": {
+      "text": "친절하다",
+      "roman": "chinjeolhada",
+      "ex": "엘리프 씨 언니는 정말 친절해요.",
+      "exRoman": "ellipeu ssi eonnineun jeongmal chinjeolhaeyo.",
+      "note": {
+        "en": "Nice and caring. Korean describing words act like verbs: 친절해요 = is kind. Polite Korean uses a name for 'your': 엘리프 씨 언니.",
+        "tr": "İyi kalpli ve ince. Korece sıfatlar fiil gibi çekilir: 친절해요 = nazik. Kibar Korecede 'senin' yerine ad kullanılır: 엘리프 씨 언니."
+      }
+    },
+    "funny": {
+      "text": "웃기다",
+      "roman": "utgida",
+      "ex": "레오는 정말 웃겨요.",
+      "exRoman": "reoneun jeongmal utgyeoyo."
+    },
+    "happy": {
+      "text": "행복하다",
+      "roman": "haengbokada",
+      "ex": "저는 오늘 정말 행복해요.",
+      "exRoman": "jeoneun oneul jeongmal haengbokaeyo."
+    },
+    "together": {
+      "text": "같이",
+      "roman": "gachi",
+      "ex": "우리는 같이 점심을 먹어요.",
+      "exRoman": "urineun gachi jeomsimeul meogeoyo."
+    },
+    "man": {
+      "text": "남자",
+      "roman": "namja",
+      "ex": "저 남자는 제 선생님이에요.",
+      "exRoman": "jeo namjaneun je seonsaengnimieyo."
+    },
+    "woman": {
+      "text": "여자",
+      "roman": "yeoja",
+      "ex": "저 여자는 의사예요.",
+      "exRoman": "jeo yeojaneun uisayeyo."
+    },
+    "child": {
+      "text": "아이",
+      "roman": "ai",
+      "ex": "그 아이는 여섯 살이에요.",
+      "exRoman": "geu aineun yeoseot sarieyo."
+    },
+    "young": {
+      "text": "젊다",
+      "roman": "jeomda",
+      "ex": "우리 새 선생님은 젊어요.",
+      "exRoman": "uri sae seonsaengnimeun jeolmeoyo."
+    },
+    "old": {
+      "text": "나이가 많다",
+      "roman": "naiga manta",
+      "ex": "우리 할아버지는 나이가 많으시지만 건강하세요.",
+      "exRoman": "uri harabeojineun naiga maneusijiman geonganghaseyo.",
+      "note": {
+        "en": "Of a person. Literally 'the age is much': the polite way to say it. 늙다 can sound rude.",
+        "tr": "Bir kişi için. Kelimesi kelimesine 'yaşı çok': kibar söyleyiş. 늙다 kaba duyulabilir."
+      }
+    },
+    "tall": {
+      "text": "키가 크다",
+      "roman": "kiga keuda",
+      "ex": "샘은 키가 아주 커요.",
+      "exRoman": "saemeun kiga aju keoyo.",
+      "note": {
+        "en": "Literally 'the height is big'.",
+        "tr": "Kelimesi kelimesine 'boyu büyük'."
+      }
+    },
+    "one": {
+      "text": "하나",
+      "roman": "hana",
+      "ex": "저는 오빠가 한 명 있어요.",
+      "exRoman": "jeoneun oppaga han myeong isseoyo.",
+      "note": {
+        "en": "Before a counter word it becomes 한: 한 명 (one person).",
+        "tr": "Sayma kelimesinden önce 한 olur: 한 명 (bir kişi)."
+      }
+    },
+    "two": {
+      "text": "둘",
+      "roman": "dul",
+      "ex": "우리는 고양이가 두 마리 있어요.",
+      "exRoman": "urineun goyangiga du mari isseoyo.",
+      "note": {
+        "en": "Before a counter word it becomes 두: 두 마리 (two animals).",
+        "tr": "Sayma kelimesinden önce 두 olur: 두 마리 (iki hayvan)."
+      }
+    },
+    "three": {
+      "text": "셋",
+      "roman": "set",
+      "ex": "제 아들은 세 살이에요.",
+      "exRoman": "je adeureun se sarieyo.",
+      "note": {
+        "en": "Before a counter word it becomes 세: 세 살 (three years old).",
+        "tr": "Sayma kelimesinden önce 세 olur: 세 살 (üç yaşında)."
+      }
+    },
+    "four": {
+      "text": "넷",
+      "roman": "net",
+      "ex": "우리 가족은 네 명이에요.",
+      "exRoman": "uri gajogeun ne myeongieyo.",
+      "note": {
+        "en": "Before a counter word it becomes 네: 네 명 (four people).",
+        "tr": "Sayma kelimesinden önce 네 olur: 네 명 (dört kişi)."
+      }
+    },
+    "five": {
+      "text": "다섯",
+      "roman": "daseot",
+      "ex": "저는 하루에 물을 다섯 잔 마셔요.",
+      "exRoman": "jeoneun harue mureul daseot jan masyeoyo."
+    },
+    "six": {
+      "text": "여섯",
+      "roman": "yeoseot",
+      "ex": "엠마는 책이 여섯 권 있어요.",
+      "exRoman": "emmaneun chaegi yeoseot gwon isseoyo."
+    },
+    "seven": {
+      "text": "일곱",
+      "roman": "ilgop",
+      "ex": "가게는 일곱 시에 문을 열어요.",
+      "exRoman": "gageneun ilgop sie muneul yeoreoyo."
+    },
+    "eight": {
+      "text": "여덟",
+      "roman": "yeodeol",
+      "ex": "수업은 여덟 시에 시작해요.",
+      "exRoman": "sueobeun yeodeol sie sijakaeyo."
+    },
+    "nine": {
+      "text": "아홉",
+      "roman": "ahop",
+      "ex": "데니즈는 아홉 살이에요.",
+      "exRoman": "denijeuneun ahop sarieyo."
+    },
+    "ten": {
+      "text": "열",
+      "roman": "yeol",
+      "ex": "저는 시간이 십 분 있어요.",
+      "exRoman": "jeoneun sigani sip bun isseoyo.",
+      "note": {
+        "en": "Minutes use the second number set, so 'ten minutes' is 십 분, not 열 분.",
+        "tr": "Dakikalar ikinci sayı takımıyla söylenir: 'on dakika' 열 분 değil, 십 분."
+      }
+    },
+    "eleven": {
+      "text": "열하나",
+      "roman": "yeolhana",
+      "ex": "우리 반에는 학생이 열한 명 있어요.",
+      "exRoman": "uri baneneun haksaengi yeolhan myeong isseoyo.",
+      "note": {
+        "en": "Before a counter word it becomes 열한: 열한 명 (eleven people).",
+        "tr": "Sayma kelimesinden önce 열한 olur: 열한 명 (on bir kişi)."
+      }
+    },
+    "twelve": {
+      "text": "열둘",
+      "roman": "yeoldul",
+      "ex": "레오는 오늘 열두 살이 됐어요.",
+      "exRoman": "reoneun oneul yeoldu sari dwaesseoyo.",
+      "note": {
+        "en": "Before a counter word it becomes 열두: 열두 살 (twelve years old).",
+        "tr": "Sayma kelimesinden önce 열두 olur: 열두 살 (on iki yaşında)."
+      }
+    },
+    "zero": {
+      "text": "영",
+      "roman": "yeong",
+      "ex": "제 전화번호는 영으로 시작해요.",
+      "exRoman": "je jeonhwabeonhoneun yeongeuro sijakaeyo.",
+      "note": {
+        "en": "In phone numbers people often say 공 for zero.",
+        "tr": "Telefon numaralarında sıfır için çoğu zaman 공 denir."
+      }
+    },
+    "twenty": {
+      "text": "스물",
+      "roman": "seumul",
+      "ex": "우리 반에는 학생이 스무 명 있어요.",
+      "exRoman": "uri baneneun haksaengi seumu myeong isseoyo.",
+      "note": {
+        "en": "Before a counter word it becomes 스무. In the second number set, twenty is 이십.",
+        "tr": "Sayma kelimesinden önce 스무 olur. İkinci sayı takımında yirmi 이십 demek."
+      }
+    },
+    "thirty": {
+      "text": "서른",
+      "roman": "seoreun",
+      "ex": "우리 선생님은 서른 살이에요.",
+      "exRoman": "uri seonsaengnimeun seoreun sarieyo.",
+      "note": {
+        "en": "Used for age: 서른 살. For money, minutes and math, thirty is 삼십.",
+        "tr": "Yaş için kullanılır: 서른 살. Para, dakika ve matematikte otuz 삼십 demek."
+      }
+    },
+    "fifty": {
+      "text": "오십",
+      "roman": "osip",
+      "ex": "이 책은 오십 쪽이에요.",
+      "exRoman": "i chaegeun osip jjogieyo.",
+      "note": {
+        "en": "From the second number set, used for pages, money and math. For age, fifty is 쉰.",
+        "tr": "İkinci sayı takımından; sayfa, para ve matematik için. Yaş için elli 쉰 demek."
+      }
+    },
+    "one-hundred": {
+      "text": "백",
+      "roman": "baek",
+      "ex": "우리 할머니는 거의 백 살이세요.",
+      "exRoman": "uri halmeonineun geoui baek sariseyo."
+    },
+    "number": {
+      "text": "번호",
+      "roman": "beonho",
+      "ex": "전화번호가 뭐예요?",
+      "exRoman": "jeonhwabeonhoga mwoyeyo?",
+      "note": {
+        "en": "A phone or room number. A number in math is 숫자.",
+        "tr": "Telefon ya da oda numarası. Matematikteki sayı 숫자 demek."
+      }
+    },
+    "age": {
+      "text": "나이",
+      "roman": "nai",
+      "ex": "여기에 이름하고 나이를 쓰세요.",
+      "exRoman": "yeogie ireumhago naireul sseuseyo."
+    },
+    "how-old-are-you": {
+      "text": "몇 살이에요?",
+      "roman": "myeot sarieyo?",
+      "ex": "엘리프, 몇 살이에요?",
+      "exRoman": "ellipeu, myeot sarieyo?",
+      "note": {
+        "en": "To a close friend: 몇 살이야? To an older person: 연세가 어떻게 되세요?",
+        "tr": "Yakın bir arkadaşa: 몇 살이야? Yaşça büyük birine: 연세가 어떻게 되세요?"
+      }
+    },
+    "how-many": {
+      "text": "몇",
+      "roman": "myeot",
+      "ex": "남자 형제가 몇 명 있어요?",
+      "exRoman": "namja hyeongjega myeot myeong isseoyo?",
+      "note": {
+        "en": "몇 goes before a counter word: 몇 명 (people), 몇 마리 (animals), 몇 개 (things).",
+        "tr": "몇 sayma kelimesinden önce gelir: 몇 명 (kişi), 몇 마리 (hayvan), 몇 개 (eşya)."
+      }
+    },
+    "year": {
+      "text": "해",
+      "roman": "hae",
+      "ex": "올해 저는 열여덟 살이에요.",
+      "exRoman": "olhae jeoneun yeollyeodeol sarieyo.",
+      "note": {
+        "en": "This year is 올해. With a number, use 년: 삼 년 (three years).",
+        "tr": "Bu yıl: 올해. Sayıyla birlikte 년 kullan: 삼 년 (üç yıl)."
+      }
+    },
+    "birthday": {
+      "text": "생일",
+      "roman": "saengil",
+      "ex": "오늘은 제 생일이에요!",
+      "exRoman": "oneureun je saengirieyo!"
+    },
+    "month": {
+      "text": "달",
+      "roman": "dal",
+      "ex": "제 생일은 다음 달이에요.",
+      "exRoman": "je saengireun daeum darieyo."
+    },
+    "breakfast": {
+      "text": "아침 식사",
+      "roman": "achim siksa",
+      "ex": "우리는 일곱 시에 아침 식사를 해요.",
+      "exRoman": "urineun ilgop sie achim siksareul haeyo.",
+      "note": {
+        "en": "In everyday talk 아침 alone means both 'morning' and 'breakfast'.",
+        "tr": "Günlük konuşmada tek başına 아침 hem 'sabah' hem 'kahvaltı' demek."
+      }
+    },
+    "bread": {
+      "text": "빵",
+      "roman": "ppang",
+      "ex": "이 빵은 신선해요.",
+      "exRoman": "i ppangeun sinseonhaeyo."
+    },
+    "cheese": {
+      "text": "치즈",
+      "roman": "chijeu",
+      "ex": "저는 빵하고 치즈를 먹어요.",
+      "exRoman": "jeoneun ppanghago chijeureul meogeoyo."
+    },
+    "egg": {
+      "text": "달걀",
+      "roman": "dalgyal",
+      "ex": "미아는 매일 아침 달걀을 하나 먹어요.",
+      "exRoman": "mianeun maeil achim dalgyareul hana meogeoyo.",
+      "note": {
+        "en": "People also say 계란.",
+        "tr": "계란 de denir."
+      }
+    },
+    "honey": {
+      "text": "꿀",
+      "roman": "kkul",
+      "ex": "우리 할아버지는 차에 꿀을 넣으세요.",
+      "exRoman": "uri harabeojineun chae kkureul neoeuseyo."
+    },
+    "eat": {
+      "text": "먹다",
+      "roman": "meokda",
+      "ex": "우리는 집에서 먹어요.",
+      "exRoman": "urineun jibeseo meogeoyo.",
+      "note": {
+        "en": "The dictionary form. In a polite sentence: 먹어요 (I eat).",
+        "tr": "Sözlük biçimi. Kibar bir cümlede: 먹어요 (yerim)."
+      }
+    },
+    "water": {
+      "text": "물",
+      "roman": "mul",
+      "ex": "이 물은 아주 차가워요.",
+      "exRoman": "i mureun aju chagawoyo."
+    },
+    "tea": {
+      "text": "차",
+      "roman": "cha",
+      "ex": "차 마실래요?",
+      "exRoman": "cha masillaeyo?",
+      "note": {
+        "en": "차 also means 'car'.",
+        "tr": "차 'araba' anlamına da gelir."
+      }
+    },
+    "coffee": {
+      "text": "커피",
+      "roman": "keopi",
+      "ex": "우리 아빠는 우유 없이 커피를 마셔요.",
+      "exRoman": "uri appaneun uyu eopsi keopireul masyeoyo."
+    },
+    "milk": {
+      "text": "우유",
+      "roman": "uyu",
+      "ex": "아기가 우유를 마셔요.",
+      "exRoman": "agiga uyureul masyeoyo."
+    },
+    "juice": {
+      "text": "주스",
+      "roman": "juseu",
+      "ex": "제이네프는 아침 식사 때 주스를 마셔요.",
+      "exRoman": "jeinepeuneun achim siksa ttae juseureul masyeoyo."
+    },
+    "drink": {
+      "text": "마시다",
+      "roman": "masida",
+      "ex": "우리는 저녁에 차를 마셔요.",
+      "exRoman": "urineun jeonyeoge chareul masyeoyo.",
+      "note": {
+        "en": "The verb, in its dictionary form. In a polite sentence: 마셔요 (I drink).",
+        "tr": "Fiilin sözlük biçimi. Kibar bir cümlede: 마셔요 (içerim)."
+      }
+    },
+    "apple": {
+      "text": "사과",
+      "roman": "sagwa",
+      "ex": "이 사과는 빨개요.",
+      "exRoman": "i sagwaneun ppalgaeyo."
+    },
+    "banana": {
+      "text": "바나나",
+      "roman": "banana",
+      "ex": "제 가방에 바나나가 하나 있어요.",
+      "exRoman": "je gabange bananaga hana isseoyo."
+    },
+    "tomato": {
+      "text": "토마토",
+      "roman": "tomato",
+      "ex": "이 토마토는 우리 정원에서 키웠어요.",
+      "exRoman": "i tomatoneun uri jeongwoneseo kiwosseoyo."
+    },
+    "potato": {
+      "text": "감자",
+      "roman": "gamja",
+      "ex": "저녁 식사로 감자를 먹어요.",
+      "exRoman": "jeonyeok siksaro gamjareul meogeoyo."
+    },
+    "fruit": {
+      "text": "과일",
+      "roman": "gwail",
+      "ex": "알리는 매일 과일을 먹어요.",
+      "exRoman": "allineun maeil gwaireul meogeoyo."
+    },
+    "vegetable": {
+      "text": "채소",
+      "roman": "chaeso",
+      "ex": "우리 엄마는 신선한 채소를 사요.",
+      "exRoman": "uri eommaneun sinseonhan chaesoreul sayo.",
+      "note": {
+        "en": "People also say 야채.",
+        "tr": "야채 da denir."
+      }
+    },
+    "lunch": {
+      "text": "점심",
+      "roman": "jeomsim",
+      "ex": "우리는 한 시에 점심을 먹어요.",
+      "exRoman": "urineun han sie jeomsimeul meogeoyo."
+    },
+    "dinner": {
+      "text": "저녁 식사",
+      "roman": "jeonyeok siksa",
+      "ex": "저녁 식사 준비됐어요!",
+      "exRoman": "jeonyeok siksa junbidwaesseoyo!",
+      "note": {
+        "en": "In everyday talk 저녁 alone means both 'evening' and 'dinner'.",
+        "tr": "Günlük konuşmada tek başına 저녁 hem 'akşam' hem 'akşam yemeği' demek."
+      }
+    },
+    "food": {
+      "text": "음식",
+      "roman": "eumsik",
+      "ex": "부엌에 음식이 있어요.",
+      "exRoman": "bueoke eumsigi isseoyo."
+    },
+    "soup": {
+      "text": "수프",
+      "roman": "supeu",
+      "ex": "우리 할머니는 토마토 수프를 만드세요.",
+      "exRoman": "uri halmeonineun tomato supeureul mandeuseyo.",
+      "note": {
+        "en": "A Western soup. Korean-style soup is 국.",
+        "tr": "Batı usulü çorba. Kore usulü çorba 국 demek."
+      }
+    },
+    "hungry": {
+      "text": "배고프다",
+      "roman": "baegopeuda",
+      "ex": "배고파요, 같이 먹어요!",
+      "exRoman": "baegopayo, gachi meogeoyo!"
+    },
+    "like": {
+      "text": "좋아하다",
+      "roman": "joahada",
+      "ex": "저는 생선은 좋아하지만 닭고기는 안 좋아해요.",
+      "exRoman": "jeoneun saengseoneun joahajiman dakgogineun an joahaeyo.",
+      "note": {
+        "en": "The verb: to enjoy something. 사과를 좋아해요 = I like apples.",
+        "tr": "Fiil: bir şeyi sevmek. 사과를 좋아해요 = elmayı severim."
+      }
+    },
+    "house": {
+      "text": "집",
+      "roman": "jip",
+      "ex": "그 가족의 집은 바다 근처에 있어요.",
+      "exRoman": "geu gajogui jibeun bada geuncheoe isseoyo."
+    },
+    "room": {
+      "text": "방",
+      "roman": "bang",
+      "ex": "제 방에는 창문이 두 개 있어요.",
+      "exRoman": "je bangeneun changmuni du gae isseoyo."
+    },
+    "kitchen": {
+      "text": "부엌",
+      "roman": "bueok",
+      "ex": "우리 아빠는 부엌에서 요리해요.",
+      "exRoman": "uri appaneun bueokeseo yorihaeyo."
+    },
+    "bedroom": {
+      "text": "침실",
+      "roman": "chimsil",
+      "ex": "침실은 위층에 있어요.",
+      "exRoman": "chimsireun wicheunge isseoyo."
+    },
+    "bathroom": {
+      "text": "욕실",
+      "roman": "yoksil",
+      "ex": "욕실은 제 방 옆에 있어요.",
+      "exRoman": "yoksireun je bang yeope isseoyo.",
+      "note": {
+        "en": "At home people often say 화장실 (toilet) for the bathroom.",
+        "tr": "Evde banyo için çoğu zaman 화장실 (tuvalet) denir."
+      }
+    },
+    "garden": {
+      "text": "정원",
+      "roman": "jeongwon",
+      "ex": "아이들이 정원에서 놀아요.",
+      "exRoman": "aideuri jeongwoneseo norayo."
+    },
+    "table": {
+      "text": "탁자",
+      "roman": "takja",
+      "ex": "열쇠가 탁자 위에 있어요.",
+      "exRoman": "yeolsoega takja wie isseoyo.",
+      "note": {
+        "en": "People also say 테이블. A dining table is 식탁.",
+        "tr": "테이블 de denir. Yemek masası 식탁 demek."
+      }
+    },
+    "chair": {
+      "text": "의자",
+      "roman": "uija",
+      "ex": "이 의자에 앉으세요.",
+      "exRoman": "i uijae anjeuseyo."
+    },
+    "bed": {
+      "text": "침대",
+      "roman": "chimdae",
+      "ex": "제 침대는 아주 푹신해요.",
+      "exRoman": "je chimdaeneun aju puksinhaeyo."
+    },
+    "sofa": {
+      "text": "소파",
+      "roman": "sopa",
+      "ex": "소파는 크고 파래요.",
+      "exRoman": "sopaneun keugo paraeyo."
+    },
+    "door": {
+      "text": "문",
+      "roman": "mun",
+      "ex": "문 좀 닫아 주세요.",
+      "exRoman": "mun jom dada juseyo."
+    },
+    "window": {
+      "text": "창문",
+      "roman": "changmun",
+      "ex": "창문 좀 열어 주세요.",
+      "exRoman": "changmun jom yeoreo juseyo."
+    },
+    "lamp": {
+      "text": "램프",
+      "roman": "raempeu",
+      "ex": "램프는 제 침대 옆에 있어요.",
+      "exRoman": "raempeuneun je chimdae yeope isseoyo.",
+      "note": {
+        "en": "A desk or bedside lamp is often called 스탠드.",
+        "tr": "Masa ya da başucu lambasına çoğu zaman 스탠드 denir."
+      }
+    },
+    "phone": {
+      "text": "휴대폰",
+      "roman": "hyudaepon",
+      "ex": "휴대폰이 소파 위에 있어요.",
+      "exRoman": "hyudaeponi sopa wie isseoyo.",
+      "note": {
+        "en": "A mobile phone. People also say 핸드폰.",
+        "tr": "Cep telefonu. 핸드폰 de denir."
+      }
+    },
+    "book": {
+      "text": "책",
+      "roman": "chaek",
+      "ex": "이건 좋은 책이에요.",
+      "exRoman": "igeon joeun chaegieyo."
+    },
+    "key": {
+      "text": "열쇠",
+      "roman": "yeolsoe",
+      "ex": "제가 문 열쇠를 가지고 있어요.",
+      "exRoman": "jega mun yeolsoereul gajigo isseoyo."
+    },
+    "fridge": {
+      "text": "냉장고",
+      "roman": "naengjanggo",
+      "ex": "냉장고에 치즈가 있어요.",
+      "exRoman": "naengjanggoe chijeuga isseoyo."
+    },
+    "computer": {
+      "text": "컴퓨터",
+      "roman": "keompyuteo",
+      "ex": "샘은 새 컴퓨터가 있어요.",
+      "exRoman": "saemeun sae keompyuteoga isseoyo."
+    },
+    "big": {
+      "text": "크다",
+      "roman": "keuda",
+      "ex": "그 집 정원은 아주 커요.",
+      "exRoman": "geu jip jeongwoneun aju keoyo."
+    },
+    "small": {
+      "text": "작다",
+      "roman": "jakda",
+      "ex": "우리 집에는 작은 부엌이 있어요.",
+      "exRoman": "uri jibeneun jageun bueoki isseoyo."
+    },
+    "new": {
+      "text": "새",
+      "roman": "sae",
+      "ex": "이게 제 새 집이에요.",
+      "exRoman": "ige je sae jibieyo.",
+      "note": {
+        "en": "새 always goes before a noun: 새 집 (a new house).",
+        "tr": "새 her zaman isimden önce gelir: 새 집 (yeni bir ev)."
+      }
+    },
+    "clean": {
+      "text": "깨끗하다",
+      "roman": "kkaekkeutada",
+      "ex": "방이 깨끗해요?",
+      "exRoman": "bangi kkaekkeutaeyo?"
+    },
+    "beautiful": {
+      "text": "아름답다",
+      "roman": "areumdapda",
+      "ex": "정말 아름다운 정원이네요!",
+      "exRoman": "jeongmal areumdaun jeongwonineyo!"
+    },
+    "there-is": {
+      "text": "있다",
+      "roman": "itda",
+      "ex": "침대 위에 고양이가 있어요.",
+      "exRoman": "chimdae wie goyangiga isseoyo.",
+      "note": {
+        "en": "있다 works for things, people and animals. 'There is not' is 없다.",
+        "tr": "있다 eşya, insan ve hayvan için kullanılır. 'Yok' demek için 없다."
+      }
+    },
+    "morning": {
+      "text": "아침",
+      "roman": "achim",
+      "ex": "저는 아침에 커피를 마셔요.",
+      "exRoman": "jeoneun achime keopireul masyeoyo."
+    },
+    "afternoon": {
+      "text": "오후",
+      "roman": "ohu",
+      "ex": "우리는 오후에 공원에서 놀아요.",
+      "exRoman": "urineun ohue gongwoneseo norayo."
+    },
+    "evening": {
+      "text": "저녁",
+      "roman": "jeonyeok",
+      "ex": "우리 가족은 저녁에 같이 밥을 먹어요.",
+      "exRoman": "uri gajogeun jeonyeoge gachi babeul meogeoyo."
+    },
+    "night": {
+      "text": "밤",
+      "roman": "bam",
+      "ex": "밤에는 도시가 조용해요.",
+      "exRoman": "bameneun dosiga joyonghaeyo."
+    },
+    "today": {
+      "text": "오늘",
+      "roman": "oneul",
+      "ex": "저는 오늘 아주 바빠요.",
+      "exRoman": "jeoneun oneul aju bappayo."
+    },
+    "now": {
+      "text": "지금",
+      "roman": "jigeum",
+      "ex": "미아는 지금 집에 없어요.",
+      "exRoman": "mianeun jigeum jibe eopseoyo."
+    },
+    "wake-up": {
+      "text": "일어나다",
+      "roman": "ireonada",
+      "ex": "저는 일곱 시에 일어나요.",
+      "exRoman": "jeoneun ilgop sie ireonayo."
+    },
+    "take-a-shower": {
+      "text": "샤워하다",
+      "roman": "syawohada",
+      "ex": "레오는 매일 아침 샤워해요.",
+      "exRoman": "reoneun maeil achim syawohaeyo."
+    },
+    "go": {
+      "text": "가다",
+      "roman": "gada",
+      "ex": "우리는 버스로 학교에 가요.",
+      "exRoman": "urineun beoseuro hakgyoe gayo."
+    },
+    "work": {
+      "text": "일하다",
+      "roman": "ilhada",
+      "ex": "우리 엄마는 병원에서 일해요.",
+      "exRoman": "uri eommaneun byeongwoneseo ilhaeyo.",
+      "note": {
+        "en": "The verb: to do a job. In a polite sentence: 일해요 (I work).",
+        "tr": "Fiil: bir işte çalışmak. Kibar bir cümlede: 일해요 (çalışırım)."
+      }
+    },
+    "school": {
+      "text": "학교",
+      "roman": "hakgyo",
+      "ex": "학교는 우리 집 근처에 있어요.",
+      "exRoman": "hakgyoneun uri jip geuncheoe isseoyo."
+    },
+    "sleep": {
+      "text": "자다",
+      "roman": "jada",
+      "ex": "아기들은 많이 자요.",
+      "exRoman": "agideureun mani jayo."
+    },
+    "monday": {
+      "text": "월요일",
+      "roman": "woryoil",
+      "ex": "학교는 월요일에 시작해요.",
+      "exRoman": "hakgyoneun woryoire sijakaeyo."
+    },
+    "tuesday": {
+      "text": "화요일",
+      "roman": "hwayoil",
+      "ex": "화요일에 음악 수업이 있어요.",
+      "exRoman": "hwayoire eumak sueobi isseoyo."
+    },
+    "wednesday": {
+      "text": "수요일",
+      "roman": "suyoil",
+      "ex": "수요일은 바쁜 날이에요.",
+      "exRoman": "suyoireun bappeun narieyo."
+    },
+    "thursday": {
+      "text": "목요일",
+      "roman": "mogyoil",
+      "ex": "우리는 목요일에 만나요.",
+      "exRoman": "urineun mogyoire mannayo."
+    },
+    "friday": {
+      "text": "금요일",
+      "roman": "geumyoil",
+      "ex": "금요일은 제가 제일 좋아하는 날이에요.",
+      "exRoman": "geumyoireun jega jeil joahaneun narieyo."
+    },
+    "week": {
+      "text": "일주일",
+      "roman": "iljuil",
+      "ex": "저는 일주일에 오 일 일해요.",
+      "exRoman": "jeoneun iljuire o il ilhaeyo.",
+      "note": {
+        "en": "A whole week. 주 alone also means 'week': 이번 주 (this week).",
+        "tr": "Bütün bir hafta. Tek başına 주 da 'hafta' demek: 이번 주 (bu hafta)."
+      }
+    },
+    "saturday": {
+      "text": "토요일",
+      "roman": "toyoil",
+      "ex": "토요일에는 할머니 댁에 가요.",
+      "exRoman": "toyoireneun halmeoni daege gayo."
+    },
+    "sunday": {
+      "text": "일요일",
+      "roman": "iryoil",
+      "ex": "일요일에는 가게들이 문을 닫아요.",
+      "exRoman": "iryoireneun gagedeuri muneul dadayo."
+    },
+    "weekend": {
+      "text": "주말",
+      "roman": "jumal",
+      "ex": "주말에 뭐 해요?",
+      "exRoman": "jumare mwo haeyo?"
+    },
+    "read": {
+      "text": "읽다",
+      "roman": "ikda",
+      "ex": "제이네프는 매일 밤 책을 읽어요.",
+      "exRoman": "jeinepeuneun maeil bam chaegeul ilgeoyo."
+    },
+    "watch": {
+      "text": "보다",
+      "roman": "boda",
+      "ex": "우리는 토요일에 영화를 봐요.",
+      "exRoman": "urineun toyoire yeonghwareul bwayo.",
+      "note": {
+        "en": "보다 means both 'watch' (TV, a movie) and 'see'.",
+        "tr": "보다 hem 'izlemek' (televizyon, film) hem 'görmek' demek."
+      }
+    },
+    "play": {
+      "text": "놀다",
+      "roman": "nolda",
+      "ex": "알리와 레오는 테니스를 쳐요.",
+      "exRoman": "alliwa reoneun teniseureul chyeoyo.",
+      "note": {
+        "en": "To play or have fun: 친구랑 놀아요. For a sport use 하다, and for tennis 치다, as in the example.",
+        "tr": "Oynamak, eğlenmek: 친구랑 놀아요. Spor için 하다, tenis için 치다 kullanılır, örnekteki gibi."
+      }
+    },
+    "city": {
+      "text": "도시",
+      "roman": "dosi",
+      "ex": "이스탄불은 아주 큰 도시예요.",
+      "exRoman": "iseutanbureun aju keun dosiyeyo."
+    },
+    "street": {
+      "text": "거리",
+      "roman": "geori",
+      "ex": "우리 학교는 이 거리에 있어요.",
+      "exRoman": "uri hakgyoneun i georie isseoyo."
+    },
+    "park": {
+      "text": "공원",
+      "roman": "gongwon",
+      "ex": "우리는 일요일마다 공원에서 산책해요.",
+      "exRoman": "urineun iryoilmada gongwoneseo sanchaekaeyo."
+    },
+    "hospital": {
+      "text": "병원",
+      "roman": "byeongwon",
+      "ex": "병원은 역 근처에 있어요.",
+      "exRoman": "byeongwoneun yeok geuncheoe isseoyo."
+    },
+    "museum": {
+      "text": "박물관",
+      "roman": "bangmulgwan",
+      "ex": "박물관은 월요일에 문을 닫아요.",
+      "exRoman": "bangmulgwaneun woryoire muneul dadayo."
+    },
+    "bank": {
+      "text": "은행",
+      "roman": "eunhaeng",
+      "ex": "은행은 아홉 시에 문을 열어요.",
+      "exRoman": "eunhaengeun ahop sie muneul yeoreoyo."
+    },
+    "supermarket": {
+      "text": "슈퍼마켓",
+      "roman": "syupeomaket",
+      "ex": "저는 슈퍼마켓에서 우유를 사요.",
+      "exRoman": "jeoneun syupeomakeseseo uyureul sayo."
+    },
+    "pharmacy": {
+      "text": "약국",
+      "roman": "yakguk",
+      "ex": "약국은 밤새 문을 열어요.",
+      "exRoman": "yakgugeun bamsae muneul yeoreoyo."
+    },
+    "restaurant": {
+      "text": "식당",
+      "roman": "sikdang",
+      "ex": "이 식당은 수프가 맛있어요.",
+      "exRoman": "i sikdangeun supeuga masisseoyo."
+    },
+    "library": {
+      "text": "도서관",
+      "roman": "doseogwan",
+      "ex": "엘리프는 도서관에서 공부해요.",
+      "exRoman": "ellipeuneun doseogwaneseo gongbuhaeyo."
+    },
+    "bakery": {
+      "text": "빵집",
+      "roman": "ppangjip",
+      "ex": "빵집은 신선한 빵을 팔아요.",
+      "exRoman": "ppangjibeun sinseonhan ppangeul parayo."
+    },
+    "cafe": {
+      "text": "카페",
+      "roman": "kape",
+      "ex": "우리는 카페에서 커피를 마셔요.",
+      "exRoman": "urineun kapeeseo keopireul masyeoyo."
+    },
+    "left": {
+      "text": "왼쪽",
+      "roman": "oenjjok",
+      "ex": "은행에서 왼쪽으로 도세요.",
+      "exRoman": "eunhaengeseo oenjjogeuro doseyo."
+    },
+    "right": {
+      "text": "오른쪽",
+      "roman": "oreunjjok",
+      "ex": "박물관은 오른쪽에 있어요.",
+      "exRoman": "bangmulgwaneun oreunjjoge isseoyo.",
+      "note": {
+        "en": "The direction. 'Correct' is a different word: 맞다.",
+        "tr": "Yön olarak sağ. 'Doğru' başka bir kelime: 맞다."
+      }
+    },
+    "straight-ahead": {
+      "text": "똑바로",
+      "roman": "ttokbaro",
+      "ex": "오 분 동안 똑바로 가세요.",
+      "exRoman": "o bun dongan ttokbaro gaseyo."
+    },
+    "turn": {
+      "text": "돌다",
+      "roman": "dolda",
+      "ex": "공원을 지나서 오른쪽으로 도세요.",
+      "exRoman": "gongwoneul jinaseo oreunjjogeuro doseyo.",
+      "note": {
+        "en": "To change direction. As a polite request: 도세요 (please turn).",
+        "tr": "Yön değiştirmek. Kibar bir rica olarak: 도세요 (lütfen dönün)."
+      }
+    },
+    "corner": {
+      "text": "모퉁이",
+      "roman": "motungi",
+      "ex": "모퉁이에 빵집이 있어요.",
+      "exRoman": "motungie ppangjibi isseoyo."
+    },
+    "where": {
+      "text": "어디",
+      "roman": "eodi",
+      "ex": "실례합니다, 은행이 어디에 있어요?",
+      "exRoman": "sillyehamnida, eunhaengi eodie isseoyo?"
+    },
+    "near": {
+      "text": "가깝다",
+      "roman": "gakkapda",
+      "ex": "우리 집은 공원에서 가까워요.",
+      "exRoman": "uri jibeun gongwoneseo gakkawoyo.",
+      "note": {
+        "en": "A describing word: 가까워요 (it is near). 근처에 means 'near, in the area'.",
+        "tr": "Bir sıfat: 가까워요 (yakın). 근처에 'yakınında, civarında' demek."
+      }
+    },
+    "far": {
+      "text": "멀다",
+      "roman": "meolda",
+      "ex": "해변은 여기서 멀어요?",
+      "exRoman": "haebyeoneun yeogiseo meoreoyo?"
+    },
+    "in-front-of": {
+      "text": "앞에",
+      "roman": "ape",
+      "ex": "도서관 앞에서 만나요.",
+      "exRoman": "doseogwan apeseo mannayo.",
+      "note": {
+        "en": "앞 is 'front'. It goes after the place: 집 앞에 (in front of the house).",
+        "tr": "앞 'ön' demek. Yerden sonra gelir: 집 앞에 (evin önünde)."
+      }
+    },
+    "behind": {
+      "text": "뒤에",
+      "roman": "dwie",
+      "ex": "정원은 집 뒤에 있어요.",
+      "exRoman": "jeongwoneun jip dwie isseoyo."
+    },
+    "between": {
+      "text": "사이에",
+      "roman": "saie",
+      "ex": "은행은 카페와 빵집 사이에 있어요.",
+      "exRoman": "eunhaengeun kapewa ppangjip saie isseoyo."
+    },
+    "map": {
+      "text": "지도",
+      "roman": "jido",
+      "ex": "도시 지도 있어요?",
+      "exRoman": "dosi jido isseoyo?"
+    },
+    "shirt": {
+      "text": "셔츠",
+      "roman": "syeocheu",
+      "ex": "알리는 회사에 하얀 셔츠를 입고 가요.",
+      "exRoman": "allineun hoesae hayan syeocheureul ipgo gayo."
+    },
+    "pants": {
+      "text": "바지",
+      "roman": "baji",
+      "ex": "이 바지는 너무 길어요.",
+      "exRoman": "i bajineun neomu gireoyo."
+    },
+    "dress": {
+      "text": "원피스",
+      "roman": "wonpiseu",
+      "ex": "안나는 긴 원피스를 입어요.",
+      "exRoman": "annaneun gin wonpiseureul ibeoyo.",
+      "note": {
+        "en": "An everyday dress. 드레스 is a long, formal dress.",
+        "tr": "Günlük elbise. 드레스 uzun, resmî bir elbise demek."
+      }
+    },
+    "shoes": {
+      "text": "신발",
+      "roman": "sinbal",
+      "ex": "제 신발은 침대 밑에 있어요.",
+      "exRoman": "je sinbareun chimdae mite isseoyo."
+    },
+    "jacket": {
+      "text": "재킷",
+      "roman": "jaekit",
+      "ex": "재킷을 가져가요, 밖이 추워요.",
+      "exRoman": "jaekiseul gajyeogayo, bakki chuwoyo."
+    },
+    "wear": {
+      "text": "입다",
+      "roman": "ipda",
+      "ex": "저는 겨울에 재킷을 입어요.",
+      "exRoman": "jeoneun gyeoure jaekiseul ibeoyo.",
+      "note": {
+        "en": "입다 is for clothes like shirts. Shoes take 신다, and a hat takes 쓰다.",
+        "tr": "입다 gömlek gibi giysiler için. Ayakkabı için 신다, şapka için 쓰다 kullanılır."
+      }
+    },
+    "red": {
+      "text": "빨간색",
+      "roman": "ppalgansaek",
+      "ex": "저는 빨간색 셔츠를 갖고 싶어요.",
+      "exRoman": "jeoneun ppalgansaek syeocheureul gatgo sipeoyo.",
+      "note": {
+        "en": "Color words end in 색 (color). Before a noun you can also say 빨간 셔츠.",
+        "tr": "Renk kelimeleri 색 (renk) ile biter. İsimden önce 빨간 셔츠 da diyebilirsin."
+      }
+    },
+    "blue": {
+      "text": "파란색",
+      "roman": "paransaek",
+      "ex": "엠마는 눈이 파란색이에요.",
+      "exRoman": "emmaneun nuni paransaegieyo."
+    },
+    "green": {
+      "text": "초록색",
+      "roman": "choroksaek",
+      "ex": "저는 초록색 사과를 좋아해요.",
+      "exRoman": "jeoneun choroksaek sagwareul joahaeyo."
+    },
+    "yellow": {
+      "text": "노란색",
+      "roman": "noransaek",
+      "ex": "제 언니는 노란색 꽃을 좋아해요.",
+      "exRoman": "je eonnineun noransaek kkocheul joahaeyo."
+    },
+    "black": {
+      "text": "검은색",
+      "roman": "geomeunsaek",
+      "ex": "톰은 검은색 개가 있어요.",
+      "exRoman": "tomeun geomeunsaek gaega isseoyo."
+    },
+    "white": {
+      "text": "흰색",
+      "roman": "huinsaek",
+      "ex": "제 방 벽은 흰색이에요.",
+      "exRoman": "je bang byeogeun huinsaegieyo."
+    },
+    "price": {
+      "text": "가격",
+      "roman": "gagyeok",
+      "ex": "이 가방 가격이 얼마예요?",
+      "exRoman": "i gabang gagyeogi eolmayeyo?"
+    },
+    "how-much-is-it": {
+      "text": "얼마예요?",
+      "roman": "eolmayeyo?",
+      "ex": "이 티셔츠 예뻐요. 얼마예요?",
+      "exRoman": "i tisyeocheu yeppeoyo. eolmayeyo?"
+    },
+    "cheap": {
+      "text": "싸다",
+      "roman": "ssada",
+      "ex": "이 신발은 싸요.",
+      "exRoman": "i sinbareun ssayo."
+    },
+    "expensive": {
+      "text": "비싸다",
+      "roman": "bissada",
+      "ex": "저 재킷은 너무 비싸요.",
+      "exRoman": "jeo jaekiseun neomu bissayo."
+    },
+    "pay": {
+      "text": "계산하다",
+      "roman": "gyesanhada",
+      "ex": "카드로 계산해도 돼요?",
+      "exRoman": "kadeuro gyesanhaedo dwaeyo?",
+      "note": {
+        "en": "In a shop, 계산하다 is the usual word for 'to pay'. 돈을 내다 also means 'to pay'.",
+        "tr": "Mağazada 'ödemek' için en çok 계산하다 kullanılır. 돈을 내다 da 'ödemek' demek."
+      }
+    },
+    "money": {
+      "text": "돈",
+      "roman": "don",
+      "ex": "저는 돈이 많지 않아요.",
+      "exRoman": "jeoneun doni manchi anayo."
+    },
+    "shop": {
+      "text": "가게",
+      "roman": "gage",
+      "ex": "가게는 여덟 시에 문을 닫아요.",
+      "exRoman": "gageneun yeodeol sie muneul dadayo."
+    },
+    "buy": {
+      "text": "사다",
+      "roman": "sada",
+      "ex": "저는 새 가방을 사고 싶어요.",
+      "exRoman": "jeoneun sae gabangeul sago sipeoyo."
+    },
+    "sell": {
+      "text": "팔다",
+      "roman": "palda",
+      "ex": "여기서 신발하고 가방을 팔아요.",
+      "exRoman": "yeogiseo sinbalhago gabangeul parayo."
+    },
+    "size": {
+      "text": "사이즈",
+      "roman": "saijeu",
+      "ex": "이거 더 큰 사이즈 있어요?",
+      "exRoman": "igeo deo keun saijeu isseoyo?",
+      "note": {
+        "en": "The size of clothes or shoes. Size in general is 크기.",
+        "tr": "Giysi ya da ayakkabı bedeni. Genel olarak boyut 크기 demek."
+      }
+    },
+    "try-on": {
+      "text": "입어 보다",
+      "roman": "ibeo boda",
+      "ex": "이 원피스 입어 봐도 돼요?",
+      "exRoman": "i wonpiseu ibeo bwado dwaeyo?",
+      "note": {
+        "en": "Literally 'wear and see'. For shoes: 신어 보다.",
+        "tr": "Kelimesi kelimesine 'giyip bakmak'. Ayakkabı için: 신어 보다."
+      }
+    },
+    "bag": {
+      "text": "가방",
+      "roman": "gabang",
+      "ex": "가방을 의자 위에 놓으세요.",
+      "exRoman": "gabangeul uija wie noeuseyo."
+    },
+    "weather": {
+      "text": "날씨",
+      "roman": "nalssi",
+      "ex": "오늘 날씨가 좋아요.",
+      "exRoman": "oneul nalssiga joayo."
+    },
+    "sun": {
+      "text": "해",
+      "roman": "hae",
+      "ex": "마드리드에는 해가 비치고 있어요.",
+      "exRoman": "madeurideueneun haega bichigo isseoyo.",
+      "note": {
+        "en": "The same word as 해 (year). A more formal word for the sun is 태양.",
+        "tr": "해 (yıl) ile aynı kelime. Güneş için daha resmî kelime 태양."
+      }
+    },
+    "rain": {
+      "text": "비",
+      "roman": "bi",
+      "ex": "런던에는 비가 많이 와요.",
+      "exRoman": "reondeoneneun biga mani wayo."
+    },
+    "snow": {
+      "text": "눈",
+      "roman": "nun",
+      "ex": "아이들이 눈 속에서 놀고 있어요.",
+      "exRoman": "aideuri nun sogeseo nolgo isseoyo.",
+      "note": {
+        "en": "눈 also means 'eye'.",
+        "tr": "눈 'göz' anlamına da gelir."
+      }
+    },
+    "wind": {
+      "text": "바람",
+      "roman": "baram",
+      "ex": "오늘은 바람이 아주 차가워요.",
+      "exRoman": "oneureun barami aju chagawoyo."
+    },
+    "cloud": {
+      "text": "구름",
+      "roman": "gureum",
+      "ex": "하늘에 구름이 하나도 없어요.",
+      "exRoman": "haneure gureumi hanado eopseoyo."
+    },
+    "hot": {
+      "text": "덥다",
+      "roman": "deopda",
+      "ex": "여름에는 아주 더워요.",
+      "exRoman": "yeoreumeneun aju deowoyo.",
+      "note": {
+        "en": "For the weather. Hot food or water is 뜨겁다.",
+        "tr": "Hava için. Sıcak yemek ya da su için 뜨겁다 kullanılır."
+      }
+    },
+    "cold": {
+      "text": "춥다",
+      "roman": "chupda",
+      "ex": "오늘은 밖이 추워요.",
+      "exRoman": "oneureun bakki chuwoyo.",
+      "note": {
+        "en": "For the weather. A cold drink is 차갑다.",
+        "tr": "Hava için. Soğuk bir içecek için 차갑다 kullanılır."
+      }
+    },
+    "sky": {
+      "text": "하늘",
+      "roman": "haneul",
+      "ex": "오늘은 하늘이 회색이에요.",
+      "exRoman": "oneureun haneuri hoesaegieyo."
+    },
+    "umbrella": {
+      "text": "우산",
+      "roman": "usan",
+      "ex": "우산 가져가요, 비가 오고 있어요.",
+      "exRoman": "usan gajyeogayo, biga ogo isseoyo."
+    },
+    "wet": {
+      "text": "젖다",
+      "roman": "jeotda",
+      "ex": "비 때문에 머리가 젖었어요.",
+      "exRoman": "bi ttaemune meoriga jeojeosseoyo.",
+      "note": {
+        "en": "A verb: to get wet. 'It is wet' is 젖었어요 (it got wet).",
+        "tr": "Bir fiil: ıslanmak. 'Islak' demek için 젖었어요 (ıslandı) denir."
+      }
+    },
+    "degree": {
+      "text": "도",
+      "roman": "do",
+      "ex": "오늘은 삼십 도예요.",
+      "exRoman": "oneureun samsip doyeyo.",
+      "note": {
+        "en": "Degrees use the second number set: 삼십 도 (thirty degrees).",
+        "tr": "Derece ikinci sayı takımıyla söylenir: 삼십 도 (otuz derece)."
+      }
+    },
+    "season": {
+      "text": "계절",
+      "roman": "gyejeol",
+      "ex": "봄은 제가 제일 좋아하는 계절이에요.",
+      "exRoman": "bomeun jega jeil joahaneun gyejeorieyo."
+    },
+    "spring": {
+      "text": "봄",
+      "roman": "bom",
+      "ex": "봄에 꽃이 피어요.",
+      "exRoman": "bome kkochi pieoyo."
+    },
+    "summer": {
+      "text": "여름",
+      "roman": "yeoreum",
+      "ex": "우리는 여름에 해변에 가요.",
+      "exRoman": "urineun yeoreume haebyeone gayo."
+    },
+    "fall": {
+      "text": "가을",
+      "roman": "gaeul",
+      "ex": "가을에는 나뭇잎이 노래요.",
+      "exRoman": "gaeureneun namunnipi noraeyo."
+    },
+    "winter": {
+      "text": "겨울",
+      "roman": "gyeoul",
+      "ex": "서울의 겨울은 추워요.",
+      "exRoman": "seourui gyeoureun chuwoyo."
+    },
+    "flower": {
+      "text": "꽃",
+      "roman": "kkot",
+      "ex": "우리 엄마는 꽃을 정말 좋아해요.",
+      "exRoman": "uri eommaneun kkocheul jeongmal joahaeyo."
+    },
+    "outside": {
+      "text": "밖",
+      "roman": "bak",
+      "ex": "오늘은 밖에서 먹어요.",
+      "exRoman": "oneureun bakkeseo meogeoyo.",
+      "note": {
+        "en": "밖에서 when you do something outside, 밖에 when you are outside.",
+        "tr": "Dışarıda bir şey yaparken 밖에서, dışarıda olurken 밖에 kullan."
+      }
+    },
+    "inside": {
+      "text": "안",
+      "roman": "an",
+      "ex": "비가 와서 우리는 안에 있어요.",
+      "exRoman": "biga waseo urineun ane isseoyo.",
+      "note": {
+        "en": "안에 when you are inside, 안에서 when you do something inside.",
+        "tr": "İçeride olurken 안에, içeride bir şey yaparken 안에서 kullan."
+      }
+    },
+    "beach": {
+      "text": "해변",
+      "roman": "haebyeon",
+      "ex": "엘리프는 해변에서 책을 읽고 있어요.",
+      "exRoman": "ellipeuneun haebyeoneseo chaegeul ilgo isseoyo."
+    },
+    "swim": {
+      "text": "수영하다",
+      "roman": "suyeonghada",
+      "ex": "알리는 바다에서 수영하고 있어요.",
+      "exRoman": "allineun badaeseo suyeonghago isseoyo."
+    },
+    "walk": {
+      "text": "걷다",
+      "roman": "geotda",
+      "ex": "안나와 저는 바닷가를 걷고 있어요.",
+      "exRoman": "annawa jeoneun badatgareul geotgo isseoyo."
+    },
+    "stay": {
+      "text": "머물다",
+      "roman": "meomulda",
+      "ex": "저는 오늘 집에 머물러요.",
+      "exRoman": "jeoneun oneul jibe meomulleoyo.",
+      "note": {
+        "en": "To stay in a place. In everyday talk you can also say 집에 있어요 (I am at home).",
+        "tr": "Bir yerde kalmak. Günlük konuşmada 집에 있어요 (evdeyim) da diyebilirsin."
+      }
+    },
+    "bus": {
+      "text": "버스",
+      "roman": "beoseu",
+      "ex": "오늘 아침 버스는 꽉 찼어요.",
+      "exRoman": "oneul achim beoseuneun kkwak chasseoyo."
+    },
+    "train": {
+      "text": "기차",
+      "roman": "gicha",
+      "ex": "마드리드행 기차는 빨랐어요.",
+      "exRoman": "madeurideuhaeng gichaneun ppallasseoyo."
+    },
+    "car": {
+      "text": "차",
+      "roman": "cha",
+      "ex": "제 첫 차는 빨간색이었어요.",
+      "exRoman": "je cheot chaneun ppalgansaegieosseoyo.",
+      "note": {
+        "en": "차 also means 'tea'. A longer word for a car is 자동차.",
+        "tr": "차 'çay' anlamına da gelir. Araba için daha uzun kelime 자동차."
+      }
+    },
+    "bike": {
+      "text": "자전거",
+      "roman": "jajeongeo",
+      "ex": "저는 자전거로 출근해요.",
+      "exRoman": "jeoneun jajeongeoro chulgeunhaeyo."
+    },
+    "taxi": {
+      "text": "택시",
+      "roman": "taeksi",
+      "ex": "택시는 아주 비쌌어요.",
+      "exRoman": "taeksineun aju bissasseoyo."
+    },
+    "plane": {
+      "text": "비행기",
+      "roman": "bihaenggi",
+      "ex": "우리는 열두 시간 동안 비행기를 탔어요.",
+      "exRoman": "urineun yeoldu sigan dongan bihaenggireul tasseoyo."
+    },
+    "ticket": {
+      "text": "표",
+      "roman": "pyo",
+      "ex": "이거 엠마 씨 기차표예요?",
+      "exRoman": "igeo emma ssi gichapyoyeyo?",
+      "note": {
+        "en": "People also say 티켓. A train ticket is 기차표.",
+        "tr": "티켓 de denir. Tren bileti 기차표 demek."
+      }
+    },
+    "station": {
+      "text": "역",
+      "roman": "yeok",
+      "ex": "역은 사람들로 가득 찼어요.",
+      "exRoman": "yeogeun saramdeullo gadeuk chasseoyo."
+    },
+    "airport": {
+      "text": "공항",
+      "roman": "gonghang",
+      "ex": "공항은 도시에서 멀었어요.",
+      "exRoman": "gonghangeun dosieseo meoreosseoyo."
+    },
+    "passport": {
+      "text": "여권",
+      "roman": "yeogwon",
+      "ex": "여권은 탁자 위에 있었어요.",
+      "exRoman": "yeogwoneun takja wie isseosseoyo."
+    },
+    "early": {
+      "text": "일찍",
+      "roman": "iljjik",
+      "ex": "저는 월요일마다 일찍 일어나요.",
+      "exRoman": "jeoneun woryoilmada iljjik ireonayo."
+    },
+    "late": {
+      "text": "늦다",
+      "roman": "neutda",
+      "ex": "미안해요, 오늘 늦었어요.",
+      "exRoman": "mianhaeyo, oneul neujeosseoyo.",
+      "note": {
+        "en": "A verb: to be late. 늦었어요 = I was late. As 'late' beside a verb: 늦게.",
+        "tr": "Bir fiil: geç kalmak. 늦었어요 = geç kaldım. Bir fiilin yanında 'geç': 늦게."
+      }
+    },
+    "hotel": {
+      "text": "호텔",
+      "roman": "hotel",
+      "ex": "우리 호텔은 바다 근처에 있었어요.",
+      "exRoman": "uri hotereun bada geuncheoe isseosseoyo."
+    },
+    "suitcase": {
+      "text": "여행 가방",
+      "roman": "yeohaeng gabang",
+      "ex": "제 여행 가방은 아주 무거웠어요.",
+      "exRoman": "je yeohaeng gabangeun aju mugeowosseoyo.",
+      "note": {
+        "en": "Literally 'travel bag'. A suitcase on wheels is often called 캐리어.",
+        "tr": "Kelimesi kelimesine 'seyahat çantası'. Tekerlekli bavula çoğu zaman 캐리어 denir."
+      }
+    },
+    "floor": {
+      "text": "층",
+      "roman": "cheung",
+      "ex": "우리 방은 오 층에 있었어요.",
+      "exRoman": "uri bangeun o cheunge isseosseoyo.",
+      "note": {
+        "en": "A level of a building. Floors use the second number set: 오 층 (fifth floor).",
+        "tr": "Binanın katı. Katlar ikinci sayı takımıyla söylenir: 오 층 (beşinci kat)."
+      }
+    },
+    "view": {
+      "text": "경치",
+      "roman": "gyeongchi",
+      "ex": "창문에서 보이는 경치가 아름다웠어요.",
+      "exRoman": "changmuneseo boineun gyeongchiga areumdawosseoyo."
+    },
+    "comfortable": {
+      "text": "편하다",
+      "roman": "pyeonhada",
+      "ex": "침대가 아주 편했어요.",
+      "exRoman": "chimdaega aju pyeonhaesseoyo."
+    },
+    "quiet": {
+      "text": "조용하다",
+      "roman": "joyonghada",
+      "ex": "호텔은 깨끗하고 조용했어요.",
+      "exRoman": "hotereun kkaekkeutago joyonghaesseoyo."
+    },
+    "vacation": {
+      "text": "휴가",
+      "roman": "hyuga",
+      "ex": "우리 휴가는 너무 짧았어요.",
+      "exRoman": "uri hyuganeun neomu jjalbasseoyo."
+    },
+    "sea": {
+      "text": "바다",
+      "roman": "bada",
+      "ex": "바다는 따뜻하고 파랬어요.",
+      "exRoman": "badaneun ttatteutago paraesseoyo."
+    },
+    "mountain": {
+      "text": "산",
+      "roman": "san",
+      "ex": "산이 눈으로 하얗게 덮였어요.",
+      "exRoman": "sani nuneuro hayake deopyeosseoyo."
+    },
+    "photo": {
+      "text": "사진",
+      "roman": "sajin",
+      "ex": "이 사진은 도쿄에서 찍었어요.",
+      "exRoman": "i sajineun dokyoeseo jjigeosseoyo."
+    },
+    "visit": {
+      "text": "방문하다",
+      "roman": "bangmunhada",
+      "ex": "관광객들이 매일 박물관을 방문해요.",
+      "exRoman": "gwangwanggaekdeuri maeil bangmulgwaneul bangmunhaeyo."
+    },
+    "wonderful": {
+      "text": "멋지다",
+      "roman": "meotjida",
+      "ex": "해변에서 정말 멋진 하루였어요.",
+      "exRoman": "haebyeoneseo jeongmal meotjin haruyeosseoyo."
+    },
+    "yesterday": {
+      "text": "어제",
+      "roman": "eoje",
+      "ex": "저는 어제 엘리프를 봤어요.",
+      "exRoman": "jeoneun eoje ellipeureul bwasseoyo."
+    },
+    "last-night": {
+      "text": "어젯밤",
+      "roman": "eojetbam",
+      "ex": "어젯밤에 우리는 영화를 봤어요.",
+      "exRoman": "eojetbame urineun yeonghwareul bwasseoyo."
+    },
+    "last-week": {
+      "text": "지난주",
+      "roman": "jinanju",
+      "ex": "지난주에 톰은 파리를 방문했어요.",
+      "exRoman": "jinanjue tomeun parireul bangmunhaesseoyo."
+    },
+    "last-year": {
+      "text": "작년",
+      "roman": "jangnyeon",
+      "ex": "우리는 작년에 베를린으로 이사했어요.",
+      "exRoman": "urineun jangnyeone bereullineuro isahaesseoyo."
+    },
+    "ago": {
+      "text": "전",
+      "roman": "jeon",
+      "ex": "저는 이 일을 이 년 전에 시작했어요.",
+      "exRoman": "jeoneun i ireul i nyeon jeone sijakaesseoyo.",
+      "note": {
+        "en": "전 goes after the time: 이틀 전 (two days ago), 이 년 전 (two years ago).",
+        "tr": "전 zamandan sonra gelir: 이틀 전 (iki gün önce), 이 년 전 (iki yıl önce)."
+      }
+    },
+    "then": {
+      "text": "그다음에",
+      "roman": "geudaeume",
+      "ex": "우리는 점심을 먹었어요. 그다음에 산책했어요.",
+      "exRoman": "urineun jeomsimeul meogeosseoyo. geudaeume sanchaekaesseoyo.",
+      "note": {
+        "en": "Literally 'after that': next in time.",
+        "tr": "Kelimesi kelimesine 'ondan sonra': zamanda sıradaki."
+      }
+    },
+    "meet": {
+      "text": "만나다",
+      "roman": "mannada",
+      "ex": "저는 카페에서 제이네프를 만났어요.",
+      "exRoman": "jeoneun kapeeseo jeinepeureul mannasseoyo.",
+      "note": {
+        "en": "To meet someone, also by plan. To meet someone for the first time: 처음 만나다.",
+        "tr": "Biriyle buluşmak. Biriyle ilk kez tanışmak: 처음 만나다."
+      }
+    },
+    "see": {
+      "text": "보다",
+      "roman": "boda",
+      "ex": "공원에서 엘리프 씨 오빠를 봤어요.",
+      "exRoman": "gongwoneseo ellipeu ssi oppareul bwasseoyo."
+    },
+    "dance": {
+      "text": "춤추다",
+      "roman": "chumchuda",
+      "ex": "우리는 밤새 춤췄어요.",
+      "exRoman": "urineun bamsae chumchwosseoyo."
+    },
+    "sing": {
+      "text": "노래를 부르다",
+      "roman": "noraereul bureuda",
+      "ex": "미아가 우리에게 노래를 불러 줬어요.",
+      "exRoman": "miaga uriege noraereul bulleo jwosseoyo."
+    },
+    "party": {
+      "text": "파티",
+      "roman": "pati",
+      "ex": "파티는 레오네 집에서 했어요.",
+      "exRoman": "patineun reone jibeseo haesseoyo."
+    },
+    "have-fun": {
+      "text": "재미있게 놀다",
+      "roman": "jaemiitge nolda",
+      "ex": "아이들은 아주 재미있게 놀았어요.",
+      "exRoman": "aideureun aju jaemiitge norasseoyo."
+    },
+    "cook": {
+      "text": "요리하다",
+      "roman": "yorihada",
+      "ex": "우리 아빠가 우리에게 생선을 요리해 줬어요.",
+      "exRoman": "uri appaga uriege saengseoneul yorihae jwosseoyo."
+    },
+    "wash": {
+      "text": "씻다",
+      "roman": "ssitda",
+      "ex": "저는 일요일에 세차했어요.",
+      "exRoman": "jeoneun iryoire sechahaesseoyo.",
+      "note": {
+        "en": "For a car Koreans say 세차하다 (wash a car), as in the example. For clothes: 빨다. For hands: 손을 씻다.",
+        "tr": "Araba için Koreliler 세차하다 (araba yıkamak) der, örnekteki gibi. Giysi için 빨다, eller için 손을 씻다."
+      }
+    },
+    "call": {
+      "text": "전화하다",
+      "roman": "jeonhwahada",
+      "ex": "어젯밤에 할머니께 전화했어요.",
+      "exRoman": "eojetbame halmeonikke jeonhwahaesseoyo.",
+      "note": {
+        "en": "To phone someone. 께 is the polite 'to' for an older person.",
+        "tr": "Birine telefon etmek. 께 yaşça büyük biri için kibar '-e' ekidir."
+      }
+    },
+    "write": {
+      "text": "쓰다",
+      "roman": "sseuda",
+      "ex": "안나는 긴 이메일을 썼어요.",
+      "exRoman": "annaneun gin imeireul sseosseoyo."
+    },
+    "listen": {
+      "text": "듣다",
+      "roman": "deutda",
+      "ex": "우리는 하루 종일 음악을 들었어요.",
+      "exRoman": "urineun haru jongil eumageul deureosseoyo."
+    },
+    "music": {
+      "text": "음악",
+      "roman": "eumak",
+      "ex": "저는 조용한 음악을 좋아해요.",
+      "exRoman": "jeoneun joyonghan eumageul joahaeyo."
+    },
+    "tired": {
+      "text": "피곤하다",
+      "roman": "pigonhada",
+      "ex": "일이 끝나고 아주 피곤했어요.",
+      "exRoman": "iri kkeunnago aju pigonhaesseoyo."
+    },
+    "forget": {
+      "text": "잊어버리다",
+      "roman": "ijeobeorida",
+      "ex": "집에서 우산 챙기는 걸 잊어버렸어요.",
+      "exRoman": "jibeseo usan chaenggineun geol ijeobeoryeosseoyo.",
+      "note": {
+        "en": "To leave a thing somewhere, Koreans often say 두고 오다: 가방을 두고 왔어요.",
+        "tr": "Bir şeyi bir yerde unutmak için Koreliler çoğu zaman 두고 오다 der: 가방을 두고 왔어요."
+      }
+    },
+    "lose": {
+      "text": "잃어버리다",
+      "roman": "ireobeorida",
+      "ex": "샘은 어제 열쇠를 잃어버렸어요.",
+      "exRoman": "saemeun eoje yeolsoereul ireobeoryeosseoyo."
+    },
+    "find": {
+      "text": "찾다",
+      "roman": "chatda",
+      "ex": "침대 밑에서 휴대폰을 찾았어요.",
+      "exRoman": "chimdae miteseo hyudaeponeul chajasseoyo."
+    },
+    "finish": {
+      "text": "끝내다",
+      "roman": "kkeunnaeda",
+      "ex": "우리는 아홉 시에 숙제를 끝냈어요.",
+      "exRoman": "urineun ahop sie sukjereul kkeunnaesseoyo."
+    },
+    "start": {
+      "text": "시작하다",
+      "roman": "sijakada",
+      "ex": "영화는 여덟 시에 시작했어요.",
+      "exRoman": "yeonghwaneun yeodeol sie sijakaesseoyo."
+    },
+    "tomorrow": {
+      "text": "내일",
+      "roman": "naeil",
+      "ex": "저는 내일 할머니 댁에 갈 거예요.",
+      "exRoman": "jeoneun naeil halmeoni daege gal geoyeyo."
+    },
+    "tonight": {
+      "text": "오늘 저녁",
+      "roman": "oneul jeonyeok",
+      "ex": "우리는 오늘 저녁에 영화를 볼 거예요.",
+      "exRoman": "urineun oneul jeonyeoge yeonghwareul bol geoyeyo.",
+      "note": {
+        "en": "Literally 'this evening'. Late at night: 오늘 밤.",
+        "tr": "Kelimesi kelimesine 'bu akşam'. Gece geç saat için: 오늘 밤."
+      }
+    },
+    "next-week": {
+      "text": "다음 주",
+      "roman": "daeum ju",
+      "ex": "다음 주에 저는 새 일을 시작할 거예요.",
+      "exRoman": "daeum jue jeoneun sae ireul sijakal geoyeyo."
+    },
+    "next-year": {
+      "text": "내년",
+      "roman": "naenyeon",
+      "ex": "내년에 우리는 서울로 이사할 거예요.",
+      "exRoman": "naenyeone urineun seoullo isahal geoyeyo."
+    },
+    "soon": {
+      "text": "곧",
+      "roman": "got",
+      "ex": "언니가 곧 우리 집에 올 거예요.",
+      "exRoman": "eonniga got uri jibe ol geoyeyo."
+    },
+    "plan": {
+      "text": "계획",
+      "roman": "gyehoek",
+      "ex": "토요일 계획이 뭐예요?",
+      "exRoman": "toyoil gyehoegi mwoyeyo?"
+    },
+    "invite": {
+      "text": "초대하다",
+      "roman": "chodaehada",
+      "ex": "저녁 식사에 초대하고 싶어요.",
+      "exRoman": "jeonyeok siksae chodaehago sipeoyo."
+    },
+    "would-you-like": {
+      "text": "할래요?",
+      "roman": "hallaeyo?",
+      "ex": "차 한잔할래요?",
+      "exRoman": "cha hanjanhallaeyo?",
+      "note": {
+        "en": "A friendly offer. The ending -(으)ㄹ래요? works on any verb: 마실래요? 올래요?",
+        "tr": "Samimi bir teklif. -(으)ㄹ래요? eki her fiile gelir: 마실래요? 올래요?"
+      }
+    },
+    "come": {
+      "text": "오다",
+      "roman": "oda",
+      "ex": "제 파티에 올래요?",
+      "exRoman": "je patie ollaeyo?"
+    },
+    "free": {
+      "text": "한가하다",
+      "roman": "hangahada",
+      "ex": "금요일 저녁에 한가해요?",
+      "exRoman": "geumyoil jeonyeoge hangahaeyo?",
+      "note": {
+        "en": "Not busy. Also very common: 시간 있어요? (do you have time?).",
+        "tr": "Meşgul değil, boş. Çok yaygın bir soru da: 시간 있어요? (vaktin var mı?)."
+      }
+    },
+    "busy": {
+      "text": "바쁘다",
+      "roman": "bappeuda",
+      "ex": "미안해요, 내일은 바빠요.",
+      "exRoman": "mianhaeyo, naeireun bappayo."
+    },
+    "concert": {
+      "text": "콘서트",
+      "roman": "konseoteu",
+      "ex": "오늘 저녁에 공원에서 콘서트가 있어요.",
+      "exRoman": "oneul jeonyeoge gongwoneseo konseoteuga isseoyo."
+    },
+    "of-course": {
+      "text": "물론",
+      "roman": "mullon",
+      "ex": "물론 갈 거예요!",
+      "exRoman": "mullon gal geoyeyo!",
+      "note": {
+        "en": "On its own as an answer: 물론이죠! (of course!).",
+        "tr": "Tek başına cevap olarak: 물론이죠! (tabii ki!)."
+      }
+    },
+    "good-idea": {
+      "text": "좋은 생각",
+      "roman": "joeun saenggak",
+      "ex": "일요일에 소풍이요? 좋은 생각이에요!",
+      "exRoman": "iryoire sopungiyo? joeun saenggagieyo!"
+    },
+    "maybe": {
+      "text": "아마",
+      "roman": "ama",
+      "ex": "아마 나중에 갈 거예요.",
+      "exRoman": "ama najunge gal geoyeyo."
+    },
+    "unfortunately": {
+      "text": "아쉽게도",
+      "roman": "aswipgedo",
+      "ex": "아쉽게도 오늘은 가게가 문을 닫았어요.",
+      "exRoman": "aswipgedo oneureun gagega muneul dadasseoyo."
+    },
+    "another-time": {
+      "text": "다음에",
+      "roman": "daeume",
+      "ex": "미안해요, 못 가요. 다음에 할까요?",
+      "exRoman": "mianhaeyo, mot gayo. daeume halkkayo?",
+      "note": {
+        "en": "Literally 'next time'.",
+        "tr": "Kelimesi kelimesine 'bir dahaki sefere'."
+      }
+    },
+    "i-would-love-to": {
+      "text": "너무 좋아요",
+      "roman": "neomu joayo",
+      "ex": "토요일에 저녁 식사요? 너무 좋아요!",
+      "exRoman": "toyoire jeonyeok siksayo? neomu joayo!",
+      "note": {
+        "en": "Literally 'that is so good': a warm yes to an invitation.",
+        "tr": "Kelimesi kelimesine 'çok iyi': bir davete sıcak bir evet."
+      }
+    },
+    "learn": {
+      "text": "배우다",
+      "roman": "baeuda",
+      "ex": "저는 요리를 배우고 싶어요.",
+      "exRoman": "jeoneun yorireul baeugo sipeoyo."
+    },
+    "travel": {
+      "text": "여행하다",
+      "roman": "yeohaenghada",
+      "ex": "엠마는 도쿄로 여행할 거예요.",
+      "exRoman": "emmaneun dokyoro yeohaenghal geoyeyo."
+    },
+    "rest": {
+      "text": "쉬다",
+      "roman": "swida",
+      "ex": "이번 주말에는 쉴 거예요.",
+      "exRoman": "ibeon jumareneun swil geoyeyo."
+    },
+    "celebrate": {
+      "text": "축하하다",
+      "roman": "chukahada",
+      "ex": "우리는 엘리프 생일을 축하할 거예요.",
+      "exRoman": "urineun ellipeu saengireul chukahal geoyeyo."
+    },
+    "bring": {
+      "text": "가져가다",
+      "roman": "gajyeogada",
+      "ex": "제가 케이크를 가져갈 거예요.",
+      "exRoman": "jega keikeureul gajyeogal geoyeyo.",
+      "note": {
+        "en": "To bring along to another place. To bring here, to where you are: 가져오다.",
+        "tr": "Başka bir yere götürmek. Buraya, bulunduğun yere getirmek: 가져오다."
+      }
+    },
+    "ready": {
+      "text": "준비되다",
+      "roman": "junbidoeda",
+      "ex": "여행 준비됐어요?",
+      "exRoman": "yeohaeng junbidwaesseoyo?",
+      "note": {
+        "en": "To be ready. 'I am ready' is 준비됐어요.",
+        "tr": "Hazır olmak. 'Hazırım' demek için 준비됐어요."
+      }
+    }
+  },
+  "sentences": {
+    "u01-1-a": {
+      "tokens": [
+        "좋은",
+        "아침이에요,",
+        "제이네프,",
+        "알리!"
+      ],
+      "gap": 1,
+      "wrong": [
+        "저녁이에요",
+        "밤이에요",
+        "오후예요"
+      ],
+      "roman": "joeun achimieyo, jeinepeu, alli!",
+      "tokenRoman": [
+        "joeun",
+        "achimieyo,",
+        "jeinepeu,",
+        "alli!"
+      ],
+      "wrongRoman": [
+        "jeonyeogieyo",
+        "bamieyo",
+        "ohuyeyo"
+      ]
+    },
+    "u01-1-b": {
+      "tokens": [
+        "안녕하세요,",
+        "샘,",
+        "잘",
+        "지내요?"
+      ],
+      "gap": 3,
+      "wrong": [
+        "자요",
+        "가요",
+        "봐요"
+      ],
+      "roman": "annyeonghaseyo, saem, jal jinaeyo?",
+      "tokenRoman": [
+        "annyeonghaseyo,",
+        "saem,",
+        "jal",
+        "jinaeyo?"
+      ],
+      "wrongRoman": [
+        "jayo",
+        "gayo",
+        "bwayo"
+      ]
+    },
+    "u01-2-a": {
+      "tokens": [
+        "미아,",
+        "레오,",
+        "잘",
+        "자요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "가요",
+        "봐요",
+        "지내요"
+      ],
+      "roman": "mia, reo, jal jayo.",
+      "tokenRoman": [
+        "mia,",
+        "reo,",
+        "jal",
+        "jayo."
+      ],
+      "wrongRoman": [
+        "gayo",
+        "bwayo",
+        "jinaeyo"
+      ]
+    },
+    "u01-2-b": {
+      "tokens": [
+        "톰,",
+        "내일",
+        "봐요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "어제",
+        "작년",
+        "지난주"
+      ],
+      "roman": "tom, naeil bwayo.",
+      "tokenRoman": [
+        "tom,",
+        "naeil",
+        "bwayo."
+      ],
+      "wrongRoman": [
+        "eoje",
+        "jangnyeon",
+        "jinanju"
+      ]
+    },
+    "u01-3-a": {
+      "tokens": [
+        "톰,",
+        "만나서",
+        "반가워요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "고마워요",
+        "미안해요",
+        "괜찮아요"
+      ],
+      "roman": "tom, mannaseo bangawoyo.",
+      "tokenRoman": [
+        "tom,",
+        "mannaseo",
+        "bangawoyo."
+      ],
+      "wrongRoman": [
+        "gomawoyo",
+        "mianhaeyo",
+        "gwaenchanayo"
+      ]
+    },
+    "u01-3-b": {
+      "tokens": [
+        "안나는",
+        "베를린에서",
+        "온",
+        "선생님이에요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "학생이에요",
+        "의사예요",
+        "아기예요"
+      ],
+      "roman": "annaneun bereullineseo on seonsaengnimieyo.",
+      "tokenRoman": [
+        "annaneun",
+        "bereullineseo",
+        "on",
+        "seonsaengnimieyo."
+      ],
+      "wrongRoman": [
+        "haksaengieyo",
+        "uisayeyo",
+        "agiyeyo"
+      ]
+    },
+    "u01-4-a": {
+      "tokens": [
+        "차",
+        "두",
+        "잔",
+        "주세요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "마셔요",
+        "있어요",
+        "없어요"
+      ],
+      "roman": "cha du jan juseyo.",
+      "tokenRoman": [
+        "cha",
+        "du",
+        "jan",
+        "juseyo."
+      ],
+      "wrongRoman": [
+        "masyeoyo",
+        "isseoyo",
+        "eopseoyo"
+      ]
+    },
+    "u01-4-b": {
+      "tokens": [
+        "정말",
+        "고마워요,",
+        "엠레."
+      ],
+      "gap": 1,
+      "wrong": [
+        "미안해요",
+        "반가워요",
+        "괜찮아요"
+      ],
+      "roman": "jeongmal gomawoyo, emre.",
+      "tokenRoman": [
+        "jeongmal",
+        "gomawoyo,",
+        "emre."
+      ],
+      "wrongRoman": [
+        "mianhaeyo",
+        "bangawoyo",
+        "gwaenchanayo"
+      ]
+    },
+    "u02-1-a": {
+      "tokens": [
+        "우리",
+        "엄마와",
+        "아빠는",
+        "선생님이에요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "오빠와",
+        "언니와",
+        "아기와"
+      ],
+      "roman": "uri eommawa appaneun seonsaengnimieyo.",
+      "tokenRoman": [
+        "uri",
+        "eommawa",
+        "appaneun",
+        "seonsaengnimieyo."
+      ],
+      "wrongRoman": [
+        "oppawa",
+        "eonniwa",
+        "agiwa"
+      ]
+    },
+    "u02-1-b": {
+      "tokens": [
+        "제이네프는",
+        "오빠가",
+        "한",
+        "명",
+        "있어요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "언니가",
+        "아기가",
+        "엄마가"
+      ],
+      "roman": "jeinepeuneun oppaga han myeong isseoyo.",
+      "tokenRoman": [
+        "jeinepeuneun",
+        "oppaga",
+        "han",
+        "myeong",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "eonniga",
+        "agiga",
+        "eommaga"
+      ]
+    },
+    "u02-2-a": {
+      "tokens": [
+        "우리",
+        "할머니는",
+        "우리와",
+        "함께",
+        "사세요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "할아버지는",
+        "아들은",
+        "딸은"
+      ],
+      "roman": "uri halmeonineun uriwa hamkke saseyo.",
+      "tokenRoman": [
+        "uri",
+        "halmeonineun",
+        "uriwa",
+        "hamkke",
+        "saseyo."
+      ],
+      "wrongRoman": [
+        "harabeojineun",
+        "adeureun",
+        "ttareun"
+      ]
+    },
+    "u02-2-b": {
+      "tokens": [
+        "미아는",
+        "검은",
+        "고양이가",
+        "있어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "개가",
+        "책이",
+        "의자가"
+      ],
+      "roman": "mianeun geomeun goyangiga isseoyo.",
+      "tokenRoman": [
+        "mianeun",
+        "geomeun",
+        "goyangiga",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "gaega",
+        "chaegi",
+        "uijaga"
+      ]
+    },
+    "u02-3-a": {
+      "tokens": [
+        "엠마는",
+        "제",
+        "새",
+        "이웃이에요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "선생님이에요",
+        "학생이에요",
+        "아기예요"
+      ],
+      "roman": "emmaneun je sae iusieyo.",
+      "tokenRoman": [
+        "emmaneun",
+        "je",
+        "sae",
+        "iusieyo."
+      ],
+      "wrongRoman": [
+        "seonsaengnimieyo",
+        "haksaengieyo",
+        "agiyeyo"
+      ]
+    },
+    "u02-3-b": {
+      "tokens": [
+        "제",
+        "친구들은",
+        "정말",
+        "웃겨요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "친절해요",
+        "행복해요",
+        "젊어요"
+      ],
+      "roman": "je chingudeureun jeongmal utgyeoyo.",
+      "tokenRoman": [
+        "je",
+        "chingudeureun",
+        "jeongmal",
+        "utgyeoyo."
+      ],
+      "wrongRoman": [
+        "chinjeolhaeyo",
+        "haengbokaeyo",
+        "jeolmeoyo"
+      ]
+    },
+    "u02-4-a": {
+      "tokens": [
+        "저",
+        "남자는",
+        "키가",
+        "아주",
+        "커요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "여자는",
+        "아이는",
+        "아기는"
+      ],
+      "roman": "jeo namjaneun kiga aju keoyo.",
+      "tokenRoman": [
+        "jeo",
+        "namjaneun",
+        "kiga",
+        "aju",
+        "keoyo."
+      ],
+      "wrongRoman": [
+        "yeojaneun",
+        "aineun",
+        "agineun"
+      ]
+    },
+    "u02-4-b": {
+      "tokens": [
+        "그",
+        "여자는",
+        "젊고",
+        "행복해요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "남자는",
+        "아이는",
+        "할아버지는"
+      ],
+      "roman": "geu yeojaneun jeomgo haengbokaeyo.",
+      "tokenRoman": [
+        "geu",
+        "yeojaneun",
+        "jeomgo",
+        "haengbokaeyo."
+      ],
+      "wrongRoman": [
+        "namjaneun",
+        "aineun",
+        "harabeojineun"
+      ]
+    },
+    "u03-1-a": {
+      "tokens": [
+        "저는",
+        "언니가",
+        "두",
+        "명",
+        "있어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "세",
+        "네",
+        "다섯"
+      ],
+      "roman": "jeoneun eonniga du myeong isseoyo.",
+      "tokenRoman": [
+        "jeoneun",
+        "eonniga",
+        "du",
+        "myeong",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "se",
+        "ne",
+        "daseot"
+      ]
+    },
+    "u03-1-b": {
+      "tokens": [
+        "넷",
+        "더하기",
+        "둘은",
+        "여섯이에요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "다섯이에요",
+        "일곱이에요",
+        "여덟이에요"
+      ],
+      "roman": "net deohagi dureun yeoseosieyo.",
+      "tokenRoman": [
+        "net",
+        "deohagi",
+        "dureun",
+        "yeoseosieyo."
+      ],
+      "wrongRoman": [
+        "daseosieyo",
+        "ilgobieyo",
+        "yeodeolbieyo"
+      ]
+    },
+    "u03-2-a": {
+      "tokens": [
+        "제",
+        "언니는",
+        "여덟",
+        "살이에요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "일곱",
+        "아홉",
+        "열"
+      ],
+      "roman": "je eonnineun yeodeol sarieyo.",
+      "tokenRoman": [
+        "je",
+        "eonnineun",
+        "yeodeol",
+        "sarieyo."
+      ],
+      "wrongRoman": [
+        "ilgop",
+        "ahop",
+        "yeol"
+      ]
+    },
+    "u03-2-b": {
+      "tokens": [
+        "일주일에는",
+        "요일이",
+        "일곱",
+        "개",
+        "있어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "여섯",
+        "여덟",
+        "다섯"
+      ],
+      "roman": "iljuireneun yoiri ilgop gae isseoyo.",
+      "tokenRoman": [
+        "iljuireneun",
+        "yoiri",
+        "ilgop",
+        "gae",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "yeoseot",
+        "yeodeol",
+        "daseot"
+      ]
+    },
+    "u03-3-a": {
+      "tokens": [
+        "이십",
+        "더하기",
+        "삼십은",
+        "오십이에요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "사십이에요",
+        "육십이에요",
+        "칠십이에요"
+      ],
+      "roman": "isip deohagi samsibeun osibieyo.",
+      "tokenRoman": [
+        "isip",
+        "deohagi",
+        "samsibeun",
+        "osibieyo."
+      ],
+      "wrongRoman": [
+        "sasibieyo",
+        "yuksibieyo",
+        "chilsibieyo"
+      ]
+    },
+    "u03-3-b": {
+      "tokens": [
+        "제",
+        "방",
+        "번호는",
+        "십이",
+        "번이에요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "이름은",
+        "나이는",
+        "가족은"
+      ],
+      "roman": "je bang beonhoneun sibi beonieyo.",
+      "tokenRoman": [
+        "je",
+        "bang",
+        "beonhoneun",
+        "sibi",
+        "beonieyo."
+      ],
+      "wrongRoman": [
+        "ireumeun",
+        "naineun",
+        "gajogeun"
+      ]
+    },
+    "u03-4-a": {
+      "tokens": [
+        "저는",
+        "열두",
+        "살이에요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "열한",
+        "열세",
+        "스무"
+      ],
+      "roman": "jeoneun yeoldu sarieyo.",
+      "tokenRoman": [
+        "jeoneun",
+        "yeoldu",
+        "sarieyo."
+      ],
+      "wrongRoman": [
+        "yeolhan",
+        "yeolse",
+        "seumu"
+      ]
+    },
+    "u03-4-b": {
+      "tokens": [
+        "고양이가",
+        "몇",
+        "마리",
+        "있어요?"
+      ],
+      "gap": 1,
+      "wrong": [
+        "무슨",
+        "어느",
+        "어떤"
+      ],
+      "roman": "goyangiga myeot mari isseoyo?",
+      "tokenRoman": [
+        "goyangiga",
+        "myeot",
+        "mari",
+        "isseoyo?"
+      ],
+      "wrongRoman": [
+        "museun",
+        "eoneu",
+        "eotteon"
+      ]
+    },
+    "u04-1-a": {
+      "tokens": [
+        "저는",
+        "아침으로",
+        "빵을",
+        "먹어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "치즈를",
+        "달걀을",
+        "꿀을"
+      ],
+      "roman": "jeoneun achimeuro ppangeul meogeoyo.",
+      "tokenRoman": [
+        "jeoneun",
+        "achimeuro",
+        "ppangeul",
+        "meogeoyo."
+      ],
+      "wrongRoman": [
+        "chijeureul",
+        "dalgyareul",
+        "kkureul"
+      ]
+    },
+    "u04-1-b": {
+      "tokens": [
+        "톰은",
+        "달걀을",
+        "두",
+        "개",
+        "먹어요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "빵을",
+        "치즈를",
+        "사과를"
+      ],
+      "roman": "tomeun dalgyareul du gae meogeoyo.",
+      "tokenRoman": [
+        "tomeun",
+        "dalgyareul",
+        "du",
+        "gae",
+        "meogeoyo."
+      ],
+      "wrongRoman": [
+        "ppangeul",
+        "chijeureul",
+        "sagwareul"
+      ]
+    },
+    "u04-2-a": {
+      "tokens": [
+        "엠레는",
+        "매일",
+        "아침",
+        "커피를",
+        "마셔요."
+      ],
+      "gap": 4,
+      "wrong": [
+        "읽어요",
+        "자요",
+        "팔아요"
+      ],
+      "roman": "emreneun maeil achim keopireul masyeoyo.",
+      "tokenRoman": [
+        "emreneun",
+        "maeil",
+        "achim",
+        "keopireul",
+        "masyeoyo."
+      ],
+      "wrongRoman": [
+        "ilgeoyo",
+        "jayo",
+        "parayo"
+      ]
+    },
+    "u04-2-b": {
+      "tokens": [
+        "주스가",
+        "아주",
+        "차가워요."
+      ],
+      "gap": 0,
+      "wrong": [
+        "커피가",
+        "차가",
+        "우유가"
+      ],
+      "roman": "juseuga aju chagawoyo.",
+      "tokenRoman": [
+        "juseuga",
+        "aju",
+        "chagawoyo."
+      ],
+      "wrongRoman": [
+        "keopiga",
+        "chaga",
+        "uyuga"
+      ]
+    },
+    "u04-3-a": {
+      "tokens": [
+        "바나나는",
+        "노랗고",
+        "달아요."
+      ],
+      "gap": 0,
+      "wrong": [
+        "토마토는",
+        "감자는",
+        "사과는"
+      ],
+      "roman": "banananeun norako darayo.",
+      "tokenRoman": [
+        "banananeun",
+        "norako",
+        "darayo."
+      ],
+      "wrongRoman": [
+        "tomatoneun",
+        "gamjaneun",
+        "sagwaneun"
+      ]
+    },
+    "u04-3-b": {
+      "tokens": [
+        "우리는",
+        "감자가",
+        "세",
+        "개",
+        "필요해요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "사과가",
+        "바나나가",
+        "토마토가"
+      ],
+      "roman": "urineun gamjaga se gae piryohaeyo.",
+      "tokenRoman": [
+        "urineun",
+        "gamjaga",
+        "se",
+        "gae",
+        "piryohaeyo."
+      ],
+      "wrongRoman": [
+        "sagwaga",
+        "bananaga",
+        "tomatoga"
+      ]
+    },
+    "u04-4-a": {
+      "tokens": [
+        "저녁",
+        "식사는",
+        "여덟",
+        "시예요."
+      ],
+      "gap": 0,
+      "wrong": [
+        "아침",
+        "점심",
+        "오후"
+      ],
+      "roman": "jeonyeok siksaneun yeodeol siyeyo.",
+      "tokenRoman": [
+        "jeonyeok",
+        "siksaneun",
+        "yeodeol",
+        "siyeyo."
+      ],
+      "wrongRoman": [
+        "achim",
+        "jeomsim",
+        "ohu"
+      ]
+    },
+    "u04-4-b": {
+      "tokens": [
+        "데니즈는",
+        "수프를",
+        "아주",
+        "좋아해요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "싫어해요",
+        "읽어요",
+        "팔아요"
+      ],
+      "roman": "denijeuneun supeureul aju joahaeyo.",
+      "tokenRoman": [
+        "denijeuneun",
+        "supeureul",
+        "aju",
+        "joahaeyo."
+      ],
+      "wrongRoman": [
+        "sireohaeyo",
+        "ilgeoyo",
+        "parayo"
+      ]
+    },
+    "u05-1-a": {
+      "tokens": [
+        "우리",
+        "집에는",
+        "방이",
+        "세",
+        "개",
+        "있어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "창문이",
+        "문이",
+        "의자가"
+      ],
+      "roman": "uri jibeneun bangi se gae isseoyo.",
+      "tokenRoman": [
+        "uri",
+        "jibeneun",
+        "bangi",
+        "se",
+        "gae",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "changmuni",
+        "muni",
+        "uijaga"
+      ]
+    },
+    "u05-1-b": {
+      "tokens": [
+        "엠마는",
+        "지금",
+        "정원에",
+        "있어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "부엌에",
+        "침실에",
+        "욕실에"
+      ],
+      "roman": "emmaneun jigeum jeongwone isseoyo.",
+      "tokenRoman": [
+        "emmaneun",
+        "jigeum",
+        "jeongwone",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "bueoke",
+        "chimsire",
+        "yoksire"
+      ]
+    },
+    "u05-2-a": {
+      "tokens": [
+        "창문",
+        "옆에는",
+        "의자가",
+        "있어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "침대가",
+        "소파가",
+        "탁자가"
+      ],
+      "roman": "changmun yeopeneun uijaga isseoyo.",
+      "tokenRoman": [
+        "changmun",
+        "yeopeneun",
+        "uijaga",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "chimdaega",
+        "sopaga",
+        "takjaga"
+      ]
+    },
+    "u05-2-b": {
+      "tokens": [
+        "제",
+        "침대는",
+        "문",
+        "옆에",
+        "있어요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "의자는",
+        "소파는",
+        "탁자는"
+      ],
+      "roman": "je chimdaeneun mun yeope isseoyo.",
+      "tokenRoman": [
+        "je",
+        "chimdaeneun",
+        "mun",
+        "yeope",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "uijaneun",
+        "sopaneun",
+        "takjaneun"
+      ]
+    },
+    "u05-3-a": {
+      "tokens": [
+        "책은",
+        "침대",
+        "위에",
+        "있어요."
+      ],
+      "gap": 0,
+      "wrong": [
+        "램프는",
+        "휴대폰은",
+        "열쇠는"
+      ],
+      "roman": "chaegeun chimdae wie isseoyo.",
+      "tokenRoman": [
+        "chaegeun",
+        "chimdae",
+        "wie",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "raempeuneun",
+        "hyudaeponeun",
+        "yeolsoeneun"
+      ]
+    },
+    "u05-3-b": {
+      "tokens": [
+        "톰,",
+        "열쇠가",
+        "어디",
+        "있어요?"
+      ],
+      "gap": 1,
+      "wrong": [
+        "책이",
+        "휴대폰이",
+        "컴퓨터가"
+      ],
+      "roman": "tom, yeolsoega eodi isseoyo?",
+      "tokenRoman": [
+        "tom,",
+        "yeolsoega",
+        "eodi",
+        "isseoyo?"
+      ],
+      "wrongRoman": [
+        "chaegi",
+        "hyudaeponi",
+        "keompyuteoga"
+      ]
+    },
+    "u05-4-a": {
+      "tokens": [
+        "우리",
+        "새",
+        "집은",
+        "아주",
+        "커요."
+      ],
+      "gap": 4,
+      "wrong": [
+        "작아요",
+        "더러워요",
+        "비싸요"
+      ],
+      "roman": "uri sae jibeun aju keoyo.",
+      "tokenRoman": [
+        "uri",
+        "sae",
+        "jibeun",
+        "aju",
+        "keoyo."
+      ],
+      "wrongRoman": [
+        "jagayo",
+        "deoreowoyo",
+        "bissayo"
+      ]
+    },
+    "u05-4-b": {
+      "tokens": [
+        "작은",
+        "정원이",
+        "있어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "없어요",
+        "가요",
+        "와요"
+      ],
+      "roman": "jageun jeongwoni isseoyo.",
+      "tokenRoman": [
+        "jageun",
+        "jeongwoni",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "eopseoyo",
+        "gayo",
+        "wayo"
+      ]
+    },
+    "u06-1-a": {
+      "tokens": [
+        "저는",
+        "밤에",
+        "책을",
+        "읽어요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "아침에",
+        "오후에",
+        "저녁에"
+      ],
+      "roman": "jeoneun bame chaegeul ilgeoyo.",
+      "tokenRoman": [
+        "jeoneun",
+        "bame",
+        "chaegeul",
+        "ilgeoyo."
+      ],
+      "wrongRoman": [
+        "achime",
+        "ohue",
+        "jeonyeoge"
+      ]
+    },
+    "u06-1-b": {
+      "tokens": [
+        "알리는",
+        "오후에",
+        "일해요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "아침에",
+        "밤에",
+        "저녁에"
+      ],
+      "roman": "allineun ohue ilhaeyo.",
+      "tokenRoman": [
+        "allineun",
+        "ohue",
+        "ilhaeyo."
+      ],
+      "wrongRoman": [
+        "achime",
+        "bame",
+        "jeonyeoge"
+      ]
+    },
+    "u06-2-a": {
+      "tokens": [
+        "엠마는",
+        "여섯",
+        "시에",
+        "일어나요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "자요",
+        "먹어요",
+        "일해요"
+      ],
+      "roman": "emmaneun yeoseot sie ireonayo.",
+      "tokenRoman": [
+        "emmaneun",
+        "yeoseot",
+        "sie",
+        "ireonayo."
+      ],
+      "wrongRoman": [
+        "jayo",
+        "meogeoyo",
+        "ilhaeyo"
+      ]
+    },
+    "u06-2-b": {
+      "tokens": [
+        "데니즈는",
+        "매일",
+        "학교에",
+        "가요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "자요",
+        "먹어요",
+        "읽어요"
+      ],
+      "roman": "denijeuneun maeil hakgyoe gayo.",
+      "tokenRoman": [
+        "denijeuneun",
+        "maeil",
+        "hakgyoe",
+        "gayo."
+      ],
+      "wrongRoman": [
+        "jayo",
+        "meogeoyo",
+        "ilgeoyo"
+      ]
+    },
+    "u06-3-a": {
+      "tokens": [
+        "톰은",
+        "월요일부터",
+        "금요일까지",
+        "일해요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "화요일부터",
+        "수요일부터",
+        "목요일부터"
+      ],
+      "roman": "tomeun woryoilbuteo geumyoilkkaji ilhaeyo.",
+      "tokenRoman": [
+        "tomeun",
+        "woryoilbuteo",
+        "geumyoilkkaji",
+        "ilhaeyo."
+      ],
+      "wrongRoman": [
+        "hwayoilbuteo",
+        "suyoilbuteo",
+        "mogyoilbuteo"
+      ]
+    },
+    "u06-3-b": {
+      "tokens": [
+        "우리",
+        "수업은",
+        "수요일이에요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "월요일이에요",
+        "화요일이에요",
+        "금요일이에요"
+      ],
+      "roman": "uri sueobeun suyoirieyo.",
+      "tokenRoman": [
+        "uri",
+        "sueobeun",
+        "suyoirieyo."
+      ],
+      "wrongRoman": [
+        "woryoirieyo",
+        "hwayoirieyo",
+        "geumyoirieyo"
+      ]
+    },
+    "u06-4-a": {
+      "tokens": [
+        "미아는",
+        "일요일에",
+        "개와",
+        "놀아요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "읽어요",
+        "마셔요",
+        "닫아요"
+      ],
+      "roman": "mianeun iryoire gaewa norayo.",
+      "tokenRoman": [
+        "mianeun",
+        "iryoire",
+        "gaewa",
+        "norayo."
+      ],
+      "wrongRoman": [
+        "ilgeoyo",
+        "masyeoyo",
+        "dadayo"
+      ]
+    },
+    "u06-4-b": {
+      "tokens": [
+        "엘리프는",
+        "정원에서",
+        "책을",
+        "읽어요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "마셔요",
+        "자요",
+        "가요"
+      ],
+      "roman": "ellipeuneun jeongwoneseo chaegeul ilgeoyo.",
+      "tokenRoman": [
+        "ellipeuneun",
+        "jeongwoneseo",
+        "chaegeul",
+        "ilgeoyo."
+      ],
+      "wrongRoman": [
+        "masyeoyo",
+        "jayo",
+        "gayo"
+      ]
+    },
+    "u07-1-a": {
+      "tokens": [
+        "로마에는",
+        "오래된",
+        "박물관이",
+        "많아요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "병원이",
+        "은행이",
+        "공원이"
+      ],
+      "roman": "romaeneun oraedoen bangmulgwani manayo.",
+      "tokenRoman": [
+        "romaeneun",
+        "oraedoen",
+        "bangmulgwani",
+        "manayo."
+      ],
+      "wrongRoman": [
+        "byeongwoni",
+        "eunhaengi",
+        "gongwoni"
+      ]
+    },
+    "u07-1-b": {
+      "tokens": [
+        "공원은",
+        "우리",
+        "집이",
+        "있는",
+        "거리에",
+        "있어요."
+      ],
+      "gap": 0,
+      "wrong": [
+        "병원은",
+        "은행은",
+        "박물관은"
+      ],
+      "roman": "gongwoneun uri jibi inneun georie isseoyo.",
+      "tokenRoman": [
+        "gongwoneun",
+        "uri",
+        "jibi",
+        "inneun",
+        "georie",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "byeongwoneun",
+        "eunhaengeun",
+        "bangmulgwaneun"
+      ]
+    },
+    "u07-2-a": {
+      "tokens": [
+        "빵집은",
+        "일곱",
+        "시에",
+        "문을",
+        "열어요."
+      ],
+      "gap": 0,
+      "wrong": [
+        "약국은",
+        "식당은",
+        "도서관은"
+      ],
+      "roman": "ppangjibeun ilgop sie muneul yeoreoyo.",
+      "tokenRoman": [
+        "ppangjibeun",
+        "ilgop",
+        "sie",
+        "muneul",
+        "yeoreoyo."
+      ],
+      "wrongRoman": [
+        "yakgugeun",
+        "sikdangeun",
+        "doseogwaneun"
+      ]
+    },
+    "u07-2-b": {
+      "tokens": [
+        "이",
+        "근처에",
+        "약국이",
+        "있어요?"
+      ],
+      "gap": 2,
+      "wrong": [
+        "식당이",
+        "카페가",
+        "빵집이"
+      ],
+      "roman": "i geuncheoe yakgugi isseoyo?",
+      "tokenRoman": [
+        "i",
+        "geuncheoe",
+        "yakgugi",
+        "isseoyo?"
+      ],
+      "wrongRoman": [
+        "sikdangi",
+        "kapega",
+        "ppangjibi"
+      ]
+    },
+    "u07-3-a": {
+      "tokens": [
+        "모퉁이에서",
+        "왼쪽으로",
+        "도세요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "오른쪽으로",
+        "위로",
+        "아래로"
+      ],
+      "roman": "motungieseo oenjjogeuro doseyo.",
+      "tokenRoman": [
+        "motungieseo",
+        "oenjjogeuro",
+        "doseyo."
+      ],
+      "wrongRoman": [
+        "oreunjjogeuro",
+        "wiro",
+        "araero"
+      ]
+    },
+    "u07-3-b": {
+      "tokens": [
+        "시립",
+        "박물관은",
+        "어디에",
+        "있어요?"
+      ],
+      "gap": 2,
+      "wrong": [
+        "언제",
+        "왜",
+        "누가"
+      ],
+      "roman": "sirip bangmulgwaneun eodie isseoyo?",
+      "tokenRoman": [
+        "sirip",
+        "bangmulgwaneun",
+        "eodie",
+        "isseoyo?"
+      ],
+      "wrongRoman": [
+        "eonje",
+        "wae",
+        "nuga"
+      ]
+    },
+    "u07-4-a": {
+      "tokens": [
+        "역은",
+        "멀지",
+        "않아요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "크지",
+        "작지",
+        "비싸지"
+      ],
+      "roman": "yeogeun meolji anayo.",
+      "tokenRoman": [
+        "yeogeun",
+        "meolji",
+        "anayo."
+      ],
+      "wrongRoman": [
+        "keuji",
+        "jakji",
+        "bissaji"
+      ]
+    },
+    "u07-4-b": {
+      "tokens": [
+        "카페는",
+        "박물관",
+        "뒤에",
+        "있어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "앞에",
+        "옆에",
+        "위에"
+      ],
+      "roman": "kapeneun bangmulgwan dwie isseoyo.",
+      "tokenRoman": [
+        "kapeneun",
+        "bangmulgwan",
+        "dwie",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "ape",
+        "yeope",
+        "wie"
+      ]
+    },
+    "u08-1-a": {
+      "tokens": [
+        "미아는",
+        "검은",
+        "신발을",
+        "신어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "셔츠를",
+        "바지를",
+        "원피스를"
+      ],
+      "roman": "mianeun geomeun sinbareul sineoyo.",
+      "tokenRoman": [
+        "mianeun",
+        "geomeun",
+        "sinbareul",
+        "sineoyo."
+      ],
+      "wrongRoman": [
+        "syeocheureul",
+        "bajireul",
+        "wonpiseureul"
+      ]
+    },
+    "u08-1-b": {
+      "tokens": [
+        "이",
+        "원피스는",
+        "정말",
+        "예뻐요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "바지는",
+        "셔츠는",
+        "신발은"
+      ],
+      "roman": "i wonpiseuneun jeongmal yeppeoyo.",
+      "tokenRoman": [
+        "i",
+        "wonpiseuneun",
+        "jeongmal",
+        "yeppeoyo."
+      ],
+      "wrongRoman": [
+        "bajineun",
+        "syeocheuneun",
+        "sinbareun"
+      ]
+    },
+    "u08-2-a": {
+      "tokens": [
+        "저는",
+        "파란색",
+        "재킷이",
+        "좋아요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "빨간색",
+        "노란색",
+        "초록색"
+      ],
+      "roman": "jeoneun paransaek jaekisi joayo.",
+      "tokenRoman": [
+        "jeoneun",
+        "paransaek",
+        "jaekisi",
+        "joayo."
+      ],
+      "wrongRoman": [
+        "ppalgansaek",
+        "noransaek",
+        "choroksaek"
+      ]
+    },
+    "u08-2-b": {
+      "tokens": [
+        "제",
+        "새",
+        "신발은",
+        "흰색이에요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "검은색이에요",
+        "빨간색이에요",
+        "파란색이에요"
+      ],
+      "roman": "je sae sinbareun huinsaegieyo.",
+      "tokenRoman": [
+        "je",
+        "sae",
+        "sinbareun",
+        "huinsaegieyo."
+      ],
+      "wrongRoman": [
+        "geomeunsaegieyo",
+        "ppalgansaegieyo",
+        "paransaegieyo"
+      ]
+    },
+    "u08-3-a": {
+      "tokens": [
+        "원피스",
+        "가격은",
+        "오십이에요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "색은",
+        "이름은",
+        "나이는"
+      ],
+      "roman": "wonpiseu gagyeogeun osibieyo.",
+      "tokenRoman": [
+        "wonpiseu",
+        "gagyeogeun",
+        "osibieyo."
+      ],
+      "wrongRoman": [
+        "saegeun",
+        "ireumeun",
+        "naineun"
+      ]
+    },
+    "u08-3-b": {
+      "tokens": [
+        "이",
+        "셔츠는",
+        "아주",
+        "싸요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "비싸요",
+        "길어요",
+        "작아요"
+      ],
+      "roman": "i syeocheuneun aju ssayo.",
+      "tokenRoman": [
+        "i",
+        "syeocheuneun",
+        "aju",
+        "ssayo."
+      ],
+      "wrongRoman": [
+        "bissayo",
+        "gireoyo",
+        "jagayo"
+      ]
+    },
+    "u08-4-a": {
+      "tokens": [
+        "이",
+        "바지",
+        "입어",
+        "봐도",
+        "돼요?"
+      ],
+      "gap": 2,
+      "wrong": [
+        "먹어",
+        "마셔",
+        "읽어"
+      ],
+      "roman": "i baji ibeo bwado dwaeyo?",
+      "tokenRoman": [
+        "i",
+        "baji",
+        "ibeo",
+        "bwado",
+        "dwaeyo?"
+      ],
+      "wrongRoman": [
+        "meogeo",
+        "masyeo",
+        "ilgeo"
+      ]
+    },
+    "u08-4-b": {
+      "tokens": [
+        "이",
+        "가게는",
+        "예쁜",
+        "모자를",
+        "팔아요."
+      ],
+      "gap": 4,
+      "wrong": [
+        "마셔요",
+        "먹어요",
+        "읽어요"
+      ],
+      "roman": "i gageneun yeppeun mojareul parayo.",
+      "tokenRoman": [
+        "i",
+        "gageneun",
+        "yeppeun",
+        "mojareul",
+        "parayo."
+      ],
+      "wrongRoman": [
+        "masyeoyo",
+        "meogeoyo",
+        "ilgeoyo"
+      ]
+    },
+    "u09-1-a": {
+      "tokens": [
+        "파리에",
+        "비가",
+        "오고",
+        "있어요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "해가",
+        "구름이",
+        "바람이"
+      ],
+      "roman": "parie biga ogo isseoyo.",
+      "tokenRoman": [
+        "parie",
+        "biga",
+        "ogo",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "haega",
+        "gureumi",
+        "barami"
+      ]
+    },
+    "u09-1-b": {
+      "tokens": [
+        "봐요,",
+        "눈이",
+        "오고",
+        "있어요!"
+      ],
+      "gap": 1,
+      "wrong": [
+        "해가",
+        "구름이",
+        "바람이"
+      ],
+      "roman": "bwayo, nuni ogo isseoyo!",
+      "tokenRoman": [
+        "bwayo,",
+        "nuni",
+        "ogo",
+        "isseoyo!"
+      ],
+      "wrongRoman": [
+        "haega",
+        "gureumi",
+        "barami"
+      ]
+    },
+    "u09-2-a": {
+      "tokens": [
+        "베를린은",
+        "아주",
+        "추워요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "더워요",
+        "배고파요",
+        "비싸요"
+      ],
+      "roman": "bereullineun aju chuwoyo.",
+      "tokenRoman": [
+        "bereullineun",
+        "aju",
+        "chuwoyo."
+      ],
+      "wrongRoman": [
+        "deowoyo",
+        "baegopayo",
+        "bissayo"
+      ]
+    },
+    "u09-2-b": {
+      "tokens": [
+        "톰은",
+        "검은",
+        "우산을",
+        "들고",
+        "있어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "가방을",
+        "모자를",
+        "책을"
+      ],
+      "roman": "tomeun geomeun usaneul deulgo isseoyo.",
+      "tokenRoman": [
+        "tomeun",
+        "geomeun",
+        "usaneul",
+        "deulgo",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "gabangeul",
+        "mojareul",
+        "chaegeul"
+      ]
+    },
+    "u09-3-a": {
+      "tokens": [
+        "봄에는",
+        "나무가",
+        "초록색이에요."
+      ],
+      "gap": 0,
+      "wrong": [
+        "겨울에는",
+        "가을에는",
+        "밤에는"
+      ],
+      "roman": "bomeneun namuga choroksaegieyo.",
+      "tokenRoman": [
+        "bomeneun",
+        "namuga",
+        "choroksaegieyo."
+      ],
+      "wrongRoman": [
+        "gyeoureneun",
+        "gaeureneun",
+        "bameneun"
+      ]
+    },
+    "u09-3-b": {
+      "tokens": [
+        "여름은",
+        "더운",
+        "계절이에요."
+      ],
+      "gap": 0,
+      "wrong": [
+        "겨울은",
+        "봄은",
+        "가을은"
+      ],
+      "roman": "yeoreumeun deoun gyejeorieyo.",
+      "tokenRoman": [
+        "yeoreumeun",
+        "deoun",
+        "gyejeorieyo."
+      ],
+      "wrongRoman": [
+        "gyeoureun",
+        "bomeun",
+        "gaeureun"
+      ]
+    },
+    "u09-4-a": {
+      "tokens": [
+        "레오는",
+        "해변에서",
+        "수영하고",
+        "있어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "공부하고",
+        "요리하고",
+        "일하고"
+      ],
+      "roman": "reoneun haebyeoneseo suyeonghago isseoyo.",
+      "tokenRoman": [
+        "reoneun",
+        "haebyeoneseo",
+        "suyeonghago",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "gongbuhago",
+        "yorihago",
+        "ilhago"
+      ]
+    },
+    "u09-4-b": {
+      "tokens": [
+        "미아와",
+        "톰은",
+        "밖에서",
+        "걷고",
+        "있어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "안에서",
+        "위에서",
+        "뒤에서"
+      ],
+      "roman": "miawa tomeun bakkeseo geotgo isseoyo.",
+      "tokenRoman": [
+        "miawa",
+        "tomeun",
+        "bakkeseo",
+        "geotgo",
+        "isseoyo."
+      ],
+      "wrongRoman": [
+        "aneseo",
+        "wieseo",
+        "dwieseo"
+      ]
+    },
+    "u10-1-a": {
+      "tokens": [
+        "버스가",
+        "아주",
+        "느렸어요."
+      ],
+      "gap": 0,
+      "wrong": [
+        "기차가",
+        "택시가",
+        "비행기가"
+      ],
+      "roman": "beoseuga aju neuryeosseoyo.",
+      "tokenRoman": [
+        "beoseuga",
+        "aju",
+        "neuryeosseoyo."
+      ],
+      "wrongRoman": [
+        "gichaga",
+        "taeksiga",
+        "bihaenggiga"
+      ]
+    },
+    "u10-1-b": {
+      "tokens": [
+        "우리는",
+        "여섯",
+        "시에",
+        "기차",
+        "안에",
+        "있었어요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "버스",
+        "택시",
+        "비행기"
+      ],
+      "roman": "urineun yeoseot sie gicha ane isseosseoyo.",
+      "tokenRoman": [
+        "urineun",
+        "yeoseot",
+        "sie",
+        "gicha",
+        "ane",
+        "isseosseoyo."
+      ],
+      "wrongRoman": [
+        "beoseu",
+        "taeksi",
+        "bihaenggi"
+      ]
+    },
+    "u10-2-a": {
+      "tokens": [
+        "기차가",
+        "또",
+        "늦었어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "빨랐어요",
+        "비쌌어요",
+        "조용했어요"
+      ],
+      "roman": "gichaga tto neujeosseoyo.",
+      "tokenRoman": [
+        "gichaga",
+        "tto",
+        "neujeosseoyo."
+      ],
+      "wrongRoman": [
+        "ppallasseoyo",
+        "bissasseoyo",
+        "joyonghaesseoyo"
+      ]
+    },
+    "u10-2-b": {
+      "tokens": [
+        "표는",
+        "비싸지",
+        "않았어요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "싸지",
+        "크지",
+        "길지"
+      ],
+      "roman": "pyoneun bissaji anasseoyo.",
+      "tokenRoman": [
+        "pyoneun",
+        "bissaji",
+        "anasseoyo."
+      ],
+      "wrongRoman": [
+        "ssaji",
+        "keuji",
+        "gilji"
+      ]
+    },
+    "u10-3-a": {
+      "tokens": [
+        "호텔",
+        "방은",
+        "아주",
+        "조용했어요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "시끄러웠어요",
+        "배고팠어요",
+        "젊었어요"
+      ],
+      "roman": "hotel bangeun aju joyonghaesseoyo.",
+      "tokenRoman": [
+        "hotel",
+        "bangeun",
+        "aju",
+        "joyonghaesseoyo."
+      ],
+      "wrongRoman": [
+        "sikkeureowosseoyo",
+        "baegopasseoyo",
+        "jeolmeosseoyo"
+      ]
+    },
+    "u10-3-b": {
+      "tokens": [
+        "침대는",
+        "편했어요?"
+      ],
+      "gap": 1,
+      "wrong": [
+        "배고팠어요",
+        "젊었어요",
+        "바빴어요"
+      ],
+      "roman": "chimdaeneun pyeonhaesseoyo?",
+      "tokenRoman": [
+        "chimdaeneun",
+        "pyeonhaesseoyo?"
+      ],
+      "wrongRoman": [
+        "baegopasseoyo",
+        "jeolmeosseoyo",
+        "bappasseoyo"
+      ]
+    },
+    "u10-4-a": {
+      "tokens": [
+        "바다가",
+        "정말",
+        "아름다웠어요."
+      ],
+      "gap": 0,
+      "wrong": [
+        "산이",
+        "호텔이",
+        "사진이"
+      ],
+      "roman": "badaga jeongmal areumdawosseoyo.",
+      "tokenRoman": [
+        "badaga",
+        "jeongmal",
+        "areumdawosseoyo."
+      ],
+      "wrongRoman": [
+        "sani",
+        "hoteri",
+        "sajini"
+      ]
+    },
+    "u10-4-b": {
+      "tokens": [
+        "우리가",
+        "리우에서",
+        "보낸",
+        "휴가는",
+        "정말",
+        "멋졌어요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "여권은",
+        "우산은",
+        "신발은"
+      ],
+      "roman": "uriga riueseo bonaen hyuganeun jeongmal meotjyeosseoyo.",
+      "tokenRoman": [
+        "uriga",
+        "riueseo",
+        "bonaen",
+        "hyuganeun",
+        "jeongmal",
+        "meotjyeosseoyo."
+      ],
+      "wrongRoman": [
+        "yeogwoneun",
+        "usaneun",
+        "sinbareun"
+      ]
+    },
+    "u11-1-a": {
+      "tokens": [
+        "엠마가",
+        "어제",
+        "저한테",
+        "전화했어요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "내일",
+        "모레",
+        "이따"
+      ],
+      "roman": "emmaga eoje jeohante jeonhwahaesseoyo.",
+      "tokenRoman": [
+        "emmaga",
+        "eoje",
+        "jeohante",
+        "jeonhwahaesseoyo."
+      ],
+      "wrongRoman": [
+        "naeil",
+        "more",
+        "itta"
+      ]
+    },
+    "u11-1-b": {
+      "tokens": [
+        "저는",
+        "이틀",
+        "전에",
+        "알리를",
+        "봤어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "옆에",
+        "위에",
+        "앞에"
+      ],
+      "roman": "jeoneun iteul jeone allireul bwasseoyo.",
+      "tokenRoman": [
+        "jeoneun",
+        "iteul",
+        "jeone",
+        "allireul",
+        "bwasseoyo."
+      ],
+      "wrongRoman": [
+        "yeope",
+        "wie",
+        "ape"
+      ],
+      "orders": [
+        [
+          0,
+          3,
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          0,
+          3,
+          4
+        ]
+      ]
+    },
+    "u11-2-a": {
+      "tokens": [
+        "우리는",
+        "파티에서",
+        "춤췄어요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "잤어요",
+        "공부했어요",
+        "일했어요"
+      ],
+      "roman": "urineun patieseo chumchwosseoyo.",
+      "tokenRoman": [
+        "urineun",
+        "patieseo",
+        "chumchwosseoyo."
+      ],
+      "wrongRoman": [
+        "jasseoyo",
+        "gongbuhaesseoyo",
+        "ilhaesseoyo"
+      ]
+    },
+    "u11-2-b": {
+      "tokens": [
+        "엠레와",
+        "저는",
+        "토요일에",
+        "만났어요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "잤어요",
+        "마셨어요",
+        "읽었어요"
+      ],
+      "roman": "emrewa jeoneun toyoire mannasseoyo.",
+      "tokenRoman": [
+        "emrewa",
+        "jeoneun",
+        "toyoire",
+        "mannasseoyo."
+      ],
+      "wrongRoman": [
+        "jasseoyo",
+        "masyeosseoyo",
+        "ilgeosseoyo"
+      ]
+    },
+    "u11-3-a": {
+      "tokens": [
+        "톰은",
+        "저녁으로",
+        "수프를",
+        "요리했어요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "읽었어요",
+        "썼어요",
+        "씻었어요"
+      ],
+      "roman": "tomeun jeonyeogeuro supeureul yorihaesseoyo.",
+      "tokenRoman": [
+        "tomeun",
+        "jeonyeogeuro",
+        "supeureul",
+        "yorihaesseoyo."
+      ],
+      "wrongRoman": [
+        "ilgeosseoyo",
+        "sseosseoyo",
+        "ssiseosseoyo"
+      ]
+    },
+    "u11-3-b": {
+      "tokens": [
+        "저는",
+        "침대에서",
+        "음악을",
+        "들었어요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "먹었어요",
+        "마셨어요",
+        "입었어요"
+      ],
+      "roman": "jeoneun chimdaeeseo eumageul deureosseoyo.",
+      "tokenRoman": [
+        "jeoneun",
+        "chimdaeeseo",
+        "eumageul",
+        "deureosseoyo."
+      ],
+      "wrongRoman": [
+        "meogeosseoyo",
+        "masyeosseoyo",
+        "ibeosseoyo"
+      ]
+    },
+    "u11-4-a": {
+      "tokens": [
+        "엘리프는",
+        "가방을",
+        "학교에",
+        "두고",
+        "왔어요."
+      ],
+      "gap": 1,
+      "wrong": [
+        "우산을",
+        "신발을",
+        "휴대폰을"
+      ],
+      "roman": "ellipeuneun gabangeul hakgyoe dugo wasseoyo.",
+      "tokenRoman": [
+        "ellipeuneun",
+        "gabangeul",
+        "hakgyoe",
+        "dugo",
+        "wasseoyo."
+      ],
+      "wrongRoman": [
+        "usaneul",
+        "sinbareul",
+        "hyudaeponeul"
+      ]
+    },
+    "u11-4-b": {
+      "tokens": [
+        "저는",
+        "어제",
+        "표를",
+        "잃어버렸어요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "찾았어요",
+        "끝냈어요",
+        "시작했어요"
+      ],
+      "roman": "jeoneun eoje pyoreul ireobeoryeosseoyo.",
+      "tokenRoman": [
+        "jeoneun",
+        "eoje",
+        "pyoreul",
+        "ireobeoryeosseoyo."
+      ],
+      "wrongRoman": [
+        "chajasseoyo",
+        "kkeunnaesseoyo",
+        "sijakaesseoyo"
+      ]
+    },
+    "u12-1-a": {
+      "tokens": [
+        "내일",
+        "전화할",
+        "거예요."
+      ],
+      "gap": 0,
+      "wrong": [
+        "어제",
+        "작년",
+        "지난주"
+      ],
+      "roman": "naeil jeonhwahal geoyeyo.",
+      "tokenRoman": [
+        "naeil",
+        "jeonhwahal",
+        "geoyeyo."
+      ],
+      "wrongRoman": [
+        "eoje",
+        "jangnyeon",
+        "jinanju"
+      ]
+    },
+    "u12-1-b": {
+      "tokens": [
+        "미아는",
+        "오늘",
+        "저녁에",
+        "요리할",
+        "거예요."
+      ],
+      "gap": 3,
+      "wrong": [
+        "수영할",
+        "춤출",
+        "공부할"
+      ],
+      "roman": "mianeun oneul jeonyeoge yorihal geoyeyo.",
+      "tokenRoman": [
+        "mianeun",
+        "oneul",
+        "jeonyeoge",
+        "yorihal",
+        "geoyeyo."
+      ],
+      "wrongRoman": [
+        "suyeonghal",
+        "chumchul",
+        "gongbuhal"
+      ]
+    },
+    "u12-2-a": {
+      "tokens": [
+        "우리랑",
+        "같이",
+        "갈래요?"
+      ],
+      "gap": 2,
+      "wrong": [
+        "읽을래요",
+        "닫을래요",
+        "팔래요"
+      ],
+      "roman": "urirang gachi gallaeyo?",
+      "tokenRoman": [
+        "urirang",
+        "gachi",
+        "gallaeyo?"
+      ],
+      "wrongRoman": [
+        "ilgeullaeyo",
+        "dadeullaeyo",
+        "pallaeyo"
+      ]
+    },
+    "u12-2-b": {
+      "tokens": [
+        "이번",
+        "주말에",
+        "한가해요?"
+      ],
+      "gap": 2,
+      "wrong": [
+        "배고파요",
+        "젊어요",
+        "비싸요"
+      ],
+      "roman": "ibeon jumare hangahaeyo?",
+      "tokenRoman": [
+        "ibeon",
+        "jumare",
+        "hangahaeyo?"
+      ],
+      "wrongRoman": [
+        "baegopayo",
+        "jeolmeoyo",
+        "bissayo"
+      ]
+    },
+    "u12-3-a": {
+      "tokens": [
+        "물론",
+        "가고",
+        "싶어요."
+      ],
+      "gap": 0,
+      "wrong": [
+        "아마",
+        "어제",
+        "지난주"
+      ],
+      "roman": "mullon gago sipeoyo.",
+      "tokenRoman": [
+        "mullon",
+        "gago",
+        "sipeoyo."
+      ],
+      "wrongRoman": [
+        "ama",
+        "eoje",
+        "jinanju"
+      ]
+    },
+    "u12-3-b": {
+      "tokens": [
+        "아쉽게도",
+        "오늘",
+        "저녁에는",
+        "바빠요."
+      ],
+      "gap": 0,
+      "wrong": [
+        "다행히",
+        "물론",
+        "드디어"
+      ],
+      "roman": "aswipgedo oneul jeonyeogeneun bappayo.",
+      "tokenRoman": [
+        "aswipgedo",
+        "oneul",
+        "jeonyeogeneun",
+        "bappayo."
+      ],
+      "wrongRoman": [
+        "dahaenghi",
+        "mullon",
+        "deudieo"
+      ]
+    },
+    "u12-4-a": {
+      "tokens": [
+        "우리는",
+        "토요일에",
+        "축하할",
+        "거예요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "배울",
+        "쉴",
+        "씻을"
+      ],
+      "roman": "urineun toyoire chukahal geoyeyo.",
+      "tokenRoman": [
+        "urineun",
+        "toyoire",
+        "chukahal",
+        "geoyeyo."
+      ],
+      "wrongRoman": [
+        "baeul",
+        "swil",
+        "ssiseul"
+      ]
+    },
+    "u12-4-b": {
+      "tokens": [
+        "데니즈는",
+        "프랑스어를",
+        "배우고",
+        "싶어",
+        "해요."
+      ],
+      "gap": 2,
+      "wrong": [
+        "마시고",
+        "입고",
+        "씻고"
+      ],
+      "roman": "denijeuneun peurangseueoreul baeugo sipeo haeyo.",
+      "tokenRoman": [
+        "denijeuneun",
+        "peurangseueoreul",
+        "baeugo",
+        "sipeo",
+        "haeyo."
+      ],
+      "wrongRoman": [
+        "masigo",
+        "ipgo",
+        "ssitgo"
+      ]
+    }
+  },
+  "tips": {
+    "u01": {
+      "title": {
+        "en": "I am ...: 이에요 and 예요",
+        "tr": "Ben ...: 이에요 ve 예요"
+      },
+      "body": {
+        "en": "In Korean the verb comes at the end of the sentence. To say who or what someone is, put 이에요 after a word that ends in a consonant, and 예요 after a word that ends in a vowel: 학생이에요, 엠레예요.\n\n저는 means 'I' in polite talk. You can often leave it out, because Koreans drop words that are clear from the situation.\n\nThe -요 at the end makes your Korean polite and friendly. It is the right style for new friends and for people you meet every day.",
+        "tr": "Korecede fiil cümlenin sonunda gelir. Birinin kim ya da ne olduğunu söylemek için ünsüzle biten bir kelimeden sonra 이에요, ünlüyle biten bir kelimeden sonra 예요 kullan: 학생이에요, 엠레예요.\n\n저는 kibar konuşmada 'ben' demek. Çoğu zaman onu söylemeyebilirsin, çünkü Koreliler durumdan anlaşılan kelimeleri atar.\n\nSondaki -요 Koreceni kibar ve sıcak yapar. Yeni arkadaşlarla ve her gün gördüğün insanlarla bu biçimi kullan."
+      },
+      "examples": [
+        {
+          "text": "저는 학생이에요.",
+          "roman": "jeoneun haksaengieyo.",
+          "en": "I am a student.",
+          "tr": "Ben öğrenciyim."
+        },
+        {
+          "text": "저는 엠레예요.",
+          "roman": "jeoneun emreyeyo.",
+          "en": "I am Emre.",
+          "tr": "Ben Emre'yim."
+        },
+        {
+          "text": "네, 선생님이에요.",
+          "roman": "ne, seonsaengnimieyo.",
+          "en": "Yes, I am a teacher.",
+          "tr": "Evet, öğretmenim."
+        }
+      ]
+    },
+    "u02": {
+      "title": {
+        "en": "Our mom: 우리 and 은/는",
+        "tr": "Annemiz: 우리 ve 은/는"
+      },
+      "body": {
+        "en": "When Koreans talk about their family, home or school, they usually say 우리 (our), not 제 (my): 우리 엄마, 우리 집. It sounds warm and natural, even if you are an only child.\n\nA small word after a name or a noun shows what you are talking about: 은 after a consonant, 는 after a vowel. 톰은 제 친구예요 means 'Tom is my friend'.\n\nKorean has no words like 'a' and 'the': 아기 is 'a baby' or 'the baby'.",
+        "tr": "Koreliler ailelerinden, evlerinden ya da okullarından söz ederken genellikle 제 (benim) değil 우리 (bizim) der: 우리 엄마, 우리 집. Tek çocuk olsan bile bu sıcak ve doğal duyulur.\n\nBir isimden sonra gelen küçük ek, neden söz ettiğini gösterir: ünsüzden sonra 은, ünlüden sonra 는. 톰은 제 친구예요 'Tom benim arkadaşım' demek.\n\nKorecede İngilizcedeki 'a' ve 'the' gibi kelimeler yoktur: 아기 hem 'bir bebek' hem 'bebek' demek."
+      },
+      "examples": [
+        {
+          "text": "우리 엄마는 선생님이에요.",
+          "roman": "uri eommaneun seonsaengnimieyo.",
+          "en": "My mom is a teacher.",
+          "tr": "Annem öğretmen."
+        },
+        {
+          "text": "톰은 제 친구예요.",
+          "roman": "tomeun je chinguyeyo.",
+          "en": "Tom is my friend.",
+          "tr": "Tom benim arkadaşım."
+        }
+      ]
+    },
+    "u03": {
+      "title": {
+        "en": "Two sets of numbers",
+        "tr": "İki sayı takımı"
+      },
+      "body": {
+        "en": "Korean has two sets of numbers. The Korean set (하나, 둘, 셋 ...) is for counting people and things, for age and for the hour: 두 명 (two people), 열두 살 (twelve years old), 일곱 시 (seven o'clock).\n\nThe second set (일, 이, 삼 ... 십, 이십, 오십, 백) came from Chinese. It is for minutes, money, phone and room numbers, floors and math: 십 분 (ten minutes), 오십 쪽 (fifty pages). Small sums can use either set: 넷 더하기 둘은 여섯.\n\nBefore a counter word, five numbers get shorter: 하나 becomes 한, 둘 becomes 두, 셋 becomes 세, 넷 becomes 네 and 스물 becomes 스무. So you say 한 명, not 하나 명.",
+        "tr": "Korecede iki sayı takımı var. Korece takım (하나, 둘, 셋 ...) insanları ve eşyaları saymak, yaş ve saat için: 두 명 (iki kişi), 열두 살 (on iki yaşında), 일곱 시 (saat yedi).\n\nİkinci takım (일, 이, 삼 ... 십, 이십, 오십, 백) Çinceden gelir. Dakika, para, telefon ve oda numarası, kat ve matematik için: 십 분 (on dakika), 오십 쪽 (elli sayfa). Küçük toplamlarda iki takım da olur: 넷 더하기 둘은 여섯.\n\nSayma kelimesinden önce beş sayı kısalır: 하나 한, 둘 두, 셋 세, 넷 네, 스물 de 스무 olur. Yani 하나 명 değil, 한 명 dersin."
+      },
+      "examples": [
+        {
+          "text": "고양이가 두 마리 있어요.",
+          "roman": "goyangiga du mari isseoyo.",
+          "en": "I have two cats.",
+          "tr": "İki kedim var."
+        },
+        {
+          "text": "저는 열두 살이에요.",
+          "roman": "jeoneun yeoldu sarieyo.",
+          "en": "I am twelve years old.",
+          "tr": "On iki yaşındayım."
+        },
+        {
+          "text": "십 분 있어요.",
+          "roman": "sip bun isseoyo.",
+          "en": "I have ten minutes.",
+          "tr": "On dakikam var."
+        }
+      ]
+    },
+    "u04": {
+      "title": {
+        "en": "What you eat: 을 and 를",
+        "tr": "Ne yiyorsun: 을 ve 를"
+      },
+      "body": {
+        "en": "The thing you eat, drink or like gets a small mark: 을 after a consonant, 를 after a vowel. 빵을 먹어요 (I eat bread), 커피를 마셔요 (I drink coffee). The verb stays at the end.\n\nIn a dictionary a verb ends in 다. To speak politely, change the end: 먹다 becomes 먹어요, 마시다 becomes 마셔요, 좋아하다 becomes 좋아해요. The same form works for I, you, he, she and they.\n\nIn quick speech Koreans often drop 을 and 를: 커피 마셔요? is fine too.",
+        "tr": "Yediğin, içtiğin ya da sevdiğin şey küçük bir ek alır: ünsüzden sonra 을, ünlüden sonra 를. 빵을 먹어요 (ekmek yerim), 커피를 마셔요 (kahve içerim). Fiil yine sonda kalır.\n\nSözlükte fiil 다 ile biter. Kibar konuşmak için sonunu değiştir: 먹다 먹어요, 마시다 마셔요, 좋아하다 da 좋아해요 olur. Aynı biçim ben, sen, o ve onlar için kullanılır.\n\nHızlı konuşmada Koreliler 을 ve 를 eklerini çoğu zaman atar: 커피 마셔요? de doğrudur."
+      },
+      "examples": [
+        {
+          "text": "저는 빵을 먹어요.",
+          "roman": "jeoneun ppangeul meogeoyo.",
+          "en": "I eat bread.",
+          "tr": "Ekmek yerim."
+        },
+        {
+          "text": "엠레는 커피를 마셔요.",
+          "roman": "emreneun keopireul masyeoyo.",
+          "en": "Emre drinks coffee.",
+          "tr": "Emre kahve içer."
+        },
+        {
+          "text": "저는 수프를 좋아해요.",
+          "roman": "jeoneun supeureul joahaeyo.",
+          "en": "I like soup.",
+          "tr": "Çorbayı severim."
+        }
+      ]
+    },
+    "u05": {
+      "title": {
+        "en": "Where things are: 에 있어요",
+        "tr": "Nerede: 에 있어요"
+      },
+      "body": {
+        "en": "To say where something is, put 에 after the place and end with 있어요 (is there): 정원에 있어요 (it is in the garden). For 'is not there', use 없어요.\n\nKorean puts the position word after the thing: 침대 위에 means 'on the bed' (bed, top, at), and 문 옆에 means 'next to the door' (door, side, at). Two more useful ones are 밑 (under) and 안 (inside).\n\n있어요 also means 'have': 고양이가 있어요 is 'there is a cat' or 'I have a cat'.",
+        "tr": "Bir şeyin nerede olduğunu söylemek için yerden sonra 에 koy ve 있어요 (var, orada) ile bitir: 정원에 있어요 (bahçede). 'Yok' için 없어요 kullan.\n\nKorece, Türkçe gibi, yer kelimesini ismin arkasına koyar: 침대 위에 'yatağın üstünde', 문 옆에 'kapının yanında' demek. 밑 (altı) ve 안 (içi) de çok kullanılır.\n\n있어요 'sahip olmak' anlamına da gelir: 고양이가 있어요 hem 'bir kedi var' hem 'kedim var' demek."
+      },
+      "examples": [
+        {
+          "text": "책은 침대 위에 있어요.",
+          "roman": "chaegeun chimdae wie isseoyo.",
+          "en": "The book is on the bed.",
+          "tr": "Kitap yatağın üstünde."
+        },
+        {
+          "text": "엠마는 정원에 있어요.",
+          "roman": "emmaneun jeongwone isseoyo.",
+          "en": "Emma is in the garden.",
+          "tr": "Emma bahçede."
+        },
+        {
+          "text": "부엌에 고양이가 없어요.",
+          "roman": "bueoke goyangiga eopseoyo.",
+          "en": "There is no cat in the kitchen.",
+          "tr": "Mutfakta kedi yok."
+        }
+      ]
+    },
+    "u06": {
+      "title": {
+        "en": "At seven, on Monday: 에 for time",
+        "tr": "Saat yedide, pazartesi: zaman için 에"
+      },
+      "body": {
+        "en": "The same 에 that marks a place also marks a time: 일곱 시에 (at seven), 월요일에 (on Monday), 아침에 (in the morning), 주말에 (on the weekend).\n\nA few time words never take 에: 오늘 (today), 지금 (now), 매일 (every day) and 내일 (tomorrow). Say 오늘 바빠요, not 오늘에 바빠요.\n\nThe time usually comes early in the sentence, and the verb comes last: 저는 일곱 시에 일어나요 (I wake up at seven).",
+        "tr": "Yer gösteren 에 zamanı da gösterir: 일곱 시에 (saat yedide), 월요일에 (pazartesi), 아침에 (sabah), 주말에 (hafta sonu).\n\nBazı zaman kelimeleri hiç 에 almaz: 오늘 (bugün), 지금 (şimdi), 매일 (her gün) ve 내일 (yarın). 오늘에 바빠요 değil, 오늘 바빠요 de.\n\nZaman genellikle cümlenin başına yakın gelir, fiil en sona: 저는 일곱 시에 일어나요 (saat yedide uyanırım). Bu sıra Türkçeye çok benzer."
+      },
+      "examples": [
+        {
+          "text": "저는 일곱 시에 일어나요.",
+          "roman": "jeoneun ilgop sie ireonayo.",
+          "en": "I wake up at seven.",
+          "tr": "Saat yedide uyanırım."
+        },
+        {
+          "text": "월요일에 학교에 가요.",
+          "roman": "woryoire hakgyoe gayo.",
+          "en": "I go to school on Monday.",
+          "tr": "Pazartesi okula giderim."
+        },
+        {
+          "text": "오늘 바빠요.",
+          "roman": "oneul bappayo.",
+          "en": "I am busy today.",
+          "tr": "Bugün meşgulüm."
+        }
+      ]
+    },
+    "u07": {
+      "title": {
+        "en": "Turn left, please: 으로 and -세요",
+        "tr": "Lütfen sola dönün: 으로 ve -세요"
+      },
+      "body": {
+        "en": "To show a direction, add 으로 after a consonant and 로 after a vowel or ㄹ: 왼쪽으로 (to the left), 오른쪽으로 (to the right), 학교로 (to school), 서울로 (to Seoul).\n\nWhen you ask a stranger for help or give directions, the verb ending -세요 makes a polite request: 가세요 (please go), 도세요 (please turn).\n\nUse 에서 for the place where something happens: 은행에서 왼쪽으로 도세요 (turn left at the bank), 도서관 앞에서 만나요 (let's meet in front of the library).",
+        "tr": "Yön göstermek için ünsüzden sonra 으로, ünlüden ya da ㄹ'den sonra 로 ekle: 왼쪽으로 (sola), 오른쪽으로 (sağa), 학교로 (okula), 서울로 (Seul'e).\n\nBir yabancıdan yardım isterken ya da yol tarif ederken -세요 eki kibar bir rica yapar: 가세요 (lütfen gidin), 도세요 (lütfen dönün).\n\nBir şeyin olduğu yer için 에서 kullan: 은행에서 왼쪽으로 도세요 (bankadan sola dönün), 도서관 앞에서 만나요 (kütüphanenin önünde buluşalım)."
+      },
+      "examples": [
+        {
+          "text": "왼쪽으로 도세요.",
+          "roman": "oenjjogeuro doseyo.",
+          "en": "Please turn left.",
+          "tr": "Lütfen sola dönün."
+        },
+        {
+          "text": "똑바로 가세요.",
+          "roman": "ttokbaro gaseyo.",
+          "en": "Please go straight ahead.",
+          "tr": "Lütfen dümdüz gidin."
+        },
+        {
+          "text": "도서관 앞에서 만나요.",
+          "roman": "doseogwan apeseo mannayo.",
+          "en": "Let's meet in front of the library.",
+          "tr": "Kütüphanenin önünde buluşalım."
+        }
+      ]
+    },
+    "u08": {
+      "title": {
+        "en": "A cheap shirt: describing words before a noun",
+        "tr": "Ucuz bir gömlek: isimden önce sıfat"
+      },
+      "body": {
+        "en": "Korean describing words work like verbs. At the end of a sentence they take -요: 이 셔츠는 싸요 (this shirt is cheap), 가방이 커요 (the bag is big).\n\nBefore a noun their end changes to ㄴ or 은: 싸다 gives 싼 셔츠 (a cheap shirt), 크다 gives 큰 가방 (a big bag), 작다 gives 작은 가방 (a small bag), and 예쁘다 gives 예쁜 모자 (a nice hat).\n\nTo ask the price, point at the thing and say 이거 얼마예요? (how much is this?).",
+        "tr": "Korece sıfatlar fiil gibi çalışır. Cümlenin sonunda -요 alırlar: 이 셔츠는 싸요 (bu gömlek ucuz), 가방이 커요 (çanta büyük).\n\nBir isimden önce sonları ㄴ ya da 은 olur: 싸다 싼 셔츠 (ucuz bir gömlek), 크다 큰 가방 (büyük bir çanta), 작다 작은 가방 (küçük bir çanta), 예쁘다 da 예쁜 모자 (güzel bir şapka) olur.\n\nFiyat sormak için o şeyi göster ve 이거 얼마예요? (bu ne kadar?) de."
+      },
+      "examples": [
+        {
+          "text": "이 셔츠는 싸요.",
+          "roman": "i syeocheuneun ssayo.",
+          "en": "This shirt is cheap.",
+          "tr": "Bu gömlek ucuz."
+        },
+        {
+          "text": "싼 셔츠를 사고 싶어요.",
+          "roman": "ssan syeocheureul sago sipeoyo.",
+          "en": "I want to buy a cheap shirt.",
+          "tr": "Ucuz bir gömlek almak istiyorum."
+        },
+        {
+          "text": "이거 얼마예요?",
+          "roman": "igeo eolmayeyo?",
+          "en": "How much is this?",
+          "tr": "Bu ne kadar?"
+        }
+      ]
+    },
+    "u09": {
+      "title": {
+        "en": "Happening now: -고 있어요",
+        "tr": "Şu an oluyor: -고 있어요"
+      },
+      "body": {
+        "en": "To say that something is going on right now, take the verb without 다, add 고 and then 있어요: 수영하다 gives 수영하고 있어요 (is swimming), and 걷다 gives 걷고 있어요 (is walking).\n\nFor the weather, Korean says that rain and snow 'come': 비가 와요 (it rains), 비가 오고 있어요 (it is raining), 눈이 오고 있어요 (it is snowing).\n\nWhen the situation is clear, the simple present 수영해요 can also mean 'I am swimming'. -고 있어요 makes the 'right now' stronger.",
+        "tr": "Bir şeyin şu anda olduğunu söylemek için fiilden 다 ekini at, 고 ekle, sonra 있어요 de: 수영하다 수영하고 있어요 (yüzüyor), 걷다 da 걷고 있어요 (yürüyor) olur.\n\nHava için Korece yağmurun ve karın 'geldiğini' söyler: 비가 와요 (yağmur yağar), 비가 오고 있어요 (yağmur yağıyor), 눈이 오고 있어요 (kar yağıyor).\n\nDurum açıksa basit şimdiki zaman 수영해요 da 'yüzüyorum' anlamına gelebilir. -고 있어요 'tam şu an' anlamını güçlendirir."
+      },
+      "examples": [
+        {
+          "text": "비가 오고 있어요.",
+          "roman": "biga ogo isseoyo.",
+          "en": "It is raining.",
+          "tr": "Yağmur yağıyor."
+        },
+        {
+          "text": "레오는 수영하고 있어요.",
+          "roman": "reoneun suyeonghago isseoyo.",
+          "en": "Leo is swimming.",
+          "tr": "Leo yüzüyor."
+        },
+        {
+          "text": "우리는 밖에서 걷고 있어요.",
+          "roman": "urineun bakkeseo geotgo isseoyo.",
+          "en": "We are walking outside.",
+          "tr": "Dışarıda yürüyoruz."
+        }
+      ]
+    },
+    "u10": {
+      "title": {
+        "en": "It was: -았어요 and -었어요",
+        "tr": "...ydı: -았어요 ve -었어요"
+      },
+      "body": {
+        "en": "To talk about the past, start from the polite present. The syllable before 요 takes ㅆ at its bottom, and 요 becomes 어요: 비싸요 gives 비쌌어요 (it was expensive), 느려요 gives 느렸어요 (it was slow), and 조용해요 gives 조용했어요 (it was quiet).\n\nAfter a noun, 'was' is 이었어요 after a consonant and 였어요 after a vowel: 빨간색이었어요 (it was red), 멋진 하루였어요 (it was a wonderful day).\n\nFor being somewhere, 있어요 becomes 있었어요: 호텔은 바다 근처에 있었어요 (the hotel was near the sea).",
+        "tr": "Geçmişten söz etmek için kibar şimdiki zamandan başla. 요 ekinden önceki hece altına ㅆ alır, 요 da 어요 olur: 비싸요 비쌌어요 (pahalıydı), 느려요 느렸어요 (yavaştı), 조용해요 da 조용했어요 (sessizdi) olur.\n\nBir isimden sonra 'idi', ünsüzden sonra 이었어요, ünlüden sonra 였어요 olur: 빨간색이었어요 (kırmızıydı), 멋진 하루였어요 (harika bir gündü).\n\nBir yerde olmak için 있어요, 있었어요 olur: 호텔은 바다 근처에 있었어요 (otel denize yakındı)."
+      },
+      "examples": [
+        {
+          "text": "택시는 비쌌어요.",
+          "roman": "taeksineun bissasseoyo.",
+          "en": "The taxi was expensive.",
+          "tr": "Taksi pahalıydı."
+        },
+        {
+          "text": "호텔은 조용했어요.",
+          "roman": "hotereun joyonghaesseoyo.",
+          "en": "The hotel was quiet.",
+          "tr": "Otel sessizdi."
+        },
+        {
+          "text": "멋진 하루였어요.",
+          "roman": "meotjin haruyeosseoyo.",
+          "en": "It was a wonderful day.",
+          "tr": "Harika bir gündü."
+        }
+      ]
+    },
+    "u11": {
+      "title": {
+        "en": "What you did: the past of action verbs",
+        "tr": "Ne yaptın: eylem fiillerinin geçmişi"
+      },
+      "body": {
+        "en": "Action verbs take the same past ending as describing words: 가요 gives 갔어요 (I went), 봐요 gives 봤어요 (I saw), 먹어요 gives 먹었어요 (I ate), and 춤춰요 gives 춤췄어요 (I danced). Every verb that ends in 해요 becomes 했어요: 전화했어요 (I called).\n\nA time word often starts the sentence: 어제 (yesterday), 어젯밤에 (last night), 지난주에 (last week), 작년에 (last year).\n\nFor 'ago', put 전에 after the time: 이틀 전에 (two days ago), 이 년 전에 (two years ago).",
+        "tr": "Eylem fiilleri de sıfatlarla aynı geçmiş ekini alır: 가요 갔어요 (gittim), 봐요 봤어요 (gördüm), 먹어요 먹었어요 (yedim), 춤춰요 da 춤췄어요 (dans ettim) olur. 해요 ile biten her fiil 했어요 olur: 전화했어요 (aradım).\n\nCümle çoğu zaman bir zaman kelimesiyle başlar: 어제 (dün), 어젯밤에 (dün gece), 지난주에 (geçen hafta), 작년에 (geçen yıl).\n\n'Önce' için zamandan sonra 전에 koy: 이틀 전에 (iki gün önce), 이 년 전에 (iki yıl önce)."
+      },
+      "examples": [
+        {
+          "text": "어제 엘리프를 봤어요.",
+          "roman": "eoje ellipeureul bwasseoyo.",
+          "en": "I saw Elif yesterday.",
+          "tr": "Dün Elif'i gördüm."
+        },
+        {
+          "text": "우리는 파티에서 춤췄어요.",
+          "roman": "urineun patieseo chumchwosseoyo.",
+          "en": "We danced at the party.",
+          "tr": "Partide dans ettik."
+        },
+        {
+          "text": "어젯밤에 할머니께 전화했어요.",
+          "roman": "eojetbame halmeonikke jeonhwahaesseoyo.",
+          "en": "I called my grandmother last night.",
+          "tr": "Dün gece büyükannemi aradım."
+        }
+      ]
+    },
+    "u12": {
+      "title": {
+        "en": "Plans: -(으)ㄹ 거예요",
+        "tr": "Planlar: -(으)ㄹ 거예요"
+      },
+      "body": {
+        "en": "To talk about what you are going to do, take the verb without 다. After a vowel add ㄹ 거예요, and after a consonant add 을 거예요: 가다 gives 갈 거예요 (I am going to go), 보다 gives 볼 거예요, and 먹다 gives 먹을 거예요.\n\nTo say what you want to do, add 고 싶어요: 가고 싶어요 (I want to go), 배우고 싶어요 (I would like to learn).\n\nTo invite a friend, use -(으)ㄹ래요?: 같이 갈래요? (would you like to come along?). A warm yes is 좋아요! or 물론이죠!",
+        "tr": "Ne yapacağını söylemek için fiilden 다 ekini at. Ünlüden sonra ㄹ 거예요, ünsüzden sonra 을 거예요 ekle: 가다 갈 거예요 (gideceğim), 보다 볼 거예요, 먹다 da 먹을 거예요 olur.\n\nNe yapmak istediğini söylemek için 고 싶어요 ekle: 가고 싶어요 (gitmek istiyorum), 배우고 싶어요 (öğrenmek istiyorum).\n\nBir arkadaşını davet etmek için -(으)ㄹ래요? kullan: 같이 갈래요? (birlikte gelmek ister misin?). Sıcak bir evet: 좋아요! ya da 물론이죠!"
+      },
+      "examples": [
+        {
+          "text": "내일 전화할 거예요.",
+          "roman": "naeil jeonhwahal geoyeyo.",
+          "en": "I am going to call tomorrow.",
+          "tr": "Yarın arayacağım."
+        },
+        {
+          "text": "이번 주말에는 쉴 거예요.",
+          "roman": "ibeon jumareneun swil geoyeyo.",
+          "en": "This weekend I am going to rest.",
+          "tr": "Bu hafta sonu dinleneceğim."
+        },
+        {
+          "text": "요리를 배우고 싶어요.",
+          "roman": "yorireul baeugo sipeoyo.",
+          "en": "I would like to learn to cook.",
+          "tr": "Yemek yapmayı öğrenmek istiyorum."
+        }
+      ]
+    }
+  }
+}

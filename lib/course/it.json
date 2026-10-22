@@ -1,0 +1,3483 @@
+{
+  "format": 1,
+  "language": "it",
+  "words": {
+    "hello": {
+      "text": "ciao",
+      "ex": "Ciao, sono Emre.",
+      "also": [
+        "salve"
+      ],
+      "note": {
+        "en": "Ciao is casual and also means bye. Salve is a more neutral hello.",
+        "tr": "Ciao samimidir ve hoşça kal anlamına da gelir. Salve daha nötr bir merhabadır."
+      }
+    },
+    "good-morning": {
+      "text": "buongiorno",
+      "ex": "Buongiorno, il caffè è pronto.",
+      "also": [
+        "buon giorno"
+      ]
+    },
+    "good-evening": {
+      "text": "buonasera",
+      "ex": "Buonasera, Mia e Tom!",
+      "also": [
+        "buona sera"
+      ]
+    },
+    "how-are-you": {
+      "text": "come stai?",
+      "ex": "Come stai stamattina?",
+      "note": {
+        "en": "Informal, to one friend. The polite form is come sta?",
+        "tr": "Samimi, bir arkadaşa. Kibar biçimi: come sta?"
+      }
+    },
+    "i-am-fine": {
+      "text": "sto bene",
+      "ex": "Grazie, oggi sto bene.",
+      "note": {
+        "en": "The usual answer to come stai? Italian uses stare here, not essere.",
+        "tr": "Come stai? sorusunun olağan cevabı. Burada essere değil, stare kullanılır."
+      }
+    },
+    "and-you": {
+      "text": "e tu?",
+      "ex": "Sto bene, e tu?",
+      "note": {
+        "en": "Asking the same question back to one friend. The polite form is e Lei?",
+        "tr": "Aynı soruyu bir arkadaşa geri sormak. Kibar biçimi: e Lei?"
+      }
+    },
+    "goodbye": {
+      "text": "arrivederci",
+      "ex": "Arrivederci, Ali, e grazie!",
+      "note": {
+        "en": "A general goodbye. With friends Italians also say ciao, which means hello too.",
+        "tr": "Genel bir veda sözü. Arkadaşlar arasında ciao da denir; ciao merhaba anlamına da gelir."
+      }
+    },
+    "good-night": {
+      "text": "buonanotte",
+      "ex": "Buonanotte, dormi bene.",
+      "also": [
+        "buona notte"
+      ]
+    },
+    "see-you-later": {
+      "text": "a dopo",
+      "ex": "Adesso ho lezione, a dopo.",
+      "also": [
+        "ci vediamo dopo"
+      ]
+    },
+    "see-you-tomorrow": {
+      "text": "a domani",
+      "ex": "A domani a scuola, Elif.",
+      "also": [
+        "ci vediamo domani"
+      ]
+    },
+    "have-a-nice-day": {
+      "text": "buona giornata",
+      "ex": "Grazie mille, buona giornata!"
+    },
+    "take-care": {
+      "text": "stammi bene",
+      "ex": "Stammi bene e a presto.",
+      "also": [
+        "abbi cura di te"
+      ],
+      "note": {
+        "en": "A warm goodbye to one friend, literally 'stay well for me'.",
+        "tr": "Bir arkadaşa sıcak bir veda, kelimesi kelimesine 'benim için iyi kal'."
+      }
+    },
+    "name": {
+      "text": "il nome",
+      "ex": "Il mio nome è Zeynep."
+    },
+    "where-are-you-from": {
+      "text": "di dove sei?",
+      "ex": "Emma, di dove sei?",
+      "note": {
+        "en": "Informal, to one friend. The answer: sono di Roma (I am from Rome).",
+        "tr": "Samimi, bir arkadaşa. Cevabı: sono di Roma (Romalıyım)."
+      }
+    },
+    "nice-to-meet-you": {
+      "text": "piacere di conoscerti",
+      "ex": "Sono Ali, piacere di conoscerti.",
+      "also": [
+        "molto piacere"
+      ],
+      "note": {
+        "en": "Said when you meet someone for the first time. Often just: piacere!",
+        "tr": "Biriyle ilk kez tanıştığında söylenir. Çoğu zaman kısaca: piacere!"
+      }
+    },
+    "student": {
+      "text": "lo studente",
+      "ex": "Deniz è uno studente a Istanbul.",
+      "note": {
+        "en": "Lo, not il, before s plus a consonant. A female student is la studentessa.",
+        "tr": "S ve ardından ünsüzle başlayan sözcükte il değil lo gelir. Kız öğrenci: la studentessa."
+      }
+    },
+    "teacher": {
+      "text": "l'insegnante",
+      "ex": "Il mio insegnante è molto gentile.",
+      "note": {
+        "en": "Masculine or feminine, the same word for both: un insegnante, un'insegnante.",
+        "tr": "Eril de dişil de olur, ikisi için aynı sözcük: un insegnante, un'insegnante."
+      }
+    },
+    "country": {
+      "text": "il paese",
+      "ex": "Il mio paese è molto bello."
+    },
+    "please": {
+      "text": "per favore",
+      "ex": "Un bicchiere d'acqua, per favore.",
+      "also": [
+        "per piacere"
+      ]
+    },
+    "thank-you": {
+      "text": "grazie",
+      "ex": "Grazie per il tè."
+    },
+    "youre-welcome": {
+      "text": "prego",
+      "ex": "Prego, nessun problema.",
+      "also": [
+        "di niente",
+        "di nulla"
+      ]
+    },
+    "sorry": {
+      "text": "scusa",
+      "ex": "Scusa, sono in ritardo.",
+      "also": [
+        "scusami"
+      ],
+      "note": {
+        "en": "To one friend. The polite form is mi scusi. Mi dispiace means you are sorry about something.",
+        "tr": "Bir arkadaşa. Kibar biçimi: mi scusi. Mi dispiace ise bir şeye üzüldüğünü söyler."
+      }
+    },
+    "yes": {
+      "text": "sì",
+      "ex": "Sì, sono uno studente."
+    },
+    "no": {
+      "text": "no",
+      "ex": "No, non sono di Parigi."
+    },
+    "family": {
+      "text": "la famiglia",
+      "ex": "La mia famiglia vive a Lisbona."
+    },
+    "mother": {
+      "text": "la madre",
+      "ex": "Mia madre beve il tè ogni mattina.",
+      "also": [
+        "la mamma"
+      ]
+    },
+    "father": {
+      "text": "il padre",
+      "ex": "Mio padre è medico.",
+      "also": [
+        "il papà"
+      ]
+    },
+    "brother": {
+      "text": "il fratello",
+      "ex": "Mio fratello ha dieci anni.",
+      "note": {
+        "en": "Any brother, older or younger. The plural fratelli can also mean brothers and sisters.",
+        "tr": "Büyük ya da küçük her erkek kardeş. Çoğulu fratelli, kardeşler anlamına da gelebilir."
+      }
+    },
+    "sister": {
+      "text": "la sorella",
+      "ex": "Sua sorella vive a Madrid.",
+      "note": {
+        "en": "Any sister, older or younger.",
+        "tr": "Büyük ya da küçük her kız kardeş."
+      }
+    },
+    "baby": {
+      "text": "il bebè",
+      "ex": "Il bebè è molto piccolo.",
+      "also": [
+        "il neonato"
+      ]
+    },
+    "grandmother": {
+      "text": "la nonna",
+      "ex": "Mia nonna vive a Roma.",
+      "note": {
+        "en": "The grandmother on either side of the family.",
+        "tr": "Annenin ya da babanın annesi, ikisi için aynı sözcük."
+      }
+    },
+    "grandfather": {
+      "text": "il nonno",
+      "ex": "Mio nonno legge il giornale.",
+      "note": {
+        "en": "The grandfather on either side of the family.",
+        "tr": "Annenin ya da babanın babası, ikisi için aynı sözcük."
+      }
+    },
+    "son": {
+      "text": "il figlio",
+      "ex": "Il loro figlio è uno studente."
+    },
+    "daughter": {
+      "text": "la figlia",
+      "ex": "Ali ha due figlie."
+    },
+    "dog": {
+      "text": "il cane",
+      "ex": "Il nostro cane è grande e bianco."
+    },
+    "cat": {
+      "text": "il gatto",
+      "ex": "Il gatto dorme sul divano."
+    },
+    "friend": {
+      "text": "l'amico",
+      "ex": "Tom è un mio amico.",
+      "note": {
+        "en": "Masculine (un amico). The feminine form is l'amica.",
+        "tr": "Eril (un amico). Dişil biçimi: l'amica."
+      }
+    },
+    "neighbor": {
+      "text": "il vicino",
+      "ex": "Il nostro vicino ha un giardino.",
+      "also": [
+        "il vicino di casa"
+      ],
+      "note": {
+        "en": "A woman neighbor is la vicina.",
+        "tr": "Kadın komşu: la vicina."
+      }
+    },
+    "kind": {
+      "text": "gentile",
+      "ex": "Tua sorella è molto gentile.",
+      "note": {
+        "en": "Nice and caring to other people. It also means polite.",
+        "tr": "Başkalarına karşı iyi ve düşünceli. Kibar anlamına da gelir."
+      }
+    },
+    "funny": {
+      "text": "divertente",
+      "ex": "Leo è molto divertente.",
+      "also": [
+        "spiritoso"
+      ]
+    },
+    "happy": {
+      "text": "felice",
+      "ex": "Oggi sono molto felice.",
+      "also": [
+        "contento"
+      ]
+    },
+    "together": {
+      "text": "insieme",
+      "ex": "A pranzo mangiamo insieme."
+    },
+    "man": {
+      "text": "l'uomo",
+      "ex": "Quell'uomo è il mio insegnante.",
+      "note": {
+        "en": "Masculine (un uomo). The plural is irregular: gli uomini.",
+        "tr": "Eril (un uomo). Çoğulu düzensizdir: gli uomini."
+      }
+    },
+    "woman": {
+      "text": "la donna",
+      "ex": "Quella donna è una dottoressa."
+    },
+    "child": {
+      "text": "il bambino",
+      "ex": "Il bambino ha sei anni.",
+      "note": {
+        "en": "A girl is la bambina. Children: i bambini.",
+        "tr": "Kız çocuk: la bambina. Çocuklar: i bambini."
+      }
+    },
+    "young": {
+      "text": "giovane",
+      "ex": "Il nostro nuovo insegnante è giovane."
+    },
+    "old": {
+      "text": "anziano",
+      "ex": "Mio nonno è anziano ma forte.",
+      "also": [
+        "vecchio"
+      ],
+      "note": {
+        "en": "The polite word for an older person. Vecchio also means old, for people and things.",
+        "tr": "Yaşlı biri için kibar sözcük. Vecchio da yaşlı ya da eski demektir, insanlar ve eşyalar için."
+      }
+    },
+    "tall": {
+      "text": "alto",
+      "ex": "Sam è molto alto."
+    },
+    "one": {
+      "text": "uno",
+      "ex": "Ho un fratello.",
+      "note": {
+        "en": "Before most nouns it is un or una: un fratello, una sorella. Before s plus a consonant it stays uno: uno studente.",
+        "tr": "Çoğu addan önce un ya da una olur: un fratello, una sorella. S ve ardından ünsüzle başlayan adda uno kalır: uno studente."
+      }
+    },
+    "two": {
+      "text": "due",
+      "ex": "Abbiamo due gatti."
+    },
+    "three": {
+      "text": "tre",
+      "ex": "Mio figlio ha tre anni."
+    },
+    "four": {
+      "text": "quattro",
+      "ex": "Nella mia famiglia siamo in quattro."
+    },
+    "five": {
+      "text": "cinque",
+      "ex": "Bevo cinque bicchieri d'acqua al giorno."
+    },
+    "six": {
+      "text": "sei",
+      "ex": "Emma ha sei libri.",
+      "note": {
+        "en": "Sei also means 'you are': sei alto.",
+        "tr": "Sei aynı zamanda 'sen ...sin' demektir: sei alto."
+      }
+    },
+    "seven": {
+      "text": "sette",
+      "ex": "Il negozio apre alle sette."
+    },
+    "eight": {
+      "text": "otto",
+      "ex": "La lezione inizia alle otto."
+    },
+    "nine": {
+      "text": "nove",
+      "ex": "Deniz ha nove anni."
+    },
+    "ten": {
+      "text": "dieci",
+      "ex": "Ho dieci minuti."
+    },
+    "eleven": {
+      "text": "undici",
+      "ex": "La nostra classe ha undici studenti."
+    },
+    "twelve": {
+      "text": "dodici",
+      "ex": "Oggi Leo compie dodici anni."
+    },
+    "zero": {
+      "text": "zero",
+      "ex": "Il mio numero di telefono inizia con lo zero."
+    },
+    "twenty": {
+      "text": "venti",
+      "ex": "Nella mia classe ci sono venti studenti."
+    },
+    "thirty": {
+      "text": "trenta",
+      "ex": "Il nostro insegnante ha trent'anni.",
+      "note": {
+        "en": "Before anni it drops its last a: trent'anni.",
+        "tr": "Anni sözcüğünden önce son a düşer: trent'anni."
+      }
+    },
+    "fifty": {
+      "text": "cinquanta",
+      "ex": "Questo libro ha cinquanta pagine."
+    },
+    "one-hundred": {
+      "text": "cento",
+      "ex": "Mia nonna ha quasi cento anni."
+    },
+    "number": {
+      "text": "il numero",
+      "ex": "Qual è il tuo numero di telefono?",
+      "note": {
+        "en": "A phone or room number. Italian uses the same word for a number in math.",
+        "tr": "Telefon ya da oda numarası. İtalyanca matematikteki sayı için de aynı sözcüğü kullanır."
+      }
+    },
+    "age": {
+      "text": "l'età",
+      "ex": "Scrivi qui il tuo nome e la tua età.",
+      "note": {
+        "en": "Feminine (la). It does not change in the plural: le età.",
+        "tr": "Dişil (la). Çoğulda değişmez: le età."
+      }
+    },
+    "how-old-are-you": {
+      "text": "quanti anni hai?",
+      "ex": "Elif, quanti anni hai?",
+      "note": {
+        "en": "Informal, to one friend. Literally 'how many years do you have?'",
+        "tr": "Samimi, bir arkadaşa. Kelimesi kelimesine 'kaç yılın var?'"
+      }
+    },
+    "how-many": {
+      "text": "quanti?",
+      "ex": "Quanti fratelli hai?",
+      "also": [
+        "quante?"
+      ],
+      "note": {
+        "en": "Quanti with a masculine noun, quante with a feminine one: quante sorelle?",
+        "tr": "Eril adla quanti, dişil adla quante: quante sorelle?"
+      }
+    },
+    "year": {
+      "text": "l'anno",
+      "ex": "Quest'anno ho diciotto anni.",
+      "note": {
+        "en": "Masculine (un anno). The plural is gli anni.",
+        "tr": "Eril (un anno). Çoğulu: gli anni."
+      }
+    },
+    "birthday": {
+      "text": "il compleanno",
+      "ex": "Oggi è il mio compleanno!"
+    },
+    "month": {
+      "text": "il mese",
+      "ex": "Il mio compleanno è il mese prossimo."
+    },
+    "breakfast": {
+      "text": "la colazione",
+      "ex": "Facciamo colazione alle sette."
+    },
+    "bread": {
+      "text": "il pane",
+      "ex": "Questo pane è fresco."
+    },
+    "cheese": {
+      "text": "il formaggio",
+      "ex": "Mangio pane e formaggio."
+    },
+    "egg": {
+      "text": "l'uovo",
+      "ex": "Mia mangia un uovo ogni mattina.",
+      "note": {
+        "en": "Masculine (un uovo), but the plural is feminine: le uova.",
+        "tr": "Eril (un uovo), ama çoğulu dişildir: le uova."
+      }
+    },
+    "honey": {
+      "text": "il miele",
+      "ex": "Mio nonno mette il miele nel tè."
+    },
+    "eat": {
+      "text": "mangiare",
+      "ex": "Mangiamo a casa."
+    },
+    "water": {
+      "text": "l'acqua",
+      "ex": "Quest'acqua è molto fredda.",
+      "note": {
+        "en": "Feminine (la).",
+        "tr": "Dişil (la)."
+      }
+    },
+    "tea": {
+      "text": "il tè",
+      "ex": "Vuoi un tè?"
+    },
+    "coffee": {
+      "text": "il caffè",
+      "ex": "Mio padre beve il caffè senza latte."
+    },
+    "milk": {
+      "text": "il latte",
+      "ex": "Il bebè beve il latte."
+    },
+    "juice": {
+      "text": "il succo",
+      "ex": "A colazione Zeynep beve il succo di frutta.",
+      "also": [
+        "il succo di frutta"
+      ]
+    },
+    "drink": {
+      "text": "bere",
+      "ex": "La sera beviamo il tè.",
+      "note": {
+        "en": "The verb: to drink. Io bevo, tu bevi, lui beve.",
+        "tr": "Fiil: içmek. Io bevo, tu bevi, lui beve."
+      }
+    },
+    "apple": {
+      "text": "la mela",
+      "ex": "Questa mela è rossa."
+    },
+    "banana": {
+      "text": "la banana",
+      "ex": "Ho una banana nella borsa."
+    },
+    "tomato": {
+      "text": "il pomodoro",
+      "ex": "I pomodori vengono dal nostro orto."
+    },
+    "potato": {
+      "text": "la patata",
+      "ex": "A cena mangiamo le patate."
+    },
+    "fruit": {
+      "text": "la frutta",
+      "ex": "Ali mangia frutta ogni giorno.",
+      "note": {
+        "en": "La frutta is fruit in general. One piece of fruit is un frutto.",
+        "tr": "La frutta genel olarak meyvedir. Tek bir meyve: un frutto."
+      }
+    },
+    "vegetable": {
+      "text": "la verdura",
+      "ex": "Mia madre compra verdura fresca.",
+      "note": {
+        "en": "La verdura means vegetables in general.",
+        "tr": "La verdura genel olarak sebze demektir."
+      }
+    },
+    "lunch": {
+      "text": "il pranzo",
+      "ex": "Pranziamo all'una."
+    },
+    "dinner": {
+      "text": "la cena",
+      "ex": "La cena è pronta!"
+    },
+    "food": {
+      "text": "il cibo",
+      "ex": "C'è del cibo in cucina."
+    },
+    "soup": {
+      "text": "la zuppa",
+      "ex": "Mia nonna fa la zuppa di pomodoro.",
+      "also": [
+        "la minestra"
+      ]
+    },
+    "hungry": {
+      "text": "avere fame",
+      "ex": "Ho fame, mangiamo!",
+      "note": {
+        "en": "Italian says 'have hunger': ho fame means I am hungry.",
+        "tr": "İtalyanca 'açlığım var' der: ho fame, açım demektir."
+      }
+    },
+    "like": {
+      "text": "piacere",
+      "ex": "Mi piace il pesce, ma non il pollo.",
+      "note": {
+        "en": "Italian says 'it pleases me': mi piace il tè. For more than one thing: mi piacciono.",
+        "tr": "İtalyanca 'bana hoş gelir' der: mi piace il tè. Birden fazla şey için: mi piacciono."
+      }
+    },
+    "house": {
+      "text": "la casa",
+      "ex": "La loro casa è vicino al mare."
+    },
+    "room": {
+      "text": "la stanza",
+      "ex": "La mia stanza ha due finestre.",
+      "also": [
+        "la camera"
+      ]
+    },
+    "kitchen": {
+      "text": "la cucina",
+      "ex": "Mio padre cucina in cucina.",
+      "note": {
+        "en": "Cucina is also a verb form: mio padre cucina, my father cooks.",
+        "tr": "Cucina bir fiil biçimi de olabilir: mio padre cucina, babam yemek yapar."
+      }
+    },
+    "bedroom": {
+      "text": "la camera da letto",
+      "ex": "La camera da letto è di sopra."
+    },
+    "bathroom": {
+      "text": "il bagno",
+      "ex": "Il bagno è accanto alla mia stanza."
+    },
+    "garden": {
+      "text": "il giardino",
+      "ex": "I bambini giocano in giardino."
+    },
+    "table": {
+      "text": "il tavolo",
+      "ex": "Le chiavi sono sul tavolo."
+    },
+    "chair": {
+      "text": "la sedia",
+      "ex": "Siediti su questa sedia."
+    },
+    "bed": {
+      "text": "il letto",
+      "ex": "Il mio letto è molto morbido."
+    },
+    "sofa": {
+      "text": "il divano",
+      "ex": "Il divano è grande e blu."
+    },
+    "door": {
+      "text": "la porta",
+      "ex": "Chiudi la porta, per favore."
+    },
+    "window": {
+      "text": "la finestra",
+      "ex": "Apri la finestra, per favore."
+    },
+    "lamp": {
+      "text": "la lampada",
+      "ex": "La lampada è accanto al mio letto."
+    },
+    "phone": {
+      "text": "il telefono",
+      "ex": "Il tuo telefono è sul divano."
+    },
+    "book": {
+      "text": "il libro",
+      "ex": "Questo è un buon libro."
+    },
+    "key": {
+      "text": "la chiave",
+      "ex": "Ho la chiave della porta."
+    },
+    "fridge": {
+      "text": "il frigorifero",
+      "ex": "C'è del formaggio nel frigorifero.",
+      "also": [
+        "il frigo"
+      ]
+    },
+    "computer": {
+      "text": "il computer",
+      "ex": "Sam ha un computer nuovo."
+    },
+    "big": {
+      "text": "grande",
+      "ex": "Il loro giardino è molto grande."
+    },
+    "small": {
+      "text": "piccolo",
+      "ex": "Abbiamo una cucina piccola."
+    },
+    "new": {
+      "text": "nuovo",
+      "ex": "Questa è la mia nuova casa."
+    },
+    "clean": {
+      "text": "pulito",
+      "ex": "La tua stanza è pulita?"
+    },
+    "beautiful": {
+      "text": "bello",
+      "ex": "Che bel giardino!",
+      "note": {
+        "en": "Before a masculine noun it often becomes bel: che bel giardino!",
+        "tr": "Eril bir addan önce çoğu zaman bel olur: che bel giardino!"
+      }
+    },
+    "there-is": {
+      "text": "c'è",
+      "ex": "C'è un gatto sul letto.",
+      "note": {
+        "en": "For one thing. For more than one: ci sono (there are).",
+        "tr": "Tek bir şey için. Birden fazla şey için: ci sono."
+      }
+    },
+    "morning": {
+      "text": "la mattina",
+      "ex": "La mattina bevo il caffè.",
+      "also": [
+        "il mattino"
+      ]
+    },
+    "afternoon": {
+      "text": "il pomeriggio",
+      "ex": "Il pomeriggio giochiamo al parco."
+    },
+    "evening": {
+      "text": "la sera",
+      "ex": "La sera la mia famiglia mangia insieme."
+    },
+    "night": {
+      "text": "la notte",
+      "ex": "Di notte la città è tranquilla."
+    },
+    "today": {
+      "text": "oggi",
+      "ex": "Oggi sono molto impegnato."
+    },
+    "now": {
+      "text": "adesso",
+      "ex": "Adesso Mia non è a casa.",
+      "also": [
+        "ora"
+      ]
+    },
+    "wake-up": {
+      "text": "svegliarsi",
+      "ex": "Mi sveglio alle sette."
+    },
+    "take-a-shower": {
+      "text": "fare la doccia",
+      "ex": "Leo fa la doccia ogni mattina."
+    },
+    "go": {
+      "text": "andare",
+      "ex": "Andiamo a scuola in autobus."
+    },
+    "work": {
+      "text": "lavorare",
+      "ex": "Mia madre lavora in ospedale.",
+      "note": {
+        "en": "The verb: to do a job. A job is il lavoro.",
+        "tr": "Fiil: bir işte çalışmak. İş: il lavoro."
+      }
+    },
+    "school": {
+      "text": "la scuola",
+      "ex": "La scuola è vicino a casa mia."
+    },
+    "sleep": {
+      "text": "dormire",
+      "ex": "I bebè dormono molto."
+    },
+    "monday": {
+      "text": "il lunedì",
+      "ex": "La scuola inizia lunedì.",
+      "note": {
+        "en": "Without il, lunedì means this Monday. Il lunedì means every Monday.",
+        "tr": "Il olmadan lunedì bu pazartesi demektir. Il lunedì her pazartesi demektir."
+      }
+    },
+    "tuesday": {
+      "text": "il martedì",
+      "ex": "Martedì ho lezione di musica."
+    },
+    "wednesday": {
+      "text": "il mercoledì",
+      "ex": "Il mercoledì è una giornata piena."
+    },
+    "thursday": {
+      "text": "il giovedì",
+      "ex": "Ci vediamo giovedì."
+    },
+    "friday": {
+      "text": "il venerdì",
+      "ex": "Il venerdì è il mio giorno preferito."
+    },
+    "week": {
+      "text": "la settimana",
+      "ex": "Lavoro cinque giorni alla settimana."
+    },
+    "saturday": {
+      "text": "il sabato",
+      "ex": "Il sabato andiamo a trovare la nonna."
+    },
+    "sunday": {
+      "text": "la domenica",
+      "ex": "La domenica i negozi sono chiusi.",
+      "note": {
+        "en": "The only feminine day of the week.",
+        "tr": "Haftanın dişil olan tek günü."
+      }
+    },
+    "weekend": {
+      "text": "il fine settimana",
+      "ex": "Cosa fai nel fine settimana?",
+      "also": [
+        "il weekend"
+      ]
+    },
+    "read": {
+      "text": "leggere",
+      "ex": "Zeynep legge un libro ogni sera."
+    },
+    "watch": {
+      "text": "guardare",
+      "ex": "Il sabato guardiamo un film.",
+      "note": {
+        "en": "The verb: to watch TV or a movie. It also means to look at.",
+        "tr": "Fiil: televizyon ya da film izlemek. Bakmak anlamına da gelir."
+      }
+    },
+    "play": {
+      "text": "giocare",
+      "ex": "Ali e Leo giocano a tennis.",
+      "note": {
+        "en": "For games and sports: giocare a tennis. To play music is suonare.",
+        "tr": "Oyun ve spor için: giocare a tennis. Müzik çalmak ise suonare."
+      }
+    },
+    "city": {
+      "text": "la città",
+      "ex": "Istanbul è una città molto grande."
+    },
+    "street": {
+      "text": "la strada",
+      "ex": "La mia scuola è in questa strada.",
+      "also": [
+        "la via"
+      ]
+    },
+    "park": {
+      "text": "il parco",
+      "ex": "La domenica passeggiamo nel parco.",
+      "note": {
+        "en": "A public garden in a town. The plural is i parchi.",
+        "tr": "Şehirdeki halka açık bahçe. Çoğulu: i parchi."
+      }
+    },
+    "hospital": {
+      "text": "l'ospedale",
+      "ex": "L'ospedale è vicino alla stazione.",
+      "note": {
+        "en": "Masculine (un ospedale).",
+        "tr": "Eril (un ospedale)."
+      }
+    },
+    "museum": {
+      "text": "il museo",
+      "ex": "Il museo è chiuso il lunedì."
+    },
+    "bank": {
+      "text": "la banca",
+      "ex": "La banca apre alle nove."
+    },
+    "supermarket": {
+      "text": "il supermercato",
+      "ex": "Compro il latte al supermercato."
+    },
+    "pharmacy": {
+      "text": "la farmacia",
+      "ex": "La farmacia è aperta tutta la notte."
+    },
+    "restaurant": {
+      "text": "il ristorante",
+      "ex": "Questo ristorante ha una buona zuppa."
+    },
+    "library": {
+      "text": "la biblioteca",
+      "ex": "Elif studia in biblioteca.",
+      "note": {
+        "en": "Not la libreria, which is a bookshop.",
+        "tr": "La libreria değil; libreria kitapçı demektir."
+      }
+    },
+    "bakery": {
+      "text": "il panificio",
+      "ex": "Il panificio vende pane fresco.",
+      "also": [
+        "la panetteria",
+        "il forno"
+      ]
+    },
+    "cafe": {
+      "text": "il bar",
+      "ex": "Beviamo il caffè al bar.",
+      "note": {
+        "en": "In Italy a bar is a café: coffee, pastries and drinks.",
+        "tr": "İtalya'da bar bir kafedir: kahve, hamur işi ve içecekler."
+      }
+    },
+    "left": {
+      "text": "a sinistra",
+      "ex": "Alla banca gira a sinistra."
+    },
+    "right": {
+      "text": "a destra",
+      "ex": "Il museo è sulla tua destra.",
+      "note": {
+        "en": "The direction. Right meaning correct is giusto.",
+        "tr": "Yön bildirir: a destra, sağa ya da sağda."
+      }
+    },
+    "straight-ahead": {
+      "text": "dritto",
+      "ex": "Vai dritto per cinque minuti.",
+      "also": [
+        "diritto",
+        "sempre dritto"
+      ]
+    },
+    "turn": {
+      "text": "girare",
+      "ex": "Dopo il parco gira a destra.",
+      "also": [
+        "svoltare"
+      ],
+      "note": {
+        "en": "To change direction: gira a destra (turn right).",
+        "tr": "Yön değiştirmek: gira a destra (sağa dön)."
+      }
+    },
+    "corner": {
+      "text": "l'angolo",
+      "ex": "All'angolo c'è un panificio.",
+      "note": {
+        "en": "Masculine (un angolo). On the corner: all'angolo.",
+        "tr": "Eril (un angolo). Köşede: all'angolo."
+      }
+    },
+    "where": {
+      "text": "dove",
+      "ex": "Scusi, dov'è la banca?",
+      "note": {
+        "en": "Dove plus è becomes dov'è (where is).",
+        "tr": "Dove ve è birleşip dov'è olur (nerede)."
+      }
+    },
+    "near": {
+      "text": "vicino",
+      "ex": "Casa mia è vicino al parco."
+    },
+    "far": {
+      "text": "lontano",
+      "ex": "La spiaggia è lontana da qui?"
+    },
+    "in-front-of": {
+      "text": "davanti a",
+      "ex": "Ci vediamo davanti alla biblioteca."
+    },
+    "behind": {
+      "text": "dietro",
+      "ex": "Il giardino è dietro la casa.",
+      "also": [
+        "dietro a"
+      ]
+    },
+    "between": {
+      "text": "tra",
+      "ex": "La banca è tra il bar e il panificio.",
+      "also": [
+        "fra"
+      ]
+    },
+    "map": {
+      "text": "la mappa",
+      "ex": "Hai una mappa della città?",
+      "also": [
+        "la cartina"
+      ]
+    },
+    "shirt": {
+      "text": "la camicia",
+      "ex": "Al lavoro Ali indossa una camicia bianca."
+    },
+    "pants": {
+      "text": "i pantaloni",
+      "ex": "Questi pantaloni sono troppo lunghi.",
+      "note": {
+        "en": "Plural in Italian, as in English.",
+        "tr": "İtalyancada çoğuldur: i pantaloni."
+      }
+    },
+    "dress": {
+      "text": "il vestito",
+      "ex": "Anna indossa un vestito lungo."
+    },
+    "shoes": {
+      "text": "le scarpe",
+      "ex": "Le mie scarpe sono sotto il letto."
+    },
+    "jacket": {
+      "text": "la giacca",
+      "ex": "Prendi la giacca, fa freddo."
+    },
+    "wear": {
+      "text": "indossare",
+      "ex": "D'inverno indosso una giacca.",
+      "note": {
+        "en": "One verb for all clothes. In everyday speech portare is also common.",
+        "tr": "Bütün giysiler için tek fiil. Günlük konuşmada portare da çok yaygındır."
+      }
+    },
+    "red": {
+      "text": "rosso",
+      "ex": "Voglio la camicia rossa."
+    },
+    "blue": {
+      "text": "blu",
+      "ex": "Emma ha gli occhi blu.",
+      "also": [
+        "azzurro"
+      ],
+      "note": {
+        "en": "Blu never changes its ending. Light or sky blue is azzurro.",
+        "tr": "Blu'nun sonu hiç değişmez. Açık mavi ya da gök mavisi: azzurro."
+      }
+    },
+    "green": {
+      "text": "verde",
+      "ex": "Mi piacciono le mele verdi."
+    },
+    "yellow": {
+      "text": "giallo",
+      "ex": "A mia sorella piacciono i fiori gialli."
+    },
+    "black": {
+      "text": "nero",
+      "ex": "Tom ha un cane nero."
+    },
+    "white": {
+      "text": "bianco",
+      "ex": "Le pareti della mia stanza sono bianche."
+    },
+    "price": {
+      "text": "il prezzo",
+      "ex": "Qual è il prezzo di questa borsa?"
+    },
+    "how-much-is-it": {
+      "text": "quanto costa?",
+      "ex": "Questa maglietta è carina. Quanto costa?"
+    },
+    "cheap": {
+      "text": "economico",
+      "ex": "Queste scarpe sono economiche."
+    },
+    "expensive": {
+      "text": "caro",
+      "ex": "Quella giacca è troppo cara.",
+      "also": [
+        "costoso"
+      ],
+      "note": {
+        "en": "Caro also means dear: caro Tom.",
+        "tr": "Caro sevgili anlamına da gelir: caro Tom."
+      }
+    },
+    "pay": {
+      "text": "pagare",
+      "ex": "Posso pagare con la carta?"
+    },
+    "money": {
+      "text": "i soldi",
+      "ex": "Non ho molti soldi.",
+      "also": [
+        "il denaro"
+      ],
+      "note": {
+        "en": "Plural in everyday Italian: i soldi.",
+        "tr": "Günlük İtalyancada çoğuldur: i soldi."
+      }
+    },
+    "shop": {
+      "text": "il negozio",
+      "ex": "Il negozio chiude alle otto."
+    },
+    "buy": {
+      "text": "comprare",
+      "ex": "Voglio comprare una borsa nuova."
+    },
+    "sell": {
+      "text": "vendere",
+      "ex": "Qui vendono scarpe e borse."
+    },
+    "size": {
+      "text": "la taglia",
+      "ex": "Ce l'avete in una taglia più grande?",
+      "note": {
+        "en": "The size of clothes. For shoes, Italians say il numero.",
+        "tr": "Giysi bedeni. Ayakkabı için il numero denir."
+      }
+    },
+    "try-on": {
+      "text": "provare",
+      "ex": "Posso provare questo vestito?",
+      "note": {
+        "en": "To put on clothes in a shop. Provare also means to try or to taste.",
+        "tr": "Mağazada giysi denemek. Provare denemek ve tatmak anlamına da gelir."
+      }
+    },
+    "bag": {
+      "text": "la borsa",
+      "ex": "Metti la borsa sulla sedia."
+    },
+    "weather": {
+      "text": "il tempo",
+      "ex": "Oggi fa bel tempo.",
+      "note": {
+        "en": "Tempo also means time. Fa bel tempo: the weather is nice.",
+        "tr": "Tempo zaman anlamına da gelir. Fa bel tempo: hava güzel."
+      }
+    },
+    "sun": {
+      "text": "il sole",
+      "ex": "A Madrid splende il sole."
+    },
+    "rain": {
+      "text": "la pioggia",
+      "ex": "A Londra c'è molta pioggia."
+    },
+    "snow": {
+      "text": "la neve",
+      "ex": "I bambini stanno giocando nella neve."
+    },
+    "wind": {
+      "text": "il vento",
+      "ex": "Oggi il vento è molto freddo."
+    },
+    "cloud": {
+      "text": "la nuvola",
+      "ex": "In cielo non ci sono nuvole."
+    },
+    "hot": {
+      "text": "caldo",
+      "ex": "D'estate fa molto caldo.",
+      "note": {
+        "en": "For the weather, say fa caldo (it is hot). For a person: ho caldo.",
+        "tr": "Hava için fa caldo (hava sıcak) denir. Bir kişi için: ho caldo."
+      }
+    },
+    "cold": {
+      "text": "freddo",
+      "ex": "Oggi fuori fa freddo.",
+      "note": {
+        "en": "For the weather, say fa freddo (it is cold). For a person: ho freddo.",
+        "tr": "Hava için fa freddo (hava soğuk) denir. Bir kişi için: ho freddo."
+      }
+    },
+    "sky": {
+      "text": "il cielo",
+      "ex": "Oggi il cielo è grigio."
+    },
+    "umbrella": {
+      "text": "l'ombrello",
+      "ex": "Prendi un ombrello, sta piovendo.",
+      "note": {
+        "en": "Masculine (un ombrello).",
+        "tr": "Eril (un ombrello)."
+      }
+    },
+    "wet": {
+      "text": "bagnato",
+      "ex": "Ho i capelli bagnati per la pioggia."
+    },
+    "degree": {
+      "text": "il grado",
+      "ex": "Oggi ci sono trenta gradi."
+    },
+    "season": {
+      "text": "la stagione",
+      "ex": "La primavera è la mia stagione preferita."
+    },
+    "spring": {
+      "text": "la primavera",
+      "ex": "In primavera i fiori si aprono.",
+      "note": {
+        "en": "The season. In spring: in primavera.",
+        "tr": "Mevsim. İlkbaharda: in primavera."
+      }
+    },
+    "summer": {
+      "text": "l'estate",
+      "ex": "D'estate andiamo in spiaggia.",
+      "note": {
+        "en": "Feminine (un'estate). In summer: d'estate or in estate.",
+        "tr": "Dişil (un'estate). Yazın: d'estate ya da in estate."
+      }
+    },
+    "fall": {
+      "text": "l'autunno",
+      "ex": "In autunno le foglie sono gialle.",
+      "note": {
+        "en": "Masculine (un autunno). The season between summer and winter.",
+        "tr": "Eril (un autunno). Yaz ile kış arasındaki mevsim."
+      }
+    },
+    "winter": {
+      "text": "l'inverno",
+      "ex": "A Seul gli inverni sono freddi.",
+      "note": {
+        "en": "Masculine (un inverno).",
+        "tr": "Eril (un inverno)."
+      }
+    },
+    "flower": {
+      "text": "il fiore",
+      "ex": "Mia madre ama i fiori."
+    },
+    "outside": {
+      "text": "fuori",
+      "ex": "Oggi mangiamo fuori."
+    },
+    "inside": {
+      "text": "dentro",
+      "ex": "Piove, quindi restiamo dentro."
+    },
+    "beach": {
+      "text": "la spiaggia",
+      "ex": "Elif sta leggendo in spiaggia."
+    },
+    "swim": {
+      "text": "nuotare",
+      "ex": "Ali sta nuotando in mare."
+    },
+    "walk": {
+      "text": "camminare",
+      "ex": "Anna e io stiamo camminando in riva al mare.",
+      "also": [
+        "passeggiare"
+      ]
+    },
+    "stay": {
+      "text": "restare",
+      "ex": "Oggi resto a casa.",
+      "also": [
+        "rimanere"
+      ],
+      "note": {
+        "en": "To remain in a place: resto a casa (I am staying home).",
+        "tr": "Bir yerde kalmak: resto a casa (evde kalıyorum)."
+      }
+    },
+    "bus": {
+      "text": "l'autobus",
+      "ex": "Stamattina l'autobus era pieno.",
+      "note": {
+        "en": "Masculine (un autobus). The plural is the same: gli autobus.",
+        "tr": "Eril (un autobus). Çoğulu aynıdır: gli autobus."
+      }
+    },
+    "train": {
+      "text": "il treno",
+      "ex": "Il treno per Madrid era veloce."
+    },
+    "car": {
+      "text": "la macchina",
+      "ex": "La mia prima macchina era rossa.",
+      "also": [
+        "l'auto",
+        "l'automobile"
+      ]
+    },
+    "bike": {
+      "text": "la bicicletta",
+      "ex": "Vado al lavoro in bicicletta.",
+      "also": [
+        "la bici"
+      ]
+    },
+    "taxi": {
+      "text": "il taxi",
+      "ex": "Il taxi era molto caro."
+    },
+    "plane": {
+      "text": "l'aereo",
+      "ex": "Siamo stati in aereo per dodici ore.",
+      "note": {
+        "en": "Masculine (un aereo). By plane: in aereo.",
+        "tr": "Eril (un aereo). Uçakla: in aereo."
+      }
+    },
+    "ticket": {
+      "text": "il biglietto",
+      "ex": "Questo è il tuo biglietto del treno?"
+    },
+    "station": {
+      "text": "la stazione",
+      "ex": "La stazione era piena di gente."
+    },
+    "airport": {
+      "text": "l'aeroporto",
+      "ex": "L'aeroporto era lontano dalla città.",
+      "note": {
+        "en": "Masculine (un aeroporto).",
+        "tr": "Eril (un aeroporto)."
+      }
+    },
+    "passport": {
+      "text": "il passaporto",
+      "ex": "Il tuo passaporto era sul tavolo."
+    },
+    "early": {
+      "text": "presto",
+      "ex": "Il lunedì mi sveglio presto.",
+      "note": {
+        "en": "Presto also means soon: a presto! (see you soon).",
+        "tr": "Presto yakında anlamına da gelir: a presto! (yakında görüşürüz)."
+      }
+    },
+    "late": {
+      "text": "tardi",
+      "ex": "Scusa, oggi sono arrivato tardi.",
+      "also": [
+        "in ritardo"
+      ],
+      "note": {
+        "en": "Late in the day is tardi. Late for something is in ritardo.",
+        "tr": "Günün geç saati: tardi. Bir şeye geç kalmak: in ritardo."
+      }
+    },
+    "hotel": {
+      "text": "l'albergo",
+      "ex": "Il nostro albergo era vicino al mare.",
+      "also": [
+        "l'hotel"
+      ],
+      "note": {
+        "en": "Masculine (un albergo). L'hotel is also common.",
+        "tr": "Eril (un albergo). L'hotel de yaygındır."
+      }
+    },
+    "suitcase": {
+      "text": "la valigia",
+      "ex": "La mia valigia era molto pesante."
+    },
+    "floor": {
+      "text": "il piano",
+      "ex": "La nostra camera era al quinto piano.",
+      "note": {
+        "en": "A level of a building. The ground you walk on is il pavimento.",
+        "tr": "Binanın katı. Üstünde yürüdüğün zemin: il pavimento."
+      }
+    },
+    "view": {
+      "text": "la vista",
+      "ex": "La vista dalla finestra era bellissima.",
+      "also": [
+        "il panorama"
+      ]
+    },
+    "comfortable": {
+      "text": "comodo",
+      "ex": "I letti erano molto comodi."
+    },
+    "quiet": {
+      "text": "tranquillo",
+      "ex": "L'albergo era pulito e tranquillo.",
+      "also": [
+        "silenzioso"
+      ]
+    },
+    "vacation": {
+      "text": "la vacanza",
+      "ex": "La nostra vacanza è stata troppo breve.",
+      "also": [
+        "le vacanze"
+      ]
+    },
+    "sea": {
+      "text": "il mare",
+      "ex": "Il mare era caldo e blu."
+    },
+    "mountain": {
+      "text": "la montagna",
+      "ex": "Le montagne erano bianche di neve."
+    },
+    "photo": {
+      "text": "la foto",
+      "ex": "Questa foto è di Tokyo.",
+      "also": [
+        "la fotografia"
+      ],
+      "note": {
+        "en": "Short for la fotografia. It does not change in the plural: le foto.",
+        "tr": "La fotografia'nın kısası. Çoğulda değişmez: le foto."
+      }
+    },
+    "visit": {
+      "text": "visitare",
+      "ex": "I turisti visitano il museo ogni giorno."
+    },
+    "wonderful": {
+      "text": "meraviglioso",
+      "ex": "È stata una giornata meravigliosa al mare."
+    },
+    "yesterday": {
+      "text": "ieri",
+      "ex": "Ieri ho visto Elif."
+    },
+    "last-night": {
+      "text": "ieri sera",
+      "ex": "Ieri sera abbiamo guardato un film."
+    },
+    "last-week": {
+      "text": "la settimana scorsa",
+      "ex": "La settimana scorsa Tom ha visitato Parigi."
+    },
+    "last-year": {
+      "text": "l'anno scorso",
+      "ex": "L'anno scorso ci siamo trasferiti a Berlino.",
+      "note": {
+        "en": "Anno is masculine (un anno), so scorso ends in -o.",
+        "tr": "Anno erildir (un anno), bu yüzden scorso -o ile biter."
+      }
+    },
+    "ago": {
+      "text": "fa",
+      "ex": "Ho iniziato questo lavoro due anni fa.",
+      "note": {
+        "en": "Fa comes after the time: due giorni fa (two days ago).",
+        "tr": "Fa zamandan sonra gelir: due giorni fa (iki gün önce)."
+      }
+    },
+    "then": {
+      "text": "poi",
+      "ex": "Abbiamo pranzato, poi abbiamo fatto una passeggiata.",
+      "note": {
+        "en": "Next in time: prima mangiamo, poi usciamo (first we eat, then we go out).",
+        "tr": "Zamanda sıradaki: prima mangiamo, poi usciamo (önce yeriz, sonra çıkarız)."
+      }
+    },
+    "meet": {
+      "text": "incontrare",
+      "ex": "Ho incontrato Zeynep al bar.",
+      "note": {
+        "en": "To meet up with someone. Also vedersi: ci vediamo. To meet for the first time is conoscere.",
+        "tr": "Biriyle buluşmak. Vedersi de olur: ci vediamo. İlk kez tanışmak: conoscere."
+      }
+    },
+    "see": {
+      "text": "vedere",
+      "ex": "Ho visto tuo fratello al parco."
+    },
+    "dance": {
+      "text": "ballare",
+      "ex": "Abbiamo ballato tutta la notte."
+    },
+    "sing": {
+      "text": "cantare",
+      "ex": "Mia ci ha cantato una canzone."
+    },
+    "party": {
+      "text": "la festa",
+      "ex": "La festa era a casa di Leo.",
+      "note": {
+        "en": "A celebration with friends. It can also mean a holiday.",
+        "tr": "Arkadaşlarla kutlama. Bayram anlamına da gelebilir."
+      }
+    },
+    "have-fun": {
+      "text": "divertirsi",
+      "ex": "I bambini si sono divertiti molto."
+    },
+    "cook": {
+      "text": "cucinare",
+      "ex": "Mio padre ci ha cucinato il pesce.",
+      "note": {
+        "en": "The verb: to make food. Also common: fare da mangiare.",
+        "tr": "Fiil: yemek yapmak. Fare da mangiare da yaygındır."
+      }
+    },
+    "wash": {
+      "text": "lavare",
+      "ex": "Domenica ho lavato la macchina."
+    },
+    "call": {
+      "text": "chiamare",
+      "ex": "Ieri sera ho chiamato mia nonna.",
+      "also": [
+        "telefonare"
+      ],
+      "note": {
+        "en": "To phone someone. Also telefonare a: ho telefonato a mia nonna.",
+        "tr": "Birine telefon etmek. Telefonare a da olur: ho telefonato a mia nonna."
+      }
+    },
+    "write": {
+      "text": "scrivere",
+      "ex": "Anna ha scritto una lunga email."
+    },
+    "listen": {
+      "text": "ascoltare",
+      "ex": "Abbiamo ascoltato musica tutto il giorno."
+    },
+    "music": {
+      "text": "la musica",
+      "ex": "Mi piace la musica tranquilla."
+    },
+    "tired": {
+      "text": "stanco",
+      "ex": "Dopo il lavoro ero molto stanco."
+    },
+    "forget": {
+      "text": "dimenticare",
+      "ex": "Ho dimenticato l'ombrello a casa."
+    },
+    "lose": {
+      "text": "perdere",
+      "ex": "Ieri Sam ha perso le chiavi."
+    },
+    "find": {
+      "text": "trovare",
+      "ex": "Ho trovato il telefono sotto il letto."
+    },
+    "finish": {
+      "text": "finire",
+      "ex": "Abbiamo finito i compiti alle nove."
+    },
+    "start": {
+      "text": "iniziare",
+      "ex": "Il film è iniziato alle otto.",
+      "also": [
+        "cominciare"
+      ]
+    },
+    "tomorrow": {
+      "text": "domani",
+      "ex": "Domani andrò a trovare mia nonna."
+    },
+    "tonight": {
+      "text": "stasera",
+      "ex": "Stasera guarderemo un film."
+    },
+    "next-week": {
+      "text": "la settimana prossima",
+      "ex": "La settimana prossima inizierò un nuovo lavoro."
+    },
+    "next-year": {
+      "text": "l'anno prossimo",
+      "ex": "L'anno prossimo ci trasferiremo a Seul.",
+      "note": {
+        "en": "Anno is masculine (un anno), so prossimo ends in -o.",
+        "tr": "Anno erildir (un anno), bu yüzden prossimo -o ile biter."
+      }
+    },
+    "soon": {
+      "text": "tra poco",
+      "ex": "Mia sorella verrà a trovarci tra poco.",
+      "also": [
+        "fra poco"
+      ],
+      "note": {
+        "en": "In a short time. Presto can also mean soon.",
+        "tr": "Kısa süre içinde. Presto da yakında anlamına gelebilir."
+      }
+    },
+    "plan": {
+      "text": "il programma",
+      "ex": "Che programmi hai per sabato?",
+      "note": {
+        "en": "Something you are going to do. Masculine, though it ends in -a.",
+        "tr": "Yapacağın bir şey. -a ile bitse de erildir."
+      }
+    },
+    "invite": {
+      "text": "invitare",
+      "ex": "Vorrei invitarti a cena."
+    },
+    "would-you-like": {
+      "text": "vorresti...?",
+      "ex": "Vorresti un po' di tè?",
+      "also": [
+        "vuoi...?",
+        "ti va...?"
+      ],
+      "note": {
+        "en": "A polite offer to one friend. More casual: vuoi...? or ti va...?",
+        "tr": "Bir arkadaşa kibar bir teklif. Daha rahat: vuoi...? ya da ti va...?"
+      }
+    },
+    "come": {
+      "text": "venire",
+      "ex": "Vorresti venire alla mia festa?"
+    },
+    "free": {
+      "text": "libero",
+      "ex": "Sei libero venerdì sera?",
+      "note": {
+        "en": "Not busy, with time to do something. Costing nothing is gratis.",
+        "tr": "Meşgul değil, bir şey yapmaya zamanı var. Bedava anlamı: gratis."
+      }
+    },
+    "busy": {
+      "text": "impegnato",
+      "ex": "Scusa, domani sono impegnato.",
+      "also": [
+        "occupato"
+      ]
+    },
+    "concert": {
+      "text": "il concerto",
+      "ex": "Stasera c'è un concerto nel parco."
+    },
+    "of-course": {
+      "text": "certo",
+      "ex": "Certo che verrò!",
+      "also": [
+        "certamente",
+        "naturalmente"
+      ]
+    },
+    "good-idea": {
+      "text": "buona idea",
+      "ex": "Un picnic domenica? Buona idea!",
+      "also": [
+        "bella idea"
+      ]
+    },
+    "maybe": {
+      "text": "forse",
+      "ex": "Forse vengo più tardi."
+    },
+    "unfortunately": {
+      "text": "purtroppo",
+      "ex": "Purtroppo oggi il negozio è chiuso."
+    },
+    "another-time": {
+      "text": "un'altra volta",
+      "ex": "Scusa, non posso venire. Magari un'altra volta?"
+    },
+    "i-would-love-to": {
+      "text": "volentieri",
+      "ex": "Una cena sabato? Volentieri!",
+      "also": [
+        "con piacere"
+      ],
+      "note": {
+        "en": "A warm yes to an invitation, like 'gladly'. Also: mi piacerebbe molto!",
+        "tr": "Bir davete sıcak bir evet, 'memnuniyetle' gibi. Ayrıca: mi piacerebbe molto!"
+      }
+    },
+    "learn": {
+      "text": "imparare",
+      "ex": "Vorrei imparare a cucinare."
+    },
+    "travel": {
+      "text": "viaggiare",
+      "ex": "Emma farà un viaggio a Tokyo."
+    },
+    "rest": {
+      "text": "riposarsi",
+      "ex": "Questo fine settimana mi riposerò.",
+      "also": [
+        "riposare"
+      ],
+      "note": {
+        "en": "The verb: to relax and not work. It takes mi, ti, si: mi riposo.",
+        "tr": "Fiil: dinlenmek, çalışmamak. Mi, ti, si alır: mi riposo."
+      }
+    },
+    "celebrate": {
+      "text": "festeggiare",
+      "ex": "Festeggeremo il suo compleanno."
+    },
+    "bring": {
+      "text": "portare",
+      "ex": "Porterò una torta.",
+      "note": {
+        "en": "Portare also means to carry, and to wear clothes.",
+        "tr": "Portare taşımak ve giysi giymek anlamına da gelir."
+      }
+    },
+    "ready": {
+      "text": "pronto",
+      "ex": "Sei pronto per il viaggio?"
+    }
+  },
+  "sentences": {
+    "u01-1-a": {
+      "tokens": [
+        "Buongiorno,",
+        "Zeynep",
+        "e",
+        "Ali!"
+      ],
+      "gap": 0,
+      "wrong": [
+        "Buonanotte",
+        "Arrivederci",
+        "Prego"
+      ]
+    },
+    "u01-1-b": {
+      "tokens": [
+        "Ciao",
+        "Sam,",
+        "come",
+        "stai?"
+      ],
+      "gap": 3,
+      "wrong": [
+        "sei",
+        "hai",
+        "dormi"
+      ]
+    },
+    "u01-2-a": {
+      "tokens": [
+        "Buonanotte,",
+        "Mia",
+        "e",
+        "Leo."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Buongiorno",
+        "Prego",
+        "Scusa"
+      ]
+    },
+    "u01-2-b": {
+      "tokens": [
+        "A",
+        "domani,",
+        "Tom."
+      ],
+      "gap": 1,
+      "wrong": [
+        "ieri",
+        "mai",
+        "spesso"
+      ]
+    },
+    "u01-3-a": {
+      "tokens": [
+        "Piacere",
+        "di",
+        "conoscerti,",
+        "Tom."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Grazie",
+        "Scusa",
+        "Prego"
+      ]
+    },
+    "u01-3-b": {
+      "tokens": [
+        "Anna",
+        "è",
+        "un'insegnante",
+        "di",
+        "Berlino."
+      ],
+      "gap": 2,
+      "wrong": [
+        "un'amica",
+        "un'attrice",
+        "un'infermiera"
+      ]
+    },
+    "u01-4-a": {
+      "tokens": [
+        "Due",
+        "tè,",
+        "per",
+        "favore."
+      ],
+      "gap": 3,
+      "wrong": [
+        "caso",
+        "tempo",
+        "esempio"
+      ]
+    },
+    "u01-4-b": {
+      "tokens": [
+        "Grazie",
+        "mille,",
+        "Emre."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Scusa",
+        "Prego",
+        "Ciao"
+      ]
+    },
+    "u02-1-a": {
+      "tokens": [
+        "Mia",
+        "madre",
+        "e",
+        "mio",
+        "padre",
+        "sono",
+        "insegnanti."
+      ],
+      "gap": 1,
+      "wrong": [
+        "sorella",
+        "nonna",
+        "figlia"
+      ]
+    },
+    "u02-1-b": {
+      "tokens": [
+        "Zeynep",
+        "ha",
+        "un",
+        "fratello."
+      ],
+      "gap": 3,
+      "wrong": [
+        "cane",
+        "gatto",
+        "figlio"
+      ]
+    },
+    "u02-2-a": {
+      "tokens": [
+        "Mia",
+        "nonna",
+        "vive",
+        "con",
+        "noi."
+      ],
+      "gap": 1,
+      "wrong": [
+        "madre",
+        "sorella",
+        "figlia"
+      ]
+    },
+    "u02-2-b": {
+      "tokens": [
+        "Mia",
+        "ha",
+        "un",
+        "gatto",
+        "nero."
+      ],
+      "gap": 3,
+      "wrong": [
+        "cane",
+        "libro",
+        "divano"
+      ]
+    },
+    "u02-3-a": {
+      "tokens": [
+        "Emma",
+        "è",
+        "la",
+        "mia",
+        "nuova",
+        "vicina."
+      ],
+      "gap": 5,
+      "wrong": [
+        "sorella",
+        "nonna",
+        "insegnante"
+      ]
+    },
+    "u02-3-b": {
+      "tokens": [
+        "I",
+        "miei",
+        "amici",
+        "sono",
+        "molto",
+        "divertenti."
+      ],
+      "gap": 5,
+      "wrong": [
+        "tristi",
+        "alti",
+        "giovani"
+      ]
+    },
+    "u02-4-a": {
+      "tokens": [
+        "Quell'uomo",
+        "è",
+        "molto",
+        "alto."
+      ],
+      "gap": 3,
+      "wrong": [
+        "basso",
+        "giovane",
+        "felice"
+      ]
+    },
+    "u02-4-b": {
+      "tokens": [
+        "La",
+        "donna",
+        "è",
+        "giovane",
+        "e",
+        "felice."
+      ],
+      "gap": 3,
+      "wrong": [
+        "anziana",
+        "alta",
+        "triste"
+      ]
+    },
+    "u03-1-a": {
+      "tokens": [
+        "Ho",
+        "due",
+        "sorelle."
+      ],
+      "gap": 1,
+      "wrong": [
+        "tre",
+        "quattro",
+        "cinque"
+      ]
+    },
+    "u03-1-b": {
+      "tokens": [
+        "Quattro",
+        "più",
+        "due",
+        "fa",
+        "sei."
+      ],
+      "gap": 4,
+      "wrong": [
+        "cinque",
+        "tre",
+        "otto"
+      ]
+    },
+    "u03-2-a": {
+      "tokens": [
+        "Mia",
+        "sorella",
+        "ha",
+        "otto",
+        "anni."
+      ],
+      "gap": 3,
+      "wrong": [
+        "sette",
+        "nove",
+        "dieci"
+      ]
+    },
+    "u03-2-b": {
+      "tokens": [
+        "In",
+        "una",
+        "settimana",
+        "ci",
+        "sono",
+        "sette",
+        "giorni."
+      ],
+      "gap": 5,
+      "wrong": [
+        "sei",
+        "otto",
+        "dieci"
+      ]
+    },
+    "u03-3-a": {
+      "tokens": [
+        "Venti",
+        "più",
+        "trenta",
+        "fa",
+        "cinquanta."
+      ],
+      "gap": 4,
+      "wrong": [
+        "quaranta",
+        "sessanta",
+        "cento"
+      ]
+    },
+    "u03-3-b": {
+      "tokens": [
+        "Il",
+        "numero",
+        "della",
+        "mia",
+        "camera",
+        "è",
+        "dodici."
+      ],
+      "gap": 1,
+      "wrong": [
+        "nome",
+        "prezzo",
+        "colore"
+      ]
+    },
+    "u03-4-a": {
+      "tokens": [
+        "Ho",
+        "dodici",
+        "anni."
+      ],
+      "gap": 2,
+      "wrong": [
+        "mesi",
+        "giorni",
+        "minuti"
+      ]
+    },
+    "u03-4-b": {
+      "tokens": [
+        "Quanti",
+        "gatti",
+        "hai?"
+      ],
+      "gap": 0,
+      "wrong": [
+        "Quante",
+        "Quale",
+        "Quando"
+      ]
+    },
+    "u04-1-a": {
+      "tokens": [
+        "A",
+        "colazione",
+        "mangio",
+        "pane."
+      ],
+      "gap": 2,
+      "wrong": [
+        "bevo",
+        "leggo",
+        "dormo"
+      ]
+    },
+    "u04-1-b": {
+      "tokens": [
+        "Tom",
+        "mangia",
+        "due",
+        "uova."
+      ],
+      "gap": 3,
+      "wrong": [
+        "mele",
+        "banane",
+        "patate"
+      ]
+    },
+    "u04-2-a": {
+      "tokens": [
+        "Emre",
+        "beve",
+        "il",
+        "caffè",
+        "ogni",
+        "mattina."
+      ],
+      "gap": 3,
+      "wrong": [
+        "latte",
+        "tè",
+        "succo"
+      ]
+    },
+    "u04-2-b": {
+      "tokens": [
+        "Il",
+        "succo",
+        "è",
+        "molto",
+        "freddo."
+      ],
+      "gap": 1,
+      "wrong": [
+        "latte",
+        "caffè",
+        "pane"
+      ]
+    },
+    "u04-3-a": {
+      "tokens": [
+        "Le",
+        "banane",
+        "sono",
+        "gialle",
+        "e",
+        "dolci."
+      ],
+      "gap": 1,
+      "wrong": [
+        "mele",
+        "patate",
+        "verdure"
+      ]
+    },
+    "u04-3-b": {
+      "tokens": [
+        "Ci",
+        "servono",
+        "tre",
+        "patate."
+      ],
+      "gap": 3,
+      "wrong": [
+        "mele",
+        "banane",
+        "uova"
+      ]
+    },
+    "u04-4-a": {
+      "tokens": [
+        "La",
+        "cena",
+        "è",
+        "alle",
+        "otto."
+      ],
+      "gap": 1,
+      "wrong": [
+        "colazione",
+        "lezione",
+        "festa"
+      ]
+    },
+    "u04-4-b": {
+      "tokens": [
+        "A",
+        "Deniz",
+        "piace",
+        "molto",
+        "la",
+        "zuppa."
+      ],
+      "gap": 2,
+      "wrong": [
+        "mangia",
+        "beve",
+        "legge"
+      ]
+    },
+    "u05-1-a": {
+      "tokens": [
+        "La",
+        "nostra",
+        "casa",
+        "ha",
+        "tre",
+        "stanze."
+      ],
+      "gap": 5,
+      "wrong": [
+        "finestre",
+        "porte",
+        "sedie"
+      ]
+    },
+    "u05-1-b": {
+      "tokens": [
+        "Adesso",
+        "Emma",
+        "è",
+        "in",
+        "giardino."
+      ],
+      "gap": 4,
+      "wrong": [
+        "cucina",
+        "bagno",
+        "banca"
+      ]
+    },
+    "u05-2-a": {
+      "tokens": [
+        "C'è",
+        "una",
+        "sedia",
+        "accanto",
+        "alla",
+        "finestra."
+      ],
+      "gap": 2,
+      "wrong": [
+        "porta",
+        "lampada",
+        "chiave"
+      ]
+    },
+    "u05-2-b": {
+      "tokens": [
+        "Il",
+        "mio",
+        "letto",
+        "è",
+        "accanto",
+        "alla",
+        "porta."
+      ],
+      "gap": 2,
+      "wrong": [
+        "tavolo",
+        "divano",
+        "telefono"
+      ]
+    },
+    "u05-3-a": {
+      "tokens": [
+        "Il",
+        "libro",
+        "è",
+        "sul",
+        "letto."
+      ],
+      "gap": 1,
+      "wrong": [
+        "telefono",
+        "computer",
+        "gatto"
+      ]
+    },
+    "u05-3-b": {
+      "tokens": [
+        "Dove",
+        "sono",
+        "le",
+        "chiavi,",
+        "Tom?"
+      ],
+      "gap": 3,
+      "wrong": [
+        "lampade",
+        "sedie",
+        "porte"
+      ]
+    },
+    "u05-4-a": {
+      "tokens": [
+        "La",
+        "nostra",
+        "nuova",
+        "casa",
+        "è",
+        "molto",
+        "grande."
+      ],
+      "gap": 6,
+      "wrong": [
+        "piccola",
+        "pulita",
+        "vecchia"
+      ],
+      "orders": [
+        [
+          0,
+          1,
+          3,
+          2,
+          4,
+          5,
+          6
+        ]
+      ]
+    },
+    "u05-4-b": {
+      "tokens": [
+        "C'è",
+        "un",
+        "piccolo",
+        "giardino."
+      ],
+      "gap": 2,
+      "wrong": [
+        "grande",
+        "nuovo",
+        "pulito"
+      ]
+    },
+    "u06-1-a": {
+      "tokens": [
+        "Di",
+        "notte",
+        "leggo",
+        "libri."
+      ],
+      "gap": 1,
+      "wrong": [
+        "mattina",
+        "giorno",
+        "pomeriggio"
+      ]
+    },
+    "u06-1-b": {
+      "tokens": [
+        "Ali",
+        "lavora",
+        "il",
+        "pomeriggio."
+      ],
+      "gap": 3,
+      "wrong": [
+        "mattino",
+        "lunedì",
+        "sabato"
+      ]
+    },
+    "u06-2-a": {
+      "tokens": [
+        "Emma",
+        "si",
+        "sveglia",
+        "alle",
+        "sei."
+      ],
+      "gap": 2,
+      "wrong": [
+        "lava",
+        "veste",
+        "siede"
+      ]
+    },
+    "u06-2-b": {
+      "tokens": [
+        "Deniz",
+        "va",
+        "a",
+        "scuola",
+        "ogni",
+        "giorno."
+      ],
+      "gap": 1,
+      "wrong": [
+        "dorme",
+        "beve",
+        "compra"
+      ]
+    },
+    "u06-3-a": {
+      "tokens": [
+        "Tom",
+        "lavora",
+        "dal",
+        "lunedì",
+        "al",
+        "venerdì."
+      ],
+      "gap": 5,
+      "wrong": [
+        "martedì",
+        "giovedì",
+        "mercoledì"
+      ]
+    },
+    "u06-3-b": {
+      "tokens": [
+        "La",
+        "nostra",
+        "lezione",
+        "è",
+        "mercoledì."
+      ],
+      "gap": 4,
+      "wrong": [
+        "lunedì",
+        "giovedì",
+        "venerdì"
+      ]
+    },
+    "u06-4-a": {
+      "tokens": [
+        "La",
+        "domenica",
+        "Mia",
+        "gioca",
+        "con",
+        "il",
+        "suo",
+        "cane."
+      ],
+      "gap": 3,
+      "wrong": [
+        "legge",
+        "dorme",
+        "lavora"
+      ]
+    },
+    "u06-4-b": {
+      "tokens": [
+        "Elif",
+        "legge",
+        "in",
+        "giardino."
+      ],
+      "gap": 1,
+      "wrong": [
+        "beve",
+        "dorme",
+        "cucina"
+      ]
+    },
+    "u07-1-a": {
+      "tokens": [
+        "Roma",
+        "ha",
+        "molti",
+        "musei",
+        "antichi."
+      ],
+      "gap": 3,
+      "wrong": [
+        "parchi",
+        "ospedali",
+        "negozi"
+      ]
+    },
+    "u07-1-b": {
+      "tokens": [
+        "Il",
+        "parco",
+        "è",
+        "nella",
+        "mia",
+        "strada."
+      ],
+      "gap": 1,
+      "wrong": [
+        "museo",
+        "ospedale",
+        "supermercato"
+      ]
+    },
+    "u07-2-a": {
+      "tokens": [
+        "Il",
+        "panificio",
+        "apre",
+        "alle",
+        "sette."
+      ],
+      "gap": 1,
+      "wrong": [
+        "museo",
+        "ristorante",
+        "parco"
+      ]
+    },
+    "u07-2-b": {
+      "tokens": [
+        "C'è",
+        "una",
+        "farmacia",
+        "qui",
+        "vicino?"
+      ],
+      "gap": 2,
+      "wrong": [
+        "banca",
+        "biblioteca",
+        "strada"
+      ]
+    },
+    "u07-3-a": {
+      "tokens": [
+        "All'angolo",
+        "gira",
+        "a",
+        "sinistra."
+      ],
+      "gap": 1,
+      "wrong": [
+        "leggi",
+        "dormi",
+        "bevi"
+      ]
+    },
+    "u07-3-b": {
+      "tokens": [
+        "Dov'è",
+        "il",
+        "museo",
+        "della",
+        "città?"
+      ],
+      "gap": 0,
+      "wrong": [
+        "Com'è",
+        "Cos'è",
+        "Quand'è"
+      ]
+    },
+    "u07-4-a": {
+      "tokens": [
+        "La",
+        "stazione",
+        "non",
+        "è",
+        "lontana."
+      ],
+      "gap": 4,
+      "wrong": [
+        "vicina",
+        "chiusa",
+        "pulita"
+      ]
+    },
+    "u07-4-b": {
+      "tokens": [
+        "Il",
+        "bar",
+        "è",
+        "dietro",
+        "il",
+        "museo."
+      ],
+      "gap": 3,
+      "wrong": [
+        "sopra",
+        "sotto",
+        "dentro"
+      ]
+    },
+    "u08-1-a": {
+      "tokens": [
+        "Mia",
+        "indossa",
+        "scarpe",
+        "nere."
+      ],
+      "gap": 1,
+      "wrong": [
+        "beve",
+        "legge",
+        "dorme"
+      ]
+    },
+    "u08-1-b": {
+      "tokens": [
+        "Questo",
+        "vestito",
+        "è",
+        "molto",
+        "bello."
+      ],
+      "gap": 1,
+      "wrong": [
+        "cappello",
+        "divano",
+        "libro"
+      ]
+    },
+    "u08-2-a": {
+      "tokens": [
+        "Mi",
+        "piace",
+        "la",
+        "giacca",
+        "blu."
+      ],
+      "gap": 4,
+      "wrong": [
+        "rossa",
+        "verde",
+        "nera"
+      ]
+    },
+    "u08-2-b": {
+      "tokens": [
+        "Le",
+        "mie",
+        "nuove",
+        "scarpe",
+        "sono",
+        "bianche."
+      ],
+      "gap": 5,
+      "wrong": [
+        "nere",
+        "rosse",
+        "gialle"
+      ]
+    },
+    "u08-3-a": {
+      "tokens": [
+        "Il",
+        "prezzo",
+        "del",
+        "vestito",
+        "è",
+        "cinquanta."
+      ],
+      "gap": 1,
+      "wrong": [
+        "colore",
+        "nome",
+        "giorno"
+      ]
+    },
+    "u08-3-b": {
+      "tokens": [
+        "Questa",
+        "camicia",
+        "è",
+        "molto",
+        "economica."
+      ],
+      "gap": 4,
+      "wrong": [
+        "cara",
+        "lunga",
+        "nera"
+      ]
+    },
+    "u08-4-a": {
+      "tokens": [
+        "Posso",
+        "provare",
+        "questi",
+        "pantaloni?"
+      ],
+      "gap": 1,
+      "wrong": [
+        "mangiare",
+        "bere",
+        "leggere"
+      ]
+    },
+    "u08-4-b": {
+      "tokens": [
+        "Questo",
+        "negozio",
+        "vende",
+        "bei",
+        "cappelli."
+      ],
+      "gap": 2,
+      "wrong": [
+        "mangia",
+        "beve",
+        "legge"
+      ]
+    },
+    "u09-1-a": {
+      "tokens": [
+        "A",
+        "Parigi",
+        "sta",
+        "piovendo."
+      ],
+      "gap": 3,
+      "wrong": [
+        "nevicando",
+        "dormendo",
+        "leggendo"
+      ]
+    },
+    "u09-1-b": {
+      "tokens": [
+        "Guarda,",
+        "sta",
+        "nevicando!"
+      ],
+      "gap": 2,
+      "wrong": [
+        "piovendo",
+        "mangiando",
+        "ballando"
+      ]
+    },
+    "u09-2-a": {
+      "tokens": [
+        "A",
+        "Berlino",
+        "fa",
+        "molto",
+        "freddo."
+      ],
+      "gap": 4,
+      "wrong": [
+        "caldo",
+        "bello",
+        "buio"
+      ]
+    },
+    "u09-2-b": {
+      "tokens": [
+        "Tom",
+        "sta",
+        "portando",
+        "un",
+        "ombrello",
+        "nero."
+      ],
+      "gap": 4,
+      "wrong": [
+        "cappello",
+        "libro",
+        "cane"
+      ]
+    },
+    "u09-3-a": {
+      "tokens": [
+        "In",
+        "primavera",
+        "gli",
+        "alberi",
+        "sono",
+        "verdi."
+      ],
+      "gap": 1,
+      "wrong": [
+        "inverno",
+        "estate",
+        "autunno"
+      ]
+    },
+    "u09-3-b": {
+      "tokens": [
+        "L'estate",
+        "è",
+        "una",
+        "stagione",
+        "calda."
+      ],
+      "gap": 3,
+      "wrong": [
+        "città",
+        "strada",
+        "casa"
+      ]
+    },
+    "u09-4-a": {
+      "tokens": [
+        "Leo",
+        "sta",
+        "nuotando",
+        "al",
+        "mare."
+      ],
+      "gap": 2,
+      "wrong": [
+        "dormendo",
+        "cucinando",
+        "scrivendo"
+      ]
+    },
+    "u09-4-b": {
+      "tokens": [
+        "Mia",
+        "e",
+        "Tom",
+        "stanno",
+        "camminando",
+        "fuori."
+      ],
+      "gap": 5,
+      "wrong": [
+        "dentro",
+        "ieri",
+        "domani"
+      ],
+      "orders": [
+        [
+          2,
+          1,
+          0,
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    "u10-1-a": {
+      "tokens": [
+        "L'autobus",
+        "era",
+        "molto",
+        "lento."
+      ],
+      "gap": 1,
+      "wrong": [
+        "aveva",
+        "diceva",
+        "beveva"
+      ]
+    },
+    "u10-1-b": {
+      "tokens": [
+        "Alle",
+        "sei",
+        "eravamo",
+        "sul",
+        "treno."
+      ],
+      "gap": 4,
+      "wrong": [
+        "letto",
+        "divano",
+        "tavolo"
+      ]
+    },
+    "u10-2-a": {
+      "tokens": [
+        "Il",
+        "treno",
+        "era",
+        "di",
+        "nuovo",
+        "in",
+        "ritardo."
+      ],
+      "gap": 6,
+      "wrong": [
+        "anticipo",
+        "orario",
+        "vendita"
+      ]
+    },
+    "u10-2-b": {
+      "tokens": [
+        "I",
+        "biglietti",
+        "non",
+        "erano",
+        "cari."
+      ],
+      "gap": 1,
+      "wrong": [
+        "treni",
+        "taxi",
+        "libri"
+      ]
+    },
+    "u10-3-a": {
+      "tokens": [
+        "La",
+        "camera",
+        "d'albergo",
+        "era",
+        "molto",
+        "tranquilla."
+      ],
+      "gap": 5,
+      "wrong": [
+        "sporca",
+        "piccola",
+        "fredda"
+      ]
+    },
+    "u10-3-b": {
+      "tokens": [
+        "Il",
+        "letto",
+        "era",
+        "comodo?"
+      ],
+      "gap": 3,
+      "wrong": [
+        "pulito",
+        "nuovo",
+        "grande"
+      ]
+    },
+    "u10-4-a": {
+      "tokens": [
+        "Il",
+        "mare",
+        "era",
+        "molto",
+        "bello."
+      ],
+      "gap": 1,
+      "wrong": [
+        "treno",
+        "taxi",
+        "letto"
+      ]
+    },
+    "u10-4-b": {
+      "tokens": [
+        "La",
+        "nostra",
+        "vacanza",
+        "a",
+        "Rio",
+        "è",
+        "stata",
+        "meravigliosa."
+      ],
+      "gap": 7,
+      "wrong": [
+        "brutta",
+        "noiosa",
+        "difficile"
+      ]
+    },
+    "u11-1-a": {
+      "tokens": [
+        "Ieri",
+        "Emma",
+        "mi",
+        "ha",
+        "chiamato."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Domani",
+        "Dopodomani",
+        "Presto"
+      ]
+    },
+    "u11-1-b": {
+      "tokens": [
+        "Ho",
+        "visto",
+        "Ali",
+        "due",
+        "giorni",
+        "fa."
+      ],
+      "gap": 5,
+      "wrong": [
+        "domani",
+        "sempre",
+        "mai"
+      ]
+    },
+    "u11-2-a": {
+      "tokens": [
+        "Abbiamo",
+        "ballato",
+        "alla",
+        "festa."
+      ],
+      "gap": 1,
+      "wrong": [
+        "dormito",
+        "lavorato",
+        "cucinato"
+      ]
+    },
+    "u11-2-b": {
+      "tokens": [
+        "Emre",
+        "e",
+        "io",
+        "ci",
+        "siamo",
+        "incontrati",
+        "sabato."
+      ],
+      "gap": 5,
+      "wrong": [
+        "svegliati",
+        "lavati",
+        "seduti"
+      ]
+    },
+    "u11-3-a": {
+      "tokens": [
+        "Tom",
+        "ha",
+        "cucinato",
+        "la",
+        "zuppa",
+        "per",
+        "cena."
+      ],
+      "gap": 2,
+      "wrong": [
+        "lavato",
+        "venduto",
+        "scritto"
+      ]
+    },
+    "u11-3-b": {
+      "tokens": [
+        "Ho",
+        "ascoltato",
+        "musica",
+        "a",
+        "letto."
+      ],
+      "gap": 1,
+      "wrong": [
+        "cucinato",
+        "lavato",
+        "venduto"
+      ]
+    },
+    "u11-4-a": {
+      "tokens": [
+        "Elif",
+        "ha",
+        "dimenticato",
+        "la",
+        "borsa",
+        "a",
+        "scuola."
+      ],
+      "gap": 2,
+      "wrong": [
+        "trovato",
+        "comprato",
+        "lavato"
+      ]
+    },
+    "u11-4-b": {
+      "tokens": [
+        "Ieri",
+        "ho",
+        "perso",
+        "il",
+        "biglietto."
+      ],
+      "gap": 2,
+      "wrong": [
+        "trovato",
+        "comprato",
+        "venduto"
+      ]
+    },
+    "u12-1-a": {
+      "tokens": [
+        "Domani",
+        "ti",
+        "chiamerò."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Ieri",
+        "Stasera",
+        "Mai"
+      ]
+    },
+    "u12-1-b": {
+      "tokens": [
+        "Stasera",
+        "Mia",
+        "cucinerà."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Ieri",
+        "Domani",
+        "Stamattina"
+      ]
+    },
+    "u12-2-a": {
+      "tokens": [
+        "Vorresti",
+        "venire",
+        "con",
+        "noi?"
+      ],
+      "gap": 1,
+      "wrong": [
+        "cucinare",
+        "lavorare",
+        "cantare"
+      ]
+    },
+    "u12-2-b": {
+      "tokens": [
+        "Sei",
+        "libero",
+        "questo",
+        "fine",
+        "settimana?"
+      ],
+      "gap": 1,
+      "wrong": [
+        "stanco",
+        "pulito",
+        "alto"
+      ]
+    },
+    "u12-3-a": {
+      "tokens": [
+        "Certo",
+        "che",
+        "mi",
+        "piacerebbe",
+        "venire."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Purtroppo",
+        "Ieri",
+        "Mai"
+      ]
+    },
+    "u12-3-b": {
+      "tokens": [
+        "Purtroppo,",
+        "stasera",
+        "sono",
+        "impegnato."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Volentieri",
+        "Certo",
+        "Ieri"
+      ]
+    },
+    "u12-4-a": {
+      "tokens": [
+        "Sabato",
+        "festeggeremo."
+      ],
+      "gap": 1,
+      "wrong": [
+        "laveremo",
+        "venderemo",
+        "perderemo"
+      ]
+    },
+    "u12-4-b": {
+      "tokens": [
+        "Deniz",
+        "vorrebbe",
+        "imparare",
+        "il",
+        "francese."
+      ],
+      "gap": 2,
+      "wrong": [
+        "vendere",
+        "lavare",
+        "cucinare"
+      ]
+    }
+  },
+  "tips": {
+    "u01": {
+      "title": {
+        "en": "I am, you are: sono, sei, è",
+        "tr": "Ben, sen, o: sono, sei, è"
+      },
+      "body": {
+        "en": "To say who you are, Italian uses the verb essere (to be): io sono (I am), tu sei (you are), lui or lei è (he or she is). Italians usually leave out io and tu, because the verb already shows who it is. Sono Emre simply means I am Emre.\n\nTo say how you feel, Italian uses another verb, stare: come stai? (how are you?) and sto bene (I am fine).\n\nWith one friend, use tu: sei, stai. With a stranger or an older person, Italians use the polite Lei, which takes the he or she form: come sta?",
+        "tr": "Kim olduğunu söylemek için İtalyanca essere (olmak) fiilini kullanır: io sono (ben ...im), tu sei (sen ...sin), lui ya da lei è (o ...dir). İtalyanlar io ve tu sözcüklerini çoğu zaman söylemez, çünkü fiil kimin olduğunu zaten gösterir. Sono Emre, sadece Ben Emre'yim demektir.\n\nNasıl olduğunu söylemek için İtalyanca başka bir fiil kullanır, stare: come stai? (nasılsın?) ve sto bene (iyiyim).\n\nBir arkadaşla tu kullan: sei, stai. Tanımadığın ya da senden büyük biriyle İtalyanlar kibar Lei biçimini kullanır. Lei, o biçimini alır: come sta?"
+      },
+      "examples": [
+        {
+          "text": "Sono Emre.",
+          "en": "I am Emre.",
+          "tr": "Ben Emre'yim."
+        },
+        {
+          "text": "Sei di Roma?",
+          "en": "Are you from Rome?",
+          "tr": "Romalı mısın?"
+        },
+        {
+          "text": "Anna è un'insegnante.",
+          "en": "Anna is a teacher.",
+          "tr": "Anna bir öğretmen."
+        }
+      ]
+    },
+    "u02": {
+      "title": {
+        "en": "My: mio, mia, and when il drops",
+        "tr": "Benim: mio, mia ve il ne zaman düşer"
+      },
+      "body": {
+        "en": "In Italian, the word for my changes with the thing you have: mio with a masculine word, mia with a feminine one. The article usually comes before it: il mio cane, la mia famiglia, i miei amici.\n\nThere is one exception you will use every day. With one family member, leave out the article: mia madre, mio padre, mia sorella. In the plural it comes back: le mie sorelle. Loro (their) always keeps it: il loro figlio.\n\nYour and his or her work the same way: tuo, tua and suo, sua. So tua sorella, il suo gatto.",
+        "tr": "İtalyancada benim sözcüğü sahip olunan şeye göre değişir: eril bir sözcükle mio, dişil bir sözcükle mia. Önüne genellikle tanımlık gelir: il mio cane (köpeğim), la mia famiglia (ailem), i miei amici (arkadaşlarım).\n\nHer gün kullanacağın bir istisna var. Tek bir aile bireyinde tanımlığı kullanma: mia madre, mio padre, mia sorella. Çoğulda tanımlık geri gelir: le mie sorelle. Loro (onların) her zaman tanımlık alır: il loro figlio.\n\nSenin ve onun da aynı biçimde çalışır: tuo, tua ve suo, sua. Yani tua sorella, il suo gatto."
+      },
+      "examples": [
+        {
+          "text": "Mia madre è un'insegnante.",
+          "en": "My mother is a teacher.",
+          "tr": "Annem öğretmen."
+        },
+        {
+          "text": "La mia famiglia vive a Roma.",
+          "en": "My family lives in Rome.",
+          "tr": "Ailem Roma'da yaşıyor."
+        },
+        {
+          "text": "Il loro figlio è alto.",
+          "en": "Their son is tall.",
+          "tr": "Onların oğlu uzun boylu."
+        }
+      ]
+    },
+    "u03": {
+      "title": {
+        "en": "Your age with avere: ho ... anni",
+        "tr": "Yaş avere ile söylenir: ho ... anni"
+      },
+      "body": {
+        "en": "In Italian you do not say that you are an age. You say that you have it. Use avere (to have) and the word anni (years): ho dodici anni means I am twelve. To ask a friend, say quanti anni hai? (how many years do you have?).\n\nThese are the forms of avere you need: io ho, tu hai, lui or lei ha. The h is silent, so ho sounds like o.\n\nAvere also counts the things and people you have: ho due sorelle (I have two sisters).",
+        "tr": "İtalyancada bir yaşta olduğunu söylemezsin. O yaşa sahip olduğunu söylersin. Avere (sahip olmak) fiilini ve anni (yıllar) sözcüğünü kullan: ho dodici anni, on iki yaşındayım demektir. Bir arkadaşına sormak için quanti anni hai? (kaç yılın var?) de.\n\nGereken avere biçimleri şunlar: io ho, tu hai, lui ya da lei ha. Baştaki h okunmaz, yani ho, o gibi söylenir.\n\nAvere sahip olduğun şeyleri ve kişileri saymak için de kullanılır: ho due sorelle (iki kız kardeşim var)."
+      },
+      "examples": [
+        {
+          "text": "Ho dodici anni.",
+          "en": "I am twelve years old.",
+          "tr": "On iki yaşındayım."
+        },
+        {
+          "text": "Quanti anni hai?",
+          "en": "How old are you?",
+          "tr": "Kaç yaşındasın?"
+        },
+        {
+          "text": "Mia sorella ha otto anni.",
+          "en": "My sister is eight.",
+          "tr": "Kız kardeşim sekiz yaşında."
+        }
+      ]
+    },
+    "u04": {
+      "title": {
+        "en": "The: il, lo, la, l'",
+        "tr": "Belirli tanımlık: il, lo, la, l'"
+      },
+      "body": {
+        "en": "Every Italian noun is masculine or feminine, and the word for the changes with it. Most nouns ending in -o are masculine, and most ending in -a are feminine. Nouns ending in -e can be either, so learn each one with its article.\n\nMasculine: il (il pane, il latte), but lo before s plus a consonant or before z (lo studente), and l' before a vowel (l'uovo). Feminine: la (la mela, la zuppa), and l' before a vowel (l'acqua). In the plural, il becomes i, lo and a masculine l' become gli, and la and a feminine l' become le: i formaggi, gli studenti, le mele.\n\nFor a or an, use un with a masculine noun and una with a feminine one: un uovo, una mela. Where the is lo, a is uno (uno studente), and a feminine noun starting with a vowel takes un' (un'amica).",
+        "tr": "İtalyancada her ad ya eril ya da dişildir ve belirli tanımlık (İngilizcedeki the) ona göre değişir. -o ile biten adların çoğu eril, -a ile bitenlerin çoğu dişildir. -e ile bitenler ikisi de olabilir, bu yüzden her birini tanımlığıyla öğren.\n\nEril: il (il pane, il latte), ama s ve ardından ünsüzle ya da z ile başlayan adda lo (lo studente), ünlüyle başlayan adda l' (l'uovo). Dişil: la (la mela, la zuppa), ünlüyle başlayan adda l' (l'acqua). Çoğulda il, i olur; lo ve eril l', gli olur; la ve dişil l', le olur: i formaggi, gli studenti, le mele.\n\nBir anlamı için eril adla un, dişil adla una kullan: un uovo, una mela. Lo alan adda uno kullan (uno studente). Ünlüyle başlayan dişil ad un' alır (un'amica)."
+      },
+      "examples": [
+        {
+          "text": "Il pane è fresco.",
+          "en": "The bread is fresh.",
+          "tr": "Ekmek taze."
+        },
+        {
+          "text": "L'acqua è fredda.",
+          "en": "The water is cold.",
+          "tr": "Su soğuk."
+        },
+        {
+          "text": "Mangio una mela.",
+          "en": "I eat an apple.",
+          "tr": "Bir elma yerim."
+        }
+      ]
+    },
+    "u05": {
+      "title": {
+        "en": "There is, there are: c'è, ci sono",
+        "tr": "Var: c'è ve ci sono"
+      },
+      "body": {
+        "en": "To say that something is in a place, use c'è (there is) for one thing and ci sono (there are) for more than one: c'è un gatto sul letto, ci sono tre stanze.\n\nTo say that something is not there, put non in front: non c'è il latte (there is no milk).\n\nTo ask, use the same words and let your voice go up at the end: c'è un bagno? (is there a bathroom?). C'è is a short form of ci è.",
+        "tr": "Bir yerde bir şey olduğunu söylemek için tek bir şeyde c'è, birden fazla şeyde ci sono kullan: c'è un gatto sul letto (yatağın üstünde bir kedi var), ci sono tre stanze (üç oda var).\n\nYok demek için başına non koy: non c'è il latte (süt yok).\n\nSoru sormak için aynı sözcükleri kullan ve sonunda sesini yükselt: c'è un bagno? (banyo var mı?). C'è, ci è sözünün kısa biçimidir."
+      },
+      "examples": [
+        {
+          "text": "C'è un gatto sul letto.",
+          "en": "There is a cat on the bed.",
+          "tr": "Yatağın üstünde bir kedi var."
+        },
+        {
+          "text": "Ci sono due finestre.",
+          "en": "There are two windows.",
+          "tr": "İki pencere var."
+        },
+        {
+          "text": "Non c'è il latte.",
+          "en": "There is no milk.",
+          "tr": "Süt yok."
+        }
+      ]
+    },
+    "u06": {
+      "title": {
+        "en": "Everyday verbs: -are, -ere, -ire",
+        "tr": "Günlük fiiller: -are, -ere, -ire"
+      },
+      "body": {
+        "en": "Italian verbs end in -are, -ere or -ire. For the present, remove that ending and add one that shows who does it. Lavorare (to work): lavoro, lavori, lavora, lavoriamo. Leggere (to read): leggo, leggi, legge, leggiamo. Dormire (to sleep): dormo, dormi, dorme, dormiamo.\n\nSo -o is I, -i is you, and -a or -e is he or she. One form covers both I work and I am working.\n\nSome common verbs are irregular. Andare (to go): vado, vai, va, andiamo. Svegliarsi (to wake up) takes mi, ti or si before it: mi sveglio, ti svegli, si sveglia.",
+        "tr": "İtalyanca fiiller -are, -ere ya da -ire ile biter. Geniş zaman için bu eki at ve işi kimin yaptığını gösteren eki ekle. Lavorare (çalışmak): lavoro, lavori, lavora, lavoriamo. Leggere (okumak): leggo, leggi, legge, leggiamo. Dormire (uyumak): dormo, dormi, dorme, dormiamo.\n\nYani -o ben, -i sen, -a ya da -e o demektir. Tek bir biçim hem çalışırım hem de çalışıyorum anlamına gelir.\n\nBazı sık fiiller düzensizdir. Andare (gitmek): vado, vai, va, andiamo. Svegliarsi (uyanmak) önüne mi, ti ya da si alır: mi sveglio, ti svegli, si sveglia."
+      },
+      "examples": [
+        {
+          "text": "Lavoro il lunedì.",
+          "en": "I work on Mondays.",
+          "tr": "Pazartesileri çalışırım."
+        },
+        {
+          "text": "Leggi un libro?",
+          "en": "Are you reading a book?",
+          "tr": "Kitap mı okuyorsun?"
+        },
+        {
+          "text": "Mi sveglio alle sette.",
+          "en": "I wake up at seven.",
+          "tr": "Saat yedide uyanırım."
+        }
+      ]
+    },
+    "u07": {
+      "title": {
+        "en": "Al, nel, del: small words that join",
+        "tr": "Al, nel, del: birleşen küçük sözcükler"
+      },
+      "body": {
+        "en": "When a (at, to), in (in), di (of) or su (on) comes before an article, the two words join. A + il = al, a + la = alla. In + il = nel, in + la = nella. Di + il = del, di + la = della. Su + il = sul, su + la = sulla. Before a vowel: all', nell', dell', sull'.\n\nSo you say al parco (at the park), nella mia strada (on my street), il museo della città (the city museum).\n\nSome places take in with no article: in banca, in farmacia, in biblioteca. Others take a with the article: al supermercato, al bar. Learn each place with its small word.",
+        "tr": "A (-e, -de), in (içinde), di (-in) ya da su (üstünde) bir tanımlıktan önce gelince iki sözcük birleşir. A + il = al, a + la = alla. In + il = nel, in + la = nella. Di + il = del, di + la = della. Su + il = sul, su + la = sulla. Ünlüden önce: all', nell', dell', sull'.\n\nYani al parco (parkta), nella mia strada (sokağımda), il museo della città (şehir müzesi) dersin.\n\nBazı yerler tanımlıksız in alır: in banca, in farmacia, in biblioteca. Bazıları tanımlıkla birlikte a alır: al supermercato, al bar. Her yeri küçük sözcüğüyle birlikte öğren."
+      },
+      "examples": [
+        {
+          "text": "Il bar è vicino al parco.",
+          "en": "The cafe is near the park.",
+          "tr": "Kafe parka yakın."
+        },
+        {
+          "text": "Elif studia in biblioteca.",
+          "en": "Elif studies in the library.",
+          "tr": "Elif kütüphanede ders çalışır."
+        },
+        {
+          "text": "Il museo è nella mia strada.",
+          "en": "The museum is on my street.",
+          "tr": "Müze benim sokağımda."
+        }
+      ]
+    },
+    "u08": {
+      "title": {
+        "en": "Colors that agree: rosso, rossa, rossi, rosse",
+        "tr": "Ada uyan renkler: rosso, rossa, rossi, rosse"
+      },
+      "body": {
+        "en": "Italian adjectives, colors too, change their ending to match the noun: rosso with a masculine word, rossa with a feminine one, rossi and rosse in the plural. So un cappello rosso, una giacca rossa, le scarpe rosse.\n\nAdjectives ending in -e have only two forms: verde for one thing, verdi for more (una mela verde, le mele verdi). A few never change, like blu: una giacca blu, gli occhi blu.\n\nColors come after the noun, not before it: una camicia bianca, a white shirt.",
+        "tr": "İtalyancada sıfatlar, renkler de, ada uymak için sonlarını değiştirir: eril bir sözcükle rosso, dişil bir sözcükle rossa, çoğulda rossi ve rosse. Yani un cappello rosso (kırmızı bir şapka), una giacca rossa (kırmızı bir ceket), le scarpe rosse (kırmızı ayakkabılar).\n\n-e ile biten sıfatların sadece iki biçimi vardır: tek bir şey için verde, daha fazlası için verdi (una mela verde, le mele verdi). Blu gibi birkaçı hiç değişmez: una giacca blu, gli occhi blu.\n\nRenkler addan önce değil, sonra gelir: una camicia bianca, beyaz bir gömlek."
+      },
+      "examples": [
+        {
+          "text": "Voglio la camicia rossa.",
+          "en": "I want the red shirt.",
+          "tr": "Kırmızı gömleği istiyorum."
+        },
+        {
+          "text": "Le mie scarpe sono nere.",
+          "en": "My shoes are black.",
+          "tr": "Ayakkabılarım siyah."
+        },
+        {
+          "text": "Ho una giacca blu.",
+          "en": "I have a blue jacket.",
+          "tr": "Mavi bir ceketim var."
+        }
+      ]
+    },
+    "u09": {
+      "title": {
+        "en": "Right now: sta piovendo",
+        "tr": "Tam şu anda: sta piovendo"
+      },
+      "body": {
+        "en": "For something that is happening at this moment, Italian uses stare plus a verb ending in -ando or -endo: sto leggendo (I am reading), sta piovendo (it is raining). Verbs in -are take -ando (nuotare, nuotando). Verbs in -ere and -ire take -endo (leggere, leggendo; dormire, dormendo).\n\nThe forms of stare are sto, stai, sta, stiamo, stanno.\n\nFor the weather, Italian also uses fare (to make): fa caldo (it is hot), fa freddo (it is cold), fa bel tempo (the weather is nice). Rain and snow have their own verbs: piove (it rains), nevica (it snows).",
+        "tr": "Tam şu anda olan bir şey için İtalyanca stare fiilini ve -ando ya da -endo ile biten bir fiili kullanır: sto leggendo (okuyorum), sta piovendo (yağmur yağıyor). -are fiilleri -ando alır (nuotare, nuotando). -ere ve -ire fiilleri -endo alır (leggere, leggendo; dormire, dormendo).\n\nStare biçimleri şunlar: sto, stai, sta, stiamo, stanno.\n\nHava için İtalyanca fare (yapmak) fiilini de kullanır: fa caldo (hava sıcak), fa freddo (hava soğuk), fa bel tempo (hava güzel). Yağmur ve karın kendi fiilleri vardır: piove (yağmur yağar), nevica (kar yağar)."
+      },
+      "examples": [
+        {
+          "text": "Sta piovendo a Parigi.",
+          "en": "It is raining in Paris.",
+          "tr": "Paris'te yağmur yağıyor."
+        },
+        {
+          "text": "Sto nuotando al mare.",
+          "en": "I am swimming at the beach.",
+          "tr": "Denizde yüzüyorum."
+        },
+        {
+          "text": "Oggi fa freddo.",
+          "en": "It is cold today.",
+          "tr": "Bugün hava soğuk."
+        }
+      ]
+    },
+    "u10": {
+      "title": {
+        "en": "Was and were: era, erano",
+        "tr": "Geçmişte nasıldı: era, erano"
+      },
+      "body": {
+        "en": "To describe how something was, use these past forms of essere: ero (I was), eri (you were), era (he, she or it was), eravamo (we were), erano (they were). L'autobus era pieno: the bus was full. I letti erano comodi: the beds were comfortable.\n\nThis past is for descriptions: how a place looked, how full or quiet it was, where people were.\n\nWhen you look back on a whole trip or day as finished, Italians often say è stato or è stata instead: la vacanza è stata meravigliosa (the vacation was wonderful). You will see this form again in the next unit.",
+        "tr": "Bir şeyin geçmişte nasıl olduğunu anlatmak için essere fiilinin şu geçmiş biçimlerini kullan: ero (ben ...dim), eri (sen ...din), era (o ...di), eravamo (biz ...dik), erano (onlar ...di). L'autobus era pieno: otobüs doluydu. I letti erano comodi: yataklar rahattı.\n\nBu geçmiş zaman betimleme içindir: bir yer nasıl görünüyordu, ne kadar dolu ya da sessizdi, insanlar neredeydi.\n\nBütün bir yolculuğa ya da güne bitmiş olarak baktığında İtalyanlar çoğu zaman è stato ya da è stata der: la vacanza è stata meravigliosa (tatil harikaydı). Bu biçimi bir sonraki ünitede yeniden göreceksin."
+      },
+      "examples": [
+        {
+          "text": "Il treno era veloce.",
+          "en": "The train was fast.",
+          "tr": "Tren hızlıydı."
+        },
+        {
+          "text": "Eravamo in albergo.",
+          "en": "We were at the hotel.",
+          "tr": "Oteldeydik."
+        },
+        {
+          "text": "I biglietti erano cari.",
+          "en": "The tickets were expensive.",
+          "tr": "Biletler pahalıydı."
+        }
+      ]
+    },
+    "u11": {
+      "title": {
+        "en": "What you did: ho mangiato",
+        "tr": "Ne yaptın: ho mangiato"
+      },
+      "body": {
+        "en": "For something you did and finished, Italian uses avere plus a past form of the verb: ho mangiato (I ate), hai visto (you saw), ha cucinato (he or she cooked), abbiamo ballato (we danced). Verbs in -are end in -ato, verbs in -ere often end in -uto, and verbs in -ire end in -ito: ballato, venduto, finito. Some are irregular: visto, perso, scritto.\n\nVerbs of going and arriving, such as andare and arrivare, and verbs with si use essere instead: sono andato (I went), sono arrivato (I arrived), ci siamo divertiti (we had fun). With essere, the ending matches the person: Elif è andata. Iniziare and finire use essere when the thing itself starts or ends: il film è iniziato (the movie started). With an object they use avere: ho finito i compiti.",
+        "tr": "Yapıp bitirdiğin bir şey için İtalyanca avere ve fiilin geçmiş biçimini kullanır: ho mangiato (yedim), hai visto (gördün), ha cucinato (pişirdi), abbiamo ballato (dans ettik). -are fiilleri -ato, -ere fiilleri çoğu zaman -uto, -ire fiilleri -ito ile biter: ballato, venduto, finito. Bazıları düzensizdir: visto, perso, scritto.\n\nAndare ve arrivare gibi gitme ve varma fiilleri ve si alan fiiller avere yerine essere kullanır: sono andato (gittim), sono arrivato (vardım), ci siamo divertiti (eğlendik). Essere ile fiilin sonu kişiye uyar: Elif è andata. Iniziare ve finire, bir şeyin kendisi başlayıp bittiğinde essere kullanır: il film è iniziato (film başladı). Bir nesne aldıklarında avere kullanırlar: ho finito i compiti (ödevlerimi bitirdim)."
+      },
+      "examples": [
+        {
+          "text": "Ieri ho visto Elif.",
+          "en": "I saw Elif yesterday.",
+          "tr": "Dün Elif'i gördüm."
+        },
+        {
+          "text": "Abbiamo ballato alla festa.",
+          "en": "We danced at the party.",
+          "tr": "Partide dans ettik."
+        },
+        {
+          "text": "I bambini si sono divertiti.",
+          "en": "The children had fun.",
+          "tr": "Çocuklar eğlendi."
+        }
+      ]
+    },
+    "u12": {
+      "title": {
+        "en": "Plans: the future with -rò",
+        "tr": "Planlar: -rò ile gelecek zaman"
+      },
+      "body": {
+        "en": "For plans, Italian has a future tense. Take the verb, remove the last -e and add the ending: leggere becomes leggerò (I will read), leggerai (you will read), leggerà (he or she will read), leggeremo (we will read). In -are verbs, the a also changes to e: chiamare, chiamerò; cucinare, cucinerò.\n\nSome common verbs are shorter: andare, andrò; venire, verrò; essere, sarò. Verbs in -ciare and -giare also drop the i: festeggiare, festeggerò.\n\nFor plans that are close and sure, Italians also use the present with a time word: domani vado a Roma (tomorrow I am going to Rome). Both are correct.",
+        "tr": "Planlar için İtalyancada bir gelecek zaman vardır. Fiilin sonundaki -e'yi at ve eki ekle: leggere, leggerò (okuyacağım), leggerai (okuyacaksın), leggerà (okuyacak), leggeremo (okuyacağız) olur. -are fiillerinde a da e olur: chiamare, chiamerò; cucinare, cucinerò.\n\nBazı sık fiiller daha kısadır: andare, andrò; venire, verrò; essere, sarò. -ciare ve -giare ile biten fiiller i harfini de atar: festeggiare, festeggerò.\n\nYakın ve kesin planlar için İtalyanlar bir zaman sözcüğüyle şimdiki zamanı da kullanır: domani vado a Roma (yarın Roma'ya gidiyorum). İkisi de doğrudur."
+      },
+      "examples": [
+        {
+          "text": "Domani ti chiamerò.",
+          "en": "I am going to call you tomorrow.",
+          "tr": "Seni yarın arayacağım."
+        },
+        {
+          "text": "Stasera Mia cucinerà.",
+          "en": "Mia is going to cook tonight.",
+          "tr": "Mia bu akşam yemek yapacak."
+        },
+        {
+          "text": "Sabato festeggeremo.",
+          "en": "We are going to celebrate on Saturday.",
+          "tr": "Cumartesi günü kutlayacağız."
+        }
+      ]
+    }
+  }
+}

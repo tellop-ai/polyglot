@@ -1,0 +1,3430 @@
+{
+  "format": 1,
+  "language": "de",
+  "words": {
+    "hello": {
+      "text": "hallo",
+      "ex": "Hallo, ich bin Emre."
+    },
+    "good-morning": {
+      "text": "guten Morgen",
+      "ex": "Guten Morgen, der Kaffee ist fertig."
+    },
+    "good-evening": {
+      "text": "guten Abend",
+      "ex": "Guten Abend, Mia und Tom!"
+    },
+    "how-are-you": {
+      "text": "wie geht es dir?",
+      "ex": "Wie geht es dir heute Morgen?",
+      "also": [
+        "wie geht's?",
+        "wie geht's dir?"
+      ],
+      "note": {
+        "en": "Informal, for one friend ('dir' = you). To a stranger say 'Wie geht es Ihnen?'",
+        "tr": "Samimi, bir arkadaşa ('dir' = sana). Tanımadığın birine 'Wie geht es Ihnen?' dersin."
+      }
+    },
+    "i-am-fine": {
+      "text": "mir geht es gut",
+      "ex": "Danke, mir geht es heute gut.",
+      "also": [
+        "mir geht's gut"
+      ],
+      "note": {
+        "en": "The usual answer. Word for word 'it goes well for me'. A short answer is 'Gut, danke.'",
+        "tr": "Her zamanki cevap. Kelimesi kelimesine 'bana iyi gidiyor'. Kısa cevap: 'Gut, danke.'"
+      }
+    },
+    "and-you": {
+      "text": "und dir?",
+      "ex": "Mir geht es gut, und dir?",
+      "also": [
+        "und du?"
+      ],
+      "note": {
+        "en": "After 'Mir geht es gut' you ask 'und dir?'. After most other answers it is 'und du?'. Both are for one friend.",
+        "tr": "'Mir geht es gut' dedikten sonra 'und dir?' diye sorarsın. Çoğu başka cevaptan sonra 'und du?' olur. İkisi de bir arkadaş için."
+      }
+    },
+    "goodbye": {
+      "text": "tschüss",
+      "ex": "Tschüss, Ali, und danke!",
+      "also": [
+        "tschüs"
+      ],
+      "note": {
+        "en": "The everyday goodbye to a friend. The formal one is 'auf Wiedersehen'.",
+        "tr": "Bir arkadaşa günlük veda. Resmi olanı 'auf Wiedersehen'."
+      }
+    },
+    "good-night": {
+      "text": "gute Nacht",
+      "ex": "Gute Nacht, schlaf gut."
+    },
+    "see-you-later": {
+      "text": "bis später",
+      "ex": "Ich habe jetzt Unterricht, bis später."
+    },
+    "see-you-tomorrow": {
+      "text": "bis morgen",
+      "ex": "Bis morgen in der Schule, Elif."
+    },
+    "have-a-nice-day": {
+      "text": "schönen Tag noch",
+      "ex": "Vielen Dank, schönen Tag noch!",
+      "also": [
+        "einen schönen Tag noch"
+      ]
+    },
+    "take-care": {
+      "text": "mach's gut",
+      "ex": "Mach's gut und bis bald.",
+      "also": [
+        "mach es gut",
+        "pass auf dich auf"
+      ],
+      "note": {
+        "en": "A warm goodbye to one friend. 'Pass auf dich auf' (look after yourself) is also common.",
+        "tr": "Bir arkadaşa sıcak bir veda. 'Pass auf dich auf' (kendine dikkat et) de çok kullanılır."
+      }
+    },
+    "name": {
+      "text": "der Name",
+      "ex": "Mein Name ist Zeynep."
+    },
+    "where-are-you-from": {
+      "text": "woher kommst du?",
+      "ex": "Emma, woher kommst du?",
+      "note": {
+        "en": "Informal, for one friend. To a stranger say 'Woher kommen Sie?'",
+        "tr": "Samimi, bir arkadaşa. Tanımadığın birine 'Woher kommen Sie?' dersin."
+      }
+    },
+    "nice-to-meet-you": {
+      "text": "freut mich",
+      "ex": "Ich bin Ali, freut mich.",
+      "note": {
+        "en": "Short and polite for any first meeting. A longer form: 'Schön, dich kennenzulernen.'",
+        "tr": "Her ilk tanışmada kısa ve kibar. Daha uzun biçimi: 'Schön, dich kennenzulernen.'"
+      }
+    },
+    "student": {
+      "text": "der Schüler",
+      "ex": "Deniz ist Schüler in Istanbul.",
+      "also": [
+        "der Student",
+        "die Schülerin",
+        "die Studentin"
+      ],
+      "note": {
+        "en": "A student at school. At a university: 'der Student'. For a girl or woman add -in: 'die Schülerin'.",
+        "tr": "Okul öğrencisi. Üniversitede: 'der Student'. Kız ya da kadın için -in eklenir: 'die Schülerin'."
+      }
+    },
+    "teacher": {
+      "text": "der Lehrer",
+      "ex": "Mein Lehrer ist sehr nett.",
+      "also": [
+        "die Lehrerin"
+      ],
+      "note": {
+        "en": "A woman teacher is 'die Lehrerin'.",
+        "tr": "Kadın öğretmen 'die Lehrerin'."
+      }
+    },
+    "country": {
+      "text": "das Land",
+      "ex": "Mein Land ist sehr schön."
+    },
+    "please": {
+      "text": "bitte",
+      "ex": "Ein Glas Wasser, bitte."
+    },
+    "thank-you": {
+      "text": "danke",
+      "ex": "Danke für den Tee.",
+      "also": [
+        "danke schön",
+        "dankeschön"
+      ]
+    },
+    "youre-welcome": {
+      "text": "gern geschehen",
+      "ex": "Gern geschehen, kein Problem.",
+      "also": [
+        "gerne geschehen",
+        "gerne",
+        "gern"
+      ],
+      "note": {
+        "en": "Many people just say 'bitte' here, the same word as 'please'.",
+        "tr": "Birçok kişi burada sadece 'bitte' der, 'lütfen' ile aynı kelime."
+      }
+    },
+    "sorry": {
+      "text": "Entschuldigung",
+      "ex": "Entschuldigung, ich komme zu spät.",
+      "also": [
+        "tut mir leid",
+        "es tut mir leid"
+      ],
+      "note": {
+        "en": "A noun, so it has a capital E, but you say it alone like 'sorry'. 'Tut mir leid' means the same.",
+        "tr": "Bir isim, bu yüzden büyük E ile yazılır, ama 'özür dilerim' gibi tek başına söylenir. 'Tut mir leid' de aynı anlamda."
+      }
+    },
+    "yes": {
+      "text": "ja",
+      "ex": "Ja, ich bin Schüler."
+    },
+    "no": {
+      "text": "nein",
+      "ex": "Nein, ich komme nicht aus Paris."
+    },
+    "family": {
+      "text": "die Familie",
+      "ex": "Meine Familie wohnt in Lissabon."
+    },
+    "mother": {
+      "text": "die Mutter",
+      "ex": "Meine Mutter trinkt jeden Morgen Tee."
+    },
+    "father": {
+      "text": "der Vater",
+      "ex": "Mein Vater ist Arzt."
+    },
+    "brother": {
+      "text": "der Bruder",
+      "ex": "Mein Bruder ist zehn.",
+      "note": {
+        "en": "Plural: die Brüder. Brothers and sisters together are 'die Geschwister'.",
+        "tr": "Çoğulu: die Brüder. Erkek ve kız kardeşlerin hepsi birden 'die Geschwister'."
+      }
+    },
+    "sister": {
+      "text": "die Schwester",
+      "ex": "Ihre Schwester wohnt in Madrid.",
+      "note": {
+        "en": "Plural: die Schwestern. 'Ihre' here means 'her'.",
+        "tr": "Çoğulu: die Schwestern. Buradaki 'ihre' 'onun' (kadın) demek."
+      }
+    },
+    "baby": {
+      "text": "das Baby",
+      "ex": "Das Baby ist sehr klein."
+    },
+    "grandmother": {
+      "text": "die Großmutter",
+      "ex": "Meine Großmutter wohnt in Rom.",
+      "also": [
+        "die Oma"
+      ],
+      "note": {
+        "en": "For either side of the family. In everyday talk most people say 'die Oma'.",
+        "tr": "Ailenin iki tarafı için de. Günlük konuşmada çoğu kişi 'die Oma' der."
+      }
+    },
+    "grandfather": {
+      "text": "der Großvater",
+      "ex": "Mein Großvater liest die Zeitung.",
+      "also": [
+        "der Opa"
+      ],
+      "note": {
+        "en": "For either side of the family. In everyday talk most people say 'der Opa'.",
+        "tr": "Ailenin iki tarafı için de. Günlük konuşmada çoğu kişi 'der Opa' der."
+      }
+    },
+    "son": {
+      "text": "der Sohn",
+      "ex": "Ihr Sohn ist Schüler."
+    },
+    "daughter": {
+      "text": "die Tochter",
+      "ex": "Ali hat zwei Töchter."
+    },
+    "dog": {
+      "text": "der Hund",
+      "ex": "Unser Hund ist groß und weiß."
+    },
+    "cat": {
+      "text": "die Katze",
+      "ex": "Die Katze schläft auf dem Sofa."
+    },
+    "friend": {
+      "text": "der Freund",
+      "ex": "Tom ist mein Freund.",
+      "also": [
+        "die Freundin"
+      ],
+      "note": {
+        "en": "A woman friend is 'die Freundin'. 'Mein Freund' can also mean 'my boyfriend'.",
+        "tr": "Kadın arkadaş 'die Freundin'. 'Mein Freund' 'erkek arkadaşım, sevgilim' anlamına da gelebilir."
+      }
+    },
+    "neighbor": {
+      "text": "der Nachbar",
+      "ex": "Unser Nachbar hat einen Garten.",
+      "also": [
+        "die Nachbarin"
+      ]
+    },
+    "kind": {
+      "text": "nett",
+      "ex": "Deine Schwester ist sehr nett.",
+      "also": [
+        "freundlich",
+        "lieb"
+      ],
+      "note": {
+        "en": "Nice and caring to people. 'A kind of' (a type) is 'eine Art'.",
+        "tr": "İnsanlara karşı nazik ve iyi. 'Bir tür' anlamındaki kelime 'eine Art'."
+      }
+    },
+    "funny": {
+      "text": "lustig",
+      "ex": "Leo ist sehr lustig.",
+      "also": [
+        "witzig"
+      ]
+    },
+    "happy": {
+      "text": "glücklich",
+      "ex": "Ich bin heute sehr glücklich.",
+      "also": [
+        "froh"
+      ]
+    },
+    "together": {
+      "text": "zusammen",
+      "ex": "Wir essen zusammen zu Mittag.",
+      "also": [
+        "gemeinsam"
+      ]
+    },
+    "man": {
+      "text": "der Mann",
+      "ex": "Der Mann dort ist mein Lehrer."
+    },
+    "woman": {
+      "text": "die Frau",
+      "ex": "Die Frau dort ist Ärztin."
+    },
+    "child": {
+      "text": "das Kind",
+      "ex": "Das Kind ist sechs."
+    },
+    "young": {
+      "text": "jung",
+      "ex": "Unser neuer Lehrer ist jung."
+    },
+    "old": {
+      "text": "alt",
+      "ex": "Mein Großvater ist alt, aber stark.",
+      "note": {
+        "en": "Of a person: not young. The same word is used for old things: ein altes Haus.",
+        "tr": "Bir kişi için: genç değil. Eski eşyalar için de aynı kelime kullanılır: ein altes Haus (eski bir ev)."
+      }
+    },
+    "tall": {
+      "text": "großgewachsen",
+      "ex": "Sam ist sehr großgewachsen.",
+      "also": [
+        "groß",
+        "groß gewachsen",
+        "hochgewachsen"
+      ],
+      "note": {
+        "en": "In everyday talk you just say 'groß': 'Sam ist sehr groß.' 'groß' also means 'big'.",
+        "tr": "Günlük konuşmada sadece 'groß' dersin: 'Sam ist sehr groß.' 'groß' aynı zamanda 'büyük' demek."
+      }
+    },
+    "one": {
+      "text": "eins",
+      "ex": "Ich habe einen Bruder.",
+      "note": {
+        "en": "You count 'eins'. Before a noun it changes like 'a': ein, eine, einen ('einen Bruder').",
+        "tr": "Sayarken 'eins' dersin. Bir ismin önünde ise ein, eine ya da einen olur ('einen Bruder')."
+      }
+    },
+    "two": {
+      "text": "zwei",
+      "ex": "Wir haben zwei Katzen."
+    },
+    "three": {
+      "text": "drei",
+      "ex": "Mein Sohn ist drei."
+    },
+    "four": {
+      "text": "vier",
+      "ex": "In meiner Familie gibt es vier Personen."
+    },
+    "five": {
+      "text": "fünf",
+      "ex": "Ich trinke fünf Gläser Wasser am Tag."
+    },
+    "six": {
+      "text": "sechs",
+      "ex": "Emma hat sechs Bücher."
+    },
+    "seven": {
+      "text": "sieben",
+      "ex": "Der Laden öffnet um sieben."
+    },
+    "eight": {
+      "text": "acht",
+      "ex": "Der Unterricht beginnt um acht."
+    },
+    "nine": {
+      "text": "neun",
+      "ex": "Deniz ist neun Jahre alt."
+    },
+    "ten": {
+      "text": "zehn",
+      "ex": "Ich habe zehn Minuten."
+    },
+    "eleven": {
+      "text": "elf",
+      "ex": "Unsere Klasse hat elf Schüler."
+    },
+    "twelve": {
+      "text": "zwölf",
+      "ex": "Leo wird heute zwölf."
+    },
+    "zero": {
+      "text": "null",
+      "ex": "Meine Telefonnummer beginnt mit einer Null.",
+      "note": {
+        "en": "As the name of the digit it is a noun with a capital N: 'eine Null', as in the example.",
+        "tr": "Rakamın adı olarak büyük N ile yazılan bir isimdir: örnekteki gibi 'eine Null'."
+      }
+    },
+    "twenty": {
+      "text": "zwanzig",
+      "ex": "In meiner Klasse sind zwanzig Schüler."
+    },
+    "thirty": {
+      "text": "dreißig",
+      "ex": "Unsere Lehrerin ist dreißig."
+    },
+    "fifty": {
+      "text": "fünfzig",
+      "ex": "Dieses Buch hat fünfzig Seiten."
+    },
+    "one-hundred": {
+      "text": "hundert",
+      "ex": "Meine Großmutter ist fast hundert.",
+      "also": [
+        "einhundert"
+      ]
+    },
+    "number": {
+      "text": "die Nummer",
+      "ex": "Wie ist deine Telefonnummer?",
+      "note": {
+        "en": "A phone or room number. A number in maths is 'die Zahl'.",
+        "tr": "Telefon ya da oda numarası. Matematikteki sayı ise 'die Zahl'."
+      }
+    },
+    "age": {
+      "text": "das Alter",
+      "ex": "Schreib hier deinen Namen und dein Alter."
+    },
+    "how-old-are-you": {
+      "text": "wie alt bist du?",
+      "ex": "Elif, wie alt bist du?",
+      "note": {
+        "en": "Informal, for one friend. To a stranger say 'Wie alt sind Sie?'",
+        "tr": "Samimi, bir arkadaşa. Tanımadığın birine 'Wie alt sind Sie?' dersin."
+      }
+    },
+    "how-many": {
+      "text": "wie viele?",
+      "ex": "Wie viele Brüder hast du?"
+    },
+    "year": {
+      "text": "das Jahr",
+      "ex": "Dieses Jahr werde ich achtzehn."
+    },
+    "birthday": {
+      "text": "der Geburtstag",
+      "ex": "Heute ist mein Geburtstag!"
+    },
+    "month": {
+      "text": "der Monat",
+      "ex": "Mein Geburtstag ist nächsten Monat."
+    },
+    "breakfast": {
+      "text": "das Frühstück",
+      "ex": "Bei uns gibt es um sieben Frühstück."
+    },
+    "bread": {
+      "text": "das Brot",
+      "ex": "Dieses Brot ist frisch."
+    },
+    "cheese": {
+      "text": "der Käse",
+      "ex": "Ich esse Brot und Käse."
+    },
+    "egg": {
+      "text": "das Ei",
+      "ex": "Mia isst jeden Morgen ein Ei."
+    },
+    "honey": {
+      "text": "der Honig",
+      "ex": "Mein Großvater gibt Honig in seinen Tee."
+    },
+    "eat": {
+      "text": "essen",
+      "ex": "Wir essen zu Hause."
+    },
+    "water": {
+      "text": "das Wasser",
+      "ex": "Dieses Wasser ist sehr kalt."
+    },
+    "tea": {
+      "text": "der Tee",
+      "ex": "Möchtest du Tee?"
+    },
+    "coffee": {
+      "text": "der Kaffee",
+      "ex": "Mein Vater trinkt Kaffee ohne Milch."
+    },
+    "milk": {
+      "text": "die Milch",
+      "ex": "Das Baby trinkt Milch."
+    },
+    "juice": {
+      "text": "der Saft",
+      "ex": "Zeynep trinkt Saft zum Frühstück.",
+      "also": [
+        "der Fruchtsaft"
+      ]
+    },
+    "drink": {
+      "text": "trinken",
+      "ex": "Am Abend trinken wir Tee.",
+      "note": {
+        "en": "The verb. A drink (the noun) is 'das Getränk'.",
+        "tr": "Fiil. İçecek (isim) ise 'das Getränk'."
+      }
+    },
+    "apple": {
+      "text": "der Apfel",
+      "ex": "Dieser Apfel ist rot."
+    },
+    "banana": {
+      "text": "die Banane",
+      "ex": "Ich habe eine Banane in meiner Tasche."
+    },
+    "tomato": {
+      "text": "die Tomate",
+      "ex": "Die Tomaten sind aus unserem Garten."
+    },
+    "potato": {
+      "text": "die Kartoffel",
+      "ex": "Zum Abendessen gibt es Kartoffeln."
+    },
+    "fruit": {
+      "text": "das Obst",
+      "ex": "Ali isst jeden Tag Obst.",
+      "note": {
+        "en": "'das Obst' is fruit in general and has no plural.",
+        "tr": "'das Obst' genel olarak meyve demek ve çoğulu yoktur."
+      }
+    },
+    "vegetable": {
+      "text": "das Gemüse",
+      "ex": "Meine Mutter kauft frisches Gemüse."
+    },
+    "lunch": {
+      "text": "das Mittagessen",
+      "ex": "Das Mittagessen ist bei uns um eins."
+    },
+    "dinner": {
+      "text": "das Abendessen",
+      "ex": "Das Abendessen ist fertig!"
+    },
+    "food": {
+      "text": "das Essen",
+      "ex": "In der Küche gibt es Essen."
+    },
+    "soup": {
+      "text": "die Suppe",
+      "ex": "Meine Großmutter kocht Tomatensuppe."
+    },
+    "hungry": {
+      "text": "hungrig",
+      "ex": "Ich bin hungrig, lass uns essen!",
+      "note": {
+        "en": "Most people say 'Ich habe Hunger' (word for word 'I have hunger').",
+        "tr": "Çoğu kişi 'Ich habe Hunger' der (kelimesi kelimesine 'açlığım var')."
+      }
+    },
+    "like": {
+      "text": "mögen",
+      "ex": "Ich mag Fisch, aber kein Hähnchen.",
+      "note": {
+        "en": "To enjoy something: ich mag, du magst, er mag. For food you also hear 'gern': 'Ich esse gern Fisch.'",
+        "tr": "Bir şeyi sevmek: ich mag, du magst, er mag. Yiyecek için 'gern' de duyarsın: 'Ich esse gern Fisch.'"
+      }
+    },
+    "house": {
+      "text": "das Haus",
+      "ex": "Ihr Haus liegt nah am Meer."
+    },
+    "room": {
+      "text": "das Zimmer",
+      "ex": "Mein Zimmer hat zwei Fenster."
+    },
+    "kitchen": {
+      "text": "die Küche",
+      "ex": "Mein Vater kocht in der Küche."
+    },
+    "bedroom": {
+      "text": "das Schlafzimmer",
+      "ex": "Das Schlafzimmer ist oben."
+    },
+    "bathroom": {
+      "text": "das Badezimmer",
+      "ex": "Das Badezimmer ist neben meinem Zimmer.",
+      "also": [
+        "das Bad"
+      ]
+    },
+    "garden": {
+      "text": "der Garten",
+      "ex": "Die Kinder spielen im Garten."
+    },
+    "table": {
+      "text": "der Tisch",
+      "ex": "Die Schlüssel liegen auf dem Tisch."
+    },
+    "chair": {
+      "text": "der Stuhl",
+      "ex": "Setz dich auf diesen Stuhl."
+    },
+    "bed": {
+      "text": "das Bett",
+      "ex": "Mein Bett ist sehr weich."
+    },
+    "sofa": {
+      "text": "das Sofa",
+      "ex": "Das Sofa ist groß und blau."
+    },
+    "door": {
+      "text": "die Tür",
+      "ex": "Bitte mach die Tür zu."
+    },
+    "window": {
+      "text": "das Fenster",
+      "ex": "Mach bitte das Fenster auf."
+    },
+    "lamp": {
+      "text": "die Lampe",
+      "ex": "Die Lampe steht neben meinem Bett."
+    },
+    "phone": {
+      "text": "das Telefon",
+      "ex": "Dein Telefon liegt auf dem Sofa.",
+      "also": [
+        "das Handy"
+      ],
+      "note": {
+        "en": "A mobile phone is usually called 'das Handy'.",
+        "tr": "Cep telefonuna genelde 'das Handy' denir."
+      }
+    },
+    "book": {
+      "text": "das Buch",
+      "ex": "Das ist ein gutes Buch."
+    },
+    "key": {
+      "text": "der Schlüssel",
+      "ex": "Ich habe den Schlüssel für die Tür."
+    },
+    "fridge": {
+      "text": "der Kühlschrank",
+      "ex": "Im Kühlschrank ist Käse."
+    },
+    "computer": {
+      "text": "der Computer",
+      "ex": "Sam hat einen neuen Computer."
+    },
+    "big": {
+      "text": "groß",
+      "ex": "Ihr Garten ist sehr groß."
+    },
+    "small": {
+      "text": "klein",
+      "ex": "Wir haben eine kleine Küche."
+    },
+    "new": {
+      "text": "neu",
+      "ex": "Das ist mein neues Haus."
+    },
+    "clean": {
+      "text": "sauber",
+      "ex": "Ist dein Zimmer sauber?"
+    },
+    "beautiful": {
+      "text": "schön",
+      "ex": "Was für ein schöner Garten!"
+    },
+    "there-is": {
+      "text": "es gibt",
+      "ex": "Da ist eine Katze auf dem Bett.",
+      "note": {
+        "en": "It takes einen/eine/ein: 'Es gibt einen Park.' For one thing you see in a place right now, say 'Da ist ...', as in the example.",
+        "tr": "einen/eine/ein ile kullanılır: 'Es gibt einen Park.' Şu an bir yerde gördüğün tek bir şey için örnekteki gibi 'Da ist ...' dersin."
+      }
+    },
+    "morning": {
+      "text": "der Morgen",
+      "ex": "Am Morgen trinke ich Kaffee."
+    },
+    "afternoon": {
+      "text": "der Nachmittag",
+      "ex": "Am Nachmittag spielen wir im Park."
+    },
+    "evening": {
+      "text": "der Abend",
+      "ex": "Am Abend isst meine Familie zusammen."
+    },
+    "night": {
+      "text": "die Nacht",
+      "ex": "In der Nacht ist die Stadt ruhig."
+    },
+    "today": {
+      "text": "heute",
+      "ex": "Ich bin heute sehr beschäftigt."
+    },
+    "now": {
+      "text": "jetzt",
+      "ex": "Mia ist jetzt nicht zu Hause."
+    },
+    "wake-up": {
+      "text": "aufwachen",
+      "ex": "Ich wache um sieben auf.",
+      "note": {
+        "en": "It splits in two: 'Ich wache um sieben auf.' The 'auf' goes to the end.",
+        "tr": "İkiye ayrılır: 'Ich wache um sieben auf.' 'auf' cümlenin sonuna gider."
+      }
+    },
+    "take-a-shower": {
+      "text": "duschen",
+      "ex": "Leo duscht jeden Morgen."
+    },
+    "go": {
+      "text": "gehen",
+      "ex": "Wir fahren mit dem Bus zur Schule.",
+      "note": {
+        "en": "'gehen' is to go on foot. By bus, car or train you say 'fahren', as in the example.",
+        "tr": "'gehen' yürüyerek gitmek demek. Otobüsle, arabayla ya da trenle 'fahren' dersin, örnekteki gibi."
+      }
+    },
+    "work": {
+      "text": "arbeiten",
+      "ex": "Meine Mutter arbeitet in einem Krankenhaus.",
+      "note": {
+        "en": "To do a job. Studying for school is 'lernen', not 'arbeiten'.",
+        "tr": "Bir işte çalışmak. Ders çalışmak 'arbeiten' değil, 'lernen' olur."
+      }
+    },
+    "school": {
+      "text": "die Schule",
+      "ex": "Die Schule ist in der Nähe von meinem Haus."
+    },
+    "sleep": {
+      "text": "schlafen",
+      "ex": "Babys schlafen viel."
+    },
+    "monday": {
+      "text": "der Montag",
+      "ex": "Die Schule beginnt am Montag."
+    },
+    "tuesday": {
+      "text": "der Dienstag",
+      "ex": "Am Dienstag habe ich Musikunterricht."
+    },
+    "wednesday": {
+      "text": "der Mittwoch",
+      "ex": "Am Mittwoch habe ich viel zu tun."
+    },
+    "thursday": {
+      "text": "der Donnerstag",
+      "ex": "Wir treffen uns am Donnerstag."
+    },
+    "friday": {
+      "text": "der Freitag",
+      "ex": "Freitag ist mein Lieblingstag."
+    },
+    "week": {
+      "text": "die Woche",
+      "ex": "Ich arbeite fünf Tage pro Woche."
+    },
+    "saturday": {
+      "text": "der Samstag",
+      "ex": "Am Samstag besuchen wir unsere Großmutter.",
+      "also": [
+        "der Sonnabend"
+      ]
+    },
+    "sunday": {
+      "text": "der Sonntag",
+      "ex": "Am Sonntag sind die Geschäfte geschlossen."
+    },
+    "weekend": {
+      "text": "das Wochenende",
+      "ex": "Was machst du am Wochenende?"
+    },
+    "read": {
+      "text": "lesen",
+      "ex": "Zeynep liest jeden Abend ein Buch."
+    },
+    "watch": {
+      "text": "anschauen",
+      "ex": "Am Samstag schauen wir einen Film an.",
+      "also": [
+        "ansehen",
+        "schauen"
+      ],
+      "note": {
+        "en": "For a movie. It splits: 'Wir schauen einen Film an.' To watch TV is 'fernsehen'.",
+        "tr": "Film için. Ayrılır: 'Wir schauen einen Film an.' Televizyon izlemek 'fernsehen'."
+      }
+    },
+    "play": {
+      "text": "spielen",
+      "ex": "Ali und Leo spielen Tennis.",
+      "note": {
+        "en": "For games, sports and music: Tennis spielen, Gitarre spielen.",
+        "tr": "Oyun, spor ve müzik için: Tennis spielen, Gitarre spielen (gitar çalmak)."
+      }
+    },
+    "city": {
+      "text": "die Stadt",
+      "ex": "Istanbul ist eine sehr große Stadt."
+    },
+    "street": {
+      "text": "die Straße",
+      "ex": "Meine Schule ist in dieser Straße."
+    },
+    "park": {
+      "text": "der Park",
+      "ex": "Am Sonntag gehen wir im Park spazieren.",
+      "note": {
+        "en": "The noun: a green place in town. To park a car is 'parken'.",
+        "tr": "İsim: şehirdeki yeşil alan. Araba park etmek 'parken'."
+      }
+    },
+    "hospital": {
+      "text": "das Krankenhaus",
+      "ex": "Das Krankenhaus ist in der Nähe vom Bahnhof."
+    },
+    "museum": {
+      "text": "das Museum",
+      "ex": "Das Museum ist am Montag geschlossen."
+    },
+    "bank": {
+      "text": "die Bank",
+      "ex": "Die Bank öffnet um neun.",
+      "note": {
+        "en": "It also means 'bench'. The plural for banks is 'die Banken'.",
+        "tr": "'Bank' aynı zamanda 'oturma bankı' demek. Bankaların çoğulu 'die Banken'."
+      }
+    },
+    "supermarket": {
+      "text": "der Supermarkt",
+      "ex": "Ich kaufe Milch im Supermarkt."
+    },
+    "pharmacy": {
+      "text": "die Apotheke",
+      "ex": "Die Apotheke ist die ganze Nacht offen."
+    },
+    "restaurant": {
+      "text": "das Restaurant",
+      "ex": "Dieses Restaurant hat gute Suppe."
+    },
+    "library": {
+      "text": "die Bibliothek",
+      "ex": "Elif lernt in der Bibliothek."
+    },
+    "bakery": {
+      "text": "die Bäckerei",
+      "ex": "Die Bäckerei verkauft frisches Brot."
+    },
+    "cafe": {
+      "text": "das Café",
+      "ex": "Wir trinken Kaffee im Café."
+    },
+    "left": {
+      "text": "links",
+      "ex": "Bieg an der Bank links ab."
+    },
+    "right": {
+      "text": "rechts",
+      "ex": "Das Museum ist rechts von dir.",
+      "note": {
+        "en": "The direction. 'Right' as in 'correct' is 'richtig'.",
+        "tr": "Yön. 'Doğru' anlamındaki kelime ise 'richtig'."
+      }
+    },
+    "straight-ahead": {
+      "text": "geradeaus",
+      "ex": "Geh fünf Minuten geradeaus."
+    },
+    "turn": {
+      "text": "abbiegen",
+      "ex": "Bieg nach dem Park rechts ab.",
+      "note": {
+        "en": "To change direction. It splits: 'Bieg links ab!' The 'ab' goes to the end.",
+        "tr": "Yön değiştirmek. Ayrılır: 'Bieg links ab!' 'ab' sona gider."
+      }
+    },
+    "corner": {
+      "text": "die Ecke",
+      "ex": "An der Ecke ist eine Bäckerei."
+    },
+    "where": {
+      "text": "wo",
+      "ex": "Entschuldigung, wo ist die Bank?"
+    },
+    "near": {
+      "text": "nah",
+      "ex": "Mein Haus ist nah am Park.",
+      "also": [
+        "nahe",
+        "in der Nähe"
+      ]
+    },
+    "far": {
+      "text": "weit",
+      "ex": "Ist der Strand weit von hier?",
+      "also": [
+        "weit weg"
+      ]
+    },
+    "in-front-of": {
+      "text": "vor",
+      "ex": "Treffen wir uns vor der Bibliothek."
+    },
+    "behind": {
+      "text": "hinter",
+      "ex": "Der Garten ist hinter dem Haus."
+    },
+    "between": {
+      "text": "zwischen",
+      "ex": "Die Bank ist zwischen dem Café und der Bäckerei."
+    },
+    "map": {
+      "text": "die Karte",
+      "ex": "Hast du eine Karte von der Stadt?",
+      "also": [
+        "die Landkarte",
+        "der Stadtplan"
+      ],
+      "note": {
+        "en": "'die Karte' is also a card or a menu. A map of a city is often 'der Stadtplan'.",
+        "tr": "'die Karte' aynı zamanda kart ya da menü demek. Şehir haritasına çoğu zaman 'der Stadtplan' denir."
+      }
+    },
+    "shirt": {
+      "text": "das Hemd",
+      "ex": "Ali trägt ein weißes Hemd zur Arbeit."
+    },
+    "pants": {
+      "text": "die Hose",
+      "ex": "Diese Hose ist zu lang.",
+      "note": {
+        "en": "Singular in German: one pair of pants is 'eine Hose'.",
+        "tr": "Almancada tekildir: bir pantolon 'eine Hose'."
+      }
+    },
+    "dress": {
+      "text": "das Kleid",
+      "ex": "Anna trägt ein langes Kleid."
+    },
+    "shoes": {
+      "text": "die Schuhe",
+      "ex": "Meine Schuhe sind unter dem Bett.",
+      "note": {
+        "en": "This is the plural. One shoe is 'der Schuh'.",
+        "tr": "Bu çoğul biçim. Tek ayakkabı 'der Schuh'."
+      }
+    },
+    "jacket": {
+      "text": "die Jacke",
+      "ex": "Nimm deine Jacke, es ist kalt."
+    },
+    "wear": {
+      "text": "tragen",
+      "ex": "Im Winter trage ich eine Jacke.",
+      "also": [
+        "anhaben"
+      ],
+      "note": {
+        "en": "For all clothes. It changes: ich trage, du trägst, er trägt. It also means 'to carry'.",
+        "tr": "Bütün giysiler için. Değişir: ich trage, du trägst, er trägt. 'Taşımak' anlamı da var."
+      }
+    },
+    "red": {
+      "text": "rot",
+      "ex": "Ich möchte das rote Hemd."
+    },
+    "blue": {
+      "text": "blau",
+      "ex": "Emma hat blaue Augen."
+    },
+    "green": {
+      "text": "grün",
+      "ex": "Ich mag grüne Äpfel."
+    },
+    "yellow": {
+      "text": "gelb",
+      "ex": "Meine Schwester mag gelbe Blumen."
+    },
+    "black": {
+      "text": "schwarz",
+      "ex": "Tom hat einen schwarzen Hund."
+    },
+    "white": {
+      "text": "weiß",
+      "ex": "Die Wände in meinem Zimmer sind weiß."
+    },
+    "price": {
+      "text": "der Preis",
+      "ex": "Was ist der Preis für diese Tasche?"
+    },
+    "how-much-is-it": {
+      "text": "was kostet das?",
+      "ex": "Das T-Shirt ist schön. Was kostet das?",
+      "also": [
+        "wie viel kostet das?"
+      ]
+    },
+    "cheap": {
+      "text": "billig",
+      "ex": "Diese Schuhe sind billig.",
+      "also": [
+        "günstig"
+      ]
+    },
+    "expensive": {
+      "text": "teuer",
+      "ex": "Die Jacke dort ist zu teuer."
+    },
+    "pay": {
+      "text": "bezahlen",
+      "ex": "Kann ich mit Karte bezahlen?",
+      "also": [
+        "zahlen"
+      ]
+    },
+    "money": {
+      "text": "das Geld",
+      "ex": "Ich habe nicht viel Geld."
+    },
+    "shop": {
+      "text": "das Geschäft",
+      "ex": "Das Geschäft schließt um acht.",
+      "also": [
+        "der Laden"
+      ]
+    },
+    "buy": {
+      "text": "kaufen",
+      "ex": "Ich möchte eine neue Tasche kaufen."
+    },
+    "sell": {
+      "text": "verkaufen",
+      "ex": "Hier verkaufen sie Schuhe und Taschen."
+    },
+    "size": {
+      "text": "die Größe",
+      "ex": "Gibt es das auch in einer größeren Größe?",
+      "note": {
+        "en": "The size of clothes or shoes. 'Welche Größe hast du?' asks 'What size are you?'",
+        "tr": "Giysi ya da ayakkabı bedeni. 'Welche Größe hast du?' 'Bedenin ne?' demek."
+      }
+    },
+    "try-on": {
+      "text": "anprobieren",
+      "ex": "Kann ich dieses Kleid anprobieren?",
+      "note": {
+        "en": "To put clothes on in a shop. In a statement it splits: 'Ich probiere das Kleid an.'",
+        "tr": "Mağazada giysiyi denemek. Düz cümlede ayrılır: 'Ich probiere das Kleid an.'"
+      }
+    },
+    "bag": {
+      "text": "die Tasche",
+      "ex": "Stell deine Tasche auf den Stuhl."
+    },
+    "weather": {
+      "text": "das Wetter",
+      "ex": "Das Wetter ist heute schön."
+    },
+    "sun": {
+      "text": "die Sonne",
+      "ex": "In Madrid scheint die Sonne."
+    },
+    "rain": {
+      "text": "der Regen",
+      "ex": "In London gibt es viel Regen."
+    },
+    "snow": {
+      "text": "der Schnee",
+      "ex": "Die Kinder spielen gerade im Schnee."
+    },
+    "wind": {
+      "text": "der Wind",
+      "ex": "Der Wind ist heute sehr kalt."
+    },
+    "cloud": {
+      "text": "die Wolke",
+      "ex": "Am Himmel sind keine Wolken."
+    },
+    "hot": {
+      "text": "heiß",
+      "ex": "Im Sommer ist es sehr heiß.",
+      "note": {
+        "en": "Of the weather: 'Es ist heiß.' To say that you feel hot, use 'Mir ist heiß', not 'Ich bin heiß'.",
+        "tr": "Hava için: 'Es ist heiß.' Sıcakladığını söylemek için 'Mir ist heiß' dersin, 'Ich bin heiß' demezsin."
+      }
+    },
+    "cold": {
+      "text": "kalt",
+      "ex": "Heute ist es draußen kalt.",
+      "note": {
+        "en": "Of the weather: 'Es ist kalt.' To say that you feel cold, use 'Mir ist kalt'.",
+        "tr": "Hava için: 'Es ist kalt.' Üşüdüğünü söylemek için 'Mir ist kalt' dersin."
+      }
+    },
+    "sky": {
+      "text": "der Himmel",
+      "ex": "Der Himmel ist heute grau."
+    },
+    "umbrella": {
+      "text": "der Regenschirm",
+      "ex": "Nimm einen Regenschirm mit, es regnet.",
+      "also": [
+        "der Schirm"
+      ]
+    },
+    "wet": {
+      "text": "nass",
+      "ex": "Meine Haare sind nass vom Regen."
+    },
+    "degree": {
+      "text": "der Grad",
+      "ex": "Heute sind es dreißig Grad."
+    },
+    "season": {
+      "text": "die Jahreszeit",
+      "ex": "Meine liebste Jahreszeit ist der Frühling."
+    },
+    "spring": {
+      "text": "der Frühling",
+      "ex": "Im Frühling blühen die Blumen.",
+      "also": [
+        "das Frühjahr"
+      ],
+      "note": {
+        "en": "The season. 'das Frühjahr' means the same.",
+        "tr": "Mevsim. 'das Frühjahr' de aynı anlamda."
+      }
+    },
+    "summer": {
+      "text": "der Sommer",
+      "ex": "Im Sommer fahren wir an den Strand."
+    },
+    "fall": {
+      "text": "der Herbst",
+      "ex": "Im Herbst sind die Blätter gelb.",
+      "note": {
+        "en": "The season (autumn). All four seasons are der words: der Frühling, der Sommer, der Herbst, der Winter.",
+        "tr": "Mevsim. Dört mevsimin hepsi der kelimesidir: der Frühling, der Sommer, der Herbst, der Winter."
+      }
+    },
+    "winter": {
+      "text": "der Winter",
+      "ex": "In Seoul sind die Winter kalt."
+    },
+    "flower": {
+      "text": "die Blume",
+      "ex": "Meine Mutter liebt Blumen."
+    },
+    "outside": {
+      "text": "draußen",
+      "ex": "Lass uns heute draußen essen."
+    },
+    "inside": {
+      "text": "drinnen",
+      "ex": "Es regnet, also bleiben wir drinnen."
+    },
+    "beach": {
+      "text": "der Strand",
+      "ex": "Elif liest gerade am Strand."
+    },
+    "swim": {
+      "text": "schwimmen",
+      "ex": "Ali schwimmt gerade im Meer."
+    },
+    "walk": {
+      "text": "spazieren gehen",
+      "ex": "Anna und ich gehen gerade am Meer spazieren.",
+      "also": [
+        "spazieren"
+      ],
+      "note": {
+        "en": "To walk for fun. To walk somewhere (not by bus) is 'zu Fuß gehen'.",
+        "tr": "Keyif için yürümek. Bir yere yürüyerek gitmek (otobüsle değil) 'zu Fuß gehen'."
+      }
+    },
+    "stay": {
+      "text": "bleiben",
+      "ex": "Ich bleibe heute zu Hause.",
+      "note": {
+        "en": "To remain in a place. To live somewhere is 'wohnen'.",
+        "tr": "Bir yerde kalmak, ayrılmamak. Bir yerde oturmak, yaşamak ise 'wohnen'."
+      }
+    },
+    "bus": {
+      "text": "der Bus",
+      "ex": "Der Bus war heute Morgen voll."
+    },
+    "train": {
+      "text": "der Zug",
+      "ex": "Der Zug nach Madrid war schnell."
+    },
+    "car": {
+      "text": "das Auto",
+      "ex": "Mein erstes Auto war rot."
+    },
+    "bike": {
+      "text": "das Fahrrad",
+      "ex": "Ich fahre mit dem Fahrrad zur Arbeit.",
+      "also": [
+        "das Rad"
+      ]
+    },
+    "taxi": {
+      "text": "das Taxi",
+      "ex": "Das Taxi war sehr teuer."
+    },
+    "plane": {
+      "text": "das Flugzeug",
+      "ex": "Wir waren zwölf Stunden im Flugzeug."
+    },
+    "ticket": {
+      "text": "die Fahrkarte",
+      "ex": "Ist das deine Fahrkarte für den Zug?",
+      "also": [
+        "das Ticket"
+      ]
+    },
+    "station": {
+      "text": "der Bahnhof",
+      "ex": "Der Bahnhof war voller Menschen."
+    },
+    "airport": {
+      "text": "der Flughafen",
+      "ex": "Der Flughafen war weit weg von der Stadt."
+    },
+    "passport": {
+      "text": "der Pass",
+      "ex": "Dein Pass war auf dem Tisch.",
+      "also": [
+        "der Reisepass"
+      ]
+    },
+    "early": {
+      "text": "früh",
+      "ex": "Montags wache ich früh auf."
+    },
+    "late": {
+      "text": "spät",
+      "ex": "Tut mir leid, ich war heute spät dran."
+    },
+    "hotel": {
+      "text": "das Hotel",
+      "ex": "Unser Hotel war nah am Meer."
+    },
+    "suitcase": {
+      "text": "der Koffer",
+      "ex": "Mein Koffer war sehr schwer."
+    },
+    "floor": {
+      "text": "der Stock",
+      "ex": "Unser Zimmer war im fünften Stock.",
+      "also": [
+        "die Etage",
+        "das Stockwerk"
+      ],
+      "note": {
+        "en": "A level of a building. The floor you walk on is 'der Boden'.",
+        "tr": "Binanın katı. Üzerinde yürüdüğün zemin ise 'der Boden'."
+      }
+    },
+    "view": {
+      "text": "die Aussicht",
+      "ex": "Die Aussicht aus dem Fenster war schön.",
+      "also": [
+        "der Blick"
+      ]
+    },
+    "comfortable": {
+      "text": "bequem",
+      "ex": "Die Betten waren sehr bequem."
+    },
+    "quiet": {
+      "text": "ruhig",
+      "ex": "Das Hotel war sauber und ruhig."
+    },
+    "vacation": {
+      "text": "der Urlaub",
+      "ex": "Unser Urlaub war zu kurz.",
+      "also": [
+        "die Ferien"
+      ]
+    },
+    "sea": {
+      "text": "das Meer",
+      "ex": "Das Meer war warm und blau."
+    },
+    "mountain": {
+      "text": "der Berg",
+      "ex": "Die Berge waren weiß vom Schnee."
+    },
+    "photo": {
+      "text": "das Foto",
+      "ex": "Dieses Foto ist aus Tokio."
+    },
+    "visit": {
+      "text": "besuchen",
+      "ex": "Touristen besuchen jeden Tag das Museum."
+    },
+    "wonderful": {
+      "text": "wunderbar",
+      "ex": "Es war ein wunderbarer Tag am Strand.",
+      "also": [
+        "herrlich"
+      ]
+    },
+    "yesterday": {
+      "text": "gestern",
+      "ex": "Ich habe Elif gestern gesehen."
+    },
+    "last-night": {
+      "text": "gestern Abend",
+      "ex": "Gestern Abend haben wir einen Film gesehen.",
+      "also": [
+        "letzte Nacht"
+      ]
+    },
+    "last-week": {
+      "text": "letzte Woche",
+      "ex": "Letzte Woche hat Tom Paris besucht.",
+      "also": [
+        "vergangene Woche"
+      ]
+    },
+    "last-year": {
+      "text": "letztes Jahr",
+      "ex": "Letztes Jahr sind wir nach Berlin gezogen.",
+      "also": [
+        "vergangenes Jahr"
+      ]
+    },
+    "ago": {
+      "text": "vor ...",
+      "also": [
+        "vor"
+      ],
+      "ex": "Ich habe vor zwei Jahren mit dieser Arbeit angefangen.",
+      "note": {
+        "en": "Put 'vor' before the time: vor zwei Tagen (two days ago). The time word often gets -n: Jahre, vor zwei Jahren. 'vor' also means 'in front of'.",
+        "tr": "'vor' zamanın önüne gelir: vor zwei Tagen (iki gün önce). Zaman kelimesi çoğu zaman -n alır: Jahre, vor zwei Jahren. 'vor' 'önünde' de demek."
+      }
+    },
+    "then": {
+      "text": "dann",
+      "ex": "Wir haben zu Mittag gegessen, dann sind wir spazieren gegangen.",
+      "also": [
+        "danach"
+      ],
+      "note": {
+        "en": "After that. The verb comes right after 'dann': 'dann sind wir ...'.",
+        "tr": "Ondan sonra. Fiil 'dann' kelimesinden hemen sonra gelir: 'dann sind wir ...'."
+      }
+    },
+    "meet": {
+      "text": "treffen",
+      "ex": "Ich habe Zeynep im Café getroffen.",
+      "also": [
+        "sich treffen"
+      ],
+      "note": {
+        "en": "To meet someone you know. To meet someone for the first time is 'kennenlernen'.",
+        "tr": "Tanıdığın biriyle buluşmak. Biriyle ilk kez tanışmak ise 'kennenlernen'."
+      }
+    },
+    "see": {
+      "text": "sehen",
+      "ex": "Ich habe deinen Bruder im Park gesehen."
+    },
+    "dance": {
+      "text": "tanzen",
+      "ex": "Wir haben die ganze Nacht getanzt."
+    },
+    "sing": {
+      "text": "singen",
+      "ex": "Mia hat ein Lied für uns gesungen."
+    },
+    "party": {
+      "text": "die Party",
+      "ex": "Die Party war bei Leo zu Hause.",
+      "also": [
+        "die Feier",
+        "das Fest"
+      ],
+      "note": {
+        "en": "A celebration with friends. A political party is 'die Partei'.",
+        "tr": "Arkadaşlarla kutlama. Siyasi parti ise 'die Partei'."
+      }
+    },
+    "have-fun": {
+      "text": "Spaß haben",
+      "ex": "Die Kinder hatten viel Spaß."
+    },
+    "cook": {
+      "text": "kochen",
+      "ex": "Mein Vater hat Fisch für uns gekocht.",
+      "note": {
+        "en": "To make food. The person who cooks in a restaurant is 'der Koch'.",
+        "tr": "Yemek yapmak. Restoranda yemek yapan kişi ise 'der Koch' (aşçı)."
+      }
+    },
+    "wash": {
+      "text": "waschen",
+      "ex": "Am Sonntag habe ich mein Auto gewaschen."
+    },
+    "call": {
+      "text": "anrufen",
+      "ex": "Ich habe gestern Abend meine Großmutter angerufen.",
+      "note": {
+        "en": "To phone someone. It splits: 'Ich rufe dich an.' Past: 'Ich habe dich angerufen.'",
+        "tr": "Birine telefon etmek. Ayrılır: 'Ich rufe dich an.' Geçmiş: 'Ich habe dich angerufen.'"
+      }
+    },
+    "write": {
+      "text": "schreiben",
+      "ex": "Anna hat eine lange E-Mail geschrieben."
+    },
+    "listen": {
+      "text": "hören",
+      "ex": "Wir haben den ganzen Tag Musik gehört.",
+      "also": [
+        "zuhören"
+      ]
+    },
+    "music": {
+      "text": "die Musik",
+      "ex": "Ich mag ruhige Musik."
+    },
+    "tired": {
+      "text": "müde",
+      "ex": "Nach der Arbeit war ich sehr müde."
+    },
+    "forget": {
+      "text": "vergessen",
+      "ex": "Ich habe meinen Regenschirm zu Hause vergessen."
+    },
+    "lose": {
+      "text": "verlieren",
+      "ex": "Sam hat gestern seine Schlüssel verloren."
+    },
+    "find": {
+      "text": "finden",
+      "ex": "Ich habe mein Telefon unter dem Bett gefunden."
+    },
+    "finish": {
+      "text": "beenden",
+      "ex": "Um neun haben wir unsere Hausaufgaben beendet.",
+      "note": {
+        "en": "In everyday talk you often hear 'mit ... fertig sein': 'Um neun waren wir mit den Hausaufgaben fertig.'",
+        "tr": "Günlük konuşmada çoğu zaman 'mit ... fertig sein' duyarsın: 'Um neun waren wir mit den Hausaufgaben fertig.' (Ödevleri dokuzda bitirdik.)"
+      }
+    },
+    "start": {
+      "text": "anfangen",
+      "ex": "Der Film hat um acht angefangen.",
+      "also": [
+        "beginnen"
+      ]
+    },
+    "tomorrow": {
+      "text": "morgen",
+      "ex": "Morgen besuche ich meine Großmutter."
+    },
+    "tonight": {
+      "text": "heute Abend",
+      "ex": "Heute Abend sehen wir einen Film."
+    },
+    "next-week": {
+      "text": "nächste Woche",
+      "ex": "Nächste Woche fange ich eine neue Arbeit an."
+    },
+    "next-year": {
+      "text": "nächstes Jahr",
+      "ex": "Nächstes Jahr ziehen wir nach Seoul."
+    },
+    "soon": {
+      "text": "bald",
+      "ex": "Meine Schwester besucht uns bald."
+    },
+    "plan": {
+      "text": "der Plan",
+      "ex": "Was ist dein Plan für Samstag?",
+      "note": {
+        "en": "The noun. A common way to ask about plans is 'Was hast du vor?'",
+        "tr": "İsim. Planları sormanın yaygın bir yolu: 'Was hast du vor?' (Ne yapmayı düşünüyorsun?)"
+      }
+    },
+    "invite": {
+      "text": "einladen",
+      "ex": "Ich möchte dich zum Abendessen einladen."
+    },
+    "would-you-like": {
+      "text": "möchtest du...?",
+      "ex": "Möchtest du einen Tee?",
+      "also": [
+        "möchtest du?"
+      ],
+      "note": {
+        "en": "A polite offer to one friend. 'möchten' is the polite 'want': ich möchte, du möchtest.",
+        "tr": "Bir arkadaşa kibar bir teklif. 'möchten' kibar bir 'istemek': ich möchte, du möchtest."
+      }
+    },
+    "come": {
+      "text": "kommen",
+      "ex": "Möchtest du zu meiner Party kommen?"
+    },
+    "free": {
+      "text": "frei",
+      "ex": "Bist du am Freitagabend frei?",
+      "note": {
+        "en": "Not busy. 'Costs nothing' is 'kostenlos'. 'Hast du Zeit?' (do you have time?) is common too.",
+        "tr": "Meşgul değil. 'Ücretsiz' ise 'kostenlos'. 'Hast du Zeit?' (vaktin var mı?) de çok kullanılır."
+      }
+    },
+    "busy": {
+      "text": "beschäftigt",
+      "ex": "Tut mir leid, morgen bin ich beschäftigt."
+    },
+    "concert": {
+      "text": "das Konzert",
+      "ex": "Heute Abend gibt es ein Konzert im Park."
+    },
+    "of-course": {
+      "text": "natürlich",
+      "ex": "Natürlich komme ich!",
+      "also": [
+        "klar",
+        "selbstverständlich"
+      ]
+    },
+    "good-idea": {
+      "text": "gute Idee",
+      "ex": "Ein Picknick am Sonntag? Gute Idee!",
+      "also": [
+        "eine gute Idee"
+      ]
+    },
+    "maybe": {
+      "text": "vielleicht",
+      "ex": "Vielleicht komme ich später."
+    },
+    "unfortunately": {
+      "text": "leider",
+      "ex": "Leider ist das Geschäft heute geschlossen."
+    },
+    "another-time": {
+      "text": "ein andermal",
+      "ex": "Tut mir leid, ich kann nicht kommen. Vielleicht ein andermal?",
+      "also": [
+        "ein anderes Mal"
+      ]
+    },
+    "i-would-love-to": {
+      "text": "sehr gern",
+      "ex": "Abendessen am Samstag? Sehr gern!",
+      "also": [
+        "sehr gerne",
+        "liebend gern"
+      ],
+      "note": {
+        "en": "A warm yes to an invitation. 'Ich komme sehr gern' means 'I would love to come'.",
+        "tr": "Bir davete sıcak bir evet. 'Ich komme sehr gern' 'Gelmeyi çok isterim' demek."
+      }
+    },
+    "learn": {
+      "text": "lernen",
+      "ex": "Ich möchte kochen lernen."
+    },
+    "travel": {
+      "text": "reisen",
+      "ex": "Emma wird nach Tokio reisen."
+    },
+    "rest": {
+      "text": "sich ausruhen",
+      "ex": "Dieses Wochenende ruhe ich mich aus.",
+      "also": [
+        "ausruhen",
+        "sich erholen"
+      ],
+      "note": {
+        "en": "To relax and not work. It splits and takes 'mich' or 'dich': 'Ich ruhe mich aus.'",
+        "tr": "Çalışmadan dinlenmek. Ayrılır ve 'mich' ya da 'dich' alır: 'Ich ruhe mich aus.'"
+      }
+    },
+    "celebrate": {
+      "text": "feiern",
+      "ex": "Wir feiern ihren Geburtstag."
+    },
+    "bring": {
+      "text": "mitbringen",
+      "ex": "Ich bringe einen Kuchen mit.",
+      "also": [
+        "bringen"
+      ],
+      "note": {
+        "en": "To bring along, for example to a party. It splits: 'Ich bringe einen Kuchen mit.'",
+        "tr": "Yanında getirmek, örneğin bir partiye. Ayrılır: 'Ich bringe einen Kuchen mit.'"
+      }
+    },
+    "ready": {
+      "text": "bereit",
+      "ex": "Bist du bereit für die Reise?",
+      "also": [
+        "fertig"
+      ]
+    }
+  },
+  "sentences": {
+    "u01-1-a": {
+      "tokens": [
+        "Guten",
+        "Morgen,",
+        "Zeynep",
+        "und",
+        "Ali!"
+      ],
+      "gap": 1,
+      "wrong": [
+        "Nacht",
+        "Name",
+        "Lehrer"
+      ]
+    },
+    "u01-1-b": {
+      "tokens": [
+        "Hallo",
+        "Sam,",
+        "wie",
+        "geht",
+        "es",
+        "dir?"
+      ],
+      "gap": 3,
+      "wrong": [
+        "hat",
+        "macht",
+        "heißt"
+      ]
+    },
+    "u01-2-a": {
+      "tokens": [
+        "Gute",
+        "Nacht,",
+        "Mia",
+        "und",
+        "Leo."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Morgen",
+        "Abend",
+        "Tag"
+      ]
+    },
+    "u01-2-b": {
+      "tokens": [
+        "Bis",
+        "morgen,",
+        "Tom."
+      ],
+      "gap": 1,
+      "wrong": [
+        "gestern",
+        "jetzt",
+        "hier"
+      ]
+    },
+    "u01-3-a": {
+      "tokens": [
+        "Freut",
+        "mich,",
+        "Tom."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Geht",
+        "Kommt",
+        "Heißt"
+      ]
+    },
+    "u01-3-b": {
+      "tokens": [
+        "Anna",
+        "ist",
+        "Lehrerin",
+        "aus",
+        "Berlin."
+      ],
+      "gap": 2,
+      "wrong": [
+        "Land",
+        "Name",
+        "Nacht"
+      ]
+    },
+    "u01-4-a": {
+      "tokens": [
+        "Zwei",
+        "Tee,",
+        "bitte."
+      ],
+      "gap": 2,
+      "wrong": [
+        "hallo",
+        "tschüss",
+        "woher"
+      ]
+    },
+    "u01-4-b": {
+      "tokens": [
+        "Vielen",
+        "Dank,",
+        "Emre."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Morgen",
+        "Abend",
+        "Name"
+      ]
+    },
+    "u02-1-a": {
+      "tokens": [
+        "Meine",
+        "Mutter",
+        "und",
+        "mein",
+        "Vater",
+        "sind",
+        "Lehrer."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Bruder",
+        "Vater",
+        "Baby"
+      ]
+    },
+    "u02-1-b": {
+      "tokens": [
+        "Zeynep",
+        "hat",
+        "einen",
+        "Bruder."
+      ],
+      "gap": 3,
+      "wrong": [
+        "Schwester",
+        "Mutter",
+        "Familie"
+      ]
+    },
+    "u02-2-a": {
+      "tokens": [
+        "Meine",
+        "Großmutter",
+        "wohnt",
+        "bei",
+        "uns."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Großvater",
+        "Hund",
+        "Sohn"
+      ]
+    },
+    "u02-2-b": {
+      "tokens": [
+        "Mia",
+        "hat",
+        "eine",
+        "schwarze",
+        "Katze."
+      ],
+      "gap": 4,
+      "wrong": [
+        "Hund",
+        "Vater",
+        "Bruder"
+      ]
+    },
+    "u02-3-a": {
+      "tokens": [
+        "Emma",
+        "ist",
+        "meine",
+        "neue",
+        "Nachbarin."
+      ],
+      "gap": 4,
+      "wrong": [
+        "Freund",
+        "Bruder",
+        "Vater"
+      ]
+    },
+    "u02-3-b": {
+      "tokens": [
+        "Meine",
+        "Freunde",
+        "sind",
+        "sehr",
+        "lustig."
+      ],
+      "gap": 2,
+      "wrong": [
+        "haben",
+        "heißen",
+        "machen"
+      ]
+    },
+    "u02-4-a": {
+      "tokens": [
+        "Der",
+        "Mann",
+        "dort",
+        "ist",
+        "sehr",
+        "groß."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Frau",
+        "Kind",
+        "Baby"
+      ]
+    },
+    "u02-4-b": {
+      "tokens": [
+        "Die",
+        "Frau",
+        "ist",
+        "jung",
+        "und",
+        "glücklich."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Mann",
+        "Vater",
+        "Bruder"
+      ]
+    },
+    "u03-1-a": {
+      "tokens": [
+        "Ich",
+        "habe",
+        "zwei",
+        "Schwestern."
+      ],
+      "gap": 1,
+      "wrong": [
+        "bin",
+        "heiße",
+        "komme"
+      ]
+    },
+    "u03-1-b": {
+      "tokens": [
+        "Vier",
+        "plus",
+        "zwei",
+        "ist",
+        "sechs."
+      ],
+      "gap": 4,
+      "wrong": [
+        "fünf",
+        "drei",
+        "zwölf"
+      ]
+    },
+    "u03-2-a": {
+      "tokens": [
+        "Meine",
+        "Schwester",
+        "ist",
+        "acht",
+        "Jahre",
+        "alt."
+      ],
+      "gap": 5,
+      "wrong": [
+        "groß",
+        "nett",
+        "lustig"
+      ]
+    },
+    "u03-2-b": {
+      "tokens": [
+        "Eine",
+        "Woche",
+        "hat",
+        "sieben",
+        "Tage."
+      ],
+      "gap": 3,
+      "wrong": [
+        "sechs",
+        "acht",
+        "zehn"
+      ]
+    },
+    "u03-3-a": {
+      "tokens": [
+        "Zwanzig",
+        "plus",
+        "dreißig",
+        "ist",
+        "fünfzig."
+      ],
+      "gap": 4,
+      "wrong": [
+        "vierzig",
+        "sechzig",
+        "zwanzig"
+      ]
+    },
+    "u03-3-b": {
+      "tokens": [
+        "Mein",
+        "Zimmer",
+        "hat",
+        "die",
+        "Nummer",
+        "zwölf."
+      ],
+      "gap": 4,
+      "wrong": [
+        "Name",
+        "Land",
+        "Jahr"
+      ]
+    },
+    "u03-4-a": {
+      "tokens": [
+        "Ich",
+        "bin",
+        "zwölf",
+        "Jahre",
+        "alt."
+      ],
+      "gap": 1,
+      "wrong": [
+        "habe",
+        "heiße",
+        "komme"
+      ]
+    },
+    "u03-4-b": {
+      "tokens": [
+        "Wie",
+        "viele",
+        "Katzen",
+        "hast",
+        "du?"
+      ],
+      "gap": 1,
+      "wrong": [
+        "alt",
+        "groß",
+        "gut"
+      ]
+    },
+    "u04-1-a": {
+      "tokens": [
+        "Ich",
+        "esse",
+        "Brot",
+        "zum",
+        "Frühstück."
+      ],
+      "gap": 1,
+      "wrong": [
+        "bin",
+        "heiße",
+        "wohne"
+      ]
+    },
+    "u04-1-b": {
+      "tokens": [
+        "Tom",
+        "isst",
+        "zwei",
+        "Eier."
+      ],
+      "gap": 1,
+      "wrong": [
+        "ist",
+        "heißt",
+        "kommt"
+      ]
+    },
+    "u04-2-a": {
+      "tokens": [
+        "Emre",
+        "trinkt",
+        "jeden",
+        "Morgen",
+        "Kaffee."
+      ],
+      "gap": 4,
+      "wrong": [
+        "Brot",
+        "Käse",
+        "Buch"
+      ]
+    },
+    "u04-2-b": {
+      "tokens": [
+        "Der",
+        "Saft",
+        "ist",
+        "sehr",
+        "kalt."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Milch",
+        "Wasser",
+        "Brot"
+      ]
+    },
+    "u04-3-a": {
+      "tokens": [
+        "Die",
+        "Bananen",
+        "sind",
+        "gelb",
+        "und",
+        "süß."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Jahre",
+        "Namen",
+        "Länder"
+      ]
+    },
+    "u04-3-b": {
+      "tokens": [
+        "Wir",
+        "brauchen",
+        "drei",
+        "Kartoffeln."
+      ],
+      "gap": 1,
+      "wrong": [
+        "trinken",
+        "heißen",
+        "wohnen"
+      ]
+    },
+    "u04-4-a": {
+      "tokens": [
+        "Das",
+        "Abendessen",
+        "ist",
+        "um",
+        "acht."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Suppe",
+        "Milch",
+        "Kaffee"
+      ]
+    },
+    "u04-4-b": {
+      "tokens": [
+        "Deniz",
+        "mag",
+        "Suppe",
+        "sehr",
+        "gern."
+      ],
+      "gap": 1,
+      "wrong": [
+        "ist",
+        "heißt",
+        "wohnt"
+      ]
+    },
+    "u05-1-a": {
+      "tokens": [
+        "Unser",
+        "Haus",
+        "hat",
+        "drei",
+        "Zimmer."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Küche",
+        "Katze",
+        "Milch"
+      ]
+    },
+    "u05-1-b": {
+      "tokens": [
+        "Emma",
+        "ist",
+        "jetzt",
+        "im",
+        "Garten."
+      ],
+      "gap": 4,
+      "wrong": [
+        "Küche",
+        "Schule",
+        "Tür"
+      ]
+    },
+    "u05-2-a": {
+      "tokens": [
+        "Neben",
+        "dem",
+        "Fenster",
+        "steht",
+        "ein",
+        "Stuhl."
+      ],
+      "gap": 5,
+      "wrong": [
+        "Tür",
+        "Küche",
+        "Lampe"
+      ]
+    },
+    "u05-2-b": {
+      "tokens": [
+        "Mein",
+        "Bett",
+        "steht",
+        "neben",
+        "der",
+        "Tür."
+      ],
+      "gap": 5,
+      "wrong": [
+        "Fenster",
+        "Tisch",
+        "Stuhl"
+      ]
+    },
+    "u05-3-a": {
+      "tokens": [
+        "Das",
+        "Buch",
+        "liegt",
+        "auf",
+        "dem",
+        "Bett."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Lampe",
+        "Tür",
+        "Schlüssel"
+      ]
+    },
+    "u05-3-b": {
+      "tokens": [
+        "Wo",
+        "sind",
+        "die",
+        "Schlüssel,",
+        "Tom?"
+      ],
+      "gap": 3,
+      "wrong": [
+        "Lampe",
+        "Tür",
+        "Küche"
+      ]
+    },
+    "u05-4-a": {
+      "tokens": [
+        "Unser",
+        "neues",
+        "Haus",
+        "ist",
+        "sehr",
+        "groß."
+      ],
+      "gap": 5,
+      "wrong": [
+        "hungrig",
+        "glücklich",
+        "jung"
+      ]
+    },
+    "u05-4-b": {
+      "tokens": [
+        "Es",
+        "gibt",
+        "einen",
+        "kleinen",
+        "Garten."
+      ],
+      "gap": 1,
+      "wrong": [
+        "ist",
+        "geht",
+        "kommt"
+      ]
+    },
+    "u06-1-a": {
+      "tokens": [
+        "In",
+        "der",
+        "Nacht",
+        "lese",
+        "ich",
+        "Bücher."
+      ],
+      "gap": 2,
+      "wrong": [
+        "Morgen",
+        "Abend",
+        "Nachmittag"
+      ]
+    },
+    "u06-1-b": {
+      "tokens": [
+        "Ali",
+        "arbeitet",
+        "am",
+        "Nachmittag."
+      ],
+      "gap": 3,
+      "wrong": [
+        "Nacht",
+        "Woche",
+        "Küche"
+      ]
+    },
+    "u06-2-a": {
+      "tokens": [
+        "Emma",
+        "wacht",
+        "um",
+        "sechs",
+        "auf."
+      ],
+      "gap": 1,
+      "wrong": [
+        "heißt",
+        "wohnt",
+        "schläft"
+      ]
+    },
+    "u06-2-b": {
+      "tokens": [
+        "Deniz",
+        "geht",
+        "jeden",
+        "Tag",
+        "zur",
+        "Schule."
+      ],
+      "gap": 1,
+      "wrong": [
+        "heißt",
+        "isst",
+        "schläft"
+      ]
+    },
+    "u06-3-a": {
+      "tokens": [
+        "Tom",
+        "arbeitet",
+        "von",
+        "Montag",
+        "bis",
+        "Freitag."
+      ],
+      "gap": 5,
+      "wrong": [
+        "Dienstag",
+        "Mittwoch",
+        "Donnerstag"
+      ]
+    },
+    "u06-3-b": {
+      "tokens": [
+        "Unser",
+        "Unterricht",
+        "ist",
+        "am",
+        "Mittwoch."
+      ],
+      "gap": 4,
+      "wrong": [
+        "Woche",
+        "Nacht",
+        "Schule"
+      ]
+    },
+    "u06-4-a": {
+      "tokens": [
+        "Am",
+        "Sonntag",
+        "spielt",
+        "Mia",
+        "mit",
+        "ihrem",
+        "Hund."
+      ],
+      "gap": 2,
+      "wrong": [
+        "heißt",
+        "hat",
+        "braucht"
+      ]
+    },
+    "u06-4-b": {
+      "tokens": [
+        "Elif",
+        "liest",
+        "im",
+        "Garten."
+      ],
+      "gap": 1,
+      "wrong": [
+        "heißt",
+        "mag",
+        "braucht"
+      ]
+    },
+    "u07-1-a": {
+      "tokens": [
+        "Rom",
+        "hat",
+        "viele",
+        "alte",
+        "Museen."
+      ],
+      "gap": 4,
+      "wrong": [
+        "Jahre",
+        "Wochen",
+        "Monate"
+      ]
+    },
+    "u07-1-b": {
+      "tokens": [
+        "Der",
+        "Park",
+        "ist",
+        "in",
+        "meiner",
+        "Straße."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Bank",
+        "Museum",
+        "Krankenhaus"
+      ]
+    },
+    "u07-2-a": {
+      "tokens": [
+        "Die",
+        "Bäckerei",
+        "öffnet",
+        "um",
+        "sieben."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Supermarkt",
+        "Restaurant",
+        "Café"
+      ]
+    },
+    "u07-2-b": {
+      "tokens": [
+        "Gibt",
+        "es",
+        "hier",
+        "in",
+        "der",
+        "Nähe",
+        "eine",
+        "Apotheke?"
+      ],
+      "gap": 7,
+      "wrong": [
+        "Park",
+        "Museum",
+        "Krankenhaus"
+      ]
+    },
+    "u07-3-a": {
+      "tokens": [
+        "An",
+        "der",
+        "Ecke",
+        "biegst",
+        "du",
+        "links",
+        "ab."
+      ],
+      "gap": 2,
+      "wrong": [
+        "Park",
+        "Museum",
+        "Bahnhof"
+      ]
+    },
+    "u07-3-b": {
+      "tokens": [
+        "Wo",
+        "ist",
+        "das",
+        "Stadtmuseum?"
+      ],
+      "gap": 0,
+      "wrong": [
+        "Wer",
+        "Wann",
+        "Woher"
+      ]
+    },
+    "u07-4-a": {
+      "tokens": [
+        "Der",
+        "Bahnhof",
+        "ist",
+        "nicht",
+        "weit."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Bank",
+        "Apotheke",
+        "Museum"
+      ]
+    },
+    "u07-4-b": {
+      "tokens": [
+        "Das",
+        "Café",
+        "ist",
+        "hinter",
+        "dem",
+        "Museum."
+      ],
+      "gap": 5,
+      "wrong": [
+        "Bank",
+        "Apotheke",
+        "Bäckerei"
+      ]
+    },
+    "u08-1-a": {
+      "tokens": [
+        "Mia",
+        "trägt",
+        "schwarze",
+        "Schuhe."
+      ],
+      "gap": 1,
+      "wrong": [
+        "heißt",
+        "wohnt",
+        "ist"
+      ]
+    },
+    "u08-1-b": {
+      "tokens": [
+        "Dieses",
+        "Kleid",
+        "ist",
+        "sehr",
+        "schön."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Jacke",
+        "Hose",
+        "Tasche"
+      ]
+    },
+    "u08-2-a": {
+      "tokens": [
+        "Ich",
+        "mag",
+        "die",
+        "blaue",
+        "Jacke."
+      ],
+      "gap": 4,
+      "wrong": [
+        "Hemd",
+        "Kleid",
+        "Schuh"
+      ]
+    },
+    "u08-2-b": {
+      "tokens": [
+        "Meine",
+        "neuen",
+        "Schuhe",
+        "sind",
+        "weiß."
+      ],
+      "gap": 4,
+      "wrong": [
+        "rot",
+        "blau",
+        "schwarz"
+      ]
+    },
+    "u08-3-a": {
+      "tokens": [
+        "Der",
+        "Preis",
+        "für",
+        "das",
+        "Kleid",
+        "ist",
+        "fünfzig."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Geld",
+        "Tasche",
+        "Hose"
+      ]
+    },
+    "u08-3-b": {
+      "tokens": [
+        "Dieses",
+        "Hemd",
+        "ist",
+        "sehr",
+        "billig."
+      ],
+      "gap": 4,
+      "wrong": [
+        "müde",
+        "hungrig",
+        "glücklich"
+      ]
+    },
+    "u08-4-a": {
+      "tokens": [
+        "Kann",
+        "ich",
+        "diese",
+        "Hose",
+        "anprobieren?"
+      ],
+      "gap": 4,
+      "wrong": [
+        "schlafen",
+        "wohnen",
+        "heißen"
+      ]
+    },
+    "u08-4-b": {
+      "tokens": [
+        "Dieses",
+        "Geschäft",
+        "verkauft",
+        "schöne",
+        "Hüte."
+      ],
+      "gap": 2,
+      "wrong": [
+        "heißt",
+        "wohnt",
+        "schläft"
+      ]
+    },
+    "u09-1-a": {
+      "tokens": [
+        "In",
+        "Paris",
+        "regnet",
+        "es."
+      ],
+      "gap": 2,
+      "wrong": [
+        "kostet",
+        "braucht",
+        "mag"
+      ]
+    },
+    "u09-1-b": {
+      "tokens": [
+        "Schau,",
+        "es",
+        "schneit!"
+      ],
+      "gap": 2,
+      "wrong": [
+        "kostet",
+        "kauft",
+        "braucht"
+      ]
+    },
+    "u09-2-a": {
+      "tokens": [
+        "In",
+        "Berlin",
+        "ist",
+        "es",
+        "sehr",
+        "kalt."
+      ],
+      "gap": 5,
+      "wrong": [
+        "hungrig",
+        "müde",
+        "jung"
+      ]
+    },
+    "u09-2-b": {
+      "tokens": [
+        "Tom",
+        "trägt",
+        "einen",
+        "schwarzen",
+        "Regenschirm."
+      ],
+      "gap": 4,
+      "wrong": [
+        "Tasche",
+        "Jacke",
+        "Hemd"
+      ]
+    },
+    "u09-3-a": {
+      "tokens": [
+        "Im",
+        "Frühling",
+        "sind",
+        "die",
+        "Bäume",
+        "grün."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Woche",
+        "Nacht",
+        "Sonne"
+      ]
+    },
+    "u09-3-b": {
+      "tokens": [
+        "Der",
+        "Sommer",
+        "ist",
+        "eine",
+        "heiße",
+        "Jahreszeit."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Winter",
+        "Montag",
+        "Regen"
+      ]
+    },
+    "u09-4-a": {
+      "tokens": [
+        "Leo",
+        "schwimmt",
+        "gerade",
+        "am",
+        "Strand."
+      ],
+      "gap": 1,
+      "wrong": [
+        "heißt",
+        "kostet",
+        "braucht"
+      ]
+    },
+    "u09-4-b": {
+      "tokens": [
+        "Mia",
+        "und",
+        "Tom",
+        "gehen",
+        "draußen",
+        "spazieren."
+      ],
+      "gap": 5,
+      "wrong": [
+        "heißen",
+        "kosten",
+        "brauchen"
+      ]
+    },
+    "u10-1-a": {
+      "tokens": [
+        "Der",
+        "Bus",
+        "war",
+        "sehr",
+        "langsam."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Auto",
+        "Taxi",
+        "Flugzeug"
+      ]
+    },
+    "u10-1-b": {
+      "tokens": [
+        "Um",
+        "sechs",
+        "waren",
+        "wir",
+        "im",
+        "Zug."
+      ],
+      "gap": 2,
+      "wrong": [
+        "hatten",
+        "hießen",
+        "brauchten"
+      ]
+    },
+    "u10-2-a": {
+      "tokens": [
+        "Der",
+        "Zug",
+        "kam",
+        "wieder",
+        "zu",
+        "spät."
+      ],
+      "gap": 5,
+      "wrong": [
+        "teuer",
+        "hungrig",
+        "billig"
+      ]
+    },
+    "u10-2-b": {
+      "tokens": [
+        "Die",
+        "Fahrkarten",
+        "waren",
+        "nicht",
+        "teuer."
+      ],
+      "gap": 2,
+      "wrong": [
+        "hatten",
+        "hießen",
+        "brauchten"
+      ]
+    },
+    "u10-3-a": {
+      "tokens": [
+        "Das",
+        "Hotelzimmer",
+        "war",
+        "sehr",
+        "ruhig."
+      ],
+      "gap": 4,
+      "wrong": [
+        "hungrig",
+        "müde",
+        "früh"
+      ]
+    },
+    "u10-3-b": {
+      "tokens": [
+        "War",
+        "das",
+        "Bett",
+        "bequem?"
+      ],
+      "gap": 0,
+      "wrong": [
+        "Hatte",
+        "Hieß",
+        "Brauchte"
+      ]
+    },
+    "u10-4-a": {
+      "tokens": [
+        "Das",
+        "Meer",
+        "war",
+        "sehr",
+        "schön."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Berg",
+        "Strand",
+        "Stadt"
+      ]
+    },
+    "u10-4-b": {
+      "tokens": [
+        "Unser",
+        "Urlaub",
+        "in",
+        "Rio",
+        "war",
+        "wunderbar."
+      ],
+      "gap": 5,
+      "wrong": [
+        "hungrig",
+        "jung",
+        "müde"
+      ]
+    },
+    "u11-1-a": {
+      "tokens": [
+        "Emma",
+        "hat",
+        "mich",
+        "gestern",
+        "angerufen."
+      ],
+      "gap": 3,
+      "wrong": [
+        "morgen",
+        "bald",
+        "übermorgen"
+      ]
+    },
+    "u11-1-b": {
+      "tokens": [
+        "Ich",
+        "habe",
+        "Ali",
+        "vor",
+        "zwei",
+        "Tagen",
+        "gesehen."
+      ],
+      "gap": 3,
+      "wrong": [
+        "in",
+        "hinter",
+        "zwischen"
+      ],
+      "orders": [
+        [
+          0,
+          1,
+          3,
+          4,
+          5,
+          2,
+          6
+        ]
+      ]
+    },
+    "u11-2-a": {
+      "tokens": [
+        "Wir",
+        "haben",
+        "auf",
+        "der",
+        "Party",
+        "getanzt."
+      ],
+      "gap": 5,
+      "wrong": [
+        "geheißen",
+        "gebraucht",
+        "gewohnt"
+      ]
+    },
+    "u11-2-b": {
+      "tokens": [
+        "Emre",
+        "und",
+        "ich",
+        "haben",
+        "uns",
+        "am",
+        "Samstag",
+        "getroffen."
+      ],
+      "gap": 7,
+      "wrong": [
+        "geheißen",
+        "geschlafen",
+        "gewohnt"
+      ]
+    },
+    "u11-3-a": {
+      "tokens": [
+        "Zum",
+        "Abendessen",
+        "hat",
+        "Tom",
+        "Suppe",
+        "gekocht."
+      ],
+      "gap": 5,
+      "wrong": [
+        "geschlafen",
+        "getanzt",
+        "gewohnt"
+      ]
+    },
+    "u11-3-b": {
+      "tokens": [
+        "Im",
+        "Bett",
+        "habe",
+        "ich",
+        "Musik",
+        "gehört."
+      ],
+      "gap": 5,
+      "wrong": [
+        "gewohnt",
+        "getanzt",
+        "geheißen"
+      ]
+    },
+    "u11-4-a": {
+      "tokens": [
+        "Elif",
+        "hat",
+        "ihre",
+        "Tasche",
+        "in",
+        "der",
+        "Schule",
+        "vergessen."
+      ],
+      "gap": 7,
+      "wrong": [
+        "geschlafen",
+        "gewohnt",
+        "geheißen"
+      ],
+      "orders": [
+        [
+          0,
+          1,
+          4,
+          5,
+          6,
+          2,
+          3,
+          7
+        ]
+      ]
+    },
+    "u11-4-b": {
+      "tokens": [
+        "Gestern",
+        "habe",
+        "ich",
+        "meine",
+        "Fahrkarte",
+        "verloren."
+      ],
+      "gap": 5,
+      "wrong": [
+        "geschlafen",
+        "getanzt",
+        "gewohnt"
+      ]
+    },
+    "u12-1-a": {
+      "tokens": [
+        "Ich",
+        "rufe",
+        "dich",
+        "morgen",
+        "an."
+      ],
+      "gap": 3,
+      "wrong": [
+        "gestern",
+        "vorgestern",
+        "damals"
+      ]
+    },
+    "u12-1-b": {
+      "tokens": [
+        "Mia",
+        "wird",
+        "heute",
+        "Abend",
+        "kochen."
+      ],
+      "gap": 1,
+      "wrong": [
+        "hat",
+        "heißt",
+        "trinkt"
+      ]
+    },
+    "u12-2-a": {
+      "tokens": [
+        "Möchtest",
+        "du",
+        "mit",
+        "uns",
+        "kommen?"
+      ],
+      "gap": 4,
+      "wrong": [
+        "heißen",
+        "brauchen",
+        "haben"
+      ]
+    },
+    "u12-2-b": {
+      "tokens": [
+        "Bist",
+        "du",
+        "dieses",
+        "Wochenende",
+        "frei?"
+      ],
+      "gap": 3,
+      "wrong": [
+        "Woche",
+        "Montag",
+        "Nacht"
+      ]
+    },
+    "u12-3-a": {
+      "tokens": [
+        "Natürlich",
+        "möchte",
+        "ich",
+        "kommen."
+      ],
+      "gap": 1,
+      "wrong": [
+        "habe",
+        "bin",
+        "heiße"
+      ]
+    },
+    "u12-3-b": {
+      "tokens": [
+        "Leider",
+        "bin",
+        "ich",
+        "heute",
+        "Abend",
+        "beschäftigt."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Gestern",
+        "Damals",
+        "Vorgestern"
+      ]
+    },
+    "u12-4-a": {
+      "tokens": [
+        "Am",
+        "Samstag",
+        "feiern",
+        "wir."
+      ],
+      "gap": 2,
+      "wrong": [
+        "heißen",
+        "brauchen",
+        "mögen"
+      ]
+    },
+    "u12-4-b": {
+      "tokens": [
+        "Deniz",
+        "möchte",
+        "Französisch",
+        "lernen."
+      ],
+      "gap": 3,
+      "wrong": [
+        "heißen",
+        "wohnen",
+        "schlafen"
+      ]
+    }
+  },
+  "tips": {
+    "u01": {
+      "title": {
+        "en": "I am, you are: the verb sein",
+        "tr": "Ben ...im, sen ...sin: sein fiili"
+      },
+      "body": {
+        "en": "'sein' means 'to be'. Like English 'am, are, is', it changes with the person: ich bin (I am), du bist (you are), er/sie ist (he/she is).\n\nUse 'du' with one friend, a child or your family. With a stranger or in a shop, use the polite 'Sie', always with a capital S: 'Wie geht es Ihnen?'\n\nFor a job, German drops the 'a': 'Anna ist Lehrerin' means 'Anna is a teacher'.",
+        "tr": "Türkçede 'Ben Emre'yim' derken bir ek kullanırsın. Almanca bunun yerine 'sein' (olmak) fiilini ister: ich bin (ben ...im), du bist (sen ...sin), er/sie ist (o ...dir).\n\nBir arkadaşa, bir çocuğa ya da ailene 'du' dersin. Tanımadığın birine ya da bir dükkânda kibar 'Sie' kullanırsın, hep büyük S ile: 'Wie geht es Ihnen?'\n\nMeslek söylerken 'bir' kullanmazsın: 'Anna ist Lehrerin' = 'Anna öğretmen.'"
+      },
+      "examples": [
+        {
+          "text": "Ich bin Emre.",
+          "en": "I am Emre.",
+          "tr": "Ben Emre'yim."
+        },
+        {
+          "text": "Du bist sehr nett.",
+          "en": "You are very kind.",
+          "tr": "Sen çok naziksin."
+        },
+        {
+          "text": "Anna ist Lehrerin.",
+          "en": "Anna is a teacher.",
+          "tr": "Anna öğretmen."
+        }
+      ]
+    },
+    "u02": {
+      "title": {
+        "en": "My and your: mein, meine, dein, deine",
+        "tr": "Benim ve senin: mein, meine, dein, deine"
+      },
+      "body": {
+        "en": "Every German noun is a der, die or das word. The word for 'my' follows it: with der and das words you say 'mein' (mein Vater, mein Baby), with die words you say 'meine' (meine Mutter). In the plural it is always 'meine': meine Freunde.\n\n'dein' (your, to one friend) works the same way: dein Bruder, deine Schwester. So does 'unser' (our): unser Hund, unsere Katze.\n\nThis is why you learn every noun with der, die or das. It tells you which form to use.",
+        "tr": "Almancada her isim bir der, die ya da das kelimesidir. 'Benim' kelimesi buna uyar: der ve das kelimelerinde 'mein' (mein Vater, mein Baby), die kelimelerinde 'meine' (meine Mutter) dersin. Çoğulda hep 'meine': meine Freunde.\n\nTürkçede bunun yerine ek kullanırsın (annem, babam). 'dein' (senin) de aynı şekilde çalışır: dein Bruder, deine Schwester. 'unser' (bizim) de: unser Hund, unsere Katze.\n\nBu yüzden her ismi der, die ya da das ile öğren. Hangi biçimi kullanacağını o söyler."
+      },
+      "examples": [
+        {
+          "text": "Mein Vater ist Arzt.",
+          "en": "My father is a doctor.",
+          "tr": "Babam doktor."
+        },
+        {
+          "text": "Meine Mutter trinkt Tee.",
+          "en": "My mother drinks tea.",
+          "tr": "Annem çay içer."
+        },
+        {
+          "text": "Unsere Katze ist schwarz.",
+          "en": "Our cat is black.",
+          "tr": "Kedimiz siyah."
+        }
+      ]
+    },
+    "u03": {
+      "title": {
+        "en": "I have: haben, and your age with sein",
+        "tr": "Benim ... var: haben, yaş ise sein ile"
+      },
+      "body": {
+        "en": "'haben' means 'to have': ich habe (I have), du hast (you have), er/sie hat (he/she has). 'Ich habe zwei Schwestern' is 'I have two sisters'.\n\nFor your age, German uses 'sein', just like English: 'Ich bin zwölf' or 'Ich bin zwölf Jahre alt'. To ask a friend, say 'Wie alt bist du?'\n\nWhen you count, one is 'eins'. Before a noun it works like 'a': 'Ich habe einen Bruder' (I have one brother).",
+        "tr": "'haben' 'sahip olmak' demek: ich habe, du hast, er/sie hat. Türkçede 'İki kız kardeşim var' dersin. Almancada ise 'Ich habe zwei Schwestern' (iki kız kardeşe sahibim) dersin.\n\nYaş için ise 'sein' kullanılır: 'Ich bin zwölf' ya da 'Ich bin zwölf Jahre alt' (on iki yaşındayım). Bir arkadaşa sormak için: 'Wie alt bist du?'\n\nSayarken 'bir' için 'eins' dersin. Bir ismin önünde ise ein, eine ya da einen olur: 'Ich habe einen Bruder' (bir erkek kardeşim var)."
+      },
+      "examples": [
+        {
+          "text": "Ich habe zwei Katzen.",
+          "en": "I have two cats.",
+          "tr": "İki kedim var."
+        },
+        {
+          "text": "Hast du einen Bruder?",
+          "en": "Do you have a brother?",
+          "tr": "Erkek kardeşin var mı?"
+        },
+        {
+          "text": "Ich bin zwölf Jahre alt.",
+          "en": "I am twelve years old.",
+          "tr": "On iki yaşındayım."
+        }
+      ]
+    },
+    "u04": {
+      "title": {
+        "en": "A, an after a verb: einen, eine, ein",
+        "tr": "Fiilden sonra 'bir': einen, eine, ein"
+      },
+      "body": {
+        "en": "After verbs like essen, trinken, haben and mögen, the thing you eat, drink or have is the object. Only der words change: 'der Apfel' becomes 'einen Apfel' or 'den Apfel'. Die and das words stay the same: eine Banane, ein Ei, das Brot.\n\nSo you say 'Ich esse einen Apfel' but 'Ich esse eine Banane'.\n\nFor food in general, you need no word for 'a': 'Ich esse Brot', 'Ich trinke Kaffee'.",
+        "tr": "essen, trinken, haben ve mögen gibi fiillerden sonra yediğin, içtiğin ya da sahip olduğun şey nesnedir. Sadece der kelimeleri değişir: 'der Apfel', 'einen Apfel' ya da 'den Apfel' olur. Die ve das kelimeleri aynı kalır: eine Banane, ein Ei, das Brot.\n\nYani 'Ich esse einen Apfel' ama 'Ich esse eine Banane' dersin. Bu, Türkçedeki 'elmayı' sözündeki -ı ekine biraz benzer.\n\nGenel olarak yiyecekten söz ederken 'bir' kullanmazsın: 'Ich esse Brot', 'Ich trinke Kaffee'."
+      },
+      "examples": [
+        {
+          "text": "Ich esse einen Apfel.",
+          "en": "I eat an apple.",
+          "tr": "Bir elma yerim."
+        },
+        {
+          "text": "Mia isst ein Ei.",
+          "en": "Mia eats an egg.",
+          "tr": "Mia bir yumurta yer."
+        },
+        {
+          "text": "Ich mag den Käse.",
+          "en": "I like the cheese.",
+          "tr": "Peyniri severim."
+        }
+      ]
+    },
+    "u05": {
+      "title": {
+        "en": "There is: es gibt",
+        "tr": "Var: es gibt"
+      },
+      "body": {
+        "en": "To say that something exists, German uses 'es gibt' (word for word 'it gives'). The thing after it changes like an object: es gibt einen Garten (der), eine Küche (die), ein Bad (das).\n\nFor more than one thing, nothing changes: 'Es gibt drei Zimmer.' To ask, put 'gibt' first: 'Gibt es hier einen Tisch?'\n\nFor something you see right in front of you, you can also say 'Da ist ...': 'Da ist eine Katze!'",
+        "tr": "Bir şeyin var olduğunu söylemek için Almanca 'es gibt' der (kelimesi kelimesine 'o veriyor'). Ondan sonraki kelime bir nesne gibi değişir: es gibt einen Garten (der), eine Küche (die), ein Bad (das).\n\nBirden fazla şey için hiçbir şey değişmez: 'Es gibt drei Zimmer.' Sormak için 'gibt' başa gelir: 'Gibt es hier einen Tisch?' (Burada masa var mı?)\n\nTam önünde gördüğün bir şey için 'Da ist ...' de diyebilirsin: 'Da ist eine Katze!' (Orada bir kedi var!)"
+      },
+      "examples": [
+        {
+          "text": "Es gibt einen kleinen Garten.",
+          "en": "There is a small garden.",
+          "tr": "Küçük bir bahçe var."
+        },
+        {
+          "text": "Im Kühlschrank gibt es Käse.",
+          "en": "There is cheese in the fridge.",
+          "tr": "Buzdolabında peynir var."
+        },
+        {
+          "text": "Gibt es hier ein Bad?",
+          "en": "Is there a bathroom here?",
+          "tr": "Burada banyo var mı?"
+        }
+      ]
+    },
+    "u06": {
+      "title": {
+        "en": "The verb comes second",
+        "tr": "Fiil ikinci sırada gelir"
+      },
+      "body": {
+        "en": "In a German sentence, the verb is the second piece. If you start with a time word, the person moves behind the verb: 'Ich lese am Abend' becomes 'Am Abend lese ich'.\n\nThe end of the verb shows the person: ich spiele, du spielst, er/sie spielt, wir spielen.\n\nWith days and times of the day, use 'am': am Montag, am Morgen, am Wochenende. Only the night is different: in der Nacht.",
+        "tr": "Almanca cümlede fiil ikinci parçadır. Türkçede fiil sonda gelir, Almancada ise erkenden gelir. Cümleye bir zaman kelimesiyle başlarsan kişi fiilin arkasına geçer: 'Ich lese am Abend' cümlesi 'Am Abend lese ich' olur.\n\nFiilin sonu kişiyi gösterir: ich spiele, du spielst, er/sie spielt, wir spielen.\n\nGünler ve günün vakitleri için 'am' kullan: am Montag, am Morgen, am Wochenende. Sadece gece farklıdır: in der Nacht."
+      },
+      "examples": [
+        {
+          "text": "Am Montag arbeite ich.",
+          "en": "On Monday I work.",
+          "tr": "Pazartesi çalışırım."
+        },
+        {
+          "text": "Tom spielt am Sonntag Tennis.",
+          "en": "Tom plays tennis on Sunday.",
+          "tr": "Tom pazar günü tenis oynar."
+        },
+        {
+          "text": "Heute wache ich um sechs auf.",
+          "en": "Today I wake up at six.",
+          "tr": "Bugün altıda uyanırım."
+        }
+      ]
+    },
+    "u07": {
+      "title": {
+        "en": "Where? in, an, auf with dem and der",
+        "tr": "Nerede? dem ve der ile in, an, auf"
+      },
+      "body": {
+        "en": "When you say where something is, words like in, an, auf, vor, hinter, neben and zwischen change the article after them: der and das become 'dem', die becomes 'der'.\n\nSo der Park becomes 'im Park' (im = in dem), das Museum becomes 'im Museum', and die Bank becomes 'in der Bank'. At the corner is 'an der Ecke', behind the house is 'hinter dem Haus'.\n\nTo ask, use 'wo': 'Wo ist die Apotheke?'",
+        "tr": "Bir şeyin nerede olduğunu söylerken in, an, auf, vor, hinter, neben ve zwischen gibi kelimeler sonraki artikeli değiştirir: der ve das 'dem' olur, die 'der' olur.\n\nYani der Park 'im Park' olur (im = in dem), das Museum 'im Museum', die Bank 'in der Bank'. Köşede 'an der Ecke', evin arkasında 'hinter dem Haus' olur. Bu, Türkçedeki '-de' ekinin işini görür.\n\nSormak için 'wo' kullan: 'Wo ist die Apotheke?' (Eczane nerede?)"
+      },
+      "examples": [
+        {
+          "text": "Wir sind im Park.",
+          "en": "We are in the park.",
+          "tr": "Parktayız."
+        },
+        {
+          "text": "Die Bäckerei ist an der Ecke.",
+          "en": "The bakery is on the corner.",
+          "tr": "Fırın köşede."
+        },
+        {
+          "text": "Das Café ist hinter dem Museum.",
+          "en": "The cafe is behind the museum.",
+          "tr": "Kafe müzenin arkasında."
+        }
+      ]
+    },
+    "u08": {
+      "title": {
+        "en": "Colors: no ending after sein, an ending before a noun",
+        "tr": "Renkler: 'sein' fiilinden sonra eksiz, isimden önce ekli"
+      },
+      "body": {
+        "en": "After 'sein' a color or other adjective has no ending: 'Die Jacke ist blau.' 'Das Kleid ist schön.'\n\nBefore a noun it takes an ending. After der, die or das it is usually '-e': der schwarze Hund, die blaue Jacke, das weiße Hemd. In the plural and after 'den' it is '-en': die neuen Schuhe, Ich mag den schwarzen Hund.\n\nDo not worry about every ending yet. If you say '-e' after der, die or das, you are right most of the time.",
+        "tr": "'sein' fiilinden sonra renk ya da başka bir sıfat ek almaz: 'Die Jacke ist blau.' 'Das Kleid ist schön.' Türkçede sıfat hep eksizdir.\n\nAlmancada ise isimden önce sıfat ek alır. der, die ya da das kelimesinden sonra genelde '-e' olur: der schwarze Hund, die blaue Jacke, das weiße Hemd. Çoğulda ve 'den' kelimesinden sonra '-en' olur: die neuen Schuhe, Ich mag den schwarzen Hund.\n\nŞimdilik her eki ezberlemeye çalışma. der, die ya da das kelimesinden sonra '-e' dersen çoğu zaman doğru olur."
+      },
+      "examples": [
+        {
+          "text": "Die Jacke ist blau.",
+          "en": "The jacket is blue.",
+          "tr": "Ceket mavi."
+        },
+        {
+          "text": "Ich mag die blaue Jacke.",
+          "en": "I like the blue jacket.",
+          "tr": "Mavi ceketi beğeniyorum."
+        },
+        {
+          "text": "Meine neuen Schuhe sind weiß.",
+          "en": "My new shoes are white.",
+          "tr": "Yeni ayakkabılarım beyaz."
+        }
+      ]
+    },
+    "u09": {
+      "title": {
+        "en": "Right now: German has no -ing form",
+        "tr": "Şu anda: Almancada ayrı bir -yor biçimi yok"
+      },
+      "body": {
+        "en": "German has no '-ing' form. The present tense says both 'I swim' and 'I am swimming': 'Ich schwimme' can mean either.\n\nTo make clear that it is happening now, add 'gerade' (right now) or 'jetzt' (now): 'Ali schwimmt gerade im Meer.'\n\nFor the weather, German uses 'es' as the subject, like English 'it': es regnet (it is raining), es schneit (it is snowing), es ist kalt (it is cold).",
+        "tr": "Almancada '-yor' için ayrı bir biçim yoktur. Şimdiki zaman hem 'yüzerim' hem 'yüzüyorum' demektir: 'Ich schwimme' ikisini de anlatır.\n\nŞu anda olduğunu açıkça söylemek için 'gerade' (şu anda) ya da 'jetzt' (şimdi) ekle: 'Ali schwimmt gerade im Meer.'\n\nHava için özne olarak 'es' kullanılır: es regnet (yağmur yağıyor), es schneit (kar yağıyor), es ist kalt (hava soğuk). Türkçede burada özne yoktur, ama Almanca 'es' ister."
+      },
+      "examples": [
+        {
+          "text": "In Paris regnet es.",
+          "en": "It is raining in Paris.",
+          "tr": "Paris'te yağmur yağıyor."
+        },
+        {
+          "text": "Ali schwimmt gerade im Meer.",
+          "en": "Ali is swimming in the sea right now.",
+          "tr": "Ali şu anda denizde yüzüyor."
+        },
+        {
+          "text": "Wir bleiben heute drinnen.",
+          "en": "We are staying inside today.",
+          "tr": "Bugün içeride kalıyoruz."
+        }
+      ]
+    },
+    "u10": {
+      "title": {
+        "en": "Was and were: war, waren",
+        "tr": "-dı, -ydı: war, waren"
+      },
+      "body": {
+        "en": "To talk about the past with 'sein', German uses 'war': ich war, du warst, er/sie/es war, wir waren, sie waren. 'Der Bus war voll' means 'The bus was full'.\n\n'haben' works the same way with 'hatte': ich hatte, du hattest, er/sie hatte, wir hatten. 'Wir hatten viel Spaß' means 'We had a lot of fun'.\n\nThese two short past forms are the ones people use most, also in everyday talk.",
+        "tr": "'sein' fiiliyle geçmişten söz ederken Almanca 'war' kullanır: ich war, du warst, er/sie/es war, wir waren, sie waren. 'Der Bus war voll' = 'Otobüs doluydu'. Türkçedeki '-ydı' ekinin işini görür.\n\n'haben' de 'hatte' ile aynı şekilde çalışır: ich hatte, du hattest, er/sie hatte, wir hatten. 'Wir hatten viel Spaß' = 'Çok eğlendik' (kelimesi kelimesine 'çok eğlencemiz vardı').\n\nBu iki kısa geçmiş biçimi günlük konuşmada da en çok kullanılanlardır."
+      },
+      "examples": [
+        {
+          "text": "Der Zug war schnell.",
+          "en": "The train was fast.",
+          "tr": "Tren hızlıydı."
+        },
+        {
+          "text": "Wir waren im Hotel.",
+          "en": "We were at the hotel.",
+          "tr": "Oteldeydik."
+        },
+        {
+          "text": "Ich hatte keine Zeit.",
+          "en": "I had no time.",
+          "tr": "Vaktim yoktu."
+        }
+      ]
+    },
+    "u11": {
+      "title": {
+        "en": "What you did: haben + ge...t",
+        "tr": "Ne yaptın: haben + ge...t"
+      },
+      "body": {
+        "en": "To tell what you did, German mostly uses 'haben' and a past form at the end of the sentence: 'Ich habe Musik gehört' (I listened to music).\n\nMany verbs make this form with ge- and -t: hören becomes gehört, kochen becomes gekocht, tanzen becomes getanzt. Others end in -en, and you learn them one by one: sehen becomes gesehen, finden becomes gefunden.\n\nVerbs of moving use 'sein' instead: 'Wir sind nach Berlin gezogen.' Verbs that start with ver- or be- get no ge-: vergessen, verloren, besucht.",
+        "tr": "Ne yaptığını anlatırken Almanca çoğunlukla 'haben' ve cümlenin sonunda bir geçmiş biçimi kullanır: 'Ich habe Musik gehört' (müzik dinledim).\n\nBirçok fiil bu biçimi ge- ve -t ile yapar: hören, gehört olur; kochen, gekocht olur; tanzen, getanzt olur. Bazıları -en ile biter ve tek tek öğrenilir: sehen, gesehen olur; finden, gefunden olur.\n\nHareket fiilleri bunun yerine 'sein' kullanır: 'Wir sind nach Berlin gezogen.' ver- ya da be- ile başlayan fiiller ge- almaz: vergessen, verloren, besucht."
+      },
+      "examples": [
+        {
+          "text": "Ich habe Musik gehört.",
+          "en": "I listened to music.",
+          "tr": "Müzik dinledim."
+        },
+        {
+          "text": "Tom hat Suppe gekocht.",
+          "en": "Tom cooked soup.",
+          "tr": "Tom çorba pişirdi."
+        },
+        {
+          "text": "Ich habe meine Fahrkarte verloren.",
+          "en": "I lost my ticket.",
+          "tr": "Biletimi kaybettim."
+        }
+      ]
+    },
+    "u12": {
+      "title": {
+        "en": "Plans: the present with a time word, or werden",
+        "tr": "Planlar: zaman kelimesiyle şimdiki zaman ya da werden"
+      },
+      "body": {
+        "en": "For plans, German usually uses the present tense with a time word: 'Morgen rufe ich dich an' means 'I am going to call you tomorrow'. The time word shows that it is in the future.\n\nYou can also use 'werden' with a verb at the end: ich werde, du wirst, er/sie wird, wir werden. 'Mia wird heute Abend kochen' means 'Mia is going to cook tonight'.\n\nFor wishes and invitations, use 'möchten': 'Möchtest du mitkommen?' (Would you like to come along?)",
+        "tr": "Planlar için Almanca genelde şimdiki zamanı bir zaman kelimesiyle kullanır: 'Morgen rufe ich dich an' = 'Seni yarın arayacağım'. Geleceği zaman kelimesi gösterir.\n\n'werden' ve sonda bir fiil de kullanabilirsin: ich werde, du wirst, er/sie wird, wir werden. 'Mia wird heute Abend kochen' = 'Mia bu akşam yemek yapacak'.\n\nİstekler ve davetler için 'möchten' kullan: 'Möchtest du mitkommen?' (Bizimle gelmek ister misin?)"
+      },
+      "examples": [
+        {
+          "text": "Morgen besuche ich meine Oma.",
+          "en": "I am going to visit my grandma tomorrow.",
+          "tr": "Yarın büyükannemi ziyaret edeceğim."
+        },
+        {
+          "text": "Emma wird nach Tokio reisen.",
+          "en": "Emma is going to travel to Tokyo.",
+          "tr": "Emma Tokyo'ya seyahat edecek."
+        },
+        {
+          "text": "Möchtest du mitkommen?",
+          "en": "Would you like to come along?",
+          "tr": "Bizimle gelmek ister misin?"
+        }
+      ]
+    }
+  }
+}

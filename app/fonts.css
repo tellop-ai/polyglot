@@ -1,0 +1,16 @@
+/*
+ * How this app is set: headings in the Mac's rounded face, everything else in
+ * the system's own sans-serif. Japanese, Korean and Chinese words fall back to
+ * the Mac's own faces for those scripts. Every face here is one a Mac already
+ * has, so nothing reaches the network.
+ *
+ * Tellop replaces this whole file when the person picks another look.
+ */
+
+:root {
+  --reading: 16px;
+  --font-display: ui-rounded, "SF Pro Rounded", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  /* The heading weight: the rounded system face has a real bold. */
+  --display-weight: 700;
+  --font-body: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}

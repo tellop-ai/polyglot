@@ -1,0 +1,3476 @@
+{
+  "format": 1,
+  "language": "pt",
+  "words": {
+    "hello": {
+      "text": "olá",
+      "ex": "Olá, eu sou Emre.",
+      "also": [
+        "oi"
+      ]
+    },
+    "good-morning": {
+      "text": "bom dia",
+      "ex": "Bom dia, o café está pronto."
+    },
+    "good-evening": {
+      "text": "boa noite",
+      "ex": "Boa noite, Mia e Tom!",
+      "note": {
+        "en": "Brazilians say boa noite once it is dark, both to greet and to say goodbye. Good afternoon is boa tarde.",
+        "tr": "Hava kararınca hem selamlaşırken hem vedalaşırken boa noite denir. Öğleden sonra boa tarde denir."
+      }
+    },
+    "how-are-you": {
+      "text": "como você está?",
+      "ex": "Como você está hoje de manhã?",
+      "also": [
+        "tudo bem?",
+        "como vai?"
+      ],
+      "note": {
+        "en": "Informal, to one friend. Tudo bem? is the most common casual way to ask.",
+        "tr": "Bir arkadaşa, samimi. En yaygın gündelik soru Tudo bem? (Her şey yolunda mı?)."
+      }
+    },
+    "i-am-fine": {
+      "text": "estou bem",
+      "ex": "Obrigado, hoje eu estou bem.",
+      "also": [
+        "eu estou bem"
+      ],
+      "note": {
+        "en": "The usual answer. If someone asks Tudo bem?, you can answer Tudo bem!",
+        "tr": "Olağan cevap. Biri Tudo bem? diye sorarsa Tudo bem! diye cevap verebilirsin."
+      }
+    },
+    "and-you": {
+      "text": "e você?",
+      "ex": "Estou bem, e você?",
+      "note": {
+        "en": "Asks the same question back to one friend.",
+        "tr": "Aynı soruyu bir arkadaşına geri sorar."
+      }
+    },
+    "goodbye": {
+      "text": "tchau",
+      "ex": "Tchau, Ali, e obrigado!",
+      "note": {
+        "en": "The everyday goodbye to a friend. Adeus sounds final, like farewell forever.",
+        "tr": "Arkadaşa gündelik veda. Adeus ise 'elveda' gibi kesin bir ayrılık anlamı taşır."
+      }
+    },
+    "good-night": {
+      "text": "tenha uma boa noite",
+      "ex": "Tenha uma boa noite e durma bem.",
+      "note": {
+        "en": "Portuguese has one phrase for good evening and good night: boa noite. Tenha uma boa noite (have a good night) is a fuller, warm goodbye.",
+        "tr": "Portekizcede iyi akşamlar ve iyi geceler için tek söz var: boa noite. Tenha uma boa noite (iyi bir gece geçir) daha uzun ve sıcak bir vedadır."
+      }
+    },
+    "see-you-later": {
+      "text": "até logo",
+      "ex": "Agora eu tenho aula, até logo.",
+      "also": [
+        "até mais",
+        "até mais tarde"
+      ]
+    },
+    "see-you-tomorrow": {
+      "text": "até amanhã",
+      "ex": "Até amanhã na escola, Elif."
+    },
+    "have-a-nice-day": {
+      "text": "tenha um bom dia",
+      "ex": "Muito obrigado, tenha um bom dia!"
+    },
+    "take-care": {
+      "text": "se cuida",
+      "ex": "Se cuida e até breve.",
+      "also": [
+        "cuide-se"
+      ],
+      "note": {
+        "en": "A friendly goodbye in everyday Brazilian speech. The written form is cuide-se.",
+        "tr": "Brezilya'da gündelik ve samimi bir veda. Yazı dilindeki biçimi cuide-se."
+      }
+    },
+    "name": {
+      "text": "o nome",
+      "ex": "Meu nome é Zeynep."
+    },
+    "where-are-you-from": {
+      "text": "de onde você é?",
+      "ex": "Emma, de onde você é?",
+      "note": {
+        "en": "Informal, to one friend. The answer: Eu sou de... (I am from...).",
+        "tr": "Bir arkadaşa, samimi. Cevap: Eu sou de... (Ben ...'danım)."
+      }
+    },
+    "nice-to-meet-you": {
+      "text": "muito prazer",
+      "ex": "Eu sou Ali, muito prazer.",
+      "also": [
+        "prazer",
+        "prazer em conhecer você",
+        "prazer em te conhecer"
+      ],
+      "note": {
+        "en": "Said when you meet someone for the first time. A short Prazer! works too.",
+        "tr": "Biriyle ilk kez tanıştığında söylenir. Kısaca Prazer! de olur."
+      }
+    },
+    "student": {
+      "text": "o estudante",
+      "ex": "Deniz é estudante em Istambul.",
+      "also": [
+        "o aluno"
+      ],
+      "note": {
+        "en": "The same word for a woman: a estudante. Aluno (a pupil) is also common.",
+        "tr": "Kadın için de aynı kelime: a estudante. Aluno (öğrenci, talebe) da yaygındır."
+      }
+    },
+    "teacher": {
+      "text": "o professor",
+      "ex": "Meu professor é muito gentil.",
+      "note": {
+        "en": "For a woman: a professora.",
+        "tr": "Kadın öğretmen için: a professora."
+      }
+    },
+    "country": {
+      "text": "o país",
+      "ex": "Meu país é muito bonito."
+    },
+    "please": {
+      "text": "por favor",
+      "ex": "Um copo de água, por favor."
+    },
+    "thank-you": {
+      "text": "obrigado",
+      "ex": "Obrigado pelo chá.",
+      "also": [
+        "obrigada"
+      ],
+      "note": {
+        "en": "A man says obrigado, a woman says obrigada.",
+        "tr": "Erkek obrigado, kadın obrigada der."
+      }
+    },
+    "youre-welcome": {
+      "text": "de nada",
+      "ex": "De nada, não tem problema.",
+      "also": [
+        "por nada"
+      ]
+    },
+    "sorry": {
+      "text": "desculpa",
+      "ex": "Desculpa, estou atrasado.",
+      "also": [
+        "desculpe",
+        "me desculpe"
+      ],
+      "note": {
+        "en": "Casual and very common. Desculpe is a little more polite.",
+        "tr": "Gündelik ve çok yaygın. Desculpe biraz daha kibardır."
+      }
+    },
+    "yes": {
+      "text": "sim",
+      "ex": "Sim, eu sou estudante."
+    },
+    "no": {
+      "text": "não",
+      "ex": "Não, eu não sou de Paris."
+    },
+    "family": {
+      "text": "a família",
+      "ex": "Minha família mora em Lisboa."
+    },
+    "mother": {
+      "text": "a mãe",
+      "ex": "Minha mãe bebe chá toda manhã."
+    },
+    "father": {
+      "text": "o pai",
+      "ex": "Meu pai é médico."
+    },
+    "brother": {
+      "text": "o irmão",
+      "ex": "Meu irmão tem dez anos.",
+      "note": {
+        "en": "Any brother. Os irmãos can also mean brothers and sisters together.",
+        "tr": "Her erkek kardeş için. Os irmãos, kız ve erkek kardeşlerin hepsi anlamına da gelir."
+      }
+    },
+    "sister": {
+      "text": "a irmã",
+      "ex": "A irmã dela mora em Madri.",
+      "note": {
+        "en": "Any sister, older or younger.",
+        "tr": "Büyük ya da küçük, her kız kardeş için."
+      }
+    },
+    "baby": {
+      "text": "o bebê",
+      "ex": "O bebê é muito pequeno.",
+      "note": {
+        "en": "Always o bebê, even for a baby girl.",
+        "tr": "Kız bebek için bile her zaman o bebê denir."
+      }
+    },
+    "grandmother": {
+      "text": "a avó",
+      "ex": "Minha avó mora em Roma.",
+      "note": {
+        "en": "Either side of the family. Avó with an open ó is grandmother; avô with a closed ô is grandfather.",
+        "tr": "Annenin ya da babanın annesi. Açık ó ile avó büyükanne, kapalı ô ile avô büyükbabadır."
+      }
+    },
+    "grandfather": {
+      "text": "o avô",
+      "ex": "Meu avô lê o jornal.",
+      "note": {
+        "en": "Either side of the family. Mind the accent: avô is grandfather, avó is grandmother.",
+        "tr": "Annenin ya da babanın babası. İşarete dikkat: avô büyükbaba, avó büyükanne."
+      }
+    },
+    "son": {
+      "text": "o filho",
+      "ex": "O filho deles é estudante."
+    },
+    "daughter": {
+      "text": "a filha",
+      "ex": "Ali tem duas filhas."
+    },
+    "dog": {
+      "text": "o cachorro",
+      "ex": "Nosso cachorro é grande e branco.",
+      "also": [
+        "o cão"
+      ]
+    },
+    "cat": {
+      "text": "o gato",
+      "ex": "O gato dorme no sofá."
+    },
+    "friend": {
+      "text": "o amigo",
+      "ex": "Tom é meu amigo.",
+      "note": {
+        "en": "For a woman: a amiga.",
+        "tr": "Kadın arkadaş için: a amiga."
+      }
+    },
+    "neighbor": {
+      "text": "o vizinho",
+      "ex": "Nosso vizinho tem um jardim.",
+      "note": {
+        "en": "For a woman: a vizinha.",
+        "tr": "Kadın komşu için: a vizinha."
+      }
+    },
+    "kind": {
+      "text": "gentil",
+      "ex": "Sua irmã é muito gentil.",
+      "note": {
+        "en": "Nice and caring to people. The same form for a man and a woman.",
+        "tr": "İnsanlara karşı nazik ve ilgili. Erkek ve kadın için aynı biçim."
+      }
+    },
+    "funny": {
+      "text": "engraçado",
+      "ex": "Leo é muito engraçado."
+    },
+    "happy": {
+      "text": "feliz",
+      "ex": "Hoje eu estou muito feliz."
+    },
+    "together": {
+      "text": "juntos",
+      "ex": "Nós almoçamos juntos."
+    },
+    "man": {
+      "text": "o homem",
+      "ex": "Aquele homem é meu professor."
+    },
+    "woman": {
+      "text": "a mulher",
+      "ex": "Aquela mulher é médica."
+    },
+    "child": {
+      "text": "a criança",
+      "ex": "A criança tem seis anos.",
+      "note": {
+        "en": "Always a criança, for a boy or a girl.",
+        "tr": "Erkek ya da kız, her çocuk için a criança denir."
+      }
+    },
+    "young": {
+      "text": "jovem",
+      "ex": "Nosso novo professor é jovem."
+    },
+    "old": {
+      "text": "idoso",
+      "ex": "Meu avô é idoso, mas forte.",
+      "also": [
+        "velho"
+      ],
+      "note": {
+        "en": "Of a person. Velho also means old, but for people idoso sounds kinder.",
+        "tr": "İnsan için. Velho da yaşlı demektir ama insanlar için idoso daha kibar duyulur."
+      }
+    },
+    "tall": {
+      "text": "alto",
+      "ex": "Sam é muito alto."
+    },
+    "one": {
+      "text": "um",
+      "ex": "Eu tenho um irmão.",
+      "also": [
+        "uma"
+      ],
+      "note": {
+        "en": "Before a feminine word: uma (uma irmã).",
+        "tr": "Dişil bir kelimeden önce: uma (uma irmã)."
+      }
+    },
+    "two": {
+      "text": "dois",
+      "ex": "Nós temos dois gatos.",
+      "also": [
+        "duas"
+      ],
+      "note": {
+        "en": "Before a feminine word: duas (duas irmãs).",
+        "tr": "Dişil bir kelimeden önce: duas (duas irmãs)."
+      }
+    },
+    "three": {
+      "text": "três",
+      "ex": "Meu filho tem três anos."
+    },
+    "four": {
+      "text": "quatro",
+      "ex": "Há quatro pessoas na minha família."
+    },
+    "five": {
+      "text": "cinco",
+      "ex": "Eu bebo cinco copos de água por dia."
+    },
+    "six": {
+      "text": "seis",
+      "ex": "Emma tem seis livros."
+    },
+    "seven": {
+      "text": "sete",
+      "ex": "A loja abre às sete."
+    },
+    "eight": {
+      "text": "oito",
+      "ex": "A aula começa às oito."
+    },
+    "nine": {
+      "text": "nove",
+      "ex": "Deniz tem nove anos."
+    },
+    "ten": {
+      "text": "dez",
+      "ex": "Eu tenho dez minutos."
+    },
+    "eleven": {
+      "text": "onze",
+      "ex": "Nossa turma tem onze estudantes."
+    },
+    "twelve": {
+      "text": "doze",
+      "ex": "Leo faz doze anos hoje."
+    },
+    "zero": {
+      "text": "zero",
+      "ex": "Meu número de telefone começa com zero."
+    },
+    "twenty": {
+      "text": "vinte",
+      "ex": "Há vinte estudantes na minha turma."
+    },
+    "thirty": {
+      "text": "trinta",
+      "ex": "Nosso professor tem trinta anos."
+    },
+    "fifty": {
+      "text": "cinquenta",
+      "ex": "Este livro tem cinquenta páginas."
+    },
+    "one-hundred": {
+      "text": "cem",
+      "ex": "Minha avó tem quase cem anos.",
+      "note": {
+        "en": "Exactly 100 is cem. From 101 on it becomes cento: cento e um.",
+        "tr": "Tam 100 cem'dir. 101'den sonra cento olur: cento e um."
+      }
+    },
+    "number": {
+      "text": "o número",
+      "ex": "Qual é o seu número de telefone?",
+      "note": {
+        "en": "A phone or room number. A number in math is also o número.",
+        "tr": "Telefon ya da oda numarası. Portekizcede 'sayı' da o número'dur."
+      }
+    },
+    "age": {
+      "text": "a idade",
+      "ex": "Escreva seu nome e sua idade aqui."
+    },
+    "how-old-are-you": {
+      "text": "quantos anos você tem?",
+      "ex": "Elif, quantos anos você tem?",
+      "note": {
+        "en": "Informal, to one friend. Word for word: how many years do you have?",
+        "tr": "Bir arkadaşa, samimi. Kelimesi kelimesine: kaç yılın var?"
+      }
+    },
+    "how-many": {
+      "text": "quantos?",
+      "ex": "Quantos irmãos você tem?",
+      "also": [
+        "quantas?"
+      ],
+      "note": {
+        "en": "Before a feminine word: quantas? (quantas irmãs?).",
+        "tr": "Dişil bir kelimeden önce: quantas? (quantas irmãs?)."
+      }
+    },
+    "year": {
+      "text": "o ano",
+      "ex": "Este ano eu faço dezoito anos."
+    },
+    "birthday": {
+      "text": "o aniversário",
+      "ex": "Hoje é meu aniversário!"
+    },
+    "month": {
+      "text": "o mês",
+      "ex": "Meu aniversário é no mês que vem."
+    },
+    "breakfast": {
+      "text": "o café da manhã",
+      "ex": "Nós tomamos café da manhã às sete.",
+      "note": {
+        "en": "Word for word: the coffee of the morning. To have breakfast: tomar café da manhã.",
+        "tr": "Kelimesi kelimesine: sabah kahvesi. Kahvaltı yapmak: tomar café da manhã."
+      }
+    },
+    "bread": {
+      "text": "o pão",
+      "ex": "Este pão está fresco."
+    },
+    "cheese": {
+      "text": "o queijo",
+      "ex": "Eu como pão e queijo."
+    },
+    "egg": {
+      "text": "o ovo",
+      "ex": "Mia come um ovo toda manhã."
+    },
+    "honey": {
+      "text": "o mel",
+      "ex": "Meu avô coloca mel no chá."
+    },
+    "eat": {
+      "text": "comer",
+      "ex": "Nós comemos em casa."
+    },
+    "water": {
+      "text": "a água",
+      "ex": "Esta água está muito gelada."
+    },
+    "tea": {
+      "text": "o chá",
+      "ex": "Você quer chá?"
+    },
+    "coffee": {
+      "text": "o café",
+      "ex": "Meu pai bebe café sem leite."
+    },
+    "milk": {
+      "text": "o leite",
+      "ex": "O bebê bebe leite."
+    },
+    "juice": {
+      "text": "o suco",
+      "ex": "Zeynep bebe suco no café da manhã."
+    },
+    "drink": {
+      "text": "beber",
+      "ex": "Nós bebemos chá à noite.",
+      "also": [
+        "tomar"
+      ],
+      "note": {
+        "en": "The verb. For coffee, tea and juice Brazilians often say tomar: tomar um café.",
+        "tr": "Fiil. Kahve, çay ve meyve suyu için Brezilya'da sık sık tomar denir: tomar um café."
+      }
+    },
+    "apple": {
+      "text": "a maçã",
+      "ex": "Esta maçã é vermelha."
+    },
+    "banana": {
+      "text": "a banana",
+      "ex": "Eu tenho uma banana na minha bolsa."
+    },
+    "tomato": {
+      "text": "o tomate",
+      "ex": "Os tomates são da nossa horta."
+    },
+    "potato": {
+      "text": "a batata",
+      "ex": "Nós comemos batatas no jantar."
+    },
+    "fruit": {
+      "text": "a fruta",
+      "ex": "Ali come fruta todo dia."
+    },
+    "vegetable": {
+      "text": "o legume",
+      "ex": "Minha mãe compra legumes frescos.",
+      "note": {
+        "en": "Leafy green vegetables are a verdura.",
+        "tr": "Yeşil yapraklı sebzelere a verdura denir."
+      }
+    },
+    "lunch": {
+      "text": "o almoço",
+      "ex": "O almoço é à uma hora."
+    },
+    "dinner": {
+      "text": "o jantar",
+      "ex": "O jantar está pronto!"
+    },
+    "food": {
+      "text": "a comida",
+      "ex": "Há comida na cozinha."
+    },
+    "soup": {
+      "text": "a sopa",
+      "ex": "Minha avó faz sopa de tomate."
+    },
+    "hungry": {
+      "text": "com fome",
+      "ex": "Estou com fome, vamos comer!",
+      "note": {
+        "en": "Portuguese says estar com fome: to be with hunger.",
+        "tr": "Portekizcede estar com fome denir: kelimesi kelimesine 'açlıkla olmak'."
+      }
+    },
+    "like": {
+      "text": "gostar de",
+      "ex": "Eu gosto de peixe, mas não de frango.",
+      "also": [
+        "gostar"
+      ],
+      "note": {
+        "en": "Always with de: gosto de café. De + o joins into do: gosto do bolo.",
+        "tr": "Her zaman de ile: gosto de café. De + o birleşip do olur: gosto do bolo."
+      }
+    },
+    "house": {
+      "text": "a casa",
+      "ex": "A casa deles fica perto do mar."
+    },
+    "room": {
+      "text": "o quarto",
+      "ex": "Meu quarto tem duas janelas.",
+      "note": {
+        "en": "Your own room or a bedroom. Any room of a house is o cômodo.",
+        "tr": "Kendi odan ya da yatak odası. Evdeki herhangi bir oda o cômodo'dur."
+      }
+    },
+    "kitchen": {
+      "text": "a cozinha",
+      "ex": "Meu pai cozinha na cozinha."
+    },
+    "bedroom": {
+      "text": "o dormitório",
+      "ex": "O dormitório fica no andar de cima.",
+      "note": {
+        "en": "The word on house plans and adverts. In speech Brazilians simply say o quarto.",
+        "tr": "Ev planlarında ve ilanlarda geçen kelime. Konuşurken Brezilyalılar kısaca o quarto der."
+      }
+    },
+    "bathroom": {
+      "text": "o banheiro",
+      "ex": "O banheiro fica ao lado do meu quarto."
+    },
+    "garden": {
+      "text": "o jardim",
+      "ex": "As crianças brincam no jardim."
+    },
+    "table": {
+      "text": "a mesa",
+      "ex": "As chaves estão em cima da mesa."
+    },
+    "chair": {
+      "text": "a cadeira",
+      "ex": "Sente-se nesta cadeira."
+    },
+    "bed": {
+      "text": "a cama",
+      "ex": "Minha cama é muito macia."
+    },
+    "sofa": {
+      "text": "o sofá",
+      "ex": "O sofá é grande e azul."
+    },
+    "door": {
+      "text": "a porta",
+      "ex": "Por favor, feche a porta."
+    },
+    "window": {
+      "text": "a janela",
+      "ex": "Abra a janela, por favor."
+    },
+    "lamp": {
+      "text": "o abajur",
+      "ex": "O abajur fica ao lado da minha cama.",
+      "also": [
+        "a luminária"
+      ],
+      "note": {
+        "en": "A table or bedside lamp. Any lamp can also be a luminária.",
+        "tr": "Masa ya da komodin lambası. Her tür lamba için a luminária da denir."
+      }
+    },
+    "phone": {
+      "text": "o telefone",
+      "ex": "Seu telefone está em cima do sofá.",
+      "also": [
+        "o celular"
+      ]
+    },
+    "book": {
+      "text": "o livro",
+      "ex": "Este é um bom livro."
+    },
+    "key": {
+      "text": "a chave",
+      "ex": "Eu tenho a chave da porta."
+    },
+    "fridge": {
+      "text": "a geladeira",
+      "ex": "Há queijo na geladeira."
+    },
+    "computer": {
+      "text": "o computador",
+      "ex": "Sam tem um computador novo."
+    },
+    "big": {
+      "text": "grande",
+      "ex": "O jardim deles é muito grande."
+    },
+    "small": {
+      "text": "pequeno",
+      "ex": "Nós temos uma cozinha pequena."
+    },
+    "new": {
+      "text": "novo",
+      "ex": "Esta é minha casa nova."
+    },
+    "clean": {
+      "text": "limpo",
+      "ex": "Seu quarto está limpo?"
+    },
+    "beautiful": {
+      "text": "bonito",
+      "ex": "Que jardim bonito!",
+      "also": [
+        "lindo"
+      ]
+    },
+    "there-is": {
+      "text": "há",
+      "ex": "Há um gato em cima da cama.",
+      "also": [
+        "tem"
+      ],
+      "note": {
+        "en": "The same for one thing or many: há um gato, há dois gatos. In speech Brazilians mostly say tem.",
+        "tr": "Tek ya da çok için aynı: há um gato, há dois gatos. Konuşmada çoğunlukla tem denir."
+      }
+    },
+    "morning": {
+      "text": "a manhã",
+      "ex": "Eu bebo café de manhã."
+    },
+    "afternoon": {
+      "text": "a tarde",
+      "ex": "Nós brincamos no parque à tarde."
+    },
+    "evening": {
+      "text": "a noitinha",
+      "ex": "Minha família come junta à noitinha.",
+      "note": {
+        "en": "Early evening. Portuguese mostly uses a noite for both evening and night.",
+        "tr": "Akşamın erken saatleri. Portekizcede akşam ve gece için çoğunlukla a noite denir."
+      }
+    },
+    "night": {
+      "text": "a noite",
+      "ex": "A cidade fica tranquila à noite."
+    },
+    "today": {
+      "text": "hoje",
+      "ex": "Hoje eu estou muito ocupado."
+    },
+    "now": {
+      "text": "agora",
+      "ex": "Mia não está em casa agora."
+    },
+    "wake-up": {
+      "text": "acordar",
+      "ex": "Eu acordo às sete."
+    },
+    "take-a-shower": {
+      "text": "tomar banho",
+      "ex": "Leo toma banho toda manhã.",
+      "note": {
+        "en": "Brazilians say tomar banho for a shower or a bath.",
+        "tr": "Brezilya'da duş da banyo da tomar banho ile söylenir."
+      }
+    },
+    "go": {
+      "text": "ir",
+      "ex": "Nós vamos para a escola de ônibus."
+    },
+    "work": {
+      "text": "trabalhar",
+      "ex": "Minha mãe trabalha em um hospital.",
+      "note": {
+        "en": "The verb. The noun, a job or work, is o trabalho.",
+        "tr": "Fiil. İsim olarak iş: o trabalho."
+      }
+    },
+    "school": {
+      "text": "a escola",
+      "ex": "A escola fica perto da minha casa."
+    },
+    "sleep": {
+      "text": "dormir",
+      "ex": "Os bebês dormem muito."
+    },
+    "monday": {
+      "text": "a segunda-feira",
+      "ex": "As aulas começam na segunda-feira.",
+      "also": [
+        "a segunda"
+      ],
+      "note": {
+        "en": "Weekdays count from Sunday: segunda is the second day, terça the third. In speech -feira is often dropped.",
+        "tr": "Hafta içi günleri pazardan sayılır: segunda ikinci gün, terça üçüncü gün. Konuşmada -feira çoğu zaman düşer."
+      }
+    },
+    "tuesday": {
+      "text": "a terça-feira",
+      "ex": "Eu tenho aula de música na terça-feira.",
+      "also": [
+        "a terça"
+      ]
+    },
+    "wednesday": {
+      "text": "a quarta-feira",
+      "ex": "A quarta-feira é um dia cheio.",
+      "also": [
+        "a quarta"
+      ]
+    },
+    "thursday": {
+      "text": "a quinta-feira",
+      "ex": "Nós nos encontramos na quinta-feira.",
+      "also": [
+        "a quinta"
+      ]
+    },
+    "friday": {
+      "text": "a sexta-feira",
+      "ex": "A sexta-feira é meu dia favorito.",
+      "also": [
+        "a sexta"
+      ]
+    },
+    "week": {
+      "text": "a semana",
+      "ex": "Eu trabalho cinco dias por semana."
+    },
+    "saturday": {
+      "text": "o sábado",
+      "ex": "No sábado nós visitamos nossa avó."
+    },
+    "sunday": {
+      "text": "o domingo",
+      "ex": "As lojas ficam fechadas no domingo."
+    },
+    "weekend": {
+      "text": "o fim de semana",
+      "ex": "O que você faz no fim de semana?"
+    },
+    "read": {
+      "text": "ler",
+      "ex": "Zeynep lê um livro toda noite."
+    },
+    "watch": {
+      "text": "assistir",
+      "ex": "No sábado nós assistimos a um filme.",
+      "also": [
+        "ver"
+      ],
+      "note": {
+        "en": "For TV and movies: assistir a um filme. In speech the a is often dropped.",
+        "tr": "Televizyon ve film için: assistir a um filme. Konuşmada a çoğu zaman düşer."
+      }
+    },
+    "play": {
+      "text": "jogar",
+      "ex": "Ali e Leo jogam tênis.",
+      "note": {
+        "en": "For games and sports. Playing for fun, as children do or with a pet, is brincar. To play music is tocar.",
+        "tr": "Oyun ve spor için. Çocuk oyunu ya da bir evcil hayvanla oynamak brincar, çalgı çalmak tocar'dır."
+      }
+    },
+    "city": {
+      "text": "a cidade",
+      "ex": "Istambul é uma cidade muito grande."
+    },
+    "street": {
+      "text": "a rua",
+      "ex": "Minha escola fica nesta rua."
+    },
+    "park": {
+      "text": "o parque",
+      "ex": "Nós caminhamos no parque aos domingos.",
+      "note": {
+        "en": "The noun. To park a car is estacionar.",
+        "tr": "İsim. Araba park etmek: estacionar."
+      }
+    },
+    "hospital": {
+      "text": "o hospital",
+      "ex": "O hospital fica perto da estação."
+    },
+    "museum": {
+      "text": "o museu",
+      "ex": "O museu fica fechado na segunda-feira."
+    },
+    "bank": {
+      "text": "o banco",
+      "ex": "O banco abre às nove."
+    },
+    "supermarket": {
+      "text": "o supermercado",
+      "ex": "Eu compro leite no supermercado."
+    },
+    "pharmacy": {
+      "text": "a farmácia",
+      "ex": "A farmácia fica aberta a noite toda."
+    },
+    "restaurant": {
+      "text": "o restaurante",
+      "ex": "Este restaurante tem uma sopa boa."
+    },
+    "library": {
+      "text": "a biblioteca",
+      "ex": "Elif estuda na biblioteca.",
+      "note": {
+        "en": "Careful: a livraria is a bookstore, not a library.",
+        "tr": "Dikkat: a livraria kitapçı demektir, kütüphane değil."
+      }
+    },
+    "bakery": {
+      "text": "a padaria",
+      "ex": "A padaria vende pão fresco."
+    },
+    "cafe": {
+      "text": "a cafeteria",
+      "ex": "Nós bebemos café na cafeteria.",
+      "also": [
+        "o café"
+      ]
+    },
+    "left": {
+      "text": "a esquerda",
+      "ex": "Vire à esquerda no banco.",
+      "also": [
+        "à esquerda"
+      ],
+      "note": {
+        "en": "To the left is à esquerda: a + a joins into à.",
+        "tr": "Sola: à esquerda. a + a birleşip à olur."
+      }
+    },
+    "right": {
+      "text": "a direita",
+      "ex": "O museu fica à sua direita.",
+      "also": [
+        "à direita"
+      ],
+      "note": {
+        "en": "The direction. Right as in correct is certo.",
+        "tr": "Yön olarak sağ. 'Doğru' anlamı için certo denir."
+      }
+    },
+    "straight-ahead": {
+      "text": "sempre em frente",
+      "ex": "Siga sempre em frente por cinco minutos.",
+      "also": [
+        "em frente",
+        "reto"
+      ]
+    },
+    "turn": {
+      "text": "virar",
+      "ex": "Vire à direita depois do parque.",
+      "also": [
+        "dobrar"
+      ],
+      "note": {
+        "en": "To change direction. In many places people also say dobrar.",
+        "tr": "Yön değiştirmek. Birçok yerde dobrar da denir."
+      }
+    },
+    "corner": {
+      "text": "a esquina",
+      "ex": "Há uma padaria na esquina.",
+      "note": {
+        "en": "A street corner. The corner of a room is o canto.",
+        "tr": "Sokak köşesi. Odanın köşesi o canto'dur."
+      }
+    },
+    "where": {
+      "text": "onde",
+      "ex": "Com licença, onde fica o banco?"
+    },
+    "near": {
+      "text": "perto de",
+      "ex": "Minha casa fica perto do parque.",
+      "also": [
+        "perto"
+      ]
+    },
+    "far": {
+      "text": "longe de",
+      "ex": "A praia fica longe daqui?",
+      "also": [
+        "longe"
+      ]
+    },
+    "in-front-of": {
+      "text": "na frente de",
+      "ex": "Me encontre na frente da biblioteca.",
+      "also": [
+        "em frente a",
+        "em frente de"
+      ]
+    },
+    "behind": {
+      "text": "atrás de",
+      "ex": "O jardim fica atrás da casa."
+    },
+    "between": {
+      "text": "entre",
+      "ex": "O banco fica entre a cafeteria e a padaria."
+    },
+    "map": {
+      "text": "o mapa",
+      "ex": "Você tem um mapa da cidade?",
+      "note": {
+        "en": "Masculine although it ends in -a.",
+        "tr": "-a ile bitse de erildir: o mapa."
+      }
+    },
+    "shirt": {
+      "text": "a camisa",
+      "ex": "Ali usa camisa branca para trabalhar."
+    },
+    "pants": {
+      "text": "a calça",
+      "ex": "Esta calça é comprida demais.",
+      "also": [
+        "as calças"
+      ],
+      "note": {
+        "en": "In Brazil one pair is usually singular: a calça.",
+        "tr": "Brezilya'da tek bir pantolon genellikle tekil söylenir: a calça."
+      }
+    },
+    "dress": {
+      "text": "o vestido",
+      "ex": "Anna usa um vestido longo."
+    },
+    "shoes": {
+      "text": "os sapatos",
+      "ex": "Meus sapatos estão debaixo da cama.",
+      "also": [
+        "o sapato"
+      ]
+    },
+    "jacket": {
+      "text": "a jaqueta",
+      "ex": "Pegue sua jaqueta, está frio."
+    },
+    "wear": {
+      "text": "usar",
+      "ex": "Eu uso jaqueta no inverno.",
+      "also": [
+        "vestir"
+      ],
+      "note": {
+        "en": "Usar is to have clothes on. Vestir is also used, mostly for putting them on.",
+        "tr": "Usar, bir giysiyi üzerinde taşımaktır. Vestir de kullanılır, daha çok giyinmek anlamında."
+      }
+    },
+    "red": {
+      "text": "vermelho",
+      "ex": "Eu quero a camisa vermelha."
+    },
+    "blue": {
+      "text": "azul",
+      "ex": "Emma tem olhos azuis."
+    },
+    "green": {
+      "text": "verde",
+      "ex": "Eu gosto de maçãs verdes."
+    },
+    "yellow": {
+      "text": "amarelo",
+      "ex": "Minha irmã gosta de flores amarelas."
+    },
+    "black": {
+      "text": "preto",
+      "ex": "Tom tem um cachorro preto."
+    },
+    "white": {
+      "text": "branco",
+      "ex": "As paredes do meu quarto são brancas."
+    },
+    "price": {
+      "text": "o preço",
+      "ex": "Qual é o preço desta bolsa?"
+    },
+    "how-much-is-it": {
+      "text": "quanto custa?",
+      "ex": "Esta camiseta é bonita. Quanto custa?",
+      "also": [
+        "quanto é?"
+      ]
+    },
+    "cheap": {
+      "text": "barato",
+      "ex": "Estes sapatos são baratos."
+    },
+    "expensive": {
+      "text": "caro",
+      "ex": "Aquela jaqueta é cara demais."
+    },
+    "pay": {
+      "text": "pagar",
+      "ex": "Posso pagar com cartão?"
+    },
+    "money": {
+      "text": "o dinheiro",
+      "ex": "Eu não tenho muito dinheiro."
+    },
+    "shop": {
+      "text": "a loja",
+      "ex": "A loja fecha às oito."
+    },
+    "buy": {
+      "text": "comprar",
+      "ex": "Eu quero comprar uma bolsa nova."
+    },
+    "sell": {
+      "text": "vender",
+      "ex": "Eles vendem sapatos e bolsas aqui."
+    },
+    "size": {
+      "text": "o tamanho",
+      "ex": "Tem este em um tamanho maior?",
+      "note": {
+        "en": "For shoes Brazilians say o número: eu calço 38.",
+        "tr": "Ayakkabı için o número denir: eu calço 38 (38 numara giyerim)."
+      }
+    },
+    "try-on": {
+      "text": "experimentar",
+      "ex": "Posso experimentar este vestido?",
+      "note": {
+        "en": "To put clothes on in a shop. It also means to try or taste anything new.",
+        "tr": "Mağazada giysi denemek. Yeni bir şeyi denemek ya da tadına bakmak anlamına da gelir."
+      }
+    },
+    "bag": {
+      "text": "a bolsa",
+      "ex": "Coloque sua bolsa na cadeira.",
+      "note": {
+        "en": "A handbag. A backpack is a mochila, a shopping bag is a sacola.",
+        "tr": "El çantası. Sırt çantası a mochila, alışveriş poşeti a sacola'dır."
+      }
+    },
+    "weather": {
+      "text": "o tempo",
+      "ex": "O tempo está bom hoje.",
+      "note": {
+        "en": "O tempo also means time.",
+        "tr": "O tempo aynı zamanda 'zaman' demektir."
+      }
+    },
+    "sun": {
+      "text": "o sol",
+      "ex": "O sol está brilhando em Madri."
+    },
+    "rain": {
+      "text": "a chuva",
+      "ex": "Em Londres tem muita chuva."
+    },
+    "snow": {
+      "text": "a neve",
+      "ex": "As crianças estão brincando na neve."
+    },
+    "wind": {
+      "text": "o vento",
+      "ex": "O vento está muito frio hoje."
+    },
+    "cloud": {
+      "text": "a nuvem",
+      "ex": "Não há nenhuma nuvem no céu."
+    },
+    "hot": {
+      "text": "quente",
+      "ex": "No verão fica muito quente.",
+      "note": {
+        "en": "Of the weather you can also say faz calor: it makes heat.",
+        "tr": "Hava için faz calor da denir: 'sıcak yapıyor'."
+      }
+    },
+    "cold": {
+      "text": "frio",
+      "ex": "Hoje está frio lá fora.",
+      "note": {
+        "en": "Of the weather you can also say faz frio. A person who feels cold says estou com frio.",
+        "tr": "Hava için faz frio da denir. Üşüyen biri estou com frio der."
+      }
+    },
+    "sky": {
+      "text": "o céu",
+      "ex": "O céu está cinza hoje."
+    },
+    "umbrella": {
+      "text": "o guarda-chuva",
+      "ex": "Leve um guarda-chuva, está chovendo."
+    },
+    "wet": {
+      "text": "molhado",
+      "ex": "Meu cabelo está molhado por causa da chuva."
+    },
+    "degree": {
+      "text": "o grau",
+      "ex": "Hoje faz trinta graus."
+    },
+    "season": {
+      "text": "a estação do ano",
+      "ex": "A primavera é minha estação do ano favorita.",
+      "note": {
+        "en": "A estação alone means a station, and often a season too.",
+        "tr": "Tek başına a estação istasyon demektir, çoğu zaman mevsim anlamına da gelir."
+      }
+    },
+    "spring": {
+      "text": "a primavera",
+      "ex": "As flores abrem na primavera.",
+      "note": {
+        "en": "The season. Brazil is in the south: there spring runs from September to December.",
+        "tr": "Mevsim. Brezilya güney yarım kürede: orada ilkbahar eylülden aralığa sürer."
+      }
+    },
+    "summer": {
+      "text": "o verão",
+      "ex": "Nós vamos à praia no verão."
+    },
+    "fall": {
+      "text": "o outono",
+      "ex": "As folhas ficam amarelas no outono.",
+      "note": {
+        "en": "Autumn. Brazil is in the south: there fall runs from March to June.",
+        "tr": "Sonbahar. Brezilya güney yarım kürede: orada sonbahar marttan hazirana sürer."
+      }
+    },
+    "winter": {
+      "text": "o inverno",
+      "ex": "Os invernos são frios em Seul."
+    },
+    "flower": {
+      "text": "a flor",
+      "ex": "Minha mãe adora flores."
+    },
+    "outside": {
+      "text": "lá fora",
+      "ex": "Vamos comer lá fora hoje.",
+      "also": [
+        "fora",
+        "aqui fora"
+      ]
+    },
+    "inside": {
+      "text": "dentro",
+      "ex": "Está chovendo, então vamos ficar aqui dentro.",
+      "also": [
+        "lá dentro",
+        "aqui dentro"
+      ]
+    },
+    "beach": {
+      "text": "a praia",
+      "ex": "Elif está lendo na praia."
+    },
+    "swim": {
+      "text": "nadar",
+      "ex": "Ali está nadando no mar."
+    },
+    "walk": {
+      "text": "caminhar",
+      "ex": "Anna e eu estamos caminhando à beira-mar.",
+      "also": [
+        "andar"
+      ]
+    },
+    "stay": {
+      "text": "ficar",
+      "ex": "Hoje eu vou ficar em casa.",
+      "note": {
+        "en": "To stay somewhere. Ficar also says where a place is: o banco fica aqui.",
+        "tr": "Bir yerde kalmak. Ficar bir yerin nerede olduğunu da söyler: o banco fica aqui."
+      }
+    },
+    "bus": {
+      "text": "o ônibus",
+      "ex": "O ônibus estava cheio hoje de manhã."
+    },
+    "train": {
+      "text": "o trem",
+      "ex": "O trem para Madri foi rápido."
+    },
+    "car": {
+      "text": "o carro",
+      "ex": "Meu primeiro carro era vermelho."
+    },
+    "bike": {
+      "text": "a bicicleta",
+      "ex": "Eu vou para o trabalho de bicicleta.",
+      "also": [
+        "a bike"
+      ]
+    },
+    "taxi": {
+      "text": "o táxi",
+      "ex": "O táxi foi muito caro."
+    },
+    "plane": {
+      "text": "o avião",
+      "ex": "Nós ficamos doze horas no avião."
+    },
+    "ticket": {
+      "text": "a passagem",
+      "ex": "Esta é a sua passagem de trem?",
+      "also": [
+        "o bilhete"
+      ],
+      "note": {
+        "en": "A ticket for a trip. A ticket for a show or a game is o ingresso.",
+        "tr": "Yolculuk bileti. Gösteri ya da maç bileti o ingresso'dur."
+      }
+    },
+    "station": {
+      "text": "a estação",
+      "ex": "A estação estava cheia de gente."
+    },
+    "airport": {
+      "text": "o aeroporto",
+      "ex": "O aeroporto ficava longe da cidade."
+    },
+    "passport": {
+      "text": "o passaporte",
+      "ex": "Seu passaporte estava em cima da mesa."
+    },
+    "early": {
+      "text": "cedo",
+      "ex": "Eu acordo cedo às segundas."
+    },
+    "late": {
+      "text": "atrasado",
+      "ex": "Desculpa, hoje eu cheguei atrasado.",
+      "also": [
+        "tarde"
+      ],
+      "note": {
+        "en": "Atrasado is late for an agreed time. Late in the day is tarde: dormi tarde.",
+        "tr": "Atrasado: belli bir saate geç kalmış. Günün geç saati için tarde: dormi tarde (geç yattım)."
+      }
+    },
+    "hotel": {
+      "text": "o hotel",
+      "ex": "Nosso hotel ficava perto do mar."
+    },
+    "suitcase": {
+      "text": "a mala",
+      "ex": "Minha mala estava muito pesada."
+    },
+    "floor": {
+      "text": "o andar",
+      "ex": "Nosso quarto ficava no quinto andar.",
+      "note": {
+        "en": "A level of a building. The ground you walk on is o chão.",
+        "tr": "Binanın katı. Üzerinde yürüdüğün zemin o chão'dur."
+      }
+    },
+    "view": {
+      "text": "a vista",
+      "ex": "A vista da janela era linda."
+    },
+    "comfortable": {
+      "text": "confortável",
+      "ex": "As camas eram muito confortáveis."
+    },
+    "quiet": {
+      "text": "silencioso",
+      "ex": "O hotel era limpo e silencioso.",
+      "also": [
+        "tranquilo"
+      ]
+    },
+    "vacation": {
+      "text": "as férias",
+      "ex": "Nossas férias foram curtas demais.",
+      "note": {
+        "en": "Always plural: as férias foram ótimas.",
+        "tr": "Her zaman çoğul: as férias foram ótimas (tatil harikaydı)."
+      }
+    },
+    "sea": {
+      "text": "o mar",
+      "ex": "O mar estava quente e azul."
+    },
+    "mountain": {
+      "text": "a montanha",
+      "ex": "As montanhas estavam brancas de neve."
+    },
+    "photo": {
+      "text": "a foto",
+      "ex": "Esta foto é de Tóquio.",
+      "note": {
+        "en": "Feminine although it ends in -o: it is short for a fotografia.",
+        "tr": "-o ile bitse de dişildir: a fotografia'nın kısaltmasıdır."
+      }
+    },
+    "visit": {
+      "text": "visitar",
+      "ex": "Os turistas visitam o museu todos os dias."
+    },
+    "wonderful": {
+      "text": "maravilhoso",
+      "ex": "Foi um dia maravilhoso na praia."
+    },
+    "yesterday": {
+      "text": "ontem",
+      "ex": "Eu vi Elif ontem."
+    },
+    "last-night": {
+      "text": "ontem à noite",
+      "ex": "Ontem à noite nós assistimos a um filme."
+    },
+    "last-week": {
+      "text": "na semana passada",
+      "ex": "Na semana passada, Tom visitou Paris.",
+      "also": [
+        "semana passada"
+      ]
+    },
+    "last-year": {
+      "text": "no ano passado",
+      "ex": "Nós nos mudamos para Berlim no ano passado.",
+      "also": [
+        "ano passado"
+      ]
+    },
+    "ago": {
+      "text": "atrás",
+      "ex": "Eu comecei neste emprego dois anos atrás.",
+      "also": [
+        "há"
+      ],
+      "note": {
+        "en": "After a length of time, atrás means ago: dois dias atrás. Or put há before it: há dois dias. Atrás de + a place means behind.",
+        "tr": "Bir süreden sonra atrás 'önce' demektir: dois dias atrás. Ya da há başa gelir: há dois dias. Atrás de + bir yer ise 'arkasında' demektir."
+      }
+    },
+    "then": {
+      "text": "depois",
+      "ex": "Nós almoçamos e depois caminhamos.",
+      "also": [
+        "então"
+      ],
+      "note": {
+        "en": "Next in time. Então also means then, and often so.",
+        "tr": "Sonra, ardından. Então da 'sonra' demektir, çoğu zaman da 'yani, öyleyse'."
+      }
+    },
+    "meet": {
+      "text": "encontrar",
+      "ex": "Eu encontrei Zeynep na cafeteria.",
+      "note": {
+        "en": "To meet someone you know. To meet someone new is conhecer.",
+        "tr": "Tanıdığın biriyle buluşmak. Yeni biriyle tanışmak conhecer'dir."
+      }
+    },
+    "see": {
+      "text": "ver",
+      "ex": "Eu vi seu irmão no parque."
+    },
+    "dance": {
+      "text": "dançar",
+      "ex": "Nós dançamos a noite toda."
+    },
+    "sing": {
+      "text": "cantar",
+      "ex": "Mia cantou uma música para nós."
+    },
+    "party": {
+      "text": "a festa",
+      "ex": "A festa foi na casa de Leo.",
+      "note": {
+        "en": "A celebration. A political party is o partido.",
+        "tr": "Kutlama, eğlence. Siyasi parti o partido'dur."
+      }
+    },
+    "have-fun": {
+      "text": "se divertir",
+      "ex": "As crianças se divertiram muito.",
+      "also": [
+        "divertir-se"
+      ]
+    },
+    "cook": {
+      "text": "cozinhar",
+      "ex": "Meu pai cozinhou peixe para nós.",
+      "note": {
+        "en": "The verb. In speech fazer is common too: fazer o jantar.",
+        "tr": "Fiil. Konuşmada fazer de çok kullanılır: fazer o jantar (akşam yemeği yapmak)."
+      }
+    },
+    "wash": {
+      "text": "lavar",
+      "ex": "Eu lavei meu carro no domingo."
+    },
+    "call": {
+      "text": "ligar",
+      "ex": "Eu liguei para minha avó ontem à noite.",
+      "also": [
+        "telefonar"
+      ],
+      "note": {
+        "en": "To phone someone: ligar para alguém.",
+        "tr": "Birine telefon etmek: ligar para alguém."
+      }
+    },
+    "write": {
+      "text": "escrever",
+      "ex": "Anna escreveu um e-mail longo."
+    },
+    "listen": {
+      "text": "ouvir",
+      "ex": "Nós ouvimos música o dia todo.",
+      "also": [
+        "escutar"
+      ]
+    },
+    "music": {
+      "text": "a música",
+      "ex": "Eu gosto de música calma.",
+      "note": {
+        "en": "Uma música also means a song.",
+        "tr": "Uma música aynı zamanda 'bir şarkı' demektir."
+      }
+    },
+    "tired": {
+      "text": "cansado",
+      "ex": "Eu estava muito cansado depois do trabalho."
+    },
+    "forget": {
+      "text": "esquecer",
+      "ex": "Eu esqueci meu guarda-chuva em casa."
+    },
+    "lose": {
+      "text": "perder",
+      "ex": "Sam perdeu as chaves dele ontem."
+    },
+    "find": {
+      "text": "achar",
+      "ex": "Eu achei meu telefone debaixo da cama.",
+      "note": {
+        "en": "Encontrar also means to find. Achar also means to think: acho que sim.",
+        "tr": "Encontrar da bulmak demektir. Achar 'sanmak' anlamına da gelir: acho que sim (sanırım öyle)."
+      }
+    },
+    "finish": {
+      "text": "terminar",
+      "ex": "Nós terminamos a lição de casa às nove.",
+      "also": [
+        "acabar"
+      ]
+    },
+    "start": {
+      "text": "começar",
+      "ex": "O filme começou às oito."
+    },
+    "tomorrow": {
+      "text": "amanhã",
+      "ex": "Amanhã eu vou visitar minha avó."
+    },
+    "tonight": {
+      "text": "hoje à noite",
+      "ex": "Nós vamos ver um filme hoje à noite."
+    },
+    "next-week": {
+      "text": "na semana que vem",
+      "ex": "Na semana que vem eu vou começar um trabalho novo.",
+      "also": [
+        "na próxima semana",
+        "semana que vem"
+      ]
+    },
+    "next-year": {
+      "text": "no ano que vem",
+      "ex": "No ano que vem nós vamos nos mudar para Seul.",
+      "also": [
+        "no próximo ano",
+        "ano que vem"
+      ]
+    },
+    "soon": {
+      "text": "em breve",
+      "ex": "Minha irmã vai nos visitar em breve.",
+      "also": [
+        "logo"
+      ]
+    },
+    "plan": {
+      "text": "o plano",
+      "ex": "Qual é o seu plano para sábado?",
+      "note": {
+        "en": "The noun. To plan is planejar.",
+        "tr": "İsim. Plan yapmak: planejar."
+      }
+    },
+    "invite": {
+      "text": "convidar",
+      "ex": "Eu gostaria de convidar você para jantar."
+    },
+    "would-you-like": {
+      "text": "você quer...?",
+      "ex": "Você quer um pouco de chá?",
+      "also": [
+        "você gostaria de...?"
+      ],
+      "note": {
+        "en": "Word for word: do you want...? Between friends it is warm and polite enough.",
+        "tr": "Kelimesi kelimesine: ister misin? Arkadaşlar arasında yeterince sıcak ve kibar."
+      }
+    },
+    "come": {
+      "text": "vir",
+      "ex": "Você quer vir à minha festa?"
+    },
+    "free": {
+      "text": "livre",
+      "ex": "Você está livre na sexta à noite?",
+      "note": {
+        "en": "Not busy. Free of charge is grátis.",
+        "tr": "Boş, meşgul değil. Bedava anlamı için grátis denir."
+      }
+    },
+    "busy": {
+      "text": "ocupado",
+      "ex": "Desculpa, amanhã eu estou ocupado."
+    },
+    "concert": {
+      "text": "o show",
+      "ex": "Hoje à noite tem um show no parque.",
+      "also": [
+        "o concerto"
+      ],
+      "note": {
+        "en": "For pop and rock. A classical concert is o concerto.",
+        "tr": "Pop ve rock için. Klasik müzik konseri o concerto'dur."
+      }
+    },
+    "of-course": {
+      "text": "claro",
+      "ex": "Claro que eu vou!",
+      "also": [
+        "é claro",
+        "claro que sim"
+      ]
+    },
+    "good-idea": {
+      "text": "boa ideia",
+      "ex": "Um piquenique no domingo? Boa ideia!"
+    },
+    "maybe": {
+      "text": "talvez",
+      "ex": "Talvez eu venha mais tarde."
+    },
+    "unfortunately": {
+      "text": "infelizmente",
+      "ex": "Infelizmente, a loja está fechada hoje."
+    },
+    "another-time": {
+      "text": "outro dia",
+      "ex": "Desculpa, não posso ir. Quem sabe outro dia?",
+      "also": [
+        "outra hora",
+        "outra vez"
+      ]
+    },
+    "i-would-love-to": {
+      "text": "eu adoraria",
+      "ex": "Jantar no sábado? Eu adoraria!",
+      "also": [
+        "adoraria"
+      ],
+      "note": {
+        "en": "A warm yes to an invitation.",
+        "tr": "Bir davete sıcak bir evet."
+      }
+    },
+    "learn": {
+      "text": "aprender",
+      "ex": "Eu gostaria de aprender a cozinhar."
+    },
+    "travel": {
+      "text": "viajar",
+      "ex": "Emma vai viajar para Tóquio."
+    },
+    "rest": {
+      "text": "descansar",
+      "ex": "Neste fim de semana eu vou descansar.",
+      "note": {
+        "en": "The verb. The rest of something is o resto.",
+        "tr": "Fiil. Bir şeyin geri kalanı o resto'dur."
+      }
+    },
+    "celebrate": {
+      "text": "comemorar",
+      "ex": "Nós vamos comemorar o aniversário dela.",
+      "also": [
+        "celebrar"
+      ]
+    },
+    "bring": {
+      "text": "trazer",
+      "ex": "Eu vou trazer um bolo.",
+      "note": {
+        "en": "When you take something to the other person's place, Brazilians often say levar: eu levo um bolo.",
+        "tr": "Bir şeyi karşındakinin yanına götürürken Brezilya'da sık sık levar denir: eu levo um bolo."
+      }
+    },
+    "ready": {
+      "text": "pronto",
+      "ex": "Você está pronto para a viagem?"
+    }
+  },
+  "sentences": {
+    "u01-1-a": {
+      "tokens": [
+        "Bom",
+        "dia,",
+        "Zeynep",
+        "e",
+        "Ali!"
+      ],
+      "gap": 1,
+      "wrong": [
+        "noite",
+        "tarde",
+        "semana"
+      ]
+    },
+    "u01-1-b": {
+      "tokens": [
+        "Olá,",
+        "Sam,",
+        "como",
+        "você",
+        "está?"
+      ],
+      "gap": 2,
+      "wrong": [
+        "quem",
+        "qual",
+        "quanto"
+      ]
+    },
+    "u01-2-a": {
+      "tokens": [
+        "Boa",
+        "noite,",
+        "Mia",
+        "e",
+        "Leo."
+      ],
+      "gap": 1,
+      "wrong": [
+        "dia",
+        "mês",
+        "ano"
+      ]
+    },
+    "u01-2-b": {
+      "tokens": [
+        "Até",
+        "amanhã,",
+        "Tom."
+      ],
+      "gap": 1,
+      "wrong": [
+        "ontem",
+        "hoje",
+        "agora"
+      ]
+    },
+    "u01-3-a": {
+      "tokens": [
+        "Muito",
+        "prazer,",
+        "Tom."
+      ],
+      "gap": 1,
+      "wrong": [
+        "nome",
+        "país",
+        "estudante"
+      ]
+    },
+    "u01-3-b": {
+      "tokens": [
+        "Anna",
+        "é",
+        "professora",
+        "de",
+        "Berlim."
+      ],
+      "gap": 2,
+      "wrong": [
+        "estudante",
+        "país",
+        "nome"
+      ]
+    },
+    "u01-4-a": {
+      "tokens": [
+        "Dois",
+        "chás,",
+        "por",
+        "favor."
+      ],
+      "gap": 3,
+      "wrong": [
+        "obrigado",
+        "desculpa",
+        "tchau"
+      ]
+    },
+    "u01-4-b": {
+      "tokens": [
+        "Muito",
+        "obrigado,",
+        "Emre."
+      ],
+      "gap": 1,
+      "wrong": [
+        "desculpa",
+        "tchau",
+        "olá"
+      ]
+    },
+    "u02-1-a": {
+      "tokens": [
+        "Minha",
+        "mãe",
+        "e",
+        "meu",
+        "pai",
+        "são",
+        "professores."
+      ],
+      "gap": 1,
+      "wrong": [
+        "pai",
+        "irmão",
+        "filho"
+      ]
+    },
+    "u02-1-b": {
+      "tokens": [
+        "Zeynep",
+        "tem",
+        "um",
+        "irmão."
+      ],
+      "gap": 3,
+      "wrong": [
+        "irmã",
+        "mãe",
+        "família"
+      ]
+    },
+    "u02-2-a": {
+      "tokens": [
+        "Minha",
+        "avó",
+        "mora",
+        "conosco."
+      ],
+      "gap": 1,
+      "wrong": [
+        "avô",
+        "pai",
+        "filho"
+      ]
+    },
+    "u02-2-b": {
+      "tokens": [
+        "Mia",
+        "tem",
+        "um",
+        "gato",
+        "preto."
+      ],
+      "gap": 3,
+      "wrong": [
+        "mãe",
+        "avó",
+        "filha"
+      ]
+    },
+    "u02-3-a": {
+      "tokens": [
+        "Emma",
+        "é",
+        "minha",
+        "nova",
+        "vizinha."
+      ],
+      "gap": 2,
+      "wrong": [
+        "nosso",
+        "seu",
+        "dela"
+      ]
+    },
+    "u02-3-b": {
+      "tokens": [
+        "Meus",
+        "amigos",
+        "são",
+        "muito",
+        "engraçados."
+      ],
+      "gap": 2,
+      "wrong": [
+        "têm",
+        "moram",
+        "comem"
+      ]
+    },
+    "u02-4-a": {
+      "tokens": [
+        "Aquele",
+        "homem",
+        "é",
+        "muito",
+        "alto."
+      ],
+      "gap": 1,
+      "wrong": [
+        "mulher",
+        "criança",
+        "mãe"
+      ]
+    },
+    "u02-4-b": {
+      "tokens": [
+        "A",
+        "mulher",
+        "é",
+        "jovem",
+        "e",
+        "feliz."
+      ],
+      "gap": 2,
+      "wrong": [
+        "tem",
+        "mora",
+        "come"
+      ]
+    },
+    "u03-1-a": {
+      "tokens": [
+        "Eu",
+        "tenho",
+        "duas",
+        "irmãs."
+      ],
+      "gap": 2,
+      "wrong": [
+        "três",
+        "um",
+        "uma"
+      ]
+    },
+    "u03-1-b": {
+      "tokens": [
+        "Quatro",
+        "mais",
+        "dois",
+        "são",
+        "seis."
+      ],
+      "gap": 4,
+      "wrong": [
+        "cinco",
+        "três",
+        "quatro"
+      ]
+    },
+    "u03-2-a": {
+      "tokens": [
+        "Minha",
+        "irmã",
+        "tem",
+        "oito",
+        "anos."
+      ],
+      "gap": 2,
+      "wrong": [
+        "é",
+        "está",
+        "mora"
+      ]
+    },
+    "u03-2-b": {
+      "tokens": [
+        "Uma",
+        "semana",
+        "tem",
+        "sete",
+        "dias."
+      ],
+      "gap": 3,
+      "wrong": [
+        "seis",
+        "oito",
+        "dez"
+      ]
+    },
+    "u03-3-a": {
+      "tokens": [
+        "Vinte",
+        "mais",
+        "trinta",
+        "são",
+        "cinquenta."
+      ],
+      "gap": 4,
+      "wrong": [
+        "vinte",
+        "trinta",
+        "cem"
+      ]
+    },
+    "u03-3-b": {
+      "tokens": [
+        "O",
+        "número",
+        "do",
+        "meu",
+        "quarto",
+        "é",
+        "doze."
+      ],
+      "gap": 1,
+      "wrong": [
+        "idade",
+        "família",
+        "semana"
+      ]
+    },
+    "u03-4-a": {
+      "tokens": [
+        "Eu",
+        "tenho",
+        "doze",
+        "anos."
+      ],
+      "gap": 1,
+      "wrong": [
+        "sou",
+        "estou",
+        "moro"
+      ]
+    },
+    "u03-4-b": {
+      "tokens": [
+        "Quantos",
+        "gatos",
+        "você",
+        "tem?"
+      ],
+      "gap": 0,
+      "wrong": [
+        "Como",
+        "Onde",
+        "Qual"
+      ]
+    },
+    "u04-1-a": {
+      "tokens": [
+        "Eu",
+        "como",
+        "pão",
+        "no",
+        "café",
+        "da",
+        "manhã."
+      ],
+      "gap": 1,
+      "wrong": [
+        "bebo",
+        "durmo",
+        "moro"
+      ]
+    },
+    "u04-1-b": {
+      "tokens": [
+        "Tom",
+        "come",
+        "dois",
+        "ovos."
+      ],
+      "gap": 2,
+      "wrong": [
+        "três",
+        "uma",
+        "um"
+      ]
+    },
+    "u04-2-a": {
+      "tokens": [
+        "Emre",
+        "bebe",
+        "café",
+        "toda",
+        "manhã."
+      ],
+      "gap": 1,
+      "wrong": [
+        "lê",
+        "dorme",
+        "mora"
+      ]
+    },
+    "u04-2-b": {
+      "tokens": [
+        "O",
+        "suco",
+        "está",
+        "muito",
+        "gelado."
+      ],
+      "gap": 2,
+      "wrong": [
+        "tem",
+        "come",
+        "bebe"
+      ]
+    },
+    "u04-3-a": {
+      "tokens": [
+        "As",
+        "bananas",
+        "são",
+        "amarelas",
+        "e",
+        "doces."
+      ],
+      "gap": 1,
+      "wrong": [
+        "ovos",
+        "queijos",
+        "tomates"
+      ]
+    },
+    "u04-3-b": {
+      "tokens": [
+        "Nós",
+        "precisamos",
+        "de",
+        "três",
+        "batatas."
+      ],
+      "gap": 1,
+      "wrong": [
+        "comemos",
+        "bebemos",
+        "moramos"
+      ]
+    },
+    "u04-4-a": {
+      "tokens": [
+        "O",
+        "jantar",
+        "é",
+        "às",
+        "oito."
+      ],
+      "gap": 1,
+      "wrong": [
+        "comida",
+        "fome",
+        "sopa"
+      ]
+    },
+    "u04-4-b": {
+      "tokens": [
+        "Deniz",
+        "gosta",
+        "muito",
+        "de",
+        "sopa."
+      ],
+      "gap": 1,
+      "wrong": [
+        "come",
+        "bebe",
+        "mora"
+      ]
+    },
+    "u05-1-a": {
+      "tokens": [
+        "Nossa",
+        "casa",
+        "tem",
+        "três",
+        "quartos."
+      ],
+      "gap": 1,
+      "wrong": [
+        "jardim",
+        "banheiro",
+        "sofá"
+      ]
+    },
+    "u05-1-b": {
+      "tokens": [
+        "Emma",
+        "está",
+        "no",
+        "jardim",
+        "agora."
+      ],
+      "gap": 1,
+      "wrong": [
+        "é",
+        "tem",
+        "gosta"
+      ]
+    },
+    "u05-2-a": {
+      "tokens": [
+        "Há",
+        "uma",
+        "cadeira",
+        "ao",
+        "lado",
+        "da",
+        "janela."
+      ],
+      "gap": 2,
+      "wrong": [
+        "sofá",
+        "livro",
+        "quarto"
+      ]
+    },
+    "u05-2-b": {
+      "tokens": [
+        "Minha",
+        "cama",
+        "fica",
+        "ao",
+        "lado",
+        "da",
+        "porta."
+      ],
+      "gap": 6,
+      "wrong": [
+        "sofá",
+        "quarto",
+        "banheiro"
+      ]
+    },
+    "u05-3-a": {
+      "tokens": [
+        "O",
+        "livro",
+        "está",
+        "na",
+        "cama."
+      ],
+      "gap": 2,
+      "wrong": [
+        "é",
+        "tem",
+        "come"
+      ]
+    },
+    "u05-3-b": {
+      "tokens": [
+        "Onde",
+        "estão",
+        "as",
+        "chaves,",
+        "Tom?"
+      ],
+      "gap": 3,
+      "wrong": [
+        "livros",
+        "telefones",
+        "computadores"
+      ]
+    },
+    "u05-4-a": {
+      "tokens": [
+        "Nossa",
+        "casa",
+        "nova",
+        "é",
+        "muito",
+        "grande."
+      ],
+      "gap": 2,
+      "wrong": [
+        "pequeno",
+        "limpo",
+        "bonito"
+      ]
+    },
+    "u05-4-b": {
+      "tokens": [
+        "Há",
+        "um",
+        "jardim",
+        "pequeno."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Está",
+        "Mora",
+        "Gosta"
+      ]
+    },
+    "u06-1-a": {
+      "tokens": [
+        "Eu",
+        "leio",
+        "livros",
+        "à",
+        "noite."
+      ],
+      "gap": 4,
+      "wrong": [
+        "dia",
+        "mês",
+        "ano"
+      ]
+    },
+    "u06-1-b": {
+      "tokens": [
+        "Ali",
+        "trabalha",
+        "à",
+        "tarde."
+      ],
+      "gap": 1,
+      "wrong": [
+        "é",
+        "precisa",
+        "gosta"
+      ]
+    },
+    "u06-2-a": {
+      "tokens": [
+        "Emma",
+        "acorda",
+        "às",
+        "seis."
+      ],
+      "gap": 1,
+      "wrong": [
+        "mora",
+        "tem",
+        "gosta"
+      ]
+    },
+    "u06-2-b": {
+      "tokens": [
+        "Deniz",
+        "vai",
+        "à",
+        "escola",
+        "todo",
+        "dia."
+      ],
+      "gap": 1,
+      "wrong": [
+        "é",
+        "tem",
+        "mora"
+      ]
+    },
+    "u06-3-a": {
+      "tokens": [
+        "Tom",
+        "trabalha",
+        "de",
+        "segunda",
+        "a",
+        "sexta."
+      ],
+      "gap": 5,
+      "wrong": [
+        "mês",
+        "ano",
+        "dia"
+      ]
+    },
+    "u06-3-b": {
+      "tokens": [
+        "Nossa",
+        "aula",
+        "é",
+        "na",
+        "quarta-feira."
+      ],
+      "gap": 4,
+      "wrong": [
+        "sábado",
+        "domingo",
+        "mês"
+      ]
+    },
+    "u06-4-a": {
+      "tokens": [
+        "Mia",
+        "brinca",
+        "com",
+        "o",
+        "cachorro",
+        "dela",
+        "no",
+        "domingo."
+      ],
+      "gap": 7,
+      "wrong": [
+        "segunda",
+        "terça",
+        "quarta"
+      ]
+    },
+    "u06-4-b": {
+      "tokens": [
+        "Elif",
+        "lê",
+        "no",
+        "jardim."
+      ],
+      "gap": 1,
+      "wrong": [
+        "é",
+        "quer",
+        "precisa"
+      ]
+    },
+    "u07-1-a": {
+      "tokens": [
+        "Roma",
+        "tem",
+        "muitos",
+        "museus",
+        "antigos."
+      ],
+      "gap": 3,
+      "wrong": [
+        "ruas",
+        "cidades",
+        "lojas"
+      ]
+    },
+    "u07-1-b": {
+      "tokens": [
+        "O",
+        "parque",
+        "fica",
+        "na",
+        "minha",
+        "rua."
+      ],
+      "gap": 5,
+      "wrong": [
+        "banco",
+        "museu",
+        "hospital"
+      ]
+    },
+    "u07-2-a": {
+      "tokens": [
+        "A",
+        "padaria",
+        "abre",
+        "às",
+        "sete."
+      ],
+      "gap": 2,
+      "wrong": [
+        "mora",
+        "bebe",
+        "dorme"
+      ]
+    },
+    "u07-2-b": {
+      "tokens": [
+        "Tem",
+        "uma",
+        "farmácia",
+        "aqui",
+        "perto?"
+      ],
+      "gap": 2,
+      "wrong": [
+        "banco",
+        "museu",
+        "parque"
+      ]
+    },
+    "u07-3-a": {
+      "tokens": [
+        "Vire",
+        "à",
+        "esquerda",
+        "na",
+        "esquina."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Coma",
+        "Beba",
+        "Durma"
+      ]
+    },
+    "u07-3-b": {
+      "tokens": [
+        "Onde",
+        "fica",
+        "o",
+        "museu",
+        "da",
+        "cidade?"
+      ],
+      "gap": 0,
+      "wrong": [
+        "Quem",
+        "Quantos",
+        "Qual"
+      ]
+    },
+    "u07-4-a": {
+      "tokens": [
+        "A",
+        "estação",
+        "não",
+        "fica",
+        "longe."
+      ],
+      "gap": 3,
+      "wrong": [
+        "bebe",
+        "come",
+        "dorme"
+      ]
+    },
+    "u07-4-b": {
+      "tokens": [
+        "A",
+        "cafeteria",
+        "fica",
+        "atrás",
+        "do",
+        "museu."
+      ],
+      "gap": 3,
+      "wrong": [
+        "entre",
+        "onde",
+        "aqui"
+      ]
+    },
+    "u08-1-a": {
+      "tokens": [
+        "Mia",
+        "usa",
+        "sapatos",
+        "pretos."
+      ],
+      "gap": 1,
+      "wrong": [
+        "come",
+        "bebe",
+        "lê"
+      ]
+    },
+    "u08-1-b": {
+      "tokens": [
+        "Este",
+        "vestido",
+        "é",
+        "muito",
+        "bonito."
+      ],
+      "gap": 1,
+      "wrong": [
+        "camisa",
+        "calça",
+        "jaqueta"
+      ]
+    },
+    "u08-2-a": {
+      "tokens": [
+        "Eu",
+        "gosto",
+        "da",
+        "jaqueta",
+        "azul."
+      ],
+      "gap": 1,
+      "wrong": [
+        "moro",
+        "durmo",
+        "tenho"
+      ]
+    },
+    "u08-2-b": {
+      "tokens": [
+        "Meus",
+        "sapatos",
+        "novos",
+        "são",
+        "brancos."
+      ],
+      "gap": 1,
+      "wrong": [
+        "camisas",
+        "calças",
+        "jaquetas"
+      ]
+    },
+    "u08-3-a": {
+      "tokens": [
+        "O",
+        "preço",
+        "do",
+        "vestido",
+        "é",
+        "cinquenta."
+      ],
+      "gap": 1,
+      "wrong": [
+        "cor",
+        "loja",
+        "bolsa"
+      ]
+    },
+    "u08-3-b": {
+      "tokens": [
+        "Esta",
+        "camisa",
+        "é",
+        "muito",
+        "barata."
+      ],
+      "gap": 2,
+      "wrong": [
+        "tem",
+        "paga",
+        "mora"
+      ]
+    },
+    "u08-4-a": {
+      "tokens": [
+        "Posso",
+        "experimentar",
+        "esta",
+        "calça?"
+      ],
+      "gap": 1,
+      "wrong": [
+        "comer",
+        "beber",
+        "dormir"
+      ]
+    },
+    "u08-4-b": {
+      "tokens": [
+        "Esta",
+        "loja",
+        "vende",
+        "chapéus",
+        "bonitos."
+      ],
+      "gap": 2,
+      "wrong": [
+        "come",
+        "bebe",
+        "dorme"
+      ]
+    },
+    "u09-1-a": {
+      "tokens": [
+        "Está",
+        "chovendo",
+        "em",
+        "Paris."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Tem",
+        "Faz",
+        "Há"
+      ]
+    },
+    "u09-1-b": {
+      "tokens": [
+        "Olha,",
+        "está",
+        "nevando!"
+      ],
+      "gap": 1,
+      "wrong": [
+        "faz",
+        "tem",
+        "é"
+      ]
+    },
+    "u09-2-a": {
+      "tokens": [
+        "Faz",
+        "muito",
+        "frio",
+        "em",
+        "Berlim."
+      ],
+      "gap": 2,
+      "wrong": [
+        "neve",
+        "nuvem",
+        "céu"
+      ]
+    },
+    "u09-2-b": {
+      "tokens": [
+        "Tom",
+        "está",
+        "carregando",
+        "um",
+        "guarda-chuva",
+        "preto."
+      ],
+      "gap": 2,
+      "wrong": [
+        "dormindo",
+        "chovendo",
+        "nevando"
+      ]
+    },
+    "u09-3-a": {
+      "tokens": [
+        "Na",
+        "primavera",
+        "as",
+        "árvores",
+        "estão",
+        "verdes."
+      ],
+      "gap": 1,
+      "wrong": [
+        "inverno",
+        "verão",
+        "outono"
+      ]
+    },
+    "u09-3-b": {
+      "tokens": [
+        "O",
+        "verão",
+        "é",
+        "uma",
+        "estação",
+        "quente."
+      ],
+      "gap": 1,
+      "wrong": [
+        "primavera",
+        "flor",
+        "nuvem"
+      ]
+    },
+    "u09-4-a": {
+      "tokens": [
+        "Leo",
+        "está",
+        "nadando",
+        "na",
+        "praia."
+      ],
+      "gap": 2,
+      "wrong": [
+        "chovendo",
+        "nevando",
+        "precisando"
+      ]
+    },
+    "u09-4-b": {
+      "tokens": [
+        "Mia",
+        "e",
+        "Tom",
+        "estão",
+        "caminhando",
+        "lá",
+        "fora."
+      ],
+      "gap": 3,
+      "wrong": [
+        "são",
+        "têm",
+        "moram"
+      ]
+    },
+    "u10-1-a": {
+      "tokens": [
+        "O",
+        "ônibus",
+        "estava",
+        "muito",
+        "lento."
+      ],
+      "gap": 2,
+      "wrong": [
+        "tinha",
+        "comia",
+        "morava"
+      ]
+    },
+    "u10-1-b": {
+      "tokens": [
+        "Às",
+        "seis",
+        "nós",
+        "estávamos",
+        "no",
+        "trem."
+      ],
+      "gap": 5,
+      "wrong": [
+        "bicicleta",
+        "estação",
+        "praia"
+      ]
+    },
+    "u10-2-a": {
+      "tokens": [
+        "O",
+        "trem",
+        "chegou",
+        "atrasado",
+        "de",
+        "novo."
+      ],
+      "gap": 2,
+      "wrong": [
+        "dormiu",
+        "comeu",
+        "bebeu"
+      ]
+    },
+    "u10-2-b": {
+      "tokens": [
+        "As",
+        "passagens",
+        "não",
+        "foram",
+        "caras."
+      ],
+      "gap": 3,
+      "wrong": [
+        "tiveram",
+        "comeram",
+        "dormiram"
+      ]
+    },
+    "u10-3-a": {
+      "tokens": [
+        "O",
+        "quarto",
+        "do",
+        "hotel",
+        "era",
+        "muito",
+        "silencioso."
+      ],
+      "gap": 4,
+      "wrong": [
+        "tinha",
+        "ia",
+        "fazia"
+      ]
+    },
+    "u10-3-b": {
+      "tokens": [
+        "A",
+        "cama",
+        "era",
+        "confortável?"
+      ],
+      "gap": 1,
+      "wrong": [
+        "quarto",
+        "hotel",
+        "andar"
+      ]
+    },
+    "u10-4-a": {
+      "tokens": [
+        "O",
+        "mar",
+        "estava",
+        "muito",
+        "bonito."
+      ],
+      "gap": 1,
+      "wrong": [
+        "praia",
+        "montanha",
+        "foto"
+      ]
+    },
+    "u10-4-b": {
+      "tokens": [
+        "Nossas",
+        "férias",
+        "no",
+        "Rio",
+        "foram",
+        "maravilhosas."
+      ],
+      "gap": 4,
+      "wrong": [
+        "beberam",
+        "comeram",
+        "nadaram"
+      ]
+    },
+    "u11-1-a": {
+      "tokens": [
+        "Emma",
+        "me",
+        "ligou",
+        "ontem."
+      ],
+      "gap": 2,
+      "wrong": [
+        "dormiu",
+        "nadou",
+        "choveu"
+      ]
+    },
+    "u11-1-b": {
+      "tokens": [
+        "Eu",
+        "vi",
+        "Ali",
+        "dois",
+        "dias",
+        "atrás."
+      ],
+      "gap": 5,
+      "wrong": [
+        "amanhã",
+        "agora",
+        "hoje"
+      ]
+    },
+    "u11-2-a": {
+      "tokens": [
+        "Nós",
+        "dançamos",
+        "na",
+        "festa."
+      ],
+      "gap": 1,
+      "wrong": [
+        "queremos",
+        "precisamos",
+        "gostamos"
+      ]
+    },
+    "u11-2-b": {
+      "tokens": [
+        "Emre",
+        "e",
+        "eu",
+        "nos",
+        "encontramos",
+        "no",
+        "sábado."
+      ],
+      "gap": 4,
+      "wrong": [
+        "dormimos",
+        "nadamos",
+        "moramos"
+      ]
+    },
+    "u11-3-a": {
+      "tokens": [
+        "Tom",
+        "cozinhou",
+        "uma",
+        "sopa",
+        "para",
+        "o",
+        "jantar."
+      ],
+      "gap": 1,
+      "wrong": [
+        "dormiu",
+        "nadou",
+        "dançou"
+      ]
+    },
+    "u11-3-b": {
+      "tokens": [
+        "Eu",
+        "ouvi",
+        "música",
+        "na",
+        "cama."
+      ],
+      "gap": 1,
+      "wrong": [
+        "comi",
+        "bebi",
+        "lavei"
+      ]
+    },
+    "u11-4-a": {
+      "tokens": [
+        "Elif",
+        "esqueceu",
+        "a",
+        "bolsa",
+        "na",
+        "escola."
+      ],
+      "gap": 1,
+      "wrong": [
+        "dançou",
+        "nadou",
+        "dormiu"
+      ]
+    },
+    "u11-4-b": {
+      "tokens": [
+        "Eu",
+        "perdi",
+        "minha",
+        "passagem",
+        "ontem."
+      ],
+      "gap": 1,
+      "wrong": [
+        "dormi",
+        "nadei",
+        "caminhei"
+      ]
+    },
+    "u12-1-a": {
+      "tokens": [
+        "Eu",
+        "vou",
+        "te",
+        "ligar",
+        "amanhã."
+      ],
+      "gap": 1,
+      "wrong": [
+        "sou",
+        "tenho",
+        "estou"
+      ]
+    },
+    "u12-1-b": {
+      "tokens": [
+        "Mia",
+        "vai",
+        "cozinhar",
+        "hoje",
+        "à",
+        "noite."
+      ],
+      "gap": 1,
+      "wrong": [
+        "é",
+        "tem",
+        "está"
+      ]
+    },
+    "u12-2-a": {
+      "tokens": [
+        "Você",
+        "quer",
+        "vir",
+        "conosco?"
+      ],
+      "gap": 1,
+      "wrong": [
+        "é",
+        "tem",
+        "mora"
+      ]
+    },
+    "u12-2-b": {
+      "tokens": [
+        "Você",
+        "está",
+        "livre",
+        "neste",
+        "fim",
+        "de",
+        "semana?"
+      ],
+      "gap": 1,
+      "wrong": [
+        "tem",
+        "vai",
+        "quer"
+      ]
+    },
+    "u12-3-a": {
+      "tokens": [
+        "Claro",
+        "que",
+        "eu",
+        "quero",
+        "ir."
+      ],
+      "gap": 3,
+      "wrong": [
+        "sou",
+        "durmo",
+        "moro"
+      ]
+    },
+    "u12-3-b": {
+      "tokens": [
+        "Infelizmente,",
+        "estou",
+        "ocupado",
+        "hoje",
+        "à",
+        "noite."
+      ],
+      "gap": 1,
+      "wrong": [
+        "tenho",
+        "sou",
+        "vou"
+      ]
+    },
+    "u12-4-a": {
+      "tokens": [
+        "Nós",
+        "vamos",
+        "comemorar",
+        "no",
+        "sábado."
+      ],
+      "gap": 1,
+      "wrong": [
+        "somos",
+        "temos",
+        "estamos"
+      ]
+    },
+    "u12-4-b": {
+      "tokens": [
+        "Deniz",
+        "gostaria",
+        "de",
+        "aprender",
+        "francês."
+      ],
+      "gap": 3,
+      "wrong": [
+        "dormir",
+        "nadar",
+        "chover"
+      ]
+    }
+  },
+  "tips": {
+    "u01": {
+      "title": {
+        "en": "I am, you are: eu sou, você é",
+        "tr": "Ben ...im, sen ...sin: eu sou, você é"
+      },
+      "body": {
+        "en": "To one friend in Brazil, 'you' is você. Its verb takes the same form as for he or she: você é, ele é. Only the 'I' form is different: eu sou.\n\nPortuguese has two verbs for 'to be'. Ser says who or what you are: Eu sou Deniz. Você é estudante? Estar says how you are right now: Eu estou bem. That is why the greeting is Como você está? and the answer is Estou bem.\n\nYou can often drop eu: Sou de Istambul. The verb already shows who is speaking.",
+        "tr": "Brezilya'da bir arkadaşına 'sen' derken você kullanılır. Ondan sonra gelen fiil, 'o' için kullanılan fiille aynıdır: você é, ele é. Yalnızca 'ben' biçimi farklıdır: eu sou.\n\nPortekizcede 'olmak' için iki fiil var. Ser kim ya da ne olduğunu söyler: Eu sou Deniz. Você é estudante? Estar şu anki hâlini söyler: Eu estou bem. Bu yüzden Como você está? diye sorulur ve Estou bem diye cevap verilir.\n\nEu kelimesini çoğu zaman atabilirsin: Sou de Istambul. Kimin konuştuğunu fiil zaten gösterir."
+      },
+      "examples": [
+        {
+          "text": "Eu sou Deniz.",
+          "en": "I am Deniz.",
+          "tr": "Ben Deniz'im."
+        },
+        {
+          "text": "Você é de Paris?",
+          "en": "Are you from Paris?",
+          "tr": "Sen Parisli misin?"
+        },
+        {
+          "text": "Eu estou bem, e você?",
+          "en": "I am fine, and you?",
+          "tr": "İyiyim, ya sen?"
+        }
+      ]
+    },
+    "u02": {
+      "title": {
+        "en": "My: meu or minha?",
+        "tr": "Benim: meu mu, minha mı?"
+      },
+      "body": {
+        "en": "Every Portuguese noun is masculine or feminine. The little word in front shows it: o pai, a mãe. Most words in -o are masculine and most in -a are feminine, but learn each noun with its o or a.\n\n'My' changes with the thing you have, not with you: meu pai, minha mãe. In the plural it is meus amigos, minhas irmãs. 'Our' works the same way: nosso cachorro, nossa casa.\n\nFor 'his' and 'her', Brazilians often put dele or dela after the noun: o irmão dela (her brother).",
+        "tr": "Portekizcede her isim ya eril ya da dişildir. Önündeki küçük kelime bunu gösterir: o pai, a mãe. -o ile biten kelimelerin çoğu eril, -a ile bitenlerin çoğu dişildir. Yine de her ismi o ya da a ile birlikte öğren.\n\n'Benim' kelimesi sana göre değil, sahip olduğun şeye göre değişir: meu pai, minha mãe. Çoğulda meus amigos, minhas irmãs olur. 'Bizim' de aynıdır: nosso cachorro, nossa casa.\n\n'Onun' için Brezilya'da çoğu zaman ismin arkasına dele (sahibi erkekse) ya da dela (sahibi kadınsa) gelir: o irmão dela (onun erkek kardeşi)."
+      },
+      "examples": [
+        {
+          "text": "Meu pai é médico.",
+          "en": "My father is a doctor.",
+          "tr": "Babam doktor."
+        },
+        {
+          "text": "Minha mãe bebe chá.",
+          "en": "My mother drinks tea.",
+          "tr": "Annem çay içer."
+        },
+        {
+          "text": "Meus amigos são engraçados.",
+          "en": "My friends are funny.",
+          "tr": "Arkadaşlarım komik."
+        }
+      ]
+    },
+    "u03": {
+      "title": {
+        "en": "Your age: you have years",
+        "tr": "Yaşın: yılların var"
+      },
+      "body": {
+        "en": "In Portuguese you do not say that you are an age. You say that you have years, with the verb ter: Eu tenho doze anos. The question is Quantos anos você tem? (How many years do you have?)\n\nTer in the present: eu tenho, você tem, ele tem, nós temos.\n\nTwo numbers change before feminine nouns: um becomes uma and dois becomes duas. So you say um irmão but uma irmã, dois gatos but duas irmãs. Most other numbers stay the same.",
+        "tr": "Portekizcede yaş 'olmak' fiiliyle değil, ter (sahip olmak) fiiliyle söylenir: Eu tenho doze anos (On iki yaşındayım, kelimesi kelimesine 'on iki yılım var'). Soru da şöyledir: Quantos anos você tem?\n\nTer fiilinin şimdiki zamanı: eu tenho, você tem, ele tem, nós temos.\n\nİki sayı dişil isimlerden önce değişir: um, uma olur; dois, duas olur. Yani um irmão ama uma irmã, dois gatos ama duas irmãs dersin. Diğer sayıların çoğu değişmez."
+      },
+      "examples": [
+        {
+          "text": "Eu tenho doze anos.",
+          "en": "I am twelve years old.",
+          "tr": "On iki yaşındayım."
+        },
+        {
+          "text": "Quantos anos você tem?",
+          "en": "How old are you?",
+          "tr": "Kaç yaşındasın?"
+        },
+        {
+          "text": "Eu tenho duas irmãs.",
+          "en": "I have two sisters.",
+          "tr": "İki kız kardeşim var."
+        }
+      ]
+    },
+    "u04": {
+      "title": {
+        "en": "I eat, you eat: verbs in -er",
+        "tr": "Yerim, yersin: -er ile biten fiiller"
+      },
+      "body": {
+        "en": "Many everyday verbs end in -er: comer (to eat), beber (to drink), vender (to sell). In the present, drop -er and add the ending for the person: eu como, você come, ele come, nós comemos, eles comem.\n\nSo Tom come dois ovos (Tom eats two eggs) and Nós bebemos chá (We drink tea).\n\nOne verb to watch: gostar (to like) always takes de after it. Eu gosto de sopa. When de meets o or a, they join: gosto do café, gosto da sopa.",
+        "tr": "Gündelik fiillerin çoğu -er ile biter: comer (yemek), beber (içmek), vender (satmak). Şimdiki zamanda -er'i at ve kişiye göre eki ekle: eu como, você come, ele come, nós comemos, eles comem.\n\nYani Tom come dois ovos (Tom iki yumurta yer) ve Nós bebemos chá (Çay içeriz).\n\nDikkat etmen gereken bir fiil var: gostar (sevmek) her zaman de ile kullanılır. Eu gosto de sopa (Çorbayı severim). De ile o ya da a birleşir: gosto do café, gosto da sopa."
+      },
+      "examples": [
+        {
+          "text": "Eu como pão no café da manhã.",
+          "en": "I eat bread for breakfast.",
+          "tr": "Kahvaltıda ekmek yerim."
+        },
+        {
+          "text": "Nós bebemos chá à noite.",
+          "en": "We drink tea in the evening.",
+          "tr": "Akşamları çay içeriz."
+        },
+        {
+          "text": "Deniz gosta de sopa.",
+          "en": "Deniz likes soup.",
+          "tr": "Deniz çorbayı sever."
+        }
+      ]
+    },
+    "u05": {
+      "title": {
+        "en": "There is: há or tem",
+        "tr": "Var: há ya da tem"
+      },
+      "body": {
+        "en": "To say that something exists, use há. It never changes: há um gato na cama, há dois quartos. In everyday speech Brazilians mostly use tem in the same way: Tem um jardim pequeno.\n\nTo say where a thing is, use estar: O livro está na cama. For places that do not move, like rooms, houses and shops, Brazilians often use ficar: A cozinha fica ao lado do banheiro.\n\nWatch the small joined words: em + o = no, em + a = na. No jardim, na cozinha.",
+        "tr": "Bir şeyin var olduğunu söylemek için há kullan. Hiç değişmez: há um gato na cama (yatakta bir kedi var), há dois quartos (iki oda var). Gündelik konuşmada Brezilyalılar çoğunlukla aynı şekilde tem der: Tem um jardim pequeno.\n\nBir şeyin nerede olduğunu söylemek için estar kullan: O livro está na cama (Kitap yatağın üstünde). Oda, ev ve dükkân gibi yerinden oynamayan yerler için Brezilyalılar çoğu zaman ficar kullanır: A cozinha fica ao lado do banheiro (Mutfak banyonun yanında).\n\nKüçük birleşik kelimelere dikkat: em + o = no, em + a = na. No jardim, na cozinha."
+      },
+      "examples": [
+        {
+          "text": "Há um gato em cima da cama.",
+          "en": "There is a cat on the bed.",
+          "tr": "Yatağın üstünde bir kedi var."
+        },
+        {
+          "text": "O livro está na cama.",
+          "en": "The book is on the bed.",
+          "tr": "Kitap yatağın üstünde."
+        },
+        {
+          "text": "O banheiro fica ao lado do meu quarto.",
+          "en": "The bathroom is next to my room.",
+          "tr": "Banyo odamın yanında."
+        }
+      ]
+    },
+    "u06": {
+      "title": {
+        "en": "I work, you work: verbs in -ar",
+        "tr": "Çalışırım, çalışırsın: -ar ile biten fiiller"
+      },
+      "body": {
+        "en": "Most Portuguese verbs end in -ar: trabalhar (to work), acordar (to wake up), jogar (to play). In the present: eu trabalho, você trabalha, ele trabalha, nós trabalhamos, eles trabalham.\n\nIr (to go) is irregular, and you need it every day: eu vou, você vai, ele vai, nós vamos, eles vão. Deniz vai à escola.\n\nFor days, use na with the weekdays and no with the weekend: na segunda, na sexta, no sábado, no domingo.",
+        "tr": "Portekizce fiillerin çoğu -ar ile biter: trabalhar (çalışmak), acordar (uyanmak), jogar (oynamak). Şimdiki zamanda: eu trabalho, você trabalha, ele trabalha, nós trabalhamos, eles trabalham.\n\nIr (gitmek) düzensizdir ve ona her gün ihtiyacın olur: eu vou, você vai, ele vai, nós vamos, eles vão. Deniz vai à escola (Deniz okula gider).\n\nGünler için hafta içinde na, hafta sonunda no kullan: na segunda, na sexta, no sábado, no domingo."
+      },
+      "examples": [
+        {
+          "text": "Eu acordo às sete.",
+          "en": "I wake up at seven.",
+          "tr": "Saat yedide uyanırım."
+        },
+        {
+          "text": "Tom trabalha de segunda a sexta.",
+          "en": "Tom works from Monday to Friday.",
+          "tr": "Tom pazartesiden cumaya çalışır."
+        },
+        {
+          "text": "Nós vamos para a escola de ônibus.",
+          "en": "We go to school by bus.",
+          "tr": "Okula otobüsle gideriz."
+        }
+      ]
+    },
+    "u07": {
+      "title": {
+        "en": "Where is it? Fica perto do parque",
+        "tr": "Nerede? Fica perto do parque"
+      },
+      "body": {
+        "en": "To ask where a place is, Brazilians often use ficar: Onde fica o banco? The answer uses it too: O banco fica na esquina.\n\nMany place words end in de: perto de (near), longe de (far from), atrás de (behind), na frente de (in front of). When de meets o or a, they join into one word: de + o = do, de + a = da. So perto do parque, atrás da casa, na frente da biblioteca.\n\nFor directions, use the command form: Vire à esquerda. Siga em frente.",
+        "tr": "Bir yerin nerede olduğunu sormak için Brezilyalılar çoğu zaman ficar kullanır: Onde fica o banco? (Banka nerede?) Cevapta da kullanılır: O banco fica na esquina (Banka köşede).\n\nYer bildiren birçok söz de ile biter: perto de (yakınında), longe de (uzağında), atrás de (arkasında), na frente de (önünde). De, o ya da a ile karşılaşınca tek kelime olur: de + o = do, de + a = da. Yani perto do parque, atrás da casa, na frente da biblioteca.\n\nYol tarifinde emir biçimini kullan: Vire à esquerda (Sola dön). Siga em frente (Düz git)."
+      },
+      "examples": [
+        {
+          "text": "Onde fica o museu?",
+          "en": "Where is the museum?",
+          "tr": "Müze nerede?"
+        },
+        {
+          "text": "Minha casa fica perto do parque.",
+          "en": "My house is near the park.",
+          "tr": "Evim parka yakın."
+        },
+        {
+          "text": "O jardim fica atrás da casa.",
+          "en": "The garden is behind the house.",
+          "tr": "Bahçe evin arkasında."
+        }
+      ]
+    },
+    "u08": {
+      "title": {
+        "en": "Colors change with the thing",
+        "tr": "Renkler şeye göre değişir"
+      },
+      "body": {
+        "en": "In Portuguese a describing word usually comes after the noun and changes with it. Masculine -o becomes feminine -a, and both add -s in the plural: um vestido branco, uma camisa branca, sapatos brancos, camisas brancas.\n\nWords that end in -e or in a consonant, like verde, azul and grande, are the same for masculine and feminine. In the plural they add -s or -es: maçãs verdes. Azul becomes azuis.\n\nSo look at the noun first, then make the color match it.",
+        "tr": "Portekizcede niteleme sözü genellikle ismin arkasına gelir ve isimle birlikte değişir. Eril -o, dişilde -a olur. İkisi de çoğulda -s alır: um vestido branco, uma camisa branca, sapatos brancos, camisas brancas.\n\nVerde, azul ve grande gibi -e ya da ünsüzle biten kelimeler eril ve dişilde aynıdır. Çoğulda -s ya da -es alırlar: maçãs verdes. Azul ise azuis olur.\n\nÖnce isme bak, sonra rengi ona uydur."
+      },
+      "examples": [
+        {
+          "text": "Eu quero a camisa vermelha.",
+          "en": "I want the red shirt.",
+          "tr": "Kırmızı gömleği istiyorum."
+        },
+        {
+          "text": "Meus sapatos novos são brancos.",
+          "en": "My new shoes are white.",
+          "tr": "Yeni ayakkabılarım beyaz."
+        },
+        {
+          "text": "Emma tem olhos azuis.",
+          "en": "Emma has blue eyes.",
+          "tr": "Emma'nın mavi gözleri var."
+        }
+      ]
+    },
+    "u09": {
+      "title": {
+        "en": "Right now: estar + -ndo",
+        "tr": "Şu anda: estar + -ndo"
+      },
+      "body": {
+        "en": "To say what is happening right now, use estar with the -ndo form of the verb. Change -ar to -ando, -er to -endo and -ir to -indo: nadar becomes nadando, ler becomes lendo, dormir becomes dormindo.\n\nLeo está nadando. Nós estamos caminhando. Mia e Tom estão lendo.\n\nThe weather works the same way, with no subject at all: Está chovendo (It is raining). Está nevando (It is snowing). For hot and cold you can also use fazer: Faz frio. Faz calor.",
+        "tr": "Şu anda olan bir şeyi söylemek için estar ile fiilin -ndo biçimini kullan. -ar, -ando olur; -er, -endo olur; -ir, -indo olur: nadar, nadando olur; ler, lendo olur; dormir, dormindo olur.\n\nLeo está nadando (Leo yüzüyor). Nós estamos caminhando (Yürüyoruz). Mia e Tom estão lendo (Mia ve Tom okuyor).\n\nHava durumu da böyle söylenir, hiç özne olmadan: Está chovendo (Yağmur yağıyor). Está nevando (Kar yağıyor). Sıcak ve soğuk için fazer de kullanılır: Faz frio (Hava soğuk). Faz calor (Hava sıcak)."
+      },
+      "examples": [
+        {
+          "text": "Está chovendo em Paris.",
+          "en": "It is raining in Paris.",
+          "tr": "Paris'te yağmur yağıyor."
+        },
+        {
+          "text": "Leo está nadando na praia.",
+          "en": "Leo is swimming at the beach.",
+          "tr": "Leo plajda yüzüyor."
+        },
+        {
+          "text": "Faz muito frio em Berlim.",
+          "en": "It is very cold in Berlin.",
+          "tr": "Berlin'de hava çok soğuk."
+        }
+      ]
+    },
+    "u10": {
+      "title": {
+        "en": "It was: foi, era or estava?",
+        "tr": "-dı: foi mi, era mı, estava mı?"
+      },
+      "body": {
+        "en": "English has one 'was'. Portuguese has three, and each has a job.\n\nFoi looks at a finished thing as a whole, often a trip or an event: A viagem foi ótima. O táxi foi caro. Era describes how something used to be, like its look or its kind: Meu primeiro carro era vermelho. Estava describes a state at that moment, like a mood or how full a place was: O ônibus estava cheio.\n\nIn the plural they become foram, eram and estavam: As passagens não foram caras.",
+        "tr": "Türkçede geçmiş için -dı eki yeter. Portekizcede bunun için üç kelime var ve her birinin bir görevi var.\n\nFoi bitmiş bir şeye bir bütün olarak bakar, çoğu zaman bir yolculuğa ya da olaya: A viagem foi ótima (Yolculuk harikaydı). O táxi foi caro (Taksi pahalıydı). Era bir şeyin eskiden nasıl olduğunu, görünüşünü ya da türünü anlatır: Meu primeiro carro era vermelho (İlk arabam kırmızıydı). Estava o andaki bir durumu anlatır, bir ruh hâlini ya da bir yerin ne kadar dolu olduğunu: O ônibus estava cheio (Otobüs doluydu).\n\nÇoğulda foram, eram ve estavam olurlar: As passagens não foram caras (Biletler pahalı değildi)."
+      },
+      "examples": [
+        {
+          "text": "O táxi foi muito caro.",
+          "en": "The taxi was very expensive.",
+          "tr": "Taksi çok pahalıydı."
+        },
+        {
+          "text": "Meu primeiro carro era vermelho.",
+          "en": "My first car was red.",
+          "tr": "İlk arabam kırmızıydı."
+        },
+        {
+          "text": "O ônibus estava cheio.",
+          "en": "The bus was full.",
+          "tr": "Otobüs doluydu."
+        }
+      ]
+    },
+    "u11": {
+      "title": {
+        "en": "What you did: the past of regular verbs",
+        "tr": "Ne yaptın: düzenli fiillerin geçmişi"
+      },
+      "body": {
+        "en": "For a finished action in the past, Portuguese changes the verb ending. For -ar verbs: eu lavei, você lavou, nós lavamos, eles lavaram. For -er and -ir verbs: eu comi, você comeu, nós comemos; eu dormi, você dormiu, nós dormimos.\n\nThe nós form often looks like the present, so time words help: Nós lavamos o carro ontem (We washed the car yesterday).\n\nSome common verbs are irregular. Learn ver early: eu vi, você viu. Eu vi Ali dois dias atrás.",
+        "tr": "Geçmişte bitmiş bir iş için Portekizcede fiilin eki değişir. -ar fiilleri için: eu lavei, você lavou, nós lavamos, eles lavaram. -er ve -ir fiilleri için: eu comi, você comeu, nós comemos; eu dormi, você dormiu, nós dormimos.\n\nNós biçimi çoğu zaman şimdiki zamanla aynı görünür, bu yüzden zaman sözleri yardım eder: Nós lavamos o carro ontem (Dün arabayı yıkadık).\n\nBazı yaygın fiiller düzensizdir. Ver fiilini erkenden öğren: eu vi, você viu. Eu vi Ali dois dias atrás (Ali'yi iki gün önce gördüm)."
+      },
+      "examples": [
+        {
+          "text": "Eu lavei meu carro no domingo.",
+          "en": "I washed my car on Sunday.",
+          "tr": "Pazar günü arabamı yıkadım."
+        },
+        {
+          "text": "Sam perdeu as chaves ontem.",
+          "en": "Sam lost his keys yesterday.",
+          "tr": "Sam dün anahtarlarını kaybetti."
+        },
+        {
+          "text": "Nós dormimos muito.",
+          "en": "We slept a lot.",
+          "tr": "Çok uyuduk."
+        }
+      ]
+    },
+    "u12": {
+      "title": {
+        "en": "Going to: vou + verb",
+        "tr": "-ecek: vou + fiil"
+      },
+      "body": {
+        "en": "To talk about plans, Brazilians use ir (to go) in the present plus a verb in its basic form, just like 'going to' in English: Eu vou viajar. Você vai cozinhar. Nós vamos comemorar.\n\nThe forms of ir: eu vou, você vai, ele vai, nós vamos, eles vão. Add a time word and the plan is clear: Amanhã eu vou te ligar.\n\nTo invite a friend, ask Você quer...? with a verb: Você quer vir conosco? A warm yes is Eu adoraria! A soft no is Infelizmente não posso.",
+        "tr": "Planlardan söz etmek için Brezilyalılar ir (gitmek) fiilinin şimdiki zamanını ve arkasından fiilin yalın hâlini kullanır: Eu vou viajar (Seyahat edeceğim). Você vai cozinhar (Yemek yapacaksın). Nós vamos comemorar (Kutlayacağız).\n\nIr fiilinin biçimleri: eu vou, você vai, ele vai, nós vamos, eles vão. Bir zaman sözü ekleyince plan netleşir: Amanhã eu vou te ligar (Yarın seni arayacağım).\n\nBir arkadaşını davet etmek için Você quer...? ile bir fiil sor: Você quer vir conosco? (Bizimle gelmek ister misin?) Sıcak bir evet: Eu adoraria! Kibar bir hayır: Infelizmente não posso."
+      },
+      "examples": [
+        {
+          "text": "Eu vou te ligar amanhã.",
+          "en": "I am going to call you tomorrow.",
+          "tr": "Seni yarın arayacağım."
+        },
+        {
+          "text": "Nós vamos comemorar no sábado.",
+          "en": "We are going to celebrate on Saturday.",
+          "tr": "Cumartesi günü kutlayacağız."
+        },
+        {
+          "text": "Você quer vir conosco?",
+          "en": "Would you like to come with us?",
+          "tr": "Bizimle gelmek ister misin?"
+        }
+      ]
+    }
+  }
+}

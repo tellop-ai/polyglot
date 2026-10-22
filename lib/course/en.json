@@ -1,0 +1,2206 @@
+{
+  "format": 1,
+  "language": "en",
+  "words": {
+    "hello": {
+      "also": [
+        "hi"
+      ]
+    },
+    "how-are-you": {
+      "note": {
+        "tr": "İngilizcede herkese sorulur, samimi ya da resmi ayrımı yoktur. Kısa cevap: I am fine."
+      }
+    },
+    "i-am-fine": {
+      "also": [
+        "I'm fine"
+      ],
+      "note": {
+        "tr": "Konuşurken I'm fine diye kısaltılır. Genelde thanks ile söylenir: Thanks, I am fine."
+      }
+    },
+    "and-you": {
+      "note": {
+        "tr": "İngilizcede you hem sen hem siz demektir. Aynı soruyu karşı tarafa geri sormanın kısa yolu."
+      }
+    },
+    "goodbye": {
+      "also": [
+        "bye",
+        "good-bye"
+      ],
+      "note": {
+        "tr": "Herkese söylenebilir. Arkadaşlar arasında kısaca bye denir."
+      }
+    },
+    "take-care": {
+      "note": {
+        "tr": "Samimi bir vedalaşma. Arkadaşına ya da ailene söylersin."
+      }
+    },
+    "where-are-you-from": {
+      "note": {
+        "tr": "Cevap from ile verilir: I am from Türkiye. Şehir için de olur: I am from Izmir."
+      }
+    },
+    "nice-to-meet-you": {
+      "note": {
+        "tr": "Biriyle ilk kez tanıştığında söylenir. Karşındaki kişi de Nice to meet you too diye cevap verir."
+      }
+    },
+    "thank-you": {
+      "also": [
+        "thanks"
+      ]
+    },
+    "youre-welcome": {
+      "also": [
+        "you are welcome"
+      ]
+    },
+    "sorry": {
+      "also": [
+        "I'm sorry",
+        "I am sorry"
+      ]
+    },
+    "mother": {
+      "also": [
+        "mom"
+      ]
+    },
+    "father": {
+      "also": [
+        "dad"
+      ]
+    },
+    "brother": {
+      "note": {
+        "tr": "İngilizcede büyük, küçük ayrımı yoktur. Gerekirse older brother (ağabey) ya da younger brother dersin."
+      }
+    },
+    "sister": {
+      "note": {
+        "tr": "İngilizcede büyük, küçük ayrımı yoktur. Gerekirse older sister (abla) ya da younger sister dersin."
+      }
+    },
+    "grandmother": {
+      "also": [
+        "grandma"
+      ],
+      "note": {
+        "tr": "Anneanne de babaanne de grandmother: anne ve baba tarafı için aynı kelime."
+      }
+    },
+    "grandfather": {
+      "also": [
+        "grandpa"
+      ],
+      "note": {
+        "tr": "Anne tarafındaki dede de baba tarafındaki dede de grandfather."
+      }
+    },
+    "neighbor": {
+      "also": [
+        "neighbour"
+      ],
+      "note": {
+        "tr": "Amerikan yazımı. İngiltere'de neighbour diye yazılır."
+      }
+    },
+    "kind": {
+      "note": {
+        "tr": "Burada sıfat: nazik, iyi kalpli. İsim olarak tür anlamı da var: What kind of music?"
+      }
+    },
+    "man": {
+      "note": {
+        "tr": "Çoğulu düzensizdir: one man, two men."
+      }
+    },
+    "woman": {
+      "note": {
+        "tr": "Çoğulu düzensizdir: one woman, two women. Çoğulun okunuşu da farklıdır."
+      }
+    },
+    "child": {
+      "also": [
+        "kid"
+      ],
+      "note": {
+        "tr": "Çoğulu düzensizdir: one child, two children."
+      }
+    },
+    "old": {
+      "note": {
+        "tr": "Kişi için yaşlı demektir. Eşya için eski anlamına gelir: an old house."
+      }
+    },
+    "number": {
+      "note": {
+        "tr": "Telefon ya da oda numarası gibi. Sayı anlamında da kullanılır."
+      }
+    },
+    "one-hundred": {
+      "also": [
+        "a hundred"
+      ]
+    },
+    "how-old-are-you": {
+      "note": {
+        "tr": "Cevap verirken am kullanırsın: I am twelve ya da I am twelve years old."
+      }
+    },
+    "how-many": {
+      "note": {
+        "tr": "Sayılabilen şeyler için. Su ya da para gibi sayılamayan şeyler için how much dersin."
+      }
+    },
+    "bread": {
+      "note": {
+        "tr": "Sayılamaz, a bread denmez. Bread, some bread ya da a piece of bread dersin."
+      }
+    },
+    "drink": {
+      "note": {
+        "tr": "Burada fiil: içmek. İsim olarak içecek anlamı da var: a cold drink."
+      }
+    },
+    "like": {
+      "note": {
+        "tr": "Burada fiil: sevmek, hoşlanmak. I like apples. “Gibi” anlamı da var, ama burada o anlamda değil."
+      }
+    },
+    "sofa": {
+      "also": [
+        "couch"
+      ]
+    },
+    "phone": {
+      "also": [
+        "telephone"
+      ]
+    },
+    "fridge": {
+      "also": [
+        "refrigerator"
+      ]
+    },
+    "big": {
+      "also": [
+        "large"
+      ]
+    },
+    "small": {
+      "also": [
+        "little"
+      ]
+    },
+    "there-is": {
+      "also": [
+        "there are"
+      ],
+      "note": {
+        "tr": "Tek bir şey için there is, birden fazla şey için there are: There are two cats."
+      }
+    },
+    "take-a-shower": {
+      "also": [
+        "have a shower"
+      ]
+    },
+    "work": {
+      "note": {
+        "tr": "Bir işte çalışmak. Ders çalışmak için study kullanılır: I study English."
+      }
+    },
+    "watch": {
+      "note": {
+        "tr": "Televizyon, film ya da maç izlemek için. İsim olarak kol saati anlamı da var."
+      }
+    },
+    "play": {
+      "note": {
+        "tr": "Oyun ve spor için: play tennis. Çalgı çalmak için de kullanılır: play the guitar."
+      }
+    },
+    "park": {
+      "note": {
+        "tr": "Burada isim: şehirdeki park. Fiil olarak arabayı park etmek anlamı da var."
+      }
+    },
+    "right": {
+      "note": {
+        "tr": "Burada yön: sağ. Doğru anlamı da var: That is right."
+      }
+    },
+    "turn": {
+      "note": {
+        "tr": "Yön değiştirmek: turn left, turn right."
+      }
+    },
+    "pants": {
+      "also": [
+        "trousers"
+      ],
+      "note": {
+        "tr": "Amerikan İngilizcesi. İngiltere'de pantolona trousers denir, pants ise iç çamaşırı demektir. Hep çoğuldur: these pants."
+      }
+    },
+    "wear": {
+      "note": {
+        "tr": "Giysi, ayakkabı, şapka, hepsi için aynı fiil: wear a shirt, wear shoes."
+      }
+    },
+    "how-much-is-it": {
+      "also": [
+        "how much is this?"
+      ]
+    },
+    "shop": {
+      "also": [
+        "store"
+      ]
+    },
+    "size": {
+      "note": {
+        "tr": "Giysi bedeni ya da ayakkabı numarası. Genel olarak boyut anlamı da var."
+      }
+    },
+    "try-on": {
+      "note": {
+        "tr": "Mağazada giysiyi denemek. İki sıra da olur: try on this dress ya da try this dress on."
+      }
+    },
+    "hot": {
+      "note": {
+        "tr": "Hava için: It is hot. Yemek ya da içecek için de olur: hot tea."
+      }
+    },
+    "cold": {
+      "note": {
+        "tr": "Hava için: It is cold. İsim olarak soğuk algınlığı anlamı da var: a cold."
+      }
+    },
+    "spring": {
+      "note": {
+        "tr": "Burada mevsim: ilkbahar. Kaynak ve yay anlamları da var."
+      }
+    },
+    "fall": {
+      "also": [
+        "autumn"
+      ],
+      "note": {
+        "tr": "Amerikan İngilizcesi. İngiltere'de autumn denir. Fiil olarak düşmek anlamı da var."
+      }
+    },
+    "stay": {
+      "note": {
+        "tr": "Bir yerde kalmak: stay at home, stay at a hotel."
+      }
+    },
+    "bike": {
+      "also": [
+        "bicycle"
+      ]
+    },
+    "taxi": {
+      "also": [
+        "cab"
+      ]
+    },
+    "plane": {
+      "also": [
+        "airplane"
+      ]
+    },
+    "floor": {
+      "note": {
+        "tr": "Binanın katı: the fifth floor. Yer, zemin anlamı da var."
+      }
+    },
+    "vacation": {
+      "also": [
+        "holiday"
+      ],
+      "note": {
+        "tr": "Amerikan İngilizcesi. İngiltere'de holiday denir."
+      }
+    },
+    "photo": {
+      "also": [
+        "photograph"
+      ]
+    },
+    "wonderful": {
+      "also": [
+        "great"
+      ]
+    },
+    "cafe": {
+      "also": [
+        "café"
+      ]
+    },
+    "ago": {
+      "note": {
+        "tr": "Zaman ifadesinden sonra gelir: two days ago (iki gün önce)."
+      }
+    },
+    "then": {
+      "note": {
+        "tr": "Bir şeyden sonra, ardından demek: We ate, then we walked (yedik, sonra yürüdük)."
+      }
+    },
+    "meet": {
+      "note": {
+        "tr": "Burada buluşmak. İlk kez tanışmak için de kullanılır: Nice to meet you."
+      }
+    },
+    "party": {
+      "note": {
+        "tr": "Arkadaşlarla bir kutlama: a birthday party."
+      }
+    },
+    "cook": {
+      "note": {
+        "tr": "Burada fiil: yemek pişirmek. İsim olarak aşçı anlamı da var."
+      }
+    },
+    "call": {
+      "note": {
+        "tr": "Telefonla aramak: I called my grandmother."
+      }
+    },
+    "start": {
+      "also": [
+        "begin"
+      ]
+    },
+    "plan": {
+      "note": {
+        "tr": "Burada isim: plan. Fiil olarak planlamak anlamı da var."
+      }
+    },
+    "would-you-like": {
+      "note": {
+        "tr": "Kibar bir teklif: Would you like some tea? Would you like to come?"
+      }
+    },
+    "free": {
+      "note": {
+        "tr": "Burada boş, müsait demek. Bedava anlamı da var: The museum is free."
+      }
+    },
+    "maybe": {
+      "also": [
+        "perhaps"
+      ]
+    },
+    "i-would-love-to": {
+      "also": [
+        "I'd love to"
+      ],
+      "note": {
+        "tr": "Bir davete sıcak bir evet. Konuşurken I'd love to diye kısaltılır."
+      }
+    },
+    "rest": {
+      "note": {
+        "tr": "Burada fiil: dinlenmek. İsim olarak geri kalan anlamı da var: the rest."
+      }
+    },
+    "monday": {
+      "note": {
+        "tr": "İngilizcede gün adları hep büyük harfle başlar: Monday, Friday, Sunday."
+      }
+    },
+    "have-a-nice-day": {
+      "also": [
+        "have a good day"
+      ]
+    },
+    "tonight": {
+      "also": [
+        "this evening"
+      ]
+    },
+    "juice": {
+      "also": [
+        "fruit juice"
+      ]
+    },
+    "pharmacy": {
+      "also": [
+        "drugstore"
+      ]
+    }
+  },
+  "sentences": {
+    "u01-1-a": {
+      "tokens": [
+        "Good",
+        "morning,",
+        "Zeynep",
+        "and",
+        "Ali!"
+      ],
+      "gap": 1,
+      "wrong": [
+        "chair",
+        "window",
+        "country"
+      ]
+    },
+    "u01-1-b": {
+      "tokens": [
+        "Hello",
+        "Sam,",
+        "how",
+        "are",
+        "you?"
+      ],
+      "gap": 2,
+      "wrong": [
+        "when",
+        "why",
+        "what"
+      ]
+    },
+    "u01-2-a": {
+      "tokens": [
+        "Good",
+        "night,",
+        "Mia",
+        "and",
+        "Leo."
+      ],
+      "gap": 1,
+      "wrong": [
+        "door",
+        "water",
+        "table"
+      ]
+    },
+    "u01-2-b": {
+      "tokens": [
+        "See",
+        "you",
+        "tomorrow,",
+        "Tom."
+      ],
+      "gap": 2,
+      "wrong": [
+        "yesterday",
+        "ago",
+        "last"
+      ]
+    },
+    "u01-3-a": {
+      "tokens": [
+        "Nice",
+        "to",
+        "meet",
+        "you,",
+        "Tom."
+      ],
+      "gap": 2,
+      "wrong": [
+        "eat",
+        "drink",
+        "sleep"
+      ]
+    },
+    "u01-3-b": {
+      "tokens": [
+        "Anna",
+        "is",
+        "a",
+        "teacher",
+        "from",
+        "Berlin."
+      ],
+      "gap": 3,
+      "wrong": [
+        "country",
+        "window",
+        "chair"
+      ]
+    },
+    "u01-4-a": {
+      "tokens": [
+        "Two",
+        "teas,",
+        "please."
+      ],
+      "gap": 2,
+      "wrong": [
+        "hello",
+        "goodbye",
+        "welcome"
+      ]
+    },
+    "u01-4-b": {
+      "tokens": [
+        "Thank",
+        "you",
+        "very",
+        "much,",
+        "Emre."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Drink",
+        "Sleep",
+        "Read"
+      ]
+    },
+    "u02-1-a": {
+      "tokens": [
+        "My",
+        "mother",
+        "and",
+        "father",
+        "are",
+        "teachers."
+      ],
+      "gap": 1,
+      "wrong": [
+        "country",
+        "window",
+        "name"
+      ],
+      "orders": [
+        [
+          0,
+          3,
+          2,
+          1,
+          4,
+          5
+        ]
+      ]
+    },
+    "u02-1-b": {
+      "tokens": [
+        "Zeynep",
+        "has",
+        "one",
+        "brother."
+      ],
+      "gap": 1,
+      "wrong": [
+        "sleeps",
+        "goes",
+        "eats"
+      ]
+    },
+    "u02-2-a": {
+      "tokens": [
+        "My",
+        "grandmother",
+        "lives",
+        "with",
+        "us."
+      ],
+      "gap": 1,
+      "wrong": [
+        "window",
+        "chair",
+        "kitchen"
+      ]
+    },
+    "u02-2-b": {
+      "tokens": [
+        "Mia",
+        "has",
+        "a",
+        "black",
+        "cat."
+      ],
+      "gap": 4,
+      "wrong": [
+        "morning",
+        "name",
+        "age"
+      ]
+    },
+    "u02-3-a": {
+      "tokens": [
+        "Emma",
+        "is",
+        "my",
+        "new",
+        "neighbor."
+      ],
+      "gap": 4,
+      "wrong": [
+        "chair",
+        "lamp",
+        "window"
+      ]
+    },
+    "u02-3-b": {
+      "tokens": [
+        "My",
+        "friends",
+        "are",
+        "very",
+        "funny."
+      ],
+      "gap": 4,
+      "wrong": [
+        "delicious",
+        "expensive",
+        "rainy"
+      ]
+    },
+    "u02-4-a": {
+      "tokens": [
+        "That",
+        "man",
+        "is",
+        "very",
+        "tall."
+      ],
+      "gap": 1,
+      "wrong": [
+        "apple",
+        "soup",
+        "milk"
+      ]
+    },
+    "u02-4-b": {
+      "tokens": [
+        "The",
+        "woman",
+        "is",
+        "young",
+        "and",
+        "happy."
+      ],
+      "gap": 1,
+      "wrong": [
+        "table",
+        "window",
+        "bread"
+      ]
+    },
+    "u03-1-a": {
+      "tokens": [
+        "I",
+        "have",
+        "two",
+        "sisters."
+      ],
+      "gap": 1,
+      "wrong": [
+        "eat",
+        "go",
+        "sleep"
+      ]
+    },
+    "u03-1-b": {
+      "tokens": [
+        "Four",
+        "plus",
+        "two",
+        "is",
+        "six."
+      ],
+      "gap": 4,
+      "wrong": [
+        "five",
+        "seven",
+        "eight"
+      ]
+    },
+    "u03-2-a": {
+      "tokens": [
+        "My",
+        "sister",
+        "is",
+        "eight",
+        "years",
+        "old."
+      ],
+      "gap": 5,
+      "wrong": [
+        "tall",
+        "big",
+        "small"
+      ]
+    },
+    "u03-2-b": {
+      "tokens": [
+        "There",
+        "are",
+        "seven",
+        "days",
+        "in",
+        "a",
+        "week."
+      ],
+      "gap": 2,
+      "wrong": [
+        "five",
+        "six",
+        "eight"
+      ]
+    },
+    "u03-3-a": {
+      "tokens": [
+        "Twenty",
+        "plus",
+        "thirty",
+        "is",
+        "fifty."
+      ],
+      "gap": 4,
+      "wrong": [
+        "twenty",
+        "thirty",
+        "sixty"
+      ]
+    },
+    "u03-3-b": {
+      "tokens": [
+        "My",
+        "room",
+        "number",
+        "is",
+        "twelve."
+      ],
+      "gap": 2,
+      "wrong": [
+        "apple",
+        "milk",
+        "tea"
+      ]
+    },
+    "u03-4-a": {
+      "tokens": [
+        "I",
+        "am",
+        "twelve",
+        "years",
+        "old."
+      ],
+      "gap": 3,
+      "wrong": [
+        "books",
+        "rooms",
+        "cats"
+      ]
+    },
+    "u03-4-b": {
+      "tokens": [
+        "How",
+        "many",
+        "cats",
+        "do",
+        "you",
+        "have?"
+      ],
+      "gap": 1,
+      "wrong": [
+        "much",
+        "more",
+        "most"
+      ]
+    },
+    "u04-1-a": {
+      "tokens": [
+        "I",
+        "eat",
+        "bread",
+        "for",
+        "breakfast."
+      ],
+      "gap": 2,
+      "wrong": [
+        "water",
+        "milk",
+        "coffee"
+      ]
+    },
+    "u04-1-b": {
+      "tokens": [
+        "Tom",
+        "eats",
+        "two",
+        "eggs."
+      ],
+      "gap": 1,
+      "wrong": [
+        "sleeps",
+        "reads",
+        "goes"
+      ]
+    },
+    "u04-2-a": {
+      "tokens": [
+        "Emre",
+        "drinks",
+        "coffee",
+        "every",
+        "morning."
+      ],
+      "gap": 2,
+      "wrong": [
+        "bread",
+        "cheese",
+        "eggs"
+      ]
+    },
+    "u04-2-b": {
+      "tokens": [
+        "The",
+        "juice",
+        "is",
+        "very",
+        "cold."
+      ],
+      "gap": 1,
+      "wrong": [
+        "name",
+        "age",
+        "number"
+      ]
+    },
+    "u04-3-a": {
+      "tokens": [
+        "The",
+        "bananas",
+        "are",
+        "yellow",
+        "and",
+        "sweet."
+      ],
+      "gap": 5,
+      "wrong": [
+        "tall",
+        "kind",
+        "busy"
+      ]
+    },
+    "u04-3-b": {
+      "tokens": [
+        "We",
+        "need",
+        "three",
+        "potatoes."
+      ],
+      "gap": 1,
+      "wrong": [
+        "drink",
+        "sleep",
+        "go"
+      ]
+    },
+    "u04-4-a": {
+      "tokens": [
+        "Dinner",
+        "is",
+        "at",
+        "eight."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Kitchen",
+        "Sofa",
+        "Window"
+      ]
+    },
+    "u04-4-b": {
+      "tokens": [
+        "Deniz",
+        "likes",
+        "soup",
+        "very",
+        "much."
+      ],
+      "gap": 1,
+      "wrong": [
+        "sleeps",
+        "goes",
+        "reads"
+      ]
+    },
+    "u05-1-a": {
+      "tokens": [
+        "Our",
+        "house",
+        "has",
+        "three",
+        "rooms."
+      ],
+      "gap": 1,
+      "wrong": [
+        "bread",
+        "milk",
+        "soup"
+      ]
+    },
+    "u05-1-b": {
+      "tokens": [
+        "Emma",
+        "is",
+        "in",
+        "the",
+        "garden",
+        "now."
+      ],
+      "gap": 4,
+      "wrong": [
+        "egg",
+        "juice",
+        "cheese"
+      ]
+    },
+    "u05-2-a": {
+      "tokens": [
+        "There",
+        "is",
+        "a",
+        "chair",
+        "next",
+        "to",
+        "the",
+        "window."
+      ],
+      "gap": 3,
+      "wrong": [
+        "morning",
+        "week",
+        "name"
+      ]
+    },
+    "u05-2-b": {
+      "tokens": [
+        "My",
+        "bed",
+        "is",
+        "next",
+        "to",
+        "the",
+        "door."
+      ],
+      "gap": 6,
+      "wrong": [
+        "week",
+        "age",
+        "year"
+      ]
+    },
+    "u05-3-a": {
+      "tokens": [
+        "The",
+        "book",
+        "is",
+        "on",
+        "the",
+        "bed."
+      ],
+      "gap": 1,
+      "wrong": [
+        "morning",
+        "Monday",
+        "year"
+      ]
+    },
+    "u05-3-b": {
+      "tokens": [
+        "Where",
+        "are",
+        "the",
+        "keys,",
+        "Tom?"
+      ],
+      "gap": 3,
+      "wrong": [
+        "mornings",
+        "Mondays",
+        "ages"
+      ]
+    },
+    "u05-4-a": {
+      "tokens": [
+        "Our",
+        "new",
+        "house",
+        "is",
+        "very",
+        "big."
+      ],
+      "gap": 5,
+      "wrong": [
+        "hungry",
+        "kind",
+        "young"
+      ]
+    },
+    "u05-4-b": {
+      "tokens": [
+        "There",
+        "is",
+        "a",
+        "small",
+        "garden."
+      ],
+      "gap": 1,
+      "wrong": [
+        "has",
+        "eats",
+        "drinks"
+      ]
+    },
+    "u06-1-a": {
+      "tokens": [
+        "I",
+        "read",
+        "books",
+        "at",
+        "night."
+      ],
+      "gap": 4,
+      "wrong": [
+        "morning",
+        "afternoon",
+        "Monday"
+      ]
+    },
+    "u06-1-b": {
+      "tokens": [
+        "Ali",
+        "works",
+        "in",
+        "the",
+        "afternoon."
+      ],
+      "gap": 4,
+      "wrong": [
+        "bread",
+        "egg",
+        "cheese"
+      ]
+    },
+    "u06-2-a": {
+      "tokens": [
+        "Emma",
+        "wakes",
+        "up",
+        "at",
+        "six."
+      ],
+      "gap": 1,
+      "wrong": [
+        "sleeps",
+        "likes",
+        "has"
+      ]
+    },
+    "u06-2-b": {
+      "tokens": [
+        "Deniz",
+        "goes",
+        "to",
+        "school",
+        "every",
+        "day."
+      ],
+      "gap": 1,
+      "wrong": [
+        "eats",
+        "sleeps",
+        "has"
+      ]
+    },
+    "u06-3-a": {
+      "tokens": [
+        "Tom",
+        "works",
+        "from",
+        "Monday",
+        "to",
+        "Friday."
+      ],
+      "gap": 3,
+      "wrong": [
+        "kitchen",
+        "apple",
+        "window"
+      ]
+    },
+    "u06-3-b": {
+      "tokens": [
+        "Our",
+        "class",
+        "is",
+        "on",
+        "Wednesday."
+      ],
+      "gap": 3,
+      "wrong": [
+        "at",
+        "in",
+        "under"
+      ]
+    },
+    "u06-4-a": {
+      "tokens": [
+        "Mia",
+        "plays",
+        "with",
+        "her",
+        "dog",
+        "on",
+        "Sunday."
+      ],
+      "gap": 1,
+      "wrong": [
+        "has",
+        "likes",
+        "needs"
+      ]
+    },
+    "u06-4-b": {
+      "tokens": [
+        "Elif",
+        "reads",
+        "in",
+        "the",
+        "garden."
+      ],
+      "gap": 1,
+      "wrong": [
+        "has",
+        "needs",
+        "makes"
+      ]
+    },
+    "u07-1-a": {
+      "tokens": [
+        "Rome",
+        "has",
+        "many",
+        "old",
+        "museums."
+      ],
+      "gap": 4,
+      "wrong": [
+        "breakfasts",
+        "birthdays",
+        "mornings"
+      ]
+    },
+    "u07-1-b": {
+      "tokens": [
+        "The",
+        "park",
+        "is",
+        "on",
+        "my",
+        "street."
+      ],
+      "gap": 5,
+      "wrong": [
+        "table",
+        "bed",
+        "sofa"
+      ]
+    },
+    "u07-2-a": {
+      "tokens": [
+        "The",
+        "bakery",
+        "opens",
+        "at",
+        "seven."
+      ],
+      "gap": 1,
+      "wrong": [
+        "baby",
+        "grandfather",
+        "dog"
+      ]
+    },
+    "u07-2-b": {
+      "tokens": [
+        "Is",
+        "there",
+        "a",
+        "pharmacy",
+        "near",
+        "here?"
+      ],
+      "gap": 3,
+      "wrong": [
+        "morning",
+        "week",
+        "year"
+      ]
+    },
+    "u07-3-a": {
+      "tokens": [
+        "Turn",
+        "left",
+        "at",
+        "the",
+        "corner."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Eat",
+        "Drink",
+        "Sleep"
+      ]
+    },
+    "u07-3-b": {
+      "tokens": [
+        "Where",
+        "is",
+        "the",
+        "city",
+        "museum?"
+      ],
+      "gap": 0,
+      "wrong": [
+        "Who",
+        "When",
+        "Why"
+      ]
+    },
+    "u07-4-a": {
+      "tokens": [
+        "The",
+        "station",
+        "is",
+        "not",
+        "far."
+      ],
+      "gap": 4,
+      "wrong": [
+        "hungry",
+        "kind",
+        "tired"
+      ]
+    },
+    "u07-4-b": {
+      "tokens": [
+        "The",
+        "cafe",
+        "is",
+        "behind",
+        "the",
+        "museum."
+      ],
+      "gap": 3,
+      "wrong": [
+        "between",
+        "from",
+        "with"
+      ]
+    },
+    "u08-1-a": {
+      "tokens": [
+        "Mia",
+        "wears",
+        "black",
+        "shoes."
+      ],
+      "gap": 1,
+      "wrong": [
+        "drinks",
+        "sleeps",
+        "reads"
+      ]
+    },
+    "u08-1-b": {
+      "tokens": [
+        "This",
+        "dress",
+        "is",
+        "very",
+        "beautiful."
+      ],
+      "gap": 4,
+      "wrong": [
+        "hungry",
+        "sorry",
+        "late"
+      ]
+    },
+    "u08-2-a": {
+      "tokens": [
+        "I",
+        "like",
+        "the",
+        "blue",
+        "jacket."
+      ],
+      "gap": 3,
+      "wrong": [
+        "hungry",
+        "kind",
+        "early"
+      ]
+    },
+    "u08-2-b": {
+      "tokens": [
+        "My",
+        "new",
+        "shoes",
+        "are",
+        "white."
+      ],
+      "gap": 4,
+      "wrong": [
+        "thirsty",
+        "sorry",
+        "early"
+      ]
+    },
+    "u08-3-a": {
+      "tokens": [
+        "The",
+        "price",
+        "of",
+        "the",
+        "dress",
+        "is",
+        "fifty."
+      ],
+      "gap": 1,
+      "wrong": [
+        "color",
+        "window",
+        "kitchen"
+      ]
+    },
+    "u08-3-b": {
+      "tokens": [
+        "This",
+        "shirt",
+        "is",
+        "very",
+        "cheap."
+      ],
+      "gap": 4,
+      "wrong": [
+        "thirsty",
+        "kind",
+        "late"
+      ]
+    },
+    "u08-4-a": {
+      "tokens": [
+        "Can",
+        "I",
+        "try",
+        "on",
+        "these",
+        "pants?"
+      ],
+      "gap": 5,
+      "wrong": [
+        "eggs",
+        "apples",
+        "keys"
+      ]
+    },
+    "u08-4-b": {
+      "tokens": [
+        "This",
+        "shop",
+        "sells",
+        "nice",
+        "hats."
+      ],
+      "gap": 2,
+      "wrong": [
+        "sleeps",
+        "drinks",
+        "goes"
+      ]
+    },
+    "u09-1-a": {
+      "tokens": [
+        "It",
+        "is",
+        "raining",
+        "in",
+        "Paris."
+      ],
+      "gap": 2,
+      "wrong": [
+        "having",
+        "liking",
+        "finding"
+      ]
+    },
+    "u09-1-b": {
+      "tokens": [
+        "Look,",
+        "it",
+        "is",
+        "snowing!"
+      ],
+      "gap": 3,
+      "wrong": [
+        "knowing",
+        "wanting",
+        "needing"
+      ]
+    },
+    "u09-2-a": {
+      "tokens": [
+        "It",
+        "is",
+        "very",
+        "cold",
+        "in",
+        "Berlin."
+      ],
+      "gap": 3,
+      "wrong": [
+        "hungry",
+        "tall",
+        "kind"
+      ]
+    },
+    "u09-2-b": {
+      "tokens": [
+        "Tom",
+        "is",
+        "carrying",
+        "a",
+        "black",
+        "umbrella."
+      ],
+      "gap": 5,
+      "wrong": [
+        "morning",
+        "week",
+        "sky"
+      ]
+    },
+    "u09-3-a": {
+      "tokens": [
+        "In",
+        "spring",
+        "the",
+        "trees",
+        "are",
+        "green."
+      ],
+      "gap": 1,
+      "wrong": [
+        "Monday",
+        "breakfast",
+        "kitchen"
+      ]
+    },
+    "u09-3-b": {
+      "tokens": [
+        "Summer",
+        "is",
+        "a",
+        "hot",
+        "season."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Winter",
+        "Monday",
+        "Morning"
+      ]
+    },
+    "u09-4-a": {
+      "tokens": [
+        "Leo",
+        "is",
+        "swimming",
+        "at",
+        "the",
+        "beach."
+      ],
+      "gap": 5,
+      "wrong": [
+        "sky",
+        "week",
+        "milk"
+      ]
+    },
+    "u09-4-b": {
+      "tokens": [
+        "Mia",
+        "and",
+        "Tom",
+        "are",
+        "walking",
+        "outside."
+      ],
+      "gap": 4,
+      "wrong": [
+        "wearing",
+        "bringing",
+        "finding"
+      ],
+      "orders": [
+        [
+          2,
+          1,
+          0,
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    "u10-1-a": {
+      "tokens": [
+        "The",
+        "bus",
+        "was",
+        "very",
+        "slow."
+      ],
+      "gap": 1,
+      "wrong": [
+        "milk",
+        "bread",
+        "apple"
+      ]
+    },
+    "u10-1-b": {
+      "tokens": [
+        "We",
+        "were",
+        "on",
+        "the",
+        "train",
+        "at",
+        "six."
+      ],
+      "gap": 4,
+      "wrong": [
+        "week",
+        "bread",
+        "age"
+      ]
+    },
+    "u10-2-a": {
+      "tokens": [
+        "The",
+        "train",
+        "was",
+        "late",
+        "again."
+      ],
+      "gap": 3,
+      "wrong": [
+        "thirsty",
+        "kind",
+        "young"
+      ]
+    },
+    "u10-2-b": {
+      "tokens": [
+        "The",
+        "tickets",
+        "were",
+        "not",
+        "expensive."
+      ],
+      "gap": 4,
+      "wrong": [
+        "hungry",
+        "tall",
+        "kind"
+      ]
+    },
+    "u10-3-a": {
+      "tokens": [
+        "The",
+        "hotel",
+        "room",
+        "was",
+        "very",
+        "quiet."
+      ],
+      "gap": 5,
+      "wrong": [
+        "hungry",
+        "sorry",
+        "kind"
+      ]
+    },
+    "u10-3-b": {
+      "tokens": [
+        "Was",
+        "the",
+        "bed",
+        "comfortable?"
+      ],
+      "gap": 3,
+      "wrong": [
+        "thirsty",
+        "tired",
+        "kind"
+      ]
+    },
+    "u10-4-a": {
+      "tokens": [
+        "The",
+        "sea",
+        "was",
+        "very",
+        "beautiful."
+      ],
+      "gap": 4,
+      "wrong": [
+        "hungry",
+        "late",
+        "early"
+      ]
+    },
+    "u10-4-b": {
+      "tokens": [
+        "Our",
+        "vacation",
+        "in",
+        "Rio",
+        "was",
+        "wonderful."
+      ],
+      "gap": 5,
+      "wrong": [
+        "thirsty",
+        "tall",
+        "sorry"
+      ]
+    },
+    "u11-1-a": {
+      "tokens": [
+        "Emma",
+        "called",
+        "me",
+        "yesterday."
+      ],
+      "gap": 3,
+      "wrong": [
+        "tomorrow",
+        "soon",
+        "ago"
+      ]
+    },
+    "u11-1-b": {
+      "tokens": [
+        "I",
+        "saw",
+        "Ali",
+        "two",
+        "days",
+        "ago."
+      ],
+      "gap": 5,
+      "wrong": [
+        "soon",
+        "tomorrow",
+        "yesterday"
+      ]
+    },
+    "u11-2-a": {
+      "tokens": [
+        "We",
+        "danced",
+        "at",
+        "the",
+        "party."
+      ],
+      "gap": 1,
+      "wrong": [
+        "wore",
+        "needed",
+        "found"
+      ]
+    },
+    "u11-2-b": {
+      "tokens": [
+        "Emre",
+        "and",
+        "I",
+        "met",
+        "on",
+        "Saturday."
+      ],
+      "gap": 3,
+      "wrong": [
+        "brought",
+        "liked",
+        "found"
+      ]
+    },
+    "u11-3-a": {
+      "tokens": [
+        "Tom",
+        "cooked",
+        "soup",
+        "for",
+        "dinner."
+      ],
+      "gap": 1,
+      "wrong": [
+        "slept",
+        "went",
+        "danced"
+      ]
+    },
+    "u11-3-b": {
+      "tokens": [
+        "I",
+        "listened",
+        "to",
+        "music",
+        "in",
+        "bed."
+      ],
+      "gap": 1,
+      "wrong": [
+        "watched",
+        "wore",
+        "found"
+      ]
+    },
+    "u11-4-a": {
+      "tokens": [
+        "Elif",
+        "forgot",
+        "her",
+        "bag",
+        "at",
+        "school."
+      ],
+      "gap": 1,
+      "wrong": [
+        "slept",
+        "went",
+        "swam"
+      ]
+    },
+    "u11-4-b": {
+      "tokens": [
+        "I",
+        "lost",
+        "my",
+        "ticket",
+        "yesterday."
+      ],
+      "gap": 1,
+      "wrong": [
+        "slept",
+        "swam",
+        "danced"
+      ]
+    },
+    "u12-1-a": {
+      "tokens": [
+        "I",
+        "am",
+        "going",
+        "to",
+        "call",
+        "you",
+        "tomorrow."
+      ],
+      "gap": 6,
+      "wrong": [
+        "yesterday",
+        "ago",
+        "last"
+      ]
+    },
+    "u12-1-b": {
+      "tokens": [
+        "Mia",
+        "is",
+        "going",
+        "to",
+        "cook",
+        "tonight."
+      ],
+      "gap": 5,
+      "wrong": [
+        "yesterday",
+        "ago",
+        "last"
+      ]
+    },
+    "u12-2-a": {
+      "tokens": [
+        "Would",
+        "you",
+        "like",
+        "to",
+        "come",
+        "with",
+        "us?"
+      ],
+      "gap": 4,
+      "wrong": [
+        "wear",
+        "find",
+        "need"
+      ]
+    },
+    "u12-2-b": {
+      "tokens": [
+        "Are",
+        "you",
+        "free",
+        "this",
+        "weekend?"
+      ],
+      "gap": 2,
+      "wrong": [
+        "tall",
+        "young",
+        "old"
+      ]
+    },
+    "u12-3-a": {
+      "tokens": [
+        "Of",
+        "course",
+        "I",
+        "would",
+        "like",
+        "to",
+        "come."
+      ],
+      "gap": 1,
+      "wrong": [
+        "school",
+        "week",
+        "name"
+      ]
+    },
+    "u12-3-b": {
+      "tokens": [
+        "Unfortunately,",
+        "I",
+        "am",
+        "busy",
+        "tonight."
+      ],
+      "gap": 0,
+      "wrong": [
+        "Yesterday",
+        "Together",
+        "Ago"
+      ]
+    },
+    "u12-4-a": {
+      "tokens": [
+        "We",
+        "are",
+        "going",
+        "to",
+        "celebrate",
+        "on",
+        "Saturday."
+      ],
+      "gap": 4,
+      "wrong": [
+        "need",
+        "like",
+        "find"
+      ]
+    },
+    "u12-4-b": {
+      "tokens": [
+        "Deniz",
+        "would",
+        "like",
+        "to",
+        "learn",
+        "French."
+      ],
+      "gap": 4,
+      "wrong": [
+        "sleep",
+        "swim",
+        "rest"
+      ]
+    }
+  },
+  "tips": {
+    "u01": {
+      "title": {
+        "tr": "Olmak fiili: am, is, are"
+      },
+      "body": {
+        "tr": "Türkçede “Ben Emre'yim” derken “-yim” ekini kullanırsın. İngilizcede bu iş için ayrı bir kelime var: am, is ya da are. Hangisini seçeceğin kişiye bağlı: I am, you are, he is, she is, it is, we are, they are. Türkçede “Anna öğretmen” dersin, ama İngilizcede is'i atlamazsın: Anna is a teacher.\n\nKonuşurken am, is ve are çoğu zaman kısaltılır: I'm, you're, he's, she's. Yani I'm fine ile I am fine aynı şeyi söyler.\n\nOlumsuz cümle için arkasına not eklersin: I am not from Paris. Soru sorarken am, is ya da are başa geçer: Are you a student?"
+      },
+      "examples": [
+        {
+          "text": "I am Emre.",
+          "tr": "Ben Emre'yim."
+        },
+        {
+          "text": "Anna is a teacher.",
+          "tr": "Anna bir öğretmen."
+        },
+        {
+          "text": "Are you a student?",
+          "tr": "Öğrenci misin?"
+        }
+      ]
+    },
+    "u02": {
+      "title": {
+        "tr": "Sahiplik: my, your, his, her"
+      },
+      "body": {
+        "tr": "Türkçede sahipliği ekle gösterirsin: annem, annen, annesi. İngilizcede ismin önüne ayrı bir kelime gelir: my (benim), your (senin), his (onun, erkek için), her (onun, kadın için), its (onun, eşya ve hayvan için), our (bizim), their (onların).\n\nTürkçedeki “onun” İngilizcede kimden söz ettiğine göre değişir: Elif'ten söz ederken her, Emre'den söz ederken his dersin.\n\nBir kişinin adıyla sahiplik anlatmak için isme 's eklersin: Zeynep's brother (Zeynep'in erkek kardeşi), Leo's house (Leo'nun evi)."
+      },
+      "examples": [
+        {
+          "text": "My father is a doctor.",
+          "tr": "Babam bir doktor."
+        },
+        {
+          "text": "Her sister lives in Madrid.",
+          "tr": "Onun kız kardeşi Madrid'de yaşıyor."
+        },
+        {
+          "text": "Zeynep's brother is ten.",
+          "tr": "Zeynep'in erkek kardeşi on yaşında."
+        }
+      ]
+    },
+    "u03": {
+      "title": {
+        "tr": "Yaşını söylemek: I am twelve"
+      },
+      "body": {
+        "tr": "Türkçede “on iki yaşındayım” dersin. İngilizcede yaşını am, is ya da are ile söylersin: I am twelve. İstersen sonuna years old eklersin: I am twelve years old. İkisi de doğrudur, ama old'u atlayıp I am twelve years demezsin.\n\nYaş sormak için How old are you? dersin. Kaç tane olduğunu sormak için How many kullanırsın ve ardından gelen isim çoğul olur: How many cats do you have?\n\nBirden fazla şeyden söz ederken ismin sonuna -s eklemeyi unutma: one brother, two brothers. Türkçede “iki kedi” dersin, İngilizcede ise two cats."
+      },
+      "examples": [
+        {
+          "text": "I am twelve years old.",
+          "tr": "On iki yaşındayım."
+        },
+        {
+          "text": "How old are you?",
+          "tr": "Kaç yaşındasın?"
+        },
+        {
+          "text": "We have two cats.",
+          "tr": "İki kedimiz var."
+        }
+      ]
+    },
+    "u04": {
+      "title": {
+        "tr": "a, an ve sayılamayan isimler"
+      },
+      "body": {
+        "tr": "Tek bir şeyden söz ederken ismin önüne a ya da an gelir. Kelime sessiz bir harf sesiyle başlıyorsa a dersin: a banana, a tomato. Sesli bir harf sesiyle başlıyorsa an dersin: an apple, an egg.\n\nBazı isimler sayılamaz: water, milk, bread, cheese, honey. Bunlarla a ya da an kullanmazsın ve sonlarına -s eklemezsin. A bread demezsin, sadece bread ya da some bread dersin: I eat bread and cheese.\n\nBunları bir ölçüyle sayarsın: a glass of water, two glasses of milk. Kafede sipariş verirken ise çay ve kahve, Türkçedeki gibi tek tek sayılır ama -s alır: Two teas, please."
+      },
+      "examples": [
+        {
+          "text": "Mia eats an egg every morning.",
+          "tr": "Mia her sabah bir yumurta yer."
+        },
+        {
+          "text": "I have a banana in my bag.",
+          "tr": "Çantamda bir muz var."
+        },
+        {
+          "text": "A glass of water, please.",
+          "tr": "Bir bardak su, lütfen."
+        }
+      ]
+    },
+    "u05": {
+      "title": {
+        "tr": "Var demek: there is, there are"
+      },
+      "body": {
+        "tr": "Türkçedeki “var” için İngilizcede there is ya da there are kullanırsın. Tek bir şey için there is, birden fazla şey için there are dersin: There is a cat on the bed. There are two windows in my room.\n\nSoru sorarken is ya da are başa geçer: Is there a lamp in the kitchen? Olumsuz cümle için there is no dersin: There is no garden. Konuşurken there is çoğu zaman there's olur.\n\nBir de a ile the farkına bak: There is a cat on the bed. Kediden ilk kez söz ettiğin için a cat dersin. Yatak ise ikinizin de bildiği bir yatak, bu yüzden the bed dersin. Türkçede the yoktur, ama İngilizcede çok sık kullanılır.\n\nDikkat: “Bahçemiz var” gibi bir şeye sahip olmayı anlatırken there is değil have kullanılır: We have a garden."
+      },
+      "examples": [
+        {
+          "text": "There is a cat on the bed.",
+          "tr": "Yatağın üstünde bir kedi var."
+        },
+        {
+          "text": "There are two windows in my room.",
+          "tr": "Odamda iki pencere var."
+        },
+        {
+          "text": "Is there a lamp in the kitchen?",
+          "tr": "Mutfakta lamba var mı?"
+        }
+      ]
+    },
+    "u06": {
+      "title": {
+        "tr": "Geniş zaman: he, she, it ile fiile -s"
+      },
+      "body": {
+        "tr": "Her gün ya da hep yaptığın işler için fiilin yalın halini kullanırsın: I wake up at seven. We go to school by bus.\n\nAma özne he, she, it ya da tek bir kişinin adıysa fiile -s eklersin: Emma wakes up at six. Ali works in the afternoon. Bu küçük -s'yi unutmak çok sık yapılan bir hatadır.\n\nFiil -o, -sh, -ch ya da -s ile bitiyorsa -es eklersin: go, goes; watch, watches. Have fiili ise has olur: Zeynep has a dog."
+      },
+      "examples": [
+        {
+          "text": "I read books at night.",
+          "tr": "Geceleri kitap okurum."
+        },
+        {
+          "text": "Deniz goes to school every day.",
+          "tr": "Deniz her gün okula gider."
+        },
+        {
+          "text": "Leo takes a shower every morning.",
+          "tr": "Leo her sabah duş alır."
+        }
+      ]
+    },
+    "u07": {
+      "title": {
+        "tr": "Yer bildirmek: in, on, at"
+      },
+      "body": {
+        "tr": "Türkçede yeri bir ekle söylersin: parkta, masada. İngilizcede ismin önüne küçük bir kelime gelir. Hangisini seçeceğin yere bağlıdır.\n\nBir şeyin içi için in: in the park, in the kitchen. Bir yüzeyin üstü ya da bir sokak için on: on the table, on my street. Bir nokta gibi düşündüğün yerler için at: at the bank, at the station.\n\nYeri daha ayrıntılı anlatmak için: next to (yanında), behind (arkasında), in front of (önünde), between (arasında). Between'den sonra iki şey gelir ve aralarına and koyarsın: between the cafe and the bakery."
+      },
+      "examples": [
+        {
+          "text": "The keys are on the table.",
+          "tr": "Anahtarlar masanın üstünde."
+        },
+        {
+          "text": "The cafe is behind the museum.",
+          "tr": "Kafe müzenin arkasında."
+        },
+        {
+          "text": "The bank is between the cafe and the bakery.",
+          "tr": "Banka, kafe ile fırının arasında."
+        }
+      ]
+    },
+    "u08": {
+      "title": {
+        "tr": "Bu, şu: this, that, these, those"
+      },
+      "body": {
+        "tr": "Yakındaki tek bir şey için this, uzaktaki tek bir şey için that dersin: This dress is beautiful. That jacket is expensive.\n\nBirden fazla şey için this yerine these, that yerine those gelir: These shoes are cheap. Those bags are nice.\n\nPants hep çoğuldur, çünkü iki paçası vardır. Bu yüzden “bu pantolon” derken these pants dersin. Ayakkabılar da genelde çift olarak, çoğul söylenir: these shoes. Renkler ve diğer sıfatlar ismin önüne gelir ve hiç çoğul olmaz: black shoes, blue jackets."
+      },
+      "examples": [
+        {
+          "text": "This dress is very beautiful.",
+          "tr": "Bu elbise çok güzel."
+        },
+        {
+          "text": "These shoes are cheap.",
+          "tr": "Bu ayakkabılar ucuz."
+        },
+        {
+          "text": "That jacket is expensive.",
+          "tr": "O ceket pahalı."
+        }
+      ]
+    },
+    "u09": {
+      "title": {
+        "tr": "Şu an olanlar: am, is, are + -ing"
+      },
+      "body": {
+        "tr": "Türkçedeki “-yor” gibi, tam şu anda olan bir şeyi anlatmak için am, is ya da are ile fiilin -ing halini kullanırsın: Leo is swimming. I am staying at home today.\n\nHava durumunu anlatan cümleler it ile başlar: It is raining. It is snowing. It is cold.\n\nBazı fiiller -ing alırken biraz değişir. Swim gibi bazılarında son harf ikilenir: swimming. Come gibi sonu e ile bitenlerde e düşer: coming.\n\nDikkat: Türkçede her gün yaptığın işler için de “-yor” diyebilirsin: Her gün yürüyorum. İngilizcede bunun için -ing kullanmazsın: We walk every day (her gün yürürüz). Ama şu anda olan bir şey için: We are walking now (şu an yürüyoruz)."
+      },
+      "examples": [
+        {
+          "text": "It is raining in Paris.",
+          "tr": "Paris'te yağmur yağıyor."
+        },
+        {
+          "text": "Leo is swimming at the beach.",
+          "tr": "Leo plajda yüzüyor."
+        },
+        {
+          "text": "I am staying at home today.",
+          "tr": "Bugün evde kalıyorum."
+        }
+      ]
+    },
+    "u10": {
+      "title": {
+        "tr": "Geçmişte: was ve were"
+      },
+      "body": {
+        "tr": "Türkçede geçmişi “-di” ekiyle anlatırsın: yorgundum, otobüs doluydu. İngilizcede am ve is geçmişte was olur, are ise were olur: I was, he was, she was, it was; you were, we were, they were.\n\nOlumsuz cümle için not eklersin: The tickets were not expensive. Konuşurken wasn't ve weren't diye kısaltılır.\n\nSoru sorarken was ya da were başa geçer: Was the bed comfortable? Were you on the train?"
+      },
+      "examples": [
+        {
+          "text": "The bus was full this morning.",
+          "tr": "Otobüs bu sabah doluydu."
+        },
+        {
+          "text": "We were on the plane for twelve hours.",
+          "tr": "On iki saat uçaktaydık."
+        },
+        {
+          "text": "Was the hotel quiet?",
+          "tr": "Otel sessiz miydi?"
+        }
+      ]
+    },
+    "u11": {
+      "title": {
+        "tr": "Geçmiş zaman: -ed ve düzensiz fiiller"
+      },
+      "body": {
+        "tr": "Geçmişte olup biten işler için fiilin geçmiş halini kullanırsın. Çoğu fiil -ed alır: call, called; watch, watched; listen, listened. Sonu e ile biten fiiller sadece -d alır: dance, danced.\n\nİyi haber: was ve were dışında geçmiş hal herkes için aynıdır. I called, she called, we called dersin. Burada -s eklemezsin. Olumsuz cümle ve soru için did kullanırsın, fiil de yalın haline döner: I did not call. Did you call?\n\nAma en sık kullanılan fiillerin çoğu düzensizdir. Bunları tek tek öğrenmen gerekir: go, went; see, saw; meet, met; eat, ate; lose, lost; find, found; forget, forgot; write, wrote."
+      },
+      "examples": [
+        {
+          "text": "Emma called me yesterday.",
+          "tr": "Emma dün beni aradı."
+        },
+        {
+          "text": "I saw Ali two days ago.",
+          "tr": "Ali'yi iki gün önce gördüm."
+        },
+        {
+          "text": "Elif forgot her bag at school.",
+          "tr": "Elif çantasını okulda unuttu."
+        }
+      ]
+    },
+    "u12": {
+      "title": {
+        "tr": "Planlar: going to + fiil"
+      },
+      "body": {
+        "tr": "Önceden düşündüğün bir plandan söz ederken am, is ya da are going to kullanırsın. Ardından fiilin yalın hali gelir: I am going to call you tomorrow. Mia is going to cook tonight.\n\nZaman kelimeleri cümlenin başına ya da sonuna gelebilir: tomorrow, tonight, next week, next year.\n\nKibarca ne istediğini söylemek ya da birini davet etmek için would like to kullanırsın: I would like to come. Would you like to come with us? Konuşurken I would like çoğu zaman I'd like olur."
+      },
+      "examples": [
+        {
+          "text": "I am going to call you tomorrow.",
+          "tr": "Seni yarın arayacağım."
+        },
+        {
+          "text": "We are going to celebrate on Saturday.",
+          "tr": "Cumartesi günü kutlayacağız."
+        },
+        {
+          "text": "Would you like to come with us?",
+          "tr": "Bizimle gelmek ister misin?"
+        }
+      ]
+    }
+  }
+}
