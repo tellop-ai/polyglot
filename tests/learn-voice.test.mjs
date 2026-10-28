@@ -12,7 +12,7 @@
 
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
-import { mkdtempSync, readFileSync, rmSync } from 'node:fs';
+import { existsSync, mkdtempSync, readFileSync, rmSync } from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import process from 'node:process';
@@ -349,18 +349,17 @@ test('starting a language over keeps its readings', async () => {
 
 /* ---------- what the person said ---------- */
 
-async function keptClip() {
-  const kept = await filesRoute.POST(new Request('http://app.invalid/api/files', { method: 'POST', body: CLIP }));
+async function keptClip(clip = CLIP) {
+  const kept = await filesRoute.POST(new Request('http://app.invalid/api/files', { method: 'POST', body: clip }));
   assert.equal(kept.status, 201);
   return (await kept.json()).file;
 }
 
 test('what a person said is written down, and a lesson sentence is checked here against the sentence itself', async () => {
-  const file = await keptClip();
   const sentence = firstLesson.sentences[0];
   let heard = sentence.text;
   await withAI(() => Response.json({ text: heard }), async (calls) => {
-    const right = await answered(speechRoute.POST(request({ course: 'de', file, lesson: firstLesson.id, sentence: sentence.id })));
+    const right = await answered(speechRoute.POST(request({ course: 'de', file: await keptClip(), lesson: firstLesson.id, sentence: sentence.id })));
     assert.deepEqual([right.status, right.body], [200, { heard: sentence.text, right: true }]);
     assert.equal(calls[0].url, `${AI_BASE}/audio/transcriptions`);
     assert.equal(calls[0].form.get('model'), 'model-for-transcribe');
@@ -368,21 +367,49 @@ test('what a person said is written down, and a lesson sentence is checked here 
     assert.equal(calls[0].form.get('language'), 'de');
     assert.deepEqual(new Uint8Array(await calls[0].form.get('file').arrayBuffer()), CLIP);
     heard = 'Gute Nacht, Mia und Leo.';
-    const wrong = await answered(speechRoute.POST(request({ course: 'de', file, lesson: firstLesson.id, sentence: sentence.id })));
+    const wrong = await answered(speechRoute.POST(request({ course: 'de', file: await keptClip(), lesson: firstLesson.id, sentence: sentence.id })));
     assert.deepEqual([wrong.status, wrong.body], [200, { heard, right: false }]);
-    const free = await answered(speechRoute.POST(request({ course: 'de', file })));
+    const free = await answered(speechRoute.POST(request({ course: 'de', file: await keptClip() })));
     assert.deepEqual([free.status, free.body], [200, { heard }]);
     heard = `  ${'z'.repeat(700)}  `;
-    assert.equal((await answered(speechRoute.POST(request({ course: 'de', file })))).body.heard.length, 600);
+    assert.equal((await answered(speechRoute.POST(request({ course: 'de', file: await keptClip() })))).body.heard.length, 600);
     assert.equal(calls.length, 4);
   });
   await withAI(() => tellopRefusal(402, 'meter-exhausted'), async () => {
-    const sent = await answered(speechRoute.POST(request({ course: 'de', file })));
+    const sent = await answered(speechRoute.POST(request({ course: 'de', file: await keptClip() })));
     assert.deepEqual([sent.status, sent.body.problem], [503, 'ai.allowance']);
   });
   await withAI(() => tellopRefusal(422, 'clip-unmeasured'), async () => {
-    assert.equal((await answered(speechRoute.POST(request({ course: 'de', file })))).body.problem, 'ai.clipUnreadable');
+    assert.equal((await answered(speechRoute.POST(request({ course: 'de', file: await keptClip() })))).body.problem, 'ai.clipUnreadable');
   });
+});
+
+test('a recording goes right after it is written down, after a refusal too, and on its own when the page went first', async () => {
+  const stillKept = (file) => existsSync(path.join(scratch, 'files', file));
+  // Each take is a recording of its own, as two takes are.
+  let takes = 0;
+  const take = () => keptClip(new Uint8Array([...CLIP, ...new TextEncoder().encode(String((takes += 1)))]));
+  const written = await take();
+  assert.equal(stillKept(written), true);
+  await withAI(() => Response.json({ text: 'Hallo' }), async () => {
+    assert.deepEqual((await answered(speechRoute.POST(request({ course: 'de', file: written })))).body, { heard: 'Hallo' });
+  });
+  assert.equal(stillKept(written), false);
+  const refusedByAi = await take();
+  await withAI(() => tellopRefusal(402, 'meter-exhausted'), async () => {
+    assert.equal((await answered(speechRoute.POST(request({ course: 'de', file: refusedByAi })))).status, 503);
+  });
+  assert.equal(stillKept(refusedByAi), false);
+  // Refused here before AI is asked (a sentence of another lesson): the recording goes all the same.
+  const refusedHere = await take();
+  await refusesWith(speechRoute.POST(request({ course: 'de', file: refusedHere, lesson: firstLesson.id, sentence: view.lessons[1].sentences[0].id })), REFUSED.lesson);
+  assert.equal(stillKept(refusedHere), false);
+  const dropped = await take();
+  await withAI(() => Response.json({ text: 'never asked' }), async (calls) => {
+    assert.deepEqual((await answered(speechRoute.POST(request({ course: 'de', file: dropped, drop: true })))).body, { dropped: true });
+    assert.equal(calls.length, 0);
+  });
+  assert.equal(stillKept(dropped), false);
 });
 
 test('a recording request must name a kept recording and a real sentence of a lesson', async () => {

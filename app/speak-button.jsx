@@ -83,8 +83,11 @@ export function SpeakButton({ own, code, lesson, sentence, disabled = false, onH
       setState('idle');
       return;
     }
-    // A page that has gone (Skip, another page) sends nothing on: writing down would cost and show nothing.
-    if (!live.current) return;
+    // A page that has gone (Skip, another page) is not written down: that would cost and show nothing. Its recording only goes.
+    if (!live.current) {
+      void send('/api/speech', 'POST', { course: code, file: kept.file, drop: true });
+      return;
+    }
     const sent = await send('/api/speech', 'POST', { course: code, file: kept.file, ...(lesson === undefined ? {} : { lesson, sentence }) });
     if (!live.current) return;
     setState('idle');

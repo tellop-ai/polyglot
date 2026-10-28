@@ -1,4 +1,5 @@
 import { AiProblem, transcribe } from '../../../lib/ai.js';
+import { discardFile } from '../../../lib/data/files.js';
 import { courseView, lessonOf } from '../../../lib/course/index.js';
 import { REFUSED } from '../../../lib/learn/bounds.js';
 import { requireLearner } from '../../../lib/learn/learner.js';
@@ -13,7 +14,10 @@ import { heardText, matchHeard, spokenLanguage } from '../../../lib/learn/voice.
  * helper on the person's allowance inside Tellop. For a sentence of a lesson
  * the answer is `{ heard, right }`, compared here with the sentence itself
  * (never with words the page sends); otherwise `{ heard }`, which the page
- * puts in its box and never sends on its own. Nothing is saved here.
+ * puts in its box and never sends on its own. Nothing is saved here, and the
+ * recording goes right after, written down or refused (`discardFile`; a Tellop
+ * that cannot discard keeps it). `{ file, drop: true }` only discards: the page
+ * sends it when it went before the recording was written down.
  */
 export const dynamic = 'force-dynamic';
 
@@ -25,6 +29,20 @@ export async function POST(request) {
   if (!body.ok) return refused(body.problem);
   const asked = /** @type {{ course?: unknown, file?: unknown, lesson?: unknown, sentence?: unknown }} */ (body.value);
   if (typeof asked.file !== 'string' || !DIGEST.test(asked.file)) return refused(REFUSED.request);
+  const file = asked.file;
+  if (/** @type {{ drop?: unknown }} */ (asked).drop === true) return json({ dropped: await discardFile(file) });
+  try {
+    return await writtenDown(asked, file);
+  } finally {
+    await discardFile(file);
+  }
+}
+
+/**
+ * @param {{ course?: unknown, lesson?: unknown, sentence?: unknown }} asked
+ * @param {string} file
+ */
+async function writtenDown(asked, file) {
   if ((asked.lesson === undefined) !== (asked.sentence === undefined)) return refused(REFUSED.request);
   let learner;
   let expected = null;
@@ -42,7 +60,7 @@ export async function POST(request) {
   }
   let written;
   try {
-    written = await transcribe({ file: asked.file, language: spokenLanguage(learner.course) });
+    written = await transcribe({ file, language: spokenLanguage(learner.course) });
   } catch (error) {
     if (error instanceof AiProblem) return json({ problem: error.wordsKey, retry: error.state === 'busy' }, 503);
     return json({ problem: 'ai.unavailable' }, 503);
