@@ -1,10 +1,11 @@
 import Link from 'next/link';
-import { BookOpen, CalendarCheck, Check, Layers } from 'lucide-react';
+import { BookOpen, CalendarCheck, Check, Languages, Layers } from 'lucide-react';
 
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { buttonVariants } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { CountsLine } from '@/components/ui/counts-line';
+import { Empty, EmptyDescription, EmptyHeader, EmptyMedia, EmptyTitle } from '@/components/ui/empty';
 
 import { courseReady } from '../lib/course/index.js';
 import { countCardsFor, readResultsFor, readStudyDaysFor } from '../lib/data/learn.js';
@@ -13,6 +14,7 @@ import { weekOf } from '../lib/learn/days.js';
 import { COURSES } from '../lib/learn/languages.js';
 import { LEARN_OWNER } from '../lib/learn/owner.js';
 import { lessonOrder, weekPlan } from '../lib/learn/plan.js';
+import { canChange } from '../lib/learn/roles.js';
 import { dayAndMonth, languageName, levelName, weekdayShort } from '../lib/learn/shown.js';
 import { problemOf, readState } from '../lib/learn/state.js';
 import { cn } from '../lib/utils.js';
@@ -27,6 +29,11 @@ import { StartLevel } from './start-level.jsx';
  * Before the person has started, it is the first choice: their own language
  * and the language to learn. A language started but not yet placed asks where
  * to start. The page only reads; nothing is saved while it opens.
+ *
+ * Those two choices are the app's own settings, so only the owner and a Helper
+ * make them (`lib/learn/roles.js`). Before they did, a Member or a Viewer sees
+ * that nothing is here yet; a course not yet placed opens its first lesson
+ * for them as practice, saving no start.
  */
 export const dynamic = 'force-dynamic';
 
@@ -36,6 +43,7 @@ const LESSON_MINUTES = 8;
 export default async function Page() {
   const state = await readState();
   const { own, learner, view, course, today } = state;
+  const keep = canChange(state.person.role);
 
   if (learner === null) {
     if (state.problem !== '') {
@@ -44,6 +52,21 @@ export default async function Page() {
           <Alert variant="destructive">
             <AlertDescription>{t(state.problem, own)}</AlertDescription>
           </Alert>
+        </Frame>
+      );
+    }
+    if (!keep) {
+      return (
+        <Frame own={own} menu={false} title={t('app.title', own)}>
+          <Empty>
+            <EmptyHeader>
+              <EmptyMedia variant="icon">
+                <Languages aria-hidden="true" />
+              </EmptyMedia>
+              <EmptyTitle>{t('learn.role.nothingYet', own)}</EmptyTitle>
+              <EmptyDescription>{t('learn.role.notStarted', own)}</EmptyDescription>
+            </EmptyHeader>
+          </Empty>
         </Frame>
       );
     }
@@ -60,9 +83,11 @@ export default async function Page() {
         <Alert>
           <AlertDescription>{t(state.problem || 'learn.notOffered', own)}</AlertDescription>
         </Alert>
-        <Link href="/settings" className={cn(buttonVariants({ variant: 'outline' }), 'mt-4')}>
-          {t('learn.menu.settings', own)}
-        </Link>
+        {keep && (
+          <Link href="/settings" className={cn(buttonVariants({ variant: 'outline' }), 'mt-4')}>
+            {t('learn.menu.settings', own)}
+          </Link>
+        )}
       </Frame>
     );
   }
@@ -72,7 +97,7 @@ export default async function Page() {
   if (course === null || course.startLevel === '') {
     return (
       <Frame own={own} path="/" title={t('learn.today.title', own)} description={t('learn.today.learning', own, { language })}>
-        <StartLevel locale={own} code={view.code} language={language} firstLesson={view.lessons[0].id} />
+        <StartLevel locale={own} code={view.code} language={language} firstLesson={view.lessons[0].id} keep={keep} />
       </Frame>
     );
   }

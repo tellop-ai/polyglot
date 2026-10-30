@@ -341,3 +341,116 @@ function TryVoice({ own, sample }) {
     </div>
   );
 }
+
+/**
+ * The settings as a person who may not change them sees them (a Member or a
+ * Viewer, `lib/learn/roles.js`): the same values in words, with no control
+ * that saves, and a line saying they cannot change them. Such a person is
+ * online, on any device, and not the learner, so no label names them as
+ * "you". Trying the voice stays: it only plays, and
+ * a Viewer (`newReadings` false) hears the AI voice only for a reading kept
+ * before.
+ *
+ * @param {{
+ *   own: string,
+ *   course: string,
+ *   languageNow: string,
+ *   days: string[],
+ *   settings: { lessonsPerDay: number, cardsPerDay: number, readAloud: boolean, voiceSpeed: string, readWith: string, speaking: boolean, voice: string },
+ *   voices: string[],
+ *   sample: string,
+ *   startLevel: string,
+ *   newReadings: boolean,
+ * }} props
+ */
+export function SettingsView({ own, course, languageNow, days, settings, voices, sample, startLevel, newReadings }) {
+  const onOff = (/** @type {boolean} */ value) => t(value ? 'learn.settings.isOn' : 'learn.settings.isOff', own);
+  return (
+    <div className="flex max-w-3xl flex-col gap-4">
+      <Alert role="status">
+        <AlertDescription>{t('learn.role.settingsView', own)}</AlertDescription>
+      </Alert>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>{t('learn.settings.languages', own)}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <Facts
+            rows={[
+              [t('learn.role.ownLanguage', own), t(`learn.ownName.${own}`, own)],
+              [t('learn.role.learning', own), languageNow],
+            ]}
+          />
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>{t('learn.settings.plan', own)}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <Facts
+            rows={[
+              [t('learn.settings.studyDays', own), days.join(', ')],
+              [t('learn.settings.lessonsPerDay', own), String(settings.lessonsPerDay)],
+              [t('learn.settings.cardsPerDay', own), String(settings.cardsPerDay)],
+            ]}
+          />
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>{t('learn.settings.voice', own)}</CardTitle>
+        </CardHeader>
+        <CardContent className="flex flex-col gap-4">
+          <Facts
+            rows={[
+              [t('learn.settings.readAloud', own), onOff(settings.readAloud)],
+              ...(settings.readAloud
+                ? [
+                    [t('learn.settings.readWith', own), t(`learn.settings.readWith.${settings.readWith}`, own)],
+                    [t('learn.settings.speed', own), t(`learn.settings.speed.${settings.voiceSpeed}`, own)],
+                    ...(voices.length > 1 ? [[t('learn.settings.accent', own), t(`learn.accent.${settings.voice}`, own)]] : []),
+                  ]
+                : []),
+              [t('learn.role.speaking', own), onOff(settings.speaking)],
+            ]}
+          />
+          {settings.readAloud && sample !== '' && (
+            <SpeechProvider tag={settings.voice} speed={settings.voiceSpeed} enabled own={own} code={course} readWith={settings.readWith} newReadings={newReadings}>
+              <TryVoice own={own} sample={sample} />
+              <VoiceNote own={own} />
+            </SpeechProvider>
+          )}
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader>
+          <CardTitle>{t('learn.role.level', own)}</CardTitle>
+          <CardDescription>
+            {startLevel === ''
+              ? t('learn.role.levelNone', own)
+              : t('learn.role.levelNow', own, { level: t(startLevel === 'a1' ? 'learn.level.a1' : startLevel === 'a2' ? 'learn.level.a2' : 'learn.level.beyond', own) })}
+          </CardDescription>
+        </CardHeader>
+      </Card>
+    </div>
+  );
+}
+
+/** A setting's name beside its value, one row each. @param {{ rows: string[][] }} props */
+function Facts({ rows }) {
+  return (
+    <dl className="grid gap-x-6 gap-y-2 text-sm sm:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+      {rows.map(([name, value]) => (
+        <div key={name} className="contents">
+          <dt className="font-medium">{name}</dt>
+          <dd className="text-muted-foreground">{value}</dd>
+        </div>
+      ))}
+    </dl>
+  );
+}

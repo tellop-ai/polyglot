@@ -5,6 +5,7 @@ import { Alert, AlertDescription } from '@/components/ui/alert';
 import { t } from '../../lib/i18n/index.js';
 import { voiceFor } from '../../lib/learn/languages.js';
 import { SITUATIONS } from '../../lib/learn/practice.js';
+import { canAdd } from '../../lib/learn/roles.js';
 import { languageName } from '../../lib/learn/shown.js';
 import { readState } from '../../lib/learn/state.js';
 
@@ -13,7 +14,10 @@ import { PracticeTools } from '../practice-tools.jsx';
 
 /**
  * Practice with AI. Nothing goes to AI when this page opens: each tool sends
- * only on a press, and nothing here is saved.
+ * only on a press, and nothing here is saved. Every role may use it; Speak
+ * and the AI voice keep a recording or a reading, so a role that may add
+ * nothing (a Viewer) has no Speak and hears the AI voice only where a reading
+ * was kept before, the device's own voice elsewhere.
  */
 export const dynamic = 'force-dynamic';
 
@@ -40,6 +44,8 @@ export default async function PracticePage() {
         situations={Object.keys(SITUATIONS).map((id) => ({ id, name: t(`learn.practice.situation.${id}`, own) }))}
         readAloud={learner.readAloud}
         readWith={learner.readWith}
+        newReadings={canAdd(state.person.role)}
+        speak={canAdd(state.person.role)}
         voice={voiceFor(view.code, course?.voice)}
         speed={learner.voiceSpeed}
       />

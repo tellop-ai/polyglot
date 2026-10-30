@@ -8,6 +8,7 @@ import { lessonOf } from '../../../lib/course/index.js';
 import { t } from '../../../lib/i18n/index.js';
 import { voiceFor } from '../../../lib/learn/languages.js';
 import { MAX_SEED } from '../../../lib/learn/random.js';
+import { canAdd, canChange, speakingFor } from '../../../lib/learn/roles.js';
 import { readState } from '../../../lib/learn/state.js';
 
 import { Frame } from '../../frame.jsx';
@@ -16,7 +17,10 @@ import { LessonPlayer } from '../../lesson-player.jsx';
 /**
  * One lesson, played in the page. The page reads the lesson and the learner's
  * settings and hands them to the player; nothing is saved until the player
- * sends the finished result.
+ * sends the finished result. A role that saves no progress (a Member or a
+ * Viewer, `lib/learn/roles.js`) plays the lesson as practice: the player sends
+ * nothing, and speaks and reads aloud only in ways that keep nothing the role
+ * may not add.
  */
 export const dynamic = 'force-dynamic';
 
@@ -36,6 +40,7 @@ export default async function LessonPage({ params }) {
   }
   const found = lessonOf(view, id);
   if (found === null) notFound();
+  const { role } = state.person;
   return (
     <div data-tellop-app-marker="ok" lang={own} className="min-h-dvh bg-background text-foreground">
       <LessonPlayer
@@ -45,7 +50,9 @@ export default async function LessonPage({ params }) {
         typing={!view.language.roman}
         readAloud={learner.readAloud}
         readWith={learner.readWith}
-        speaking={learner.speaking}
+        newReadings={canAdd(role)}
+        speaking={speakingFor(role, learner.speaking)}
+        keep={canChange(role)}
         voice={voiceFor(view.code, course?.voice)}
         speed={learner.voiceSpeed}
         seed={randomInt(1, MAX_SEED)}

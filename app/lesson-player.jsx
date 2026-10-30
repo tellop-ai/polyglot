@@ -53,24 +53,26 @@ const VERDICT_WORDS = Object.freeze({
  * Everything happens in the page until the last exercise is answered; only
  * then is the result sent, once. Leaving earlier saves nothing, and the page
  * asks first when something was answered. A wrong answer comes back once at
- * the end; the score counts first tries only.
+ * the end; the score counts first tries only. With `keep` false (a role that
+ * saves no progress) the result is never sent: the page says so from the
+ * start and shows the score at the end.
  *
  * @param {{
  *   own: string, code: string, letters: string[], typing: boolean,
  *   readAloud: boolean, readWith: string, speaking: boolean, voice: string, speed: string, seed: number,
- *   lesson: any, pool: any[], tip: any, unitTitle: string, next: string | null,
+ *   lesson: any, pool: any[], tip: any, unitTitle: string, next: string | null, keep: boolean, newReadings: boolean,
  * }} props
  */
 export function LessonPlayer(props) {
   return (
-    <SpeechProvider tag={props.voice} speed={props.speed} enabled={props.readAloud} own={props.own} code={props.code} readWith={props.readWith}>
+    <SpeechProvider tag={props.voice} speed={props.speed} enabled={props.readAloud} own={props.own} code={props.code} readWith={props.readWith} newReadings={props.newReadings}>
       <Player {...props} />
     </SpeechProvider>
   );
 }
 
 /** @param {Parameters<typeof LessonPlayer>[0]} props */
-function Player({ own, code, letters, typing, speaking, seed, lesson, pool, tip, unitTitle, next }) {
+function Player({ own, code, letters, typing, speaking, seed, lesson, pool, tip, unitTitle, next, keep }) {
   const { canSay } = useSpeech();
   const [phase, setPhase] = useState(tip ? 'tip' : 'words');
   const [wordAt, setWordAt] = useState(0);
@@ -116,6 +118,11 @@ function Player({ own, code, letters, typing, speaking, seed, lesson, pool, tip,
   }
 
   async function finish() {
+    if (!keep) {
+      // Practice only: nothing is sent, and the result shows the score of this run.
+      setPhase('result');
+      return;
+    }
     setBusy(true);
     setProblem('');
     setPhase('saving');
@@ -151,6 +158,7 @@ function Player({ own, code, letters, typing, speaking, seed, lesson, pool, tip,
       <div className="flex flex-col gap-1">
         <p className="text-xs text-muted-foreground">{unitTitle}</p>
         <h1 className="font-heading text-xl font-bold">{lesson.title}</h1>
+        {!keep && <p className="text-xs text-muted-foreground">{t('learn.role.practiceOnly', own)}</p>}
         <VoiceNote own={own} />
       </div>
 
@@ -213,26 +221,28 @@ function Player({ own, code, letters, typing, speaking, seed, lesson, pool, tip,
         </Card>
       )}
 
-      {phase === 'result' && saved !== null && (
+      {phase === 'result' && (saved !== null || !keep) && (
         <Card>
           <CardContent className="flex flex-col gap-4">
             <div role="status">
               <p className="font-heading text-2xl font-bold">{t('learn.lesson.done', own)}</p>
               <p className="text-lg">{t('learn.lesson.score', own, { right: String(right), total: String(total) })}</p>
-              {saved.bestRight > right && (
+              {saved !== null && saved.bestRight > right && (
                 <p className="text-sm text-muted-foreground">{t('learn.lesson.best', own, { right: String(saved.bestRight), total: String(saved.total) })}</p>
               )}
             </div>
-            <div>
-              <p className="mb-2 text-sm font-medium">{t('learn.lesson.addedCards', own)}</p>
-              <ul className="flex flex-wrap gap-2">
-                {words.map((word) => (
-                  <li key={word.id} lang={code} className="rounded-lg bg-muted px-3 py-1">
-                    {word.text}
-                  </li>
-                ))}
-              </ul>
-            </div>
+            {keep && (
+              <div>
+                <p className="mb-2 text-sm font-medium">{t('learn.lesson.addedCards', own)}</p>
+                <ul className="flex flex-wrap gap-2">
+                  {words.map((word) => (
+                    <li key={word.id} lang={code} className="rounded-lg bg-muted px-3 py-1">
+                      {word.text}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
             <div className="flex flex-wrap gap-2">
               {next !== null && (
                 <Link href={`/lessons/${next}`} className={buttonVariants({ variant: 'default' })}>

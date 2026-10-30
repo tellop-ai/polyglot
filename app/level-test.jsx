@@ -20,11 +20,13 @@ import { send } from './send.js';
  * The level test, one question a screen with no going back. After the A1 part
  * the app counts it: a part under the pass mark ends the test. The result only
  * suggests where to start; "Start here" or "Start from the beginning instead"
- * saves the choice. Leaving midway saves nothing.
+ * saves the choice. Leaving midway saves nothing. For a role that saves no
+ * progress (`keep` false: a Member or a Viewer) the result only shows, with a
+ * line saying it is not kept, and nothing is saved.
  *
- * @param {{ own: string, code: string, seed: number, bands: { level: string, questions: any[] }[] }} props
+ * @param {{ own: string, code: string, seed: number, bands: { level: string, questions: any[] }[], keep: boolean }} props
  */
-export function LevelTest({ own, code, seed, bands }) {
+export function LevelTest({ own, code, seed, bands, keep }) {
   const router = useRouter();
   const [phase, setPhase] = useState('intro');
   const [answers, setAnswers] = useState(/** @type {number[]} */ ([]));
@@ -115,16 +117,25 @@ export function LevelTest({ own, code, seed, bands }) {
               <AlertDescription>{t(problem, own)}</AlertDescription>
             </Alert>
           )}
-          <div className="flex flex-wrap gap-2">
-            <Button type="button" disabled={busy} onClick={() => save('suggested')}>
-              {t('learn.test.startHere', own)}
-            </Button>
-            {result.start !== 'a1' && (
-              <Button type="button" variant="outline" disabled={busy} onClick={() => save('a1')}>
-                {t('learn.test.startBeginning', own)}
+          {keep ? (
+            <div className="flex flex-wrap gap-2">
+              <Button type="button" disabled={busy} onClick={() => save('suggested')}>
+                {t('learn.test.startHere', own)}
               </Button>
-            )}
-          </div>
+              {result.start !== 'a1' && (
+                <Button type="button" variant="outline" disabled={busy} onClick={() => save('a1')}>
+                  {t('learn.test.startBeginning', own)}
+                </Button>
+              )}
+            </div>
+          ) : (
+            <div className="flex flex-col items-start gap-3">
+              <p className="text-sm text-muted-foreground">{t('learn.role.testNotKept', own)}</p>
+              <Link href="/" className={buttonVariants({ variant: 'outline' })}>
+                {t('learn.lesson.backToday', own)}
+              </Link>
+            </div>
+          )}
         </CardContent>
       </Card>
     );

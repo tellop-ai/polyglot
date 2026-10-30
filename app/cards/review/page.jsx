@@ -7,6 +7,7 @@ import { t } from '../../../lib/i18n/index.js';
 import { voiceFor } from '../../../lib/learn/languages.js';
 import { LEARN_OWNER } from '../../../lib/learn/owner.js';
 import { pick } from '../../../lib/learn/random.js';
+import { canAdd, canChange } from '../../../lib/learn/roles.js';
 import { problemOf, readState } from '../../../lib/learn/state.js';
 
 import { Frame } from '../../frame.jsx';
@@ -16,7 +17,9 @@ import { cardRow } from '../rows.js';
 /**
  * A review of the cards due today, at most the day's number less those
  * already reviewed today. With `?practice=1` it is ten cards at random that
- * change no schedule. The page only reads.
+ * change no schedule. The page only reads. A role that saves no progress (a
+ * Member or a Viewer, `lib/learn/roles.js`) reviews the same cards as
+ * practice: no answer is sent, and the page says so.
  */
 export const dynamic = 'force-dynamic';
 
@@ -57,15 +60,20 @@ export default async function ReviewPage({ searchParams }) {
     );
   }
   const cards = rows.map((card) => cardRow(card, view, own, today)).filter((row) => row !== null);
+  const { role } = state.person;
+  const keep = canChange(role);
+  const lead = practice ? t('learn.review.practiceLead', own) : keep ? undefined : t('learn.role.practiceOnly', own);
   return (
-    <Frame own={own} path="/cards" title={t(practice ? 'learn.review.practiceTitle' : 'learn.review.title', own)} description={practice ? t('learn.review.practiceLead', own) : undefined}>
+    <Frame own={own} path="/cards" title={t(practice ? 'learn.review.practiceTitle' : 'learn.review.title', own)} description={lead}>
       <ReviewSession
         own={own}
         code={view.code}
         cards={cards}
         practice={practice}
+        keep={keep}
         readAloud={learner.readAloud}
         readWith={learner.readWith}
+        newReadings={canAdd(role)}
         voice={voiceFor(view.code, course?.voice)}
         speed={learner.voiceSpeed}
       />

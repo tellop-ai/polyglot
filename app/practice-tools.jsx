@@ -24,14 +24,15 @@ import { ListenButton, SpeechProvider, VoiceNote } from './speech.jsx';
  * be wrong, which the page says. A refusal shows the kit's words next to the
  * button that asked, and the screen stays usable. Nothing is saved: leaving
  * the page forgets the talk. Speak writes down what the person says into the
- * box, which they read and send themselves.
+ * box, which they read and send themselves. It keeps the recording until it
+ * is written down, so it is drawn only for a role that may add one (`speak`).
  *
- * @param {{ own: string, code: string, language: string, situations: { id: string, name: string }[], readAloud: boolean, readWith: string, voice: string, speed: string }} props
+ * @param {{ own: string, code: string, language: string, situations: { id: string, name: string }[], readAloud: boolean, readWith: string, newReadings: boolean, voice: string, speed: string, speak: boolean }} props
  */
 export function PracticeTools(props) {
   const { own } = props;
   return (
-    <SpeechProvider tag={props.voice} speed={props.speed} enabled={props.readAloud} own={own} code={props.code} readWith={props.readWith}>
+    <SpeechProvider tag={props.voice} speed={props.speed} enabled={props.readAloud} own={own} code={props.code} readWith={props.readWith} newReadings={props.newReadings}>
       <div className="flex max-w-3xl flex-col gap-3">
         <p className="text-sm text-muted-foreground">{t('learn.practice.mayBeWrong', own)}</p>
         <VoiceNote own={own} />
@@ -67,8 +68,8 @@ function Problem({ own, problem }) {
 }
 
 /** @param {Parameters<typeof PracticeTools>[0]} props */
-function CheckTool({ own, code, language }) {
-  const recordable = useCanRecord();
+function CheckTool({ own, code, language, speak }) {
+  const recordable = useCanRecord() && speak;
   const [text, setText] = useState('');
   const [answer, setAnswer] = useState(/** @type {any} */ (null));
   const [busy, setBusy] = useState(false);
@@ -165,8 +166,8 @@ function AskTool({ own, code, language }) {
 }
 
 /** @param {Parameters<typeof PracticeTools>[0]} props */
-function TalkTool({ own, code, language, situations }) {
-  const recordable = useCanRecord();
+function TalkTool({ own, code, language, situations, speak }) {
+  const recordable = useCanRecord() && speak;
   const [situation, setSituation] = useState(situations[0]?.id ?? 'cafe');
   const [turns, setTurns] = useState(/** @type {{ mine: boolean, text: string, roman?: string, meaning?: string, tip?: string }[]} */ ([]));
   const [text, setText] = useState('');

@@ -266,6 +266,9 @@ test('a refused or failed AI call shows the words for it, in both languages, and
     [409, 'paused-by-guard', 'ai.paused'],
     [503, 'app-ai-off', 'ai.appAiOff'],
     [503, 'offline', 'ai.offline'],
+    // Kit 2.1.22: this app's AI limit for the day, and AI paused for this app online.
+    [429, 'dailyLimit', 'ai.dailyLimit'],
+    [503, 'appPaused', 'ai.appPaused'],
     [503, 'something-new', 'ai.unavailable'],
   ];
   for (const [status, code, words] of cases) {

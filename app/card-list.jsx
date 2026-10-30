@@ -24,11 +24,13 @@ import { send } from './send.js';
 /**
  * Every card of the language being learned, to search, sort and remove. A
  * removal asks first; a lesson's word comes back when the lesson is done
- * again, and the question says so.
+ * again, and the question says so. Only a role that may remove (`remove`:
+ * the owner and a Helper) has a Remove column. `emptyLead` is the line under
+ * an empty list, in words true for the role reading it.
  *
- * @param {{ own: string, code: string, rows: any[] }} props
+ * @param {{ own: string, code: string, rows: any[], remove: boolean, emptyLead: string }} props
  */
-export function CardList({ own, code, rows }) {
+export function CardList({ own, code, rows, remove: canRemove, emptyLead }) {
   const router = useRouter();
   const [removing, setRemoving] = useState(/** @type {any} */ (null));
   const [problem, setProblem] = useState('');
@@ -63,26 +65,30 @@ export function CardList({ own, code, rows }) {
         header: t('learn.cards.nextColumn', own),
         cell: ({ row }) => row.original.dueLabel,
       },
-      {
-        id: 'remove',
-        header: '',
-        cell: ({ row }) => (
-          <Button
-            type="button"
-            variant="ghost"
-            size="icon-sm"
-            aria-label={t('learn.cards.removeNamed', own, { word: row.original.front })}
-            onClick={() => {
-              setProblem('');
-              setRemoving(row.original);
-            }}
-          >
-            <Trash2 aria-hidden="true" />
-          </Button>
-        ),
-      },
+      ...(canRemove
+        ? [
+            {
+              id: 'remove',
+              header: '',
+              cell: ({ row }) => (
+                <Button
+                  type="button"
+                  variant="ghost"
+                  size="icon-sm"
+                  aria-label={t('learn.cards.removeNamed', own, { word: row.original.front })}
+                  onClick={() => {
+                    setProblem('');
+                    setRemoving(row.original);
+                  }}
+                >
+                  <Trash2 aria-hidden="true" />
+                </Button>
+              ),
+            },
+          ]
+        : []),
     ],
-    [own, code],
+    [own, code, canRemove],
   );
 
   async function remove() {
@@ -101,9 +107,9 @@ export function CardList({ own, code, rows }) {
 
   return (
     <>
-      <DataTable columns={columns} data={rows} locale={own} pageSize={20} emptyTitle={t('learn.cards.emptyTitle', own)} emptyDescription={t('learn.cards.emptyLead', own)} />
+      <DataTable columns={columns} data={rows} locale={own} pageSize={20} emptyTitle={t('learn.cards.emptyTitle', own)} emptyDescription={t(emptyLead, own)} />
       <AlertDialog
-        open={removing !== null}
+        open={canRemove && removing !== null}
         onOpenChange={(open) => {
           if (!open) {
             setRemoving(null);

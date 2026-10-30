@@ -9,6 +9,7 @@ import { readCardsFor, readStudyDaysFor } from '../../lib/data/learn.js';
 import { t } from '../../lib/i18n/index.js';
 import { isKnownWell } from '../../lib/learn/ladder.js';
 import { LEARN_OWNER } from '../../lib/learn/owner.js';
+import { canAdd, canChange } from '../../lib/learn/roles.js';
 import { dayAndMonth, languageName } from '../../lib/learn/shown.js';
 import { problemOf, readState } from '../../lib/learn/state.js';
 
@@ -22,6 +23,11 @@ import { cardRow } from './rows.js';
  * The word cards of the language being learned: what is due, what is known
  * well, the list of every card, and a form for the person's own words. The
  * page only reads.
+ *
+ * By role (`lib/learn/roles.js`): the owner and a Helper add and remove; a
+ * Member adds their own words but removes none (the app cannot tell which
+ * cards they added); a Viewer only reads. Every role may review and practise,
+ * and the review saves answers only for a role that keeps progress.
  */
 export const dynamic = 'force-dynamic';
 
@@ -59,6 +65,9 @@ export default async function CardsPage() {
   const dueNow = Math.min(due, reviewLeft);
   const nextDay = rows.filter((row) => row.dueDay > today).map((row) => row.dueDay).sort()[0];
   const nextCount = nextDay === undefined ? 0 : rows.filter((row) => row.dueDay === nextDay).length;
+  const { role } = state.person;
+  const noneYet = canChange(role) ? 'learn.cards.noneYet' : canAdd(role) ? 'learn.cards.noneYetMember' : 'learn.cards.noneYetView';
+  const emptyLead = canChange(role) ? 'learn.cards.emptyLead' : canAdd(role) ? 'learn.role.cardsEmptyMember' : 'learn.role.cardsEmptyView';
 
   return (
     <Frame
@@ -66,7 +75,7 @@ export default async function CardsPage() {
       path="/cards"
       title={t('learn.cards.title', own, { language: languageName(view.code, own) })}
       description={t('learn.cards.lead', own)}
-      actions={<OwnCardForm own={own} code={view.code} />}
+      actions={canAdd(role) ? <OwnCardForm own={own} code={view.code} /> : undefined}
       counts={
         <CountsLine
           items={[
@@ -91,7 +100,7 @@ export default async function CardsPage() {
               {due > 0
                 ? t('learn.cards.doneForToday', own)
                 : nextDay === undefined
-                  ? t('learn.cards.noneYet', own)
+                  ? t(noneYet, own)
                   : t('learn.cards.nextReview', own, { day: dayAndMonth(nextDay, own), count: String(nextCount) })}
             </p>
           )}
@@ -101,7 +110,7 @@ export default async function CardsPage() {
             </Link>
           )}
         </div>
-        <CardList own={own} code={view.code} rows={rows} />
+        <CardList own={own} code={view.code} rows={rows} remove={canChange(role)} emptyLead={emptyLead} />
       </div>
     </Frame>
   );

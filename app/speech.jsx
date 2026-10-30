@@ -6,6 +6,7 @@ import { Volume2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 import { t } from '../lib/i18n/index.js';
+import { readingOutcome } from '../lib/learn/voice.js';
 
 import { send } from './send.js';
 
@@ -19,6 +20,9 @@ import { send } from './send.js';
  * reads with it says so ({@link VoiceNote}), as an AI voice must be named.
  * When AI refuses (paused, used up, off), the page says why, reads with this
  * Mac's voice instead and does not ask AI again until the page is opened again.
+ * A person who may not keep a new reading (a Viewer online: `newReadings`
+ * false) still hears every reading kept before with the AI voice; a text not
+ * kept yet is read by the device's own voice, quietly, and AI is never asked.
  *
  * The Mac's voice is the browser's own speech, made on this computer: no word
  * leaves it. When the page has no voice at all for the language, `canSay` is
@@ -89,25 +93,22 @@ export function bestVoice(voices, tag) {
   return best;
 }
 
-const SpeechContext = createContext({ canSay: false, say: (/** @type {string} */ _text) => {}, label: '', aiVoice: false, notice: '' });
-
-/** @param {string} problem */
-function voiceProblem(problem) {
-  // A request that never answered is not a save that failed: the AI voice was not available.
-  return problem.startsWith('error.') ? 'ai.unavailable' : problem;
-}
+const SpeechContext = createContext({ canSay: false, say: (/** @type {string} */ _text) => {}, label: '', aiVoice: false, newReadings: true, notice: '' });
 
 /**
  * Gives every Listen button inside it one voice for one language.
  *
- * @param {{ tag: string, speed: string, enabled: boolean, own: string, code?: string, readWith?: string, children: React.ReactNode }} props
- * `code` is the language learned, for the AI voice's address; `readWith` is `'ai'` or `'mac'`.
+ * @param {{ tag: string, speed: string, enabled: boolean, own: string, code?: string, readWith?: string, newReadings?: boolean, children: React.ReactNode }} props
+ * `code` is the language learned, for the AI voice's address; `readWith` is `'ai'` or `'mac'`; `newReadings` is
+ * whether this person may have the AI voice read a text not kept yet (false for a Viewer).
  */
-export function SpeechProvider({ tag, speed, enabled, own, code, readWith = 'mac', children }) {
+export function SpeechProvider({ tag, speed, enabled, own, code, readWith = 'mac', newReadings = true, children }) {
   const [voices, setVoices] = useState(/** @type {any[]} */ ([]));
   const [aiRefused, setAiRefused] = useState(false);
   const [notice, setNotice] = useState('');
   const keys = useRef(/** @type {Map<string, string>} */ (new Map()));
+  /** Texts this person may not have read by AI: the device reads them, without asking again. */
+  const deviceOnly = useRef(/** @type {Set<string>} */ (new Set()));
   const asking = useRef(/** @type {Set<string>} */ (new Set()));
   const playing = useRef(/** @type {HTMLAudioElement | null} */ (null));
   useEffect(() => {
@@ -181,16 +182,25 @@ export function SpeechProvider({ tag, speed, enabled, own, code, readWith = 'mac
       try {
         let key = keys.current.get(text);
         if (key === undefined) {
-          const sent = await send('/api/sounds', 'POST', { course: code, text });
-          if (!sent.ok || typeof sent.value?.sound !== 'string') {
-            const problem = voiceProblem(sent.ok ? 'ai.unavailable' : sent.problem);
-            // A busy AI may answer the next press; anything else waits until the page is opened again.
-            if (problem !== 'ai.busy') setAiRefused(true);
-            setNotice(problem);
+          if (deviceOnly.current.has(text)) {
             sayWithMac(text);
             return;
           }
-          key = sent.value.sound;
+          const outcome = readingOutcome(await send('/api/sounds', 'POST', { course: code, text }));
+          if ('quiet' in outcome) {
+            // Not kept, and this person may not keep it: the device reads this one text, and nothing is said.
+            deviceOnly.current.add(text);
+            sayWithMac(text);
+            return;
+          }
+          if ('problem' in outcome) {
+            // A busy AI may answer the next press; anything else waits until the page is opened again.
+            if (outcome.stop) setAiRefused(true);
+            setNotice(outcome.problem);
+            sayWithMac(text);
+            return;
+          }
+          key = outcome.play;
           keys.current.set(text, key);
         }
         quiet();
@@ -214,9 +224,11 @@ export function SpeechProvider({ tag, speed, enabled, own, code, readWith = 'mac
     },
     [aiVoice, sayWithAi, sayWithMac],
   );
+  // Without new readings, a text not kept yet is read by the device: a Listen button needs a device voice then.
+  const aiReadsAll = aiVoice && newReadings;
   const value = useMemo(
-    () => ({ canSay: aiVoice || voice !== null, say, label: t(aiVoice ? 'learn.listenAi' : 'learn.listen', own), aiVoice, notice }),
-    [aiVoice, voice, say, own, notice],
+    () => ({ canSay: aiReadsAll || voice !== null, say, label: t(aiReadsAll ? 'learn.listenAi' : 'learn.listen', own), aiVoice, newReadings, notice }),
+    [aiReadsAll, aiVoice, newReadings, voice, say, own, notice],
   );
   return <SpeechContext.Provider value={value}>{children}</SpeechContext.Provider>;
 }
@@ -242,13 +254,13 @@ export function ListenButton({ text, size = 'icon-sm', className }) {
 }
 
 /**
- * The line that names the AI voice where it reads, or says why this Mac's
- * voice reads instead.
+ * The line that names the AI voice where it reads, or says why the device's
+ * own voice reads instead.
  *
  * @param {{ own: string }} props
  */
 export function VoiceNote({ own }) {
-  const { aiVoice, notice, canSay } = useSpeech();
+  const { aiVoice, newReadings, notice, canSay } = useSpeech();
   if (notice !== '') {
     return (
       <p role="status" className="text-xs text-muted-foreground">
@@ -257,6 +269,6 @@ export function VoiceNote({ own }) {
       </p>
     );
   }
-  if (!aiVoice) return null;
-  return <p className="text-xs text-muted-foreground">{t('learn.voice.aiLabel', own)}</p>;
+  if (!aiVoice || !canSay) return null;
+  return <p className="text-xs text-muted-foreground">{t(newReadings ? 'learn.voice.aiLabel' : 'learn.role.aiLabelSome', own)}</p>;
 }

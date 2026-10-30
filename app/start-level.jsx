@@ -16,10 +16,12 @@ import { send } from './send.js';
 /**
  * Where a language's course starts: the level test, or the first lesson.
  * Pressing "Start from the first lesson" saves the start and opens lesson 1.
+ * For a role that saves no progress (`keep` false: a Member or a Viewer) it
+ * only opens lesson 1, as practice, and saves nothing.
  *
- * @param {{ locale: string, code: string, language: string, firstLesson: string }} props
+ * @param {{ locale: string, code: string, language: string, firstLesson: string, keep: boolean }} props
  */
-export function StartLevel({ locale, code, language, firstLesson }) {
+export function StartLevel({ locale, code, language, firstLesson, keep }) {
   const router = useRouter();
   const [busy, setBusy] = useState(false);
   const [problem, setProblem] = useState('');
@@ -61,9 +63,15 @@ export function StartLevel({ locale, code, language, firstLesson }) {
           <CardDescription>{t('learn.where.beginLead', locale)}</CardDescription>
         </CardHeader>
         <CardContent className="flex flex-col items-start gap-3">
-          <Button type="button" variant="outline" disabled={busy} onClick={fromTheStart}>
-            {busy ? t('learn.saving', locale) : t('learn.where.beginAction', locale)}
-          </Button>
+          {keep ? (
+            <Button type="button" variant="outline" disabled={busy} onClick={fromTheStart}>
+              {busy ? t('learn.saving', locale) : t('learn.where.beginAction', locale)}
+            </Button>
+          ) : (
+            <Link href={`/lessons/${firstLesson}`} className={buttonVariants({ variant: 'outline' })}>
+              {t('learn.where.beginAction', locale)}
+            </Link>
+          )}
           {problem !== '' && (
             <Alert variant="destructive">
               <AlertDescription>{t(problem, locale)}</AlertDescription>

@@ -21,20 +21,21 @@ import { ListenButton, SpeechProvider, VoiceNote } from './speech.jsx';
  * practice, which saves nothing). A card not known comes back once at the end,
  * as practice only. A card that is no longer due when its answer arrives was
  * answered already (in another window, or by a save whose reply was lost), so
- * the review moves on past it.
+ * the review moves on past it. With `keep` false (a role that saves no
+ * progress) no answer is sent either, as in practice.
  *
- * @param {{ own: string, code: string, cards: any[], practice: boolean, readAloud: boolean, readWith: string, voice: string, speed: string }} props
+ * @param {{ own: string, code: string, cards: any[], practice: boolean, keep: boolean, readAloud: boolean, readWith: string, newReadings: boolean, voice: string, speed: string }} props
  */
 export function ReviewSession(props) {
   return (
-    <SpeechProvider tag={props.voice} speed={props.speed} enabled={props.readAloud} own={props.own} code={props.code} readWith={props.readWith}>
+    <SpeechProvider tag={props.voice} speed={props.speed} enabled={props.readAloud} own={props.own} code={props.code} readWith={props.readWith} newReadings={props.newReadings}>
       <Session {...props} />
     </SpeechProvider>
   );
 }
 
 /** @param {Parameters<typeof ReviewSession>[0]} props */
-function Session({ own, code, cards, practice }) {
+function Session({ own, code, cards, practice, keep }) {
   const [queue, setQueue] = useState(() => cards.map((card) => ({ ...card, again: false })));
   const [at, setAt] = useState(0);
   const [shown, setShown] = useState(false);
@@ -85,7 +86,7 @@ function Session({ own, code, cards, practice }) {
   /** @param {boolean} knew */
   async function answer(knew) {
     setProblem('');
-    if (!practice && !card.again) {
+    if (keep && !practice && !card.again) {
       setBusy(true);
       const sent = await send('/api/cards/answer', 'POST', { course: code, card: card.card, knew });
       setBusy(false);
